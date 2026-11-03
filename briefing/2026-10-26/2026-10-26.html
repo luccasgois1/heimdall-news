@@ -1,0 +1,1694 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Heimdall News — 2026-10-26</title>
+<style>
+:root {
+  --bg: #f7f6f3; --surface: #ffffff; --text: #1d1d1f; --muted: #66645f; --line: #e3e0d9;
+  --accent: #3b5b7a; --quote-bg: #f2f0eb; --empty: #8a877f;
+  --ok: #2f7d4f; --bad: #b3413b; --warn: #9a6a12;
+  --serif: "Iowan Old Style", "Charter", Georgia, serif;
+  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #141414; --surface: #1d1d1d; --text: #ecebe8; --muted: #a3a09a; --line: #333230;
+          --accent: #8fb3d6; --quote-bg: #252423; --empty: #85827b;
+          --ok: #6cc08b; --bad: #e88a84; --warn: #e0b45c; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 var(--serif); }
+.wrap { max-width: 1080px; margin: 0 auto; padding: 32px 16px 80px; }
+a { color: var(--accent); }
+header h1 { font: 700 2rem/1.2 var(--sans); margin: 0 0 4px; letter-spacing: -0.02em; }
+header p { font-family: var(--sans); color: var(--muted); margin: 0; font-size: .9rem; }
+.video { position: relative; margin: 16px 0 0; aspect-ratio: 16 / 9; border-radius: 12px; overflow: hidden; background: #000; }
+.video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.video-link { margin: 8px 0 0; font-size: .9rem; color: var(--muted); }
+.voltar { display: inline-block; font: .88rem var(--sans); margin-bottom: 12px; }
+nav.sumario { margin: 28px 0 40px; padding: 20px 24px; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; }
+nav.sumario ol { margin: 0; padding-left: 1.4em; font-family: var(--sans); font-size: .98rem; }
+nav.sumario li { margin: 4px 0; }
+nav.sumario a { text-decoration: none; }
+nav.sumario a:hover { text-decoration: underline; }
+article { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 28px; margin-bottom: 28px; }
+article h2 { font: 700 1.45rem/1.3 var(--sans); margin: 0 0 6px; letter-spacing: -0.01em; }
+.n { color: var(--muted); font-weight: 500; margin-right: .35em; }
+.cobertura { font-family: var(--sans); font-size: .82rem; color: var(--muted); margin: 0 0 20px; }
+.cobertura span.l { display: inline-block; margin: 2px 10px 2px 0; }
+.cobertura b { font-weight: 600; color: var(--text); }
+h3 { font: 600 .78rem/1 var(--sans); text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin: 26px 0 10px; }
+.contexto p { margin: 0 0 10px; }
+sup a { font: 600 .7rem var(--sans); text-decoration: none; padding: 0 1px; }
+.lados { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+.lado { border: 1px solid var(--line); border-top: 4px solid var(--cor, var(--line)); border-radius: 10px; padding: 16px; }
+.lado h4 { font: 700 .95rem/1.3 var(--sans); margin: 0 0 12px; padding-bottom: 8px; border-bottom: 1px solid var(--line); }
+.sem-posicao { color: var(--empty); font-style: italic; font-size: .9rem; margin: 10px 0 0; }
+.sem-posicao span { white-space: nowrap; }
+.sem-posicao i { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin: 0 4px 0 2px; vertical-align: baseline; }
+.pos { margin-bottom: 16px; }
+.pos:last-child { margin-bottom: 0; }
+.quem { font: 600 .85rem/1.4 var(--sans); margin-bottom: 6px; display: flex; align-items: center; gap: 10px; }
+.rostos { display: flex; flex-shrink: 0; }
+.rosto { width: 42px; height: 42px; border-radius: 50%; object-fit: cover; object-position: center 20%; border: 2px solid var(--surface); background: var(--quote-bg); box-shadow: 0 0 0 1px var(--line); }
+.rostos .rosto + .rosto { margin-left: -12px; }
+.rosto.sem { display: inline-flex; align-items: center; justify-content: center; font: 700 .68rem/1 var(--sans); color: #fff; background: var(--cor, var(--muted)); letter-spacing: .02em; overflow: hidden; }
+.capa { margin: -28px -28px 22px; border-radius: 12px 12px 0 0; overflow: hidden; background: var(--quote-bg); }
+.capa img { display: block; width: 100%; aspect-ratio: 2 / 1; max-height: 380px; object-fit: cover; }
+.capa figcaption { font: .74rem var(--sans); color: var(--muted); padding: 6px 28px 0; text-align: right; background: var(--surface); }
+@media (max-width: 600px) { article { padding: 20px; } .capa { margin: -20px -20px 18px; } .capa figcaption { padding: 6px 20px 0; } }
+.pos p { margin: 0 0 6px; font-size: .97rem; }
+blockquote { margin: 6px 0 0; padding: 8px 12px; background: var(--quote-bg); border-left: 3px solid var(--line); font-size: .88rem; color: var(--muted); border-radius: 0 6px 6px 0; }
+blockquote cite { display: block; font: normal .75rem var(--sans); margin-top: 4px; }
+.vazio { color: var(--empty); font-style: italic; font-size: .92rem; margin: 0; }
+details { margin-top: 22px; font-family: var(--sans); font-size: .85rem; }
+summary { cursor: pointer; color: var(--muted); font-weight: 600; }
+ol.refs, ul.rel { padding-left: 1.6em; margin: 10px 0 0; }
+ol.refs li, ul.rel li { margin: 6px 0; }
+.meta { color: var(--muted); }
+.poderes-link { font-family: var(--sans); font-size: .9rem; margin: 14px 0 0; padding-top: 12px; border-top: 1px solid var(--line); }
+.poderes-link a { text-decoration: none; }
+h2.secao { font: 700 1.6rem/1.2 var(--sans); margin: 48px 0 4px; letter-spacing: -0.01em; }
+.secao-sub { font-family: var(--sans); color: var(--muted); margin: 0 0 20px; font-size: .92rem; }
+.casa > h2 { margin-bottom: 14px; }
+.item { border-top: 1px solid var(--line); padding: 18px 0 6px; }
+.item:first-of-type { border-top: 0; padding-top: 4px; }
+.item-topo { display: flex; gap: 12px; align-items: baseline; justify-content: space-between; flex-wrap: wrap; }
+.item-titulo { font: 700 1.08rem/1.35 var(--sans); margin: 0; text-transform: none; letter-spacing: 0; color: var(--text); }
+.situacao { font: 600 .74rem/1 var(--sans); text-transform: uppercase; letter-spacing: .06em; padding: 5px 9px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); white-space: nowrap; }
+.s-aprovado, .s-julgado { color: var(--ok); border-color: var(--ok); }
+.s-rejeitado { color: var(--bad); border-color: var(--bad); }
+.s-adiado, .s-pedido_de_vista, .s-retirado_de_pauta, .s-em_andamento { color: var(--warn); border-color: var(--warn); }
+.s-pautado { color: var(--accent); border-color: var(--accent); }
+.item-fatos { margin: 12px 0 16px; display: grid; grid-template-columns: max-content 1fr; gap: 6px 14px; }
+.item-fatos dt { font: 600 .74rem/1.9 var(--sans); text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+.item-fatos dd { margin: 0; }
+@media (max-width: 600px) { .item-fatos { grid-template-columns: 1fr; } .item-fatos dd { margin-bottom: 8px; } }
+.destaques { margin-top: 16px; border: 1px solid var(--line); border-radius: 10px; padding: 16px; }
+.destaques h4 { font: 700 .95rem/1.3 var(--sans); margin: 0 0 12px; }
+.abas { margin-top: 14px; }
+.abas > input { position: absolute; opacity: 0; pointer-events: none; }
+.abas > label { display: inline-block; font: 600 .82rem/1 var(--sans); padding: 9px 14px; margin: 0 4px -1px 0; border: 1px solid var(--line); border-bottom: 0; border-radius: 8px 8px 0 0; color: var(--muted); cursor: pointer; background: var(--bg); }
+.abas > input:checked + label { color: var(--text); background: var(--surface); border-color: var(--line); position: relative; z-index: 1; }
+.abas > input:focus-visible + label { outline: 2px solid var(--accent); }
+.painel { display: none; border: 1px solid var(--line); border-radius: 0 10px 10px 10px; padding: 16px; }
+.abas > input.t-pos:checked ~ .painel-pos, .abas > input.t-det:checked ~ .painel-det { display: block; }
+.painel h4 { font: 700 .95rem/1.3 var(--sans); margin: 18px 0 10px; }
+.painel h4:first-child { margin-top: 0; }
+.alerta { border-left: 4px solid var(--warn); padding: 4px 0 4px 12px; margin-bottom: 14px; }
+.alerta.a-jabuti, .alerta.a-casuismo { border-left-color: var(--bad); }
+.alerta .tipo { font: 700 .72rem/1 var(--sans); text-transform: uppercase; letter-spacing: .06em; color: var(--warn); }
+.alerta.a-jabuti .tipo, .alerta.a-casuismo .tipo { color: var(--bad); }
+.alerta p { margin: 4px 0 6px; font-size: .97rem; }
+.conclusao { margin: 16px 0 0; padding: 12px 14px; background: var(--quote-bg); border-radius: 8px; font-size: .97rem; }
+.conclusao b { font-family: var(--sans); }
+.estudo { font-family: var(--sans); font-size: .8rem; color: var(--muted); margin: 10px 0 0; }
+nav.sumario ul.pauta { margin: 4px 0 8px; padding-left: 1.4em; font-family: var(--sans); font-size: .88rem; }
+@media print {
+  @page { size: A4; margin: 12mm 11mm; }
+  :root { --bg: #fff; --surface: #fff; --text: #1d1d1f; --muted: #5f5d58; --line: #dedad2;
+          --accent: #2f5577; --quote-bg: #f3f1ec; --empty: #85827b; --ok: #2f7d4f; --bad: #b3413b; --warn: #94650f; }
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body { font-size: 10.5pt; line-height: 1.45; background: #fff; }
+  .wrap { max-width: none; padding: 0; }
+  .voltar, .video, .abas > label, .abas > input { display: none; }
+  header p a { text-decoration: none; color: inherit; }
+  nav.sumario { margin: 14px 0 0; }
+  article { border: 0; padding: 0; margin: 0; }
+  article:not(.casa) + article, .poderes { break-before: page; }
+  .capa { margin: 0 0 14px; border-radius: 8px; }
+  .capa img { max-height: 300px; }
+  .capa figcaption { padding: 4px 0 0; }
+  h2, h3, h4, .quem, .item-topo { break-after: avoid; }
+  .pos, blockquote, .capa, .alerta, .item-fatos { break-inside: avoid; }
+  /* A grade não se divide entre páginas no Chrome: em coluna única, cada quadro pode quebrar. */
+  .lados { display: block; }
+  .lado { break-inside: auto; margin-bottom: 10px; }
+  .painel { display: block !important; border-radius: 10px; margin-top: 10px; }
+  .painel-det::before { content: "Detalhes da proposta"; display: block; font: 700 1rem/1.3 var(--sans); margin-bottom: 10px; }
+  details > summary { list-style: none; color: var(--text); }
+  .item { break-inside: auto; }
+}
+footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); border-top: 1px solid var(--line); padding-top: 18px; }
+</style>
+</head>
+<body>
+
+
+<div class="wrap">
+<a class="voltar" href="..&#x2f;..&#x2f;index.html">← Heimdall News</a>
+<header>
+  <h1>Heimdall News</h1>
+  <p>segunda-feira, 26 de outubro de 2026 · 10 assuntos · 14 veículos e fontes · <a href="..&#x2f;..&#x2f;index.html">dias anteriores</a></p>
+  <p class="video-link">O vídeo deste briefing ainda não foi postado.</p>
+</header>
+
+<nav class="sumario" aria-label="Assuntos do dia">
+  <ol>
+  <li><a href="#t1">Lula é reeleito em virada inédita no 2º turno, com 51,79% dos votos válidos; Republicanos, MDB, PSDB, Caiado e Renan Santos reconhecem o resultado</a></li><li><a href="#t2">Flávio Bolsonaro não reconhece a derrota e anuncia pedido de anulação; TSE desmente retirada de fiscais do PL, e ministros avaliam que o pedido não deve prosperar</a></li><li><a href="#t3">Zanin prorroga a votação até as 19h após falta de ônibus em várias cidades; TSE diz que a decisão exigiu medidas extraordinárias, e PF abre inquérito</a></li><li><a href="#t4">Repercussão internacional: líderes da América Latina, Europa, Rússia e China parabenizam Lula; Trump não se manifesta, e aliados dele questionam a prorrogação</a></li><li><a href="#t5">Mercado reage à reeleição: real cai no mercado futuro, ações brasileiras recuam no exterior e JP Morgan rebaixa recomendação; equipe econômica estuda ajuste fiscal</a></li><li><a href="#t6">Lula terá Congresso com maioria de oposição: PL terá as maiores bancadas, e direita deve tentar pautar anistia do 8&#x2f;1 e impeachment de ministros do STF</a></li><li><a href="#t7">No discurso da vitória, Lula promete “mudar o jeito de governar”, regular as big techs e governar com o Congresso</a></li><li><a href="#t8">Governadores do 2º turno: Omar Aziz (AM), Pazolini (ES), Celina Leão (DF), Mailza (AC), Vicentinho Júnior (TO) e Cadu de Lula (RN); direita governará 15 estados</a></li><li><a href="#t9">Reeleito, Lula poderá indicar até quatro ministros do STF até 2031, incluindo a vaga de Barroso, aberta desde a rejeição de Messias</a></li><li><a href="#t10">Flávio ficará sem mandato e sem foro a partir de fevereiro; deputados pedem a retenção do passaporte dele, e Eduardo havia sugerido que o irmão deixasse o país</a></li>
+  </ol>
+  
+  <p class="poderes-link"><a href="#poderes">Atuação dos Poderes</a>:
+    <a href="#stf">Supremo Tribunal Federal</a> (1) · <a href="#camara">Câmara dos Deputados</a> (0) · <a href="#senado">Senado Federal</a> (0)
+  </p>
+  
+  <ul class="pauta" aria-label="Supremo Tribunal Federal">
+    <li><a href="#stf1">RCL 101673 — prorrogação do horário de votação no 2º turno</a> <span class="meta">· Julgado</span></li>
+  </ul>
+  
+  
+</nav>
+
+
+
+<article id="t1">
+  
+  <h2><span class="n">1.</span>Lula é reeleito em virada inédita no 2º turno, com 51,79% dos votos válidos; Republicanos, MDB, PSDB, Caiado e Renan Santos reconhecem o resultado</h2>
+  <p class="cobertura">Cobertura (12):
+    <span class="l"><b>Imprensa mais à esquerda</b> — Brasil de Fato, CartaCapital</span><span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — CNN Brasil, Folha, G1, JOTA, Poder360</span><span class="l"><b>Imprensa mais à direita</b> — Gazeta do Povo, Revista Oeste</span><span class="l"><b>Fontes oficiais</b> — Agência Câmara, Agência Senado, STF — notícias oficiais</span>
+  </p>
+
+  <h3>O que aconteceu</h3>
+  <div class="contexto">
+  
+    <p>Lula teve 64.256.232 votos (51,79%) e Flávio Bolsonaro, 59.826.041 (48,21%); a diferença foi de 4,4 milhões de votos.<sup><a href="#t1r1" title="“Com 100% das seções apuradas, Lula teve 64.256.232 votos (51,79%) e garantiu a virada histórica no 2º turno sobre Flávio Bolsonaro (PL), que teve 59.826.041 (48,21%).” — G1">[1]</a></sup></p>
+  
+    <p>É a primeira vez que o segundo colocado no 1º turno vence a disputa presidencial; no 1º turno, Flávio teve 47,03% e Lula, 45,16%.<sup><a href="#t1r2" title="“O resultado marca a primeira vez em que o segundo colocado no primeiro turno consegue virar a disputa presidencial na segunda etapa. No primeiro turno, Flávio havia obtido 47,03% dos votos válidos, contra 45,16% de Lula.” — Agência Câmara">[2]</a></sup></p>
+  
+    <p>Lula venceu em 13 estados e no exterior e virou em Minas Gerais; Flávio venceu em 13 estados e no DF.<sup><a href="#t1r3" title="“o presidente Luiz Inácio Lula da Silva venceu em 13 Estados e no exterior, revertendo o resultado em Minas Gerais, onde obteve 50,43% dos votos válidos.” — Revista Oeste">[3]</a></sup></p>
+  
+    <p>A abstenção foi de 19,22% do eleitorado, e a soma de abstenções, brancos e nulos (21,84%) foi a menor desde 1998.<sup><a href="#t1r2" title="“apenas 19,22% dos eleitores e eleitoras aptos deixaram de votar” — Agência Câmara">[2]</a></sup><sup><a href="#t1r4" title="“A soma de abstenções, votos brancos e nulos no segundo turno da eleição presidencial de 2026 chegou a 21,84% do eleitorado. O índice de 2026 é o menor entre todos os turnos de eleições presidenciais analisados desde 1998.” — G1">[4]</a></sup></p>
+  
+  </div>
+
+  <h3>Como cada campo político se posicionou</h3>
+  <div class="lados">
+  
+
+    <section class="lado" style="--cor: #2e7d32">
+      <h4>Pró-governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">FH</span></span><span>Fernando Haddad (PT), ex-ministro da Fazenda</span></div>
+        <p>Atribuiu a virada à mobilização da sociedade e disse que o novo governo precisará dialogar com o lado derrotado.<sup><a href="#t1r5">[5]</a></sup></p>
+        
+        <blockquote>“Apesar da euforia dos petistas com a vitória de Lula pela quarta vez, Haddad afirmou que o novo governo Lula precisará dialogar com o lado derrotado.”<cite><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;sp&#x2f;sao-paulo&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;26&#x2f;haddad-diz-que-vitoria-de-lula-garante-soberania-do-pais-no-cenario-internacional-brasil-nao-tem-tamanho-pra-ser-quintal-de-ninguem.ghtml" target="_blank" rel="noopener">G1</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+
+    <section class="lado" style="--cor: #81c784">
+      <h4>Centro pró-governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">MP</span></span><span>Marcos Pereira (Republicanos-SP), presidente do Republicanos</span></div>
+        <p>Parabenizou Lula e pediu que governe também para quem votou em Flávio.<sup><a href="#t1r6">[6]</a></sup></p>
+        
+        <blockquote>“O novo mandato traz a responsabilidade de governar para todos os brasileiros, inclusive os que votaram em Flávio Bolsonaro, com respeito às diferenças e diálogo com o Congresso Nacional.”<cite><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;republicanos-e-mdb-que-apoiaram-flavio-bolsonaro-parabenizam-lula-pela-reeleicao.shtml" target="_blank" rel="noopener">Folha</a></cite></blockquote>
+        
+      </div>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">MB</span></span><span>MDB (nota), presidido por Baleia Rossi (SP)</span></div>
+        <p>Parabenizou Lula, reeleito “democraticamente conforme a Constituição”.<sup><a href="#t1r6">[6]</a></sup></p>
+        
+        <blockquote>“Parabéns ao presidente Lula, reeleito democraticamente conforme a Constituição de 1988.”<cite><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;republicanos-e-mdb-que-apoiaram-flavio-bolsonaro-parabenizam-lula-pela-reeleicao.shtml" target="_blank" rel="noopener">Folha</a></cite></blockquote>
+        
+      </div>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">PA</span></span><span>PSDB (nota de Aécio Neves e Adolfo Viana)</span></div>
+        <p>Cumprimentou Lula e disse que seguirá na oposição.<sup><a href="#t1r7">[7]</a></sup></p>
+        
+        <blockquote>“O PSDB seguirá na oposição com responsabilidade, equilíbrio e firmeza.”<cite><a href="https:&#x2f;&#x2f;www.cnnbrasil.com.br&#x2f;eleicoes&#x2f;psdb-parabeniza-lula-por-vitoria-e-diz-que-seguira-na-oposicao-ao-governo&#x2f;" target="_blank" rel="noopener">CNN Brasil</a></cite></blockquote>
+        
+      </div>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">RC</span></span><span>Ronaldo Caiado (PSD), ex-candidato à Presidência</span></div>
+        <p>Disse que esperava uma renovação, mas que se curva à decisão da maioria.<sup><a href="#t1r8">[8]</a></sup></p>
+        
+        <blockquote>“Como democratas que somos, nos curvamos à decisão da maioria e a decisão da apuração.”<cite><a href="https:&#x2f;&#x2f;www.cnnbrasil.com.br&#x2f;eleicoes&#x2f;caiado-reconhece-vitoria-de-lula-nos-curvamos-a-decisao-da-maioria&#x2f;" target="_blank" rel="noopener">CNN Brasil</a></cite></blockquote>
+        
+      </div>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">HM</span></span><span>Hugo Motta (Republicanos-PB), presidente da Câmara</span></div>
+        <p>Parabenizou Lula e disse que o povo fez sua escolha nas urnas.<sup><a href="#t1r9">[9]</a></sup></p>
+        
+        <blockquote>“Parabenizo o presidente Lula pela reeleição e desejo serenidade e equilíbrio na condução do país nos próximos quatro anos”<cite><a href="https:&#x2f;&#x2f;www.camara.leg.br&#x2f;noticias&#x2f;1313758-o-povo-e-soberano-e-fez-a-sua-escolha-diz-motta-ao-parabenizar-lula-pela-reeleicao" target="_blank" rel="noopener">Agência Câmara</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+
+    <section class="lado" style="--cor: #9e9e9e">
+      <h4>Centro</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">DA</span></span><span>Davi Alcolumbre (União-AP), presidente do Senado</span></div>
+        <p>Reconheceu o resultado e disse que o Congresso atuará pela pacificação.<sup><a href="#t1r10">[10]</a></sup></p>
+        
+        <blockquote>“o Poder Legislativo brasileiro, o presidente da Câmara e o presidente do Senado, reconhecendo a decisão livre e soberana do povo brasileiro”<cite><a href="https:&#x2f;&#x2f;www12.senado.leg.br&#x2f;noticias&#x2f;materias&#x2f;2026&#x2f;10&#x2f;25&#x2f;passadas-as-eleicoes-congresso-atuara-pela-pacificacao-afirma-davi-alcolumbre" target="_blank" rel="noopener">Agência Senado</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+      
+
+    <section class="lado" style="--cor: #e65100">
+      <h4>Oposição ao governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">RZ</span></span><span>Romeu Zema (Novo), ex-candidato à Presidência</span></div>
+        <p>Lamentou o resultado e afirmou, sem apresentar provas, que Lula aplicou um “golpe à la Venezuela”.<sup><a href="#t1r11">[11]</a></sup></p>
+        
+        <blockquote>“O Lula aplicou um golpe à la Venezuela, a mesma coisa que o seu companheiro e ditador fez lá prorrogando o prazo da eleição”<cite><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;26&#x2f;caiado-zema-e-renan-santos-repercutem-vitoria-de-lula.ghtml" target="_blank" rel="noopener">G1</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+
+    <section class="lado" style="--cor: #6a1b9a">
+      <h4>Independente — Missão &#x2f; MBL</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">RS</span></span><span>Renan Santos (Missão), ex-candidato à Presidência</span></div>
+        <p>Disse que não houve fraude e que a rejeição ao bolsonarismo foi determinante para a derrota de Flávio.<sup><a href="#t1r11">[11]</a></sup></p>
+        
+        <blockquote>“O ex-candidato à Presidência Renan Santos (Missão) afirmou que não houve fraude na eleição e que a campanha de Lula foi &quot;colossal&quot;.”<cite><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;26&#x2f;caiado-zema-e-renan-santos-repercutem-vitoria-de-lula.ghtml" target="_blank" rel="noopener">G1</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+
+    <section class="lado" style="--cor: #78909c">
+      <h4>Outros &#x2f; não classificável</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">ME</span></span><span>Ministro Edson Fachin, presidente do STF (nota)</span></div>
+        <p>Disse ser tempo de reafirmar o respeito à vontade soberana do povo.<sup><a href="#t1r12">[12]</a></sup></p>
+        
+        <blockquote>“A República se fortalece quando reconhece e respeita a soberania popular, fundamento da legitimidade democrática e expressão da cidadania.”<cite><a href="https:&#x2f;&#x2f;noticias.stf.jus.br&#x2f;postsnoticias&#x2f;nota-da-presidencia-do-supremo-tribunal-federal-5&#x2f;" target="_blank" rel="noopener">STF — notícias oficiais</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+  </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #ffb74d"></i>Centro-oposição</span>.</p>
+
+  <details>
+    <summary>Referências (12) e outras matérias sobre o tema (30)</summary>
+    <ol class="refs">
+    
+      <li id="t1r1"><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;25&#x2f;lula-recorde-votacao-presidente-2026.ghtml" target="_blank" rel="noopener">Reeleito, Lula bate recorde com 64 milhões de votos e dobra vantagem em relação a 2022</a> <span class="meta">— G1, 25&#x2f;10 22:00</span></li>
+    
+      <li id="t1r2"><a href="https:&#x2f;&#x2f;www.camara.leg.br&#x2f;noticias&#x2f;1313705-lula-e-reeleito-presidente-com-quase-52-dos-votos-validos-no-2o-turno" target="_blank" rel="noopener">Lula é reeleito presidente com quase 52% dos votos válidos no 2º turno</a> <span class="meta">— Agência Câmara, 25&#x2f;10 21:29</span></li>
+    
+      <li id="t1r3"><a href="https:&#x2f;&#x2f;revistaoeste.com&#x2f;politica&#x2f;lula-vence-em-13-estados-e-vira-em-minas-quebrando-historico-eleitoral&#x2f;" target="_blank" rel="noopener">Lula vence em 13 Estados e vira em Minas, quebrando histórico eleitoral</a> <span class="meta">— Revista Oeste, 26&#x2f;10 07:19</span></li>
+    
+      <li id="t1r4"><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;26&#x2f;taxa-de-abstencoes-brancos-e-nulos-soma-2184percent-e-chega-a-minima-historica.ghtml" target="_blank" rel="noopener">Taxa de abstenções, brancos e nulos soma 21,84% e chega à mínima histórica</a> <span class="meta">— G1, 26&#x2f;10 00:33</span></li>
+    
+      <li id="t1r5"><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;sp&#x2f;sao-paulo&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;26&#x2f;haddad-diz-que-vitoria-de-lula-garante-soberania-do-pais-no-cenario-internacional-brasil-nao-tem-tamanho-pra-ser-quintal-de-ninguem.ghtml" target="_blank" rel="noopener">Haddad diz que vitória de Lula garante soberania do país no cenário internacional: &#x27;Brasil não tem tamanho pra ser quintal de ninguém&#x27;</a> <span class="meta">— G1, 26&#x2f;10 00:36</span></li>
+    
+      <li id="t1r6"><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;republicanos-e-mdb-que-apoiaram-flavio-bolsonaro-parabenizam-lula-pela-reeleicao.shtml" target="_blank" rel="noopener">Partidos aliados a Flávio refutam anular votação e parabenizam Lula pela reeleição</a> <span class="meta">— Folha, 25&#x2f;10 23:07</span></li>
+    
+      <li id="t1r7"><a href="https:&#x2f;&#x2f;www.cnnbrasil.com.br&#x2f;eleicoes&#x2f;psdb-parabeniza-lula-por-vitoria-e-diz-que-seguira-na-oposicao-ao-governo&#x2f;" target="_blank" rel="noopener">PSDB parabeniza Lula por vitória e diz que “seguirá na oposição” ao governo</a> <span class="meta">— CNN Brasil, 26&#x2f;10 07:56</span></li>
+    
+      <li id="t1r8"><a href="https:&#x2f;&#x2f;www.cnnbrasil.com.br&#x2f;eleicoes&#x2f;caiado-reconhece-vitoria-de-lula-nos-curvamos-a-decisao-da-maioria&#x2f;" target="_blank" rel="noopener">Caiado reconhece vitória de Lula: “Nos curvamos à decisão da maioria”</a> <span class="meta">— CNN Brasil, 26&#x2f;10 07:44</span></li>
+    
+      <li id="t1r9"><a href="https:&#x2f;&#x2f;www.camara.leg.br&#x2f;noticias&#x2f;1313758-o-povo-e-soberano-e-fez-a-sua-escolha-diz-motta-ao-parabenizar-lula-pela-reeleicao" target="_blank" rel="noopener">&quot;O povo é soberano e fez a sua escolha&quot;, diz Motta ao parabenizar Lula pela reeleição</a> <span class="meta">— Agência Câmara, 26&#x2f;10 00:07</span></li>
+    
+      <li id="t1r10"><a href="https:&#x2f;&#x2f;www12.senado.leg.br&#x2f;noticias&#x2f;materias&#x2f;2026&#x2f;10&#x2f;25&#x2f;passadas-as-eleicoes-congresso-atuara-pela-pacificacao-afirma-davi-alcolumbre" target="_blank" rel="noopener">Passadas as eleições, Congresso atuará pela pacificação, afirma Davi Alcolumbre</a> <span class="meta">— Agência Senado, 25&#x2f;10 23:15</span></li>
+    
+      <li id="t1r11"><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;26&#x2f;caiado-zema-e-renan-santos-repercutem-vitoria-de-lula.ghtml" target="_blank" rel="noopener">Eleições 2026: Caiado, Zema e Renan Santos repercutem vitória de Lula; Cury não se manifestou</a> <span class="meta">— G1, 26&#x2f;10 08:38</span></li>
+    
+      <li id="t1r12"><a href="https:&#x2f;&#x2f;noticias.stf.jus.br&#x2f;postsnoticias&#x2f;nota-da-presidencia-do-supremo-tribunal-federal-5&#x2f;" target="_blank" rel="noopener">Nota da Presidência do Supremo Tribunal Federal</a> <span class="meta">— STF — notícias oficiais, 25&#x2f;10 22:11</span></li>
+    
+    </ol>
+    
+    <ul class="rel">
+    
+      <li><a href="https:&#x2f;&#x2f;aovivo.folha.uol.com.br&#x2f;poder-poder_e_politica&#x2f;2026&#x2f;10&#x2f;25&#x2f;6567-acompanhe-ao-vivo-o-segundo-turno-entre-flavio-bolsonaro-e-lula-nas-eleicoes-de-2026.shtml#post467964" target="_blank" rel="noopener">Com 100% das urnas apuradas, Lula vence eleição com 51,79% dos votos válidos</a> <span class="meta">— Folha, 26&#x2f;10 00:36</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;aovivo.folha.uol.com.br&#x2f;poder-poder_e_politica&#x2f;2026&#x2f;10&#x2f;25&#x2f;6567-acompanhe-ao-vivo-o-segundo-turno-entre-flavio-bolsonaro-e-lula-nas-eleicoes-de-2026.shtml#post467900" target="_blank" rel="noopener">Virada foi com 6,6 milhões de votos: Lula saiu de desvantagem de 2,2 milhões para Flávio e liderou 2º turno com 4,4 milhões</a> <span class="meta">— Folha, 25&#x2f;10 22:20</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;ao-vivo&#x2f;apuracao-eleicoes-2026-resultados-segundo-turno.ghtml" target="_blank" rel="noopener">Lula é reeleito após virada histórica</a> <span class="meta">— G1, 26&#x2f;10 00:46</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;25&#x2f;lula-e-reeleito-e-derrota-flavio-bolsonaro-em-virada-historica-projeta-datafolha&#x2f;" target="_blank" rel="noopener">Lula é reeleito e derrota Flávio Bolsonaro em virada histórica</a> <span class="meta">— Brasil de Fato, 25&#x2f;10 20:53</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.jota.info&#x2f;eleicoes&#x2f;eleicoes-2026&#x2f;ao-vivo-eleicoes-2026-lula-e-reeleito-presidente-da-republica-em-virada-historica" target="_blank" rel="noopener">Veja como foi o resultado das eleições 2026 – Lula derrota Flávio e é reeleito presidente da República, em virada histórica</a> <span class="meta">— JOTA, 25&#x2f;10 21:29</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.jota.info&#x2f;eleicoes&#x2f;eleicoes-2026&#x2f;em-virada-inedita-lula-vence-flavio-bolsonaro-em-votacao-marcada-por-caos-eleitoral" target="_blank" rel="noopener">Em virada inédita, Lula vence Flávio Bolsonaro em votação marcada por caos eleitoral</a> <span class="meta">— JOTA, 25&#x2f;10 21:10</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;25&#x2f;lula-flavio-bolsonaro-comparacao-jair-bolsonaro-2022.ghtml" target="_blank" rel="noopener">Lula tem 64 milhões de votos, e Flávio, 59 milhões; compare com a votação do petista e de Jair Bolsonaro em 2022</a> <span class="meta">— G1, 25&#x2f;10 22:50</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;25&#x2f;lula-flavio-bolsonaro-resultado-segundo-primeiro-turno-2026.ghtml" target="_blank" rel="noopener">Lula tem 64 milhões de votos, e Flávio Bolsonaro, 59 milhões; compare com a votação deles no 1º turno</a> <span class="meta">— G1, 25&#x2f;10 21:40</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;25&#x2f;lula-ganha-103-milhoes-de-votos-no-2o-turno-mais-do-que-a-soma-dos-candidatos-eliminados-no-1o-turno.ghtml" target="_blank" rel="noopener">Lula ganha 10,3 milhões de votos no 2º turno, mais do que a soma dos eliminados no 1º turno</a> <span class="meta">— G1, 25&#x2f;10 23:47</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;25&#x2f;abstencao-2-turno-2026-menor-eleicao-presidencial-desde-2006.ghtml" target="_blank" rel="noopener">Abstenção no 2º turno é a menor em eleição presidencial desde 2006</a> <span class="meta">— G1, 25&#x2f;10 22:19</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;politica&#x2f;abstencao-recua-e-passa-de-21-para-19-no-2o-turno&#x2f;" target="_blank" rel="noopener">Abstenção recua e passa de 21% para 19% no 2º turno</a> <span class="meta">— CartaCapital, 25&#x2f;10 21:55</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;eleicoes&#x2f;2026&#x2f;abstencao-segundo-turno-eleicao-2026&#x2f;" target="_blank" rel="noopener">Abstenção no segundo turno cai para 19,2% do eleitorado</a> <span class="meta">— Gazeta do Povo, 25&#x2f;10 21:49</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;lula-vence-em-13-estados-com-virada-historica-em-minas-e-avanco-no-rio-de-janeiro.shtml" target="_blank" rel="noopener">Lula vence em 13 estados, com virada histórica em Minas e avanço no Rio de Janeiro</a> <span class="meta">— Folha, 26&#x2f;10 00:40</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;lula-vira-sobre-flavio-em-minas-espelho-eleitoral-do-pais-veja-como-votaram-regioes-estados-e-capitais.shtml" target="_blank" rel="noopener">Lula vira sobre Flávio em Minas, espelho eleitoral do país; veja como votaram regiões, estados e capitais</a> <span class="meta">— Folha, 25&#x2f;10 22:32</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;aovivo.folha.uol.com.br&#x2f;poder-poder_e_politica&#x2f;2026&#x2f;10&#x2f;25&#x2f;6567-acompanhe-ao-vivo-o-segundo-turno-entre-flavio-bolsonaro-e-lula-nas-eleicoes-de-2026.shtml#post467915" target="_blank" rel="noopener">Lula vence em Minas, que mantém histórico de ser espelho do Brasil nas eleições</a> <span class="meta">— Folha, 25&#x2f;10 22:31</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;26&#x2f;lula-reduz-vantagem-de-flavio-bolsonaro-em-sp-vence-em-mg-e-amplia-folga-no-nordeste.ghtml" target="_blank" rel="noopener">Lula reduz vantagem de Flávio Bolsonaro em SP, vence em MG e amplia folga no Nordeste</a> <span class="meta">— G1, 26&#x2f;10 04:42</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;26&#x2f;estados-lula-ganhou-votos-primeiro-segundo-turno.ghtml" target="_blank" rel="noopener">Lula ganhou votos em todos os estados do 1º para o 2º turno; veja onde mais cresceu</a> <span class="meta">— G1, 26&#x2f;10 02:29</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;26&#x2f;mapa-estados-vitoria-lula-flavio-bolsonaro-segundo-turno.ghtml" target="_blank" rel="noopener">Flávio Bolsonaro venceu em 13 estados e no DF, e Lula, em 13; veja o mapa</a> <span class="meta">— G1, 26&#x2f;10 01:19</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;26&#x2f;vantagem-lula-flavio-bolsonaro-2-turno-eleicao-presidencial-4-menor-brasil.ghtml" target="_blank" rel="noopener">Vantagem de Lula em vitória sobre Flávio Bolsonaro é a 4ª menor desde 1989; veja todos os 2º turnos</a> <span class="meta">— G1, 26&#x2f;10 00:45</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;eleicao-tem-a-3a-menor-diferenca-da-historia-entre-vencedor-e-segundo-lugar.shtml" target="_blank" rel="noopener">Eleição tem a 3ª menor diferença da história entre vencedor e segundo lugar</a> <span class="meta">— Folha, 25&#x2f;10 22:56</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.poder360.com.br&#x2f;poder-eleicoes-2026&#x2f;pesquisas-nao-conseguiram-captar-virada-de-lula&#x2f;" target="_blank" rel="noopener">Pesquisas não conseguiram captar virada de Lula</a> <span class="meta">— Poder360, 26&#x2f;10 09:23</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.poder360.com.br&#x2f;poder-eleicoes-2026&#x2f;flavio-perde-votos-em-6-estados-do-1o-para-o-2o-turno&#x2f;" target="_blank" rel="noopener">Flávio perde votos em 6 Estados do 1º para o 2º turno</a> <span class="meta">— Poder360, 26&#x2f;10 08:10</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;26&#x2f;estados-flavio-bolsonaro-ganhou-perdeu-votos-primeiro-segundo-turno.ghtml" target="_blank" rel="noopener">Flávio Bolsonaro perdeu votos em seis estados do 1º para o 2º turno; veja onde ganhou e perdeu</a> <span class="meta">— G1, 26&#x2f;10 02:44</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;26&#x2f;derrota-de-flavio-incluiu-perda-de-votos-em-seis-estados-e-alta-de-abstencao-onde-o-candidato-teve-vantagem-no-1o-turno.ghtml" target="_blank" rel="noopener">Derrota de Flávio incluiu perda de votos em seis estados e alta de abstenção onde o candidato teve vantagem no 1º turno</a> <span class="meta">— G1, 26&#x2f;10 00:37</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;aovivo.folha.uol.com.br&#x2f;poder-poder_e_politica&#x2f;2026&#x2f;10&#x2f;25&#x2f;6567-acompanhe-ao-vivo-o-segundo-turno-entre-flavio-bolsonaro-e-lula-nas-eleicoes-de-2026.shtml#post467946" target="_blank" rel="noopener">Republicanos e MDB, que apoiaram Flávio Bolsonaro, parabenizam Lula pela reeleição</a> <span class="meta">— Folha, 25&#x2f;10 23:22</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;aovivo.folha.uol.com.br&#x2f;poder-poder_e_politica&#x2f;2026&#x2f;10&#x2f;25&#x2f;6567-acompanhe-ao-vivo-o-segundo-turno-entre-flavio-bolsonaro-e-lula-nas-eleicoes-de-2026.shtml#post467943" target="_blank" rel="noopener">Aécio Neves cumprimenta Lula e diz que PSDB fará oposição responsável</a> <span class="meta">— Folha, 25&#x2f;10 23:19</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;go&#x2f;goias&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;25&#x2f;apos-vitoria-de-lula-caiado-declara-que-acreditava-em-renovacao-mas-como-democratas-nos-curvamos-a-decisao-da-maioria.ghtml" target="_blank" rel="noopener">Após vitória de Lula, Caiado declara que acreditava em renovação, mas &#x27;como democratas, nos curvamos à decisão da maioria&#x27;</a> <span class="meta">— G1, 25&#x2f;10 23:08</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.poder360.com.br&#x2f;poder-eleicoes-2026&#x2f;renan-santos-pede-que-direita-nao-va-a-atos-pro-flavio&#x2f;" target="_blank" rel="noopener">Renan Santos pede que direita não vá a atos pró-Flávio</a> <span class="meta">— Poder360, 26&#x2f;10 07:32</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www12.senado.leg.br&#x2f;noticias&#x2f;audios&#x2f;2026&#x2f;10&#x2f;lula-e-reeleito-presidente-do-brasil" target="_blank" rel="noopener">Áudio: Lula é reeleito presidente do Brasil</a> <span class="meta">— Agência Senado, 26&#x2f;10 09:04</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www12.senado.leg.br&#x2f;noticias&#x2f;videos&#x2f;2026&#x2f;10&#x2f;reeleito-presidente-lula-agradece-apoio-do-povo-e-sobretudo-das-mulheres" target="_blank" rel="noopener">Vídeo: Reeleito presidente, Lula agradece apoio do povo e &#x27;sobretudo das mulheres&#x27;</a> <span class="meta">— Agência Senado, 25&#x2f;10 23:00</span></li>
+    
+    </ul>
+    
+  </details>
+</article>
+
+<article id="t2">
+  
+  <h2><span class="n">2.</span>Flávio Bolsonaro não reconhece a derrota e anuncia pedido de anulação; TSE desmente retirada de fiscais do PL, e ministros avaliam que o pedido não deve prosperar</h2>
+  <p class="cobertura">Cobertura (11):
+    <span class="l"><b>Imprensa mais à esquerda</b> — Brasil de Fato, CartaCapital</span><span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — CNN Brasil, Folha, G1, JOTA, Poder360</span><span class="l"><b>Imprensa mais à direita</b> — Gazeta do Povo, Revista Oeste</span><span class="l"><b>Fontes oficiais</b> — Agência Senado</span><span class="l"><b>Outras fontes</b> — Classe Politica (via Google News)</span>
+  </p>
+
+  <h3>O que aconteceu</h3>
+  <div class="contexto">
+  
+    <p>Flávio disse ser “impossível” reconhecer o resultado e que pedirá a anulação, citando a prorrogação da votação decidida por Zanin.<sup><a href="#t2r1" title="“O senador Flávio Bolsonaro (PL) afirmou que não reconhece o resultado do segundo turno e que vai pedir a anulação da eleição.” — Gazeta do Povo">[1]</a></sup><sup><a href="#t2r2" title="“Ele contestou a decisão do ministro do Supremo Tribunal Federal Cristiano Zanin de prorrogar a votação em locais onde as urnas ainda estavam abertas e alegou quebra de isonomia entre os eleitores.” — Agência Senado">[2]</a></sup></p>
+  
+    <p>A campanha de Flávio também havia pedido ao TSE a extensão do horário em municípios de MG, RS, PR, SP e SC.<sup><a href="#t2r3" title="“Na tarde deste domingo, a equipe do senador pediu a extensão do horário de votação em municípios de Minas Gerais, Rio Grande do Sul, Paraná, São Paulo e Santa Catarina.” — G1">[3]</a></sup></p>
+  
+    <p>O TSE afirmou ser falsa a declaração de que fiscais do PL foram retirados da sala-cofre e disse ter registros e filmagens da presença deles.<sup><a href="#t2r4" title="“O Tribunal Superior Eleitoral (TSE) afirmou na noite deste domingo (25) que é falsa a declaração do candidato derrotado Flávio Bolsonaro (PL) de que fiscais do PL foram retirados da sala-cofre da Corte durante a apuração das Eleições 2026.” — G1">[4]</a></sup></p>
+  
+    <p>Segundo levantamento do g1, 35.521 votos foram registrados após as 17h; ministros do TSE avaliam reservadamente que o pedido de anulação não deve prosperar.<sup><a href="#t2r5" title="“Levantamento do g1 com dados do Tribunal Superior Eleitoral (TSE) aponta que 35.521 votos foram registrados após as 17 horas de domingo (25), no horário de Brasília.” — G1">[5]</a></sup></p>
+  
+  </div>
+
+  <h3>Como cada campo político se posicionou</h3>
+  <div class="lados">
+  
+
+    <section class="lado" style="--cor: #2e7d32">
+      <h4>Pró-governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">MR</span></span><span>Maria do Rosário (PT-RS), deputada</span></div>
+        <p>Criticou a condução do TSE e disse que o presidente da Corte é “bolsonarista”.<sup><a href="#t2r6">[6]</a></sup></p>
+        
+        <blockquote>“A parlamentar também voltou a associar a postura de Nunes Marques ao alinhamento com o bolsonarismo”<cite><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;25&#x2f;maria-do-rosario-questiona-postura-de-nunes-marques-o-presidente-do-tse-e-bolsonarista&#x2f;" target="_blank" rel="noopener">Brasil de Fato</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+
+    <section class="lado" style="--cor: #81c784">
+      <h4>Centro pró-governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">PF</span></span><span>Presidentes de partidos que apoiaram Flávio (Republicanos, MDB)</span></div>
+        <p>Indicaram que não apoiarão a tentativa do PL de anular a eleição.<sup><a href="#t2r7">[7]</a></sup></p>
+        
+        <blockquote>“O grupo indicou que não apoiará a tentativa do PL de pedir que a Justiça anule e refaça a eleição.”<cite><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;republicanos-e-mdb-que-apoiaram-flavio-bolsonaro-parabenizam-lula-pela-reeleicao.shtml" target="_blank" rel="noopener">Folha</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+        
+
+    <section class="lado" style="--cor: #e65100">
+      <h4>Oposição ao governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">FB</span></span><span>Flávio Bolsonaro (PL-RJ), senador e candidato derrotado</span></div>
+        <p>Disse que Zanin mudou “a regra do jogo no meio do jogo” e que vai pedir a anulação.<sup><a href="#t2r1">[1]</a></sup></p>
+        
+        <blockquote>“É impossível reconhecer o resultado das eleições no contexto como essas coisas aconteceram”<cite><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;eleicoes&#x2f;2026&#x2f;flavio-bolsonaro-pronunciamento-anulacao-eleicao&#x2f;" target="_blank" rel="noopener">Gazeta do Povo</a></cite></blockquote>
+        
+      </div>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">NF</span></span><span>Nikolas Ferreira (PL-MG), deputado</span></div>
+        <p>Disse que não reconhece a vitória de Lula até que tudo seja esclarecido.<sup><a href="#t2r8">[8]</a></sup></p>
+        
+        <blockquote>“É impossível reconhecer essas eleições até que tudo seja esclarecido”<cite><a href="https:&#x2f;&#x2f;revistaoeste.com&#x2f;politica&#x2f;nikolas-questiona-eleicao-e-diz-que-nao-reconhece-vitoria-de-lula&#x2f;" target="_blank" rel="noopener">Revista Oeste</a></cite></blockquote>
+        
+      </div>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">EB</span></span><span>Eduardo Bolsonaro (PL), ex-deputado</span></div>
+        <p>Afirmou em vídeo em inglês, sem provas, que houve fraude e pediu que estrangeiros não reconheçam o resultado.<sup><a href="#t2r9">[9]</a></sup></p>
+        
+        <blockquote>“não reconheçam estas eleições, porque ainda mais fatos estão surgindo agora”<cite><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;26&#x2f;em-video-em-ingles-eduardo-bolsonaro-diz-que-eleicao-foi-fraudada-e-pede-pressao-internacional.ghtml" target="_blank" rel="noopener">G1</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+
+    <section class="lado" style="--cor: #6a1b9a">
+      <h4>Independente — Missão &#x2f; MBL</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">RS</span></span><span>Renan Santos (Missão), ex-candidato à Presidência</span></div>
+        <p>Pediu que eleitores de direita não participem de atos contra o resultado.<sup><a href="#t2r10">[10]</a></sup></p>
+        
+        <blockquote>“Vamos lá, meus amigos, não saiam às ruas”<cite><a href="https:&#x2f;&#x2f;www.poder360.com.br&#x2f;poder-eleicoes-2026&#x2f;renan-santos-pede-que-direita-nao-va-a-atos-pro-flavio&#x2f;" target="_blank" rel="noopener">Poder360</a></cite></blockquote>
+        
+      </div>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">KK</span></span><span>Kim Kataguiri (Missão-SP), deputado</span></div>
+        <p>Criticou a postura da direita na campanha do 2º turno.<sup><a href="#t2r11">[11]</a></sup></p>
+        
+        <blockquote>“Nós tinhamos Lula com sangue nos olhos de um lado e do outro Nikolas e Pavanato fazendo micareta, sem um discurso combativo”<cite><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;eleicoes&#x2f;2026&#x2f;parece-um-pesadelo-liderancas-da-direita-lamentam-vitoria-de-lula-mas-veem-chances-no-congresso&#x2f;" target="_blank" rel="noopener">Gazeta do Povo</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+
+    <section class="lado" style="--cor: #78909c">
+      <h4>Outros &#x2f; não classificável</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">MK</span></span><span>Ministro Kassio Nunes Marques, presidente do TSE</span></div>
+        <p>Disse ter “absoluta segurança” do processo eleitoral e parabenizou Flávio pela campanha.<sup><a href="#t2r12">[12]</a></sup></p>
+        
+        <blockquote>“Ao candidato Flávio Bolsonaro, que pela primeira vez disputou a eleição presidencial e conquistou votação expressiva, parabenizo pela campanha”<cite><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;25&#x2f;nunes-marques-pronunciamento-resultado-eleicao.ghtml" target="_blank" rel="noopener">G1</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+  </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #9e9e9e"></i>Centro</span>, <span><i style="background: #ffb74d"></i>Centro-oposição</span>.</p>
+
+  <details>
+    <summary>Referências (12) e outras matérias sobre o tema (21)</summary>
+    <ol class="refs">
+    
+      <li id="t2r1"><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;eleicoes&#x2f;2026&#x2f;flavio-bolsonaro-pronunciamento-anulacao-eleicao&#x2f;" target="_blank" rel="noopener">Flávio Bolsonaro diz que não reconhece resultado e vai pedir anulação da eleição</a> <span class="meta">— Gazeta do Povo, 26&#x2f;10 00:08</span></li>
+    
+      <li id="t2r2"><a href="https:&#x2f;&#x2f;www12.senado.leg.br&#x2f;noticias&#x2f;audios&#x2f;2026&#x2f;10&#x2f;flavio-bolsonaro-contesta-resultado-da-eleicao-e-anuncia-pedido-de-anulacao" target="_blank" rel="noopener">Áudio: Flávio Bolsonaro contesta resultado da eleição e anuncia pedido de anulação</a> <span class="meta">— Agência Senado, 26&#x2f;10 08:59</span></li>
+    
+      <li id="t2r3"><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;25&#x2f;flavio-resultado-segundo-turno.ghtml" target="_blank" rel="noopener">Flávio chama resultado do segundo turno de &#x27;sacanagem&#x27;, diz ser &#x27;impossível&#x27; reconhecer derrota e que tentará anulação</a> <span class="meta">— G1, 25&#x2f;10 22:41</span></li>
+    
+      <li id="t2r4"><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;26&#x2f;tse-desmente-flavio-bolsonaro-e-diz-que-fiscais-do-pl-nao-foram-retirados-de-sala-cofre-do-tribunal.ghtml" target="_blank" rel="noopener">TSE desmente Flávio Bolsonaro e diz que fiscais do PL não foram retirados de &#x27;sala-cofre&#x27; do tribunal</a> <span class="meta">— G1, 26&#x2f;10 01:02</span></li>
+    
+      <li id="t2r5"><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;26&#x2f;ministros-do-tse-avaliam-que-pedido-de-flavio-para-anular-segundo-turno-nao-deve-prosperar.ghtml" target="_blank" rel="noopener">Ministros do TSE avaliam que pedido de Flávio para anular segundo turno não deve prosperar</a> <span class="meta">— G1, 26&#x2f;10 08:21</span></li>
+    
+      <li id="t2r6"><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;25&#x2f;maria-do-rosario-questiona-postura-de-nunes-marques-o-presidente-do-tse-e-bolsonarista&#x2f;" target="_blank" rel="noopener">Maria do Rosário questiona postura de Nunes Marques: ‘O presidente do TSE é bolsonarista’</a> <span class="meta">— Brasil de Fato, 25&#x2f;10 19:37</span></li>
+    
+      <li id="t2r7"><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;republicanos-e-mdb-que-apoiaram-flavio-bolsonaro-parabenizam-lula-pela-reeleicao.shtml" target="_blank" rel="noopener">Partidos aliados a Flávio refutam anular votação e parabenizam Lula pela reeleição</a> <span class="meta">— Folha, 25&#x2f;10 23:07</span></li>
+    
+      <li id="t2r8"><a href="https:&#x2f;&#x2f;revistaoeste.com&#x2f;politica&#x2f;nikolas-questiona-eleicao-e-diz-que-nao-reconhece-vitoria-de-lula&#x2f;" target="_blank" rel="noopener">Nikolas questiona eleição e diz que não reconhece vitória de Lula</a> <span class="meta">— Revista Oeste, 26&#x2f;10 09:18</span></li>
+    
+      <li id="t2r9"><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;26&#x2f;em-video-em-ingles-eduardo-bolsonaro-diz-que-eleicao-foi-fraudada-e-pede-pressao-internacional.ghtml" target="_blank" rel="noopener">Em vídeo em inglês, Eduardo Bolsonaro diz que eleição foi fraudada e pede pressão internacional</a> <span class="meta">— G1, 26&#x2f;10 04:36</span></li>
+    
+      <li id="t2r10"><a href="https:&#x2f;&#x2f;www.poder360.com.br&#x2f;poder-eleicoes-2026&#x2f;renan-santos-pede-que-direita-nao-va-a-atos-pro-flavio&#x2f;" target="_blank" rel="noopener">Renan Santos pede que direita não vá a atos pró-Flávio</a> <span class="meta">— Poder360, 26&#x2f;10 07:32</span></li>
+    
+      <li id="t2r11"><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;eleicoes&#x2f;2026&#x2f;parece-um-pesadelo-liderancas-da-direita-lamentam-vitoria-de-lula-mas-veem-chances-no-congresso&#x2f;" target="_blank" rel="noopener">“Parece um pesadelo”: aliados de Flávio lamentam resultado, mas veem chance no Congresso</a> <span class="meta">— Gazeta do Povo, 25&#x2f;10 22:34</span></li>
+    
+      <li id="t2r12"><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;25&#x2f;nunes-marques-pronunciamento-resultado-eleicao.ghtml" target="_blank" rel="noopener">Nunes Marques diz ter ‘toda a segurança’ no processo eleitoral, confirma resultado das eleições e liga para Lula e Flávio</a> <span class="meta">— G1, 25&#x2f;10 21:59</span></li>
+    
+    </ol>
+    
+    <ul class="rel">
+    
+      <li><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;eleicoes&#x2f;2026&#x2f;tse-responde-flavio-e-diz-que-fiscais-nao-foram-retirados-da-sala-cofre&#x2f;" target="_blank" rel="noopener">TSE responde Flávio e diz que fiscais do PL não foram retirados da sala-cofre</a> <span class="meta">— Gazeta do Povo, 26&#x2f;10 08:05</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;tse-desmente-flavio-bolsonaro-e-diz-que-nao-retirou-fiscais-do-pl-da-sala-cofre.shtml" target="_blank" rel="noopener">TSE desmente Flávio Bolsonaro e diz que não retirou fiscais do PL de sala-cofre</a> <span class="meta">— Folha, 26&#x2f;10 02:01</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.cnnbrasil.com.br&#x2f;eleicoes&#x2f;tse-desmente-flavio-e-diz-que-nao-retirou-fiscais-do-pl-de-sala-cofre&#x2f;" target="_blank" rel="noopener">TSE desmente Flávio e diz que não retirou fiscais do PL de sala-cofre</a> <span class="meta">— CNN Brasil, 26&#x2f;10 07:15</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;26&#x2f;tse-desmente-flavio-bolsonaro-sobre-fiscais-em-sala-cofre-e-nunes-marques-confirma-vitoria-de-lula&#x2f;" target="_blank" rel="noopener">TSE desmente Flávio Bolsonaro sobre fiscais em sala-cofre e Nunes Marques confirma vitória de Lula</a> <span class="meta">— Brasil de Fato, 26&#x2f;10 09:06</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;kassio-deve-descartar-questionamentos-sobre-resultado-apos-flavio-nao-reconhecer-derrota-eleitoral.shtml" target="_blank" rel="noopener">Kassio deve descartar questionamentos sobre resultado após Flávio não reconhecer derrota eleitoral</a> <span class="meta">— Folha, 26&#x2f;10 01:36</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.cnnbrasil.com.br&#x2f;eleicoes&#x2f;entenda-como-flavio-contestou-resultado-das-urnas-apos-vitoria-de-lula&#x2f;" target="_blank" rel="noopener">Entenda como Flávio contestou resultado das urnas após vitória de Lula</a> <span class="meta">— CNN Brasil, 26&#x2f;10 08:50</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;25&#x2f;sem-provas-flavio-bolsonaro-diz-que-vai-pedir-anulacao-das-eleicoes&#x2f;" target="_blank" rel="noopener">Sem provas, Flávio Bolsonaro diz que vai pedir anulação das eleições</a> <span class="meta">— Brasil de Fato, 25&#x2f;10 23:07</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.jota.info&#x2f;eleicoes&#x2f;eleicoes-2026&#x2f;flavio-bolsonaro-nao-reconhece-vitoria-de-lula-e-afirma-que-vai-pedir-anulacao-das-eleicoes" target="_blank" rel="noopener">Flávio Bolsonaro não reconhece vitória de Lula e afirma que vai pedir anulação das eleições</a> <span class="meta">— JOTA, 25&#x2f;10 22:59</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;politica&#x2f;flavio-bolsonaro-repete-o-golpismo-do-pai-e-nao-reconhece-vitoria-de-lula&#x2f;" target="_blank" rel="noopener">Flávio Bolsonaro repete o golpismo do pai e não reconhece vitória de Lula</a> <span class="meta">— CartaCapital, 25&#x2f;10 22:51</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;flavio-tem-festa-frustrada-e-churrasco-da-vitoria-vira-oracao.shtml" target="_blank" rel="noopener">Flávio diz que houve sacanagem, afirma ser impossível reconhecer resultado e fala em pedir anulação de eleição</a> <span class="meta">— Folha, 25&#x2f;10 22:22</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;aovivo.folha.uol.com.br&#x2f;poder-poder_e_politica&#x2f;2026&#x2f;10&#x2f;25&#x2f;6567-acompanhe-ao-vivo-o-segundo-turno-entre-flavio-bolsonaro-e-lula-nas-eleicoes-de-2026.shtml#post467962" target="_blank" rel="noopener">Leia a íntegra do discurso de Flávio Bolsonaro após sua derrota</a> <span class="meta">— Folha, 26&#x2f;10 00:30</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;leia-a-integra-do-discurso-de-flavio-bolsonaro-apos-sua-derrota.shtml" target="_blank" rel="noopener">Leia a íntegra do discurso de Flávio Bolsonaro após sua derrota</a> <span class="meta">— Folha, 26&#x2f;10 00:25</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.cnnbrasil.com.br&#x2f;eleicoes&#x2f;eduardo-bolsonaro-posta-video-em-ingles-questionando-virada-de-lula&#x2f;" target="_blank" rel="noopener">Eduardo Bolsonaro posta vídeo em inglês questionando virada de Lula</a> <span class="meta">— CNN Brasil, 26&#x2f;10 04:04</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.poder360.com.br&#x2f;poder-eleicoes-2026&#x2f;eduardo-bolsonaro-pede-que-estrangeiros-nao-reconhecam-eleicao&#x2f;" target="_blank" rel="noopener">Eduardo Bolsonaro pede que estrangeiros não reconheçam eleição</a> <span class="meta">— Poder360, 26&#x2f;10 08:27</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;revistaoeste.com&#x2f;politica&#x2f;eduardo-chama-de-inaceitavel-vitoria-de-lula-nas-eleicoes&#x2f;" target="_blank" rel="noopener">Eduardo chama de ‘inaceitável’ vitória de Lula nas eleições</a> <span class="meta">— Revista Oeste, 26&#x2f;10 08:13</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;aovivo.folha.uol.com.br&#x2f;poder-poder_e_politica&#x2f;2026&#x2f;10&#x2f;25&#x2f;6567-acompanhe-ao-vivo-o-segundo-turno-entre-flavio-bolsonaro-e-lula-nas-eleicoes-de-2026.shtml#post467876" target="_blank" rel="noopener">Eduardo Bolsonaro deixa live de apuração antes do fim da contagem de votos</a> <span class="meta">— Folha, 25&#x2f;10 21:34</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;aovivo.folha.uol.com.br&#x2f;poder-poder_e_politica&#x2f;2026&#x2f;10&#x2f;25&#x2f;6567-acompanhe-ao-vivo-o-segundo-turno-entre-flavio-bolsonaro-e-lula-nas-eleicoes-de-2026.shtml#post467910" target="_blank" rel="noopener">Flávio tem festa frustrada, e churrasco da vitória vira oração</a> <span class="meta">— Folha, 25&#x2f;10 22:27</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;aovivo.folha.uol.com.br&#x2f;poder-poder_e_politica&#x2f;2026&#x2f;10&#x2f;25&#x2f;6567-acompanhe-ao-vivo-o-segundo-turno-entre-flavio-bolsonaro-e-lula-nas-eleicoes-de-2026.shtml#post467866" target="_blank" rel="noopener">Clima de festa dá lugar a silêncio em local de apuração com Flávio Bolsonaro</a> <span class="meta">— Folha, 25&#x2f;10 21:18</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;news.google.com&#x2f;rss&#x2f;articles&#x2f;CBMi4gFBVV95cUxOMmtSSmNGdE9fZEEtVUp2RWhSempMNU8ybFZIazZtTURUUFZha2NPTzVhY29uemdBTVFEeURQRkQwV3JvTFotYmZ4eWMzRW9fc0ZDbFBmaHU3eWp1emM3bGZuMzdHMi1VZUxxcGg1dmVSaXc2RHc0U3ZpcG9LbGdfNnZwamszX2YxOHpqbHFHZWFCVWxoVlJYa0p3bVoweU1nOEJDZ0d5bVFGNl9Db3VWb2VfM0hiMlZrSU9ZbVFVaTZsUEZNWWdtbThiMkxyZU9PYmhNR1drWDdlNldNMHN1Q2NR?oc=5" target="_blank" rel="noopener">“Uma direita que fica dançando termina dançando na eleição”: Renan Santos ataca bolsonarismo após vitória de Lula</a> <span class="meta">— Classe Politica (via Google News), 26&#x2f;10 08:11</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;politica&#x2f;apos-reeleicao-de-lula-paulo-figueiredo-pede-que-bolsonaristas-nao-repitam-8-de-janeiro&#x2f;" target="_blank" rel="noopener">Após reeleição de Lula, Paulo Figueiredo pede que bolsonaristas não repitam 8 de Janeiro</a> <span class="meta">— CartaCapital, 25&#x2f;10 21:50</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;eleicoes&#x2f;2026&#x2f;pl-recusou-apoio-de-advogados-de-direita-a-fiscalizacao-eleitoral&#x2f;" target="_blank" rel="noopener">PL recusou apoio de advogados de direita à fiscalização eleitoral</a> <span class="meta">— Gazeta do Povo, 26&#x2f;10 09:02</span></li>
+    
+    </ul>
+    
+  </details>
+</article>
+
+<article id="t3">
+  
+  <h2><span class="n">3.</span>Zanin prorroga a votação até as 19h após falta de ônibus em várias cidades; TSE diz que a decisão exigiu medidas extraordinárias, e PF abre inquérito</h2>
+  <p class="cobertura">Cobertura (11):
+    <span class="l"><b>Imprensa mais à esquerda</b> — Brasil de Fato, CartaCapital</span><span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — Folha, G1, JOTA, Poder360</span><span class="l"><b>Imprensa mais à direita</b> — Gazeta do Povo, Revista Oeste</span><span class="l"><b>Fontes oficiais</b> — Agência Câmara, Agência Senado, STF — notícias oficiais</span>
+  </p>
+
+  <h3>O que aconteceu</h3>
+  <div class="contexto">
+  
+    <p>A liminar na RCL 101673 estendeu a votação até as 19h nos locais em que as urnas não tinham sido fechadas às 17h.<sup><a href="#t3r1" title="“O ministro Cristiano Zanin, do Supremo Tribunal Federal (STF), estendeu o período de votação até as 19h em todos os municípios brasileiros, nos locais onde as urnas não foram fechadas às 17h.” — STF — notícias oficiais">[1]</a></sup></p>
+  
+    <p>O pedido da coligação de Lula foi feito primeiro ao TSE, que não decidiu até as 17h; a decisão saiu quando muitas urnas já estavam fechadas.<sup><a href="#t3r2" title="“O pedido do PT foi feito originalmente ao Tribunal Superior Eleitoral (TSE), mas o partido entrou com uma reclamação no Supremo após o presidente do TSE, Kássio Nunes Marques, não decidir sobre o pedido até as 17h, o horário original de encerramento das urnas.” — JOTA">[2]</a></sup></p>
+  
+    <p>Kassio Nunes Marques disse que não havia norma que autorizasse a prorrogação e que foi preciso bloquear o recebimento dos boletins de urna.<sup><a href="#t3r3" title="“Segundo ele, não havia norma que autorizasse a prorrogação.” — Agência Câmara">[3]</a></sup></p>
+  
+    <p>A PF investiga a redução de ônibus em SP, AL, PI, SE e BA; em Salvador, o TRE-BA mandou prender o secretário de Mobilidade.<sup><a href="#t3r4" title="“Os casos envolvem São Paulo, Alagoas, Piauí, Sergipe e Bahia.” — CartaCapital">[4]</a></sup><sup><a href="#t3r5" title="“Já em Salvador, o Tribunal Regional Eleitoral da Bahia (TRE-BA) determinou a prisão do secretário municipal de Mobilidade, Pablo Souza, após problemas envolvendo a retenção de ônibus durante o segundo turno.” — Brasil de Fato">[5]</a></sup></p>
+  
+  </div>
+
+  <h3>Como cada campo político se posicionou</h3>
+  <div class="lados">
+  
+
+    <section class="lado" style="--cor: #2e7d32">
+      <h4>Pró-governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">JG</span></span><span>José Guimarães (PT), ministro das Relações Institucionais</span></div>
+        <p>Classificou como “caótica” a condução do episódio pelo TSE e defendeu apurar responsabilidades.<sup><a href="#t3r6">[6]</a></sup></p>
+        
+        <blockquote>“O ministro da Secretaria de Relações Institucionais, José Guimarães (PT), criticou a atuação de Nunes Marques e classificou como “caótica” a condução do episódio.”<cite><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;politica&#x2f;pt-defende-decisao-de-zanin-sobre-extensao-da-votacao-aliados-de-flavio-bolsonaro-falam-em-fraude&#x2f;" target="_blank" rel="noopener">CartaCapital</a></cite></blockquote>
+        
+      </div>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">LP</span></span><span>Lula (PT), presidente</span></div>
+        <p>Chamou a falta de ônibus de “banditismo” de prefeitos e reforçou o pedido de prorrogação.<sup><a href="#t3r5">[5]</a></sup></p>
+        
+        <blockquote>“Não vamos permitir que haja roubalheira, banditismo e prefeito bandido.”<cite><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;25&#x2f;lula-diz-que-falta-de-onibus-em-cidades-e-banditismo-e-pede-extensao-da-votacao&#x2f;" target="_blank" rel="noopener">Brasil de Fato</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+
+    <section class="lado" style="--cor: #81c784">
+      <h4>Centro pró-governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">DF</span></span><span>Danilo Forte (PP-CE), deputado</span></div>
+        <p>Atribuiu o resultado à insegurança jurídica e criticou a prorrogação.<sup><a href="#t3r7">[7]</a></sup></p>
+        
+        <blockquote>“Vemos um resultado que pode ter sido fruto dessa balbúrdia, de passar por cima do horário estipulado.”<cite><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;eleicoes&#x2f;2026&#x2f;parece-um-pesadelo-liderancas-da-direita-lamentam-vitoria-de-lula-mas-veem-chances-no-congresso&#x2f;" target="_blank" rel="noopener">Gazeta do Povo</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+        
+
+    <section class="lado" style="--cor: #e65100">
+      <h4>Oposição ao governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">RM</span></span><span>Rogério Marinho (PL-RN), senador e coordenador da campanha de Flávio</span></div>
+        <p>Disse que a decisão poderia representar um “golpe judiciário”.<sup><a href="#t3r6">[6]</a></sup></p>
+        
+        <blockquote>“Espero sinceramente que o bom senso prevaleça e qualquer golpe judiciário ou chicana administrativa não prospere pelo bem da democracia”<cite><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;politica&#x2f;pt-defende-decisao-de-zanin-sobre-extensao-da-votacao-aliados-de-flavio-bolsonaro-falam-em-fraude&#x2f;" target="_blank" rel="noopener">CartaCapital</a></cite></blockquote>
+        
+      </div>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">MH</span></span><span>Marcel van Hattem (Novo-RS), deputado e senador eleito</span></div>
+        <p>Disse que Zanin deu um “golpe” e anunciou busca de apoio para o impeachment do ministro, com Gustavo Gayer (PL-GO).<sup><a href="#t3r6">[6]</a></sup></p>
+        
+        <blockquote>“Ele e seu colega Gustavo Gayer (PL-GO) também anunciaram que buscarão apoios no Congresso para impichar Zanin.”<cite><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;politica&#x2f;pt-defende-decisao-de-zanin-sobre-extensao-da-votacao-aliados-de-flavio-bolsonaro-falam-em-fraude&#x2f;" target="_blank" rel="noopener">CartaCapital</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+
+    <section class="lado" style="--cor: #6a1b9a">
+      <h4>Independente — Missão &#x2f; MBL</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">RS</span></span><span>Renan Santos (Missão), ex-candidato à Presidência</span></div>
+        <p>Criticou a decisão de Zanin, mas disse que ela não comprova fraude.<sup><a href="#t3r8">[8]</a></sup></p>
+        
+        <blockquote>“Renan também criticou a decisão do ministro Cristiano Zanin, do Supremo Tribunal Federal, de ampliar a votação até as 19h. Disse, porém, que a medida não comprova fraude eleitoral.”<cite><a href="https:&#x2f;&#x2f;www.poder360.com.br&#x2f;poder-eleicoes-2026&#x2f;renan-santos-pede-que-direita-nao-va-a-atos-pro-flavio&#x2f;" target="_blank" rel="noopener">Poder360</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+
+    <section class="lado" style="--cor: #78909c">
+      <h4>Outros &#x2f; não classificável</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">MA</span></span><span>Marco Aurélio Mello, ministro aposentado do STF e do TSE</span></div>
+        <p>Disse que a prorrogação é “impensável” e aponta risco à segurança jurídica.<sup><a href="#t3r9">[9]</a></sup></p>
+        
+        <blockquote>“À Folha ele aponta risco à segurança jurídica com alteração da janela temporal de abertura das seções e diz ser responsabilidade do eleitor chegar a tempo aos locais de votação.”<cite><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;marco-aurelio-ex-presidente-do-stf-critica-ordem-de-zanin-e-diz-que-eleitor-deve-chegar-no-horario-correto.shtml" target="_blank" rel="noopener">Folha</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+  </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #9e9e9e"></i>Centro</span>, <span><i style="background: #ffb74d"></i>Centro-oposição</span>.</p>
+
+  <details>
+    <summary>Referências (9) e outras matérias sobre o tema (28)</summary>
+    <ol class="refs">
+    
+      <li id="t3r1"><a href="https:&#x2f;&#x2f;noticias.stf.jus.br&#x2f;postsnoticias&#x2f;stf-prorroga-votacao-ate-as-19h-em-locais-onde-urnas-permaneceram-abertas-apos-as-17h&#x2f;" target="_blank" rel="noopener">STF prorroga votação até as 19h em locais onde urnas permaneceram abertas após as 17h</a> <span class="meta">— STF — notícias oficiais, 25&#x2f;10 18:28</span></li>
+    
+      <li id="t3r2"><a href="https:&#x2f;&#x2f;www.jota.info&#x2f;eleicoes&#x2f;eleicoes-2026&#x2f;cristiano-zanin-esclarece-decisao-que-mandou-estender-votacao-ate-as-19h" target="_blank" rel="noopener">Cristiano Zanin esclarece decisão que mandou estender votação até as 19h</a> <span class="meta">— JOTA, 25&#x2f;10 18:27</span></li>
+    
+      <li id="t3r3"><a href="https:&#x2f;&#x2f;www.camara.leg.br&#x2f;noticias&#x2f;1313728-presidente-do-tse-afirma-que-a-decisao-de-prorrogar-a-votacao-exigiu-medidas-extraordinarias" target="_blank" rel="noopener">Presidente do TSE afirma que a decisão de prorrogar a votação exigiu medidas extraordinárias</a> <span class="meta">— Agência Câmara, 25&#x2f;10 22:42</span></li>
+    
+      <li id="t3r4"><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;politica&#x2f;pf-abre-inquerito-para-apurar-falta-de-onibus-durante-eleicoes-em-cinco-estados&#x2f;" target="_blank" rel="noopener">PF abre inquérito para apurar falta de ônibus durante eleições em cinco estados</a> <span class="meta">— CartaCapital, 25&#x2f;10 19:39</span></li>
+    
+      <li id="t3r5"><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;25&#x2f;lula-diz-que-falta-de-onibus-em-cidades-e-banditismo-e-pede-extensao-da-votacao&#x2f;" target="_blank" rel="noopener">Lula diz que falta de ônibus em cidades é ‘banditismo’ e pede extensão da votação</a> <span class="meta">— Brasil de Fato, 25&#x2f;10 15:50</span></li>
+    
+      <li id="t3r6"><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;politica&#x2f;pt-defende-decisao-de-zanin-sobre-extensao-da-votacao-aliados-de-flavio-bolsonaro-falam-em-fraude&#x2f;" target="_blank" rel="noopener">PT defende decisão de Zanin sobre extensão da votação; aliados de Flávio Bolsonaro falam em fraude</a> <span class="meta">— CartaCapital, 25&#x2f;10 19:55</span></li>
+    
+      <li id="t3r7"><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;eleicoes&#x2f;2026&#x2f;parece-um-pesadelo-liderancas-da-direita-lamentam-vitoria-de-lula-mas-veem-chances-no-congresso&#x2f;" target="_blank" rel="noopener">“Parece um pesadelo”: aliados de Flávio lamentam resultado, mas veem chance no Congresso</a> <span class="meta">— Gazeta do Povo, 25&#x2f;10 22:34</span></li>
+    
+      <li id="t3r8"><a href="https:&#x2f;&#x2f;www.poder360.com.br&#x2f;poder-eleicoes-2026&#x2f;renan-santos-pede-que-direita-nao-va-a-atos-pro-flavio&#x2f;" target="_blank" rel="noopener">Renan Santos pede que direita não vá a atos pró-Flávio</a> <span class="meta">— Poder360, 26&#x2f;10 07:32</span></li>
+    
+      <li id="t3r9"><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;marco-aurelio-ex-presidente-do-stf-critica-ordem-de-zanin-e-diz-que-eleitor-deve-chegar-no-horario-correto.shtml" target="_blank" rel="noopener">Marco Aurélio, ex-presidente do STF, critica ordem de Zanin e diz que eleitor deve chegar no horário correto</a> <span class="meta">— Folha, 25&#x2f;10 23:31</span></li>
+    
+    </ol>
+    
+    <ul class="rel">
+    
+      <li><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;25&#x2f;zanin-prorroga-votacao-ate-as-19h-em-todo-o-pais&#x2f;" target="_blank" rel="noopener">Zanin prorroga votação até as 19h em todos os locais onde urnas não foram fechadas</a> <span class="meta">— Brasil de Fato, 25&#x2f;10 17:16</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;eleicoes&#x2f;2026&#x2f;stf-concede-liminar-e-prorroga-votacao-ate-as-19h-em-todo-o-brasil&#x2f;" target="_blank" rel="noopener">Zanin esclarece decisão e diz que votação até 19h vale para locais onde urnas ainda estão abertas</a> <span class="meta">— Gazeta do Povo, 25&#x2f;10 19:06</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;25&#x2f;nunes-marques-segue-zanin-e-orienta-tres-a-manter-abertas-ate-19h-secoes-que-ainda-nao-tinham-encerrado-a-votacao&#x2f;" target="_blank" rel="noopener">Nunes Marques segue Zanin e orienta TREs a manter abertas até 19h seções que ainda não tinham encerrado a votação</a> <span class="meta">— Brasil de Fato, 25&#x2f;10 18:23</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www12.senado.leg.br&#x2f;noticias&#x2f;videos&#x2f;2026&#x2f;10&#x2f;nunes-marques-explica-como-tse-tratou-decisao-de-prorrogar-horario-da-eleicao" target="_blank" rel="noopener">Vídeo: Nunes Marques explica como TSE tratou decisão de prorrogar horário da eleição</a> <span class="meta">— Agência Senado, 25&#x2f;10 22:22</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;26&#x2f;demora-de-kassio-e-decisao-de-zanin-provocam-criticas-nos-tribunais-e-reuniao-de-emergencia-no-tse.ghtml" target="_blank" rel="noopener">Demora de Kassio e decisão de Zanin provocam críticas nos tribunais e reunião de emergência no TSE</a> <span class="meta">— G1, 26&#x2f;10 01:52</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.jota.info&#x2f;eleicoes&#x2f;eleicoes-2026&#x2f;a-linha-do-tempo-das-decisoes-do-stf-e-do-tse-sobre-prorrogacao-do-horario-de-votacao" target="_blank" rel="noopener">A linha do tempo das decisões do STF e do TSE sobre prorrogação do horário de votação</a> <span class="meta">— JOTA, 25&#x2f;10 20:18</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;decisao-de-zanin-endosso-de-kassio-e-contestacao-de-flavio-no-2o-turno-veja-linha-do-tempo.shtml" target="_blank" rel="noopener">Decisão de Zanin, endosso de Kassio e contestação de Flávio no 2º turno; veja linha do tempo</a> <span class="meta">— Folha, 26&#x2f;10 04:00</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;decisao-de-prorrogar-votacao-deixa-perguntas-sem-respostas-sobre-2o-turno.shtml" target="_blank" rel="noopener">Decisão de prorrogar votação deixa perguntas sem respostas sobre 2º turno</a> <span class="meta">— Folha, 25&#x2f;10 21:24</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;aovivo.folha.uol.com.br&#x2f;poder-poder_e_politica&#x2f;2026&#x2f;10&#x2f;25&#x2f;6567-acompanhe-ao-vivo-o-segundo-turno-entre-flavio-bolsonaro-e-lula-nas-eleicoes-de-2026.shtml#post467875" target="_blank" rel="noopener">Decisão de prorrogar votação deixa perguntas sem respostas sobre 2º turno</a> <span class="meta">— Folha, 25&#x2f;10 21:32</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;prorrogacao-inedita-de-votacao-apos-relatos-de-falta-de-onibus-pode-levar-a-contestacoes-juridicas.shtml" target="_blank" rel="noopener">Prorrogação inédita de votação após relatos de falta de ônibus pode levar a contestações jurídicas</a> <span class="meta">— Folha, 25&#x2f;10 22:02</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;eleicoes&#x2f;2026&#x2f;decisao-de-zanin-que-estendeu-votacao-abre-brecha-para-anular-eleicoes&#x2f;" target="_blank" rel="noopener">Decisão de Zanin que estendeu votação abre brecha para anular eleição</a> <span class="meta">— Gazeta do Povo, 25&#x2f;10 19:48</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;eleicoes&#x2f;2026&#x2f;pressao-de-lula-faz-zanin-atropelar-tse-estender-votacao-e-atrasar-apuracao&#x2f;" target="_blank" rel="noopener">Pressão de Lula faz Zanin atropelar TSE, estender votação e atrasar apuração</a> <span class="meta">— Gazeta do Povo, 25&#x2f;10 19:18</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;25&#x2f;nikolas-ferreira-e-figuras-da-extrema-direita-atacam-zanin-e-ameacam-processo-eleitoral-ou-a-gente-ganha-ou-a-gente-ganha&#x2f;" target="_blank" rel="noopener">Nikolas Ferreira e figuras da extrema direita atacam Zanin e ameaçam processo eleitoral: ‘Ou a gente ganha, ou a gente ganha’</a> <span class="meta">— Brasil de Fato, 25&#x2f;10 19:58</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;revistaoeste.com&#x2f;politica&#x2f;pf-continua-com-investigacoes-sobre-restricao-ao-transporte-de-eleitores&#x2f;" target="_blank" rel="noopener">PF continua com investigações sobre restrição ao transporte de eleitores</a> <span class="meta">— Revista Oeste, 26&#x2f;10 08:06</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;falhas-no-transporte-afetam-cidades-e-marcam-segundo-turno-das-eleicoes-veja-relatos.shtml" target="_blank" rel="noopener">Falhas no transporte afetam cidades e marcam segundo turno das eleições; veja relatos</a> <span class="meta">— Folha, 25&#x2f;10 21:28</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;25&#x2f;presidente-do-pt-sp-lamenta-falta-de-onibus-transporte-gratuito-serve-para-preservar-a-democracia&#x2f;" target="_blank" rel="noopener">Presidente do PT-SP lamenta falta de ônibus: ‘Transporte gratuito serve para preservar a democracia’</a> <span class="meta">— Brasil de Fato, 25&#x2f;10 20:43</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;25&#x2f;deputada-samia-bomfim-pede-prisao-de-ricardo-nunes-por-descumprir-ordem-de-colocar-100-dos-onibus-de-sp-nas-ruas-na-eleicao&#x2f;" target="_blank" rel="noopener">Deputada Sâmia Bomfim pede prisão de Ricardo Nunes por descumprir ordem de colocar 100% dos ônibus de SP nas ruas na eleição</a> <span class="meta">— Brasil de Fato, 25&#x2f;10 16:49</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;25&#x2f;coligacao-de-lula-pede-ao-tse-extensao-do-horario-de-votacao-em-cidades-de-10-estados&#x2f;" target="_blank" rel="noopener">Coligação de Lula pede ao TSE extensão do horário de votação em cidades de 10 estados</a> <span class="meta">— Brasil de Fato, 25&#x2f;10 16:33</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;25&#x2f;apos-denuncias-de-falta-de-onibus-nunes-marques-nao-descarta-estender-horario-de-votacao&#x2f;" target="_blank" rel="noopener">Após denúncias de falta de ônibus, Nunes Marques não descarta estender horário de votação</a> <span class="meta">— Brasil de Fato, 25&#x2f;10 16:12</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;25&#x2f;demora-na-prorrogacao-do-tempo-de-urna-pode-provocar-pedidos-de-anulacao-das-eleicoes&#x2f;" target="_blank" rel="noopener">Demora na prorrogação do tempo de urna pode provocar pedidos de anulação das eleições</a> <span class="meta">— Brasil de Fato, 25&#x2f;10 19:43</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.jota.info&#x2f;eleicoes&#x2f;eleicoes-2026&#x2f;urnas-lacradas-os-relatos-de-eleitores-e-mesarios-confusos-apos-decisao-de-zanin" target="_blank" rel="noopener">Urnas lacradas: os relatos de eleitores e mesários confusos após decisão de Zanin</a> <span class="meta">— JOTA, 25&#x2f;10 23:07</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;eleicoes&#x2f;2026&#x2f;tse-paralisa-apuracao-apos-zanin-prorrogar-votacao&#x2f;" target="_blank" rel="noopener">TSE paralisa apuração após decisão de Zanin; totalização será retomada às 19h</a> <span class="meta">— Gazeta do Povo, 25&#x2f;10 18:01</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;25&#x2f;tse-pausa-divulgacao-de-resultados-com-025-das-urnas-apuradas-apos-zanin-estender-votacao-ate-as-19h&#x2f;" target="_blank" rel="noopener">TSE pausa divulgação de resultados com 0,25% das urnas apuradas após Zanin estender votação até as 19h</a> <span class="meta">— Brasil de Fato, 25&#x2f;10 17:45</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;25&#x2f;tse-retoma-apuracao-dos-resultados-do-segundo-turno-acompanhe&#x2f;" target="_blank" rel="noopener">TSE retoma apuração dos resultados do segundo turno; acompanhe</a> <span class="meta">— Brasil de Fato, 25&#x2f;10 19:20</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;politica&#x2f;em-pronunciamento-nunes-marques-critica-decisao-de-zanin-que-alterou-horario-de-votacao&#x2f;" target="_blank" rel="noopener">Em pronunciamento, Nunes Marques critica decisão de Zanin que alterou horário de votação</a> <span class="meta">— CartaCapital, 25&#x2f;10 22:30</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.jota.info&#x2f;eleicoes&#x2f;eleicoes-2026&#x2f;nunes-marques-fala-em-absoluta-seguranca-do-processo-eleitoral-mesmo-com-prorrogacao" target="_blank" rel="noopener">Nunes Marques fala em ‘absoluta segurança’ do processo eleitoral mesmo com prorrogação</a> <span class="meta">— JOTA, 25&#x2f;10 22:46</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;no-zap-esquerda-mobiliza-para-prorrogar-votacao-e-direita-fala-em-tapetao.shtml" target="_blank" rel="noopener">No &#x27;zap&#x27;, esquerda se mobilizou por prorrogação de votação, e direita fala em &#x27;tapetão&#x27;</a> <span class="meta">— Folha, 25&#x2f;10 23:07</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;tv&#x2f;2026&#x2f;10&#x2f;kassio-nunes-marques-agiu-como-juiz-burocrata-diz-colunista-da-folha.shtml" target="_blank" rel="noopener">Kassio Nunes Marques agiu como juiz burocrata, diz colunista da Folha</a> <span class="meta">— Folha, 25&#x2f;10 21:35</span></li>
+    
+    </ul>
+    
+  </details>
+</article>
+
+<article id="t4">
+  
+  <h2><span class="n">4.</span>Repercussão internacional: líderes da América Latina, Europa, Rússia e China parabenizam Lula; Trump não se manifesta, e aliados dele questionam a prorrogação</h2>
+  <p class="cobertura">Cobertura (8):
+    <span class="l"><b>Imprensa mais à esquerda</b> — Brasil de Fato, CartaCapital</span><span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — CNN Brasil, Folha, G1, Poder360</span><span class="l"><b>Imprensa mais à direita</b> — Gazeta do Povo, Revista Oeste</span>
+  </p>
+
+  <h3>O que aconteceu</h3>
+  <div class="contexto">
+  
+    <p>Presidentes de direita da Colômbia, do Equador, do Chile, do Paraguai e da Bolívia parabenizaram Lula.<sup><a href="#t4r1" title="“Entre eles estão os presidentes da Colômbia, Abelardo de la Espriella, do Equador, Daniel Noboa, do Chile, José Antonio Kast, do Paraguai, Santiago Peña, e da Bolívia, Rodrigo Paz.” — G1">[1]</a></sup></p>
+  
+    <p>Macron e o Kremlin felicitaram Lula; Putin chamou-o de “prezado amigo” em carta.<sup><a href="#t4r2" title="“A presidência russa parabenizou nesta segunda-feira Lula pela reeleição.” — G1">[2]</a></sup><sup><a href="#t4r3" title="“A mensagem de Putin, enviada em formato de carta, intitula o presidente brasileiro como “prezado amigo”.” — Brasil de Fato">[3]</a></sup></p>
+  
+    <p>Até a manhã de segunda, Trump não havia comentado a vitória; no domingo, disse que estava “monitorando” a eleição.<sup><a href="#t4r4" title="“Até a manhã desta segunda-feira (26), o presidente Trump, alinhado ideologicamente ao senador Flávio Bolsonaro (PL), não havia se pronunciado sobre a vitória” — CNN Brasil">[4]</a></sup><sup><a href="#t4r5" title="“Não quero entrar nesse assunto, mas estamos monitorando” — Brasil de Fato">[5]</a></sup></p>
+  
+    <p>Jason Miller, conselheiro de Trump, divulgou o discurso de Flávio em inglês; o chanceler de Israel, Gideon Sa&#x27;ar, citou as acusações de genocídio feitas por Lula.<sup><a href="#t4r6" title="“Jason Miller, conselheiro político do presidente dos Estados Unidos, Donald Trump (Partido Republicano), compartilhou no X uma tradução em inglês do discurso” — Poder360">[6]</a></sup><sup><a href="#t4r7" title="“O presidente brasileiro Lula acusou Israel de cometer um genocídio em Gaza, traçando um paralelo com o Holocausto” — Gazeta do Povo">[7]</a></sup></p>
+  
+  </div>
+
+  <h3>Como cada campo político se posicionou</h3>
+  <div class="lados">
+  
+
+    <section class="lado" style="--cor: #2e7d32">
+      <h4>Pró-governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">LP</span></span><span>Lula (PT), presidente reeleito</span></div>
+        <p>Disse que venceu a “intromissão vinda de fora” por meio de plataformas digitais.<sup><a href="#t4r8">[8]</a></sup></p>
+        
+        <blockquote>“Nessa eleição, a gente teve que vencer a intromissão vinda de fora para dentro, através de plataformas digitais, que nós vamos ter que regular”<cite><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;25&#x2f;lula-fala-pela-1a-vez-apos-vitoria-vamos-mudar-o-jeito-de-governar-vamos-fazer-o-povo-participar-mais&#x2f;" target="_blank" rel="noopener">Brasil de Fato</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+          
+
+    <section class="lado" style="--cor: #e65100">
+      <h4>Oposição ao governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">EB</span></span><span>Eduardo Bolsonaro (PL), ex-deputado</span></div>
+        <p>Pediu pressão internacional para que o resultado não seja reconhecido.<sup><a href="#t4r9">[9]</a></sup></p>
+        
+        <blockquote>“Na sequência, ele pede o cancelamento da eleição e uma mobilização fora do país.”<cite><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;26&#x2f;em-video-em-ingles-eduardo-bolsonaro-diz-que-eleicao-foi-fraudada-e-pede-pressao-internacional.ghtml" target="_blank" rel="noopener">G1</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+      
+
+    <section class="lado" style="--cor: #78909c">
+      <h4>Outros &#x2f; não classificável</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">DT</span></span><span>Donald Trump Jr., filho do presidente dos EUA</span></div>
+        <p>Criticou a extensão do horário e o silêncio da imprensa americana.<sup><a href="#t4r4">[4]</a></sup></p>
+        
+        <blockquote>“Se um governo conservador no Brasil fizesse isso, todo mundo na imprensa mainstream americana perderia a cabeça”<cite><a href="https:&#x2f;&#x2f;www.cnnbrasil.com.br&#x2f;internacional&#x2f;filho-de-trump-critica-decisao-do-stf-sobre-horario-de-votacao-no-brasil&#x2f;" target="_blank" rel="noopener">CNN Brasil</a></cite></blockquote>
+        
+      </div>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">AE</span></span><span>Abelardo de la Espriella, presidente da Colômbia</span></div>
+        <p>Disse não ter afinidade com Lula, mas reconheceu o resultado e defendeu a cooperação.<sup><a href="#t4r1">[1]</a></sup></p>
+        
+        <blockquote>“Abelardo de la Espriella afirmou que ele e Lula não têm afinidade e são de lados opostos do espectro político, porém reconheceu o resultado e estendeu a mão para que os países continuem cooperando.”<cite><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;mundo&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;26&#x2f;peru-chile-equador-bolivia-paraguai-lideres-da-direita-parabenizam-lula-que-contrariou-a-onda-azul-na-america-latina.ghtml" target="_blank" rel="noopener">G1</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+  </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #81c784"></i>Centro pró-governo</span>, <span><i style="background: #9e9e9e"></i>Centro</span>, <span><i style="background: #ffb74d"></i>Centro-oposição</span>, <span><i style="background: #6a1b9a"></i>Independente — Missão &#x2f; MBL</span>.</p>
+
+  <details>
+    <summary>Referências (9) e outras matérias sobre o tema (15)</summary>
+    <ol class="refs">
+    
+      <li id="t4r1"><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;mundo&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;26&#x2f;peru-chile-equador-bolivia-paraguai-lideres-da-direita-parabenizam-lula-que-contrariou-a-onda-azul-na-america-latina.ghtml" target="_blank" rel="noopener">Líderes da direita na América Latina parabenizam Lula, que contrariou a &#x27;onda azul&#x27; no continente</a> <span class="meta">— G1, 26&#x2f;10 00:36</span></li>
+    
+      <li id="t4r2"><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;mundo&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;25&#x2f;lideres-mundiais-parabenizam-lula-pela-reeleicao-veja-repercussao.ghtml" target="_blank" rel="noopener">Presidentes da França, Canadá, Peru, Chile, Rússia e mais países parabenizam Lula; veja repercussão</a> <span class="meta">— G1, 25&#x2f;10 21:30</span></li>
+    
+      <li id="t4r3"><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;26&#x2f;putin-parabeniza-lula-pela-reeleicao-e-elogia-protecao-da-soberania-brasileira&#x2f;" target="_blank" rel="noopener">Putin parabeniza Lula pela reeleição e elogia ‘proteção da soberania’ brasileira</a> <span class="meta">— Brasil de Fato, 26&#x2f;10 08:10</span></li>
+    
+      <li id="t4r4"><a href="https:&#x2f;&#x2f;www.cnnbrasil.com.br&#x2f;internacional&#x2f;filho-de-trump-critica-decisao-do-stf-sobre-horario-de-votacao-no-brasil&#x2f;" target="_blank" rel="noopener">Filho de Trump critica extensão do horário de votação no Brasil</a> <span class="meta">— CNN Brasil, 26&#x2f;10 07:52</span></li>
+    
+      <li id="t4r5"><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;25&#x2f;apoiador-de-flavio-bolsonaro-trump-diz-que-esta-monitorando-eleicoes-no-brasil&#x2f;" target="_blank" rel="noopener">Apoiador de Flávio Bolsonaro, Trump diz que está monitorando eleições no Brasil</a> <span class="meta">— Brasil de Fato, 25&#x2f;10 15:44</span></li>
+    
+      <li id="t4r6"><a href="https:&#x2f;&#x2f;www.poder360.com.br&#x2f;poder-eleicoes-2026&#x2f;conselheiro-de-trump-divulga-discurso-de-flavio-em-ingles&#x2f;" target="_blank" rel="noopener">Conselheiro de Trump divulga discurso de Flávio em inglês</a> <span class="meta">— Poder360, 26&#x2f;10 09:00</span></li>
+    
+      <li id="t4r7"><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;mundo&#x2f;israel-lembra-acusacoes-genocidio-feitas-lula-diz-ele-age-contra-pais&#x2f;" target="_blank" rel="noopener">Israel lembra acusações de genocídio feitas por Lula e diz que ele age contra o país</a> <span class="meta">— Gazeta do Povo, 26&#x2f;10 08:23</span></li>
+    
+      <li id="t4r8"><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;25&#x2f;lula-fala-pela-1a-vez-apos-vitoria-vamos-mudar-o-jeito-de-governar-vamos-fazer-o-povo-participar-mais&#x2f;" target="_blank" rel="noopener">Lula fala pela 1ª vez após vitória: ‘Vamos mudar o jeito de governar, vamos fazer o povo participar mais’</a> <span class="meta">— Brasil de Fato, 25&#x2f;10 22:55</span></li>
+    
+      <li id="t4r9"><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;26&#x2f;em-video-em-ingles-eduardo-bolsonaro-diz-que-eleicao-foi-fraudada-e-pede-pressao-internacional.ghtml" target="_blank" rel="noopener">Em vídeo em inglês, Eduardo Bolsonaro diz que eleição foi fraudada e pede pressão internacional</a> <span class="meta">— G1, 26&#x2f;10 04:36</span></li>
+    
+    </ol>
+    
+    <ul class="rel">
+    
+      <li><a href="https:&#x2f;&#x2f;revistaoeste.com&#x2f;mundo&#x2f;presidentes-latino-americanos-parabenizam-lula-pela-reeleicao&#x2f;" target="_blank" rel="noopener">Presidentes latino-americanos parabenizam Lula pela reeleição</a> <span class="meta">— Revista Oeste, 26&#x2f;10 09:07</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;carta-capital&#x2f;lideres-latino-americanos-saudam-lula-pela-vitoria&#x2f;" target="_blank" rel="noopener">Líderes latino-americanos saúdam Lula pela vitória</a> <span class="meta">— CartaCapital, 26&#x2f;10 08:09</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;25&#x2f;lideres-estrangeiros-comemoram-reeleicao-de-lula-e-destacam-defesa-da-democracia-fascismo-foi-detido&#x2f;" target="_blank" rel="noopener">Líderes estrangeiros comemoram reeleição de Lula e destacam defesa da democracia: ‘Fascismo foi detido’</a> <span class="meta">— Brasil de Fato, 25&#x2f;10 21:58</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;cartaexpressa&#x2f;kremlin-celebra-vitoria-do-presidente-lula&#x2f;" target="_blank" rel="noopener">Kremlin celebra vitória do presidente Lula</a> <span class="meta">— CartaCapital, 26&#x2f;10 08:28</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;26&#x2f;china-parabeniza-reeleicao-de-lula-e-diz-que-respeita-a-decisao-do-povo-brasileiro&#x2f;" target="_blank" rel="noopener">China parabeniza reeleição de Lula e diz que respeita a decisão do povo brasileiro</a> <span class="meta">— Brasil de Fato, 26&#x2f;10 04:36</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;aovivo.folha.uol.com.br&#x2f;poder-poder_e_politica&#x2f;2026&#x2f;10&#x2f;25&#x2f;6567-acompanhe-ao-vivo-o-segundo-turno-entre-flavio-bolsonaro-e-lula-nas-eleicoes-de-2026.shtml#post467919" target="_blank" rel="noopener">Bernie Sanders parabeniza Lula e fala em &#x27;extraordinária vitória&#x27;</a> <span class="meta">— Folha, 25&#x2f;10 22:34</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;mundo&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;26&#x2f;repercute-imprensa-internacional-reeleicao-lula-dia-seguinte.ghtml" target="_blank" rel="noopener">‘O líder político mais influente da América Latina freia avanço da direita’: imprensa mundial repercute reeleição de Lula</a> <span class="meta">— G1, 26&#x2f;10 07:59</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;politica&#x2f;imprensa-internacional-repercute-a-vitoria-historica-de-lula&#x2f;" target="_blank" rel="noopener">Imprensa internacional repercute a vitória histórica de Lula</a> <span class="meta">— CartaCapital, 25&#x2f;10 23:29</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;25&#x2f;reviravolta-chocante-imprensa-internacional-repercute-vitoria-de-lula-contra-flavio-bolsonaro&#x2f;" target="_blank" rel="noopener">‘Reviravolta chocante’: imprensa internacional repercute vitória de Lula contra Flávio Bolsonaro</a> <span class="meta">— Brasil de Fato, 25&#x2f;10 21:53</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;25&#x2f;imprensa-internacional-repercute-confusao-apos-extensao-da-votacao-no-brasil&#x2f;" target="_blank" rel="noopener">Imprensa internacional repercute confusão após extensão da votação no Brasil</a> <span class="meta">— Brasil de Fato, 25&#x2f;10 20:16</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;eleicoes&#x2f;2026&#x2f;imprensa-internacional-destaca-confusao-criada-por-zanin-na-eleicao-brasileira&#x2f;" target="_blank" rel="noopener">Imprensa internacional destaca confusão criada por Zanin na eleição brasileira</a> <span class="meta">— Gazeta do Povo, 25&#x2f;10 19:31</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;eleicoes&#x2f;2026&#x2f;advogado-de-trump-questiona-decisao-de-zanin-sobre-horario-de-votacao-no-brasil&#x2f;" target="_blank" rel="noopener">Advogado de Trump questiona decisão de Zanin sobre horário de votação no Brasil</a> <span class="meta">— Gazeta do Povo, 25&#x2f;10 19:41</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;com-vitoria-de-lula-brasil-freia-onda-pro-trump-na-america-latina.shtml" target="_blank" rel="noopener">Com vitória de Lula, Brasil freia onda pró-Trump na América Latina</a> <span class="meta">— Folha, 25&#x2f;10 21:18</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;revistaoeste.com&#x2f;politica&#x2f;relacao-com-trump-e-minerais-criticos-desafiam-diplomacia-de-lula-no-4o-mandato&#x2f;" target="_blank" rel="noopener">Relação com Trump e minerais críticos desafiam diplomacia de Lula no 4º mandato</a> <span class="meta">— Revista Oeste, 26&#x2f;10 09:30</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.cnnbrasil.com.br&#x2f;eleicoes&#x2f;de-terras-raras-ao-tarifaco-os-desafios-de-lula-na-politica-externa&#x2f;" target="_blank" rel="noopener">De terras raras ao tarifaço: os desafios de Lula na política externa</a> <span class="meta">— CNN Brasil, 26&#x2f;10 04:00</span></li>
+    
+    </ul>
+    
+  </details>
+</article>
+
+<article id="t5">
+  
+  <h2><span class="n">5.</span>Mercado reage à reeleição: real cai no mercado futuro, ações brasileiras recuam no exterior e JP Morgan rebaixa recomendação; equipe econômica estuda ajuste fiscal</h2>
+  <p class="cobertura">Cobertura (6):
+    <span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — CNN Brasil, Folha, G1, Poder360</span><span class="l"><b>Imprensa mais à direita</b> — Gazeta do Povo, Revista Oeste</span>
+  </p>
+
+  <h3>O que aconteceu</h3>
+  <div class="contexto">
+  
+    <p>Na madrugada, o contrato futuro do real para novembro caía 10,09% em Chicago.<sup><a href="#t5r1" title="“Por volta das 3h40 (pelo horário de Brasília), o contrato com vencimento em novembro de 2026 tombava 10,09%” — Revista Oeste">[1]</a></sup></p>
+  
+    <p>O JP Morgan rebaixou o real e os títulos públicos de “overweight” para “marketweight”.<sup><a href="#t5r2" title="“O JP Morgan rebaixou a recomendação do real e dos títulos públicos nacionais de “overweight” para “marketweight”” — CNN Brasil">[2]</a></sup></p>
+  
+    <p>A equipe econômica trabalha em três medidas: redução de incentivos fiscais, racionalização de benefícios sociais e mudança nos pisos de saúde e educação.<sup><a href="#t5r3" title="“A equipe econômica do governo Lula trabalha em pelo menos três medidas de ajuste fiscal: redução de incentivos fiscais, racionalização de benefícios sociais e uma mexida “por dentro” dos pisos constitucionais da saúde e da educação.” — CNN Brasil">[3]</a></sup></p>
+  
+    <p>O Planejamento estima remanejar cerca de R$ 20 bilhões do Orçamento de 2027 para medidas anunciadas na campanha.<sup><a href="#t5r4" title="“O Ministério do Planejamento e Orçamento estima que será necessário remanejar cerca de R$ 20 bilhões do Orçamento de 2027 para custear medidas anunciadas nas últimas semanas.” — CNN Brasil">[4]</a></sup></p>
+  
+  </div>
+
+  <h3>Como cada campo político se posicionou</h3>
+  <div class="lados">
+  
+
+    <section class="lado" style="--cor: #2e7d32">
+      <h4>Pró-governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">DD</span></span><span>Dario Durigan (PT), ministro da Fazenda</span></div>
+        <p>Procurou economistas ortodoxos e quer reuni-los numa “mesa de discussões” antes do novo mandato.<sup><a href="#t5r3">[3]</a></sup></p>
+        
+        <blockquote>“Durigan quer convidá-los, antes do início do governo Lula 4, para uma “mesa de discussões” para continuar e aprofundar essas conversas.”<cite><a href="https:&#x2f;&#x2f;www.cnnbrasil.com.br&#x2f;economia&#x2f;equipe-economica-avalia-mesa-com-ortodoxos-e-tripe-de-medidas-de-ajuste&#x2f;" target="_blank" rel="noopener">CNN Brasil</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+
+    <section class="lado" style="--cor: #81c784">
+      <h4>Centro pró-governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">MM</span></span><span>Mauro Mendes (União-MT), senador eleito</span></div>
+        <p>Disse que o país está numa grave crise fiscal e que a escolha trará graves consequências.<sup><a href="#t5r5">[5]</a></sup></p>
+        
+        <blockquote>“O Brasil está hoje mergulhado em uma grave crise fiscal, juros altíssimos, dívida pública que ultrapassa R$ 11 trilhões.”<cite><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;eleicoes&#x2f;2026&#x2f;parece-um-pesadelo-liderancas-da-direita-lamentam-vitoria-de-lula-mas-veem-chances-no-congresso&#x2f;" target="_blank" rel="noopener">Gazeta do Povo</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+        
+
+    <section class="lado" style="--cor: #e65100">
+      <h4>Oposição ao governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">RZ</span></span><span>Romeu Zema (Novo), ex-candidato à Presidência</span></div>
+        <p>Afirmou que o resultado terá consequências negativas para o país.<sup><a href="#t5r6">[6]</a></sup></p>
+        
+        <blockquote>“Zema também afirmou que o resultado terá consequências negativas para o país”<cite><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;26&#x2f;caiado-zema-e-renan-santos-repercutem-vitoria-de-lula.ghtml" target="_blank" rel="noopener">G1</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+      
+
+    <section class="lado" style="--cor: #78909c">
+      <h4>Outros &#x2f; não classificável</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">WJ</span></span><span>William Jackson, economista-chefe da Capital Economics</span></div>
+        <p>Disse que a vitória de Lula frustra as esperanças de reformas fiscais.<sup><a href="#t5r7">[7]</a></sup></p>
+        
+        <blockquote>“A vitória surpreendente de Lula vai frustrar as esperanças de reformas que melhorariam as finanças públicas e fortaleceriam as perspectivas de crescimento”<cite><a href="https:&#x2f;&#x2f;www.cnnbrasil.com.br&#x2f;economia&#x2f;money&#x2f;mercado&#x2f;adrs-de-empresas-brasileiras-despencam-mais-de-20-apos-vitoria-de-lula&#x2f;" target="_blank" rel="noopener">CNN Brasil</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+  </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #9e9e9e"></i>Centro</span>, <span><i style="background: #ffb74d"></i>Centro-oposição</span>, <span><i style="background: #6a1b9a"></i>Independente — Missão &#x2f; MBL</span>.</p>
+
+  <details>
+    <summary>Referências (7) e outras matérias sobre o tema (7)</summary>
+    <ol class="refs">
+    
+      <li id="t5r1"><a href="https:&#x2f;&#x2f;revistaoeste.com&#x2f;economia&#x2f;real-desaba-10-no-mercado-futuro-e-bolsa-se-prepara-para-terremoto-pos-lula&#x2f;" target="_blank" rel="noopener">Real desaba 10% no mercado futuro e bolsa se prepara para ‘terremoto’ pós-Lula</a> <span class="meta">— Revista Oeste, 26&#x2f;10 09:25</span></li>
+    
+      <li id="t5r2"><a href="https:&#x2f;&#x2f;www.cnnbrasil.com.br&#x2f;economia&#x2f;money&#x2f;mercado&#x2f;jp-morgan-rebaixa-recomendacao-do-real-e-de-titulos-apos-vitoria-de-lula&#x2f;" target="_blank" rel="noopener">JP Morgan rebaixa recomendação do real e de títulos após vitória de Lula</a> <span class="meta">— CNN Brasil, 26&#x2f;10 08:08</span></li>
+    
+      <li id="t5r3"><a href="https:&#x2f;&#x2f;www.cnnbrasil.com.br&#x2f;economia&#x2f;equipe-economica-avalia-mesa-com-ortodoxos-e-tripe-de-medidas-de-ajuste&#x2f;" target="_blank" rel="noopener">Equipe econômica avalia “mesa com ortodoxos” e tripé de medidas de ajuste</a> <span class="meta">— CNN Brasil, 26&#x2f;10 05:07</span></li>
+    
+      <li id="t5r4"><a href="https:&#x2f;&#x2f;www.cnnbrasil.com.br&#x2f;economia&#x2f;money&#x2f;macroeconomia&#x2f;lula-reeleito-tera-de-remanejar-r-20-bi-do-orcamento-para-pagar-bondades&#x2f;" target="_blank" rel="noopener">Lula reeleito terá de remanejar R$ 20 bi do Orçamento para pagar “bondades”</a> <span class="meta">— CNN Brasil, 26&#x2f;10 04:30</span></li>
+    
+      <li id="t5r5"><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;eleicoes&#x2f;2026&#x2f;parece-um-pesadelo-liderancas-da-direita-lamentam-vitoria-de-lula-mas-veem-chances-no-congresso&#x2f;" target="_blank" rel="noopener">“Parece um pesadelo”: aliados de Flávio lamentam resultado, mas veem chance no Congresso</a> <span class="meta">— Gazeta do Povo, 25&#x2f;10 22:34</span></li>
+    
+      <li id="t5r6"><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;26&#x2f;caiado-zema-e-renan-santos-repercutem-vitoria-de-lula.ghtml" target="_blank" rel="noopener">Eleições 2026: Caiado, Zema e Renan Santos repercutem vitória de Lula; Cury não se manifestou</a> <span class="meta">— G1, 26&#x2f;10 08:38</span></li>
+    
+      <li id="t5r7"><a href="https:&#x2f;&#x2f;www.cnnbrasil.com.br&#x2f;economia&#x2f;money&#x2f;mercado&#x2f;adrs-de-empresas-brasileiras-despencam-mais-de-20-apos-vitoria-de-lula&#x2f;" target="_blank" rel="noopener">Empresas brasileiras despencam mais de 20% no exterior após vitória de Lula</a> <span class="meta">— CNN Brasil, 26&#x2f;10 07:42</span></li>
+    
+    </ol>
+    
+    <ul class="rel">
+    
+      <li><a href="https:&#x2f;&#x2f;revistaoeste.com&#x2f;politica&#x2f;lula-tera-de-remanejar-r-20-bi-no-orcamento-de-2027-para-bancar-promessas&#x2f;" target="_blank" rel="noopener">Lula tem de remanejar R$ 20 bi no Orçamento de 2027 para bancar promessas</a> <span class="meta">— Revista Oeste, 26&#x2f;10 07:17</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.cnnbrasil.com.br&#x2f;economia&#x2f;money&#x2f;macroeconomia&#x2f;desequilibrio-fiscal-juros-e-endividamento-desafios-economicos-de-lula-4&#x2f;" target="_blank" rel="noopener">Desequilíbrio fiscal, juros e endividamento: desafios econômicos de Lula 4</a> <span class="meta">— CNN Brasil, 26&#x2f;10 04:00</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;economia&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;26&#x2f;pib-cresceu-desemprego-caiu-mas-juros-e-dividas-pesaram-veja-o-balanco-da-economia-de-lula-3.ghtml" target="_blank" rel="noopener">PIB cresceu, desemprego caiu, mas juros e dívidas pesaram: veja o balanço da economia de Lula 3</a> <span class="meta">— G1, 26&#x2f;10 00:00</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;colunas&#x2f;painel&#x2f;2026&#x2f;10&#x2f;partidos-de-centro-veem-nova-chance-para-lula-pacificar-pais-e-pedem-medidas-fiscais.shtml" target="_blank" rel="noopener">Partidos de centro veem nova chance para Lula pacificar país e pedem medidas fiscais</a> <span class="meta">— Folha, 25&#x2f;10 23:21</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.poder360.com.br&#x2f;poder-economia&#x2f;mercado-reduz-projecao-da-inflacao-para-519&#x2f;" target="_blank" rel="noopener">Mercado reduz projeção da inflação para 5,19%</a> <span class="meta">— Poder360, 26&#x2f;10 08:45</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;revistaoeste.com&#x2f;economia&#x2f;focus-mercado-reduz-estimativas-para-inflacao-e-pib-em-2026&#x2f;" target="_blank" rel="noopener">Focus: mercado reduz estimativas para inflação e PIB em 2026</a> <span class="meta">— Revista Oeste, 26&#x2f;10 08:39</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;se-eu-pudesse-mandar-uma-carta-a-lula-pediria-ajuste-fiscal-e-articulacao-contra-bolsonarismo.shtml" target="_blank" rel="noopener">Se eu pudesse mandar uma carta a Lula, pediria ajuste fiscal e articulação contra bolsonarismo</a> <span class="meta">— Folha, 26&#x2f;10 09:00</span></li>
+    
+    </ul>
+    
+  </details>
+</article>
+
+<article id="t6">
+  
+  <h2><span class="n">6.</span>Lula terá Congresso com maioria de oposição: PL terá as maiores bancadas, e direita deve tentar pautar anistia do 8&#x2f;1 e impeachment de ministros do STF</h2>
+  <p class="cobertura">Cobertura (7):
+    <span class="l"><b>Imprensa mais à esquerda</b> — CartaCapital</span><span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — CNN Brasil, Folha, G1</span><span class="l"><b>Imprensa mais à direita</b> — Gazeta do Povo</span><span class="l"><b>Fontes oficiais</b> — Agência Câmara, Agência Senado</span>
+  </p>
+
+  <h3>O que aconteceu</h3>
+  <div class="contexto">
+  
+    <p>O Senado renovou 41 das 54 vagas, e o PL consolidou a maior bancada da Casa; o PT subiu para dez senadores.<sup><a href="#t6r1" title="“confirmando a renovação de 41 das 54 vagas em disputa” — Agência Senado">[1]</a></sup></p>
+  
+    <p>O PL elegeu 121 deputados e deve começar a legislatura com 28 senadores.<sup><a href="#t6r2" title="“A legenda elegeu 121 deputados federais e 19 senadores em outubro e deverá iniciar a próxima legislatura com 28 integrantes na Casa Alta” — Gazeta do Povo">[2]</a></sup></p>
+  
+    <p>PP, União Brasil, Republicanos, Podemos e Novo, que apoiaram Flávio, somam 245 deputados e 51 senadores.<sup><a href="#t6r3" title="“PP, União Brasil, Republicanos, Podemos e Novo declararam apoio a Flávio. Juntos, eles somam 245 deputados e 51 senadores.” — G1">[3]</a></sup></p>
+  
+    <p>Analistas ouvidos pela Agência Câmara dizem que a oposição terá votos para derrubar vetos.<sup><a href="#t6r4" title="“A oposição vai ter o controle da pauta do Legislativo e tem voto suficiente para derrubar eventuais vetos dados pelo presidente eleito” — Agência Câmara">[4]</a></sup></p>
+  
+  </div>
+
+  <h3>Como cada campo político se posicionou</h3>
+  <div class="lados">
+  
+
+    <section class="lado" style="--cor: #2e7d32">
+      <h4>Pró-governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">FH</span></span><span>Fernando Haddad (PT), ex-ministro da Fazenda</span></div>
+        <p>Disse que Lula tem experiência para lidar com o Congresso e lembrou as reformas aprovadas no mandato atual.<sup><a href="#t6r5">[5]</a></sup></p>
+        
+        <blockquote>“Falaram o mesmo do Congresso passado [que era conservador] e nós aprovamos todas as medidas e reformas”<cite><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;sp&#x2f;sao-paulo&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;26&#x2f;haddad-diz-que-vitoria-de-lula-garante-soberania-do-pais-no-cenario-internacional-brasil-nao-tem-tamanho-pra-ser-quintal-de-ninguem.ghtml" target="_blank" rel="noopener">G1</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+
+    <section class="lado" style="--cor: #81c784">
+      <h4>Centro pró-governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">HM</span></span><span>Hugo Motta (Republicanos-PB), presidente da Câmara</span></div>
+        <p>Reafirmou o compromisso com o diálogo e com a independência entre os Poderes.<sup><a href="#t6r6">[6]</a></sup></p>
+        
+        <blockquote>“Como presidente da Câmara, reafirmo meu compromisso com o diálogo e o equilíbrio para, respeitando sempre a independência entre os Poderes”<cite><a href="https:&#x2f;&#x2f;www.camara.leg.br&#x2f;noticias&#x2f;1313758-o-povo-e-soberano-e-fez-a-sua-escolha-diz-motta-ao-parabenizar-lula-pela-reeleicao" target="_blank" rel="noopener">Agência Câmara</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+
+    <section class="lado" style="--cor: #9e9e9e">
+      <h4>Centro</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">DA</span></span><span>Davi Alcolumbre (União-AP), presidente do Senado</span></div>
+        <p>Disse que Lula contará com um Congresso “altivo, voltado à pacificação”.<sup><a href="#t6r7">[7]</a></sup></p>
+        
+        <blockquote>“E o presidente reeleito, Luiz Inácio Lula da Silva, contará com um Congresso altivo, voltado à pacificação”<cite><a href="https:&#x2f;&#x2f;www12.senado.leg.br&#x2f;noticias&#x2f;materias&#x2f;2026&#x2f;10&#x2f;25&#x2f;passadas-as-eleicoes-congresso-atuara-pela-pacificacao-afirma-davi-alcolumbre" target="_blank" rel="noopener">Agência Senado</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+      
+
+    <section class="lado" style="--cor: #e65100">
+      <h4>Oposição ao governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">US</span></span><span>Ubiratan Sanderson (PL-RS), senador eleito</span></div>
+        <p>Disse que redobrará a atuação no Senado contra o governo.<sup><a href="#t6r8">[8]</a></sup></p>
+        
+        <blockquote>“No Senado, minhas energias serão redobradas para defender o povo gaúcho e brasileiro contra esse regime autoritário que faz tudo pelo poder”<cite><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;eleicoes&#x2f;2026&#x2f;parece-um-pesadelo-liderancas-da-direita-lamentam-vitoria-de-lula-mas-veem-chances-no-congresso&#x2f;" target="_blank" rel="noopener">Gazeta do Povo</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+        
+  </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #ffb74d"></i>Centro-oposição</span>, <span><i style="background: #6a1b9a"></i>Independente — Missão &#x2f; MBL</span>, <span><i style="background: #78909c"></i>Outros &#x2f; não classificável</span>.</p>
+
+  <details>
+    <summary>Referências (8) e outras matérias sobre o tema (11)</summary>
+    <ol class="refs">
+    
+      <li id="t6r1"><a href="https:&#x2f;&#x2f;www12.senado.leg.br&#x2f;noticias&#x2f;audios&#x2f;2026&#x2f;10&#x2f;senado-renova-41-das-54-vagas-bate-recorde-de-mulheres-e-aumenta-maioria-do-pl" target="_blank" rel="noopener">Áudio: Senado renova 41 das 54 vagas, bate recorde de mulheres e aumenta maioria do PL</a> <span class="meta">— Agência Senado, 26&#x2f;10 09:13</span></li>
+    
+      <li id="t6r2"><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;eleicoes&#x2f;2026&#x2f;lula-reeleito-tera-de-negociar-com-congresso-dominado-pela-direita-em-2027&#x2f;" target="_blank" rel="noopener">Lula reeleito terá de negociar com Congresso dominado pela direita em 2027</a> <span class="meta">— Gazeta do Povo, 25&#x2f;10 22:06</span></li>
+    
+      <li id="t6r3"><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;25&#x2f;reeleito-para-quarto-mandato-lula-tera-congresso-com-maioria-da-oposicao-e-precisara-negociar-para-aprovar-projetos.ghtml" target="_blank" rel="noopener">Reeleito para quarto mandato, Lula terá Congresso com maioria da oposição e precisará negociar para aprovar projetos</a> <span class="meta">— G1, 25&#x2f;10 21:12</span></li>
+    
+      <li id="t6r4"><a href="https:&#x2f;&#x2f;www.camara.leg.br&#x2f;noticias&#x2f;1313513-maioria-de-oposicao-no-congresso-sera-desafio-para-governo-lula-dizem-analistas" target="_blank" rel="noopener">Maioria de oposição no Congresso será desafio para governo Lula, dizem analistas</a> <span class="meta">— Agência Câmara, 25&#x2f;10 21:27</span></li>
+    
+      <li id="t6r5"><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;sp&#x2f;sao-paulo&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;26&#x2f;haddad-diz-que-vitoria-de-lula-garante-soberania-do-pais-no-cenario-internacional-brasil-nao-tem-tamanho-pra-ser-quintal-de-ninguem.ghtml" target="_blank" rel="noopener">Haddad diz que vitória de Lula garante soberania do país no cenário internacional: &#x27;Brasil não tem tamanho pra ser quintal de ninguém&#x27;</a> <span class="meta">— G1, 26&#x2f;10 00:36</span></li>
+    
+      <li id="t6r6"><a href="https:&#x2f;&#x2f;www.camara.leg.br&#x2f;noticias&#x2f;1313758-o-povo-e-soberano-e-fez-a-sua-escolha-diz-motta-ao-parabenizar-lula-pela-reeleicao" target="_blank" rel="noopener">&quot;O povo é soberano e fez a sua escolha&quot;, diz Motta ao parabenizar Lula pela reeleição</a> <span class="meta">— Agência Câmara, 26&#x2f;10 00:07</span></li>
+    
+      <li id="t6r7"><a href="https:&#x2f;&#x2f;www12.senado.leg.br&#x2f;noticias&#x2f;materias&#x2f;2026&#x2f;10&#x2f;25&#x2f;passadas-as-eleicoes-congresso-atuara-pela-pacificacao-afirma-davi-alcolumbre" target="_blank" rel="noopener">Passadas as eleições, Congresso atuará pela pacificação, afirma Davi Alcolumbre</a> <span class="meta">— Agência Senado, 25&#x2f;10 23:15</span></li>
+    
+      <li id="t6r8"><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;eleicoes&#x2f;2026&#x2f;parece-um-pesadelo-liderancas-da-direita-lamentam-vitoria-de-lula-mas-veem-chances-no-congresso&#x2f;" target="_blank" rel="noopener">“Parece um pesadelo”: aliados de Flávio lamentam resultado, mas veem chance no Congresso</a> <span class="meta">— Gazeta do Povo, 25&#x2f;10 22:34</span></li>
+    
+    </ol>
+    
+    <ul class="rel">
+    
+      <li><a href="https:&#x2f;&#x2f;www.cnnbrasil.com.br&#x2f;eleicoes&#x2f;lula-4-tera-congresso-mais-a-direita-e-desafio-na-articulacao-politica&#x2f;" target="_blank" rel="noopener">Lula 4 terá Congresso mais à direita e desafio na articulação política</a> <span class="meta">— CNN Brasil, 26&#x2f;10 03:45</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;blog&#x2f;valdo-cruz&#x2f;post&#x2f;2026&#x2f;10&#x2f;26&#x2f;depois-de-virada-historica-lula-precisa-governar-com-partidos-da-frente-ampla.ghtml" target="_blank" rel="noopener">Depois de virada histórica, Lula precisa governar com partidos da Frente Ampla</a> <span class="meta">— G1, 26&#x2f;10 08:39</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;direita-deve-tentar-pautar-anistia-aos-condenados-do-81-apos-vitoria-de-lula.shtml" target="_blank" rel="noopener">Direita deve tentar pautar anistia aos condenados do 8&#x2f;1 após vitória de Lula</a> <span class="meta">— Folha, 25&#x2f;10 22:35</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;politica&#x2f;gracas-a-vitoria-de-lula-executivo-sera-um-freio-contra-o-legislativo-avalia-josue-medeiros&#x2f;" target="_blank" rel="noopener">Graças à vitória de Lula, Executivo será um freio contra o Legislativo, avalia Josué Medeiros</a> <span class="meta">— CartaCapital, 25&#x2f;10 22:13</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;colunas&#x2f;painel&#x2f;2026&#x2f;10&#x2f;partidos-de-centro-veem-nova-chance-para-lula-pacificar-pais-e-pedem-medidas-fiscais.shtml" target="_blank" rel="noopener">Partidos de centro veem nova chance para Lula pacificar país e pedem medidas fiscais</a> <span class="meta">— Folha, 25&#x2f;10 23:21</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;quarto-mandato-de-lula-deve-manter-ministros-e-resgatar-aliados.shtml" target="_blank" rel="noopener">Quarto mandato de Lula deve manter ministros e resgatar aliados</a> <span class="meta">— Folha, 26&#x2f;10 01:55</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;lula-deve-ter-novo-nucleo-de-poder-reformulacao-na-economia-disputa-por-emendas-e-reforma-do-judiciario.shtml" target="_blank" rel="noopener">Lula deve ter novo núcleo de poder, reformulação na economia, disputa por emendas e reforma do Judiciário</a> <span class="meta">— Folha, 25&#x2f;10 23:00</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;alcolumbre-e-motta-ligam-para-lula-oferecem-apoio-e-pedem-que-ele-atue-para-unir-o-brasil.shtml" target="_blank" rel="noopener">Alcolumbre e Motta ligam para Lula, oferecem apoio e pedem que ele atue para unir o Brasil</a> <span class="meta">— Folha, 25&#x2f;10 22:49</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;25&#x2f;alcolumbre-e-motta-segundo-turno-eleicoes-2026.ghtml" target="_blank" rel="noopener">Alcolumbre e Motta parabenizam Lula pela reeleição e dizem que Congresso trabalhará junto com o presidente</a> <span class="meta">— G1, 25&#x2f;10 22:14</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.camara.leg.br&#x2f;noticias&#x2f;1313658-motta-defende-o-dialogo-e-diz-que-lula-tem-a-oportunidade-de-conciliar-o-pais" target="_blank" rel="noopener">Motta defende o diálogo e diz que Lula tem a oportunidade de conciliar o país</a> <span class="meta">— Agência Câmara, 25&#x2f;10 22:30</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www12.senado.leg.br&#x2f;noticias&#x2f;videos&#x2f;2026&#x2f;10&#x2f;davi-reconhece-resultado-da-eleicao-e-defende-pacificacao-do-pais" target="_blank" rel="noopener">Vídeo: Davi reconhece resultado da eleição e defende pacificação do país</a> <span class="meta">— Agência Senado, 25&#x2f;10 22:54</span></li>
+    
+    </ul>
+    
+  </details>
+</article>
+
+<article id="t7">
+  
+  <h2><span class="n">7.</span>No discurso da vitória, Lula promete “mudar o jeito de governar”, regular as big techs e governar com o Congresso</h2>
+  <p class="cobertura">Cobertura (6):
+    <span class="l"><b>Imprensa mais à esquerda</b> — Brasil de Fato, CartaCapital</span><span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — CNN Brasil, Folha, G1, JOTA</span>
+  </p>
+
+  <h3>O que aconteceu</h3>
+  <div class="contexto">
+  
+    <p>Lula listou como prioridades a regulação das big techs, segurança, educação e a relação com o Congresso.<sup><a href="#t7r1" title="“elencou o que será prioridade no quarto mandato como a regulação das big techs, segurança, educação e relação com o Congresso Nacional” — G1">[1]</a></sup></p>
+  
+    <p>Disse que vai ampliar a participação popular e a comunicação digital do governo.<sup><a href="#t7r2" title="“Nós vamos fazer o povo participar mais das nossas decisões. A comunicação digital vai ganhar um espaço muito grande no meu governo” — Brasil de Fato">[2]</a></sup></p>
+  
+    <p>Afirmou que governará para 215 milhões e minimizou a oposição no Congresso.<sup><a href="#t7r1" title="“Eu tenho que governar para 215 milhões.” — G1">[1]</a></sup></p>
+  
+  </div>
+
+  <h3>Como cada campo político se posicionou</h3>
+  <div class="lados">
+  
+
+    <section class="lado" style="--cor: #2e7d32">
+      <h4>Pró-governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">LP</span></span><span>Lula (PT), presidente reeleito</span></div>
+        <p>Associou Flávio ao “milicianismo” e disse que a eleição foi uma derrota do negacionismo e da mentira.<sup><a href="#t7r2">[2]</a></sup></p>
+        
+        <blockquote>“Essa eleição foi uma derrota do negacionismo, da mentira”<cite><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;25&#x2f;lula-fala-pela-1a-vez-apos-vitoria-vamos-mudar-o-jeito-de-governar-vamos-fazer-o-povo-participar-mais&#x2f;" target="_blank" rel="noopener">Brasil de Fato</a></cite></blockquote>
+        
+      </div>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">JD</span></span><span>José Dirceu (PT), ex-ministro</span></div>
+        <p>Relatou que Lula lhe disse que não governará da mesma maneira.<sup><a href="#t7r3">[3]</a></sup></p>
+        
+        <blockquote>“Lula me disse que vencendo não governará da mesma mandeira que governou”<cite><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;25&#x2f;ze-dirceu-conversou-com-lula-por-telefone-me-disse-que-vencendo-nao-governara-da-mesma-maneira&#x2f;" target="_blank" rel="noopener">Brasil de Fato</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+                
+  </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #81c784"></i>Centro pró-governo</span>, <span><i style="background: #9e9e9e"></i>Centro</span>, <span><i style="background: #ffb74d"></i>Centro-oposição</span>, <span><i style="background: #e65100"></i>Oposição ao governo</span>, <span><i style="background: #6a1b9a"></i>Independente — Missão &#x2f; MBL</span>, <span><i style="background: #78909c"></i>Outros &#x2f; não classificável</span>.</p>
+
+  <details>
+    <summary>Referências (3) e outras matérias sobre o tema (15)</summary>
+    <ol class="refs">
+    
+      <li id="t7r1"><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;26&#x2f;regulacao-das-big-techs-seguranca-educacao-e-congresso-o-que-lula-falou-no-primeiro-discurso-apos-ser-reeleito.ghtml" target="_blank" rel="noopener">Regulação das big techs, segurança, educação e Congresso: o que Lula falou no primeiro discurso após ser reeleito</a> <span class="meta">— G1, 26&#x2f;10 02:07</span></li>
+    
+      <li id="t7r2"><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;25&#x2f;lula-fala-pela-1a-vez-apos-vitoria-vamos-mudar-o-jeito-de-governar-vamos-fazer-o-povo-participar-mais&#x2f;" target="_blank" rel="noopener">Lula fala pela 1ª vez após vitória: ‘Vamos mudar o jeito de governar, vamos fazer o povo participar mais’</a> <span class="meta">— Brasil de Fato, 25&#x2f;10 22:55</span></li>
+    
+      <li id="t7r3"><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;25&#x2f;ze-dirceu-conversou-com-lula-por-telefone-me-disse-que-vencendo-nao-governara-da-mesma-maneira&#x2f;" target="_blank" rel="noopener">Zé Dirceu conversou com Lula por telefone: ‘Me disse que, vencendo, não governará da mesma maneira’</a> <span class="meta">— Brasil de Fato, 25&#x2f;10 18:06</span></li>
+    
+    </ol>
+    
+    <ul class="rel">
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;25&#x2f;lula-fala-apos-ser-reeleito-presidente-da-republica.ghtml" target="_blank" rel="noopener">Reeleito, Lula diz que venceu &#x27;intromissão&#x27; de big techs e que vai mudar jeito de governar</a> <span class="meta">— G1, 25&#x2f;10 22:10</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.jota.info&#x2f;eleicoes&#x2f;eleicoes-2026&#x2f;lula-atribui-virada-historica-a-juventude-e-fala-em-proteger-brasil-de-interferencia-estrangeira" target="_blank" rel="noopener">Lula atribui virada histórica à juventude e fala em proteger Brasil de interferência estrangeira</a> <span class="meta">— JOTA, 25&#x2f;10 23:54</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;politica&#x2f;lula-afirma-que-vai-ampliar-a-participacao-popular-no-seu-quarto-mandato&#x2f;" target="_blank" rel="noopener">Lula afirma que vai ampliar a participação popular no seu quarto mandato</a> <span class="meta">— CartaCapital, 25&#x2f;10 23:04</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;aovivo.folha.uol.com.br&#x2f;poder-poder_e_politica&#x2f;2026&#x2f;10&#x2f;25&#x2f;6567-acompanhe-ao-vivo-o-segundo-turno-entre-flavio-bolsonaro-e-lula-nas-eleicoes-de-2026.shtml#post467951" target="_blank" rel="noopener">Leia a íntegra do discurso do presidente Lula, reeleito neste domingo</a> <span class="meta">— Folha, 26&#x2f;10 00:10</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;leia-a-integra-do-discurso-do-presidente-lula-reeleito-neste-domingo.shtml" target="_blank" rel="noopener">Leia a íntegra comentada do discurso do presidente Lula, reeleito neste domingo</a> <span class="meta">— Folha, 25&#x2f;10 23:49</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;lula-promete-mudar-o-jeito-de-governar-ataca-flavio-e-diz-que-venceu-intromissao-externa.shtml" target="_blank" rel="noopener">Lula promete mudar o jeito de governar, ataca Flávio e diz que venceu intromissão externa</a> <span class="meta">— Folha, 25&#x2f;10 22:35</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;ao-vivo&#x2f;eleicoes-2026-candidato-entrevista.ghtml" target="_blank" rel="noopener">Lula e Flávio falam após fim das eleições</a> <span class="meta">— G1, 25&#x2f;10 23:16</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;25&#x2f;lula-comemora-vitoria-nas-eleicoes-veja-video.ghtml" target="_blank" rel="noopener">Lula comemora vitória nas eleições; veja vídeo</a> <span class="meta">— G1, 25&#x2f;10 21:25</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;playlist&#x2f;videos-lula-faz-discurso-da-vitoria.ghtml" target="_blank" rel="noopener">Vídeos: Lula faz discurso da vitória</a> <span class="meta">— G1, 25&#x2f;10 23:52</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;26&#x2f;lula-na-paulista-quando-o-governante-nao-sabe-o-que-fazer-o-povo-sabera-ensinar-o-que-fazer&#x2f;" target="_blank" rel="noopener">Lula na paulista: ‘Quando o governante não sabe o que fazer, o povo saberá ensinar’</a> <span class="meta">— Brasil de Fato, 26&#x2f;10 07:58</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;na-paulista-lula-prestigia-alckmin-e-exalta-janones.shtml" target="_blank" rel="noopener">Na Paulista, Lula prestigia Alckmin, exalta Janones e se declara a Janja</a> <span class="meta">— Folha, 26&#x2f;10 00:33</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;veja-as-principais-promessas-de-campanha-de-lula-pt-reeleito-presidente.shtml" target="_blank" rel="noopener">Veja as principais promessas de campanha de Lula (PT), reeleito presidente</a> <span class="meta">— Folha, 26&#x2f;10 04:00</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;aovivo.folha.uol.com.br&#x2f;poder-poder_e_politica&#x2f;2026&#x2f;10&#x2f;25&#x2f;6567-acompanhe-ao-vivo-o-segundo-turno-entre-flavio-bolsonaro-e-lula-nas-eleicoes-de-2026.shtml#post467890" target="_blank" rel="noopener">Veja as promessas de Lula (PT) para seu quarto mandato na Presidência</a> <span class="meta">— Folha, 25&#x2f;10 21:57</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;veja-as-promessas-de-lula-pt-para-seu-quarto-mandato-na-presidencia.shtml" target="_blank" rel="noopener">Veja as promessas de Lula (PT) para seu quarto mandato na Presidência</a> <span class="meta">— Folha, 25&#x2f;10 21:51</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.cnnbrasil.com.br&#x2f;infra&#x2f;veja-os-planos-do-presidente-lula-para-infraestrutura-em-seu-quarto-mandato&#x2f;" target="_blank" rel="noopener">Veja os planos do presidente Lula para infraestrutura em seu quarto mandato</a> <span class="meta">— CNN Brasil, 26&#x2f;10 04:30</span></li>
+    
+    </ul>
+    
+  </details>
+</article>
+
+<article id="t8">
+  
+  <h2><span class="n">8.</span>Governadores do 2º turno: Omar Aziz (AM), Pazolini (ES), Celina Leão (DF), Mailza (AC), Vicentinho Júnior (TO) e Cadu de Lula (RN); direita governará 15 estados</h2>
+  <p class="cobertura">Cobertura (8):
+    <span class="l"><b>Imprensa mais à esquerda</b> — Brasil de Fato, CartaCapital</span><span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — Folha, G1, JOTA</span><span class="l"><b>Fontes oficiais</b> — Agência Câmara, Agência Senado</span><span class="l"><b>Partidos e movimentos</b> — Republicanos (site oficial)</span>
+  </p>
+
+  <h3>O que aconteceu</h3>
+  <div class="contexto">
+  
+    <p>Foram eleitos Vicentinho Júnior (PSDB-TO), Omar Aziz (PSD-AM), Mailza Assis (PP-AC), Celina Leão (PP-DF), Lorenzo Pazolini (Republicanos-ES) e Cadu de Lula (PT-RN).<sup><a href="#t8r1" title="“No Tocantins, o deputado Vicentinho Júnior (PSDB), atualmente no terceiro mandato na Câmara, foi eleito com 64,52% dos votos válidos.” — Agência Câmara">[1]</a></sup></p>
+  
+    <p>Com a eleição de Omar Aziz, a vaga dele no Senado passa à suplente Cheila Moreira (PT).<sup><a href="#t8r2" title="“deixa sua cadeira em favor da primeira suplente, Cheila Moreira (PT), para um mandato que vai até janeiro de 2031” — Agência Senado">[2]</a></sup></p>
+  
+    <p>A direita passará a governar 15 das 27 unidades da federação; PL, PP e Republicanos governarão 64% da população.<sup><a href="#t8r3" title="“Com o resultado do segundo turno, a direita passará a governar 15 das 27 unidades da federação do país.” — JOTA">[3]</a></sup><sup><a href="#t8r4" title="“PL, o PP e o Republicanos, partidos alinhados ao bolsonarismo, vão governar 14 estados onde vivem 138 milhões de brasileiros, o equivalente a 64% da população do país.” — Folha">[4]</a></sup></p>
+  
+  </div>
+
+  <h3>Como cada campo político se posicionou</h3>
+  <div class="lados">
+    
+
+    <section class="lado" style="--cor: #81c784">
+      <h4>Centro pró-governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">R</span></span><span>Republicanos (site oficial)</span></div>
+        <p>Destacou que o partido chega a quatro governos e governará três dos quatro estados do Sudeste.<sup><a href="#t8r5">[5]</a></sup></p>
+        
+        <blockquote>“Com a vitória, o Republicanos chega a quatro governadores eleitos, somando Pazolini a Tarcísio de Freitas (SP), Cleitinho Azevedo (MG) e Otaviano Pivetta (MT)”<cite><a href="https:&#x2f;&#x2f;republicanos10.org.br&#x2f;wp&#x2f;pazolini-e-eleito-governador-do-espirito-santo-republicanos-chega-a-quatro-governos&#x2f;" target="_blank" rel="noopener">Republicanos (site oficial)</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+              
+  </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #2e7d32"></i>Pró-governo</span>, <span><i style="background: #9e9e9e"></i>Centro</span>, <span><i style="background: #ffb74d"></i>Centro-oposição</span>, <span><i style="background: #e65100"></i>Oposição ao governo</span>, <span><i style="background: #6a1b9a"></i>Independente — Missão &#x2f; MBL</span>, <span><i style="background: #78909c"></i>Outros &#x2f; não classificável</span>.</p>
+
+  <details>
+    <summary>Referências (5) e outras matérias sobre o tema (29)</summary>
+    <ol class="refs">
+    
+      <li id="t8r1"><a href="https:&#x2f;&#x2f;www.camara.leg.br&#x2f;noticias&#x2f;1313701-confira-os-eleitos-no-segundo-turno-para-governador-em-cinco-estados-e-no-distrito-federal" target="_blank" rel="noopener">Confira os eleitos no segundo turno para governador em cinco estados e no Distrito Federal</a> <span class="meta">— Agência Câmara, 25&#x2f;10 21:17</span></li>
+    
+      <li id="t8r2"><a href="https:&#x2f;&#x2f;www12.senado.leg.br&#x2f;noticias&#x2f;materias&#x2f;2026&#x2f;10&#x2f;25&#x2f;definidos-governadores-em-5-estados-e-no-df-eleito-no-am-omar-deixa-senado" target="_blank" rel="noopener">Definidos governadores em 5 estados e no DF; eleito no AM, Omar deixa Senado</a> <span class="meta">— Agência Senado, 25&#x2f;10 22:04</span></li>
+    
+      <li id="t8r3"><a href="https:&#x2f;&#x2f;www.jota.info&#x2f;eleicoes&#x2f;eleicoes-2026&#x2f;direita-passa-a-comandar-15-estados-no-pais" target="_blank" rel="noopener">Direita passa a comandar 15 estados no país</a> <span class="meta">— JOTA, 25&#x2f;10 23:18</span></li>
+    
+      <li id="t8r4"><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;pl-pp-e-republicanos-vao-governar-64-dos-brasileiros-nos-estados.shtml" target="_blank" rel="noopener">PL, PP e Republicanos vão governar 64% dos brasileiros nos estados</a> <span class="meta">— Folha, 25&#x2f;10 21:35</span></li>
+    
+      <li id="t8r5"><a href="https:&#x2f;&#x2f;republicanos10.org.br&#x2f;wp&#x2f;pazolini-e-eleito-governador-do-espirito-santo-republicanos-chega-a-quatro-governos&#x2f;" target="_blank" rel="noopener">Pazolini é eleito governador do Espírito Santo; Republicanos chega a quatro governos</a> <span class="meta">— Republicanos (site oficial), 25&#x2f;10 20:56</span></li>
+    
+    </ol>
+    
+    <ul class="rel">
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;direita-amplia-forca-nos-estados-e-pt-mantem-os-quatro-governadores.shtml" target="_blank" rel="noopener">Direita amplia força nos estados, e PT mantém os quatro governadores</a> <span class="meta">— Folha, 25&#x2f;10 22:10</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;aovivo.folha.uol.com.br&#x2f;poder-poder_e_politica&#x2f;2026&#x2f;10&#x2f;25&#x2f;6567-acompanhe-ao-vivo-o-segundo-turno-entre-flavio-bolsonaro-e-lula-nas-eleicoes-de-2026.shtml#post467892" target="_blank" rel="noopener">Eleição nos estados termina com 13 governadores reeleitos e 6 derrotados</a> <span class="meta">— Folha, 25&#x2f;10 22:02</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;eleicao-nos-estados-termina-com-13-governadores-reeleitos-e-6-derrotados.shtml" target="_blank" rel="noopener">Eleição nos estados termina com 13 governadores reeleitos e 6 derrotados</a> <span class="meta">— Folha, 25&#x2f;10 21:41</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;26&#x2f;quem-sao-governadores-eleitos-em-2026.ghtml" target="_blank" rel="noopener">Veja quem são os governadores eleitos em 2026</a> <span class="meta">— G1, 26&#x2f;10 04:56</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;26&#x2f;governadores-eleitos-virada-2-turno.ghtml" target="_blank" rel="noopener">Virada no 2º turno: veja os governadores eleitos após terminarem o 1º turno em segundo lugar</a> <span class="meta">— G1, 26&#x2f;10 04:04</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;26&#x2f;aliados-flavio-bolsonaro-governador-segundo-turno.ghtml" target="_blank" rel="noopener">Quatro dos sete aliados de Flávio Bolsonaro, que concorriam a governador no 2º turno, se elegeram</a> <span class="meta">— G1, 26&#x2f;10 03:28</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;26&#x2f;aliados-lula-governador-segundo-turno.ghtml" target="_blank" rel="noopener">Dois dos três aliados de Lula que concorriam a governador no 2º turno se elegeram</a> <span class="meta">— G1, 26&#x2f;10 03:01</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;26&#x2f;governadores-eleitos-no-2o-turno.ghtml" target="_blank" rel="noopener">Veja quem são os seis governadores eleitos no 2º turno</a> <span class="meta">— G1, 26&#x2f;10 02:40</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;26&#x2f;republicanos-pl-pt-psd-partido-governo-maior-parcela-populacao.ghtml" target="_blank" rel="noopener">Republicanos é o partido que governará a maior parcela da população brasileira; veja o ranking</a> <span class="meta">— G1, 26&#x2f;10 04:39</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;26&#x2f;mulheres-sao-3-entre-os-27-eleitos-para-comandar-os-governos-dos-estados.ghtml" target="_blank" rel="noopener">Mulheres são 3 entre os 27 eleitos para comandar os governos dos estados</a> <span class="meta">— G1, 26&#x2f;10 05:19</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;brasil-volta-a-eleger-tres-mulheres-governadoras-apos-20-anos.shtml" target="_blank" rel="noopener">Brasil volta a eleger três mulheres governadoras após 20 anos</a> <span class="meta">— Folha, 25&#x2f;10 23:15</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;26&#x2f;governadores-eleitos-raca-branco-pardo-indigena-negro.ghtml" target="_blank" rel="noopener">Brasil elege 20 brancos, 6 pardos, 1 indígena e nenhum preto entre os 27 governadores</a> <span class="meta">— G1, 26&#x2f;10 06:08</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.jota.info&#x2f;eleicoes&#x2f;eleicoes-2026&#x2f;cadu-de-lula-e-eleito-governador-do-rio-grande-do-norte" target="_blank" rel="noopener">Cadu de Lula é eleito governador do Rio Grande do Norte</a> <span class="meta">— JOTA, 25&#x2f;10 21:14</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;25&#x2f;cadu-de-lula-pt-e-eleito-governador-do-rio-grande-do-norte&#x2f;" target="_blank" rel="noopener">Cadu de Lula (PT) é eleito governador do Rio Grande do Norte</a> <span class="meta">— Brasil de Fato, 25&#x2f;10 21:14</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.jota.info&#x2f;eleicoes&#x2f;eleicoes-2026&#x2f;lorenzo-pazolini-e-eleito-governador-no-espirito-santo" target="_blank" rel="noopener">Lorenzo Pazolini é eleito governador no Espírito Santo</a> <span class="meta">— JOTA, 25&#x2f;10 21:02</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;politica&#x2f;lorenzo-pazolini-e-eleito-governador-do-espirito-santo&#x2f;" target="_blank" rel="noopener">Lorenzo Pazolini é eleito governador do Espírito Santo</a> <span class="meta">— CartaCapital, 25&#x2f;10 20:57</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;25&#x2f;lorenzo-pazolini-republicanos-e-eleito-governador-do-espirito-santo-projeta-datafolha&#x2f;" target="_blank" rel="noopener">Lorenzo Pazolini (Republicanos) é eleito governador do Espírito Santo</a> <span class="meta">— Brasil de Fato, 25&#x2f;10 20:28</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.jota.info&#x2f;eleicoes&#x2f;eleicoes-2026&#x2f;omar-aziz-e-eleito-governador-do-amazonas" target="_blank" rel="noopener">Omar Aziz é eleito governador do Amazonas</a> <span class="meta">— JOTA, 25&#x2f;10 20:33</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;politica&#x2f;aliado-de-lula-omar-aziz-vence-o-2o-turno-e-sera-o-novo-governador-do-amazonas&#x2f;" target="_blank" rel="noopener">Aliado de Lula, Omar Aziz vence o 2º turno e será o novo governador do Amazonas</a> <span class="meta">— CartaCapital, 25&#x2f;10 20:32</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;25&#x2f;omar-aziz-psd-e-eleito-governador-do-amazonas-projeta-datafolha&#x2f;" target="_blank" rel="noopener">Omar Aziz (PSD) é eleito governador do Amazonas</a> <span class="meta">— Brasil de Fato, 25&#x2f;10 19:38</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.jota.info&#x2f;eleicoes&#x2f;eleicoes-2026&#x2f;mailza-assis-e-reeleita-governadora-do-acre" target="_blank" rel="noopener">Mailza Assis é reeleita governadora do Acre</a> <span class="meta">— JOTA, 25&#x2f;10 20:28</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;25&#x2f;mailza-assis-pp-e-eleita-governadora-do-acre-projeta-datafolha&#x2f;" target="_blank" rel="noopener">Mailza Assis (PP) é eleita governadora do Acre</a> <span class="meta">— Brasil de Fato, 25&#x2f;10 19:46</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.jota.info&#x2f;eleicoes&#x2f;eleicoes-2026&#x2f;vicentinho-junior-e-eleito-governador-do-tocantins" target="_blank" rel="noopener">Vicentinho Júnior é eleito governador do Tocantins</a> <span class="meta">— JOTA, 25&#x2f;10 20:05</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;politica&#x2f;vicentinho-junior-supera-professora-dorinha-e-e-eleito-governador-de-tocantins&#x2f;" target="_blank" rel="noopener">Vicentinho Júnior supera Professora Dorinha e é eleito governador de Tocantins</a> <span class="meta">— CartaCapital, 25&#x2f;10 20:03</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;25&#x2f;vicentinho-junior-psdb-reverte-resultado-do-1o-turno-e-e-eleito-governador-do-tocantins-projeta-datafolha&#x2f;" target="_blank" rel="noopener">Vicentinho Júnior (PSDB) reverte resultado do 1º turno e é eleito governador do Tocantins</a> <span class="meta">— Brasil de Fato, 25&#x2f;10 19:41</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.jota.info&#x2f;eleicoes&#x2f;eleicoes-2026&#x2f;celina-leao-e-reeleita-governadora-do-distrito-federal" target="_blank" rel="noopener">Celina Leão é reeleita governadora do Distrito Federal</a> <span class="meta">— JOTA, 25&#x2f;10 20:04</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;25&#x2f;celina-leao-e-reeleita-e-se-torna-a-primeira-mulher-a-governar-o-distrito-federal&#x2f;" target="_blank" rel="noopener">Celina Leão é eleita e se torna a primeira mulher a governar o Distrito Federal</a> <span class="meta">— Brasil de Fato, 25&#x2f;10 20:07</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;politica&#x2f;celina-leao-dribla-o-caso-master-confirma-favoritismo-e-se-reelege-no-df&#x2f;" target="_blank" rel="noopener">Celina Leão dribla o Caso Master, confirma favoritismo e se reelege no DF</a> <span class="meta">— CartaCapital, 25&#x2f;10 20:03</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;republicanos10.org.br&#x2f;wp&#x2f;republicanos-governara-tres-dos-quatro-estados-do-sudeste&#x2f;" target="_blank" rel="noopener">Republicanos governará três dos quatro estados do Sudeste</a> <span class="meta">— Republicanos (site oficial), 25&#x2f;10 21:00</span></li>
+    
+    </ul>
+    
+  </details>
+</article>
+
+<article id="t9">
+  
+  <h2><span class="n">9.</span>Reeleito, Lula poderá indicar até quatro ministros do STF até 2031, incluindo a vaga de Barroso, aberta desde a rejeição de Messias</h2>
+  <p class="cobertura">Cobertura (3):
+    <span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — Folha, G1</span><span class="l"><b>Imprensa mais à direita</b> — Gazeta do Povo</span>
+  </p>
+
+  <h3>O que aconteceu</h3>
+  <div class="contexto">
+  
+    <p>Além da vaga de Barroso, Fux (2028), Cármen Lúcia (2029) e Gilmar Mendes (2030) completam 75 anos no mandato.<sup><a href="#t9r1" title="“Os ministros que devem deixar a Corte por idade são Luiz Fux, em abril de 2028; Cármen Lúcia, em abril de 2029; e Gilmar Mendes, em dezembro de 2030.” — G1">[1]</a></sup></p>
+  
+    <p>O Senado rejeitou Jorge Messias para a vaga de Barroso em abril de 2026, por 42 votos a 34.<sup><a href="#t9r1" title="“O nome, porém, foi rejeitado pelo Senado em abril de 2026, por 42 votos contrários e 34 favoráveis, além de uma abstenção.” — G1">[1]</a></sup></p>
+  
+    <p>O Senado, onde o PL terá a maior bancada, decidirá sobre as próximas indicações.<sup><a href="#t9r2" title="“O Senado também terá papel decisivo na escolha dos próximos ministros do Suprem” — Gazeta do Povo">[2]</a></sup></p>
+  
+  </div>
+
+  <h3>Como cada campo político se posicionou</h3>
+  <div class="lados">
+          
+
+    <section class="lado" style="--cor: #e65100">
+      <h4>Oposição ao governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">US</span></span><span>Ubiratan Sanderson (PL-RS), senador eleito</span></div>
+        <p>Citou “mais 4 ministros no STF” entre as razões para lamentar o resultado.<sup><a href="#t9r3">[3]</a></sup></p>
+        
+        <blockquote>“Mais 4 ministros no STF.”<cite><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;eleicoes&#x2f;2026&#x2f;parece-um-pesadelo-liderancas-da-direita-lamentam-vitoria-de-lula-mas-veem-chances-no-congresso&#x2f;" target="_blank" rel="noopener">Gazeta do Povo</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+        
+  </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #2e7d32"></i>Pró-governo</span>, <span><i style="background: #81c784"></i>Centro pró-governo</span>, <span><i style="background: #9e9e9e"></i>Centro</span>, <span><i style="background: #ffb74d"></i>Centro-oposição</span>, <span><i style="background: #6a1b9a"></i>Independente — Missão &#x2f; MBL</span>, <span><i style="background: #78909c"></i>Outros &#x2f; não classificável</span>.</p>
+
+  <details>
+    <summary>Referências (3) e outras matérias sobre o tema (3)</summary>
+    <ol class="refs">
+    
+      <li id="t9r1"><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;26&#x2f;reeleito-lula-pode-indicar-mais-4-ministros-para-o-stf-no-proximo-mandato.ghtml" target="_blank" rel="noopener">Reeleito, Lula pode indicar mais 4 ministros para o STF no próximo mandato</a> <span class="meta">— G1, 26&#x2f;10 07:32</span></li>
+    
+      <li id="t9r2"><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;eleicoes&#x2f;2026&#x2f;lula-reeleito-tera-de-negociar-com-congresso-dominado-pela-direita-em-2027&#x2f;" target="_blank" rel="noopener">Lula reeleito terá de negociar com Congresso dominado pela direita em 2027</a> <span class="meta">— Gazeta do Povo, 25&#x2f;10 22:06</span></li>
+    
+      <li id="t9r3"><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;eleicoes&#x2f;2026&#x2f;parece-um-pesadelo-liderancas-da-direita-lamentam-vitoria-de-lula-mas-veem-chances-no-congresso&#x2f;" target="_blank" rel="noopener">“Parece um pesadelo”: aliados de Flávio lamentam resultado, mas veem chance no Congresso</a> <span class="meta">— Gazeta do Povo, 25&#x2f;10 22:34</span></li>
+    
+    </ol>
+    
+    <ul class="rel">
+    
+      <li><a href="https:&#x2f;&#x2f;aovivo.folha.uol.com.br&#x2f;poder-poder_e_politica&#x2f;2026&#x2f;10&#x2f;25&#x2f;6567-acompanhe-ao-vivo-o-segundo-turno-entre-flavio-bolsonaro-e-lula-nas-eleicoes-de-2026.shtml#post467921" target="_blank" rel="noopener">Lula poderá indicar ao menos 4 novos ministros para o STF</a> <span class="meta">— Folha, 25&#x2f;10 22:35</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;aovivo.folha.uol.com.br&#x2f;poder-poder_e_politica&#x2f;2026&#x2f;10&#x2f;25&#x2f;6567-acompanhe-ao-vivo-o-segundo-turno-entre-flavio-bolsonaro-e-lula-nas-eleicoes-de-2026.shtml#post467895" target="_blank" rel="noopener">Lula terá 45 vagas em órgãos reguladores e 12 no Judiciário até o fim de 202</a> <span class="meta">— Folha, 25&#x2f;10 22:13</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;lula-deve-ter-novo-nucleo-de-poder-reformulacao-na-economia-disputa-por-emendas-e-reforma-do-judiciario.shtml" target="_blank" rel="noopener">Lula deve ter novo núcleo de poder, reformulação na economia, disputa por emendas e reforma do Judiciário</a> <span class="meta">— Folha, 25&#x2f;10 23:00</span></li>
+    
+    </ul>
+    
+  </details>
+</article>
+
+<article id="t10">
+  
+  <h2><span class="n">10.</span>Flávio ficará sem mandato e sem foro a partir de fevereiro; deputados pedem a retenção do passaporte dele, e Eduardo havia sugerido que o irmão deixasse o país</h2>
+  <p class="cobertura">Cobertura (5):
+    <span class="l"><b>Imprensa mais à esquerda</b> — CartaCapital</span><span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — Folha, G1, Poder360</span><span class="l"><b>Imprensa mais à direita</b> — Gazeta do Povo</span>
+  </p>
+
+  <h3>O que aconteceu</h3>
+  <div class="contexto">
+  
+    <p>Flávio ficará sem cargo público pela primeira vez desde 2002; os inquéritos sobre crimes no cargo devem seguir no STF.<sup><a href="#t10r1" title="“Será a primeira vez em 24 anos, desde 2002, que o político bolsonarista não terá um cargo público.” — G1">[1]</a></sup></p>
+  
+    <p>Antes do 2º turno, Eduardo Bolsonaro disse ser a favor de que o irmão deixe o país se perder.<sup><a href="#t10r2" title="“Eu suponho que, se meu irmão não vencer, sou a favor de que ele deixe o país. Sim, com certeza” — Gazeta do Povo">[2]</a></sup></p>
+  
+    <p>Duda Salabert (PSOL-MG) e Otoni de Paula (PSD-RJ) disseram ter pedido a apreensão do passaporte de Flávio; Salabert não apresentou provas de risco de fuga.<sup><a href="#t10r3" title="“Salabert não disse a qual autoridade o pedido foi encaminhado nem apresentou provas que sustentem a hipótese de fuga de Flávio.” — Poder360">[3]</a></sup></p>
+  
+  </div>
+
+  <h3>Como cada campo político se posicionou</h3>
+  <div class="lados">
+  
+
+    <section class="lado" style="--cor: #2e7d32">
+      <h4>Pró-governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">DS</span></span><span>Duda Salabert (PSOL-MG), deputada</span></div>
+        <p>Disse que Flávio pode tentar fugir do país e pediu a apreensão do passaporte.<sup><a href="#t10r3">[3]</a></sup></p>
+        
+        <blockquote>“O próximo passo desse bandido é tentar fugir do Brasil para não enfrentar os vários inquéritos em seu nome.”<cite><a href="https:&#x2f;&#x2f;www.poder360.com.br&#x2f;poder-eleicoes-2026&#x2f;duda-salabert-diz-ter-pedido-apreensao-do-passaporte-de-flavio&#x2f;" target="_blank" rel="noopener">Poder360</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+
+    <section class="lado" style="--cor: #81c784">
+      <h4>Centro pró-governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">OP</span></span><span>Otoni de Paula (PSD-RJ), deputado</span></div>
+        <p>Disse ter protocolado na PGR pedido de proibição de saída do país e entrega do passaporte.<sup><a href="#t10r3">[3]</a></sup></p>
+        
+        <blockquote>“O Flávio pode querer fugir do país e eu não vou deixar.”<cite><a href="https:&#x2f;&#x2f;www.poder360.com.br&#x2f;poder-eleicoes-2026&#x2f;duda-salabert-diz-ter-pedido-apreensao-do-passaporte-de-flavio&#x2f;" target="_blank" rel="noopener">Poder360</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+        
+
+    <section class="lado" style="--cor: #e65100">
+      <h4>Oposição ao governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">EB</span></span><span>Eduardo Bolsonaro (PL), ex-deputado</span></div>
+        <p>Defendeu, antes do 2º turno, que o irmão deixe o país em caso de derrota.<sup><a href="#t10r2">[2]</a></sup></p>
+        
+        <blockquote>“Eu suponho que, se meu irmão não vencer, sou a favor de que ele deixe o país.”<cite><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;eleicoes&#x2f;2026&#x2f;derrota-e-inqueritos-pressionam-futuro-de-flavio-irmao-sugeriu-que-ele-deixe-o-pais&#x2f;" target="_blank" rel="noopener">Gazeta do Povo</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+        
+  </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #9e9e9e"></i>Centro</span>, <span><i style="background: #ffb74d"></i>Centro-oposição</span>, <span><i style="background: #6a1b9a"></i>Independente — Missão &#x2f; MBL</span>, <span><i style="background: #78909c"></i>Outros &#x2f; não classificável</span>.</p>
+
+  <details>
+    <summary>Referências (3) e outras matérias sobre o tema (2)</summary>
+    <ol class="refs">
+    
+      <li id="t10r1"><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;26&#x2f;derrotado-flavio-bolsonaro-ficara-sem-cargo-e-sem-foro-privilegiado-em-2027.ghtml" target="_blank" rel="noopener">Derrotado, Flávio Bolsonaro ficará sem cargo e sem foro privilegiado em 2027</a> <span class="meta">— G1, 26&#x2f;10 01:53</span></li>
+    
+      <li id="t10r2"><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;eleicoes&#x2f;2026&#x2f;derrota-e-inqueritos-pressionam-futuro-de-flavio-irmao-sugeriu-que-ele-deixe-o-pais&#x2f;" target="_blank" rel="noopener">Derrota e inquéritos pressionam futuro de Flávio; irmão sugeriu que ele deixe o país</a> <span class="meta">— Gazeta do Povo, 25&#x2f;10 21:42</span></li>
+    
+      <li id="t10r3"><a href="https:&#x2f;&#x2f;www.poder360.com.br&#x2f;poder-eleicoes-2026&#x2f;duda-salabert-diz-ter-pedido-apreensao-do-passaporte-de-flavio&#x2f;" target="_blank" rel="noopener">Duda Salabert diz ter pedido apreensão do passaporte de Flávio</a> <span class="meta">— Poder360, 26&#x2f;10 08:18</span></li>
+    
+    </ol>
+    
+    <ul class="rel">
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;flavio-bolsonaro-ficara-sem-cargo-publico-pela-1a-vez-em-24-anos.shtml" target="_blank" rel="noopener">Flávio Bolsonaro ficará sem cargo público pela 1ª vez em 24 anos</a> <span class="meta">— Folha, 25&#x2f;10 22:27</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;politica&#x2f;flavio-bolsonaro-ficara-sem-mandato-e-perdera-foro-privilegiado-em-2027&#x2f;" target="_blank" rel="noopener">Flávio Bolsonaro ficará sem mandato e perderá foro privilegiado em 2027</a> <span class="meta">— CartaCapital, 26&#x2f;10 08:41</span></li>
+    
+    </ul>
+    
+  </details>
+</article>
+
+
+
+<section id="poderes" class="poderes">
+  <h2 class="secao">Atuação dos Poderes</h2>
+  <p class="secao-sub">O que foi pautado no dia, como cada lado se posicionou e o que foi decidido.</p>
+
+  
+  <article id="stf" class="casa">
+    <h2>Supremo Tribunal Federal</h2>
+    
+
+    
+    <div class="item" id="stf1">
+      <div class="item-topo">
+        <h3 class="item-titulo">RCL 101673 — prorrogação do horário de votação no 2º turno</h3>
+        <span class="situacao s-julgado">Julgado</span>
+      </div>
+
+      <dl class="item-fatos">
+        <dt>Em pauta</dt>
+        <dd>Reclamação da coligação de Lula contra a redução do transporte público em Salvador, Feira de Santana e Lauro de Freitas, com base na ADPF 1013.<sup><a href="#stf1r1" title="“A decisão foi tomada na Reclamação (RCL) 101673, apresentada pela Coligação Brasil Pronto Pra Mais contra atos dos municípios baianos de Salvador, Feira de Santana e Lauro de Freitas” — STF — notícias oficiais">[1]</a></sup></dd>
+        <dt>Resultado</dt>
+        <dd>Zanin concedeu liminar estendendo a votação até as 19h nos locais com urnas ainda abertas; depois esclareceu que as urnas fechadas seguiriam para a totalização.<sup><a href="#stf1r1" title="“Porém, o ministro observou que as duas candidaturas que disputam as eleições presidenciais no segundo turno alegaram problemas de transporte de eleitores, razão pela qual concedeu a liminar.” — STF — notícias oficiais">[1]</a></sup><sup><a href="#stf1r2" title="“Zanin então esclareceu sua decisão afirmando que a votação deveria continuar nas seções que ainda não fecharam as urnas” — JOTA">[2]</a></sup></dd>
+      </dl>
+
+      <div class="abas">
+        <input type="radio" class="t-pos" name="aba-stf1" id="stf1-pos" checked>
+        <label for="stf1-pos">Posicionamentos</label>
+        
+      <div class="painel painel-pos">
+      <div class="lados">
+      
+
+        <section class="lado" style="--cor: #2e7d32">
+          <h4>Pró-governo</h4>
+          
+          <div class="pos">
+            <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">CB</span></span><span>Coligação Brasil Pronto Pra Mais (Lula), autora</span></div>
+            <p>Pediu a prorrogação por causa da redução de ônibus.<sup><a href="#stf1r1">[1]</a></sup></p>
+            
+            <blockquote>“apresentada pela Coligação Brasil Pronto Pra Mais”<cite><a href="https:&#x2f;&#x2f;noticias.stf.jus.br&#x2f;postsnoticias&#x2f;stf-prorroga-votacao-ate-as-19h-em-locais-onde-urnas-permaneceram-abertas-apos-as-17h&#x2f;" target="_blank" rel="noopener">STF — notícias oficiais</a></cite></blockquote>
+            
+          </div>
+          
+        </section>
+                              
+
+        <section class="lado" style="--cor: #e65100">
+          <h4>Oposição ao governo</h4>
+          
+          <div class="pos">
+            <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">RM</span></span><span>Rogério Marinho (PL-RN), senador</span></div>
+            <p>Chamou a decisão de “vergonhosa e intempestiva”.<sup><a href="#stf1r3">[3]</a></sup></p>
+            
+            <blockquote>“Em outra publicação, o parlamentar potiguar classificou a medida como “vergonhosa e intempestiva””<cite><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;politica&#x2f;pt-defende-decisao-de-zanin-sobre-extensao-da-votacao-aliados-de-flavio-bolsonaro-falam-em-fraude&#x2f;" target="_blank" rel="noopener">CartaCapital</a></cite></blockquote>
+            
+          </div>
+          
+        </section>
+                        
+      </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #81c784"></i>Centro pró-governo</span>, <span><i style="background: #9e9e9e"></i>Centro</span>, <span><i style="background: #ffb74d"></i>Centro-oposição</span>, <span><i style="background: #6a1b9a"></i>Independente — Missão &#x2f; MBL</span>, <span><i style="background: #78909c"></i>Outros &#x2f; não classificável</span>.</p>
+
+      
+      <div class="destaques">
+        <h4>Outros posicionamentos em destaque</h4>
+        
+        <div class="pos">
+          <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">MC</span></span><span>Ministro Cristiano Zanin, relator</span></div>
+          <p>Concedeu a liminar citando problemas de transporte relatados pelas duas candidaturas.<sup><a href="#stf1r1">[1]</a></sup></p>
+          
+          <blockquote>“o ministro observou que as duas candidaturas que disputam as eleições presidenciais no segundo turno alegaram problemas de transporte de eleitores”<cite><a href="https:&#x2f;&#x2f;noticias.stf.jus.br&#x2f;postsnoticias&#x2f;stf-prorroga-votacao-ate-as-19h-em-locais-onde-urnas-permaneceram-abertas-apos-as-17h&#x2f;" target="_blank" rel="noopener">STF — notícias oficiais</a></cite></blockquote>
+          
+        </div>
+        
+        <div class="pos">
+          <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">MK</span></span><span>Ministro Kassio Nunes Marques, presidente do TSE</span></div>
+          <p>Disse que prorrogar é possível, mas exige planejamento.<sup><a href="#stf1r4">[4]</a></sup></p>
+          
+          <blockquote>“Prorrogar uma eleição é possível, mas ela tem que ser pensada, ela tem que ser calculada e estruturada”<cite><a href="https:&#x2f;&#x2f;www.camara.leg.br&#x2f;noticias&#x2f;1313728-presidente-do-tse-afirma-que-a-decisao-de-prorrogar-a-votacao-exigiu-medidas-extraordinarias" target="_blank" rel="noopener">Agência Câmara</a></cite></blockquote>
+          
+        </div>
+        
+      </div>
+      
+      </div>
+
+      
+      </div>
+
+      <details>
+        <summary>Referências (4)</summary>
+        <ol class="refs">
+        
+          <li id="stf1r1"><a href="https:&#x2f;&#x2f;noticias.stf.jus.br&#x2f;postsnoticias&#x2f;stf-prorroga-votacao-ate-as-19h-em-locais-onde-urnas-permaneceram-abertas-apos-as-17h&#x2f;" target="_blank" rel="noopener">STF prorroga votação até as 19h em locais onde urnas permaneceram abertas após as 17h</a> <span class="meta">— STF — notícias oficiais, 25&#x2f;10 18:28</span></li>
+        
+          <li id="stf1r2"><a href="https:&#x2f;&#x2f;www.jota.info&#x2f;eleicoes&#x2f;eleicoes-2026&#x2f;cristiano-zanin-esclarece-decisao-que-mandou-estender-votacao-ate-as-19h" target="_blank" rel="noopener">Cristiano Zanin esclarece decisão que mandou estender votação até as 19h</a> <span class="meta">— JOTA, 25&#x2f;10 18:27</span></li>
+        
+          <li id="stf1r3"><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;politica&#x2f;pt-defende-decisao-de-zanin-sobre-extensao-da-votacao-aliados-de-flavio-bolsonaro-falam-em-fraude&#x2f;" target="_blank" rel="noopener">PT defende decisão de Zanin sobre extensão da votação; aliados de Flávio Bolsonaro falam em fraude</a> <span class="meta">— CartaCapital, 25&#x2f;10 19:55</span></li>
+        
+          <li id="stf1r4"><a href="https:&#x2f;&#x2f;www.camara.leg.br&#x2f;noticias&#x2f;1313728-presidente-do-tse-afirma-que-a-decisao-de-prorrogar-a-votacao-exigiu-medidas-extraordinarias" target="_blank" rel="noopener">Presidente do TSE afirma que a decisão de prorrogar a votação exigiu medidas extraordinárias</a> <span class="meta">— Agência Câmara, 25&#x2f;10 22:42</span></li>
+        
+        </ol>
+        
+      </details>
+    </div>
+    
+  </article>
+  
+  <article id="camara" class="casa">
+    <h2>Câmara dos Deputados</h2>
+    <p class="vazio">Não houve sessão deliberativa no Plenário (dia seguinte ao 2º turno).</p>
+
+    
+  </article>
+  
+  <article id="senado" class="casa">
+    <h2>Senado Federal</h2>
+    <p class="vazio">Não houve sessão deliberativa no Plenário (dia seguinte ao 2º turno).</p>
+
+    
+  </article>
+  
+</section>
+
+
+<footer>
+  <p>Gerado em 03&#x2f;11&#x2f;2026 18:26. Cada afirmação traz pelo menos um trecho copiado literalmente de uma fonte coletada, e esses trechos são conferidos automaticamente antes da publicação. Quando um lado aparece como “nenhum posicionamento encontrado”, isso só significa que as fontes consultadas não trouxeram uma posição. Não quer dizer que o lado não tenha opinião.</p>
+  <p>Em “Atuação dos Poderes”, pauta e resultado da Câmara e do Senado vêm dos dados abertos oficiais de cada Casa. Na Câmara, o que foi dito em Plenário vem da transcrição automática do vídeo da sessão (TV Câmara no YouTube), que pode errar palavras; o link de cada trecho abre o vídeo no momento citado. Para o STF, vêm da imprensa especializada, porque o tribunal não publica dados abertos de pauta. Orientações de bancada e votos por partido contam como posicionamento.</p>
+  <p>A classificação dos veículos por linha editorial é aproximada. Ela serve para mostrar o equilíbrio da cobertura, não para julgar cada veículo.</p>
+</footer>
+</div>
+</body>
+</html>

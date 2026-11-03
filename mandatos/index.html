@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Votações por mandato</title>
+<style>
+:root { --bg: #f7f6f3; --surface: #ffffff; --text: #1d1d1f; --muted: #66645f; --line: #e3e0d9; --accent: #3b5b7a;
+  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+@media (prefers-color-scheme: dark) { :root { --bg: #141414; --surface: #1d1d1d; --text: #ecebe8; --muted: #a3a09a; --line: #333230; --accent: #8fb3d6; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.55 var(--sans); }
+.wrap { max-width: 1080px; margin: 0 auto; padding: 32px 16px 80px; }
+a { color: var(--accent); }
+h1 { font-size: 2rem; margin: 10px 0 4px; letter-spacing: -0.02em; }
+.meta { color: var(--muted); font-size: .9rem; }
+section.bloco { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 18px 22px; margin: 16px 0; }
+section.bloco h2 { margin: 0 0 2px; font-size: 1.25rem; }
+.status { font-size: .78rem; border: 1px solid var(--line); border-radius: 999px; padding: 1px 8px; margin-left: 8px; color: var(--muted); }
+.status.aberto { border-color: var(--accent); color: var(--accent); }
+table { border-collapse: collapse; width: 100%; font-size: .9rem; margin-top: 8px; }
+th, td { border-bottom: 1px solid var(--line); padding: 5px 9px; text-align: left; }
+th { color: var(--muted); font-weight: 600; }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+.dados-abertos { margin-top: 36px; padding-top: 16px; border-top: 1px solid var(--line); font-size: .95rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<a href="../index.html">← Heimdall News</a>
+<h1>Câmara e Senado em cada governo</h1>
+<p class="meta">Como cada casa votou durante cada mandato presidencial desde 2003, a partir das votações nominais do Plenário. Polos de cada mandato: bancada do partido do governo × bancada do principal partido de oposição (<code>presidentes.toml</code>). Mandatos encerrados ficam congelados; o atual é atualizado a cada coleta.</p>
+
+<section class="bloco">
+  <h2><a href="lula1.html">Lula 1</a><span class="status">encerrado</span></h2>
+  <p class="meta">Luiz Inácio Lula da Silva (PT), 01&#x2f;01&#x2f;2003 a 31&#x2f;12&#x2f;2006. Governo: PT · Oposição: PSDB.</p>
+  <table>
+    <thead><tr><th>Casa</th><th class="num">Votações nominais</th><th class="num">Disputadas</th><th class="num">Parlamentares</th><th class="num">1ª dimensão explica</th><th class="num">Correlação com governo × oposição</th></tr></thead>
+    <tbody><tr><td>Câmara dos Deputados</td><td class="num">210</td><td class="num">90</td><td class="num">444</td>
+      <td class="num">33%</td><td class="num">0.98</td></tr><tr><td>Senado Federal</td><td class="num">224</td><td class="num">71</td><td class="num">84</td>
+      <td class="num">36%</td><td class="num">0.96</td></tr></tbody>
+  </table>
+</section>
+
+<section class="bloco">
+  <h2><a href="lula2.html">Lula 2</a><span class="status">encerrado</span></h2>
+  <p class="meta">Luiz Inácio Lula da Silva (PT), 01&#x2f;01&#x2f;2007 a 31&#x2f;12&#x2f;2010. Governo: PT · Oposição: PSDB.</p>
+  <table>
+    <thead><tr><th>Casa</th><th class="num">Votações nominais</th><th class="num">Disputadas</th><th class="num">Parlamentares</th><th class="num">1ª dimensão explica</th><th class="num">Correlação com governo × oposição</th></tr></thead>
+    <tbody><tr><td>Câmara dos Deputados</td><td class="num">401</td><td class="num">189</td><td class="num">544</td>
+      <td class="num">33%</td><td class="num">0.96</td></tr><tr><td>Senado Federal</td><td class="num">178</td><td class="num">52</td><td class="num">80</td>
+      <td class="num">46%</td><td class="num">0.97</td></tr></tbody>
+  </table>
+</section>
+
+<section class="bloco">
+  <h2><a href="dilma.html">Dilma</a><span class="status">encerrado</span></h2>
+  <p class="meta">Dilma Rousseff (PT), 01&#x2f;01&#x2f;2011 a 11&#x2f;05&#x2f;2016. Governo: PT · Oposição: PSDB.</p>
+  <table>
+    <thead><tr><th>Casa</th><th class="num">Votações nominais</th><th class="num">Disputadas</th><th class="num">Parlamentares</th><th class="num">1ª dimensão explica</th><th class="num">Correlação com governo × oposição</th></tr></thead>
+    <tbody><tr><td>Câmara dos Deputados</td><td class="num">677</td><td class="num">414</td><td class="num">802</td>
+      <td class="num">20%</td><td class="num">0.85</td></tr><tr><td>Senado Federal</td><td class="num">225</td><td class="num">102</td><td class="num">91</td>
+      <td class="num">32%</td><td class="num">0.92</td></tr></tbody>
+  </table>
+</section>
+
+<section class="bloco">
+  <h2><a href="temer.html">Temer</a><span class="status">encerrado</span></h2>
+  <p class="meta">Michel Temer (MDB), 12&#x2f;05&#x2f;2016 a 31&#x2f;12&#x2f;2018. Governo: MDB · Oposição: PT.</p>
+  <table>
+    <thead><tr><th>Casa</th><th class="num">Votações nominais</th><th class="num">Disputadas</th><th class="num">Parlamentares</th><th class="num">1ª dimensão explica</th><th class="num">Correlação com governo × oposição</th></tr></thead>
+    <tbody><tr><td>Câmara dos Deputados</td><td class="num">488</td><td class="num">231</td><td class="num">536</td>
+      <td class="num">32%</td><td class="num">0.97</td></tr><tr><td>Senado Federal</td><td class="num">107</td><td class="num">53</td><td class="num">79</td>
+      <td class="num">46%</td><td class="num">0.99</td></tr></tbody>
+  </table>
+</section>
+
+<section class="bloco">
+  <h2><a href="bolsonaro.html">Bolsonaro</a><span class="status">encerrado</span></h2>
+  <p class="meta">Jair Bolsonaro (PL), 01&#x2f;01&#x2f;2019 a 31&#x2f;12&#x2f;2022. Governo: PSL (até 19&#x2f;11&#x2f;2019) → PL · Oposição: PT.</p>
+  <table>
+    <thead><tr><th>Casa</th><th class="num">Votações nominais</th><th class="num">Disputadas</th><th class="num">Parlamentares</th><th class="num">1ª dimensão explica</th><th class="num">Correlação com governo × oposição</th></tr></thead>
+    <tbody><tr><td>Câmara dos Deputados</td><td class="num">1971</td><td class="num">1367</td><td class="num">592</td>
+      <td class="num">47%</td><td class="num">0.95</td></tr><tr><td>Senado Federal</td><td class="num">402</td><td class="num">163</td><td class="num">89</td>
+      <td class="num">30%</td><td class="num">0.91</td></tr></tbody>
+  </table>
+</section>
+
+<section class="bloco">
+  <h2><a href="lula3.html">Lula 3</a><span class="status aberto">em curso</span></h2>
+  <p class="meta">Luiz Inácio Lula da Silva (PT), 01&#x2f;01&#x2f;2023 a 31&#x2f;12&#x2f;2026. Governo: PT · Oposição: PL.</p>
+  <table>
+    <thead><tr><th>Casa</th><th class="num">Votações nominais</th><th class="num">Disputadas</th><th class="num">Parlamentares</th><th class="num">1ª dimensão explica</th><th class="num">Correlação com governo × oposição</th></tr></thead>
+    <tbody><tr><td>Câmara dos Deputados</td><td class="num">1128</td><td class="num">877</td><td class="num">618</td>
+      <td class="num">41%</td><td class="num">0.93</td></tr><tr><td>Senado Federal</td><td class="num">183</td><td class="num">90</td><td class="num">83</td>
+      <td class="num">44%</td><td class="num">0.98</td></tr></tbody>
+  </table>
+</section>
+
+<section class="dados-abertos">
+  <h2>Dados e como conferir</h2>
+  <p>Todos os dados usados neste estudo estão disponíveis para quem quiser refazer as contas: as votações e os votos de cada parlamentar desde 2003 (CSV, um arquivo por casa e por ano), os parâmetros da análise e os resultados. Tudo vem dos dados abertos da Câmara dos Deputados e do Senado Federal.</p>
+  <ul>
+    <li><a href="https:&#x2f;&#x2f;github.com&#x2f;luccasgois1&#x2f;heimdall-news/tree/main/dados">Baixar os dados</a></li>
+    <li><a href="https:&#x2f;&#x2f;github.com&#x2f;luccasgois1&#x2f;heimdall-news/blob/main/dados/README.md">Como cada arquivo foi obtido e como as contas são feitas</a></li>
+  </ul>
+</section>
+</div>
+</body>
+</html>

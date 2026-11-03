@@ -1,0 +1,904 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Heimdall News — 2026-10-11</title>
+<style>
+:root {
+  --bg: #f7f6f3; --surface: #ffffff; --text: #1d1d1f; --muted: #66645f; --line: #e3e0d9;
+  --accent: #3b5b7a; --quote-bg: #f2f0eb; --empty: #8a877f;
+  --ok: #2f7d4f; --bad: #b3413b; --warn: #9a6a12;
+  --serif: "Iowan Old Style", "Charter", Georgia, serif;
+  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #141414; --surface: #1d1d1d; --text: #ecebe8; --muted: #a3a09a; --line: #333230;
+          --accent: #8fb3d6; --quote-bg: #252423; --empty: #85827b;
+          --ok: #6cc08b; --bad: #e88a84; --warn: #e0b45c; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 var(--serif); }
+.wrap { max-width: 1080px; margin: 0 auto; padding: 32px 16px 80px; }
+a { color: var(--accent); }
+header h1 { font: 700 2rem/1.2 var(--sans); margin: 0 0 4px; letter-spacing: -0.02em; }
+header p { font-family: var(--sans); color: var(--muted); margin: 0; font-size: .9rem; }
+.video { position: relative; margin: 16px 0 0; aspect-ratio: 16 / 9; border-radius: 12px; overflow: hidden; background: #000; }
+.video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.video-link { margin: 8px 0 0; font-size: .9rem; color: var(--muted); }
+.voltar { display: inline-block; font: .88rem var(--sans); margin-bottom: 12px; }
+nav.sumario { margin: 28px 0 40px; padding: 20px 24px; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; }
+nav.sumario ol { margin: 0; padding-left: 1.4em; font-family: var(--sans); font-size: .98rem; }
+nav.sumario li { margin: 4px 0; }
+nav.sumario a { text-decoration: none; }
+nav.sumario a:hover { text-decoration: underline; }
+article { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 28px; margin-bottom: 28px; }
+article h2 { font: 700 1.45rem/1.3 var(--sans); margin: 0 0 6px; letter-spacing: -0.01em; }
+.n { color: var(--muted); font-weight: 500; margin-right: .35em; }
+.cobertura { font-family: var(--sans); font-size: .82rem; color: var(--muted); margin: 0 0 20px; }
+.cobertura span.l { display: inline-block; margin: 2px 10px 2px 0; }
+.cobertura b { font-weight: 600; color: var(--text); }
+h3 { font: 600 .78rem/1 var(--sans); text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin: 26px 0 10px; }
+.contexto p { margin: 0 0 10px; }
+sup a { font: 600 .7rem var(--sans); text-decoration: none; padding: 0 1px; }
+.lados { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+.lado { border: 1px solid var(--line); border-top: 4px solid var(--cor, var(--line)); border-radius: 10px; padding: 16px; }
+.lado h4 { font: 700 .95rem/1.3 var(--sans); margin: 0 0 12px; padding-bottom: 8px; border-bottom: 1px solid var(--line); }
+.sem-posicao { color: var(--empty); font-style: italic; font-size: .9rem; margin: 10px 0 0; }
+.sem-posicao span { white-space: nowrap; }
+.sem-posicao i { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin: 0 4px 0 2px; vertical-align: baseline; }
+.pos { margin-bottom: 16px; }
+.pos:last-child { margin-bottom: 0; }
+.quem { font: 600 .85rem/1.4 var(--sans); margin-bottom: 6px; display: flex; align-items: center; gap: 10px; }
+.rostos { display: flex; flex-shrink: 0; }
+.rosto { width: 42px; height: 42px; border-radius: 50%; object-fit: cover; object-position: center 20%; border: 2px solid var(--surface); background: var(--quote-bg); box-shadow: 0 0 0 1px var(--line); }
+.rostos .rosto + .rosto { margin-left: -12px; }
+.rosto.sem { display: inline-flex; align-items: center; justify-content: center; font: 700 .68rem/1 var(--sans); color: #fff; background: var(--cor, var(--muted)); letter-spacing: .02em; overflow: hidden; }
+.capa { margin: -28px -28px 22px; border-radius: 12px 12px 0 0; overflow: hidden; background: var(--quote-bg); }
+.capa img { display: block; width: 100%; aspect-ratio: 2 / 1; max-height: 380px; object-fit: cover; }
+.capa figcaption { font: .74rem var(--sans); color: var(--muted); padding: 6px 28px 0; text-align: right; background: var(--surface); }
+@media (max-width: 600px) { article { padding: 20px; } .capa { margin: -20px -20px 18px; } .capa figcaption { padding: 6px 20px 0; } }
+.pos p { margin: 0 0 6px; font-size: .97rem; }
+blockquote { margin: 6px 0 0; padding: 8px 12px; background: var(--quote-bg); border-left: 3px solid var(--line); font-size: .88rem; color: var(--muted); border-radius: 0 6px 6px 0; }
+blockquote cite { display: block; font: normal .75rem var(--sans); margin-top: 4px; }
+.vazio { color: var(--empty); font-style: italic; font-size: .92rem; margin: 0; }
+details { margin-top: 22px; font-family: var(--sans); font-size: .85rem; }
+summary { cursor: pointer; color: var(--muted); font-weight: 600; }
+ol.refs, ul.rel { padding-left: 1.6em; margin: 10px 0 0; }
+ol.refs li, ul.rel li { margin: 6px 0; }
+.meta { color: var(--muted); }
+.poderes-link { font-family: var(--sans); font-size: .9rem; margin: 14px 0 0; padding-top: 12px; border-top: 1px solid var(--line); }
+.poderes-link a { text-decoration: none; }
+h2.secao { font: 700 1.6rem/1.2 var(--sans); margin: 48px 0 4px; letter-spacing: -0.01em; }
+.secao-sub { font-family: var(--sans); color: var(--muted); margin: 0 0 20px; font-size: .92rem; }
+.casa > h2 { margin-bottom: 14px; }
+.item { border-top: 1px solid var(--line); padding: 18px 0 6px; }
+.item:first-of-type { border-top: 0; padding-top: 4px; }
+.item-topo { display: flex; gap: 12px; align-items: baseline; justify-content: space-between; flex-wrap: wrap; }
+.item-titulo { font: 700 1.08rem/1.35 var(--sans); margin: 0; text-transform: none; letter-spacing: 0; color: var(--text); }
+.situacao { font: 600 .74rem/1 var(--sans); text-transform: uppercase; letter-spacing: .06em; padding: 5px 9px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); white-space: nowrap; }
+.s-aprovado, .s-julgado { color: var(--ok); border-color: var(--ok); }
+.s-rejeitado { color: var(--bad); border-color: var(--bad); }
+.s-adiado, .s-pedido_de_vista, .s-retirado_de_pauta, .s-em_andamento { color: var(--warn); border-color: var(--warn); }
+.s-pautado { color: var(--accent); border-color: var(--accent); }
+.item-fatos { margin: 12px 0 16px; display: grid; grid-template-columns: max-content 1fr; gap: 6px 14px; }
+.item-fatos dt { font: 600 .74rem/1.9 var(--sans); text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+.item-fatos dd { margin: 0; }
+@media (max-width: 600px) { .item-fatos { grid-template-columns: 1fr; } .item-fatos dd { margin-bottom: 8px; } }
+.destaques { margin-top: 16px; border: 1px solid var(--line); border-radius: 10px; padding: 16px; }
+.destaques h4 { font: 700 .95rem/1.3 var(--sans); margin: 0 0 12px; }
+.abas { margin-top: 14px; }
+.abas > input { position: absolute; opacity: 0; pointer-events: none; }
+.abas > label { display: inline-block; font: 600 .82rem/1 var(--sans); padding: 9px 14px; margin: 0 4px -1px 0; border: 1px solid var(--line); border-bottom: 0; border-radius: 8px 8px 0 0; color: var(--muted); cursor: pointer; background: var(--bg); }
+.abas > input:checked + label { color: var(--text); background: var(--surface); border-color: var(--line); position: relative; z-index: 1; }
+.abas > input:focus-visible + label { outline: 2px solid var(--accent); }
+.painel { display: none; border: 1px solid var(--line); border-radius: 0 10px 10px 10px; padding: 16px; }
+.abas > input.t-pos:checked ~ .painel-pos, .abas > input.t-det:checked ~ .painel-det { display: block; }
+.painel h4 { font: 700 .95rem/1.3 var(--sans); margin: 18px 0 10px; }
+.painel h4:first-child { margin-top: 0; }
+.alerta { border-left: 4px solid var(--warn); padding: 4px 0 4px 12px; margin-bottom: 14px; }
+.alerta.a-jabuti, .alerta.a-casuismo { border-left-color: var(--bad); }
+.alerta .tipo { font: 700 .72rem/1 var(--sans); text-transform: uppercase; letter-spacing: .06em; color: var(--warn); }
+.alerta.a-jabuti .tipo, .alerta.a-casuismo .tipo { color: var(--bad); }
+.alerta p { margin: 4px 0 6px; font-size: .97rem; }
+.conclusao { margin: 16px 0 0; padding: 12px 14px; background: var(--quote-bg); border-radius: 8px; font-size: .97rem; }
+.conclusao b { font-family: var(--sans); }
+.estudo { font-family: var(--sans); font-size: .8rem; color: var(--muted); margin: 10px 0 0; }
+nav.sumario ul.pauta { margin: 4px 0 8px; padding-left: 1.4em; font-family: var(--sans); font-size: .88rem; }
+@media print {
+  @page { size: A4; margin: 12mm 11mm; }
+  :root { --bg: #fff; --surface: #fff; --text: #1d1d1f; --muted: #5f5d58; --line: #dedad2;
+          --accent: #2f5577; --quote-bg: #f3f1ec; --empty: #85827b; --ok: #2f7d4f; --bad: #b3413b; --warn: #94650f; }
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body { font-size: 10.5pt; line-height: 1.45; background: #fff; }
+  .wrap { max-width: none; padding: 0; }
+  .voltar, .video, .abas > label, .abas > input { display: none; }
+  header p a { text-decoration: none; color: inherit; }
+  nav.sumario { margin: 14px 0 0; }
+  article { border: 0; padding: 0; margin: 0; }
+  article:not(.casa) + article, .poderes { break-before: page; }
+  .capa { margin: 0 0 14px; border-radius: 8px; }
+  .capa img { max-height: 300px; }
+  .capa figcaption { padding: 4px 0 0; }
+  h2, h3, h4, .quem, .item-topo { break-after: avoid; }
+  .pos, blockquote, .capa, .alerta, .item-fatos { break-inside: avoid; }
+  /* A grade não se divide entre páginas no Chrome: em coluna única, cada quadro pode quebrar. */
+  .lados { display: block; }
+  .lado { break-inside: auto; margin-bottom: 10px; }
+  .painel { display: block !important; border-radius: 10px; margin-top: 10px; }
+  .painel-det::before { content: "Detalhes da proposta"; display: block; font: 700 1rem/1.3 var(--sans); margin-bottom: 10px; }
+  details > summary { list-style: none; color: var(--text); }
+  .item { break-inside: auto; }
+}
+footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); border-top: 1px solid var(--line); padding-top: 18px; }
+</style>
+</head>
+<body>
+
+
+<div class="wrap">
+<a class="voltar" href="..&#x2f;..&#x2f;index.html">← Heimdall News</a>
+<header>
+  <h1>Heimdall News</h1>
+  <p>domingo, 11 de outubro de 2026 · 9 assuntos · 12 veículos e fontes · <a href="..&#x2f;..&#x2f;index.html">dias anteriores</a></p>
+  <p class="video-link">O vídeo deste briefing ainda não foi postado.</p>
+</header>
+
+<nav class="sumario" aria-label="Assuntos do dia">
+  <ol>
+  <li><a href="#t1">TSE: Meta tem 48 horas para explicar suposta restrição a posts de Lula; Flávio pede a suspensão do canal de Janones; propaganda de Lula sobre Flávio e o caso Master é suspensa</a></li><li><a href="#t2">Ratinho Junior (PSD), governador do Paraná, declara apoio a Flávio no 2º turno; o PSD segue neutro</a></li><li><a href="#t3">TRE-RJ retotaliza votos e confirma Douglas Ruas (PL) governador eleito do Rio no 1º turno, com 50,88%</a></li><li><a href="#t4">E-mails apreendidos pela PF indicam conta de Flávio vinculada a advogado investigado na fraude do INSS; Flávio e o advogado negam</a></li><li><a href="#t5">“Tesouraço”: Lula pergunta onde Flávio fará corte de R$ 250 bilhões; Flávio nega cortes em programas sociais e fala em reduzir a estrutura do Estado</a></li><li><a href="#t6">Em culto da Assembleia de Deus, Flávio fala em “guerra espiritual” e bispo puxa coro “irmão vota em irmão”; em São Gonçalo, repete que Jair lhe entregará a faixa</a></li><li><a href="#t7">Sidônio Palmeira tira férias da Secom para reforçar a comunicação da campanha de Lula</a></li><li><a href="#t8">STF: ala da Corte vê a Lei da Dosimetria como saída para reduzir a pena de Bolsonaro; caso Master completa um mês parado na presidência; 25 senadores pró-impeachment já foram alvos no STF</a></li><li><a href="#t9">Fim da escala 6x1: centrais sindicais intensificam mobilização antes da votação de quarta; Cleitinho rebate críticas por vídeo com Alcolumbre</a></li>
+  </ol>
+  
+  <p class="poderes-link"><a href="#poderes">Atuação dos Poderes</a>:
+    <a href="#stf">Supremo Tribunal Federal</a> (1) · <a href="#camara">Câmara dos Deputados</a> (0) · <a href="#senado">Senado Federal</a> (0)
+  </p>
+  
+  <ul class="pauta" aria-label="Supremo Tribunal Federal">
+    <li><a href="#stf1">Caso Master (processos remetidos à Presidência do STF)</a> <span class="meta">· Em andamento</span></li>
+  </ul>
+  
+  
+</nav>
+
+
+
+<article id="t1">
+  
+  <h2><span class="n">1.</span>TSE: Meta tem 48 horas para explicar suposta restrição a posts de Lula; Flávio pede a suspensão do canal de Janones; propaganda de Lula sobre Flávio e o caso Master é suspensa</h2>
+  <p class="cobertura">Cobertura (8):
+    <span class="l"><b>Imprensa mais à esquerda</b> — Brasil de Fato, CartaCapital</span><span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — Estadão, Folha, G1</span><span class="l"><b>Imprensa mais à direita</b> — Gazeta do Povo, Revista Oeste</span><span class="l"><b>Partidos e movimentos</b> — PT (site oficial)</span>
+  </p>
+
+  <h3>O que aconteceu</h3>
+  <div class="contexto">
+  
+    <p>O juiz auxiliar Marco Aurélio Bellizze deu 48 horas para a Meta informar as medidas aplicadas aos perfis de Lula e explicar anomalias nas métricas.<sup><a href="#t1r1" title="“o ministro Marco Aurélio Bellizze, juiz auxiliar do Tribunal Superior Eleitoral (TSE), determinou o prazo de 48 horas para que a Meta preste esclarecimentos sobre a eventual restrição seletiva a posts da campanha de Lula” — Revista Oeste">[1]</a></sup><sup><a href="#t1r2" title="“Descrever como aplica a regra de exclusão de perfis de candidatos dos sistemas de recomendação (art. 28, § 1º-A, da Res.-TSE nº 23.610&#x2f;2019) e se o faz de forma idêntica para as duas candidaturas.” — Estadão">[2]</a></sup></p>
+  
+    <p>Flávio pediu a cassação da chapa Lula-Alckmin e a suspensão do canal “Exército do Lula”; o corregedor pediu esclarecimentos em 72 horas.<sup><a href="#t1r3" title="“Na ação, Flávio Bolsonaro pede a cassação do registro ou diploma da chapa formada por Lula e Alckmin” — Folha">[3]</a></sup><sup><a href="#t1r4" title="“O Tribunal Superior Eleitoral (TSE) determinou, nesse sábado (10), que Flávio Bolsonaro (PL), candidato à Presidência da República, apresente, em até 3 dias (72 horas), informações complementares” — Brasil de Fato">[4]</a></sup></p>
+  
+    <p>Nunes Marques suspendeu propaganda de Lula que diz que Flávio é investigado no caso Master e que seu vice é investigado por estupro (pedido arquivado).<sup><a href="#t1r5" title="“Na decisão, o presidente do TSE, ministro Nunes Marques, afirma que a propaganda traz &quot;imputações criminais desprovidas de lastro mínimo, em espaço de comunicação de alcance nacional e custeado pela sociedade&quot;.” — G1">[5]</a></sup></p>
+  
+  </div>
+
+  <h3>Como cada campo político se posicionou</h3>
+  <div class="lados">
+  
+
+    <section class="lado" style="--cor: #2e7d32">
+      <h4>Pró-governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">CL</span></span><span>Campanha de Lula (nota lida por Éden Valadares, secretário de Comunicação do PT)</span></div>
+        <p>Disse haver suspeita de interferência da Meta a favor de Flávio.<sup><a href="#t1r6">[6]</a></sup></p>
+        
+        <blockquote>“A sucessão de problemas técnicos não explicados pela empresa levanta forte suspeita de que a ação da Meta se configure como uma tentativa de interferência no processo eleitoral brasileiro”<cite><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;politica&#x2f;campanha-de-lula-acusa-meta-de-tentar-interferir-nas-eleicoes&#x2f;" target="_blank" rel="noopener">CartaCapital</a></cite></blockquote>
+        
+      </div>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">AJ</span></span><span>André Janones (Rede-MG), deputado federal</span></div>
+        <p>Classificou como censura o pedido de suspensão do canal.<sup><a href="#t1r4">[4]</a></sup></p>
+        
+        <blockquote>“André Janones classificou a tentativa de suspender o canal como “censura”.”<cite><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;11&#x2f;flavio-quer-derrubar-canal-pro-lula-de-janones-com-33-milhoes-de-seguidores-tse-pede-esclarecimentos&#x2f;" target="_blank" rel="noopener">Brasil de Fato</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+          
+
+    <section class="lado" style="--cor: #e65100">
+      <h4>Oposição ao governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">FB</span></span><span>Flávio Bolsonaro (PL-RJ), candidato, na ação ao TSE</span></div>
+        <p>Acusou o canal de distribuir “missões” e usar recursos públicos em propaganda negativa.<sup><a href="#t1r4">[4]</a></sup></p>
+        
+        <blockquote>“Segundo Flávio, a estrutura usa o canal para distribuir “missões” de compartilhamento de publicações e teria empregado recursos públicos de campanha em impulsionamento de propaganda negativa.”<cite><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;11&#x2f;flavio-quer-derrubar-canal-pro-lula-de-janones-com-33-milhoes-de-seguidores-tse-pede-esclarecimentos&#x2f;" target="_blank" rel="noopener">Brasil de Fato</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+        
+  </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #81c784"></i>Centro pró-governo</span>, <span><i style="background: #9e9e9e"></i>Centro</span>, <span><i style="background: #ffb74d"></i>Centro-oposição</span>, <span><i style="background: #6a1b9a"></i>Independente — Missão &#x2f; MBL</span>, <span><i style="background: #78909c"></i>Outros &#x2f; não classificável</span>.</p>
+
+  <details>
+    <summary>Referências (6) e outras matérias sobre o tema (6)</summary>
+    <ol class="refs">
+    
+      <li id="t1r1"><a href="https:&#x2f;&#x2f;revistaoeste.com&#x2f;politica&#x2f;tse-da-48-horas-para-que-a-meta-esclareca-acusacoes-do-pt&#x2f;" target="_blank" rel="noopener">TSE dá 48 horas para que a Meta esclareça acusações do PT</a> <span class="meta">— Revista Oeste, 11&#x2f;10 10:27</span></li>
+    
+      <li id="t1r2"><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;eleicoes&#x2f;tse-da-48-horas-para-que-meta-esclareca-possivel-restricao-a-posts-da-campanha-de-lula&#x2f;" target="_blank" rel="noopener">TSE dá 48 horas para que Meta esclareça possível restrição a posts da campanha de Lula</a> <span class="meta">— Estadão, 10&#x2f;10 17:54</span></li>
+    
+      <li id="t1r3"><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;flavio-bolsonaro-tenta-derrubar-canal-pro-lula-de-janones-e-tse-cobra-esclarecimentos.shtml" target="_blank" rel="noopener">Flávio Bolsonaro tenta derrubar canal pró-Lula de Janones, e TSE cobra esclarecimentos</a> <span class="meta">— Folha, 10&#x2f;10 20:35</span></li>
+    
+      <li id="t1r4"><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;11&#x2f;flavio-quer-derrubar-canal-pro-lula-de-janones-com-33-milhoes-de-seguidores-tse-pede-esclarecimentos&#x2f;" target="_blank" rel="noopener">Flávio quer derrubar canal pró-Lula de Janones com 3,3 milhões de seguidores; TSE pede esclarecimentos</a> <span class="meta">— Brasil de Fato, 11&#x2f;10 10:41</span></li>
+    
+      <li id="t1r5"><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;11&#x2f;tse-manda-suspender-propaganda-eleitoral-de-lula-que-diz-que-flavio-bolsonaro-e-investigado-no-caso-master.ghtml" target="_blank" rel="noopener">TSE suspende propaganda eleitoral de Lula sobre Flávio Bolsonaro e caso Master</a> <span class="meta">— G1, 11&#x2f;10 09:29</span></li>
+    
+      <li id="t1r6"><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;politica&#x2f;campanha-de-lula-acusa-meta-de-tentar-interferir-nas-eleicoes&#x2f;" target="_blank" rel="noopener">Campanha de Lula acusa Meta de tentar interferir nas eleições</a> <span class="meta">— CartaCapital, 10&#x2f;10 17:28</span></li>
+    
+    </ol>
+    
+    <ul class="rel">
+    
+      <li><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;eleicoes&#x2f;2026&#x2f;tse-da-48h-para-meta-explicar-se-trata-lula-e-flavio-da-mesma-forma&#x2f;" target="_blank" rel="noopener">TSE dá 48h para Meta explicar se trata Lula e Flávio da mesma forma</a> <span class="meta">— Gazeta do Povo, 10&#x2f;10 18:55</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;justica&#x2f;tse-questiona-meta-sobre-restricoes-a-conteudos-da-campanha-de-lula&#x2f;" target="_blank" rel="noopener">TSE questiona Meta sobre restrições a conteúdos da campanha de Lula</a> <span class="meta">— CartaCapital, 10&#x2f;10 18:12</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;colunas&#x2f;painel&#x2f;2026&#x2f;10&#x2f;campanha-de-lula-ve-interferencia-da-meta-apos-videos-de-lula-baterem-recorde-de-visualizacoes.shtml" target="_blank" rel="noopener">Campanha de Lula vê interferência da Meta após vídeos do petista baterem recorde de visualizações</a> <span class="meta">— Folha, 10&#x2f;10 18:56</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;10&#x2f;campanha-de-lula-acusa-meta-de-tentar-interferir-nas-eleicoes-e-diz-que-acionara-tse-e-anpd.ghtml" target="_blank" rel="noopener">Campanha de Lula acusa Meta de tentar interferir nas eleições e diz que acionará TSE e ANPD</a> <span class="meta">— G1, 10&#x2f;10 13:10</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;pt.org.br&#x2f;campanha-do-presidente-lula-denuncia-interferencia-da-meta-democracia-em-xeque&#x2f;" target="_blank" rel="noopener">Campanha do presidente Lula denuncia interferência da Meta: democracia em xeque</a> <span class="meta">— PT (site oficial), 10&#x2f;10 12:42</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;justica&#x2f;tse-pede-esclarecimentos-antes-de-analisar-pedidos-de-flavio-contra-lula-e-janones&#x2f;" target="_blank" rel="noopener">TSE pede esclarecimentos antes de analisar pedidos de Flávio contra Lula e Janones</a> <span class="meta">— CartaCapital, 10&#x2f;10 16:56</span></li>
+    
+    </ul>
+    
+  </details>
+</article>
+
+<article id="t2">
+  
+  <h2><span class="n">2.</span>Ratinho Junior (PSD), governador do Paraná, declara apoio a Flávio no 2º turno; o PSD segue neutro</h2>
+  <p class="cobertura">Cobertura (5):
+    <span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — Estadão, Folha</span><span class="l"><b>Imprensa mais à direita</b> — Gazeta do Povo</span><span class="l"><b>Outras fontes</b> — Blog do Robson Pires (via Google News), Poder360 (via Google News)</span>
+  </p>
+
+  <h3>O que aconteceu</h3>
+  <div class="contexto">
+  
+    <p>Ratinho anunciou apoio depois de conversar com Flávio e com Tarcísio; o PSD declarou neutralidade.<sup><a href="#t2r1" title="“O partido de Ratinho declarou neutralidade.” — Gazeta do Povo">[1]</a></sup></p>
+  
+    <p>O candidato de Ratinho ao governo, Sandro Alex (PSD), perdeu no 1º turno para Sergio Moro (PL) e também apoiará Flávio.<sup><a href="#t2r1" title="“Sandro Alex também anunciou que apoiará Flávio no segundo turno.” — Gazeta do Povo">[1]</a></sup></p>
+  
+    <p>A campanha prevê um ato com governadores depois do feriado de 12 de outubro.<sup><a href="#t2r2" title="“A previsão é que um ato de apoio seja realizado após o feriado desta segunda-feira (12).” — Folha">[2]</a></sup></p>
+  
+  </div>
+
+  <h3>Como cada campo político se posicionou</h3>
+  <div class="lados">
+    
+
+    <section class="lado" style="--cor: #81c784">
+      <h4>Centro pró-governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">RJ</span></span><span>Ratinho Junior (PSD), governador do Paraná</span></div>
+        <p>Anunciou que vai “caminhar junto” com Flávio.<sup><a href="#t2r3">[3]</a></sup></p>
+        
+        <blockquote>“Conversei com o Flávio Bolsonaro e com o governador Tarcísio (de Freitas, São Paulo). Vamos caminhar juntos pelo futuro do nosso Brasil!”<cite><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;eleicoes&#x2f;ratinho-junior-anuncia-apoio-a-flavio-bolsonaro-vamos-caminhar-juntos&#x2f;" target="_blank" rel="noopener">Estadão</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+          
+
+    <section class="lado" style="--cor: #6a1b9a">
+      <h4>Independente — Missão &#x2f; MBL</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">RS</span></span><span>Renan Santos (Missão), na sexta (9)</span></div>
+        <p>Disse que o Missão não será empurrado a apoiar ninguém no 2º turno.<sup><a href="#t2r4">[4]</a></sup></p>
+        
+        <blockquote>“Ninguém vai vir empurrar a mim, ninguém vai vir empurrar ao nosso grupo.”<cite><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;eleicoes&#x2f;renan-santos-critica-declaracao-de-apoio-de-augusto-cury-a-flavio-bolsonaro-comedia-nprp&#x2f;" target="_blank" rel="noopener">Estadão</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+      
+  </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #2e7d32"></i>Pró-governo</span>, <span><i style="background: #9e9e9e"></i>Centro</span>, <span><i style="background: #ffb74d"></i>Centro-oposição</span>, <span><i style="background: #e65100"></i>Oposição ao governo</span>, <span><i style="background: #78909c"></i>Outros &#x2f; não classificável</span>.</p>
+
+  <details>
+    <summary>Referências (4) e outras matérias sobre o tema (2)</summary>
+    <ol class="refs">
+    
+      <li id="t2r1"><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;eleicoes&#x2f;2026&#x2f;ratinho-junior-declara-apoio-a-flavio-bolsonaro-no-2o-turno&#x2f;" target="_blank" rel="noopener">Ratinho Junior declara apoio a Flávio Bolsonaro no 2º turno</a> <span class="meta">— Gazeta do Povo, 10&#x2f;10 19:29</span></li>
+    
+      <li id="t2r2"><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;colunas&#x2f;painel&#x2f;2026&#x2f;10&#x2f;flavio-liga-para-ratinho-jr-e-acerta-apoio-de-governador-a-sua-candidatura.shtml" target="_blank" rel="noopener">Flávio liga para Ratinho Jr e acerta apoio de governador a sua candidatura</a> <span class="meta">— Folha, 10&#x2f;10 16:55</span></li>
+    
+      <li id="t2r3"><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;eleicoes&#x2f;ratinho-junior-anuncia-apoio-a-flavio-bolsonaro-vamos-caminhar-juntos&#x2f;" target="_blank" rel="noopener">Ratinho Junior anuncia apoio a Flávio Bolsonaro: ‘Vamos caminhar juntos’</a> <span class="meta">— Estadão, 10&#x2f;10 20:50</span></li>
+    
+      <li id="t2r4"><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;eleicoes&#x2f;renan-santos-critica-declaracao-de-apoio-de-augusto-cury-a-flavio-bolsonaro-comedia-nprp&#x2f;" target="_blank" rel="noopener">Renan Santos critica declaração de apoio de Augusto Cury a Flávio Bolsonaro: ‘Comédia’</a> <span class="meta">— Estadão, 09&#x2f;10 18:13</span></li>
+    
+    </ol>
+    
+    <ul class="rel">
+    
+      <li><a href="https:&#x2f;&#x2f;news.google.com&#x2f;rss&#x2f;articles&#x2f;CBMirwFBVV95cUxNZDVsWUVJeUVvTERNbVprbjlrR3hTV2V4dE1WQWhIcFlLa1N1TmhaQVFIbS1MaXgyODBlcHhJbWpyaV9jNldqV21fVWN0U3U4R3NwRzBiQWFoZlVuTnFXdHJVaWFQc2NtckpRbG5wU083cUlHZ2VJX19VZ3pRb3pjNzhDQnRNVzgySUFvcEJhSG5jOHRneW9MRW9NQmlEOF9mdzMtSkl6WmZ5T0gyeE9R?oc=5" target="_blank" rel="noopener">Flávio Bolsonaro acerta apoio de Ratinho Jr à sua candidatura</a> <span class="meta">— Poder360 (via Google News), 10&#x2f;10 18:58</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;news.google.com&#x2f;rss&#x2f;articles&#x2f;CBMiqAFBVV95cUxNNDFPR1pxNTk2V2pJenYzUTA3UEtjZDRHYUdtX3ZNRGYxaW1KSTJIQktURUVEa3dlb2lUZTVqcHU2T3ZLX2lfbUYxNTFHeVFlRTNlRzd1ZDJJRXkwVTd1ekpCdkZ3eEFzUTExa19RanoyQmRaNjNjbHU0ZU4wdHA2T29wY3F2ekoxYmYwMWk1MEtJTFZ4Z1poRWxYMVZXLTlQSldMRTgtSUI?oc=5" target="_blank" rel="noopener">Ratinho Junior segue Caiado e declara apoio a Flávio Bolsonaro no 2º turno</a> <span class="meta">— Blog do Robson Pires (via Google News), 11&#x2f;10 09:26</span></li>
+    
+    </ul>
+    
+  </details>
+</article>
+
+<article id="t3">
+  
+  <h2><span class="n">3.</span>TRE-RJ retotaliza votos e confirma Douglas Ruas (PL) governador eleito do Rio no 1º turno, com 50,88%</h2>
+  <p class="cobertura">Cobertura (4):
+    <span class="l"><b>Imprensa mais à esquerda</b> — Brasil de Fato, CartaCapital</span><span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — Estadão, Folha</span>
+  </p>
+
+  <h3>O que aconteceu</h3>
+  <div class="contexto">
+  
+    <p>Com os 274.411 votos de Garotinho anulados, Ruas passou a 50,88% dos válidos e Paes a 44,16%.<sup><a href="#t3r1" title="“os 4.271.199 votos recebidos por Douglas Ruas passaram a equivaler a 50,88% dos votos válidos” — Brasil de Fato">[1]</a></sup><sup><a href="#t3r2" title="“Ruas alcançou 50,88% dos votos válidos, contra 44,16% de Paes.” — Estadão">[2]</a></sup></p>
+  
+    <p>A proclamação oficial está prevista para 15 de outubro.<sup><a href="#t3r2" title="“A proclamação oficial do resultado acontecerá no dia 15 de outubro” — Estadão">[2]</a></sup></p>
+  
+  </div>
+
+  <h3>Como cada campo político se posicionou</h3>
+  <div class="lados">
+          
+
+    <section class="lado" style="--cor: #e65100">
+      <h4>Oposição ao governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">DR</span></span><span>Douglas Ruas (PL), governador eleito do RJ</span></div>
+        <p>Comemorou a vitória.<sup><a href="#t3r2">[2]</a></sup></p>
+        
+        <blockquote>“O nosso povo escolheu a mudança, a renovação e um novo caminho para o nosso estado!”<cite><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;eleicoes&#x2f;douglas-ruas-e-eleito-governador-do-rj-apos-retotalizacao-de-votos&#x2f;" target="_blank" rel="noopener">Estadão</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+      
+
+    <section class="lado" style="--cor: #78909c">
+      <h4>Outros &#x2f; não classificável</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">DC</span></span><span>Desembargador Claudio de Mello Tavares, presidente do TRE-RJ</span></div>
+        <p>Anunciou o resultado.<sup><a href="#t3r2">[2]</a></sup></p>
+        
+        <blockquote>“alcançando mais da metade dos votos válidos, o suficiente para vencer no primeiro turno das eleições. Esse é o resultado”<cite><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;eleicoes&#x2f;douglas-ruas-e-eleito-governador-do-rj-apos-retotalizacao-de-votos&#x2f;" target="_blank" rel="noopener">Estadão</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+  </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #2e7d32"></i>Pró-governo</span>, <span><i style="background: #81c784"></i>Centro pró-governo</span>, <span><i style="background: #9e9e9e"></i>Centro</span>, <span><i style="background: #ffb74d"></i>Centro-oposição</span>, <span><i style="background: #6a1b9a"></i>Independente — Missão &#x2f; MBL</span>.</p>
+
+  <details>
+    <summary>Referências (2) e outras matérias sobre o tema (2)</summary>
+    <ol class="refs">
+    
+      <li id="t3r1"><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;10&#x2f;tre-rj-retotaliza-votos-e-confirma-eleicao-de-douglas-ruas-pl-no-1o-turno&#x2f;" target="_blank" rel="noopener">TRE-RJ retotaliza votos e confirma eleição de Douglas Ruas (PL) no 1º turno</a> <span class="meta">— Brasil de Fato, 10&#x2f;10 15:56</span></li>
+    
+      <li id="t3r2"><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;eleicoes&#x2f;douglas-ruas-e-eleito-governador-do-rj-apos-retotalizacao-de-votos&#x2f;" target="_blank" rel="noopener">Douglas Ruas é eleito governador do RJ, após retotalização de votos</a> <span class="meta">— Estadão, 10&#x2f;10 15:00</span></li>
+    
+    </ol>
+    
+    <ul class="rel">
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;douglas-ruas-e-confirmado-governador-eleito-do-rj-apos-retotalizacao-de-votos.shtml" target="_blank" rel="noopener">Douglas Ruas é confirmado como governador eleito do RJ, o mais jovem do estado em 5 décadas</a> <span class="meta">— Folha, 10&#x2f;10 15:12</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;justica&#x2f;tre-rj-confirma-vitoria-de-douglas-ruas-ao-governo-do-rio-no-1o-turno&#x2f;" target="_blank" rel="noopener">TRE-RJ confirma vitória de Douglas Ruas ao governo do Rio no 1º turno</a> <span class="meta">— CartaCapital, 10&#x2f;10 15:59</span></li>
+    
+    </ul>
+    
+  </details>
+</article>
+
+<article id="t4">
+  
+  <h2><span class="n">4.</span>E-mails apreendidos pela PF indicam conta de Flávio vinculada a advogado investigado na fraude do INSS; Flávio e o advogado negam</h2>
+  <p class="cobertura">Cobertura (4):
+    <span class="l"><b>Imprensa mais à esquerda</b> — Brasil de Fato</span><span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — Estadão, Folha</span><span class="l"><b>Partidos e movimentos</b> — PT (site oficial)</span>
+  </p>
+
+  <h3>O que aconteceu</h3>
+  <div class="contexto">
+  
+    <p>Uma funcionária de Willer Tomaz pediu ao banco a exclusão da “conta Flávio Bolsonaro” do usuário master ligado ao advogado.<sup><a href="#t4r1" title="“No texto ela pedia ao banco que fosse excluída a ‘conta Flávio Bolsonaro’ do ‘usuário master’ (ligado ao advogado).” — Estadão">[1]</a></sup></p>
+  
+    <p>A conta estaria relacionada à Alcazar Holdings, empresa de Tomaz na Ilha da Madeira; a informação foi revelada pelo UOL.<sup><a href="#t4r2" title="“a troca de mensagens com o banco Santander tratava de uma conta relacionada à Alcazar Holdings, firma sediada na Ilha da Madeira, em Portugal, da qual o advogado é sócio.” — Brasil de Fato">[2]</a></sup></p>
+  
+    <p>Fontes da PF e da PGR confirmaram ao Estadão a existência da correspondência, sem fornecer cópia.<sup><a href="#t4r1" title="“Duas fontes da Polícia Federal e uma da Procuradoria-Geral da República confirmaram ao Estadão neste sábado, 10, a existência da correspondência, mas não disponibilizaram cópia.” — Estadão">[1]</a></sup></p>
+  
+  </div>
+
+  <h3>Como cada campo político se posicionou</h3>
+  <div class="lados">
+  
+
+    <section class="lado" style="--cor: #2e7d32">
+      <h4>Pró-governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">P</span></span><span>PT (site oficial)</span></div>
+        <p>Disse que a PF apontou a necessidade de aprofundar a investigação sobre relações de Tomaz com agentes públicos, entre eles Flávio.<sup><a href="#t4r3">[3]</a></sup></p>
+        
+        <blockquote>“A Polícia Federal apontou a necessidade de aprofundar a investigação sobre as movimentações financeiras de Tomaz, suas empresas e suas relações com agentes públicos, entre eles Flávio Bolsonaro.”<cite><a href="https:&#x2f;&#x2f;pt.org.br&#x2f;ligacoes-perigosas-pf-apura-vinculo-de-flavio-com-advogado-suspeito-de-fraude-no-inss&#x2f;" target="_blank" rel="noopener">PT (site oficial)</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+          
+
+    <section class="lado" style="--cor: #e65100">
+      <h4>Oposição ao governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">FB</span></span><span>Flávio Bolsonaro (PL-RJ), por meio de sua assessoria</span></div>
+        <p>Negou a conta e disse que as informações são falsas e eleitorais.<sup><a href="#t4r4">[4]</a></sup></p>
+        
+        <blockquote>“Essas insinuações não surgem por acaso. Aparecem agora, em pleno período eleitoral, com um propósito único: espalhar fake news.”<cite><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;emails-indicam-que-flavio-bolsonaro-dividia-conta-com-suspeito-de-lavar-dinheiro-do-inss.shtml" target="_blank" rel="noopener">Folha</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+      
+
+    <section class="lado" style="--cor: #78909c">
+      <h4>Outros &#x2f; não classificável</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">WT</span></span><span>Willer Tomaz, advogado</span></div>
+        <p>Negou ter compartilhado conta com Flávio.<sup><a href="#t4r1">[1]</a></sup></p>
+        
+        <blockquote>“Não existe e-mail de minha parte e não existe essa conta”<cite><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;blog-do-fausto-macedo&#x2f;e-mails-indicam-que-flavio-dividiu-conta-bancaria-com-advogado-investigado-na-fraude-do-inss&#x2f;" target="_blank" rel="noopener">Estadão</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+  </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #81c784"></i>Centro pró-governo</span>, <span><i style="background: #9e9e9e"></i>Centro</span>, <span><i style="background: #ffb74d"></i>Centro-oposição</span>, <span><i style="background: #6a1b9a"></i>Independente — Missão &#x2f; MBL</span>.</p>
+
+  <details>
+    <summary>Referências (4)</summary>
+    <ol class="refs">
+    
+      <li id="t4r1"><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;blog-do-fausto-macedo&#x2f;e-mails-indicam-que-flavio-dividiu-conta-bancaria-com-advogado-investigado-na-fraude-do-inss&#x2f;" target="_blank" rel="noopener">E-mails indicam que Flávio dividiu conta bancária com advogado investigado na fraude do INSS</a> <span class="meta">— Estadão, 10&#x2f;10 19:08</span></li>
+    
+      <li id="t4r2"><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;10&#x2f;flavio-bolsonaro-dividia-conta-com-investigado-por-desvios-no-inss-indicam-e-mails&#x2f;" target="_blank" rel="noopener">Flávio Bolsonaro dividia conta com investigado por desvios no INSS, indicam e-mails</a> <span class="meta">— Brasil de Fato, 10&#x2f;10 10:07</span></li>
+    
+      <li id="t4r3"><a href="https:&#x2f;&#x2f;pt.org.br&#x2f;ligacoes-perigosas-pf-apura-vinculo-de-flavio-com-advogado-suspeito-de-fraude-no-inss&#x2f;" target="_blank" rel="noopener">Ligações perigosas: PF apura vínculo de Flávio com advogado suspeito de fraude no INSS</a> <span class="meta">— PT (site oficial), 10&#x2f;10 12:15</span></li>
+    
+      <li id="t4r4"><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;emails-indicam-que-flavio-bolsonaro-dividia-conta-com-suspeito-de-lavar-dinheiro-do-inss.shtml" target="_blank" rel="noopener">Emails indicam que Flávio Bolsonaro dividia conta com suspeito de lavar dinheiro do INSS</a> <span class="meta">— Folha, 10&#x2f;10 18:53</span></li>
+    
+    </ol>
+    
+  </details>
+</article>
+
+<article id="t5">
+  
+  <h2><span class="n">5.</span>“Tesouraço”: Lula pergunta onde Flávio fará corte de R$ 250 bilhões; Flávio nega cortes em programas sociais e fala em reduzir a estrutura do Estado</h2>
+  <p class="cobertura">Cobertura (4):
+    <span class="l"><b>Imprensa mais à esquerda</b> — CartaCapital</span><span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — Estadão, Folha</span><span class="l"><b>Imprensa mais à direita</b> — Gazeta do Povo</span>
+  </p>
+
+  <h3>O que aconteceu</h3>
+  <div class="contexto">
+  
+    <p>A imprensa revelou estudos da equipe de Flávio para economizar até R$ 250 bilhões, incluindo mudanças na correção de benefícios e nos pisos de saúde e educação; a campanha diz que são conversas informais.<sup><a href="#t5r1" title="“A ofensiva ganhou força após a revelação pela imprensa de estudos da equipe econômica de Flávio para economizar até R$ 250 bilhões.” — Gazeta do Povo">[1]</a></sup></p>
+  
+    <p>O programa de Flávio prevê extinguir ao menos 10 ministérios e reduzir cargos comissionados.<sup><a href="#t5r1" title="“Seu programa prevê extinguir ao menos 10 ministérios, reduzir cargos comissionados e despesas administrativas” — Gazeta do Povo">[1]</a></sup></p>
+  
+    <p>Lula falou em agenda de campanha em Natal, ao lado de governadores do Nordeste.<sup><a href="#t5r2" title="“As manifestações ocorreram durante uma agenda de campanha em Natal, no Rio Grande do Norte.” — CartaCapital">[2]</a></sup></p>
+  
+    <p>Mendonça mandou retirar vídeo de Lula que associava o ajuste a perdas em programas específicos.<sup><a href="#t5r1" title="“o ministro André Mendonça, do Tribunal Superior Eleitoral (TSE), determinou a retirada do vídeo em que Lula associava o ajuste a perdas em programas específicos.” — Gazeta do Povo">[1]</a></sup></p>
+  
+  </div>
+
+  <h3>Como cada campo político se posicionou</h3>
+  <div class="lados">
+  
+
+    <section class="lado" style="--cor: #2e7d32">
+      <h4>Pró-governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">LP</span></span><span>Lula (PT), em Natal (RN)</span></div>
+        <p>Disse que a sociedade precisa perguntar de onde virá o corte.<sup><a href="#t5r3">[3]</a></sup></p>
+        
+        <blockquote>“Quando o meu adversário diz que vai cortar R$ 250 bilhões, que vai ter um tesouraço, é preciso que a sociedade comece a se perguntar de onde é que vai ser esse corte.”<cite><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;eleicoes&#x2f;lula-critica-tesouraco-e-questiona-onde-flavio-bolsonaro-fara-corte-de-r-250-bilhoes&#x2f;" target="_blank" rel="noopener">Estadão</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+          
+
+    <section class="lado" style="--cor: #e65100">
+      <h4>Oposição ao governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">FB</span></span><span>Flávio Bolsonaro (PL-RJ), candidato</span></div>
+        <p>Disse que vai preservar Bolsa Família, Minha Casa Minha Vida e Farmácia Popular.<sup><a href="#t5r3">[3]</a></sup></p>
+        
+        <blockquote>“Flávio diz que vai cortar gastos públicos, mas afirma que vai preservar programas como Bolsa Família, Minha Casa Minha Vida e Farmácia Popular.”<cite><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;eleicoes&#x2f;lula-critica-tesouraco-e-questiona-onde-flavio-bolsonaro-fara-corte-de-r-250-bilhoes&#x2f;" target="_blank" rel="noopener">Estadão</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+        
+  </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #81c784"></i>Centro pró-governo</span>, <span><i style="background: #9e9e9e"></i>Centro</span>, <span><i style="background: #ffb74d"></i>Centro-oposição</span>, <span><i style="background: #6a1b9a"></i>Independente — Missão &#x2f; MBL</span>, <span><i style="background: #78909c"></i>Outros &#x2f; não classificável</span>.</p>
+
+  <details>
+    <summary>Referências (3) e outras matérias sobre o tema (2)</summary>
+    <ol class="refs">
+    
+      <li id="t5r1"><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;republica&#x2f;lula-cobra-detalhes-do-ajuste-fiscal-de-flavio-que-nega-cortes-em-programas-sociais&#x2f;" target="_blank" rel="noopener">Lula cobra detalhes do ajuste fiscal de Flávio, que nega cortes em programas sociais</a> <span class="meta">— Gazeta do Povo, 10&#x2f;10 13:59</span></li>
+    
+      <li id="t5r2"><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;politica&#x2f;lula-defende-a-manutencao-de-programas-sociais-e-diz-que-flavio-fara-tesouraco&#x2f;" target="_blank" rel="noopener">Lula defende a manutenção de programas sociais e diz que Flávio fará ‘tesouraço’</a> <span class="meta">— CartaCapital, 10&#x2f;10 14:00</span></li>
+    
+      <li id="t5r3"><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;eleicoes&#x2f;lula-critica-tesouraco-e-questiona-onde-flavio-bolsonaro-fara-corte-de-r-250-bilhoes&#x2f;" target="_blank" rel="noopener">Lula critica ‘tesouraço’ e questiona onde Flávio Bolsonaro fará corte de R$ 250 bilhões</a> <span class="meta">— Estadão, 10&#x2f;10 14:56</span></li>
+    
+    </ol>
+    
+    <ul class="rel">
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;flavio-exalta-bolsonaro-e-ve-culto-falar-de-voto-lula-mira-gasolina-subsidiada-e-tesouraco-de-rival.shtml" target="_blank" rel="noopener">Flávio exalta Bolsonaro e vê culto falar de voto; Lula mira gasolina subsidiada e tesouraço de rival</a> <span class="meta">— Folha, 10&#x2f;10 20:18</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;colunas&#x2f;celso-rocha-de-barros&#x2f;2026&#x2f;10&#x2f;flavio-esta-mentindo-sobre-teu-dinheiro.shtml" target="_blank" rel="noopener">Flávio está mentindo sobre teu dinheiro</a> <span class="meta">— Folha, 10&#x2f;10 14:21</span></li>
+    
+    </ul>
+    
+  </details>
+</article>
+
+<article id="t6">
+  
+  <h2><span class="n">6.</span>Em culto da Assembleia de Deus, Flávio fala em “guerra espiritual” e bispo puxa coro “irmão vota em irmão”; em São Gonçalo, repete que Jair lhe entregará a faixa</h2>
+  <p class="cobertura">Cobertura (4):
+    <span class="l"><b>Imprensa mais à esquerda</b> — CartaCapital</span><span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — Estadão, Folha</span><span class="l"><b>Imprensa mais à direita</b> — Gazeta do Povo</span>
+  </p>
+
+  <h3>O que aconteceu</h3>
+  <div class="contexto">
+  
+    <p>No centenário da Assembleia de Deus Ministério de Madureira, no Maracanãzinho, Flávio disse enfrentar “inimigos mentirosos”.<sup><a href="#t6r1" title="“As declarações foram dadas durante celebração dos 100 anos da Assembleia de Deus do Ministério de Madureira, no Maracanãzinho, no Rio de Janeiro.” — Estadão">[1]</a></sup></p>
+  
+    <p>O bispo Samuel Ferreira fez a plateia repetir “irmão vota em irmão” 14 vezes e disse que não pedia voto; o abuso de poder religioso não está no código eleitoral, mas é usado pela Justiça Eleitoral.<sup><a href="#t6r2" title="“que, por 14 vezes, repetiu o lema &quot;irmão vota em irmão&quot;, Ferreira disse que não estava pedindo voto.” — Folha">[2]</a></sup></p>
+  
+    <p>Em São Gonçalo, Flávio voltou a dizer que receberá a faixa do pai, que cumpre prisão domiciliar.<sup><a href="#t6r3" title="“Flávio Bolsonaro (PL) voltou a afirmar neste sábado (10), em São Gonçalo (RJ), que, se vencer a eleição, receberá a faixa presidencial das mãos do pai, Jair Bolsonaro (PL).” — Gazeta do Povo">[3]</a></sup></p>
+  
+  </div>
+
+  <h3>Como cada campo político se posicionou</h3>
+  <div class="lados">
+          
+
+    <section class="lado" style="--cor: #e65100">
+      <h4>Oposição ao governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">FB</span></span><span>Flávio Bolsonaro (PL-RJ), candidato</span></div>
+        <p>Disse que o Brasil passa por uma guerra espiritual.<sup><a href="#t6r4">[4]</a></sup></p>
+        
+        <blockquote>“Enfrentar essa guerra espiritual que o Brasil está passando neste momento não é fácil”<cite><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;eleicoes&#x2f;2026&#x2f;em-evento-evangelico-flavio-bolsonaro-diz-que-brasil-enfrenta-guerra-espiritual&#x2f;" target="_blank" rel="noopener">Gazeta do Povo</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+      
+
+    <section class="lado" style="--cor: #78909c">
+      <h4>Outros &#x2f; não classificável</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">BS</span></span><span>Bispo Samuel Ferreira, presidente da Conamad (Assembleia de Deus)</span></div>
+        <p>Disse que, se pudesse, pediria voto para Flávio.<sup><a href="#t6r2">[2]</a></sup></p>
+        
+        <blockquote>“Se eu pudesse pedir voto, eu pediria. Mas eu não gosto de pedir voto aqui, porque vão falar que eu pedi voto.”<cite><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;flavio-bolsonaro-canta-em-culto-e-recebe-pedido-simulado-de-voto-de-lider-da-assembleia-de-deus.shtml" target="_blank" rel="noopener">Folha</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+  </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #2e7d32"></i>Pró-governo</span>, <span><i style="background: #81c784"></i>Centro pró-governo</span>, <span><i style="background: #9e9e9e"></i>Centro</span>, <span><i style="background: #ffb74d"></i>Centro-oposição</span>, <span><i style="background: #6a1b9a"></i>Independente — Missão &#x2f; MBL</span>.</p>
+
+  <details>
+    <summary>Referências (4) e outras matérias sobre o tema (3)</summary>
+    <ol class="refs">
+    
+      <li id="t6r1"><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;eleicoes&#x2f;em-evento-evangelico-flavio-bolsonaro-diz-que-brasil-enfrenta-guerra-espiritual&#x2f;" target="_blank" rel="noopener">Flávio Bolsonaro diz que enfrenta ‘inimigos mentirosos’ e Brasil passa por ‘guerra espiritual’</a> <span class="meta">— Estadão, 10&#x2f;10 18:36</span></li>
+    
+      <li id="t6r2"><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;flavio-bolsonaro-canta-em-culto-e-recebe-pedido-simulado-de-voto-de-lider-da-assembleia-de-deus.shtml" target="_blank" rel="noopener">Flávio Bolsonaro canta em culto e recebe pedido simulado de voto de líder da Assembleia de Deus</a> <span class="meta">— Folha, 10&#x2f;10 18:13</span></li>
+    
+      <li id="t6r3"><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;republica&#x2f;flavio-volta-a-prometer-que-jair-bolsonaro-vai-lhe-entregar-a-faixa-presidencial&#x2f;" target="_blank" rel="noopener">Flávio volta a prometer que Jair Bolsonaro vai lhe entregar a faixa presidencial</a> <span class="meta">— Gazeta do Povo, 10&#x2f;10 14:30</span></li>
+    
+      <li id="t6r4"><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;eleicoes&#x2f;2026&#x2f;em-evento-evangelico-flavio-bolsonaro-diz-que-brasil-enfrenta-guerra-espiritual&#x2f;" target="_blank" rel="noopener">Em evento evangélico, Flávio Bolsonaro diz que Brasil enfrenta “guerra espiritual”</a> <span class="meta">— Gazeta do Povo, 10&#x2f;10 22:18</span></li>
+    
+    </ol>
+    
+    <ul class="rel">
+    
+      <li><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;politica&#x2f;flavio-diz-que-jair-bolsonaro-colocara-faixa-presidencial-nele-e-promete-entregar-o-brasil-nas-maos-de-deus&#x2f;" target="_blank" rel="noopener">Flávio diz que Jair Bolsonaro colocará faixa presidencial nele e promete entregar o Brasil ‘nas mãos de Deus’</a> <span class="meta">— CartaCapital, 10&#x2f;10 15:00</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;pesquisa-refuta-voto-de-cajado-nas-igrejas-propaganda-eleitoral-apareceu-em-3.shtml" target="_blank" rel="noopener">Pesquisa refuta &#x27;voto de cajado&#x27; nas igrejas: propaganda eleitoral apareceu em 3%</a> <span class="meta">— Folha, 10&#x2f;10 23:00</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;flavio-exalta-bolsonaro-e-ve-culto-falar-de-voto-lula-mira-gasolina-subsidiada-e-tesouraco-de-rival.shtml" target="_blank" rel="noopener">Flávio exalta Bolsonaro e vê culto falar de voto; Lula mira gasolina subsidiada e tesouraço de rival</a> <span class="meta">— Folha, 10&#x2f;10 20:18</span></li>
+    
+    </ul>
+    
+  </details>
+</article>
+
+<article id="t7">
+  
+  <h2><span class="n">7.</span>Sidônio Palmeira tira férias da Secom para reforçar a comunicação da campanha de Lula</h2>
+  <p class="cobertura">Cobertura (4):
+    <span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — Estadão, G1</span><span class="l"><b>Imprensa mais à direita</b> — Gazeta do Povo, Revista Oeste</span>
+  </p>
+
+  <h3>O que aconteceu</h3>
+  <div class="contexto">
+  
+    <p>Sidônio entra em férias na segunda (12) para atuar na campanha.<sup><a href="#t7r1" title="“entrará em férias da pasta nesta segunda-feira, 12, para mergulhar de vez na campanha petista pela reeleição.” — Estadão">[1]</a></sup></p>
+  
+    <p>A cúpula do PT responsabilizou a comunicação por problemas do 1º turno; Rafael Fonteles e Camilo Santana entraram na coordenação.<sup><a href="#t7r1" title="“dirigentes do PT responsabilizaram Sidônio por boa parte dos problemas.” — Estadão">[1]</a></sup><sup><a href="#t7r2" title="“O presidente nacional do PT, Edinho Silva, segue na coordenação da campanha, mas ao lado do senador Camilo Santana (PT-CE), ex-ministro da Educação do governo.” — Gazeta do Povo">[2]</a></sup></p>
+  
+  </div>
+
+  <h3>Como cada campo político se posicionou</h3>
+  <div class="lados">
+                
+  </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #2e7d32"></i>Pró-governo</span>, <span><i style="background: #81c784"></i>Centro pró-governo</span>, <span><i style="background: #9e9e9e"></i>Centro</span>, <span><i style="background: #ffb74d"></i>Centro-oposição</span>, <span><i style="background: #e65100"></i>Oposição ao governo</span>, <span><i style="background: #6a1b9a"></i>Independente — Missão &#x2f; MBL</span>, <span><i style="background: #78909c"></i>Outros &#x2f; não classificável</span>.</p>
+
+  <details>
+    <summary>Referências (2) e outras matérias sobre o tema (3)</summary>
+    <ol class="refs">
+    
+      <li id="t7r1"><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;eleicoes&#x2f;sidonio-palmeira-ministro-da-secom-de-lula-tira-ferias-para-entrar-de-vez-na-campanha&#x2f;" target="_blank" rel="noopener">Sidônio Palmeira, ministro da Secom de Lula, tira férias para entrar de vez na campanha</a> <span class="meta">— Estadão, 10&#x2f;10 14:01</span></li>
+    
+      <li id="t7r2"><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;eleicoes&#x2f;2026&#x2f;sidonio-tira-ferias-da-secom-para-reforcar-campanha-de-lula-no-2o-turno&#x2f;" target="_blank" rel="noopener">Sidônio tira férias da Secom para reforçar campanha de Lula no 2º turno</a> <span class="meta">— Gazeta do Povo, 10&#x2f;10 21:00</span></li>
+    
+    </ol>
+    
+    <ul class="rel">
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;10&#x2f;ministro-da-secom-sidonio-deve-tirar-ferias-para-participar-da-campanha-de-lula-a-presidencia.ghtml" target="_blank" rel="noopener">Ministro da Secom, Sidônio deve tirar férias para participar da campanha de Lula à Presidência</a> <span class="meta">— G1, 10&#x2f;10 17:54</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;revistaoeste.com&#x2f;politica&#x2f;ministro-de-lula-vai-tirar-ferias-para-trabalhar-na-campanha-eleitoral&#x2f;" target="_blank" rel="noopener">Ministro de Lula vai tirar férias para trabalhar na campanha eleitoral</a> <span class="meta">— Revista Oeste, 11&#x2f;10 11:41</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;coluna-do-estadao&#x2f;nao-queremos-que-o-brasil-se-transforme-em-uma-argentina-diz-novo-porta-voz-da-campanha-de-lula&#x2f;" target="_blank" rel="noopener">‘Não queremos que o Brasil se transforme em uma Argentina’, diz novo porta-voz da campanha de Lula</a> <span class="meta">— Estadão, 10&#x2f;10 16:23</span></li>
+    
+    </ul>
+    
+  </details>
+</article>
+
+<article id="t8">
+  
+  <h2><span class="n">8.</span>STF: ala da Corte vê a Lei da Dosimetria como saída para reduzir a pena de Bolsonaro; caso Master completa um mês parado na presidência; 25 senadores pró-impeachment já foram alvos no STF</h2>
+  <p class="cobertura">Cobertura (4):
+    <span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — CNN Brasil, Estadão, Folha, G1</span>
+  </p>
+
+  <h3>O que aconteceu</h3>
+  <div class="contexto">
+  
+    <p>Segundo ministros ouvidos pela TV Globo, haveria maioria para manter a Lei da Dosimetria, com ajustes; a revisão criminal seria mais difícil.<sup><a href="#t8r1" title="“De acordo com essas avaliações, haveria maioria na Corte para manter a dosimetria, com eventuais propostas de ajustes.” — G1">[1]</a></sup></p>
+  
+    <p>Desde 12 de setembro os processos do caso Master estão na presidência do STF, com pedidos de soltura e da PF aguardando análise.<sup><a href="#t8r2" title="“Desde o dia 12 de setembro, Fachin tem represado a análise de pedidos de liberdade de investigados e de outros processos sobre o caso” — CNN Brasil">[2]</a></sup></p>
+  
+    <p>Entre 49 senadores favoráveis ao impeachment de ministros, 25 foram alvos de investigações ou ações autorizadas pelo STF.<sup><a href="#t8r3" title="“entre os 49 senadores eleitos ou em exercício que já manifestaram publicamente apoio ao impeachment de ministros do STF, 25 foram investigados” — Estadão">[3]</a></sup></p>
+  
+  </div>
+
+  <h3>Como cada campo político se posicionou</h3>
+  <div class="lados">
+                
+  </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #2e7d32"></i>Pró-governo</span>, <span><i style="background: #81c784"></i>Centro pró-governo</span>, <span><i style="background: #9e9e9e"></i>Centro</span>, <span><i style="background: #ffb74d"></i>Centro-oposição</span>, <span><i style="background: #e65100"></i>Oposição ao governo</span>, <span><i style="background: #6a1b9a"></i>Independente — Missão &#x2f; MBL</span>, <span><i style="background: #78909c"></i>Outros &#x2f; não classificável</span>.</p>
+
+  <details>
+    <summary>Referências (3) e outras matérias sobre o tema (3)</summary>
+    <ol class="refs">
+    
+      <li id="t8r1"><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;11&#x2f;ala-do-stf-ve-lei-da-dosimetria-como-alternativa-a-revisao-criminal-de-bolsonaro.ghtml" target="_blank" rel="noopener">Ala do STF vê Lei da Dosimetria como alternativa à revisão criminal de Bolsonaro</a> <span class="meta">— G1, 11&#x2f;10 04:00</span></li>
+    
+      <li id="t8r2"><a href="https:&#x2f;&#x2f;www.cnnbrasil.com.br&#x2f;politica&#x2f;caso-master-completa-um-mes-parado-na-presidencia-do-stf-entenda&#x2f;" target="_blank" rel="noopener">Caso Master completa um mês parado na presidência do STF; entenda</a> <span class="meta">— CNN Brasil, 11&#x2f;10 10:10</span></li>
+    
+      <li id="t8r3"><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;eleicoes&#x2f;bancada-pro-impeachment-no-senado-reune-25-senadores-que-sao-ou-ja-foram-alvos-no-stf&#x2f;" target="_blank" rel="noopener">Bancada pró-impeachment no Senado reúne 25 senadores que são ou já foram alvos no STF</a> <span class="meta">— Estadão, 11&#x2f;10 05:30</span></li>
+    
+    </ol>
+    
+    <ul class="rel">
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;11&#x2f;caso-master-completa-um-mes-suspenso-na-presidencia-do-stf-com-pedidos-de-soltura-e-apuracao-aguardando-analise.ghtml" target="_blank" rel="noopener">Caso Master completa um mês suspenso na presidência do STF com pedidos de soltura e apuração aguardando análise</a> <span class="meta">— G1, 11&#x2f;10 00:00</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;eliane-cantanhede&#x2f;acordao-jair-bolsonaro-solto-flavio-livre-de-master-e-inss-e-moraes-esquecido&#x2f;" target="_blank" rel="noopener">Acordão? Jair Bolsonaro solto, Flávio livre de Master e INSS e Moraes ‘esquecido’</a> <span class="meta">— Estadão, 10&#x2f;10 20:00</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;colunas&#x2f;eliogaspari&#x2f;2026&#x2f;10&#x2f;moraes-esta-disposto-a-cair-atirando.shtml" target="_blank" rel="noopener">Moraes está disposto a cair atirando</a> <span class="meta">— Folha, 10&#x2f;10 23:00</span></li>
+    
+    </ul>
+    
+  </details>
+</article>
+
+<article id="t9">
+  
+  <h2><span class="n">9.</span>Fim da escala 6x1: centrais sindicais intensificam mobilização antes da votação de quarta; Cleitinho rebate críticas por vídeo com Alcolumbre</h2>
+  <p class="cobertura">Cobertura (3):
+    <span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — Folha, moneytimes.com.br</span><span class="l"><b>Imprensa mais à direita</b> — Gazeta do Povo</span>
+  </p>
+
+  <h3>O que aconteceu</h3>
+  <div class="contexto">
+  
+    <p>As centrais decidiram intensificar a mobilização em Brasília na semana da votação em 1º turno.<sup><a href="#t9r1" title="“Na semana em que o Senado pode votar em primeiro turno a PEC que prevê o fim da escala 6x1, as centrais sindicais vão intensificar a mobilização em favor da aprovação da proposta no Congresso.” — Folha">[1]</a></sup></p>
+  
+    <p>Cleitinho foi criticado por seguidores por gravar vídeo com Alcolumbre anunciando a votação.<sup><a href="#t9r2" title="“após ser alvo de críticas por gravar um vídeo junto com o presidente do Senado, Davi Alcolumbre (União-AP), para anunciar a votação da PEC do fim da escala 6x1 na próxima quarta-feira (14).” — Gazeta do Povo">[2]</a></sup></p>
+  
+    <p>Senadores contrários esvaziaram sessões para dificultar as cinco sessões de discussão.<sup><a href="#t9r1" title="“Nos últimos dias, senadores contrários à proposta esvaziaram as sessões do Senado para dificultar o cumprimento do regimento de realizar cinco sessões antes da votação.” — Folha">[1]</a></sup></p>
+  
+  </div>
+
+  <h3>Como cada campo político se posicionou</h3>
+  <div class="lados">
+          
+
+    <section class="lado" style="--cor: #e65100">
+      <h4>Oposição ao governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">CR</span></span><span>Cleitinho (Republicanos-MG), senador e governador eleito</span></div>
+        <p>Disse que gravou o vídeo para pedir que a PEC fosse pautada.<sup><a href="#t9r2">[2]</a></sup></p>
+        
+        <blockquote>“O que eu fiz foi pedir para pautar esse projeto que venho lutando tem três anos!”<cite><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;republica&#x2f;cleitinho-se-explica-apos-criticas-por-video-ao-lado-de-alcolumbre&#x2f;" target="_blank" rel="noopener">Gazeta do Povo</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+
+    <section class="lado" style="--cor: #6a1b9a">
+      <h4>Independente — Missão &#x2f; MBL</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">RS</span></span><span>Renan Santos (Missão), em junho</span></div>
+        <p>Classificou a PEC como eleitoreira.<sup><a href="#t9r3">[3]</a></sup></p>
+        
+        <blockquote>“Santos classificou a proposta como puramente “eleitoreira” e alertou para os potenciais impactos macroeconômicos negativos na indústria e no comércio.”<cite><a href="https:&#x2f;&#x2f;www.moneytimes.com.br&#x2f;terceiro-colocado-e-terceira-via-como-renan-santos-missao-tenta-se-consolidar-como-opcao-nas-eleicoes-2026-gaep&#x2f;" target="_blank" rel="noopener">moneytimes.com.br</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+
+    <section class="lado" style="--cor: #78909c">
+      <h4>Outros &#x2f; não classificável</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">JC</span></span><span>João Carlos Gonçalves (Juruna), secretário-geral da Força Sindical</span></div>
+        <p>Defendeu votar a PEC já.<sup><a href="#t9r1">[1]</a></sup></p>
+        
+        <blockquote>“Votar agora seria fundamental, independente da agenda eleitoral”<cite><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;colunas&#x2f;painel&#x2f;2026&#x2f;10&#x2f;centrais-intensificam-mobilizacao-pelo-fim-da-6x1-em-brasilia.shtml" target="_blank" rel="noopener">Folha</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+  </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #2e7d32"></i>Pró-governo</span>, <span><i style="background: #81c784"></i>Centro pró-governo</span>, <span><i style="background: #9e9e9e"></i>Centro</span>, <span><i style="background: #ffb74d"></i>Centro-oposição</span>.</p>
+
+  <details>
+    <summary>Referências (3)</summary>
+    <ol class="refs">
+    
+      <li id="t9r1"><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;colunas&#x2f;painel&#x2f;2026&#x2f;10&#x2f;centrais-intensificam-mobilizacao-pelo-fim-da-6x1-em-brasilia.shtml" target="_blank" rel="noopener">Centrais intensificam mobilização pelo fim da 6x1, em Brasília</a> <span class="meta">— Folha, 10&#x2f;10 23:00</span></li>
+    
+      <li id="t9r2"><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;republica&#x2f;cleitinho-se-explica-apos-criticas-por-video-ao-lado-de-alcolumbre&#x2f;" target="_blank" rel="noopener">Cleitinho se explica após críticas por vídeo ao lado de Alcolumbre</a> <span class="meta">— Gazeta do Povo, 10&#x2f;10 21:50</span></li>
+    
+      <li id="t9r3"><a href="https:&#x2f;&#x2f;www.moneytimes.com.br&#x2f;terceiro-colocado-e-terceira-via-como-renan-santos-missao-tenta-se-consolidar-como-opcao-nas-eleicoes-2026-gaep&#x2f;" target="_blank" rel="noopener">Terceiro colocado e terceira via: A &#x27;missão&#x27; de Renan Santos para se consolidar como opção à polarização nas eleições 2026 – Money Times</a> <span class="meta">— moneytimes.com.br, 01&#x2f;06 12:02</span></li>
+    
+    </ol>
+    
+  </details>
+</article>
+
+
+
+<section id="poderes" class="poderes">
+  <h2 class="secao">Atuação dos Poderes</h2>
+  <p class="secao-sub">O que foi pautado no dia, como cada lado se posicionou e o que foi decidido.</p>
+
+  
+  <article id="stf" class="casa">
+    <h2>Supremo Tribunal Federal</h2>
+    <p class="vazio">Domingo: sem sessão. Item em acompanhamento.</p>
+
+    
+    <div class="item" id="stf1">
+      <div class="item-topo">
+        <h3 class="item-titulo">Caso Master (processos remetidos à Presidência do STF)</h3>
+        <span class="situacao s-em_andamento">Em andamento</span>
+      </div>
+
+      <dl class="item-fatos">
+        <dt>Em pauta</dt>
+        <dd>Processos e pedidos de soltura do caso Master estão na Presidência desde 12 de setembro.<sup><a href="#stf1r1" title="“No dia 12 de setembro, o presidente do Supremo, Luiz Edson Fachin, determinou que o ministro André Mendonça enviasse à Presidência todos os processos relacionados às investigações do Master” — G1">[1]</a></sup></dd>
+        <dt>Resultado</dt>
+        <dd>Um mês sem decisão; pedidos de Vorcaro e de outros quatro presos aguardam análise.<sup><a href="#stf1r2" title="“Além de Vorcaro, outros quatro investigados presos pediram a análise de recursos pendentes contra suas prisões preventivas.” — CNN Brasil">[2]</a></sup></dd>
+      </dl>
+
+      <div class="abas">
+        <input type="radio" class="t-pos" name="aba-stf1" id="stf1-pos" checked>
+        <label for="stf1-pos">Posicionamentos</label>
+        
+      <div class="painel painel-pos">
+      <div class="lados">
+                                                
+      </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #2e7d32"></i>Pró-governo</span>, <span><i style="background: #81c784"></i>Centro pró-governo</span>, <span><i style="background: #9e9e9e"></i>Centro</span>, <span><i style="background: #ffb74d"></i>Centro-oposição</span>, <span><i style="background: #e65100"></i>Oposição ao governo</span>, <span><i style="background: #6a1b9a"></i>Independente — Missão &#x2f; MBL</span>, <span><i style="background: #78909c"></i>Outros &#x2f; não classificável</span>.</p>
+
+      
+      </div>
+
+      
+      </div>
+
+      <details>
+        <summary>Referências (2)</summary>
+        <ol class="refs">
+        
+          <li id="stf1r1"><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;11&#x2f;caso-master-completa-um-mes-suspenso-na-presidencia-do-stf-com-pedidos-de-soltura-e-apuracao-aguardando-analise.ghtml" target="_blank" rel="noopener">Caso Master completa um mês suspenso na presidência do STF com pedidos de soltura e apuração aguardando análise</a> <span class="meta">— G1, 11&#x2f;10 00:00</span></li>
+        
+          <li id="stf1r2"><a href="https:&#x2f;&#x2f;www.cnnbrasil.com.br&#x2f;politica&#x2f;caso-master-completa-um-mes-parado-na-presidencia-do-stf-entenda&#x2f;" target="_blank" rel="noopener">Caso Master completa um mês parado na presidência do STF; entenda</a> <span class="meta">— CNN Brasil, 11&#x2f;10 10:10</span></li>
+        
+        </ol>
+        
+      </details>
+    </div>
+    
+  </article>
+  
+  <article id="camara" class="casa">
+    <h2>Câmara dos Deputados</h2>
+    <p class="vazio">Domingo: não houve sessão.</p>
+
+    
+  </article>
+  
+  <article id="senado" class="casa">
+    <h2>Senado Federal</h2>
+    <p class="vazio">Domingo: não houve sessão. A PEC 221&#x2f;2019 (fim da escala 6x1) está pautada para quarta (14).</p>
+
+    
+  </article>
+  
+</section>
+
+
+<footer>
+  <p>Gerado em 03&#x2f;11&#x2f;2026 18:26. Cada afirmação traz pelo menos um trecho copiado literalmente de uma fonte coletada, e esses trechos são conferidos automaticamente antes da publicação. Quando um lado aparece como “nenhum posicionamento encontrado”, isso só significa que as fontes consultadas não trouxeram uma posição. Não quer dizer que o lado não tenha opinião.</p>
+  <p>Em “Atuação dos Poderes”, pauta e resultado da Câmara e do Senado vêm dos dados abertos oficiais de cada Casa. Na Câmara, o que foi dito em Plenário vem da transcrição automática do vídeo da sessão (TV Câmara no YouTube), que pode errar palavras; o link de cada trecho abre o vídeo no momento citado. Para o STF, vêm da imprensa especializada, porque o tribunal não publica dados abertos de pauta. Orientações de bancada e votos por partido contam como posicionamento.</p>
+  <p>A classificação dos veículos por linha editorial é aproximada. Ela serve para mostrar o equilíbrio da cobertura, não para julgar cada veículo.</p>
+</footer>
+</div>
+</body>
+</html>

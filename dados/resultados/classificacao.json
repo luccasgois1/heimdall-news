@@ -1,0 +1,202 @@
+{
+  "mandato": "Lula 3",
+  "gerado_em": "03/11/2026 19:00",
+  "polo_governo": "PT",
+  "polo_oposicao": "PL",
+  "casas": {
+    "camara": {
+      "AVANTE": {
+        "grupo": "centro_pro_governo",
+        "posicao": -39.66425868593051,
+        "votacoes": 856
+      },
+      "CIDADANIA": {
+        "grupo": "centro",
+        "posicao": 13.136268418885287,
+        "votacoes": 712
+      },
+      "MDB": {
+        "grupo": "centro_pro_governo",
+        "posicao": -30.943533435622044,
+        "votacoes": 870
+      },
+      "MISSÃO": {
+        "grupo": "independente",
+        "posicao": 57.61501850872554,
+        "votacoes": 62
+      },
+      "NOVO": {
+        "grupo": "oposicao",
+        "posicao": 76.15409940008779,
+        "votacoes": 813
+      },
+      "PATRIOTA": {
+        "grupo": "centro",
+        "posicao": 1.6483516483516496,
+        "votacoes": 183
+      },
+      "PCdoB": {
+        "grupo": "pro_governo",
+        "posicao": -82.90567709398215,
+        "votacoes": 877
+      },
+      "PDT": {
+        "grupo": "pro_governo",
+        "posicao": -61.43310265282584,
+        "votacoes": 873
+      },
+      "PL": {
+        "grupo": "oposicao",
+        "posicao": 84.36781609195403,
+        "votacoes": 871
+      },
+      "PODE": {
+        "grupo": "centro_pro_governo",
+        "posicao": -38.28538782094368,
+        "votacoes": 866
+      },
+      "PP": {
+        "grupo": "centro_pro_governo",
+        "posicao": -31.183930668867653,
+        "votacoes": 873
+      },
+      "PRD": {
+        "grupo": "centro_oposicao",
+        "posicao": 20.587769888324402,
+        "votacoes": 547
+      },
+      "PSB": {
+        "grupo": "pro_governo",
+        "posicao": -71.22250990921876,
+        "votacoes": 870
+      },
+      "PSC": {
+        "grupo": "centro_pro_governo",
+        "posicao": -56.98508318990247,
+        "votacoes": 84
+      },
+      "PSD": {
+        "grupo": "centro_pro_governo",
+        "posicao": -36.4335070021801,
+        "votacoes": 874
+      },
+      "PSDB": {
+        "grupo": "centro_pro_governo",
+        "posicao": -26.184796329264742,
+        "votacoes": 860
+      },
+      "PSOL": {
+        "grupo": "pro_governo",
+        "posicao": -68.89109500122449,
+        "votacoes": 875
+      },
+      "PT": {
+        "grupo": "pro_governo",
+        "posicao": -84.36781609195403,
+        "votacoes": 876
+      },
+      "PV": {
+        "grupo": "pro_governo",
+        "posicao": -83.45596080242662,
+        "votacoes": 864
+      },
+      "REDE": {
+        "grupo": "pro_governo",
+        "posicao": -71.00122309477268,
+        "votacoes": 727
+      },
+      "REPUBLICANOS": {
+        "grupo": "centro_pro_governo",
+        "posicao": -27.442574515540358,
+        "votacoes": 875
+      },
+      "S.PART.": {
+        "grupo": "outros",
+        "posicao": -24.13793103448276,
+        "votacoes": 58
+      },
+      "SOLIDARIEDADE": {
+        "grupo": "centro_pro_governo",
+        "posicao": -48.05633908056712,
+        "votacoes": 805
+      },
+      "UNIÃO": {
+        "grupo": "centro_pro_governo",
+        "posicao": -23.425489726216774,
+        "votacoes": 875
+      }
+    },
+    "senado": {
+      "MDB": {
+        "grupo": "pro_governo",
+        "posicao": -65.51724137931035,
+        "votacoes": 87
+      },
+      "NOVO": {
+        "grupo": "oposicao",
+        "posicao": 75.0,
+        "votacoes": 88
+      },
+      "PDT": {
+        "grupo": "pro_governo",
+        "posicao": -70.66666666666667,
+        "votacoes": 75
+      },
+      "PL": {
+        "grupo": "oposicao",
+        "posicao": 91.11111111111111,
+        "votacoes": 90
+      },
+      "PODE": {
+        "grupo": "centro",
+        "posicao": 6.172839506172835,
+        "votacoes": 81
+      },
+      "PP": {
+        "grupo": "oposicao",
+        "posicao": 65.11627906976744,
+        "votacoes": 86
+      },
+      "PSB": {
+        "grupo": "centro_pro_governo",
+        "posicao": -48.19277108433735,
+        "votacoes": 83
+      },
+      "PSD": {
+        "grupo": "centro_pro_governo",
+        "posicao": -56.32183908045977,
+        "votacoes": 87
+      },
+      "PSDB": {
+        "grupo": "centro_oposicao",
+        "posicao": 51.28205128205128,
+        "votacoes": 78
+      },
+      "PT": {
+        "grupo": "pro_governo",
+        "posicao": -91.11111111111111,
+        "votacoes": 90
+      },
+      "REDE": {
+        "grupo": "pro_governo",
+        "posicao": -93.54838709677419,
+        "votacoes": 31
+      },
+      "REPUBLICANOS": {
+        "grupo": "oposicao",
+        "posicao": 80.72289156626506,
+        "votacoes": 83
+      },
+      "Sem partido": {
+        "grupo": "outros",
+        "posicao": -64.28571428571428,
+        "votacoes": 14
+      },
+      "UNIÃO": {
+        "grupo": "centro",
+        "posicao": -3.6144578313253035,
+        "votacoes": 83
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+# Grupos do espectro, limites das faixas de posição (posição ≤ limite) e partidos com grupo fixo.
+
+[[grupo]]
+id = "pro_governo"
+rotulo = "Pró-governo"
+cor = "#2e7d32"
+
+[[grupo]]
+id = "centro_pro_governo"
+rotulo = "Centro pró-governo"
+cor = "#81c784"
+
+[[grupo]]
+id = "centro"
+rotulo = "Centro"
+cor = "#9e9e9e"
+
+[[grupo]]
+id = "centro_oposicao"
+rotulo = "Centro-oposição"
+cor = "#ffb74d"
+
+[[grupo]]
+id = "oposicao"
+rotulo = "Oposição ao governo"
+cor = "#e65100"
+
+[[grupo]]
+id = "independente"
+rotulo = "Independente — Missão / MBL"
+cor = "#6a1b9a"
+
+[[grupo]]
+id = "outros"
+rotulo = "Outros / não classificável"
+cor = "#78909c"
+
+[limites]
+pro_governo = -60
+centro_pro_governo = -20
+centro = 20
+centro_oposicao = 60
+
+[fixos]
+"MISSÃO" = "independente"
+"MBL" = "independente"
+"Sem partido" = "outros"
+
+[legado]
+pt_psol = { rotulo = "Esquerda — PT / PSOL", cor = "#c62828" }
+pl = { rotulo = "PL", cor = "#1f4e9a" }
+missao = { rotulo = "Missão / MBL", cor = "#6a1b9a" }
+esquerda = { rotulo = "Esquerda", cor = "#c62828" }
+centro_esquerda = { rotulo = "Centro-esquerda", cor = "#ec407a" }
+direita = { rotulo = "Direita", cor = "#00897b" }
+direita_pl = { rotulo = "Direita PL", cor = "#1f4e9a" }
+direita_bolsonarista = { rotulo = "Direita bolsonarista", cor = "#1f4e9a" }

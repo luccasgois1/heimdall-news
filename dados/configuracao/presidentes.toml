@@ -1,0 +1,75 @@
+# Mandatos presidenciais e os polos da análise: a bancada do partido do governo (polo_governo,
+# com `ate` quando o partido mudou no mandato) e a do principal partido de oposição (polo_oposicao).
+# Datas: Presidência da República, galeria de ex-presidentes.
+
+[[mandato]]
+id = "fhc"
+curto = "FHC"
+nome = "Fernando Henrique Cardoso"
+partido = "PSDB"
+inicio = "1995-01-01"
+fim = "2002-12-31"
+
+[[mandato]]
+id = "lula1"
+curto = "Lula"
+nome = "Luiz Inácio Lula da Silva"
+partido = "PT"
+inicio = "2003-01-01"
+fim = "2006-12-31"
+polo_governo = [{ partido = "PT" }]
+polo_oposicao = "PSDB"
+
+[[mandato]]
+id = "lula2"
+curto = "Lula"
+nome = "Luiz Inácio Lula da Silva"
+partido = "PT"
+inicio = "2007-01-01"
+fim = "2010-12-31"
+polo_governo = [{ partido = "PT" }]
+polo_oposicao = "PSDB"
+
+[[mandato]]
+id = "dilma"
+curto = "Dilma"
+nome = "Dilma Rousseff"
+partido = "PT"
+inicio = "2011-01-01"
+fim = "2016-05-11"
+obs = "afastada em 12/05/2016; impeachment em 31/08/2016"
+polo_governo = [{ partido = "PT" }]
+polo_oposicao = "PSDB"
+
+[[mandato]]
+id = "temer"
+curto = "Temer"
+nome = "Michel Temer"
+partido = "MDB"
+inicio = "2016-05-12"
+fim = "2018-12-31"
+obs = "interino de 12/05 a 31/08/2016"
+polo_governo = [{ partido = "MDB" }]
+polo_oposicao = "PT"
+
+[[mandato]]
+id = "bolsonaro"
+curto = "Bolsonaro"
+nome = "Jair Bolsonaro"
+partido = "PL"
+inicio = "2019-01-01"
+fim = "2022-12-31"
+obs = "eleito pelo PSL; sem partido de 19/11/2019 a 29/11/2021; no PL desde 30/11/2021"
+polo_governo = [{ partido = "PSL", ate = "2019-11-19" }, { partido = "PL" }]
+polo_oposicao = "PT"
+
+[[mandato]]
+id = "lula3"
+curto = "Lula"
+nome = "Luiz Inácio Lula da Silva"
+partido = "PT"
+inicio = "2023-01-01"
+fim = "2026-12-31"
+obs = "mandato em curso"
+polo_governo = [{ partido = "PT" }]
+polo_oposicao = "PL"

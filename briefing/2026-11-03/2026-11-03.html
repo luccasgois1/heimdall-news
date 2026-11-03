@@ -1,0 +1,2132 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Heimdall News — 2026-11-03</title>
+<style>
+:root {
+  --bg: #f7f6f3; --surface: #ffffff; --text: #1d1d1f; --muted: #66645f; --line: #e3e0d9;
+  --accent: #3b5b7a; --quote-bg: #f2f0eb; --empty: #8a877f;
+  --ok: #2f7d4f; --bad: #b3413b; --warn: #9a6a12;
+  --serif: "Iowan Old Style", "Charter", Georgia, serif;
+  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #141414; --surface: #1d1d1d; --text: #ecebe8; --muted: #a3a09a; --line: #333230;
+          --accent: #8fb3d6; --quote-bg: #252423; --empty: #85827b;
+          --ok: #6cc08b; --bad: #e88a84; --warn: #e0b45c; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 var(--serif); }
+.wrap { max-width: 1080px; margin: 0 auto; padding: 32px 16px 80px; }
+a { color: var(--accent); }
+header h1 { font: 700 2rem/1.2 var(--sans); margin: 0 0 4px; letter-spacing: -0.02em; }
+header p { font-family: var(--sans); color: var(--muted); margin: 0; font-size: .9rem; }
+.video { position: relative; margin: 16px 0 0; aspect-ratio: 16 / 9; border-radius: 12px; overflow: hidden; background: #000; }
+.video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.video-link { margin: 8px 0 0; font-size: .9rem; color: var(--muted); }
+.voltar { display: inline-block; font: .88rem var(--sans); margin-bottom: 12px; }
+nav.sumario { margin: 28px 0 40px; padding: 20px 24px; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; }
+nav.sumario ol { margin: 0; padding-left: 1.4em; font-family: var(--sans); font-size: .98rem; }
+nav.sumario li { margin: 4px 0; }
+nav.sumario a { text-decoration: none; }
+nav.sumario a:hover { text-decoration: underline; }
+article { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 28px; margin-bottom: 28px; }
+article h2 { font: 700 1.45rem/1.3 var(--sans); margin: 0 0 6px; letter-spacing: -0.01em; }
+.n { color: var(--muted); font-weight: 500; margin-right: .35em; }
+.cobertura { font-family: var(--sans); font-size: .82rem; color: var(--muted); margin: 0 0 20px; }
+.cobertura span.l { display: inline-block; margin: 2px 10px 2px 0; }
+.cobertura b { font-weight: 600; color: var(--text); }
+h3 { font: 600 .78rem/1 var(--sans); text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin: 26px 0 10px; }
+.contexto p { margin: 0 0 10px; }
+sup a { font: 600 .7rem var(--sans); text-decoration: none; padding: 0 1px; }
+.lados { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+.lado { border: 1px solid var(--line); border-top: 4px solid var(--cor, var(--line)); border-radius: 10px; padding: 16px; }
+.lado h4 { font: 700 .95rem/1.3 var(--sans); margin: 0 0 12px; padding-bottom: 8px; border-bottom: 1px solid var(--line); }
+.sem-posicao { color: var(--empty); font-style: italic; font-size: .9rem; margin: 10px 0 0; }
+.sem-posicao span { white-space: nowrap; }
+.sem-posicao i { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin: 0 4px 0 2px; vertical-align: baseline; }
+.pos { margin-bottom: 16px; }
+.pos:last-child { margin-bottom: 0; }
+.quem { font: 600 .85rem/1.4 var(--sans); margin-bottom: 6px; display: flex; align-items: center; gap: 10px; }
+.rostos { display: flex; flex-shrink: 0; }
+.rosto { width: 42px; height: 42px; border-radius: 50%; object-fit: cover; object-position: center 20%; border: 2px solid var(--surface); background: var(--quote-bg); box-shadow: 0 0 0 1px var(--line); }
+.rostos .rosto + .rosto { margin-left: -12px; }
+.rosto.sem { display: inline-flex; align-items: center; justify-content: center; font: 700 .68rem/1 var(--sans); color: #fff; background: var(--cor, var(--muted)); letter-spacing: .02em; overflow: hidden; }
+.capa { margin: -28px -28px 22px; border-radius: 12px 12px 0 0; overflow: hidden; background: var(--quote-bg); }
+.capa img { display: block; width: 100%; aspect-ratio: 2 / 1; max-height: 380px; object-fit: cover; }
+.capa figcaption { font: .74rem var(--sans); color: var(--muted); padding: 6px 28px 0; text-align: right; background: var(--surface); }
+@media (max-width: 600px) { article { padding: 20px; } .capa { margin: -20px -20px 18px; } .capa figcaption { padding: 6px 20px 0; } }
+.pos p { margin: 0 0 6px; font-size: .97rem; }
+blockquote { margin: 6px 0 0; padding: 8px 12px; background: var(--quote-bg); border-left: 3px solid var(--line); font-size: .88rem; color: var(--muted); border-radius: 0 6px 6px 0; }
+blockquote cite { display: block; font: normal .75rem var(--sans); margin-top: 4px; }
+.vazio { color: var(--empty); font-style: italic; font-size: .92rem; margin: 0; }
+details { margin-top: 22px; font-family: var(--sans); font-size: .85rem; }
+summary { cursor: pointer; color: var(--muted); font-weight: 600; }
+ol.refs, ul.rel { padding-left: 1.6em; margin: 10px 0 0; }
+ol.refs li, ul.rel li { margin: 6px 0; }
+.meta { color: var(--muted); }
+.poderes-link { font-family: var(--sans); font-size: .9rem; margin: 14px 0 0; padding-top: 12px; border-top: 1px solid var(--line); }
+.poderes-link a { text-decoration: none; }
+h2.secao { font: 700 1.6rem/1.2 var(--sans); margin: 48px 0 4px; letter-spacing: -0.01em; }
+.secao-sub { font-family: var(--sans); color: var(--muted); margin: 0 0 20px; font-size: .92rem; }
+.casa > h2 { margin-bottom: 14px; }
+.item { border-top: 1px solid var(--line); padding: 18px 0 6px; }
+.item:first-of-type { border-top: 0; padding-top: 4px; }
+.item-topo { display: flex; gap: 12px; align-items: baseline; justify-content: space-between; flex-wrap: wrap; }
+.item-titulo { font: 700 1.08rem/1.35 var(--sans); margin: 0; text-transform: none; letter-spacing: 0; color: var(--text); }
+.situacao { font: 600 .74rem/1 var(--sans); text-transform: uppercase; letter-spacing: .06em; padding: 5px 9px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); white-space: nowrap; }
+.s-aprovado, .s-julgado { color: var(--ok); border-color: var(--ok); }
+.s-rejeitado { color: var(--bad); border-color: var(--bad); }
+.s-adiado, .s-pedido_de_vista, .s-retirado_de_pauta, .s-em_andamento { color: var(--warn); border-color: var(--warn); }
+.s-pautado { color: var(--accent); border-color: var(--accent); }
+.item-fatos { margin: 12px 0 16px; display: grid; grid-template-columns: max-content 1fr; gap: 6px 14px; }
+.item-fatos dt { font: 600 .74rem/1.9 var(--sans); text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+.item-fatos dd { margin: 0; }
+@media (max-width: 600px) { .item-fatos { grid-template-columns: 1fr; } .item-fatos dd { margin-bottom: 8px; } }
+.destaques { margin-top: 16px; border: 1px solid var(--line); border-radius: 10px; padding: 16px; }
+.destaques h4 { font: 700 .95rem/1.3 var(--sans); margin: 0 0 12px; }
+.abas { margin-top: 14px; }
+.abas > input { position: absolute; opacity: 0; pointer-events: none; }
+.abas > label { display: inline-block; font: 600 .82rem/1 var(--sans); padding: 9px 14px; margin: 0 4px -1px 0; border: 1px solid var(--line); border-bottom: 0; border-radius: 8px 8px 0 0; color: var(--muted); cursor: pointer; background: var(--bg); }
+.abas > input:checked + label { color: var(--text); background: var(--surface); border-color: var(--line); position: relative; z-index: 1; }
+.abas > input:focus-visible + label { outline: 2px solid var(--accent); }
+.painel { display: none; border: 1px solid var(--line); border-radius: 0 10px 10px 10px; padding: 16px; }
+.abas > input.t-pos:checked ~ .painel-pos, .abas > input.t-det:checked ~ .painel-det { display: block; }
+.painel h4 { font: 700 .95rem/1.3 var(--sans); margin: 18px 0 10px; }
+.painel h4:first-child { margin-top: 0; }
+.alerta { border-left: 4px solid var(--warn); padding: 4px 0 4px 12px; margin-bottom: 14px; }
+.alerta.a-jabuti, .alerta.a-casuismo { border-left-color: var(--bad); }
+.alerta .tipo { font: 700 .72rem/1 var(--sans); text-transform: uppercase; letter-spacing: .06em; color: var(--warn); }
+.alerta.a-jabuti .tipo, .alerta.a-casuismo .tipo { color: var(--bad); }
+.alerta p { margin: 4px 0 6px; font-size: .97rem; }
+.conclusao { margin: 16px 0 0; padding: 12px 14px; background: var(--quote-bg); border-radius: 8px; font-size: .97rem; }
+.conclusao b { font-family: var(--sans); }
+.estudo { font-family: var(--sans); font-size: .8rem; color: var(--muted); margin: 10px 0 0; }
+nav.sumario ul.pauta { margin: 4px 0 8px; padding-left: 1.4em; font-family: var(--sans); font-size: .88rem; }
+@media print {
+  @page { size: A4; margin: 12mm 11mm; }
+  :root { --bg: #fff; --surface: #fff; --text: #1d1d1f; --muted: #5f5d58; --line: #dedad2;
+          --accent: #2f5577; --quote-bg: #f3f1ec; --empty: #85827b; --ok: #2f7d4f; --bad: #b3413b; --warn: #94650f; }
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body { font-size: 10.5pt; line-height: 1.45; background: #fff; }
+  .wrap { max-width: none; padding: 0; }
+  .voltar, .video, .abas > label, .abas > input { display: none; }
+  header p a { text-decoration: none; color: inherit; }
+  nav.sumario { margin: 14px 0 0; }
+  article { border: 0; padding: 0; margin: 0; }
+  article:not(.casa) + article, .poderes { break-before: page; }
+  .capa { margin: 0 0 14px; border-radius: 8px; }
+  .capa img { max-height: 300px; }
+  .capa figcaption { padding: 4px 0 0; }
+  h2, h3, h4, .quem, .item-topo { break-after: avoid; }
+  .pos, blockquote, .capa, .alerta, .item-fatos { break-inside: avoid; }
+  /* A grade não se divide entre páginas no Chrome: em coluna única, cada quadro pode quebrar. */
+  .lados { display: block; }
+  .lado { break-inside: auto; margin-bottom: 10px; }
+  .painel { display: block !important; border-radius: 10px; margin-top: 10px; }
+  .painel-det::before { content: "Detalhes da proposta"; display: block; font: 700 1rem/1.3 var(--sans); margin-bottom: 10px; }
+  details > summary { list-style: none; color: var(--text); }
+  .item { break-inside: auto; }
+}
+footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); border-top: 1px solid var(--line); padding-top: 18px; }
+</style>
+</head>
+<body>
+
+
+<div class="wrap">
+<a class="voltar" href="..&#x2f;..&#x2f;index.html">← Heimdall News</a>
+<header>
+  <h1>Heimdall News</h1>
+  <p>terça-feira, 3 de novembro de 2026 · 10 assuntos · 29 veículos e fontes · <a href="..&#x2f;..&#x2f;index.html">dias anteriores</a></p>
+  <div class="video"><iframe src="https:&#x2f;&#x2f;www.youtube-nocookie.com&#x2f;embed&#x2f;PYnnk91kP1A" title="Vídeo do briefing de terça-feira, 3 de novembro de 2026" loading="lazy"
+    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+  <p class="video-link"><a href="https:&#x2f;&#x2f;www.youtube.com&#x2f;watch?v=PYnnk91kP1A" target="_blank" rel="noopener">Assistir no YouTube</a></p>
+  
+</header>
+
+<nav class="sumario" aria-label="Assuntos do dia">
+  <ol>
+  <li><a href="#t1">PEC da Segurança vai a voto no Senado hoje; governo quer deixar a maioridade penal de fora</a></li><li><a href="#t2">Presidência do Senado: PL lança Rogério Marinho contra Alcolumbre e defende que a direita mostre o voto</a></li><li><a href="#t3">Câmara: PL decide hoje se apoia a reeleição de Hugo Motta; o PT, já no bloco, não quer o PL</a></li><li><a href="#t4">Lula 4: Fazenda sem nome até o fim de novembro e disputa no PT sobre a proposta de Lara Resende para os juros</a></li><li><a href="#t5">Flávio Bolsonaro recorre contra Moraes; PF investiga ex-agente israelense que participou da fuga</a></li><li><a href="#t6">Reforma eleitoral: Motta quer aprovar o distrital misto até dezembro; PL e Novo anunciam voto contra</a></li><li><a href="#t7">STF faz audiência pública sobre a MP que proibiu as bets; a maioria dos expositores é contra a proibição</a></li><li><a href="#t8">Gilmar Mendes critica a condução do TSE nas eleições, sem citar Kassio Nunes Marques</a></li><li><a href="#t9">Janones se reúne com Cristina Kirchner e Sergio Massa para levar à Argentina a estratégia digital da campanha de Lula</a></li><li><a href="#t10">Caso Master: Vorcaro aciona a Comissão Interamericana e o pai pede prisão domiciliar ao STF</a></li>
+  </ol>
+  
+  <p class="poderes-link"><a href="#poderes">Atuação dos Poderes</a>:
+    <a href="#stf">Supremo Tribunal Federal</a> (4) · <a href="#camara">Câmara dos Deputados</a> (0) · <a href="#senado">Senado Federal</a> (5)
+  </p>
+  
+  <ul class="pauta" aria-label="Supremo Tribunal Federal">
+    <li><a href="#stf1">ADI 8027 e outras — audiência pública sobre a MP 1.394&#x2f;2026, que proíbe as bets</a> <span class="meta">· Na pauta</span></li><li><a href="#stf2">Plenário virtual (30&#x2f;10 a 10&#x2f;11) — nacionalidade de crianças adotadas, cotas raciais em concursos e saneamento</a> <span class="meta">· Em andamento</span></li><li><a href="#stf3">Pet (inquérito Flávio Bolsonaro–Willer Tomaz) — pedido de revogação das cautelares e de afastamento de Moraes</a> <span class="meta">· Em andamento</span></li><li><a href="#stf4">Operação Compliance Zero (caso Master) — pedidos de liberdade de Daniel e Henrique Vorcaro com a Presidência do STF</a> <span class="meta">· Em andamento</span></li>
+  </ul>
+  
+  <ul class="pauta" aria-label="Senado Federal">
+    <li><a href="#senado1">PEC 18&#x2f;2025 — PEC da Segurança Pública (1º turno, com calendário especial)</a> <span class="meta">· Na pauta · com análise</span></li><li><a href="#senado2">PL 186&#x2f;2025 — parentalidade positiva: cursos, campanhas e palestras baseados em evidências científicas</a> <span class="meta">· Na pauta · com análise</span></li><li><a href="#senado3">PL 5782&#x2f;2023 — campanha Setembro em Flor (tumores ginecológicos)</a> <span class="meta">· Na pauta · com análise</span></li><li><a href="#senado4">PDL 240&#x2f;2011 — acordo Brasil–Guiana de cooperação em defesa (2009)</a> <span class="meta">· Na pauta · com análise</span></li><li><a href="#senado5">PDL 575&#x2f;2026 — acordo-quadro Brasil–Venezuela de cooperação em ciência e tecnologia espacial (2008)</a> <span class="meta">· Na pauta · com análise</span></li>
+  </ul>
+  
+  
+</nav>
+
+
+
+<article id="t1">
+  <figure class="capa"><img src="..&#x2f;..&#x2f;img&#x2f;2026-11-03&#x2f;f68ec1daf2cb6188.jpg" alt="" loading="lazy"><figcaption>Imagem: <a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;noticia&#x2f;2026&#x2f;11&#x2f;03&#x2f;senado-deve-votar-nesta-terca-pec-da-seguranca-publica.ghtml" target="_blank" rel="noopener">G1</a></figcaption></figure>
+  <h2><span class="n">1.</span>PEC da Segurança vai a voto no Senado hoje; governo quer deixar a maioridade penal de fora</h2>
+  <p class="cobertura">Cobertura (12):
+    <span class="l"><b>Imprensa mais à esquerda</b> — Brasil de Fato</span><span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — CNN Brasil, Estadão, Folha, G1, Poder360</span><span class="l"><b>Fontes oficiais</b> — Agência Senado, Senado — pauta do Plenário</span><span class="l"><b>Outras fontes</b> — A TARDE (via Google News), Brasil 247 (via Google News), PAIPEE - (via Google News), Portal Moju News (via Google News)</span>
+  </p>
+
+  <h3>O que aconteceu</h3>
+  <div class="contexto">
+  
+    <p>O Plenário do Senado deve votar hoje (3) a PEC da Segurança Pública. Para ser aprovada, precisa de 49 votos em cada um dos dois turnos; um calendário especial permite votar os dois no mesmo dia.<sup><a href="#t1r1" title="“O plenário do Senado Federal deve votar nesta terça-feira (3) a proposta de emenda à Constituição (PEC) da Segurança Pública” — G1">[1]</a></sup><sup><a href="#t1r2" title="“o plenário aprovou em outubro um calendário especial que dispensa o intervalo (chamado interstício) entre as votações” — CNN Brasil">[2]</a></sup><sup><a href="#t1r3" title="“Aprovado o Requerimento nº 713, de 2026, de calendário especial para a matéria” — Senado — pauta do Plenário">[3]</a></sup><sup><a href="#t1r4" title="“deve colocar a PEC da Segurança Pública para ser votada” — Brasil de Fato">[4]</a></sup></p>
+  
+    <p>A votação estava marcada para 15 de outubro e foi adiada por um impasse sobre a maioridade penal: a oposição propôs 16 anos para todos os crimes e 14 para os hediondos; o líder do PT, Camilo Santana, propôs 16 anos só nos hediondos.<sup><a href="#t1r2" title="“A oposição apresentou uma emenda para reduzir a maioridade penal de 18 para 16 anos em todos os crimes, e para 14 anos nos hediondos.” — CNN Brasil">[2]</a></sup><sup><a href="#t1r1" title="“o líder do PT no Senado, Camilo Santana (CE), apresentou uma alteração para reduzir para 16 anos em casos de crimes hediondos” — G1">[1]</a></sup></p>
+  
+    <p>O governo quer aprovar o texto sem mudanças, porque uma alteração de mérito devolveria a PEC à Câmara. Lula condiciona a criação do Ministério da Segurança Pública à aprovação.<sup><a href="#t1r2" title="“O motivo é que mudanças de mérito no texto obrigariam a proposta a voltar para a análise da Câmara dos Deputados, o que atrasaria o cronograma.” — CNN Brasil">[2]</a></sup><sup><a href="#t1r5" title="“ele condiciona a criação do Ministério da Segurança Pública à sua aprovação” — Estadão">[5]</a></sup></p>
+  
+  </div>
+
+  <h3>Como cada campo político se posicionou</h3>
+  <div class="lados">
+  
+
+    <section class="lado" style="--cor: #2e7d32">
+      <h4>Pró-governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><img class="rosto" src="..&#x2f;..&#x2f;img&#x2f;2026-11-03&#x2f;d09d107822d0ece3.jpg" alt="Teresa Leitão" title="Teresa Leitão — foto: Senado Federal" loading="lazy"></span><span>Teresa Leitão (PT-PE), líder do governo no Senado</span></div>
+        <p>Disse que a posição do governo continua sendo não votar a maioridade penal junto com a PEC; segundo ela, o tema está em comissão especial na Câmara.<sup><a href="#t1r1">[1]</a></sup></p>
+        
+        <blockquote>“afirmou que a posição do governo continua sendo não votar a maioridade penal junto com a PEC da Segurança”<cite><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;noticia&#x2f;2026&#x2f;11&#x2f;03&#x2f;senado-deve-votar-nesta-terca-pec-da-seguranca-publica.ghtml" target="_blank" rel="noopener">G1</a></cite></blockquote>
+        
+      </div>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><img class="rosto" src="..&#x2f;..&#x2f;img&#x2f;2026-11-03&#x2f;230e43a8a05dba4b.webp" alt="Luiz Inácio Lula da Silva" title="Luiz Inácio Lula da Silva — foto: Wikipédia" loading="lazy"></span><span>Lula (PT), presidente</span></div>
+        <p>Disse ser a favor de reduzir a pena em crimes hediondos, mas defendeu discutir o tema só depois de aprovar a PEC.<sup><a href="#t1r1">[1]</a></sup></p>
+        
+        <blockquote>“Primeiro você discute a PEC, aprova a PEC e aí você pode discutir a maioridade penal ou não”<cite><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;noticia&#x2f;2026&#x2f;11&#x2f;03&#x2f;senado-deve-votar-nesta-terca-pec-da-seguranca-publica.ghtml" target="_blank" rel="noopener">G1</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+      
+
+    <section class="lado" style="--cor: #9e9e9e">
+      <h4>Centro</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><img class="rosto" src="..&#x2f;..&#x2f;img&#x2f;2026-11-03&#x2f;409a8f0dc351f5d7.jpg" alt="Davi Alcolumbre" title="Davi Alcolumbre — foto: Senado Federal" loading="lazy"></span><span>Davi Alcolumbre (União-AP), presidente do Senado</span></div>
+        <p>Segundo o Estadão, defende aprovar hoje só os pontos de consenso e deixar os trechos polêmicos para depois.<sup><a href="#t1r5">[5]</a></sup></p>
+        
+        <blockquote>“o argumento oficial, também usado por Alcolumbre, é o de tentar aprovar a PEC da Segurança, nesta terça-feira, com os pontos de consenso”<cite><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;coluna-do-estadao&#x2f;reducao-da-maioridade-penal-que-lula-defendeu-a-dois-dias-do-2-turno-sobe-no-telhado&#x2f;" target="_blank" rel="noopener">Estadão</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+      
+
+    <section class="lado" style="--cor: #e65100">
+      <h4>Oposição ao governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><img class="rosto" src="..&#x2f;..&#x2f;img&#x2f;2026-11-03&#x2f;7d8b56eea30634ec.jpg" alt="Rogério Marinho" title="Rogério Marinho — foto: Senado Federal" loading="lazy"></span><span>Rogério Marinho (PL-RN), líder da oposição no Senado</span></div>
+        <p>Apresentou a emenda que reduz a maioridade penal para 16 anos, e para 14 nos crimes hediondos.<sup><a href="#t1r5">[5]</a></sup></p>
+        
+        <blockquote>“O senador Rogério Marinho (PL-RN), líder da Oposição, apresentou uma emenda que propõe a redução da maioridade penal de 18 para 16 anos”<cite><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;coluna-do-estadao&#x2f;reducao-da-maioridade-penal-que-lula-defendeu-a-dois-dias-do-2-turno-sobe-no-telhado&#x2f;" target="_blank" rel="noopener">Estadão</a></cite></blockquote>
+        
+      </div>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><img class="rosto" src="..&#x2f;..&#x2f;img&#x2f;2026-11-03&#x2f;f1de2e3ae2644d8b.jpg" alt="Efraim Filho" title="Efraim Filho — foto: Senado Federal" loading="lazy"></span><span>Efraim Filho (PL-PB), senador</span></div>
+        <p>Defendeu incluir a redução: disse que o endurecimento responde ao avanço da violência e segue o que pensa a maioria da população.<sup><a href="#t1r2">[2]</a></sup></p>
+        
+        <blockquote>“Para o senador Efraim Filho (PL-PB), o endurecimento é uma resposta ao avanço da violência e está alinhado ao que pensa a maioria da população.”<cite><a href="https:&#x2f;&#x2f;www.cnnbrasil.com.br&#x2f;politica&#x2f;senado-inicia-hoje-debate-da-pec-da-seguranca-com-impasse-sobre-maioridade&#x2f;" target="_blank" rel="noopener">CNN Brasil</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+      
+
+    <section class="lado" style="--cor: #78909c">
+      <h4>Outros &#x2f; não classificável</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">MA</span></span><span>Mateus de Albuquerque, cientista político (UFJF)</span></div>
+        <p>Disse que a votação será um dos primeiros testes da capacidade de coalizão do novo governo.<sup><a href="#t1r4">[4]</a></sup></p>
+        
+        <blockquote>“Vai ser um dos primeiros testes de fogo da capacidade de coalizão do novo governo.”<cite><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;11&#x2f;02&#x2f;pec-da-seguranca-publica-vai-testar-capacidade-de-coalizacao-do-governo-lula-afirma-cientista-politico&#x2f;" target="_blank" rel="noopener">Brasil de Fato</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+  </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #81c784"></i>Centro pró-governo</span>, <span><i style="background: #ffb74d"></i>Centro-oposição</span>, <span><i style="background: #6a1b9a"></i>Independente — Missão &#x2f; MBL</span>.</p>
+
+  <details>
+    <summary>Referências (5) e outras matérias sobre o tema (9)</summary>
+    <ol class="refs">
+    
+      <li id="t1r1"><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;noticia&#x2f;2026&#x2f;11&#x2f;03&#x2f;senado-deve-votar-nesta-terca-pec-da-seguranca-publica.ghtml" target="_blank" rel="noopener">Senado deve votar nesta terça PEC da Segurança Pública</a> <span class="meta">— G1, 03&#x2f;11 00:00</span></li>
+    
+      <li id="t1r2"><a href="https:&#x2f;&#x2f;www.cnnbrasil.com.br&#x2f;politica&#x2f;senado-inicia-hoje-debate-da-pec-da-seguranca-com-impasse-sobre-maioridade&#x2f;" target="_blank" rel="noopener">Senado inicia hoje análise da PEC da Segurança com impasse sobre maioridade</a> <span class="meta">— CNN Brasil, 03&#x2f;11 03:15</span></li>
+    
+      <li id="t1r3"><a href="https:&#x2f;&#x2f;www25.senado.leg.br&#x2f;web&#x2f;atividade&#x2f;materias&#x2f;-&#x2f;materia&#x2f;172997#sessao-594169-item-594242" target="_blank" rel="noopener">Senado: Proposta de Emenda à Constituição n° 18, de 2025 — PEC da Segurança Pública</a> <span class="meta">— Senado — pauta do Plenário, 03&#x2f;11 14:00</span></li>
+    
+      <li id="t1r4"><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;11&#x2f;02&#x2f;pec-da-seguranca-publica-vai-testar-capacidade-de-coalizacao-do-governo-lula-afirma-cientista-politico&#x2f;" target="_blank" rel="noopener">PEC da Segurança Pública vai testar capacidade de coalizão do governo Lula, afirma cientista político</a> <span class="meta">— Brasil de Fato, 02&#x2f;11 14:30</span></li>
+    
+      <li id="t1r5"><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;coluna-do-estadao&#x2f;reducao-da-maioridade-penal-que-lula-defendeu-a-dois-dias-do-2-turno-sobe-no-telhado&#x2f;" target="_blank" rel="noopener">Planalto aposta na aprovação da PEC da Segurança, mas redução da maioridade penal sobe no telhado</a> <span class="meta">— Estadão, 03&#x2f;11 05:30</span></li>
+    
+    </ol>
+    
+    <ul class="rel">
+    
+      <li><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;31&#x2f;alcolumbre-marca-votacao-da-pec-da-seguranca-publica-para-terca-feira-3&#x2f;" target="_blank" rel="noopener">Alcolumbre marca votação da PEC da Segurança Pública para terça-feira (3)</a> <span class="meta">— Brasil de Fato, 31&#x2f;10 13:30</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;colunas&#x2f;painel&#x2f;2026&#x2f;10&#x2f;alcolumbre-pauta-pec-da-seguranca-para-terca-e-governo-costura-acordo-sobre-maioridade.shtml" target="_blank" rel="noopener">Alcolumbre pauta PEC da Segurança para terça e governo costura acordo sobre maioridade</a> <span class="meta">— Folha, 30&#x2f;10 17:32</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;30&#x2f;alcolumbre-pauta-votacao-da-pec-da-seguranca-publica-para-a-proxima-terca-feira.ghtml" target="_blank" rel="noopener">Alcolumbre pauta votação da PEC da Segurança Pública para a próxima terça-feira</a> <span class="meta">— G1, 30&#x2f;10 18:32</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www12.senado.leg.br&#x2f;noticias&#x2f;materias&#x2f;2026&#x2f;10&#x2f;30&#x2f;davi-marca-para-terca-votacao-da-pec-da-seguranca" target="_blank" rel="noopener">Davi marca para terça votação da PEC da Segurança</a> <span class="meta">— Agência Senado, 30&#x2f;10 20:10</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.poder360.com.br&#x2f;poder-congresso&#x2f;saiba-quais-acoes-estao-na-pauta-do-congresso-nesta-3a-feira-3&#x2f;" target="_blank" rel="noopener">Saiba quais ações estão na pauta do Congresso nesta 3ª feira</a> <span class="meta">— Poder360, 03&#x2f;11 06:15</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;news.google.com&#x2f;rss&#x2f;articles&#x2f;CBMingFBVV95cUxObE1OQWREVXlMc2pTVzdqVmJzVExNdUtJYTh5TFA4R25FeGsyZktyZ2pfV3V2UDlyZzQyZi1KYjgtVzZWNU9HN0pXN3JtUHktNU1zQWdVSjRxalRINThFaWZ5d1REbXVaUUQ1SEZrTzVuNGprZXB3RVp2OEd1YUJpOGFDWGpsUnA1a2ppYXlsblUwaWNVYlJ3Qm11X0hPdw?oc=5" target="_blank" rel="noopener">Redução da maioridade penal divide bancada do PT no Senado</a> <span class="meta">— A TARDE (via Google News), 01&#x2f;11 07:50</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;news.google.com&#x2f;rss&#x2f;articles&#x2f;CBMiowFBVV95cUxOd1FYMFdHUnlPTVBTNWR2R3JPVzdYcEhOOE9fOFU2bWp6ZjJ4NUxrMXJZa2pWVEN2SU5mTXBJRnBvUVNpekVxRGx5M1JnSFVGVWtrOFdZOGd2NDd0LXl4S0tGWHlxZTZDSy1SMDJ1NzQyT3FTVHg3WVRDU3M1ZmZ2dktUTXdZcXp6Q2JfVVF0a1JROEU1eXl2MVE2WU8xX1FpMnBZ?oc=5" target="_blank" rel="noopener">Sem acordo, bancada do PT fará reunião para debater maioridade penal</a> <span class="meta">— PAIPEE - (via Google News), 01&#x2f;11 08:21</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;news.google.com&#x2f;rss&#x2f;articles&#x2f;CBMiogFBVV95cUxQVzR1ZnN3UE9mekhvaG1zZkpYZWxVaGFTMUN6UlktRXB5QVBmQlVrOGxDVDg2OGxJLUl0eFY3VGl1TFlKa3hpYWZfY2ktQjFBeWdKRjI0ZTcxa3IxLXVTektNVi0taWZGSGxVclVUYlNEczN0cW5WOEJ5bGI2R1E1ZENWWTJ0N3ZvX0JHci1YRVVvZzJZVWlyaUJKZlFDVXRsamc?oc=5" target="_blank" rel="noopener">Bancada do PT se reúne para discutir redução da maioridade penal</a> <span class="meta">— Brasil 247 (via Google News), 01&#x2f;11 08:02</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;news.google.com&#x2f;rss&#x2f;articles&#x2f;CBMisAFBVV95cUxPczhBeHpmc0tDV1B2b1JzSUQtUXRKbnpoUEhEd1l6VTdUdU1DMnRCdVdkRmQwNHE0enI4U0F2NGo3VUFPSF9ScF9PbXVmRXo1eWRsYTBySE9RMFRIUnBvOXJYalhIVnlkMzBqVC1uRU9mbzVGNnNWUmFZOGFjajVzVXpMcmRLYjYxSzBlUTVqNnlncjlZa05mZnNwSjFwa1FUcUFYMHRYTGdSUTdwMWxJNw?oc=5" target="_blank" rel="noopener">Bancada do PT se reúne para discutir proposta de redução da maioridade penal para 16 anos</a> <span class="meta">— Portal Moju News (via Google News), 01&#x2f;11 16:00</span></li>
+    
+    </ul>
+    
+  </details>
+</article>
+
+<article id="t2">
+  <figure class="capa"><img src="..&#x2f;..&#x2f;img&#x2f;2026-11-03&#x2f;0ccc0a63c3cf0420.jpg" alt="" loading="lazy"><figcaption>Imagem: <a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;noticia&#x2f;2026&#x2f;11&#x2f;02&#x2f;presidencia-do-senado-pl-deve-ter-candidato-proprio-mesmo-com-aproximacao-de-alcolumbre.ghtml" target="_blank" rel="noopener">G1</a></figcaption></figure>
+  <h2><span class="n">2.</span>Presidência do Senado: PL lança Rogério Marinho contra Alcolumbre e defende que a direita mostre o voto</h2>
+  <p class="cobertura">Cobertura (6):
+    <span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — CNN Brasil, Estadão, Folha, G1</span><span class="l"><b>Imprensa mais à direita</b> — Gazeta do Povo</span><span class="l"><b>Outras fontes</b> — Portal Obidense (via Google News)</span>
+  </p>
+
+  <h3>O que aconteceu</h3>
+  <div class="contexto">
+  
+    <p>O PL deve anunciar na quarta (4) a candidatura de Rogério Marinho (RN) à presidência do Senado. A eleição é em fevereiro de 2027, e são precisos 41 votos.<sup><a href="#t2r1" title="“o PL deve anunciar, na próxima quarta-feira (4), Rogério Marinho (RN) como candidato à presidência do Senado em fevereiro de 2027” — G1">[1]</a></sup><sup><a href="#t2r2" title="“Para eleger o presidente do Senado, é preciso o voto de 41 dos 81 senadores.” — Folha">[2]</a></sup></p>
+  
+    <p>O PL elegeu 19 senadores e terá a maior bancada da Casa em 2027: 29 senadores segundo a Folha e a Gazeta do Povo, 28 segundo o G1 e a CNN.<sup><a href="#t2r3" title="“O partido elegeu 19 senadores e terá uma bancada de 29 parlamentares no Senado” — Gazeta do Povo">[3]</a></sup><sup><a href="#t2r1" title="“Serão 28 parlamentares.” — G1">[1]</a></sup></p>
+  
+    <p>Alcolumbre e Marinho dizem ter 48 votos cada, o que significa que as contagens se sobrepõem. O voto é secreto.<sup><a href="#t2r2" title="“Alcolumbre e Marinho dizem ter 48 votos cada, o que significa que as duas contagens incluem alguns dos mesmos senadores.” — Folha">[2]</a></sup><sup><a href="#t2r4" title="“O voto, no entanto, é secreto, o que poderá dar margem a traições.” — Folha">[4]</a></sup></p>
+  
+    <p>Alcolumbre recebeu o apoio de Lula e discute com parlamentares pautar uma anistia aos condenados do 8 de janeiro, Jair Bolsonaro incluído.<sup><a href="#t2r5" title="“Davi Alcolumbre recebeu apoio do presidente Luiz Inácio Lula da Silva para sua reeleição no comando do Senado” — Estadão">[5]</a></sup><sup><a href="#t2r1" title="“Alcolumbre tem discutido com parlamentares a possibilidade de pautar um projeto para anistiar os condenados pelo 8 de janeiro, incluindo o ex-presidente Jair Bolsonaro.” — G1">[1]</a></sup></p>
+  
+  </div>
+
+  <h3>Como cada campo político se posicionou</h3>
+  <div class="lados">
+  
+
+    <section class="lado" style="--cor: #2e7d32">
+      <h4>Pró-governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><img class="rosto" src="..&#x2f;..&#x2f;img&#x2f;2026-11-03&#x2f;230e43a8a05dba4b.webp" alt="Luiz Inácio Lula da Silva" title="Luiz Inácio Lula da Silva — foto: Wikipédia" loading="lazy"></span><span>Lula (PT), presidente</span></div>
+        <p>Apoia a reeleição de Alcolumbre, segundo o Estadão.<sup><a href="#t2r5">[5]</a></sup></p>
+        
+        <blockquote>“Davi Alcolumbre recebeu apoio do presidente Luiz Inácio Lula da Silva para sua reeleição no comando do Senado”<cite><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;coluna-do-estadao&#x2f;alcolumbre-aciona-modo-lula-e-negocia-ate-o-impossivel-para-tentar-reeleicao-no-comando-do-senado&#x2f;" target="_blank" rel="noopener">Estadão</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+
+    <section class="lado" style="--cor: #81c784">
+      <h4>Centro pró-governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><img class="rosto" src="..&#x2f;..&#x2f;img&#x2f;2026-11-03&#x2f;33fb825e3b64e0b6.jpg" alt="Ciro Nogueira" title="Ciro Nogueira — foto: Senado Federal" loading="lazy"></span><span>Ciro Nogueira (PP) e Antonio Rueda (União), presidentes da federação União-PP</span></div>
+        <p>Anunciaram o apoio da federação a Alcolumbre. Nenhum dos dois vota na eleição: Ciro não se reelegeu senador, e Rueda é deputado.<sup><a href="#t2r5">[5]</a></sup></p>
+        
+        <blockquote>“O congressista também anunciou que será apoiado pela federação União-PP, com base na manifestação dos presidentes dos dois partidos, Ciro Nogueira (PP) e Antonio Rueda.”<cite><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;coluna-do-estadao&#x2f;alcolumbre-aciona-modo-lula-e-negocia-ate-o-impossivel-para-tentar-reeleicao-no-comando-do-senado&#x2f;" target="_blank" rel="noopener">Estadão</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+
+    <section class="lado" style="--cor: #9e9e9e">
+      <h4>Centro</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><img class="rosto" src="..&#x2f;..&#x2f;img&#x2f;2026-11-03&#x2f;409a8f0dc351f5d7.jpg" alt="Davi Alcolumbre" title="Davi Alcolumbre — foto: Senado Federal" loading="lazy"></span><span>Davi Alcolumbre (União-AP), presidente do Senado</span></div>
+        <p>Diz a interlocutores que busca &quot;pacificar&quot; o país e &quot;virar a página&quot; da tensão entre Lula, os Bolsonaros e o STF.<sup><a href="#t2r5">[5]</a></sup></p>
+        
+        <blockquote>“O senador tem argumentado a interlocutores que busca a pacificação do País”<cite><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;coluna-do-estadao&#x2f;alcolumbre-aciona-modo-lula-e-negocia-ate-o-impossivel-para-tentar-reeleicao-no-comando-do-senado&#x2f;" target="_blank" rel="noopener">Estadão</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+      
+
+    <section class="lado" style="--cor: #e65100">
+      <h4>Oposição ao governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><img class="rosto" src="..&#x2f;..&#x2f;img&#x2f;2026-11-03&#x2f;7d8b56eea30634ec.jpg" alt="Rogério Marinho" title="Rogério Marinho — foto: Senado Federal" loading="lazy"></span><span>Rogério Marinho (PL-RN), líder da oposição no Senado</span></div>
+        <p>Disse que vai defender que os senadores de direita divulguem o voto: &quot;É difícil justificar em público o voto no Alcolumbre&quot;.<sup><a href="#t2r2">[2]</a></sup></p>
+        
+        <blockquote>“Vou defender. É difícil justificar em público o voto no Alcolumbre, né?”<cite><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;11&#x2f;rogerio-marinho-vai-defender-que-direita-divulgue-voto-em-estrategia-para-derrotar-alcolumbre.shtml" target="_blank" rel="noopener">Folha</a></cite></blockquote>
+        
+      </div>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><img class="rosto" src="..&#x2f;..&#x2f;img&#x2f;2026-11-03&#x2f;0283144da65603ac.jpg" alt="Carlos Portinho" title="Carlos Portinho — foto: Senado Federal" loading="lazy"></span><span>Carlos Portinho (PL-RJ), líder do PL no Senado</span></div>
+        <p>Confirmou Marinho como candidato do partido e disse que o PL vai buscar aliados de outras siglas.<sup><a href="#t2r4">[4]</a></sup></p>
+        
+        <blockquote>“Rogério é o candidato do PL e vamos articular com a bancada, partidos aliados e seus parlamentares também avulsos”<cite><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;colunas&#x2f;painel&#x2f;2026&#x2f;11&#x2f;marinho-tera-apoio-do-novo-em-lancamento-para-presidente-do-senado-e-busca-outros-partidos.shtml" target="_blank" rel="noopener">Folha</a></cite></blockquote>
+        
+      </div>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><img class="rosto" src="..&#x2f;..&#x2f;img&#x2f;2026-11-03&#x2f;0ca30dad638db9d2.jpg" alt="Tereza Cristina" title="Tereza Cristina — foto: Senado Federal" loading="lazy"></span><span>Tereza Cristina (PP-MS), senadora</span></div>
+        <p>Mantém a intenção de se candidatar mesmo com o lançamento de Marinho.<sup><a href="#t2r1">[1]</a></sup></p>
+        
+        <blockquote>“Eu mantenho meu desejo de concorrer, de ser a primeira mulher presidente do Senado.”<cite><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;noticia&#x2f;2026&#x2f;11&#x2f;02&#x2f;presidencia-do-senado-pl-deve-ter-candidato-proprio-mesmo-com-aproximacao-de-alcolumbre.ghtml" target="_blank" rel="noopener">G1</a></cite></blockquote>
+        
+      </div>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">PL</span></span><span>Liderança do PL no Senado (sob anonimato, ao G1)</span></div>
+        <p>Defendeu tentar um acordo com Alcolumbre antes de lançar candidato, para o partido não perder comissões em caso de derrota.<sup><a href="#t2r1">[1]</a></sup></p>
+        
+        <blockquote>“argumenta ser contrário a uma &quot;radicalização&quot; na eleição da Mesa”<cite><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;noticia&#x2f;2026&#x2f;11&#x2f;02&#x2f;presidencia-do-senado-pl-deve-ter-candidato-proprio-mesmo-com-aproximacao-de-alcolumbre.ghtml" target="_blank" rel="noopener">G1</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+        
+  </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #ffb74d"></i>Centro-oposição</span>, <span><i style="background: #6a1b9a"></i>Independente — Missão &#x2f; MBL</span>, <span><i style="background: #78909c"></i>Outros &#x2f; não classificável</span>.</p>
+
+  <details>
+    <summary>Referências (5) e outras matérias sobre o tema (3)</summary>
+    <ol class="refs">
+    
+      <li id="t2r1"><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;noticia&#x2f;2026&#x2f;11&#x2f;02&#x2f;presidencia-do-senado-pl-deve-ter-candidato-proprio-mesmo-com-aproximacao-de-alcolumbre.ghtml" target="_blank" rel="noopener">Presidência do Senado: PL deve ter candidato próprio, mesmo com aproximação de Alcolumbre</a> <span class="meta">— G1, 02&#x2f;11 00:00</span></li>
+    
+      <li id="t2r2"><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;11&#x2f;rogerio-marinho-vai-defender-que-direita-divulgue-voto-em-estrategia-para-derrotar-alcolumbre.shtml" target="_blank" rel="noopener">Rogério Marinho vai defender que direita divulgue voto em estratégia para derrotar Alcolumbre</a> <span class="meta">— Folha, 02&#x2f;11 13:00</span></li>
+    
+      <li id="t2r3"><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;republica&#x2f;rogerio-marinho-defende-voto-aberto-na-disputa-contra-alcolumbre-pela-presidencia-do-senado&#x2f;" target="_blank" rel="noopener">Rogério Marinho defende voto aberto na disputa contra Alcolumbre pela Presidência do Senado</a> <span class="meta">— Gazeta do Povo, 02&#x2f;11 17:35</span></li>
+    
+      <li id="t2r4"><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;colunas&#x2f;painel&#x2f;2026&#x2f;11&#x2f;marinho-tera-apoio-do-novo-em-lancamento-para-presidente-do-senado-e-busca-outros-partidos.shtml" target="_blank" rel="noopener">Marinho terá apoio do Novo em lançamento para presidente do Senado e busca outros partidos</a> <span class="meta">— Folha, 02&#x2f;11 19:00</span></li>
+    
+      <li id="t2r5"><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;coluna-do-estadao&#x2f;alcolumbre-aciona-modo-lula-e-negocia-ate-o-impossivel-para-tentar-reeleicao-no-comando-do-senado&#x2f;" target="_blank" rel="noopener">Alcolumbre aciona ‘modo Lula’ e negocia até o impossível para tentar reeleição no comando do Senado</a> <span class="meta">— Estadão, 02&#x2f;11 05:30</span></li>
+    
+    </ol>
+    
+    <ul class="rel">
+    
+      <li><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;vida-e-cidadania&#x2f;direita-dificuldade-conter-stf-impedir-reeleicao-alcolumbre&#x2f;" target="_blank" rel="noopener">Direita terá dificuldade de conter STF se não impedir reeleição de Alcolumbre</a> <span class="meta">— Gazeta do Povo, 02&#x2f;11 21:59</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;news.google.com&#x2f;rss&#x2f;articles&#x2f;CBMiuwFBVV95cUxNUEh1azFNUDRLZjJUUUdXQlo5TVFWdGpYY01GWnpVUENRY04weGg0LXdXVGtaSUdSdy1Obi1YMFNfcGxwczhLVkM5aDNmd3d4Zk5DRWhhUl9tY1VXSWx3d3FzeFZEQUtNX0Izb2NVU2xENEFWbEEzZlVuZWRubVZkZV9vT20zdllGTEFfb3hmNFBmOGRaa0ZjNXdZWHJiZi13MkVmTFpRQ2NLVTNJOGcxY1JYWWVvejVkT1JR?oc=5" target="_blank" rel="noopener">PL rejeita acordo com Alcolumbre e vai lançar Marinho à Presidência do Senado</a> <span class="meta">— Portal Obidense (via Google News), 01&#x2f;11 09:34</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.cnnbrasil.com.br&#x2f;politica&#x2f;pl-reune-bancada-nesta-terca-para-debater-apoio-a-hugo-no-comando-da-camara&#x2f;" target="_blank" rel="noopener">PL reúne bancada nesta terça para debater apoio a Hugo no comando da Câmara</a> <span class="meta">— CNN Brasil, 03&#x2f;11 03:30</span></li>
+    
+    </ul>
+    
+  </details>
+</article>
+
+<article id="t3">
+  <figure class="capa"><img src="..&#x2f;..&#x2f;img&#x2f;2026-11-03&#x2f;c49f149fc08eedd2.webp" alt="" loading="lazy"><figcaption>Imagem: <a href="https:&#x2f;&#x2f;www.cnnbrasil.com.br&#x2f;politica&#x2f;pl-reune-bancada-nesta-terca-para-debater-apoio-a-hugo-no-comando-da-camara&#x2f;" target="_blank" rel="noopener">CNN Brasil</a></figcaption></figure>
+  <h2><span class="n">3.</span>Câmara: PL decide hoje se apoia a reeleição de Hugo Motta; o PT, já no bloco, não quer o PL</h2>
+  <p class="cobertura">Cobertura (3):
+    <span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — CNN Brasil</span><span class="l"><b>Imprensa mais à direita</b> — Gazeta do Povo</span><span class="l"><b>Outras fontes</b> — AM POST (via Google News)</span>
+  </p>
+
+  <h3>O que aconteceu</h3>
+  <div class="contexto">
+  
+    <p>O PL reúne a bancada às 18h de hoje para decidir se apoia a reeleição de Hugo Motta. O partido terá 121 deputados a partir de 2027, a maior bancada da Casa.<sup><a href="#t3r1" title="“O Partido Liberal reúne congressistas da sigla nesta terça-feira (3), às 18h, para decidir se apoiará a reeleição de Hugo Motta (Republicanos-PB) à presidência da Câmara dos Deputados.” — CNN Brasil">[1]</a></sup></p>
+  
+    <p>Motta tem o apoio de 15 legendas, o PT entre elas, ao lado do PCdoB e do PV.<sup><a href="#t3r1" title="“Hugo já reuniu o apoio de 15 partidos e tem maioria confortável para se reeleger em fevereiro de 2027.” — CNN Brasil">[1]</a></sup><sup><a href="#t3r2" title="“O partido de Lula anunciou apoio a Motta em conjunto com o PCdoB e o PV.” — Gazeta do Povo">[2]</a></sup></p>
+  
+    <p>Fora do bloco de Motta, o PL passaria da 1ª e 2ª escolha de comissões para a 14ª.<sup><a href="#t3r1" title="“Fora dele, o PL, mesmo sendo o maior partido individualmente, cairia da 1ª e 2ª escolha para a 14ª.” — CNN Brasil">[1]</a></sup></p>
+  
+  </div>
+
+  <h3>Como cada campo político se posicionou</h3>
+  <div class="lados">
+  
+
+    <section class="lado" style="--cor: #2e7d32">
+      <h4>Pró-governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><img class="rosto" src="..&#x2f;..&#x2f;img&#x2f;2026-11-03&#x2f;ea9b4b1168f9d0d1.jpg" alt="Pedro Uczai" title="Pedro Uczai — foto: Câmara dos Deputados" loading="lazy"></span><span>Pedro Uczai (PT-SC), líder do PT na Câmara</span></div>
+        <p>Disse que o apoio a Motta é estratégico para a governabilidade de Lula.<sup><a href="#t3r2">[2]</a></sup></p>
+        
+        <blockquote>“Essa composição é estratégica para os próximos quatro anos, para dar governabilidade ao governo do presidente Lula”<cite><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;republica&#x2f;avanco-do-pl-pressiona-hugo-motta-e-leva-partidos-a-antecipar-disputa-pela-camara&#x2f;" target="_blank" rel="noopener">Gazeta do Povo</a></cite></blockquote>
+        
+      </div>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">PT</span></span><span>Bancada do PT na Câmara</span></div>
+        <p>Põe como condição que o PL e o Novo fiquem fora do bloco de apoio a Motta.<sup><a href="#t3r2">[2]</a></sup></p>
+        
+        <blockquote>“os petistas querem impedir que o PL e o Novo integrem o bloco de apoio a Motta”<cite><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;republica&#x2f;avanco-do-pl-pressiona-hugo-motta-e-leva-partidos-a-antecipar-disputa-pela-camara&#x2f;" target="_blank" rel="noopener">Gazeta do Povo</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+
+    <section class="lado" style="--cor: #81c784">
+      <h4>Centro pró-governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><img class="rosto" src="..&#x2f;..&#x2f;img&#x2f;2026-11-03&#x2f;b7b06a79ef3ab296.jpg" alt="Hugo Motta" title="Hugo Motta — foto: Câmara dos Deputados" loading="lazy"></span><span>Hugo Motta (Republicanos-PB), presidente da Câmara</span></div>
+        <p>Diz que ouvirá as demandas da oposição, mas que o PT terá prioridade.<sup><a href="#t3r1">[1]</a></sup></p>
+        
+        <blockquote>“O presidente da Câmara, por sua vez, tem dito que ouvirá as demandas da oposição, mas que os petistas teriam prioridade.”<cite><a href="https:&#x2f;&#x2f;www.cnnbrasil.com.br&#x2f;politica&#x2f;pl-reune-bancada-nesta-terca-para-debater-apoio-a-hugo-no-comando-da-camara&#x2f;" target="_blank" rel="noopener">CNN Brasil</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+        
+
+    <section class="lado" style="--cor: #e65100">
+      <h4>Oposição ao governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">AP</span></span><span>Ala do PL ligada a Valdemar Costa Neto, presidente do partido</span></div>
+        <p>Defende um acordo com Motta para não deixar o partido isolado na divisão de cargos.<sup><a href="#t3r1">[1]</a></sup></p>
+        
+        <blockquote>“A ala ligada ao presidente da legenda, Valdemar Costa Neto, defende o pragmatismo e um acordo com Hugo.”<cite><a href="https:&#x2f;&#x2f;www.cnnbrasil.com.br&#x2f;politica&#x2f;pl-reune-bancada-nesta-terca-para-debater-apoio-a-hugo-no-comando-da-camara&#x2f;" target="_blank" rel="noopener">CNN Brasil</a></cite></blockquote>
+        
+      </div>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><img class="rosto" src="..&#x2f;..&#x2f;img&#x2f;2026-11-03&#x2f;8577081723c0ca6a.jpg" alt="Zé Trovão" title="Zé Trovão — foto: Câmara dos Deputados" loading="lazy"></span><span>Zé Trovão (PL-SC), deputado</span></div>
+        <p>Disse que apresentará candidatura avulsa se o PL não lançar candidato próprio.<sup><a href="#t3r1">[1]</a></sup></p>
+        
+        <blockquote>“O deputado Zé Trovão (PL-SC) afirmou na segunda-feira (2) que se o PL decidir não lançar um candidato próprio, iria apresentar um pedido de registro de candidatura avulsa.”<cite><a href="https:&#x2f;&#x2f;www.cnnbrasil.com.br&#x2f;politica&#x2f;pl-reune-bancada-nesta-terca-para-debater-apoio-a-hugo-no-comando-da-camara&#x2f;" target="_blank" rel="noopener">CNN Brasil</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+        
+  </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #9e9e9e"></i>Centro</span>, <span><i style="background: #ffb74d"></i>Centro-oposição</span>, <span><i style="background: #6a1b9a"></i>Independente — Missão &#x2f; MBL</span>, <span><i style="background: #78909c"></i>Outros &#x2f; não classificável</span>.</p>
+
+  <details>
+    <summary>Referências (2) e outras matérias sobre o tema (1)</summary>
+    <ol class="refs">
+    
+      <li id="t3r1"><a href="https:&#x2f;&#x2f;www.cnnbrasil.com.br&#x2f;politica&#x2f;pl-reune-bancada-nesta-terca-para-debater-apoio-a-hugo-no-comando-da-camara&#x2f;" target="_blank" rel="noopener">PL reúne bancada nesta terça para debater apoio a Hugo no comando da Câmara</a> <span class="meta">— CNN Brasil, 03&#x2f;11 03:30</span></li>
+    
+      <li id="t3r2"><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;republica&#x2f;avanco-do-pl-pressiona-hugo-motta-e-leva-partidos-a-antecipar-disputa-pela-camara&#x2f;" target="_blank" rel="noopener">Avanço do PL pressiona Hugo Motta e leva partidos a antecipar disputa pela Câmara</a> <span class="meta">— Gazeta do Povo, 01&#x2f;11 21:59</span></li>
+    
+    </ol>
+    
+    <ul class="rel">
+    
+      <li><a href="https:&#x2f;&#x2f;news.google.com&#x2f;rss&#x2f;articles&#x2f;CBMisAFBVV95cUxQZnYxMUFheHgyMGQzWWVDbVhxUkxjRC1XN1N4Ykx0MXBra3NlakpEazJ5al8wTWFGWFdHaW1ZZ01XX1BHTFVrcHA4S3ZQWlBiUDZCZmNma1BodGotS3piN1otZ09NbWtmUDlCT3VEaE02czFqV3BjYkx4ek84WXBES0dsbzNvNlAwYTRRWVhTc2Y5RTYtdWVRdnM5UGZ0dTV6M0NZZ192RjVrcmFDMlBBdg?oc=5" target="_blank" rel="noopener">PL pode ficar fora de blocão de Hugo Motta e perder espaço em comissões da Câmara</a> <span class="meta">— AM POST (via Google News), 02&#x2f;11 15:52</span></li>
+    
+    </ul>
+    
+  </details>
+</article>
+
+<article id="t4">
+  <figure class="capa"><img src="..&#x2f;..&#x2f;img&#x2f;2026-11-03&#x2f;f9fa4367156929a9.jpg" alt="" loading="lazy"><figcaption>Imagem: <a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;colunas&#x2f;painel&#x2f;2026&#x2f;11&#x2f;lula-rejeita-fazer-gesto-ao-mercado-e-antecipar-nome-para-fazenda.shtml" target="_blank" rel="noopener">Folha</a></figcaption></figure>
+  <h2><span class="n">4.</span>Lula 4: Fazenda sem nome até o fim de novembro e disputa no PT sobre a proposta de Lara Resende para os juros</h2>
+  <p class="cobertura">Cobertura (7):
+    <span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — CNN Brasil, Estadão, Folha, G1, JOTA</span><span class="l"><b>Imprensa mais à direita</b> — Gazeta do Povo, Revista Oeste</span>
+  </p>
+
+  <h3>O que aconteceu</h3>
+  <div class="contexto">
+  
+    <p>Lula não pretende antecipar o nome do ministro da Fazenda; a tendência é anunciá-lo depois da viagem à COP31. Os nomes mais citados são Geraldo Alckmin e Rafael Fonteles; Dario Durigan pode ficar.<sup><a href="#t4r1" title="“A tendência é que ele indique o chefe da equipe econômica apenas na volta de uma viagem internacional que iniciará daqui a uma semana.” — Folha">[1]</a></sup></p>
+  
+    <p>O economista André Lara Resende propôs baixar a Selic gradualmente de 13,75% para cerca de 7,5% ao ano, sob um novo Conselho Fiscal e Monetário Nacional.<sup><a href="#t4r2" title="“Resende defende um arranjo para a redução gradual da taxa de juros, dos atuais 13,75% para algo em torno de 7,5% ao ano.” — Gazeta do Povo">[2]</a></sup></p>
+  
+    <p>O Copom começa a se reunir hoje; a decisão sai na quarta (4).<sup><a href="#t4r3" title="“A discussão ocorre às vésperas da reunião do Copom, que começa nesta terça-feira, 3.” — Estadão">[3]</a></sup></p>
+  
+  </div>
+
+  <h3>Como cada campo político se posicionou</h3>
+  <div class="lados">
+  
+
+    <section class="lado" style="--cor: #2e7d32">
+      <h4>Pró-governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><img class="rosto" src="..&#x2f;..&#x2f;img&#x2f;2026-11-03&#x2f;93732f73ca25aebe.jpg" alt="Dario Durigan" title="Dario Durigan — foto: Wikipédia" loading="lazy"></span><span>Dario Durigan, ministro da Fazenda</span></div>
+        <p>Disse que propostas como tabelar os juros ou queimar reservas não estão em avaliação e que não há encontro marcado entre Lula e Lara Resende.<sup><a href="#t4r4">[4]</a></sup></p>
+        
+        <blockquote>“Propostas como tabelar os juros ou queimar reservas cambiais não estão em avaliação”<cite><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;noticia&#x2f;2026&#x2f;11&#x2f;02&#x2f;propostas-como-tabelar-os-juros-ou-queimar-reservas-cambiais-nao-estao-em-avaliacao-diz-durigan.ghtml" target="_blank" rel="noopener">G1</a></cite></blockquote>
+        
+        <blockquote>“Não há agenda com o presidente Lula e o economista André Lara Resende”<cite><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;noticia&#x2f;2026&#x2f;11&#x2f;02&#x2f;propostas-como-tabelar-os-juros-ou-queimar-reservas-cambiais-nao-estao-em-avaliacao-diz-durigan.ghtml" target="_blank" rel="noopener">G1</a></cite></blockquote>
+        
+      </div>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><img class="rosto" src="..&#x2f;..&#x2f;img&#x2f;2026-11-03&#x2f;0e9bb7d1f0b91ad1.jpg" alt="Gleisi Hoffmann" title="Gleisi Hoffmann — foto: Câmara dos Deputados" loading="lazy"></span><span>Gleisi Hoffmann (PT-PR), deputada</span></div>
+        <p>Disse que o mercado tem o &quot;DNA do autoritarismo&quot; e que conversar com quem pensa diferente da Faria Lima não significa adotar as propostas.<sup><a href="#t4r2">[2]</a></sup></p>
+        
+        <blockquote>“Segundo a petista, isso não significa que ele adotará as ideias e propostas das pessoas com quem conversa.”<cite><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;republica&#x2f;gleisi-volta-a-atacar-mercado-e-recua-na-defesa-do-tabelamento-de-juros&#x2f;" target="_blank" rel="noopener">Gazeta do Povo</a></cite></blockquote>
+        
+      </div>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><img class="rosto" src="..&#x2f;..&#x2f;img&#x2f;2026-11-03&#x2f;0a710f752263288a.jpg" alt="Edinho Silva" title="Edinho Silva — foto: Wikipédia" loading="lazy"></span><span>Edinho Silva, presidente do PT</span></div>
+        <p>Disse que só o ministro da Fazenda está autorizado a falar de política econômica.<sup><a href="#t4r2">[2]</a></sup></p>
+        
+        <blockquote>“o presidente nacional do PT, Edinho Silva, afirmou que somente o ministro da Fazenda, Dario Durigan, tem autorização para falar da política econômica”<cite><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;republica&#x2f;gleisi-volta-a-atacar-mercado-e-recua-na-defesa-do-tabelamento-de-juros&#x2f;" target="_blank" rel="noopener">Gazeta do Povo</a></cite></blockquote>
+        
+      </div>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><img class="rosto" src="..&#x2f;..&#x2f;img&#x2f;2026-11-03&#x2f;a64240d8da43dca7.jpg" alt="Guilherme Boulos" title="Guilherme Boulos — foto: Wikipédia" loading="lazy"></span><span>Guilherme Boulos (PSOL), ministro da Secretaria-Geral</span></div>
+        <p>Chamou de &quot;chantagem do mercado&quot; a cobrança por ajuste fiscal e defendeu cortar benefícios fiscais, supersalários e emendas, e não saúde e educação.<sup><a href="#t4r5">[5]</a></sup></p>
+        
+        <blockquote>“defendeu que eventuais cortes se concentrem em benefícios fiscais, supersalários do funcionalismo e emendas parlamentares, mas não em áreas como saúde e educação”<cite><a href="https:&#x2f;&#x2f;revistaoeste.com&#x2f;politica&#x2f;cobranca-por-ajuste-fiscal-e-chantagem-do-mercado-diz-boulos&#x2f;" target="_blank" rel="noopener">Revista Oeste</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+              
+
+    <section class="lado" style="--cor: #78909c">
+      <h4>Outros &#x2f; não classificável</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">LP</span></span><span>Lucinda Pinto, editora de Economia da CNN</span></div>
+        <p>Disse que forçar a queda da Selic tenderia a aumentar os juros cobrados para financiar o governo.<sup><a href="#t4r6">[6]</a></sup></p>
+        
+        <blockquote>“Na prática, o que você vai fazer é aumentar ainda mais a taxa de juros que o investidor vai exigir para emprestar dinheiro para o governo”<cite><a href="https:&#x2f;&#x2f;www.cnnbrasil.com.br&#x2f;economia&#x2f;money&#x2f;mercado&#x2f;analise-indefinicao-na-fazenda-preocupa-mercado-para-lula-4&#x2f;" target="_blank" rel="noopener">CNN Brasil</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+  </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #81c784"></i>Centro pró-governo</span>, <span><i style="background: #9e9e9e"></i>Centro</span>, <span><i style="background: #ffb74d"></i>Centro-oposição</span>, <span><i style="background: #e65100"></i>Oposição ao governo</span>, <span><i style="background: #6a1b9a"></i>Independente — Missão &#x2f; MBL</span>.</p>
+
+  <details>
+    <summary>Referências (6) e outras matérias sobre o tema (3)</summary>
+    <ol class="refs">
+    
+      <li id="t4r1"><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;colunas&#x2f;painel&#x2f;2026&#x2f;11&#x2f;lula-rejeita-fazer-gesto-ao-mercado-e-antecipar-nome-para-fazenda.shtml" target="_blank" rel="noopener">Lula rejeita fazer gesto ao mercado e antecipar nome para Fazenda</a> <span class="meta">— Folha, 02&#x2f;11 23:00</span></li>
+    
+      <li id="t4r2"><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;republica&#x2f;gleisi-volta-a-atacar-mercado-e-recua-na-defesa-do-tabelamento-de-juros&#x2f;" target="_blank" rel="noopener">Gleisi volta a atacar mercado e recua na defesa do tabelamento de juros</a> <span class="meta">— Gazeta do Povo, 02&#x2f;11 21:51</span></li>
+    
+      <li id="t4r3"><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;coluna-do-estadao&#x2f;proposta-de-lara-resende-sobre-tabelamento-dos-juros-reacende-disputa-no-pt-por-rumos-de-lula-4&#x2f;" target="_blank" rel="noopener">Proposta de Lara Resende sobre ‘tabelamento’ dos juros reacende disputa no PT por rumos de Lula 4</a> <span class="meta">— Estadão, 02&#x2f;11 18:11</span></li>
+    
+      <li id="t4r4"><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;noticia&#x2f;2026&#x2f;11&#x2f;02&#x2f;propostas-como-tabelar-os-juros-ou-queimar-reservas-cambiais-nao-estao-em-avaliacao-diz-durigan.ghtml" target="_blank" rel="noopener">&#x27;Propostas como tabelar os juros ou queimar reservas cambiais não estão em avaliação&#x27;, diz Durigan</a> <span class="meta">— G1, 02&#x2f;11 16:31</span></li>
+    
+      <li id="t4r5"><a href="https:&#x2f;&#x2f;revistaoeste.com&#x2f;politica&#x2f;cobranca-por-ajuste-fiscal-e-chantagem-do-mercado-diz-boulos&#x2f;" target="_blank" rel="noopener">Cobrança por ajuste fiscal é ‘chantagem do mercado’, diz Boulos</a> <span class="meta">— Revista Oeste, 02&#x2f;11 21:33</span></li>
+    
+      <li id="t4r6"><a href="https:&#x2f;&#x2f;www.cnnbrasil.com.br&#x2f;economia&#x2f;money&#x2f;mercado&#x2f;analise-indefinicao-na-fazenda-preocupa-mercado-para-lula-4&#x2f;" target="_blank" rel="noopener">Análise: Indefinição na Fazenda preocupa mercado para Lula 4</a> <span class="meta">— CNN Brasil, 02&#x2f;11 21:32</span></li>
+    
+    </ol>
+    
+    <ul class="rel">
+    
+      <li><a href="https:&#x2f;&#x2f;www.cnnbrasil.com.br&#x2f;economia&#x2f;money&#x2f;macroeconomia&#x2f;juros-nao-sao-unica-razao-da-divida-publica-diz-ex-diretor-do-bc&#x2f;" target="_blank" rel="noopener">Juros não são única razão da dívida pública, diz ex-diretor do BC</a> <span class="meta">— CNN Brasil, 03&#x2f;11 02:50</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.cnnbrasil.com.br&#x2f;economia&#x2f;money&#x2f;macroeconomia&#x2f;bc-abre-decisao-sobre-juros-em-meio-a-mudanca-das-expectativas-do-mercado&#x2f;" target="_blank" rel="noopener">BC abre decisão sobre juros em meio à mudança das expectativas do mercado</a> <span class="meta">— CNN Brasil, 03&#x2f;11 04:06</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.jota.info&#x2f;opiniao-e-analise&#x2f;artigos&#x2f;o-atalho-que-lula-deve-evitar" target="_blank" rel="noopener">O atalho que Lula deve evitar</a> <span class="meta">— JOTA, 02&#x2f;11 17:54</span></li>
+    
+    </ul>
+    
+  </details>
+</article>
+
+<article id="t5">
+  <figure class="capa"><img src="..&#x2f;..&#x2f;img&#x2f;2026-11-03&#x2f;2206e30e4cbb65e1.jpg" alt="" loading="lazy"><figcaption>Imagem: <a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;noticia&#x2f;2026&#x2f;11&#x2f;02&#x2f;flavio-bolsonaro-recorre-contra-apreensao-de-passaportes-defesa-pede-tambem-que-moraes-seja-declarado-impedido-em-investigacao.ghtml" target="_blank" rel="noopener">G1</a></figcaption></figure>
+  <h2><span class="n">5.</span>Flávio Bolsonaro recorre contra Moraes; PF investiga ex-agente israelense que participou da fuga</h2>
+  <p class="cobertura">Cobertura (9):
+    <span class="l"><b>Imprensa mais à esquerda</b> — Brasil de Fato, CartaCapital</span><span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — Estadão, Folha, G1</span><span class="l"><b>Imprensa mais à direita</b> — Gazeta do Povo</span><span class="l"><b>Partidos e movimentos</b> — PT (site oficial)</span><span class="l"><b>Outras fontes</b> — UOL (via Google News), UOL Notícias (via Google News)</span>
+  </p>
+
+  <h3>O que aconteceu</h3>
+  <div class="contexto">
+  
+    <p>A defesa de Flávio pediu a revogação da ordem de Moraes que mandou entregar os passaportes e pediu que o inquérito passe para André Mendonça, com Moraes declarado impedido ou suspeito.<sup><a href="#t5r1" title="“A defesa de Flávio Bolsonaro (PL-RJ), derrotado nas eleições presidenciais, pediu a revogação da decisão do ministro Alexandre de Moraes” — G1">[1]</a></sup></p>
+  
+    <p>A investigação apura lavagem de dinheiro num suposto esquema com empresas do advogado Willer Tomaz e bets.<sup><a href="#t5r1" title="“Flávio Bolsonaro e o advogado Willer Tomaz são investigados por lavagem de dinheiro, em um suposto esquema que envolve empresas de Tomaz e bets” — G1">[1]</a></sup></p>
+  
+    <p>Segundo o Fantástico e a Folha, o ex-agente do Mossad Menachem Booky Halevy estava numa van que cruzou a fronteira com a Argentina minutos antes da van de Flávio. Ele é investigado pela PF.<sup><a href="#t5r2" title="“O ex-agente do Mossad Menachem Booky Halevy era um dos passageiros de uma van que cruzou a fronteira do Brasil com a Argentina minutos antes da passagem do veículo que levava Flávio e sua família.” — Folha">[2]</a></sup></p>
+  
+    <p>Em sua primeira aparição pública nos EUA, Flávio foi a um culto evangélico na Flórida no domingo (1º), com o irmão Eduardo.<sup><a href="#t5r3" title="“compareceu no domingo, 1º, a um culto evangélico brasileiro no Celeiro Flórida Casa de Oração” — Estadão">[3]</a></sup><sup><a href="#t5r4" title="“ao lado do irmão, Eduardo Bolsonaro (PL-SP), e de familiares” — Gazeta do Povo">[4]</a></sup></p>
+  
+  </div>
+
+  <h3>Como cada campo político se posicionou</h3>
+  <div class="lados">
+  
+
+    <section class="lado" style="--cor: #2e7d32">
+      <h4>Pró-governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">P</span></span><span>PT (site oficial)</span></div>
+        <p>Publicou lista de bolsonaristas que deixaram o país e chamou a saída de Flávio de fuga para evitar a Justiça.<sup><a href="#t5r5">[5]</a></sup></p>
+        
+        <blockquote>“O patriotismo bolsonarista tem uma curiosa preferência pela ponte aérea internacional quando obrigado a dar explicações à Justiça.”<cite><a href="https:&#x2f;&#x2f;pt.org.br&#x2f;patriotas-de-aeroporto-a-amplia-lista-de-bolsonaristas-que-fugiram-do-brasil&#x2f;" target="_blank" rel="noopener">PT (site oficial)</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+          
+
+    <section class="lado" style="--cor: #e65100">
+      <h4>Oposição ao governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><img class="rosto" src="..&#x2f;..&#x2f;img&#x2f;2026-11-03&#x2f;4e945953203dd1ef.jpg" alt="Flávio Bolsonaro" title="Flávio Bolsonaro — foto: Senado Federal" loading="lazy"></span><span>Flávio Bolsonaro (PL-RJ), senador</span></div>
+        <p>Disse que não se arrepende, que &quot;saiu pelo Brasil&quot; e que as cautelares contra ele se baseiam em mentiras.<sup><a href="#t5r3">[3]</a></sup></p>
+        
+        <blockquote>“apenas sete minutos após o anúncio do resultado das eleições já havia uma decisão judicial com medidas cautelares contra mim, com base em mentiras”<cite><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;flavio-culto-evangelico-primeira-aparicao-publica-fuga-eua-npr&#x2f;" target="_blank" rel="noopener">Estadão</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+      
+
+    <section class="lado" style="--cor: #78909c">
+      <h4>Outros &#x2f; não classificável</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">OF</span></span><span>Oficiais das Forças Armadas ouvidos pela Folha (sob anonimato)</span></div>
+        <p>Criticaram a saída de Flávio sem reconhecer a derrota e a compararam ao comandante que abandona a tropa.<sup><a href="#t5r6">[6]</a></sup></p>
+        
+        <blockquote>“corresponde ao gesto do comandante que abandona sua tropa”<cite><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;11&#x2f;fuga-de-flavio-bolsonaro-aos-eua-apos-derrota-leva-militares-a-abracarem-tarcisio.shtml" target="_blank" rel="noopener">Folha</a></cite></blockquote>
+        
+      </div>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">ID</span></span><span>Iguaçu Dallas Travel Turismo</span></div>
+        <p>Negou, em nota, ter transportado Flávio.<sup><a href="#t5r7">[7]</a></sup></p>
+        
+        <blockquote>“Em nota, a Dallas Turismo negou ter transportado o candidato.”<cite><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;tres-entradas-na-argentina-em-40-minutos-os-bastidores-da-fuga-de-flavio-bolsonaro-npr&#x2f;" target="_blank" rel="noopener">Estadão</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+  </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #81c784"></i>Centro pró-governo</span>, <span><i style="background: #9e9e9e"></i>Centro</span>, <span><i style="background: #ffb74d"></i>Centro-oposição</span>, <span><i style="background: #6a1b9a"></i>Independente — Missão &#x2f; MBL</span>.</p>
+
+  <details>
+    <summary>Referências (7) e outras matérias sobre o tema (9)</summary>
+    <ol class="refs">
+    
+      <li id="t5r1"><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;noticia&#x2f;2026&#x2f;11&#x2f;02&#x2f;flavio-bolsonaro-recorre-contra-apreensao-de-passaportes-defesa-pede-tambem-que-moraes-seja-declarado-impedido-em-investigacao.ghtml" target="_blank" rel="noopener">Flávio Bolsonaro recorre contra apreensão de passaportes; defesa pede que Moraes seja declarado impedido em investigação</a> <span class="meta">— G1, 02&#x2f;11 16:20</span></li>
+    
+      <li id="t5r2"><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;11&#x2f;ex-agente-do-governo-israelense-teria-ajudado-flavio-bolsonaro-a-fugir-para-os-eua-diz-tv.shtml" target="_blank" rel="noopener">Ex-agente do governo israelense ajudou Flávio Bolsonaro a fugir para os EUA, indica investigação</a> <span class="meta">— Folha, 02&#x2f;11 14:18</span></li>
+    
+      <li id="t5r3"><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;flavio-culto-evangelico-primeira-aparicao-publica-fuga-eua-npr&#x2f;" target="_blank" rel="noopener">Flávio Bolsonaro vai a culto evangélico em primeira aparição pública após fuga para os EUA</a> <span class="meta">— Estadão, 02&#x2f;11 12:24</span></li>
+    
+      <li id="t5r4"><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;republica&#x2f;flavio-bolsonaro-faz-primeira-aparicao-publica-nos-eua-ao-lado-de-eduardo&#x2f;" target="_blank" rel="noopener">Flávio Bolsonaro faz primeira aparição pública nos EUA ao lado de Eduardo</a> <span class="meta">— Gazeta do Povo, 02&#x2f;11 09:44</span></li>
+    
+      <li id="t5r5"><a href="https:&#x2f;&#x2f;pt.org.br&#x2f;patriotas-de-aeroporto-a-amplia-lista-de-bolsonaristas-que-fugiram-do-brasil&#x2f;" target="_blank" rel="noopener">Patriotas de aeroporto: a ampla lista de bolsonaristas que fugiram do Brasil</a> <span class="meta">— PT (site oficial), 02&#x2f;11 14:39</span></li>
+    
+      <li id="t5r6"><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;11&#x2f;fuga-de-flavio-bolsonaro-aos-eua-apos-derrota-leva-militares-a-abracarem-tarcisio.shtml" target="_blank" rel="noopener">Fuga de Flávio Bolsonaro aos EUA após derrota leva militares a abraçarem Tarcísio</a> <span class="meta">— Folha, 02&#x2f;11 15:39</span></li>
+    
+      <li id="t5r7"><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;tres-entradas-na-argentina-em-40-minutos-os-bastidores-da-fuga-de-flavio-bolsonaro-npr&#x2f;" target="_blank" rel="noopener">Fuga de Flávio teve participação de agência ‘fantasma’ e ex-oficial de inteligência de Israel</a> <span class="meta">— Estadão, 02&#x2f;11 10:26</span></li>
+    
+    </ol>
+    
+    <ul class="rel">
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;11&#x2f;flavio-bolsonaro-participa-de-culto-na-florida-em-primeira-aparicao-depois-da-fuga.shtml" target="_blank" rel="noopener">Flávio Bolsonaro participa de culto na Flórida em primeira aparição depois da fuga</a> <span class="meta">— Folha, 02&#x2f;11 11:12</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;politica&#x2f;em-1a-aparicao-apos-fuga-para-os-eua-flavio-vai-a-culto-em-igreja-ligada-a-pastor-citado-na-cpmi-do-inss&#x2f;" target="_blank" rel="noopener">Em 1ª aparição após fuga para os EUA, Flávio vai a culto em igreja ligada a pastor citado na CPMI do INSS</a> <span class="meta">— CartaCapital, 02&#x2f;11 10:40</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;politica&#x2f;ex-agente-do-governo-israelense-e-investigado-por-participacao-na-fuga-de-flavio-bolsonaro-para-os-eua&#x2f;" target="_blank" rel="noopener">Ex-agente do governo israelense é investigado por participação na fuga de Flávio Bolsonaro para os EUA</a> <span class="meta">— CartaCapital, 02&#x2f;11 09:50</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;11&#x2f;01&#x2f;ex-agente-do-mossad-teria-ajudado-flavio-bolsonaro-a-fugir-do-brasil-afirma-jornal&#x2f;" target="_blank" rel="noopener">Ex-agente do Mossad teria ajudado Flávio Bolsonaro a fugir do Brasil, afirma jornal</a> <span class="meta">— Brasil de Fato, 01&#x2f;11 12:08</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;11&#x2f;01&#x2f;trump-descarta-encontro-com-flavio-mas-diz-que-ele-pode-ficar-o-quanto-quiser&#x2f;" target="_blank" rel="noopener">Trump descarta encontro com Flávio, mas diz que ele pode ficar o quanto quiser</a> <span class="meta">— Brasil de Fato, 01&#x2f;11 10:24</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;news.google.com&#x2f;rss&#x2f;articles&#x2f;CBMiZ0FVX3lxTE1uLVJpVElmRVhGSzhoVXNVQTRSZ0J6SXZYWkFXSVFTLWxFejN0YzdIOUR5RzJkdVdQZU5PUFVNRXRRZkhiTWRCM1JQVll1Mk9DRDlPbjE1VlpoZ1MxcnFlMTZiVnZqNDQ?oc=5" target="_blank" rel="noopener">Flávio Bolsonaro recorre ao STF contra retenção de passaporte</a> <span class="meta">— UOL (via Google News), 02&#x2f;11 18:32</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;news.google.com&#x2f;rss&#x2f;articles&#x2f;CBMiywFBVV95cUxNem5rOWpSdnl4eUxMTTkzemJLZVVxX2Q4ckNqUFM3VTBWbHZYQkdOZTBWci1BR0ozX0tjTkxkbEF6UmRqWktLRmFkRmhLNE1RbFZGX2FYRFg5WGNpMlQ5STFQVndUc0p2Q2o1V2xPN3RVeUtlOXdSUUQyeHpObVhsYm9FMXpkQWpzTFFpQkxlcmdTV2pSb1B6aC14Nk9Kb3JnUV9DVW9nQWpGYnpRZUxwd1FibFFYOTRqb3hwakNwUmlNakE0ZVlOcHVlRQ?oc=5" target="_blank" rel="noopener">Flávio Bolsonaro recorre ao STF contra retenção de passaporte</a> <span class="meta">— UOL Notícias (via Google News), 02&#x2f;11 22:14</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;republica&#x2f;ativistas-espalham-cartazes-de-procurado-com-foto-de-flavio-bolsonaro&#x2f;" target="_blank" rel="noopener">Ativistas espalham cartazes de “procurado” com foto de Flávio Bolsonaro</a> <span class="meta">— Gazeta do Povo, 02&#x2f;11 15:13</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;alem-de-flavio-bolsonaro-6-senadores-derrotados-deixarao-congresso-com-acoes-e-inqueritos-no-stf&#x2f;" target="_blank" rel="noopener">Além de Flávio Bolsonaro, 6 senadores derrotados deixarão Congresso com ações e inquéritos no STF</a> <span class="meta">— Estadão, 02&#x2f;11 05:30</span></li>
+    
+    </ul>
+    
+  </details>
+</article>
+
+<article id="t6">
+  <figure class="capa"><img src="..&#x2f;..&#x2f;img&#x2f;2026-11-03&#x2f;d7229dd6a286812f.jpg" alt="" loading="lazy"><figcaption>Imagem: <a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;11&#x2f;modelo-da-reforma-eleitoral-divide-camara-e-ameaca-implodir-acordo-para-frear-pl.shtml" target="_blank" rel="noopener">Folha</a></figcaption></figure>
+  <h2><span class="n">6.</span>Reforma eleitoral: Motta quer aprovar o distrital misto até dezembro; PL e Novo anunciam voto contra</h2>
+  <p class="cobertura">Cobertura (6):
+    <span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — CNN Brasil, Folha, G1, JOTA</span><span class="l"><b>Outras fontes</b> — GP1 (via Google News), Plantão Brasil (via Google News)</span>
+  </p>
+
+  <h3>O que aconteceu</h3>
+  <div class="contexto">
+  
+    <p>Pela proposta, metade das vagas da Câmara iria para distritos e a outra metade para listas dos partidos. A regra valeria por completo a partir de 2034, com uma transição antes.<sup><a href="#t6r1" title="“A proposta prevê que metade das vagas da Casa seja direcionada a regiões previamente delimitadas.” — Folha">[1]</a></sup><sup><a href="#t6r2" title="“a ideia é que as mudanças nas regras eleitorais comecem a valer integralmente nas eleições de 2034” — G1">[2]</a></sup></p>
+  
+    <p>A intenção é votar até dezembro, antes da posse dos novos deputados. O PL elegeu 121, a maior bancada desde a Constituinte.<sup><a href="#t6r1" title="“A intenção é aprovar a mudança até dezembro, antes da posse dos novos deputados e senadores” — Folha">[1]</a></sup><sup><a href="#t6r2" title="“O PL terminou as eleições com 121 deputados, a maior bancada desde a Constituinte.” — G1">[2]</a></sup></p>
+  
+  </div>
+
+  <h3>Como cada campo político se posicionou</h3>
+  <div class="lados">
+  
+
+    <section class="lado" style="--cor: #2e7d32">
+      <h4>Pró-governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">DP</span></span><span>Deputados do PT</span></div>
+        <p>Estão divididos: parte aceita discutir um sistema misto, parte rejeita por temer perder cadeiras.<sup><a href="#t6r3">[3]</a></sup></p>
+        
+        <blockquote>“Parte dos integrantes do PT afirma que é possível debater um sistema misto, enquanto outros rejeitam completamente”<cite><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;11&#x2f;camara-discute-reforma-eleitoral-para-frear-puxadores-de-voto-como-nikolas-veja-modelos-e-debates.shtml" target="_blank" rel="noopener">Folha</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+
+    <section class="lado" style="--cor: #81c784">
+      <h4>Centro pró-governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><img class="rosto" src="..&#x2f;..&#x2f;img&#x2f;2026-11-03&#x2f;b7b06a79ef3ab296.jpg" alt="Hugo Motta" title="Hugo Motta — foto: Câmara dos Deputados" loading="lazy"></span><span>Hugo Motta (Republicanos-PB), presidente da Câmara</span></div>
+        <p>Disse que pretende aprovar uma PEC que institui o distrital misto.<sup><a href="#t6r2">[2]</a></sup></p>
+        
+        <blockquote>“Hugo Motta afirmou que pretende aprovar uma Proposta de Emenda à Constituição (PEC) instituindo o sistema distrital misto.”<cite><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;noticia&#x2f;2026&#x2f;11&#x2f;01&#x2f;camara-quer-mudar-a-forma-de-eleicao-dos-deputados-entenda-o-novo-modelo-em-discussao.ghtml" target="_blank" rel="noopener">G1</a></cite></blockquote>
+        
+      </div>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><img class="rosto" src="..&#x2f;..&#x2f;img&#x2f;2026-11-03&#x2f;f1187353862fadb5.jpg" alt="Igor Timo" title="Igor Timo — foto: Câmara dos Deputados" loading="lazy"></span><span>Igor Timo (Podemos-MG), deputado</span></div>
+        <p>Defende o &quot;distritão&quot;, em que os mais votados do estado são eleitos.<sup><a href="#t6r1">[1]</a></sup></p>
+        
+        <blockquote>“É o sistema mais representativo. Um parlamentar com votação expressiva eleger outros com votação ínfima é incompatível com a democracia.”<cite><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;11&#x2f;modelo-da-reforma-eleitoral-divide-camara-e-ameaca-implodir-acordo-para-frear-pl.shtml" target="_blank" rel="noopener">Folha</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+        
+
+    <section class="lado" style="--cor: #e65100">
+      <h4>Oposição ao governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><img class="rosto" src="..&#x2f;..&#x2f;img&#x2f;2026-11-03&#x2f;3f5a64c7db45a928.jpg" alt="Cabo Gilberto" title="Cabo Gilberto — foto: Câmara dos Deputados" loading="lazy"></span><span>Cabo Gilberto (PL-PB), líder da oposição na Câmara</span></div>
+        <p>Disse que os deputados do PL e do Novo decidiram votar contra a mudança.<sup><a href="#t6r1">[1]</a></sup></p>
+        
+        <blockquote>“O líder da oposição na Câmara, deputado cabo Gilberto (PL-PB), declarou que os deputados do PL e Novo se reuniram e decidiram votar contra a alteração.”<cite><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;11&#x2f;modelo-da-reforma-eleitoral-divide-camara-e-ameaca-implodir-acordo-para-frear-pl.shtml" target="_blank" rel="noopener">Folha</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+      
+
+    <section class="lado" style="--cor: #78909c">
+      <h4>Outros &#x2f; não classificável</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">JH</span></span><span>João Henrique Hummel, diretor da Action Consultoria</span></div>
+        <p>Disse que o distrital misto fortalece os presidentes de partido.<sup><a href="#t6r4">[4]</a></sup></p>
+        
+        <blockquote>“Cada dia mais forte a presença do líder do partido, que vai ter o caixa e o controle dos diretórios nacionais”<cite><a href="https:&#x2f;&#x2f;www.cnnbrasil.com.br&#x2f;politica&#x2f;voto-distrital-misto-empodera-presidentes-de-partidos-diz-especialista&#x2f;" target="_blank" rel="noopener">CNN Brasil</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+  </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #9e9e9e"></i>Centro</span>, <span><i style="background: #ffb74d"></i>Centro-oposição</span>, <span><i style="background: #6a1b9a"></i>Independente — Missão &#x2f; MBL</span>.</p>
+
+  <details>
+    <summary>Referências (4) e outras matérias sobre o tema (5)</summary>
+    <ol class="refs">
+    
+      <li id="t6r1"><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;11&#x2f;modelo-da-reforma-eleitoral-divide-camara-e-ameaca-implodir-acordo-para-frear-pl.shtml" target="_blank" rel="noopener">Modelo da reforma eleitoral divide Câmara e ameaça implodir acordo para frear PL</a> <span class="meta">— Folha, 01&#x2f;11 22:04</span></li>
+    
+      <li id="t6r2"><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;noticia&#x2f;2026&#x2f;11&#x2f;01&#x2f;camara-quer-mudar-a-forma-de-eleicao-dos-deputados-entenda-o-novo-modelo-em-discussao.ghtml" target="_blank" rel="noopener">Câmara quer mudar a forma de eleição dos deputados; entenda o novo modelo em discussão</a> <span class="meta">— G1, 01&#x2f;11 00:00</span></li>
+    
+      <li id="t6r3"><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;11&#x2f;camara-discute-reforma-eleitoral-para-frear-puxadores-de-voto-como-nikolas-veja-modelos-e-debates.shtml" target="_blank" rel="noopener">Câmara discute reforma eleitoral para frear puxadores de voto como Nikolas; veja modelos e debates</a> <span class="meta">— Folha, 01&#x2f;11 23:00</span></li>
+    
+      <li id="t6r4"><a href="https:&#x2f;&#x2f;www.cnnbrasil.com.br&#x2f;politica&#x2f;voto-distrital-misto-empodera-presidentes-de-partidos-diz-especialista&#x2f;" target="_blank" rel="noopener">Voto distrital misto empodera presidentes de partidos, diz especialista</a> <span class="meta">— CNN Brasil, 03&#x2f;11 05:00</span></li>
+    
+    </ol>
+    
+    <ul class="rel">
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;colunas&#x2f;dora-kramer&#x2f;2026&#x2f;11&#x2f;camara-exclui-eleitor-do-debate-sobre-mudanca-no-sistema-eleitoral.shtml" target="_blank" rel="noopener">Câmara exclui eleitor do debate sobre mudança no sistema eleitoral</a> <span class="meta">— Folha, 02&#x2f;11 16:20</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;blog&#x2f;julia-duailibi&#x2f;post&#x2f;2026&#x2f;10&#x2f;30&#x2f;hugo-motta-quer-votar-sistema-distrital-misto-ainda-neste-ano.ghtml" target="_blank" rel="noopener">Hugo Motta quer votar sistema distrital misto ainda neste ano</a> <span class="meta">— G1, 30&#x2f;10 08:43</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;news.google.com&#x2f;rss&#x2f;articles&#x2f;CBMizgFBVV95cUxObzBQZlAtMDdkQ2JRXzBvbWxCQ0RhbV9iWjZjSFAtclhSNmhxbUpHdU5lTFhNLTZoOFdOUUVtYWFPVFVsbmZBRVo0cElKZXJ0b2NZYURtcG44TWdtOTZONzlEeGl2LWZDTklLSk00YnVRTDNBVGNRc3hBZ2Q1Mzg4YkRqekQwdE1DQkllVTdmOWRJbzdFWW9Gc0hJVjNHMUxELUhFbHpCYmNTTnQ3WnRpOHNZWkloekN2X2xQN3hQWW5PRnJ5VVZ0bU9ES00xZ9IBzgFBVV95cUxObzBQZlAtMDdkQ2JRXzBvbWxCQ0RhbV9iWjZjSFAtclhSNmhxbUpHdU5lTFhNLTZoOFdOUUVtYWFPVFVsbmZBRVo0cElKZXJ0b2NZYURtcG44TWdtOTZONzlEeGl2LWZDTklLSk00YnVRTDNBVGNRc3hBZ2Q1Mzg4YkRqekQwdE1DQkllVTdmOWRJbzdFWW9Gc0hJVjNHMUxELUhFbHpCYmNTTnQ3WnRpOHNZWkloekN2X2xQN3hQWW5PRnJ5VVZ0bU9ES00xZw?oc=5" target="_blank" rel="noopener">Ciro Nogueira defende adoção do voto distrital misto para deputados</a> <span class="meta">— GP1 (via Google News), 02&#x2f;11 06:00</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;news.google.com&#x2f;rss&#x2f;articles&#x2f;CBMiWEFVX3lxTE56dzJ1elc3NHBGRnUxUTVXZXN2WDdFNVdkWS1WVkZHd2NlNGsyUEtTaVFBQ0Z3SFRxUHJOeDVldWNiWXdwLVhxTk5LeUxobDhMWDNEcnpfUzY?oc=5" target="_blank" rel="noopener">É ARMADILHA! É GOLPE! Thiago dos Reis alerta para riscos do voto distrital misto proposto na Câmara</a> <span class="meta">— Plantão Brasil (via Google News), 02&#x2f;11 22:09</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.jota.info&#x2f;opiniao-e-analise&#x2f;artigos&#x2f;a-democracia-dos-algoritmos-exige-uma-nova-reforma-politica" target="_blank" rel="noopener">A democracia dos algoritmos exige uma nova reforma política</a> <span class="meta">— JOTA, 03&#x2f;11 01:33</span></li>
+    
+    </ul>
+    
+  </details>
+</article>
+
+<article id="t7">
+  <figure class="capa"><img src="..&#x2f;..&#x2f;img&#x2f;2026-11-03&#x2f;205ef7b91275c646.png" alt="" loading="lazy"><figcaption>Imagem: <a href="https:&#x2f;&#x2f;noticias.stf.jus.br&#x2f;postsnoticias&#x2f;stf-realiza-nesta-terca-3-audiencia-publica-sobre-proibicao-das-bets&#x2f;" target="_blank" rel="noopener">STF — notícias oficiais</a></figcaption></figure>
+  <h2><span class="n">7.</span>STF faz audiência pública sobre a MP que proibiu as bets; a maioria dos expositores é contra a proibição</h2>
+  <p class="cobertura">Cobertura (5):
+    <span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — CNN Brasil, Poder360</span><span class="l"><b>Fontes oficiais</b> — STF — notícias oficiais</span><span class="l"><b>Outras fontes</b> — Poder360 (via Google News), Rádio Itatiaia (via Google News)</span>
+  </p>
+
+  <h3>O que aconteceu</h3>
+  <div class="contexto">
+  
+    <p>O ministro Luiz Fux, relator da ADI 8027, conduz hoje às 10h uma audiência pública sobre a MP 1.394&#x2f;2026, que proibiu as apostas de quota fixa no país.<sup><a href="#t7r1" title="“O debate foi convocado pelo ministro Luiz Fux, relator da Ação Direta de Inconstitucionalidade (ADI) 8027.” — STF — notícias oficiais">[1]</a></sup><sup><a href="#t7r2" title="“A norma proibiu a exploração, a oferta, a intermediação e a publicidade de apostas de quota fixa no Brasil” — Poder360">[2]</a></sup></p>
+  
+    <p>Dos 34 expositores, ao menos 22 são contra a medida, segundo a CNN.<sup><a href="#t7r3" title="“Dos 34 representantes convidados a participar do debate, ao menos 22 se posicionam contra a proposta.” — CNN Brasil">[3]</a></sup></p>
+  
+  </div>
+
+  <h3>Como cada campo político se posicionou</h3>
+  <div class="lados">
+  
+
+    <section class="lado" style="--cor: #2e7d32">
+      <h4>Pró-governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">GF</span></span><span>Governo federal (Fazenda, Saúde, Esporte e AGU)</span></div>
+        <p>Defende a proibição na audiência.<sup><a href="#t7r3">[3]</a></sup></p>
+        
+        <blockquote>“entre os que defendem a proibição das bets estão, principalmente, órgãos do próprio governo, como os ministérios da Fazenda, da Saúde e do Esporte, além da AGU”<cite><a href="https:&#x2f;&#x2f;www.cnnbrasil.com.br&#x2f;politica&#x2f;maioria-convocada-por-fux-para-audiencia-sobre-bets-e-contra-a-proibicao&#x2f;" target="_blank" rel="noopener">CNN Brasil</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+              
+
+    <section class="lado" style="--cor: #78909c">
+      <h4>Outros &#x2f; não classificável</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">AN</span></span><span>Associação Nacional de Jogos e Loterias (ANJL)</span></div>
+        <p>Autora da ADI 8027, pede que o STF declare a MP inconstitucional.<sup><a href="#t7r1">[1]</a></sup></p>
+        
+        <blockquote>“A ADI 8027 foi proposta pela Associação Nacional de Jogos e Loterias (ANJL), que pede que o STF declare a inconstitucionalidade da MP 1.394&#x2f;2026”<cite><a href="https:&#x2f;&#x2f;noticias.stf.jus.br&#x2f;postsnoticias&#x2f;stf-realiza-nesta-terca-3-audiencia-publica-sobre-proibicao-das-bets&#x2f;" target="_blank" rel="noopener">STF — notícias oficiais</a></cite></blockquote>
+        
+      </div>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">CC</span></span><span>Clubes de futebol e CBF</span></div>
+        <p>São contra a proibição.<sup><a href="#t7r3">[3]</a></sup></p>
+        
+        <blockquote>“o grupo contrário à proibição reúne diversos clubes de futebol, como Flamengo, Corinthians e Cruzeiro, além da própria CBF”<cite><a href="https:&#x2f;&#x2f;www.cnnbrasil.com.br&#x2f;politica&#x2f;maioria-convocada-por-fux-para-audiencia-sobre-bets-e-contra-a-proibicao&#x2f;" target="_blank" rel="noopener">CNN Brasil</a></cite></blockquote>
+        
+      </div>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">CC</span></span><span>CNC e CNI</span></div>
+        <p>Apoiam a medida provisória.<sup><a href="#t7r3">[3]</a></sup></p>
+        
+        <blockquote>“a CNC (Confederação Nacional do Comércio) e a CNI (Confederação Nacional da Indústria) também apoiam a medida”<cite><a href="https:&#x2f;&#x2f;www.cnnbrasil.com.br&#x2f;politica&#x2f;maioria-convocada-por-fux-para-audiencia-sobre-bets-e-contra-a-proibicao&#x2f;" target="_blank" rel="noopener">CNN Brasil</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+  </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #81c784"></i>Centro pró-governo</span>, <span><i style="background: #9e9e9e"></i>Centro</span>, <span><i style="background: #ffb74d"></i>Centro-oposição</span>, <span><i style="background: #e65100"></i>Oposição ao governo</span>, <span><i style="background: #6a1b9a"></i>Independente — Missão &#x2f; MBL</span>.</p>
+
+  <details>
+    <summary>Referências (3) e outras matérias sobre o tema (2)</summary>
+    <ol class="refs">
+    
+      <li id="t7r1"><a href="https:&#x2f;&#x2f;noticias.stf.jus.br&#x2f;postsnoticias&#x2f;stf-realiza-nesta-terca-3-audiencia-publica-sobre-proibicao-das-bets&#x2f;" target="_blank" rel="noopener">STF realiza nesta terça (3) audiência pública sobre proibição das bets</a> <span class="meta">— STF — notícias oficiais, 02&#x2f;11 09:00</span></li>
+    
+      <li id="t7r2"><a href="https:&#x2f;&#x2f;www.poder360.com.br&#x2f;poder-justica&#x2f;stf-faz-audiencia-publica-sobre-bets-nesta-3a-feira&#x2f;" target="_blank" rel="noopener">STF faz audiência pública sobre bets nesta 3ª feira</a> <span class="meta">— Poder360, 03&#x2f;11 06:02</span></li>
+    
+      <li id="t7r3"><a href="https:&#x2f;&#x2f;www.cnnbrasil.com.br&#x2f;politica&#x2f;maioria-convocada-por-fux-para-audiencia-sobre-bets-e-contra-a-proibicao&#x2f;" target="_blank" rel="noopener">Maioria convocada por Fux para audiência sobre bets é contra a proibição</a> <span class="meta">— CNN Brasil, 03&#x2f;11 03:40</span></li>
+    
+    </ol>
+    
+    <ul class="rel">
+    
+      <li><a href="https:&#x2f;&#x2f;news.google.com&#x2f;rss&#x2f;articles&#x2f;CBMinAFBVV95cUxNdEJFT2FuRzBXWWF0cHNmWm1PRDBSWHhqcDRrMzZZUVZrb1RvZ29YUVBkNnZBWlV2WHgxY0I3QXpyMkZ1blNDSVZyanplU2YyS0ZLcHUxZ0UxS0gxQnBFbWlXYjhKSkU1azVBQ1lZRDY5am1ZUWw0bnZyUWJqU3pHMkYwX19UTUIyMDNmRXlaNjhNZ3VMQmVXRDhVTmc?oc=5" target="_blank" rel="noopener">STF faz audiência pública sobre bets nesta 3ª feira</a> <span class="meta">— Poder360 (via Google News), 03&#x2f;11 06:07</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;news.google.com&#x2f;rss&#x2f;articles&#x2f;CBMi9AFBVV95cUxQWGhlZFJkZjM3Z3lTRWxVTC1UYzhvcGUyOF9LVTBwNlNsbnpYM0pYWGs1SnVmT2JtQWZCNWpHVE0ySC1nTFZsUXFBLU1laG1ULXFEaGpSbHBqNWRkcGtpOXFBNWctNUJTcFFlUTVsU2R2eFQ2NHhON0pRUm9QQlE2X0hJZTkzc0tUMmpKOHJPalVtN2xiQUwxUEs1RTFQN1YzV3VaQ3pXcU9kNFg0VG11RnRTbkhyN09UcVBRc1BEbTVheU51SFJROGhubGhONFo2b291dHZGNUczQTVXUDZkaE4zM1NFb0RSQ0gzR0s3eS1zbmFM?oc=5" target="_blank" rel="noopener">Corinthians terá representantes em audiência pública sobre bets no STF</a> <span class="meta">— Rádio Itatiaia (via Google News), 02&#x2f;11 16:34</span></li>
+    
+    </ul>
+    
+  </details>
+</article>
+
+<article id="t8">
+  <figure class="capa"><img src="..&#x2f;..&#x2f;img&#x2f;2026-11-03&#x2f;a90c13ec59b77b3c.webp" alt="" loading="lazy"><figcaption>Imagem: <a href="https:&#x2f;&#x2f;www.cnnbrasil.com.br&#x2f;politica&#x2f;gilmar-ve-falhas-na-conducao-do-tse-e-diz-que-colegiado-garantiu-eleicoes&#x2f;" target="_blank" rel="noopener">CNN Brasil</a></figcaption></figure>
+  <h2><span class="n">8.</span>Gilmar Mendes critica a condução do TSE nas eleições, sem citar Kassio Nunes Marques</h2>
+  <p class="cobertura">Cobertura (4):
+    <span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — CNN Brasil, Estadão</span><span class="l"><b>Outras fontes</b> — Poder360 (via Google News), SBT News (via Google News)</span>
+  </p>
+
+  <h3>O que aconteceu</h3>
+  <div class="contexto">
+  
+    <p>Na noite de segunda (2), Gilmar disse nas redes que quem conduz o TSE deve ser &quot;árbitro equidistante&quot; e que foi o colegiado que garantiu as regras da eleição. Ele não citou o presidente do TSE, Kassio Nunes Marques.<sup><a href="#t8r1" title="“De quem está na condução do órgão que organiza o pleito espera-se a postura de árbitro equidistante que a Constituição pressupõe” — CNN Brasil">[1]</a></sup><sup><a href="#t8r2" title="“Foi o colegiado do Tribunal Superior Eleitoral que assegurou que a disputa transcorresse dentro das regras do jogo democrático” — Estadão">[2]</a></sup></p>
+  
+    <p>No dia da eleição, Cristiano Zanin, do STF, prorrogou a votação até 19h. Segundo o TSE, 34.393 votos foram dados depois das 17h, menos de 1% da diferença entre Lula e Flávio.<sup><a href="#t8r1" title="“O horário de votação foi prorrogado até às 19h por decisão do ministro Cristiano Zanin, do STF” — CNN Brasil">[1]</a></sup></p>
+  
+  </div>
+
+  <h3>Como cada campo político se posicionou</h3>
+  <div class="lados">
+              
+
+    <section class="lado" style="--cor: #78909c">
+      <h4>Outros &#x2f; não classificável</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><img class="rosto" src="..&#x2f;..&#x2f;img&#x2f;2026-11-03&#x2f;f287a6e067e701c7.jpg" alt="Gilmar Mendes" title="Gilmar Mendes — foto: Wikipédia" loading="lazy"></span><span>Gilmar Mendes, ministro do STF (decano)</span></div>
+        <p>Disse que &quot;silêncios e hesitações não são neutros&quot; e que a solidez do processo eleitoral não pode depender só do colegiado.<sup><a href="#t8r2">[2]</a></sup><sup><a href="#t8r1">[1]</a></sup></p>
+        
+        <blockquote>“silêncios e hesitações não são neutros”<cite><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;sem-citar-kassio-gilmar-mendes-critica-conducao-no-tse-silencios-e-hesitacoes-nao-nao-neutros&#x2f;" target="_blank" rel="noopener">Estadão</a></cite></blockquote>
+        
+        <blockquote>“A solidez do processo eleitoral, contudo, não pode depender apenas da força do colegiado.”<cite><a href="https:&#x2f;&#x2f;www.cnnbrasil.com.br&#x2f;politica&#x2f;gilmar-ve-falhas-na-conducao-do-tse-e-diz-que-colegiado-garantiu-eleicoes&#x2f;" target="_blank" rel="noopener">CNN Brasil</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+  </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #2e7d32"></i>Pró-governo</span>, <span><i style="background: #81c784"></i>Centro pró-governo</span>, <span><i style="background: #9e9e9e"></i>Centro</span>, <span><i style="background: #ffb74d"></i>Centro-oposição</span>, <span><i style="background: #e65100"></i>Oposição ao governo</span>, <span><i style="background: #6a1b9a"></i>Independente — Missão &#x2f; MBL</span>.</p>
+
+  <details>
+    <summary>Referências (2) e outras matérias sobre o tema (3)</summary>
+    <ol class="refs">
+    
+      <li id="t8r1"><a href="https:&#x2f;&#x2f;www.cnnbrasil.com.br&#x2f;politica&#x2f;gilmar-ve-falhas-na-conducao-do-tse-e-diz-que-colegiado-garantiu-eleicoes&#x2f;" target="_blank" rel="noopener">Gilmar vê falhas na condução do TSE e diz que colegiado garantiu eleições</a> <span class="meta">— CNN Brasil, 03&#x2f;11 01:54</span></li>
+    
+      <li id="t8r2"><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;sem-citar-kassio-gilmar-mendes-critica-conducao-no-tse-silencios-e-hesitacoes-nao-nao-neutros&#x2f;" target="_blank" rel="noopener">Sem citar Kassio, Gilmar Mendes critica condução no TSE: ‘silêncios e hesitações não não neutros’</a> <span class="meta">— Estadão, 03&#x2f;11 06:41</span></li>
+    
+    </ol>
+    
+    <ul class="rel">
+    
+      <li><a href="https:&#x2f;&#x2f;news.google.com&#x2f;rss&#x2f;articles&#x2f;CBMipwFBVV95cUxPbE45RWlXYWo3Q09fWTI4cm9BYzF3THRLZm85Y0pqb2ZSNkdpd1FPanUxTVNPZFNoUG5nS0M2bEVKUTlHdEhseU5lRGJHQURyZkxoVGhocTZhemktTnJZZnFMbzExLWEyRmRobVFfbUppU3RBUWZLcGNxUkVxWVpyUXI4d2dpMXZfTmJ4MGNBTW1XZmxmMFpNTGJZRUZZU3RxM3pUWHBHVQ?oc=5" target="_blank" rel="noopener">Gilmar critica TSE e destaca papel do colegiado nas eleições</a> <span class="meta">— SBT News (via Google News), 02&#x2f;11 23:11</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;news.google.com&#x2f;rss&#x2f;articles&#x2f;CBMiuAFBVV95cUxNWm41b0gwS2QySnY1WU16dndhOVpPNXQzX1dtYkUtOURqa2wtZUdqMGFkMy1NME9VbG44b01ZckEwQjlvT0RnM3pfR3BibHFsMmh1Y1RKSkZPZU5DYURndlpSaGcyUlFYT2sxWS00aWNPRFNtTXBPVkprMFNBdW5vb1FlNkNwSkt4Sk5ZV2k1VU1NdUljSnNiZEtxbEVGWExVNUJQY2tsMWViQWpERGo4QWIxVFJNYjVI?oc=5" target="_blank" rel="noopener">Gilmar critica condução do TSE e diz que colegiado garantiu eleições</a> <span class="meta">— Poder360 (via Google News), 03&#x2f;11 04:56</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;batalha-judicial-no-tse-entre-lula-e-flavio-bolsonaro-continua-mesmo-apos-eleicao&#x2f;" target="_blank" rel="noopener">Batalha judicial no TSE entre Lula e Flávio Bolsonaro continua mesmo após eleição</a> <span class="meta">— Estadão, 01&#x2f;11 14:41</span></li>
+    
+    </ul>
+    
+  </details>
+</article>
+
+<article id="t9">
+  <figure class="capa"><img src="..&#x2f;..&#x2f;img&#x2f;2026-11-03&#x2f;ba146439903363e7.avif" alt="" loading="lazy"><figcaption>Imagem: <a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;janones-se-encontra-com-cristina-kirchner-na-argentina-para-discutir-oposicao-a-milei-npr&#x2f;" target="_blank" rel="noopener">Estadão</a></figcaption></figure>
+  <h2><span class="n">9.</span>Janones se reúne com Cristina Kirchner e Sergio Massa para levar à Argentina a estratégia digital da campanha de Lula</h2>
+  <p class="cobertura">Cobertura (6):
+    <span class="l"><b>Imprensa mais à esquerda</b> — Brasil de Fato</span><span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — Estadão, Folha, G1</span><span class="l"><b>Imprensa mais à direita</b> — Gazeta do Povo, Revista Oeste</span>
+  </p>
+
+  <h3>O que aconteceu</h3>
+  <div class="contexto">
+  
+    <p>O deputado André Janones (Rede-MG) se reuniu na segunda (2), em Buenos Aires, com Cristina Kirchner e Sergio Massa para tratar de mobilização digital contra Javier Milei.<sup><a href="#t9r1" title="“se reuniu com a ex-presidente da Argentina Cristina Kirchner para apresentar estratégias de mobilização política e digital contra o presidente Javier Milei” — Estadão">[1]</a></sup></p>
+  
+    <p>Cristina cumpre prisão domiciliar após condenação a seis anos no caso Vialidad, confirmada em 2025.<sup><a href="#t9r2" title="“Cristina recebeu Janones no apartamento onde cumpre prisão domiciliar, em Buenos Aires.” — Revista Oeste">[2]</a></sup></p>
+  
+    <p>No domingo (1º), Janones disse que não aceitará ministério e seguirá na Câmara e na Rede.<sup><a href="#t9r3" title="“Eu não vou aceitar nenhum ministério. Está cravado.” — Brasil de Fato">[3]</a></sup></p>
+  
+  </div>
+
+  <h3>Como cada campo político se posicionou</h3>
+  <div class="lados">
+  
+
+    <section class="lado" style="--cor: #2e7d32">
+      <h4>Pró-governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><img class="rosto" src="..&#x2f;..&#x2f;img&#x2f;2026-11-03&#x2f;3ddd6cead5be3983.jpg" alt="André Janones" title="André Janones — foto: Câmara dos Deputados" loading="lazy"></span><span>André Janones (Rede-MG), deputado</span></div>
+        <p>Disse que o objetivo é &quot;varrer a extrema direita do cenário mundial&quot; e que a vitória de Lula pode inspirar a Argentina.<sup><a href="#t9r2">[2]</a></sup></p>
+        
+        <blockquote>“Nosso objetivo é um só: varrer a extrema direita do cenário mundial.”<cite><a href="https:&#x2f;&#x2f;revistaoeste.com&#x2f;mundo&#x2f;condenada-por-corrupcao-cristina-kirchner-recebe-janones-em-buenos-aires&#x2f;" target="_blank" rel="noopener">Revista Oeste</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+                
+  </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #81c784"></i>Centro pró-governo</span>, <span><i style="background: #9e9e9e"></i>Centro</span>, <span><i style="background: #ffb74d"></i>Centro-oposição</span>, <span><i style="background: #e65100"></i>Oposição ao governo</span>, <span><i style="background: #6a1b9a"></i>Independente — Missão &#x2f; MBL</span>, <span><i style="background: #78909c"></i>Outros &#x2f; não classificável</span>.</p>
+
+  <details>
+    <summary>Referências (3) e outras matérias sobre o tema (7)</summary>
+    <ol class="refs">
+    
+      <li id="t9r1"><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;janones-se-encontra-com-cristina-kirchner-na-argentina-para-discutir-oposicao-a-milei-npr&#x2f;" target="_blank" rel="noopener">Janones se encontra com Cristina Kirchner na Argentina para discutir oposição a Milei</a> <span class="meta">— Estadão, 02&#x2f;11 21:00</span></li>
+    
+      <li id="t9r2"><a href="https:&#x2f;&#x2f;revistaoeste.com&#x2f;mundo&#x2f;condenada-por-corrupcao-cristina-kirchner-recebe-janones-em-buenos-aires&#x2f;" target="_blank" rel="noopener">Condenada por corrupção, Cristina Kirchner recebe Janones em Buenos Aires</a> <span class="meta">— Revista Oeste, 02&#x2f;11 21:25</span></li>
+    
+      <li id="t9r3"><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;11&#x2f;02&#x2f;andre-janones-descarta-assumir-ministerio-e-decide-continuar-na-camara&#x2f;" target="_blank" rel="noopener">André Janones descarta assumir ministério e decide continuar na Câmara</a> <span class="meta">— Brasil de Fato, 02&#x2f;11 09:35</span></li>
+    
+    </ol>
+    
+    <ul class="rel">
+    
+      <li><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;mundo&#x2f;janones-peronista-exportar-estrategia-digital-contra-reeleicao-de-milei&#x2f;" target="_blank" rel="noopener">Janones visita Cristina Kirchner para lançar “Ejército del peronismo” contra reeleição de Milei</a> <span class="meta">— Gazeta do Povo, 02&#x2f;11 20:07</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;11&#x2f;02&#x2f;janones-vai-a-argentina-para-reuniao-com-opositor-de-milei-e-grava-video-no-canal-exercito-do-peronismo&#x2f;" target="_blank" rel="noopener">Janones vai à Argentina para reunião com Cristina Kirchner e grava vídeo no canal ‘Exército do Peronismo’</a> <span class="meta">— Brasil de Fato, 02&#x2f;11 18:31</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;11&#x2f;na-argentina-janones-se-reune-com-opositor-de-milei-e-vai-encontrar-cristina-kirchner.shtml" target="_blank" rel="noopener">Janones se reúne com Cristina Kirchner na Argentina para discutir estratégias contra Milei</a> <span class="meta">— Folha, 02&#x2f;11 16:21</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;11&#x2f;andre-janones-diz-que-nao-sera-ministro-de-lula-e-que-continuara-na-camara.shtml" target="_blank" rel="noopener">André Janones diz que não será ministro de Lula e que continuará na Câmara</a> <span class="meta">— Folha, 02&#x2f;11 00:36</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;janones-diz-que-nao-aceitaria-convite-para-ministerio-de-lula-e-que-seguira-como-deputado-federal-npr&#x2f;" target="_blank" rel="noopener">Janones diz que não aceitaria convite para ministério de Lula e que seguirá como deputado federal</a> <span class="meta">— Estadão, 01&#x2f;11 22:33</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;fantastico&#x2f;noticia&#x2f;2026&#x2f;11&#x2f;03&#x2f;antes-de-ser-deputado-janones-foi-cobrador-de-onibus-e-estudou-direito-com-bolsa.ghtml" target="_blank" rel="noopener">Antes de ser deputado, Janones foi cobrador de ônibus e estudou Direito com bolsa</a> <span class="meta">— G1, 03&#x2f;11 05:00</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;republica&#x2f;janones-diz-que-estado-de-democracia-mitigada-foi-necessario-para-vencer-eleicao&#x2f;" target="_blank" rel="noopener">Janones diz que estado de ‘democracia mitigada’ foi necessário para vencer eleição</a> <span class="meta">— Gazeta do Povo, 01&#x2f;11 23:40</span></li>
+    
+    </ul>
+    
+  </details>
+</article>
+
+<article id="t10">
+  <figure class="capa"><img src="..&#x2f;..&#x2f;img&#x2f;2026-11-03&#x2f;926bd7f45e41b237.avif" alt="" loading="lazy"><figcaption>Imagem: <a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;blog-do-fausto-macedo&#x2f;defesa-de-vorcaro-recorre-a-comissao-interamericana-para-tentar-revogacao-de-prisao-e-cita-violacoes&#x2f;" target="_blank" rel="noopener">Estadão</a></figcaption></figure>
+  <h2><span class="n">10.</span>Caso Master: Vorcaro aciona a Comissão Interamericana e o pai pede prisão domiciliar ao STF</h2>
+  <p class="cobertura">Cobertura (5):
+    <span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — Estadão</span><span class="l"><b>Imprensa mais à direita</b> — Gazeta do Povo, Revista Oeste</span><span class="l"><b>Outras fontes</b> — Metrópoles (via Google News), Poder360 (via Google News)</span>
+  </p>
+
+  <h3>O que aconteceu</h3>
+  <div class="contexto">
+  
+    <p>A defesa de Daniel Vorcaro disse ter apresentado petição à CIDH, alegando violações de direitos, para pressionar o STF a decidir sobre a prisão. A CIDH não pode ordenar nada ao Judiciário brasileiro.<sup><a href="#t10r1" title="“apresentou uma petição à Comissão Interamericana de Direitos Humanos citando violações à sua dignidade” — Estadão">[1]</a></sup></p>
+  
+    <p>Os pedidos de liberdade estão parados desde setembro. Na semana passada, Fachin decidiu manter os processos com ele por 90 dias.<sup><a href="#t10r1" title="“Na semana passada, o presidente da Corte, Edson Fachin, decidiu manter por 90 dias os processos sob sua competência” — Estadão">[1]</a></sup></p>
+  
+    <p>A defesa do pai, Henrique Vorcaro, preso desde maio, entregou ao STF um laudo sobre crises de diverticulite para reforçar o pedido de prisão domiciliar.<sup><a href="#t10r2" title="“apresentou nesta segunda-feira, 2, ao Supremo Tribunal Federal (STF), um novo relatório médico para reforçar o pedido de prisão domiciliar” — Estadão">[2]</a></sup><sup><a href="#t10r3" title="“a revogação de sua prisão preventiva ou a substituição da medida por prisão domiciliar” — Revista Oeste">[3]</a></sup></p>
+  
+  </div>
+
+  <h3>Como cada campo político se posicionou</h3>
+  <div class="lados">
+              
+
+    <section class="lado" style="--cor: #78909c">
+      <h4>Outros &#x2f; não classificável</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">DD</span></span><span>Defesa de Daniel Vorcaro</span></div>
+        <p>Diz que ele colaborou com as investigações e pede liberdade com cautelares ou decisão de um juiz em cinco dias.<sup><a href="#t10r1">[1]</a></sup></p>
+        
+        <blockquote>“Daniel Vorcaro tem colaborado com as investigações”<cite><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;blog-do-fausto-macedo&#x2f;defesa-de-vorcaro-recorre-a-comissao-interamericana-para-tentar-revogacao-de-prisao-e-cita-violacoes&#x2f;" target="_blank" rel="noopener">Estadão</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+  </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #2e7d32"></i>Pró-governo</span>, <span><i style="background: #81c784"></i>Centro pró-governo</span>, <span><i style="background: #9e9e9e"></i>Centro</span>, <span><i style="background: #ffb74d"></i>Centro-oposição</span>, <span><i style="background: #e65100"></i>Oposição ao governo</span>, <span><i style="background: #6a1b9a"></i>Independente — Missão &#x2f; MBL</span>.</p>
+
+  <details>
+    <summary>Referências (3) e outras matérias sobre o tema (4)</summary>
+    <ol class="refs">
+    
+      <li id="t10r1"><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;blog-do-fausto-macedo&#x2f;defesa-de-vorcaro-recorre-a-comissao-interamericana-para-tentar-revogacao-de-prisao-e-cita-violacoes&#x2f;" target="_blank" rel="noopener">Defesa de Vorcaro recorre à Comissão Interamericana para tentar revogação de prisão e cita violações</a> <span class="meta">— Estadão, 02&#x2f;11 11:57</span></li>
+    
+      <li id="t10r2"><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;pai-de-vorcaro-apresenta-relatorio-medico-para-pedir-prisao-domiciliar-npr&#x2f;" target="_blank" rel="noopener">Pai de Vorcaro pede prisão domiciliar e apresenta laudo que aponta risco de complicação intestinal</a> <span class="meta">— Estadão, 02&#x2f;11 16:17</span></li>
+    
+      <li id="t10r3"><a href="https:&#x2f;&#x2f;revistaoeste.com&#x2f;politica&#x2f;pai-de-vorcaro-volta-a-pedir-soltura-ao-stf-por-problemas-de-saude&#x2f;" target="_blank" rel="noopener">Pai de Vorcaro volta a pedir soltura ao STF por problemas de saúde</a> <span class="meta">— Revista Oeste, 02&#x2f;11 22:02</span></li>
+    
+    </ol>
+    
+    <ul class="rel">
+    
+      <li><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;republica&#x2f;vorcaro-denuncia-brasil-a-comissao-interamericana-de-direitos-humanos&#x2f;" target="_blank" rel="noopener">Vorcaro denuncia Brasil à Comissão Interamericana de Direitos Humanos</a> <span class="meta">— Gazeta do Povo, 02&#x2f;11 11:25</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;eliane-cantanhede&#x2f;passada-a-eleicao-vorcaro-ja-sabe-quem-pode-delatar&#x2f;" target="_blank" rel="noopener">Passada a eleição, Vorcaro já sabe quem pode delatar?</a> <span class="meta">— Estadão, 02&#x2f;11 20:16</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;news.google.com&#x2f;rss&#x2f;articles&#x2f;CBMiqgFBVV95cUxPVHBVYndiNXNSeUk2U1dEc0d3dS1LNnZfTzgtb0lVTGdQamF6R1l6QUNmWE9yMVZZVFh3cERhdTVOUmNyZ1ZfVjNwaFlueG1DWVRZbU9zWE1lUDVKbTJ0R2V2SE1lTVk5NXZ2bXc1S2JaSzZOTkt5UURjQ1V6ZXhRQ2tLZnVybFB1dGluZEpaQjF3RTNqT3daRGZYaWlxLWNkbVZEdGJkRU9FUQ?oc=5" target="_blank" rel="noopener">Defesa de Vorcaro pede audiência no STF sobre pedidos pendentes</a> <span class="meta">— Poder360 (via Google News), 02&#x2f;11 17:36</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;news.google.com&#x2f;rss&#x2f;articles&#x2f;CBMirgFBVV95cUxNcGZJM0dWQTUxMDFmY0twVC11c2h3Q0c2MlByNGduOThPZUVGSXNySUNfTE1TWS1PNDVKNWNpM2treU8tQ1E0OEpNQzI0RkFZZW4wSnBvU1J1ekxZdHlPcFdPYmhETzctc0lTdFZIei16YS1YWGpFcVBnOFFTVDFXT0J1OUdIT0N5N3BQaWdmX1I0Q3pLeVBSSWJDYlV6MlVPYlR2US01NzBPYzFna3c?oc=5" target="_blank" rel="noopener">Após acionar OEA, defesa de Vorcaro terá audiência no STF</a> <span class="meta">— Metrópoles (via Google News), 02&#x2f;11 13:58</span></li>
+    
+    </ul>
+    
+  </details>
+</article>
+
+
+
+<section id="poderes" class="poderes">
+  <h2 class="secao">Atuação dos Poderes</h2>
+  <p class="secao-sub">O que foi pautado no dia, como cada lado se posicionou e o que foi decidido.</p>
+
+  
+  <article id="stf" class="casa">
+    <h2>Supremo Tribunal Federal</h2>
+    
+
+    
+    <div class="item" id="stf1">
+      <div class="item-topo">
+        <h3 class="item-titulo">ADI 8027 e outras — audiência pública sobre a MP 1.394&#x2f;2026, que proíbe as bets</h3>
+        <span class="situacao s-pautado">Na pauta</span>
+      </div>
+
+      <dl class="item-fatos">
+        <dt>Em pauta</dt>
+        <dd>Audiência pública convocada pelo relator Luiz Fux, a partir das 10h, com dez minutos para cada entidade.<sup><a href="#stf1r1" title="“A audiência será realizada a partir das 10h na sala de sessões da Segunda Turma do STF” — STF — notícias oficiais">[1]</a></sup></dd>
+        <dt>Resultado</dt>
+        <dd>Audiência marcada para hoje; não há decisão. Ela subsidia o julgamento das ADIs 8024, 8027, 8028 e 8035.<sup><a href="#stf1r1" title="“A mesma norma é questionada nas ADIs 8024, 8028 e 8035.” — STF — notícias oficiais">[1]</a></sup></dd>
+      </dl>
+
+      <div class="abas">
+        <input type="radio" class="t-pos" name="aba-stf1" id="stf1-pos" checked>
+        <label for="stf1-pos">Posicionamentos</label>
+        
+      <div class="painel painel-pos">
+      <div class="lados">
+      
+
+        <section class="lado" style="--cor: #2e7d32">
+          <h4>Pró-governo</h4>
+          
+          <div class="pos">
+            <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">GF</span></span><span>Governo federal (Fazenda, Saúde, Esporte e AGU)</span></div>
+            <p>Defende a proibição.<sup><a href="#stf1r2">[2]</a></sup></p>
+            
+            <blockquote>“entre os que defendem a proibição das bets estão, principalmente, órgãos do próprio governo, como os ministérios da Fazenda, da Saúde e do Esporte, além da AGU”<cite><a href="https:&#x2f;&#x2f;www.cnnbrasil.com.br&#x2f;politica&#x2f;maioria-convocada-por-fux-para-audiencia-sobre-bets-e-contra-a-proibicao&#x2f;" target="_blank" rel="noopener">CNN Brasil</a></cite></blockquote>
+            
+          </div>
+          
+        </section>
+                                          
+
+        <section class="lado" style="--cor: #78909c">
+          <h4>Outros &#x2f; não classificável</h4>
+          
+          <div class="pos">
+            <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">AN</span></span><span>Associação Nacional de Jogos e Loterias (ANJL)</span></div>
+            <p>Pede que a MP seja declarada inconstitucional.<sup><a href="#stf1r1">[1]</a></sup></p>
+            
+            <blockquote>“A ADI 8027 foi proposta pela Associação Nacional de Jogos e Loterias (ANJL), que pede que o STF declare a inconstitucionalidade da MP 1.394&#x2f;2026”<cite><a href="https:&#x2f;&#x2f;noticias.stf.jus.br&#x2f;postsnoticias&#x2f;stf-realiza-nesta-terca-3-audiencia-publica-sobre-proibicao-das-bets&#x2f;" target="_blank" rel="noopener">STF — notícias oficiais</a></cite></blockquote>
+            
+          </div>
+          
+        </section>
+            
+      </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #81c784"></i>Centro pró-governo</span>, <span><i style="background: #9e9e9e"></i>Centro</span>, <span><i style="background: #ffb74d"></i>Centro-oposição</span>, <span><i style="background: #e65100"></i>Oposição ao governo</span>, <span><i style="background: #6a1b9a"></i>Independente — Missão &#x2f; MBL</span>.</p>
+
+      
+      <div class="destaques">
+        <h4>Outros posicionamentos em destaque</h4>
+        
+        <div class="pos">
+          <div class="quem"><span class="rostos"><img class="rosto" src="..&#x2f;..&#x2f;img&#x2f;2026-11-03&#x2f;154e9b32e552575d.jpg" alt="Luiz Fux" title="Luiz Fux — foto: Wikipédia" loading="lazy"></span><span>Luiz Fux, relator</span></div>
+          <p>Atendeu a pedido da AGU para fazer a audiência e incluiu entidades favoráveis à proibição para equilibrar as falas.<sup><a href="#stf1r2">[2]</a></sup></p>
+          
+          <blockquote>“Fux incluiu mais algumas instituições que defendem a proibição das bets, de forma a equilibrar as manifestações”<cite><a href="https:&#x2f;&#x2f;www.cnnbrasil.com.br&#x2f;politica&#x2f;maioria-convocada-por-fux-para-audiencia-sobre-bets-e-contra-a-proibicao&#x2f;" target="_blank" rel="noopener">CNN Brasil</a></cite></blockquote>
+          
+        </div>
+        
+      </div>
+      
+      </div>
+
+      
+      </div>
+
+      <details>
+        <summary>Referências (2) e outras matérias (3)</summary>
+        <ol class="refs">
+        
+          <li id="stf1r1"><a href="https:&#x2f;&#x2f;noticias.stf.jus.br&#x2f;postsnoticias&#x2f;stf-realiza-nesta-terca-3-audiencia-publica-sobre-proibicao-das-bets&#x2f;" target="_blank" rel="noopener">STF realiza nesta terça (3) audiência pública sobre proibição das bets</a> <span class="meta">— STF — notícias oficiais, 02&#x2f;11 09:00</span></li>
+        
+          <li id="stf1r2"><a href="https:&#x2f;&#x2f;www.cnnbrasil.com.br&#x2f;politica&#x2f;maioria-convocada-por-fux-para-audiencia-sobre-bets-e-contra-a-proibicao&#x2f;" target="_blank" rel="noopener">Maioria convocada por Fux para audiência sobre bets é contra a proibição</a> <span class="meta">— CNN Brasil, 03&#x2f;11 03:40</span></li>
+        
+        </ol>
+        
+        <ul class="rel">
+        
+          <li><a href="https:&#x2f;&#x2f;www.poder360.com.br&#x2f;poder-justica&#x2f;stf-faz-audiencia-publica-sobre-bets-nesta-3a-feira&#x2f;" target="_blank" rel="noopener">STF faz audiência pública sobre bets nesta 3ª feira</a> <span class="meta">— Poder360, 03&#x2f;11 06:02</span></li>
+        
+          <li><a href="https:&#x2f;&#x2f;news.google.com&#x2f;rss&#x2f;articles&#x2f;CBMinAFBVV95cUxNdEJFT2FuRzBXWWF0cHNmWm1PRDBSWHhqcDRrMzZZUVZrb1RvZ29YUVBkNnZBWlV2WHgxY0I3QXpyMkZ1blNDSVZyanplU2YyS0ZLcHUxZ0UxS0gxQnBFbWlXYjhKSkU1azVBQ1lZRDY5am1ZUWw0bnZyUWJqU3pHMkYwX19UTUIyMDNmRXlaNjhNZ3VMQmVXRDhVTmc?oc=5" target="_blank" rel="noopener">STF faz audiência pública sobre bets nesta 3ª feira</a> <span class="meta">— Poder360 (via Google News), 03&#x2f;11 06:07</span></li>
+        
+          <li><a href="https:&#x2f;&#x2f;news.google.com&#x2f;rss&#x2f;articles&#x2f;CBMi9AFBVV95cUxQWGhlZFJkZjM3Z3lTRWxVTC1UYzhvcGUyOF9LVTBwNlNsbnpYM0pYWGs1SnVmT2JtQWZCNWpHVE0ySC1nTFZsUXFBLU1laG1ULXFEaGpSbHBqNWRkcGtpOXFBNWctNUJTcFFlUTVsU2R2eFQ2NHhON0pRUm9QQlE2X0hJZTkzc0tUMmpKOHJPalVtN2xiQUwxUEs1RTFQN1YzV3VaQ3pXcU9kNFg0VG11RnRTbkhyN09UcVBRc1BEbTVheU51SFJROGhubGhONFo2b291dHZGNUczQTVXUDZkaE4zM1NFb0RSQ0gzR0s3eS1zbmFM?oc=5" target="_blank" rel="noopener">Corinthians terá representantes em audiência pública sobre bets no STF</a> <span class="meta">— Rádio Itatiaia (via Google News), 02&#x2f;11 16:34</span></li>
+        
+        </ul>
+        
+      </details>
+    </div>
+    
+    <div class="item" id="stf2">
+      <div class="item-topo">
+        <h3 class="item-titulo">Plenário virtual (30&#x2f;10 a 10&#x2f;11) — nacionalidade de crianças adotadas, cotas raciais em concursos e saneamento</h3>
+        <span class="situacao s-em_andamento">Em andamento</span>
+      </div>
+
+      <dl class="item-fatos">
+        <dt>Em pauta</dt>
+        <dd>A sessão virtual aberta em 30 de outubro recebe votos até as 23h59 de 10 de novembro, sem debate.<sup><a href="#stf2r1" title="“Os magistrados depositam os votos no sistema até as 23h59 de 10 de novembro.” — Poder360">[1]</a></sup></dd>
+        <dt>Resultado</dt>
+        <dd>Sessão em andamento.<sup><a href="#stf2r1" title="“Começa a contar o prazo da sessão on-line aberta em 30 de outubro.” — Poder360">[1]</a></sup></dd>
+      </dl>
+
+      <div class="abas">
+        <input type="radio" class="t-pos" name="aba-stf2" id="stf2-pos" checked>
+        <label for="stf2-pos">Posicionamentos</label>
+        
+      <div class="painel painel-pos">
+      <div class="lados">
+                                                
+      </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #2e7d32"></i>Pró-governo</span>, <span><i style="background: #81c784"></i>Centro pró-governo</span>, <span><i style="background: #9e9e9e"></i>Centro</span>, <span><i style="background: #ffb74d"></i>Centro-oposição</span>, <span><i style="background: #e65100"></i>Oposição ao governo</span>, <span><i style="background: #6a1b9a"></i>Independente — Missão &#x2f; MBL</span>, <span><i style="background: #78909c"></i>Outros &#x2f; não classificável</span>.</p>
+
+      
+      </div>
+
+      
+      </div>
+
+      <details>
+        <summary>Referências (1)</summary>
+        <ol class="refs">
+        
+          <li id="stf2r1"><a href="https:&#x2f;&#x2f;www.poder360.com.br&#x2f;poder-justica&#x2f;plenario-do-stf-saiba-quais-acoes-estao-na-pauta-desta-3a-feira-2&#x2f;" target="_blank" rel="noopener">Plenário do STF: saiba quais ações estão na pauta desta 3ª feira</a> <span class="meta">— Poder360, 03&#x2f;11 06:15</span></li>
+        
+        </ol>
+        
+      </details>
+    </div>
+    
+    <div class="item" id="stf3">
+      <div class="item-topo">
+        <h3 class="item-titulo">Pet (inquérito Flávio Bolsonaro–Willer Tomaz) — pedido de revogação das cautelares e de afastamento de Moraes</h3>
+        <span class="situacao s-em_andamento">Em andamento</span>
+      </div>
+
+      <dl class="item-fatos">
+        <dt>Em pauta</dt>
+        <dd>A defesa de Flávio pediu a revogação da entrega dos passaportes, a redistribuição do caso a André Mendonça e o impedimento ou a suspeição de Moraes.<sup><a href="#stf3r1" title="“Os advogados de Flávio Bolsonaro pediram ainda que a investigação, que tem ele e Willer Tomaz como alvos, saia das mãos de Moraes e seja redistribuída ao ministro André Mendonça.” — G1">[1]</a></sup></dd>
+        <dt>Resultado</dt>
+        <dd>Pedido protocolado, sem decisão.<sup><a href="#stf3r1" title="“pediu a revogação da decisão do ministro Alexandre de Moraes” — G1">[1]</a></sup></dd>
+      </dl>
+
+      <div class="abas">
+        <input type="radio" class="t-pos" name="aba-stf3" id="stf3-pos" checked>
+        <label for="stf3-pos">Posicionamentos</label>
+        
+      <div class="painel painel-pos">
+      <div class="lados">
+                              
+
+        <section class="lado" style="--cor: #e65100">
+          <h4>Oposição ao governo</h4>
+          
+          <div class="pos">
+            <div class="quem"><span class="rostos"><img class="rosto" src="..&#x2f;..&#x2f;img&#x2f;2026-11-03&#x2f;4e945953203dd1ef.jpg" alt="Flávio Bolsonaro" title="Flávio Bolsonaro — foto: Senado Federal" loading="lazy"></span><span>Flávio Bolsonaro (PL-RJ), senador</span></div>
+            <p>Diz que as cautelares se baseiam em mentiras e que o processo não é imparcial.<sup><a href="#stf3r2">[2]</a></sup></p>
+            
+            <blockquote>“já havia uma decisão judicial com medidas cautelares contra mim, com base em mentiras”<cite><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;flavio-culto-evangelico-primeira-aparicao-publica-fuga-eua-npr&#x2f;" target="_blank" rel="noopener">Estadão</a></cite></blockquote>
+            
+          </div>
+          
+        </section>
+                        
+      </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #2e7d32"></i>Pró-governo</span>, <span><i style="background: #81c784"></i>Centro pró-governo</span>, <span><i style="background: #9e9e9e"></i>Centro</span>, <span><i style="background: #ffb74d"></i>Centro-oposição</span>, <span><i style="background: #6a1b9a"></i>Independente — Missão &#x2f; MBL</span>, <span><i style="background: #78909c"></i>Outros &#x2f; não classificável</span>.</p>
+
+      
+      </div>
+
+      
+      </div>
+
+      <details>
+        <summary>Referências (2) e outras matérias (3)</summary>
+        <ol class="refs">
+        
+          <li id="stf3r1"><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;noticia&#x2f;2026&#x2f;11&#x2f;02&#x2f;flavio-bolsonaro-recorre-contra-apreensao-de-passaportes-defesa-pede-tambem-que-moraes-seja-declarado-impedido-em-investigacao.ghtml" target="_blank" rel="noopener">Flávio Bolsonaro recorre contra apreensão de passaportes; defesa pede que Moraes seja declarado impedido em investigação</a> <span class="meta">— G1, 02&#x2f;11 16:20</span></li>
+        
+          <li id="stf3r2"><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;flavio-culto-evangelico-primeira-aparicao-publica-fuga-eua-npr&#x2f;" target="_blank" rel="noopener">Flávio Bolsonaro vai a culto evangélico em primeira aparição pública após fuga para os EUA</a> <span class="meta">— Estadão, 02&#x2f;11 12:24</span></li>
+        
+        </ol>
+        
+        <ul class="rel">
+        
+          <li><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;republica&#x2f;flavio-bolsonaro-faz-primeira-aparicao-publica-nos-eua-ao-lado-de-eduardo&#x2f;" target="_blank" rel="noopener">Flávio Bolsonaro faz primeira aparição pública nos EUA ao lado de Eduardo</a> <span class="meta">— Gazeta do Povo, 02&#x2f;11 09:44</span></li>
+        
+          <li><a href="https:&#x2f;&#x2f;news.google.com&#x2f;rss&#x2f;articles&#x2f;CBMiZ0FVX3lxTE1uLVJpVElmRVhGSzhoVXNVQTRSZ0J6SXZYWkFXSVFTLWxFejN0YzdIOUR5RzJkdVdQZU5PUFVNRXRRZkhiTWRCM1JQVll1Mk9DRDlPbjE1VlpoZ1MxcnFlMTZiVnZqNDQ?oc=5" target="_blank" rel="noopener">Flávio Bolsonaro recorre ao STF contra retenção de passaporte</a> <span class="meta">— UOL (via Google News), 02&#x2f;11 18:32</span></li>
+        
+          <li><a href="https:&#x2f;&#x2f;news.google.com&#x2f;rss&#x2f;articles&#x2f;CBMiywFBVV95cUxNem5rOWpSdnl4eUxMTTkzemJLZVVxX2Q4ckNqUFM3VTBWbHZYQkdOZTBWci1BR0ozX0tjTkxkbEF6UmRqWktLRmFkRmhLNE1RbFZGX2FYRFg5WGNpMlQ5STFQVndUc0p2Q2o1V2xPN3RVeUtlOXdSUUQyeHpObVhsYm9FMXpkQWpzTFFpQkxlcmdTV2pSb1B6aC14Nk9Kb3JnUV9DVW9nQWpGYnpRZUxwd1FibFFYOTRqb3hwakNwUmlNakE0ZVlOcHVlRQ?oc=5" target="_blank" rel="noopener">Flávio Bolsonaro recorre ao STF contra retenção de passaporte</a> <span class="meta">— UOL Notícias (via Google News), 02&#x2f;11 22:14</span></li>
+        
+        </ul>
+        
+      </details>
+    </div>
+    
+    <div class="item" id="stf4">
+      <div class="item-topo">
+        <h3 class="item-titulo">Operação Compliance Zero (caso Master) — pedidos de liberdade de Daniel e Henrique Vorcaro com a Presidência do STF</h3>
+        <span class="situacao s-em_andamento">Em andamento</span>
+      </div>
+
+      <dl class="item-fatos">
+        <dt>Em pauta</dt>
+        <dd>A defesa do pai de Vorcaro entregou a Fachin um novo laudo médico; os pedidos de revisão das prisões estão sem resposta.<sup><a href="#stf4r1" title="“No pedido encaminhado ao presidente do STF, ministro Edson Fachin, a defesa afirma que solicita providências desde maio” — Estadão">[1]</a></sup></dd>
+        <dt>Resultado</dt>
+        <dd>Sem decisão. Fachin manteve os processos com ele por 90 dias e disse que decidirá os pedidos urgentes.<sup><a href="#stf4r2" title="“afirmou que será o responsável por decidir pedidos mais urgentes” — Estadão">[2]</a></sup></dd>
+      </dl>
+
+      <div class="abas">
+        <input type="radio" class="t-pos" name="aba-stf4" id="stf4-pos" checked>
+        <label for="stf4-pos">Posicionamentos</label>
+        
+      <div class="painel painel-pos">
+      <div class="lados">
+                                                
+      </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #2e7d32"></i>Pró-governo</span>, <span><i style="background: #81c784"></i>Centro pró-governo</span>, <span><i style="background: #9e9e9e"></i>Centro</span>, <span><i style="background: #ffb74d"></i>Centro-oposição</span>, <span><i style="background: #e65100"></i>Oposição ao governo</span>, <span><i style="background: #6a1b9a"></i>Independente — Missão &#x2f; MBL</span>, <span><i style="background: #78909c"></i>Outros &#x2f; não classificável</span>.</p>
+
+      
+      </div>
+
+      
+      </div>
+
+      <details>
+        <summary>Referências (2) e outras matérias (3)</summary>
+        <ol class="refs">
+        
+          <li id="stf4r1"><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;pai-de-vorcaro-apresenta-relatorio-medico-para-pedir-prisao-domiciliar-npr&#x2f;" target="_blank" rel="noopener">Pai de Vorcaro pede prisão domiciliar e apresenta laudo que aponta risco de complicação intestinal</a> <span class="meta">— Estadão, 02&#x2f;11 16:17</span></li>
+        
+          <li id="stf4r2"><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;blog-do-fausto-macedo&#x2f;defesa-de-vorcaro-recorre-a-comissao-interamericana-para-tentar-revogacao-de-prisao-e-cita-violacoes&#x2f;" target="_blank" rel="noopener">Defesa de Vorcaro recorre à Comissão Interamericana para tentar revogação de prisão e cita violações</a> <span class="meta">— Estadão, 02&#x2f;11 11:57</span></li>
+        
+        </ol>
+        
+        <ul class="rel">
+        
+          <li><a href="https:&#x2f;&#x2f;revistaoeste.com&#x2f;politica&#x2f;pai-de-vorcaro-volta-a-pedir-soltura-ao-stf-por-problemas-de-saude&#x2f;" target="_blank" rel="noopener">Pai de Vorcaro volta a pedir soltura ao STF por problemas de saúde</a> <span class="meta">— Revista Oeste, 02&#x2f;11 22:02</span></li>
+        
+          <li><a href="https:&#x2f;&#x2f;news.google.com&#x2f;rss&#x2f;articles&#x2f;CBMiqgFBVV95cUxPVHBVYndiNXNSeUk2U1dEc0d3dS1LNnZfTzgtb0lVTGdQamF6R1l6QUNmWE9yMVZZVFh3cERhdTVOUmNyZ1ZfVjNwaFlueG1DWVRZbU9zWE1lUDVKbTJ0R2V2SE1lTVk5NXZ2bXc1S2JaSzZOTkt5UURjQ1V6ZXhRQ2tLZnVybFB1dGluZEpaQjF3RTNqT3daRGZYaWlxLWNkbVZEdGJkRU9FUQ?oc=5" target="_blank" rel="noopener">Defesa de Vorcaro pede audiência no STF sobre pedidos pendentes</a> <span class="meta">— Poder360 (via Google News), 02&#x2f;11 17:36</span></li>
+        
+          <li><a href="https:&#x2f;&#x2f;news.google.com&#x2f;rss&#x2f;articles&#x2f;CBMirgFBVV95cUxNcGZJM0dWQTUxMDFmY0twVC11c2h3Q0c2MlByNGduOThPZUVGSXNySUNfTE1TWS1PNDVKNWNpM2treU8tQ1E0OEpNQzI0RkFZZW4wSnBvU1J1ekxZdHlPcFdPYmhETzctc0lTdFZIei16YS1YWGpFcVBnOFFTVDFXT0J1OUdIT0N5N3BQaWdmX1I0Q3pLeVBSSWJDYlV6MlVPYlR2US01NzBPYzFna3c?oc=5" target="_blank" rel="noopener">Após acionar OEA, defesa de Vorcaro terá audiência no STF</a> <span class="meta">— Metrópoles (via Google News), 02&#x2f;11 13:58</span></li>
+        
+        </ul>
+        
+      </details>
+    </div>
+    
+  </article>
+  
+  <article id="camara" class="casa">
+    <h2>Câmara dos Deputados</h2>
+    <p class="vazio">A pauta do Plenário da Câmara de hoje ainda não constava dos dados abertos na coleta da manhã (7h); não há itens nem vídeo de sessão.</p>
+
+    
+  </article>
+  
+  <article id="senado" class="casa">
+    <h2>Senado Federal</h2>
+    
+
+    
+    <div class="item" id="senado1">
+      <div class="item-topo">
+        <h3 class="item-titulo">PEC 18&#x2f;2025 — PEC da Segurança Pública (1º turno, com calendário especial)</h3>
+        <span class="situacao s-pautado">Na pauta</span>
+      </div>
+
+      <dl class="item-fatos">
+        <dt>Em pauta</dt>
+        <dd>Item 1: primeira sessão de discussão, em 1º turno, com parecer da CCJ (relator Rogério Carvalho) e pendente de parecer sobre as emendas de Plenário; o calendário especial foi aprovado em 14&#x2f;10.<sup><a href="#senado1r1" title="“Primeira sessão de discussão, em primeiro turno, da Proposta de Emenda À Constituição nº 18, de 2025” — Senado — pauta do Plenário">[1]</a></sup></dd>
+        <dt>Resultado</dt>
+        <dd>Na pauta da sessão das 14h; ainda não deliberado na coleta.<sup><a href="#senado1r1" title="“Resultado registrado: ainda não deliberado” — Senado — pauta do Plenário">[1]</a></sup></dd>
+      </dl>
+
+      <div class="abas">
+        <input type="radio" class="t-pos" name="aba-senado1" id="senado1-pos" checked>
+        <label for="senado1-pos">Posicionamentos</label>
+        
+        <input type="radio" class="t-det" name="aba-senado1" id="senado1-det">
+        <label for="senado1-det">Detalhes da proposta</label>
+        
+      <div class="painel painel-pos">
+      <div class="lados">
+      
+
+        <section class="lado" style="--cor: #2e7d32">
+          <h4>Pró-governo</h4>
+          
+          <div class="pos">
+            <div class="quem"><span class="rostos"><img class="rosto" src="..&#x2f;..&#x2f;img&#x2f;2026-11-03&#x2f;d09d107822d0ece3.jpg" alt="Teresa Leitão" title="Teresa Leitão — foto: Senado Federal" loading="lazy"></span><span>Teresa Leitão (PT-PE), líder do governo no Senado</span></div>
+            <p>Defende votar a PEC sem a redução da maioridade penal.<sup><a href="#senado1r2">[2]</a></sup></p>
+            
+            <blockquote>“afirmou que a posição do governo continua sendo não votar a maioridade penal junto com a PEC da Segurança”<cite><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;noticia&#x2f;2026&#x2f;11&#x2f;03&#x2f;senado-deve-votar-nesta-terca-pec-da-seguranca-publica.ghtml" target="_blank" rel="noopener">G1</a></cite></blockquote>
+            
+          </div>
+          
+        </section>
+                  
+
+        <section class="lado" style="--cor: #9e9e9e">
+          <h4>Centro</h4>
+          
+          <div class="pos">
+            <div class="quem"><span class="rostos"><img class="rosto" src="..&#x2f;..&#x2f;img&#x2f;2026-11-03&#x2f;409a8f0dc351f5d7.jpg" alt="Davi Alcolumbre" title="Davi Alcolumbre — foto: Senado Federal" loading="lazy"></span><span>Davi Alcolumbre (União-AP), presidente do Senado</span></div>
+            <p>Pautou a PEC para hoje e defende aprovar os pontos de consenso.<sup><a href="#senado1r3">[3]</a></sup></p>
+            
+            <blockquote>“o argumento oficial, também usado por Alcolumbre, é o de tentar aprovar a PEC da Segurança, nesta terça-feira, com os pontos de consenso”<cite><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;coluna-do-estadao&#x2f;reducao-da-maioridade-penal-que-lula-defendeu-a-dois-dias-do-2-turno-sobe-no-telhado&#x2f;" target="_blank" rel="noopener">Estadão</a></cite></blockquote>
+            
+          </div>
+          
+        </section>
+                  
+
+        <section class="lado" style="--cor: #e65100">
+          <h4>Oposição ao governo</h4>
+          
+          <div class="pos">
+            <div class="quem"><span class="rostos"><img class="rosto" src="..&#x2f;..&#x2f;img&#x2f;2026-11-03&#x2f;7d8b56eea30634ec.jpg" alt="Rogério Marinho" title="Rogério Marinho — foto: Senado Federal" loading="lazy"></span><span>Rogério Marinho (PL-RN), líder da oposição</span></div>
+            <p>Autor da emenda da maioridade penal (16 anos, e 14 nos crimes hediondos).<sup><a href="#senado1r3">[3]</a></sup></p>
+            
+            <blockquote>“O senador Rogério Marinho (PL-RN), líder da Oposição, apresentou uma emenda que propõe a redução da maioridade penal de 18 para 16 anos”<cite><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;coluna-do-estadao&#x2f;reducao-da-maioridade-penal-que-lula-defendeu-a-dois-dias-do-2-turno-sobe-no-telhado&#x2f;" target="_blank" rel="noopener">Estadão</a></cite></blockquote>
+            
+          </div>
+          
+        </section>
+                        
+      </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #81c784"></i>Centro pró-governo</span>, <span><i style="background: #ffb74d"></i>Centro-oposição</span>, <span><i style="background: #6a1b9a"></i>Independente — Missão &#x2f; MBL</span>, <span><i style="background: #78909c"></i>Outros &#x2f; não classificável</span>.</p>
+
+      
+      <div class="destaques">
+        <h4>Outros posicionamentos em destaque</h4>
+        
+        <div class="pos">
+          <div class="quem"><span class="rostos"><img class="rosto" src="..&#x2f;..&#x2f;img&#x2f;2026-11-03&#x2f;d1ca506af5b55c88.jpg" alt="Rogério Carvalho" title="Rogério Carvalho — foto: Senado Federal" loading="lazy"></span><span>Rogério Carvalho (PT-SE), relator na CCJ</span></div>
+          <p>Parecer favorável, com as emendas que suprimem o artigo das bets, e pela rejeição das demais emendas.<sup><a href="#senado1r1">[1]</a></sup></p>
+          
+          <blockquote>“Relator: Senador Rogério Carvalho, favorável à proposta e às Emendas nºs 22, 39, 55 e 64”<cite><a href="https:&#x2f;&#x2f;www25.senado.leg.br&#x2f;web&#x2f;atividade&#x2f;materias&#x2f;-&#x2f;materia&#x2f;172997#sessao-594169-item-594242" target="_blank" rel="noopener">Senado — pauta do Plenário</a></cite></blockquote>
+          
+        </div>
+        
+      </div>
+      
+      </div>
+
+      
+      <div class="painel painel-det">
+        <h4>O que a proposta faz</h4>
+        
+  <div class="pos">
+    
+    <p>Cria o Sistema Único de Segurança Pública na Constituição, com forças-tarefa, compartilhamento de dados e cooperação entre União, estados e municípios.<sup><a href="#senado1r4">[4]</a></sup></p>
+    
+    <blockquote>“promove a integração das políticas e dos órgãos de segurança pública no âmbito do Sistema Único de Segurança Pública, com cooperação federativa articulada”<cite><a href="https:&#x2f;&#x2f;legis.senado.leg.br&#x2f;sdleg-getter&#x2f;dadosabertos&#x2f;documento&#x2f;6d95e961-fb10-4a5b-9b7c-dfaec52c4d59" target="_blank" rel="noopener">Senado — documentos oficiais</a></cite></blockquote>
+    
+  </div>
+
+  <div class="pos">
+    
+    <p>Manda a lei fixar regime mais duro para facções e milícias: prisão em segurança máxima e restrição de progressão, liberdade provisória, saída temporária e acordo de não persecução.<sup><a href="#senado1r4">[4]</a></sup></p>
+    
+    <blockquote>“b) a restrição ou vedação de concessão de progressão de regime, de liberdade provisória, com ou sem fiança, inclusive em audiência de custódia, e da realização de acordo de não persecução penal”<cite><a href="https:&#x2f;&#x2f;legis.senado.leg.br&#x2f;sdleg-getter&#x2f;dadosabertos&#x2f;documento&#x2f;6d95e961-fb10-4a5b-9b7c-dfaec52c4d59" target="_blank" rel="noopener">Senado — documentos oficiais</a></cite></blockquote>
+    
+  </div>
+
+  <div class="pos">
+    
+    <p>Permite polícias municipais de natureza civil, para policiamento ostensivo e comunitário, com controle externo do Ministério Público.<sup><a href="#senado1r4">[4]</a></sup></p>
+    
+    <blockquote>“permite a criação de polícias municipais, de natureza civil, submetidas ao controle externo por parte do Ministério Público, para a realização de ações de policiamento ostensivo e comunitário”<cite><a href="https:&#x2f;&#x2f;legis.senado.leg.br&#x2f;sdleg-getter&#x2f;dadosabertos&#x2f;documento&#x2f;6d95e961-fb10-4a5b-9b7c-dfaec52c4d59" target="_blank" rel="noopener">Senado — documentos oficiais</a></cite></blockquote>
+    
+  </div>
+
+  <div class="pos">
+    
+    <p>Amplia as atribuições da PRF, protege os fundos de segurança e penitenciário de contingenciamento e cria repasses obrigatórios a estados.<sup><a href="#senado1r4">[4]</a></sup></p>
+    
+    <blockquote>“criam vinculações e blindagens orçamentárias e garantem repasses obrigatórios”<cite><a href="https:&#x2f;&#x2f;legis.senado.leg.br&#x2f;sdleg-getter&#x2f;dadosabertos&#x2f;documento&#x2f;6d95e961-fb10-4a5b-9b7c-dfaec52c4d59" target="_blank" rel="noopener">Senado — documentos oficiais</a></cite></blockquote>
+    
+  </div>
+
+
+        <h4>Argumentos</h4>
+        
+  <div class="pos">
+    
+    <p>O relator afirma que o endurecimento penal não suprime garantias fundamentais e que não há ofensa a cláusula pétrea.<sup><a href="#senado1r4">[4]</a></sup></p>
+    
+    <blockquote>“não vislumbramos, na PEC nem no Substitutivo, ferimento a cláusula pétrea da Constituição Federal”<cite><a href="https:&#x2f;&#x2f;legis.senado.leg.br&#x2f;sdleg-getter&#x2f;dadosabertos&#x2f;documento&#x2f;6d95e961-fb10-4a5b-9b7c-dfaec52c4d59" target="_blank" rel="noopener">Senado — documentos oficiais</a></cite></blockquote>
+    
+  </div>
+
+  <div class="pos">
+    
+    <p>O relator rejeitou emendas sobre categorias (agentes de trânsito, guarda portuária, polícia científica, previdência) por fugirem do núcleo da PEC.<sup><a href="#senado1r4">[4]</a></sup></p>
+    
+    <blockquote>“entendemos que todas incidem sobre categorias profissionais, estruturas organizacionais ou sistemas informacionais estranhos ao núcleo temático da presente Proposta”<cite><a href="https:&#x2f;&#x2f;legis.senado.leg.br&#x2f;sdleg-getter&#x2f;dadosabertos&#x2f;documento&#x2f;6d95e961-fb10-4a5b-9b7c-dfaec52c4d59" target="_blank" rel="noopener">Senado — documentos oficiais</a></cite></blockquote>
+    
+  </div>
+
+  <div class="pos">
+    
+    <p>A emenda 84 (oposição) reduz a maioridade penal para 16 anos, e 14 para crimes graves; a justificação cita pesquisa Datafolha com 79% de apoio.<sup><a href="#senado1r5">[5]</a></sup></p>
+    
+    <blockquote>“Levantamento do Datafolha de junho de 2026 registrou 79% de apoio da população brasileira à redução da maioridade penal”<cite><a href="https:&#x2f;&#x2f;legis.senado.leg.br&#x2f;sdleg-getter&#x2f;dadosabertos&#x2f;documento&#x2f;04871ea6-1d8d-4354-8270-25c550bdf686" target="_blank" rel="noopener">Senado — documentos oficiais</a></cite></blockquote>
+    
+  </div>
+
+  <div class="pos">
+    
+    <p>A emenda 85 (oposição) permite usar o Fundo Nacional de Segurança Pública em ações das Forças Armadas; o relator rejeitou proposta igual na CCJ (emenda 45).<sup><a href="#senado1r4">[4]</a></sup></p>
+    
+    <blockquote>“ou ainda permitindo que o Fundo financie atividades das Forças Armadas (Emenda nº 45)”<cite><a href="https:&#x2f;&#x2f;legis.senado.leg.br&#x2f;sdleg-getter&#x2f;dadosabertos&#x2f;documento&#x2f;6d95e961-fb10-4a5b-9b7c-dfaec52c4d59" target="_blank" rel="noopener">Senado — documentos oficiais</a></cite></blockquote>
+    
+  </div>
+
+
+        <h4>Jabutis, casuísmos e pegadinhas</h4>
+        
+        <div class="alerta a-jabuti">
+          <span class="tipo">Jabuti</span>
+          <p>O art. 139 do ADCT (30% da arrecadação das bets para os fundos, depois de descontar o custeio das operadoras) entrou só no Plenário da Câmara, sem emenda, e muda a partilha atual das apostas. A CCJ do Senado o suprimiu.<sup><a href="#senado1r4">[4]</a></sup></p>
+          
+          <blockquote>“Apenas em Plenário, surgiu essa redação que privilegia as Bets, sem que tivesse sido apresentada nenhuma emenda nesse sentido.”<cite><a href="https:&#x2f;&#x2f;legis.senado.leg.br&#x2f;sdleg-getter&#x2f;dadosabertos&#x2f;documento&#x2f;6d95e961-fb10-4a5b-9b7c-dfaec52c4d59" target="_blank" rel="noopener">Senado — documentos oficiais</a></cite></blockquote>
+          
+        </div>
+        
+        <div class="alerta a-atencao">
+          <span class="tipo">Ponto de atenção</span>
+          <p>O texto da Câmara permite ao Congresso sustar atos normativos do CNJ e do CNMP em matéria penal e de segurança; o presidente do STF manifestou preocupação.<sup><a href="#senado1r4">[4]</a></sup></p>
+          
+          <blockquote>“regra de salvaguarda das suas competências e prerrogativas em face de atos normativos provenientes do Conselho Nacional de Justiça e do Conselho Nacional do Ministério Público, que poderão ser sustados pelo Congresso Nacional”<cite><a href="https:&#x2f;&#x2f;legis.senado.leg.br&#x2f;sdleg-getter&#x2f;dadosabertos&#x2f;documento&#x2f;6d95e961-fb10-4a5b-9b7c-dfaec52c4d59" target="_blank" rel="noopener">Senado — documentos oficiais</a></cite></blockquote>
+          
+        </div>
+        
+        <div class="alerta a-atencao">
+          <span class="tipo">Ponto de atenção</span>
+          <p>A emenda 84, da maioridade penal, trata de tema que não está na PEC e que tem PEC própria em comissão na Câmara.<sup><a href="#senado1r6">[6]</a></sup></p>
+          
+          <blockquote>“Já há uma PEC específica sobre isso sendo analisada no Congresso Nacional.”<cite><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;14&#x2f;flavio-bolsonaro-e-aliados-querem-incluir-reducao-da-maioridade-penal-em-pec-da-seguranca-publica.ghtml" target="_blank" rel="noopener">G1</a></cite></blockquote>
+          
+        </div>
+        
+        <p class="conclusao"><b>Conclusão:</b> O núcleo da PEC (Susp, polícias municipais, regime penal mais duro para facções, financiamento) é o texto da Câmara. Havia um jabuti (art. 139, receita das bets), suprimido pela CCJ. Ficam em aberto em Plenário as emendas 84 (maioridade penal, tema estranho à PEC) e 85 (fundo para as Forças Armadas), destacadas pelo PL, e o dispositivo sobre CNJ e CNMP.</p>
+        <p class="estudo">Estudo completo, com os documentos oficiais: <code>estudos&#x2f;2026-10-15-pauta-congresso&#x2f;README.md</code></p>
+      </div>
+      
+      </div>
+
+      <details>
+        <summary>Referências (6) e outras matérias (4)</summary>
+        <ol class="refs">
+        
+          <li id="senado1r1"><a href="https:&#x2f;&#x2f;www25.senado.leg.br&#x2f;web&#x2f;atividade&#x2f;materias&#x2f;-&#x2f;materia&#x2f;172997#sessao-594169-item-594242" target="_blank" rel="noopener">Senado: Proposta de Emenda à Constituição n° 18, de 2025 — PEC da Segurança Pública</a> <span class="meta">— Senado — pauta do Plenário, 03&#x2f;11 14:00</span></li>
+        
+          <li id="senado1r2"><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;noticia&#x2f;2026&#x2f;11&#x2f;03&#x2f;senado-deve-votar-nesta-terca-pec-da-seguranca-publica.ghtml" target="_blank" rel="noopener">Senado deve votar nesta terça PEC da Segurança Pública</a> <span class="meta">— G1, 03&#x2f;11 00:00</span></li>
+        
+          <li id="senado1r3"><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;coluna-do-estadao&#x2f;reducao-da-maioridade-penal-que-lula-defendeu-a-dois-dias-do-2-turno-sobe-no-telhado&#x2f;" target="_blank" rel="noopener">Planalto aposta na aprovação da PEC da Segurança, mas redução da maioridade penal sobe no telhado</a> <span class="meta">— Estadão, 03&#x2f;11 05:30</span></li>
+        
+          <li id="senado1r4"><a href="https:&#x2f;&#x2f;legis.senado.leg.br&#x2f;sdleg-getter&#x2f;dadosabertos&#x2f;documento&#x2f;6d95e961-fb10-4a5b-9b7c-dfaec52c4d59" target="_blank" rel="noopener">PEC 18&#x2f;2025 — parecer da CCJ do Senado (Parecer 61&#x2f;2026, relator Rogério Carvalho)</a> <span class="meta">— Senado — documentos oficiais, 15&#x2f;10 08:50</span></li>
+        
+          <li id="senado1r5"><a href="https:&#x2f;&#x2f;legis.senado.leg.br&#x2f;sdleg-getter&#x2f;dadosabertos&#x2f;documento&#x2f;04871ea6-1d8d-4354-8270-25c550bdf686" target="_blank" rel="noopener">PEC 18&#x2f;2025 — Emenda 84 de Plenário (Rogério Marinho e outros: redução da maioridade penal)</a> <span class="meta">— Senado — documentos oficiais, 15&#x2f;10 08:50</span></li>
+        
+          <li id="senado1r6"><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;14&#x2f;flavio-bolsonaro-e-aliados-querem-incluir-reducao-da-maioridade-penal-em-pec-da-seguranca-publica.ghtml" target="_blank" rel="noopener">Flávio Bolsonaro e aliados querem incluir redução da maioridade penal em PEC da Segurança Pública</a> <span class="meta">— G1, 14&#x2f;10 17:49</span></li>
+        
+        </ol>
+        
+        <ul class="rel">
+        
+          <li><a href="https:&#x2f;&#x2f;www.cnnbrasil.com.br&#x2f;politica&#x2f;senado-inicia-hoje-debate-da-pec-da-seguranca-com-impasse-sobre-maioridade&#x2f;" target="_blank" rel="noopener">Senado inicia hoje análise da PEC da Segurança com impasse sobre maioridade</a> <span class="meta">— CNN Brasil, 03&#x2f;11 03:15</span></li>
+        
+          <li><a href="https:&#x2f;&#x2f;legis.senado.leg.br&#x2f;sdleg-getter&#x2f;dadosabertos&#x2f;documento&#x2f;e6034c8c-f874-487c-9bd7-62c549e49253" target="_blank" rel="noopener">PEC 18&#x2f;2025 — texto aprovado pela Câmara e enviado ao Senado</a> <span class="meta">— Senado — documentos oficiais, 15&#x2f;10 08:50</span></li>
+        
+          <li><a href="https:&#x2f;&#x2f;legis.senado.leg.br&#x2f;sdleg-getter&#x2f;dadosabertos&#x2f;documento&#x2f;16f44c6e-1555-4fdd-a952-345d0794d00c" target="_blank" rel="noopener">PEC 18&#x2f;2025 — relatório na CCJ do Senado (v.2, Rogério Carvalho)</a> <span class="meta">— Senado — documentos oficiais, 15&#x2f;10 08:50</span></li>
+        
+          <li><a href="https:&#x2f;&#x2f;legis.senado.leg.br&#x2f;sdleg-getter&#x2f;dadosabertos&#x2f;documento&#x2f;0f3d23b0-2415-4b78-9ff9-d5ff7ae627fd" target="_blank" rel="noopener">PEC 18&#x2f;2025 — Emenda 85 de Plenário (Carlos Portinho e outros: defesa nacional)</a> <span class="meta">— Senado — documentos oficiais, 15&#x2f;10 08:50</span></li>
+        
+        </ul>
+        
+      </details>
+    </div>
+    
+    <div class="item" id="senado2">
+      <div class="item-topo">
+        <h3 class="item-titulo">PL 186&#x2f;2025 — parentalidade positiva: cursos, campanhas e palestras baseados em evidências científicas</h3>
+        <span class="situacao s-pautado">Na pauta</span>
+      </div>
+
+      <dl class="item-fatos">
+        <dt>Em pauta</dt>
+        <dd>Item 2: discussão em turno único do projeto da deputada Laura Carneiro, com pareceres favoráveis da relatora Damares Alves na CDH e na CAS.<sup><a href="#senado2r1" title="“Discussão, em turno único, do Projeto de Lei nº 186, de 2025, da Deputada Laura Carneiro” — Senado — pauta do Plenário">[1]</a></sup></dd>
+        <dt>Resultado</dt>
+        <dd>Na pauta da sessão das 14h; ainda não deliberado na coleta.<sup><a href="#senado2r1" title="“Resultado registrado: ainda não deliberado” — Senado — pauta do Plenário">[1]</a></sup></dd>
+      </dl>
+
+      <div class="abas">
+        <input type="radio" class="t-pos" name="aba-senado2" id="senado2-pos" checked>
+        <label for="senado2-pos">Posicionamentos</label>
+        
+        <input type="radio" class="t-det" name="aba-senado2" id="senado2-det">
+        <label for="senado2-det">Detalhes da proposta</label>
+        
+      <div class="painel painel-pos">
+      <div class="lados">
+                                                
+      </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #2e7d32"></i>Pró-governo</span>, <span><i style="background: #81c784"></i>Centro pró-governo</span>, <span><i style="background: #9e9e9e"></i>Centro</span>, <span><i style="background: #ffb74d"></i>Centro-oposição</span>, <span><i style="background: #e65100"></i>Oposição ao governo</span>, <span><i style="background: #6a1b9a"></i>Independente — Missão &#x2f; MBL</span>, <span><i style="background: #78909c"></i>Outros &#x2f; não classificável</span>.</p>
+
+      
+      <div class="destaques">
+        <h4>Outros posicionamentos em destaque</h4>
+        
+        <div class="pos">
+          <div class="quem"><span class="rostos"><img class="rosto" src="..&#x2f;..&#x2f;img&#x2f;2026-11-03&#x2f;7bbc69b214ab8c90.jpg" alt="Damares Alves" title="Damares Alves — foto: Senado Federal" loading="lazy"></span><span>Damares Alves (Republicanos-DF), relatora</span></div>
+          <p>Deu parecer favorável nas duas comissões, sem emendas.<sup><a href="#senado2r1">[1]</a></sup></p>
+          
+          <blockquote>“Pareceres favoráveis da Relatora: Senadora Damares Alves”<cite><a href="https:&#x2f;&#x2f;www25.senado.leg.br&#x2f;web&#x2f;atividade&#x2f;materias&#x2f;-&#x2f;materia&#x2f;173226#sessao-594169-item-594217" target="_blank" rel="noopener">Senado — pauta do Plenário</a></cite></blockquote>
+          
+        </div>
+        
+      </div>
+      
+      </div>
+
+      
+      <div class="painel painel-det">
+        <h4>O que a proposta faz</h4>
+        
+  <div class="pos">
+    
+    <p>Inclui na Lei 14.826&#x2f;2024 (Política de Parentalidade Positiva) cursos, campanhas e palestras baseados em evidências científicas. O projeto tem três artigos, e a lei vale a partir da publicação.<sup><a href="#senado2r2">[2]</a></sup></p>
+    
+    <blockquote>“a proposta altera a Lei nº 14.826, de 20 de março de 2024, para inserir a realização de cursos, campanhas e palestras baseadas em evidências científicas como medidas voltadas à promoção da parentalidade positiva”<cite><a href="https:&#x2f;&#x2f;legis.senado.leg.br&#x2f;sdleg-getter&#x2f;dadosabertos&#x2f;documento&#x2f;526a1ed0-c8b6-4670-96bd-b18fb64f64d0" target="_blank" rel="noopener">Senado — documentos oficiais</a></cite></blockquote>
+    
+    <blockquote>“O projeto encontra-se organizado em três artigos, sendo o último referente à cláusula de vigência”<cite><a href="https:&#x2f;&#x2f;legis.senado.leg.br&#x2f;sdleg-getter&#x2f;dadosabertos&#x2f;documento&#x2f;526a1ed0-c8b6-4670-96bd-b18fb64f64d0" target="_blank" rel="noopener">Senado — documentos oficiais</a></cite></blockquote>
+    
+  </div>
+
+
+        <h4>Argumentos</h4>
+        
+  <div class="pos">
+    
+    <p>A relatora diz que exigir base científica impede a difusão de métodos sem eficácia comprovada.<sup><a href="#senado2r2">[2]</a></sup></p>
+    
+    <blockquote>“evita a disseminação de métodos sem comprovação de eficácia”<cite><a href="https:&#x2f;&#x2f;legis.senado.leg.br&#x2f;sdleg-getter&#x2f;dadosabertos&#x2f;documento&#x2f;526a1ed0-c8b6-4670-96bd-b18fb64f64d0" target="_blank" rel="noopener">Senado — documentos oficiais</a></cite></blockquote>
+    
+  </div>
+
+  <div class="pos">
+    
+    <p>O parecer afirma que a medida não cria obrigações novas, só aperfeiçoa instrumentos que a lei já prevê.<sup><a href="#senado2r2">[2]</a></sup></p>
+    
+    <blockquote>“longe de criar novas obrigações excessivas ao Poder Público, a iniciativa apenas aperfeiçoa instrumentos já previstos na Lei nº 14.826”<cite><a href="https:&#x2f;&#x2f;legis.senado.leg.br&#x2f;sdleg-getter&#x2f;dadosabertos&#x2f;documento&#x2f;526a1ed0-c8b6-4670-96bd-b18fb64f64d0" target="_blank" rel="noopener">Senado — documentos oficiais</a></cite></blockquote>
+    
+  </div>
+
+  <div class="pos">
+    
+    <p>O parecer diz que a política não substitui a autoridade dos pais.<sup><a href="#senado2r2">[2]</a></sup></p>
+    
+    <blockquote>“a promoção da parentalidade positiva não reduz nem substitui a autoridade dos pais”<cite><a href="https:&#x2f;&#x2f;legis.senado.leg.br&#x2f;sdleg-getter&#x2f;dadosabertos&#x2f;documento&#x2f;526a1ed0-c8b6-4670-96bd-b18fb64f64d0" target="_blank" rel="noopener">Senado — documentos oficiais</a></cite></blockquote>
+    
+  </div>
+
+
+        <h4>Jabutis, casuísmos e pegadinhas</h4>
+        
+        <p class="vazio">Nenhum encontrado no texto analisado.</p>
+        
+        <p class="conclusao"><b>Conclusão:</b> É uma alteração pontual, com um inciso novo na lei de 2024. Não tem jabuti nem efeito escondido. Não houve emendas na CDH nem na CAS.</p>
+        <p class="estudo">Estudo completo, com os documentos oficiais: <code>estudos&#x2f;2026-11-03-pauta-senado&#x2f;README.md</code></p>
+      </div>
+      
+      </div>
+
+      <details>
+        <summary>Referências (2) e outras matérias (2)</summary>
+        <ol class="refs">
+        
+          <li id="senado2r1"><a href="https:&#x2f;&#x2f;www25.senado.leg.br&#x2f;web&#x2f;atividade&#x2f;materias&#x2f;-&#x2f;materia&#x2f;173226#sessao-594169-item-594217" target="_blank" rel="noopener">Senado: Projeto de Lei n° 186, de 2025 — altera a Lei nº 14.826, de 20 de março de 2024, para incluir entre as ações destinadas à promoção da parentalidade positiva a realização de…</a> <span class="meta">— Senado — pauta do Plenário, 03&#x2f;11 14:00</span></li>
+        
+          <li id="senado2r2"><a href="https:&#x2f;&#x2f;legis.senado.leg.br&#x2f;sdleg-getter&#x2f;dadosabertos&#x2f;documento&#x2f;526a1ed0-c8b6-4670-96bd-b18fb64f64d0" target="_blank" rel="noopener">PL 186&#x2f;2025 — parecer CAS (P.S 79&#x2f;2026)</a> <span class="meta">— Senado — documentos oficiais, 03&#x2f;11 06:56</span></li>
+        
+        </ol>
+        
+        <ul class="rel">
+        
+          <li><a href="https:&#x2f;&#x2f;legis.senado.leg.br&#x2f;sdleg-getter&#x2f;dadosabertos&#x2f;documento&#x2f;69851cc9-5578-4637-abc5-6f908817621b" target="_blank" rel="noopener">PL 186&#x2f;2025 — texto da Câmara</a> <span class="meta">— Senado — documentos oficiais, 03&#x2f;11 06:56</span></li>
+        
+          <li><a href="https:&#x2f;&#x2f;legis.senado.leg.br&#x2f;sdleg-getter&#x2f;dadosabertos&#x2f;documento&#x2f;7ebea58b-a4ef-4e58-80bd-f8fa6ce2a26a" target="_blank" rel="noopener">PL 186&#x2f;2025 — parecer CDH (P.S 63&#x2f;2026)</a> <span class="meta">— Senado — documentos oficiais, 03&#x2f;11 06:56</span></li>
+        
+        </ul>
+        
+      </details>
+    </div>
+    
+    <div class="item" id="senado3">
+      <div class="item-topo">
+        <h3 class="item-titulo">PL 5782&#x2f;2023 — campanha Setembro em Flor (tumores ginecológicos)</h3>
+        <span class="situacao s-pautado">Na pauta</span>
+      </div>
+
+      <dl class="item-fatos">
+        <dt>Em pauta</dt>
+        <dd>Item 3: discussão em turno único do projeto da deputada Renilce Nicodemos, com parecer favorável da CDH e uma emenda de redação.<sup><a href="#senado3r1" title="“Discussão, em turno único, do Projeto de Lei nº 5.782, de 2023, da Deputada Renilce Nicodemos” — Senado — pauta do Plenário">[1]</a></sup></dd>
+        <dt>Resultado</dt>
+        <dd>Na pauta da sessão das 14h; ainda não deliberado na coleta.<sup><a href="#senado3r1" title="“Resultado registrado: ainda não deliberado” — Senado — pauta do Plenário">[1]</a></sup></dd>
+      </dl>
+
+      <div class="abas">
+        <input type="radio" class="t-pos" name="aba-senado3" id="senado3-pos" checked>
+        <label for="senado3-pos">Posicionamentos</label>
+        
+        <input type="radio" class="t-det" name="aba-senado3" id="senado3-det">
+        <label for="senado3-det">Detalhes da proposta</label>
+        
+      <div class="painel painel-pos">
+      <div class="lados">
+                                                
+      </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #2e7d32"></i>Pró-governo</span>, <span><i style="background: #81c784"></i>Centro pró-governo</span>, <span><i style="background: #9e9e9e"></i>Centro</span>, <span><i style="background: #ffb74d"></i>Centro-oposição</span>, <span><i style="background: #e65100"></i>Oposição ao governo</span>, <span><i style="background: #6a1b9a"></i>Independente — Missão &#x2f; MBL</span>, <span><i style="background: #78909c"></i>Outros &#x2f; não classificável</span>.</p>
+
+      
+      <div class="destaques">
+        <h4>Outros posicionamentos em destaque</h4>
+        
+        <div class="pos">
+          <div class="quem"><span class="rostos"><img class="rosto" src="..&#x2f;..&#x2f;img&#x2f;2026-11-03&#x2f;ca55a672f6f7df08.jpg" alt="Ivete da Silveira" title="Ivete da Silveira — foto: Senado Federal" loading="lazy"></span><span>Ivete da Silveira (MDB-SC), relatora; Damares Alves (Republicanos-DF), relatora ad hoc</span></div>
+          <p>Parecer favorável na CDH, com a Emenda nº 1, de redação.<sup><a href="#senado3r1">[1]</a></sup></p>
+          
+          <blockquote>“favorável ao projeto, com a Emenda nº 1, de redação, que apresenta”<cite><a href="https:&#x2f;&#x2f;www25.senado.leg.br&#x2f;web&#x2f;atividade&#x2f;materias&#x2f;-&#x2f;materia&#x2f;171335#sessao-594169-item-594220" target="_blank" rel="noopener">Senado — pauta do Plenário</a></cite></blockquote>
+          
+        </div>
+        
+      </div>
+      
+      </div>
+
+      
+      <div class="painel painel-det">
+        <h4>O que a proposta faz</h4>
+        
+  <div class="pos">
+    
+    <p>Cria a campanha anual Setembro em Flor, para alertar sobre fatores de risco, sinais e sintomas precoces dos tumores ginecológicos.<sup><a href="#senado3r2">[2]</a></sup></p>
+    
+    <blockquote>“a campanha Setembro em Flor será realizada anualmente no mês de setembro, com o objetivo de alertar a população sobre fatores de risco, sinais e sintomas precoces dos tumores ginecológicos”<cite><a href="https:&#x2f;&#x2f;legis.senado.leg.br&#x2f;sdleg-getter&#x2f;dadosabertos&#x2f;documento&#x2f;2ff06e1b-875f-41fe-8f38-979d409e91e6" target="_blank" rel="noopener">Senado — documentos oficiais</a></cite></blockquote>
+    
+  </div>
+
+
+        <h4>Argumentos</h4>
+        
+  <div class="pos">
+    
+    <p>O parecer cita estimativa do INCA de mais de 30 mil diagnósticos por ano de câncer do colo do útero, do endométrio e de ovário.<sup><a href="#senado3r2">[2]</a></sup></p>
+    
+    <blockquote>“Somados, esses três tipos ultrapassam 30 mil novos diagnósticos anuais”<cite><a href="https:&#x2f;&#x2f;legis.senado.leg.br&#x2f;sdleg-getter&#x2f;dadosabertos&#x2f;documento&#x2f;2ff06e1b-875f-41fe-8f38-979d409e91e6" target="_blank" rel="noopener">Senado — documentos oficiais</a></cite></blockquote>
+    
+  </div>
+
+  <div class="pos">
+    
+    <p>Para cumprir a Lei 12.345&#x2f;2010 (datas comemorativas), o parecer cita um fórum realizado na Câmara em 2023.<sup><a href="#senado3r2">[2]</a></sup></p>
+    
+    <blockquote>“a proposição atende ao requisito de comprovação de alta significação para diferentes segmentos sociais”<cite><a href="https:&#x2f;&#x2f;legis.senado.leg.br&#x2f;sdleg-getter&#x2f;dadosabertos&#x2f;documento&#x2f;2ff06e1b-875f-41fe-8f38-979d409e91e6" target="_blank" rel="noopener">Senado — documentos oficiais</a></cite></blockquote>
+    
+  </div>
+
+  <div class="pos">
+    
+    <p>A emenda de redação troca &quot;minimizar tratamentos&quot; por &quot;favorecer o diagnóstico oportuno e reduzir a necessidade de tratamentos mais agressivos&quot;.<sup><a href="#senado3r2">[2]</a></sup></p>
+    
+    <blockquote>“favorecer o diagnóstico oportuno e reduzir a necessidade de tratamentos mais agressivos”<cite><a href="https:&#x2f;&#x2f;legis.senado.leg.br&#x2f;sdleg-getter&#x2f;dadosabertos&#x2f;documento&#x2f;2ff06e1b-875f-41fe-8f38-979d409e91e6" target="_blank" rel="noopener">Senado — documentos oficiais</a></cite></blockquote>
+    
+  </div>
+
+
+        <h4>Jabutis, casuísmos e pegadinhas</h4>
+        
+        <div class="alerta a-atencao">
+          <span class="tipo">Ponto de atenção</span>
+          <p>Erro material: a Emenda nº 1 manda dar nova redação ao art. 2º do &quot;Projeto de Lei nº 5.559, de 2023&quot;, e não do PL 5.782&#x2f;2023.<sup><a href="#senado3r2">[2]</a></sup></p>
+          
+          <blockquote>“Dê-se ao art. 2º do Projeto de Lei nº 5.559, de 2023, a seguinte redação”<cite><a href="https:&#x2f;&#x2f;legis.senado.leg.br&#x2f;sdleg-getter&#x2f;dadosabertos&#x2f;documento&#x2f;2ff06e1b-875f-41fe-8f38-979d409e91e6" target="_blank" rel="noopener">Senado — documentos oficiais</a></cite></blockquote>
+          
+        </div>
+        
+        <p class="conclusao"><b>Conclusão:</b> É uma campanha de conscientização, sem matéria estranha. A única ressalva é o número errado de projeto no texto da emenda de redação, que pode precisar de correção na redação final.</p>
+        <p class="estudo">Estudo completo, com os documentos oficiais: <code>estudos&#x2f;2026-11-03-pauta-senado&#x2f;README.md</code></p>
+      </div>
+      
+      </div>
+
+      <details>
+        <summary>Referências (2) e outras matérias (1)</summary>
+        <ol class="refs">
+        
+          <li id="senado3r1"><a href="https:&#x2f;&#x2f;www25.senado.leg.br&#x2f;web&#x2f;atividade&#x2f;materias&#x2f;-&#x2f;materia&#x2f;171335#sessao-594169-item-594220" target="_blank" rel="noopener">Senado: Projeto de Lei n° 5782, de 2023 — institui a campanha Setembro em Flor, destinada à conscientização sobre os tumores ginecológicos.</a> <span class="meta">— Senado — pauta do Plenário, 03&#x2f;11 14:00</span></li>
+        
+          <li id="senado3r2"><a href="https:&#x2f;&#x2f;legis.senado.leg.br&#x2f;sdleg-getter&#x2f;dadosabertos&#x2f;documento&#x2f;2ff06e1b-875f-41fe-8f38-979d409e91e6" target="_blank" rel="noopener">PL 5782&#x2f;2023 — parecer CDH (P.S 61&#x2f;2026)</a> <span class="meta">— Senado — documentos oficiais, 03&#x2f;11 06:56</span></li>
+        
+        </ol>
+        
+        <ul class="rel">
+        
+          <li><a href="https:&#x2f;&#x2f;legis.senado.leg.br&#x2f;sdleg-getter&#x2f;dadosabertos&#x2f;documento&#x2f;33c094f3-cafa-472e-bbe4-5b8d545ea41e" target="_blank" rel="noopener">PL 5782&#x2f;2023 — texto da Câmara</a> <span class="meta">— Senado — documentos oficiais, 03&#x2f;11 06:56</span></li>
+        
+        </ul>
+        
+      </details>
+    </div>
+    
+    <div class="item" id="senado4">
+      <div class="item-topo">
+        <h3 class="item-titulo">PDL 240&#x2f;2011 — acordo Brasil–Guiana de cooperação em defesa (2009)</h3>
+        <span class="situacao s-pautado">Na pauta</span>
+      </div>
+
+      <dl class="item-fatos">
+        <dt>Em pauta</dt>
+        <dd>Item 4: discussão em turno único; parecer favorável da Comissão de Relações Exteriores (relator ad hoc Hamilton Mourão). O projeto já havia sido retirado de pauta em outubro.<sup><a href="#senado4r1" title="“Parecer favorável nº 35, de 2026, da Comissão de Relações Exteriores e de Defesa Nacional” — Senado — pauta do Plenário">[1]</a></sup></dd>
+        <dt>Resultado</dt>
+        <dd>Na pauta da sessão das 14h; ainda não deliberado na coleta.<sup><a href="#senado4r1" title="“Resultado registrado: ainda não deliberado” — Senado — pauta do Plenário">[1]</a></sup></dd>
+      </dl>
+
+      <div class="abas">
+        <input type="radio" class="t-pos" name="aba-senado4" id="senado4-pos" checked>
+        <label for="senado4-pos">Posicionamentos</label>
+        
+        <input type="radio" class="t-det" name="aba-senado4" id="senado4-det">
+        <label for="senado4-det">Detalhes da proposta</label>
+        
+      <div class="painel painel-pos">
+      <div class="lados">
+                                                
+      </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #2e7d32"></i>Pró-governo</span>, <span><i style="background: #81c784"></i>Centro pró-governo</span>, <span><i style="background: #9e9e9e"></i>Centro</span>, <span><i style="background: #ffb74d"></i>Centro-oposição</span>, <span><i style="background: #e65100"></i>Oposição ao governo</span>, <span><i style="background: #6a1b9a"></i>Independente — Missão &#x2f; MBL</span>, <span><i style="background: #78909c"></i>Outros &#x2f; não classificável</span>.</p>
+
+      
+      <div class="destaques">
+        <h4>Outros posicionamentos em destaque</h4>
+        
+        <div class="pos">
+          <div class="quem"><span class="rostos"><img class="rosto" src="..&#x2f;..&#x2f;img&#x2f;2026-11-03&#x2f;b403d92fc1226e93.jpg" alt="Hamilton Mourão" title="Hamilton Mourão — foto: Senado Federal" loading="lazy"></span><span>Hamilton Mourão (Republicanos-RS), relator ad hoc</span></div>
+          <p>Parecer favorável na CRE.<sup><a href="#senado4r1">[1]</a></sup></p>
+          
+          <blockquote>“Relator &quot;ad hoc&quot;: Senador Hamilton Mourão”<cite><a href="https:&#x2f;&#x2f;www25.senado.leg.br&#x2f;web&#x2f;atividade&#x2f;materias&#x2f;-&#x2f;materia&#x2f;102633#sessao-594169-item-594236" target="_blank" rel="noopener">Senado — pauta do Plenário</a></cite></blockquote>
+          
+        </div>
+        
+      </div>
+      
+      </div>
+
+      
+      <div class="painel painel-det">
+        <h4>O que a proposta faz</h4>
+        
+  <div class="pos">
+    
+    <p>Aprova o acordo de cooperação em defesa assinado com a Guiana em Bonfim (RR), em 2009.<sup><a href="#senado4r2">[2]</a></sup></p>
+    
+    <blockquote>“aprova o texto do Acordo entre o Governo da República Federativa do Brasil e o Governo da República da Guiana sobre Cooperação em Matéria de Defesa, assinado em Bonfim-RR, em 14 de setembro de 2009”<cite><a href="https:&#x2f;&#x2f;www25.senado.leg.br&#x2f;web&#x2f;atividade&#x2f;materias&#x2f;-&#x2f;materia&#x2f;102633#sessao-591273-item-591274" target="_blank" rel="noopener">Senado — pauta do Plenário</a></cite></blockquote>
+    
+  </div>
+
+
+        <h4>Argumentos</h4>
+        
+  <div class="pos">
+    
+    <p>O projeto veio da Câmara (PDC 57&#x2f;2011) e tramita no Senado desde 2011.<sup><a href="#senado4r2">[2]</a></sup></p>
+    
+    <blockquote>“Projeto de Decreto Legislativo nº 240, de 2011 (nº 57&#x2f;2011, na Casa de origem)”<cite><a href="https:&#x2f;&#x2f;www25.senado.leg.br&#x2f;web&#x2f;atividade&#x2f;materias&#x2f;-&#x2f;materia&#x2f;102633#sessao-591273-item-591274" target="_blank" rel="noopener">Senado — pauta do Plenário</a></cite></blockquote>
+    
+  </div>
+
+  <div class="pos">
+    
+    <p>A Comissão de Relações Exteriores do Senado deu parecer favorável.<sup><a href="#senado4r2">[2]</a></sup></p>
+    
+    <blockquote>“Parecer favorável nº 35, de 2026, da Comissão de Relações Exteriores e de Defesa Nacional”<cite><a href="https:&#x2f;&#x2f;www25.senado.leg.br&#x2f;web&#x2f;atividade&#x2f;materias&#x2f;-&#x2f;materia&#x2f;102633#sessao-591273-item-591274" target="_blank" rel="noopener">Senado — pauta do Plenário</a></cite></blockquote>
+    
+  </div>
+
+
+        <h4>Jabutis, casuísmos e pegadinhas</h4>
+        
+        <p class="vazio">Nenhum encontrado no texto analisado.</p>
+        
+        <p class="conclusao"><b>Conclusão:</b> Aprovação de acordo internacional. O texto do PDL (arquivo RTF, guardado no estudo) traz só a aprovação e a cláusula padrão de controle do Congresso, mas o CLI não conseguiu importá-lo para citação; a análise cita a pauta oficial. Não há matéria estranha.</p>
+        <p class="estudo">Estudo completo, com os documentos oficiais: <code>estudos&#x2f;2026-10-15-pauta-congresso&#x2f;README.md</code></p>
+      </div>
+      
+      </div>
+
+      <details>
+        <summary>Referências (2)</summary>
+        <ol class="refs">
+        
+          <li id="senado4r1"><a href="https:&#x2f;&#x2f;www25.senado.leg.br&#x2f;web&#x2f;atividade&#x2f;materias&#x2f;-&#x2f;materia&#x2f;102633#sessao-594169-item-594236" target="_blank" rel="noopener">Senado: Projeto de Decreto Legislativo (SF) n° 240, de 2011 — aprova o texto do Acordo entre o Governo da República Federativa do Brasil e o Governo da República da Guiana sobre Cooperação em Matéria de…</a> <span class="meta">— Senado — pauta do Plenário, 03&#x2f;11 14:00</span></li>
+        
+          <li id="senado4r2"><a href="https:&#x2f;&#x2f;www25.senado.leg.br&#x2f;web&#x2f;atividade&#x2f;materias&#x2f;-&#x2f;materia&#x2f;102633#sessao-591273-item-591274" target="_blank" rel="noopener">Senado: Projeto de Decreto Legislativo (SF) n° 240, de 2011 — aprova o texto do Acordo entre o Governo da República Federativa do Brasil e o Governo da República da Guiana sobre Cooperação em Matéria de…</a> <span class="meta">— Senado — pauta do Plenário, 15&#x2f;10 14:00</span></li>
+        
+        </ol>
+        
+      </details>
+    </div>
+    
+    <div class="item" id="senado5">
+      <div class="item-topo">
+        <h3 class="item-titulo">PDL 575&#x2f;2026 — acordo-quadro Brasil–Venezuela de cooperação em ciência e tecnologia espacial (2008)</h3>
+        <span class="situacao s-pautado">Na pauta</span>
+      </div>
+
+      <dl class="item-fatos">
+        <dt>Em pauta</dt>
+        <dd>Item 5: discussão em turno único; parecer favorável da Comissão de Relações Exteriores, relator Hamilton Mourão.<sup><a href="#senado5r1" title="“Parecer favorável nº 33, de 2026, da Comissão de Relações Exteriores e Defesa Nacional, Relator: Senador Hamilton Mourão” — Senado — pauta do Plenário">[1]</a></sup></dd>
+        <dt>Resultado</dt>
+        <dd>Na pauta da sessão das 14h; ainda não deliberado na coleta.<sup><a href="#senado5r1" title="“Resultado registrado: ainda não deliberado” — Senado — pauta do Plenário">[1]</a></sup></dd>
+      </dl>
+
+      <div class="abas">
+        <input type="radio" class="t-pos" name="aba-senado5" id="senado5-pos" checked>
+        <label for="senado5-pos">Posicionamentos</label>
+        
+        <input type="radio" class="t-det" name="aba-senado5" id="senado5-det">
+        <label for="senado5-det">Detalhes da proposta</label>
+        
+      <div class="painel painel-pos">
+      <div class="lados">
+                                                
+      </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #2e7d32"></i>Pró-governo</span>, <span><i style="background: #81c784"></i>Centro pró-governo</span>, <span><i style="background: #9e9e9e"></i>Centro</span>, <span><i style="background: #ffb74d"></i>Centro-oposição</span>, <span><i style="background: #e65100"></i>Oposição ao governo</span>, <span><i style="background: #6a1b9a"></i>Independente — Missão &#x2f; MBL</span>, <span><i style="background: #78909c"></i>Outros &#x2f; não classificável</span>.</p>
+
+      
+      <div class="destaques">
+        <h4>Outros posicionamentos em destaque</h4>
+        
+        <div class="pos">
+          <div class="quem"><span class="rostos"><img class="rosto" src="..&#x2f;..&#x2f;img&#x2f;2026-11-03&#x2f;b403d92fc1226e93.jpg" alt="Hamilton Mourão" title="Hamilton Mourão — foto: Senado Federal" loading="lazy"></span><span>Hamilton Mourão (Republicanos-RS), relator</span></div>
+          <p>Votou pela aprovação, citando soberania e desenvolvimento tecnológico.<sup><a href="#senado5r2">[2]</a></sup></p>
+          
+          <blockquote>“nosso voto é pela aprovação do Projeto de Decreto Legislativo nº 575, de 2026”<cite><a href="https:&#x2f;&#x2f;legis.senado.leg.br&#x2f;sdleg-getter&#x2f;dadosabertos&#x2f;documento&#x2f;2d9b68b5-081a-4803-b526-11ccc8d103fd" target="_blank" rel="noopener">Senado — documentos oficiais</a></cite></blockquote>
+          
+        </div>
+        
+      </div>
+      
+      </div>
+
+      
+      <div class="painel painel-det">
+        <h4>O que a proposta faz</h4>
+        
+  <div class="pos">
+    
+    <p>Aprova o acordo-quadro assinado em Caracas em 2008 para cooperação espacial com fins pacíficos, com prioridade para observação da Terra; o acordo será executado por projetos específicos da AEB e da agência venezuelana.<sup><a href="#senado5r2">[2]</a></sup></p>
+    
+    <blockquote>“impulsionar, fortalecer e concretizar oportunidades de cooperação científico-tecnológica no campo da exploração e utilização do espaço exterior com fins pacíficos”<cite><a href="https:&#x2f;&#x2f;legis.senado.leg.br&#x2f;sdleg-getter&#x2f;dadosabertos&#x2f;documento&#x2f;2d9b68b5-081a-4803-b526-11ccc8d103fd" target="_blank" rel="noopener">Senado — documentos oficiais</a></cite></blockquote>
+    
+  </div>
+
+  <div class="pos">
+    
+    <p>Além da cláusula padrão, o decreto exige que cada projeto específico também passe pelo Congresso.<sup><a href="#senado5r3">[3]</a></sup></p>
+    
+    <blockquote>“Também ficam sujeitos à aprovação do Congresso Nacional os projetos específicos previstos no Artigo IV do Acordo-Quadro.”<cite><a href="https:&#x2f;&#x2f;legis.senado.leg.br&#x2f;sdleg-getter&#x2f;dadosabertos&#x2f;documento&#x2f;ad4cf496-e81c-4ae6-af0c-cf951d6a204e" target="_blank" rel="noopener">Senado — documentos oficiais</a></cite></blockquote>
+    
+  </div>
+
+
+        <h4>Argumentos</h4>
+        
+  <div class="pos">
+    
+    <p>O relator cita o uso de dados de satélite na Amazônia e no monitoramento do crime organizado na região.<sup><a href="#senado5r2">[2]</a></sup></p>
+    
+    <blockquote>“na observação da floresta amazônica e no monitoramento de atividades do crime organizado na região”<cite><a href="https:&#x2f;&#x2f;legis.senado.leg.br&#x2f;sdleg-getter&#x2f;dadosabertos&#x2f;documento&#x2f;2d9b68b5-081a-4803-b526-11ccc8d103fd" target="_blank" rel="noopener">Senado — documentos oficiais</a></cite></blockquote>
+    
+  </div>
+
+  <div class="pos">
+    
+    <p>O acordo foi enviado ao Congresso em 2010 (Mensagem 155&#x2f;2010) e só chegou ao Senado em junho de 2026.<sup><a href="#senado5r2">[2]</a></sup></p>
+    
+    <blockquote>“Por meio da Mensagem Presidencial nº 155, de 2010, submeteuse ao crivo do Congresso Nacional o texto Acordo-Quadro.”<cite><a href="https:&#x2f;&#x2f;legis.senado.leg.br&#x2f;sdleg-getter&#x2f;dadosabertos&#x2f;documento&#x2f;2d9b68b5-081a-4803-b526-11ccc8d103fd" target="_blank" rel="noopener">Senado — documentos oficiais</a></cite></blockquote>
+    
+  </div>
+
+  <div class="pos">
+    
+    <p>O relator diz que a cooperação com a Venezuela é política de Estado desde 1973, apesar das diferenças ideológicas.<sup><a href="#senado5r2">[2]</a></sup></p>
+    
+    <blockquote>“que se mantém firme, apesar de diferenças político-ideológicas nessas cinco décadas de colaboração”<cite><a href="https:&#x2f;&#x2f;legis.senado.leg.br&#x2f;sdleg-getter&#x2f;dadosabertos&#x2f;documento&#x2f;2d9b68b5-081a-4803-b526-11ccc8d103fd" target="_blank" rel="noopener">Senado — documentos oficiais</a></cite></blockquote>
+    
+  </div>
+
+
+        <h4>Jabutis, casuísmos e pegadinhas</h4>
+        
+        <p class="vazio">Nenhum encontrado no texto analisado.</p>
+        
+        <p class="conclusao"><b>Conclusão:</b> Aprova um acordo internacional e não tem matéria estranha. O decreto amplia o controle do Congresso, que também terá de aprovar os projetos específicos. O parceiro é a Venezuela, e o acordo levou 18 anos para chegar ao Plenário do Senado.</p>
+        <p class="estudo">Estudo completo, com os documentos oficiais: <code>estudos&#x2f;2026-11-03-pauta-senado&#x2f;README.md</code></p>
+      </div>
+      
+      </div>
+
+      <details>
+        <summary>Referências (3)</summary>
+        <ol class="refs">
+        
+          <li id="senado5r1"><a href="https:&#x2f;&#x2f;www25.senado.leg.br&#x2f;web&#x2f;atividade&#x2f;materias&#x2f;-&#x2f;materia&#x2f;174513#sessao-594169-item-594239" target="_blank" rel="noopener">Senado: Projeto de Decreto Legislativo n° 575, de 2026 — aprova o texto do Acordo-Quadro de Cooperação em Ciência e Tecnologia Espacial entre o Governo da República Federativa do Brasil e o Governo…</a> <span class="meta">— Senado — pauta do Plenário, 03&#x2f;11 14:00</span></li>
+        
+          <li id="senado5r2"><a href="https:&#x2f;&#x2f;legis.senado.leg.br&#x2f;sdleg-getter&#x2f;dadosabertos&#x2f;documento&#x2f;2d9b68b5-081a-4803-b526-11ccc8d103fd" target="_blank" rel="noopener">PDL 575&#x2f;2026 — parecer CRE (P.S 33&#x2f;2026)</a> <span class="meta">— Senado — documentos oficiais, 03&#x2f;11 06:56</span></li>
+        
+          <li id="senado5r3"><a href="https:&#x2f;&#x2f;legis.senado.leg.br&#x2f;sdleg-getter&#x2f;dadosabertos&#x2f;documento&#x2f;ad4cf496-e81c-4ae6-af0c-cf951d6a204e" target="_blank" rel="noopener">PDL 575&#x2f;2026 — texto da Câmara</a> <span class="meta">— Senado — documentos oficiais, 03&#x2f;11 06:56</span></li>
+        
+        </ol>
+        
+      </details>
+    </div>
+    
+  </article>
+  
+</section>
+
+
+<footer>
+  <p>Gerado em 03&#x2f;11&#x2f;2026 19:32. Cada afirmação traz pelo menos um trecho copiado literalmente de uma fonte coletada, e esses trechos são conferidos automaticamente antes da publicação. Quando um lado aparece como “nenhum posicionamento encontrado”, isso só significa que as fontes consultadas não trouxeram uma posição. Não quer dizer que o lado não tenha opinião.</p>
+  <p>Em “Atuação dos Poderes”, pauta e resultado da Câmara e do Senado vêm dos dados abertos oficiais de cada Casa. Na Câmara, o que foi dito em Plenário vem da transcrição automática do vídeo da sessão (TV Câmara no YouTube), que pode errar palavras; o link de cada trecho abre o vídeo no momento citado. Para o STF, vêm da imprensa especializada, porque o tribunal não publica dados abertos de pauta. Orientações de bancada e votos por partido contam como posicionamento.</p>
+  <p>A classificação dos veículos por linha editorial é aproximada. Ela serve para mostrar o equilíbrio da cobertura, não para julgar cada veículo.</p>
+</footer>
+</div>
+</body>
+</html>

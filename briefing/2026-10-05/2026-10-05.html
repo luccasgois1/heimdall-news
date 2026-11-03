@@ -1,0 +1,1213 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Heimdall News — 2026-10-05</title>
+<style>
+:root {
+  --bg: #f7f6f3; --surface: #ffffff; --text: #1d1d1f; --muted: #66645f; --line: #e3e0d9;
+  --accent: #3b5b7a; --quote-bg: #f2f0eb; --empty: #8a877f;
+  --ok: #2f7d4f; --bad: #b3413b; --warn: #9a6a12;
+  --serif: "Iowan Old Style", "Charter", Georgia, serif;
+  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #141414; --surface: #1d1d1d; --text: #ecebe8; --muted: #a3a09a; --line: #333230;
+          --accent: #8fb3d6; --quote-bg: #252423; --empty: #85827b;
+          --ok: #6cc08b; --bad: #e88a84; --warn: #e0b45c; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 var(--serif); }
+.wrap { max-width: 1080px; margin: 0 auto; padding: 32px 16px 80px; }
+a { color: var(--accent); }
+header h1 { font: 700 2rem/1.2 var(--sans); margin: 0 0 4px; letter-spacing: -0.02em; }
+header p { font-family: var(--sans); color: var(--muted); margin: 0; font-size: .9rem; }
+.video { position: relative; margin: 16px 0 0; aspect-ratio: 16 / 9; border-radius: 12px; overflow: hidden; background: #000; }
+.video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.video-link { margin: 8px 0 0; font-size: .9rem; color: var(--muted); }
+.voltar { display: inline-block; font: .88rem var(--sans); margin-bottom: 12px; }
+nav.sumario { margin: 28px 0 40px; padding: 20px 24px; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; }
+nav.sumario ol { margin: 0; padding-left: 1.4em; font-family: var(--sans); font-size: .98rem; }
+nav.sumario li { margin: 4px 0; }
+nav.sumario a { text-decoration: none; }
+nav.sumario a:hover { text-decoration: underline; }
+article { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 28px; margin-bottom: 28px; }
+article h2 { font: 700 1.45rem/1.3 var(--sans); margin: 0 0 6px; letter-spacing: -0.01em; }
+.n { color: var(--muted); font-weight: 500; margin-right: .35em; }
+.cobertura { font-family: var(--sans); font-size: .82rem; color: var(--muted); margin: 0 0 20px; }
+.cobertura span.l { display: inline-block; margin: 2px 10px 2px 0; }
+.cobertura b { font-weight: 600; color: var(--text); }
+h3 { font: 600 .78rem/1 var(--sans); text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin: 26px 0 10px; }
+.contexto p { margin: 0 0 10px; }
+sup a { font: 600 .7rem var(--sans); text-decoration: none; padding: 0 1px; }
+.lados { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+.lado { border: 1px solid var(--line); border-top: 4px solid var(--cor, var(--line)); border-radius: 10px; padding: 16px; }
+.lado h4 { font: 700 .95rem/1.3 var(--sans); margin: 0 0 12px; padding-bottom: 8px; border-bottom: 1px solid var(--line); }
+.sem-posicao { color: var(--empty); font-style: italic; font-size: .9rem; margin: 10px 0 0; }
+.sem-posicao span { white-space: nowrap; }
+.sem-posicao i { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin: 0 4px 0 2px; vertical-align: baseline; }
+.pos { margin-bottom: 16px; }
+.pos:last-child { margin-bottom: 0; }
+.quem { font: 600 .85rem/1.4 var(--sans); margin-bottom: 6px; display: flex; align-items: center; gap: 10px; }
+.rostos { display: flex; flex-shrink: 0; }
+.rosto { width: 42px; height: 42px; border-radius: 50%; object-fit: cover; object-position: center 20%; border: 2px solid var(--surface); background: var(--quote-bg); box-shadow: 0 0 0 1px var(--line); }
+.rostos .rosto + .rosto { margin-left: -12px; }
+.rosto.sem { display: inline-flex; align-items: center; justify-content: center; font: 700 .68rem/1 var(--sans); color: #fff; background: var(--cor, var(--muted)); letter-spacing: .02em; overflow: hidden; }
+.capa { margin: -28px -28px 22px; border-radius: 12px 12px 0 0; overflow: hidden; background: var(--quote-bg); }
+.capa img { display: block; width: 100%; aspect-ratio: 2 / 1; max-height: 380px; object-fit: cover; }
+.capa figcaption { font: .74rem var(--sans); color: var(--muted); padding: 6px 28px 0; text-align: right; background: var(--surface); }
+@media (max-width: 600px) { article { padding: 20px; } .capa { margin: -20px -20px 18px; } .capa figcaption { padding: 6px 20px 0; } }
+.pos p { margin: 0 0 6px; font-size: .97rem; }
+blockquote { margin: 6px 0 0; padding: 8px 12px; background: var(--quote-bg); border-left: 3px solid var(--line); font-size: .88rem; color: var(--muted); border-radius: 0 6px 6px 0; }
+blockquote cite { display: block; font: normal .75rem var(--sans); margin-top: 4px; }
+.vazio { color: var(--empty); font-style: italic; font-size: .92rem; margin: 0; }
+details { margin-top: 22px; font-family: var(--sans); font-size: .85rem; }
+summary { cursor: pointer; color: var(--muted); font-weight: 600; }
+ol.refs, ul.rel { padding-left: 1.6em; margin: 10px 0 0; }
+ol.refs li, ul.rel li { margin: 6px 0; }
+.meta { color: var(--muted); }
+.poderes-link { font-family: var(--sans); font-size: .9rem; margin: 14px 0 0; padding-top: 12px; border-top: 1px solid var(--line); }
+.poderes-link a { text-decoration: none; }
+h2.secao { font: 700 1.6rem/1.2 var(--sans); margin: 48px 0 4px; letter-spacing: -0.01em; }
+.secao-sub { font-family: var(--sans); color: var(--muted); margin: 0 0 20px; font-size: .92rem; }
+.casa > h2 { margin-bottom: 14px; }
+.item { border-top: 1px solid var(--line); padding: 18px 0 6px; }
+.item:first-of-type { border-top: 0; padding-top: 4px; }
+.item-topo { display: flex; gap: 12px; align-items: baseline; justify-content: space-between; flex-wrap: wrap; }
+.item-titulo { font: 700 1.08rem/1.35 var(--sans); margin: 0; text-transform: none; letter-spacing: 0; color: var(--text); }
+.situacao { font: 600 .74rem/1 var(--sans); text-transform: uppercase; letter-spacing: .06em; padding: 5px 9px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); white-space: nowrap; }
+.s-aprovado, .s-julgado { color: var(--ok); border-color: var(--ok); }
+.s-rejeitado { color: var(--bad); border-color: var(--bad); }
+.s-adiado, .s-pedido_de_vista, .s-retirado_de_pauta, .s-em_andamento { color: var(--warn); border-color: var(--warn); }
+.s-pautado { color: var(--accent); border-color: var(--accent); }
+.item-fatos { margin: 12px 0 16px; display: grid; grid-template-columns: max-content 1fr; gap: 6px 14px; }
+.item-fatos dt { font: 600 .74rem/1.9 var(--sans); text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+.item-fatos dd { margin: 0; }
+@media (max-width: 600px) { .item-fatos { grid-template-columns: 1fr; } .item-fatos dd { margin-bottom: 8px; } }
+.destaques { margin-top: 16px; border: 1px solid var(--line); border-radius: 10px; padding: 16px; }
+.destaques h4 { font: 700 .95rem/1.3 var(--sans); margin: 0 0 12px; }
+.abas { margin-top: 14px; }
+.abas > input { position: absolute; opacity: 0; pointer-events: none; }
+.abas > label { display: inline-block; font: 600 .82rem/1 var(--sans); padding: 9px 14px; margin: 0 4px -1px 0; border: 1px solid var(--line); border-bottom: 0; border-radius: 8px 8px 0 0; color: var(--muted); cursor: pointer; background: var(--bg); }
+.abas > input:checked + label { color: var(--text); background: var(--surface); border-color: var(--line); position: relative; z-index: 1; }
+.abas > input:focus-visible + label { outline: 2px solid var(--accent); }
+.painel { display: none; border: 1px solid var(--line); border-radius: 0 10px 10px 10px; padding: 16px; }
+.abas > input.t-pos:checked ~ .painel-pos, .abas > input.t-det:checked ~ .painel-det { display: block; }
+.painel h4 { font: 700 .95rem/1.3 var(--sans); margin: 18px 0 10px; }
+.painel h4:first-child { margin-top: 0; }
+.alerta { border-left: 4px solid var(--warn); padding: 4px 0 4px 12px; margin-bottom: 14px; }
+.alerta.a-jabuti, .alerta.a-casuismo { border-left-color: var(--bad); }
+.alerta .tipo { font: 700 .72rem/1 var(--sans); text-transform: uppercase; letter-spacing: .06em; color: var(--warn); }
+.alerta.a-jabuti .tipo, .alerta.a-casuismo .tipo { color: var(--bad); }
+.alerta p { margin: 4px 0 6px; font-size: .97rem; }
+.conclusao { margin: 16px 0 0; padding: 12px 14px; background: var(--quote-bg); border-radius: 8px; font-size: .97rem; }
+.conclusao b { font-family: var(--sans); }
+.estudo { font-family: var(--sans); font-size: .8rem; color: var(--muted); margin: 10px 0 0; }
+nav.sumario ul.pauta { margin: 4px 0 8px; padding-left: 1.4em; font-family: var(--sans); font-size: .88rem; }
+@media print {
+  @page { size: A4; margin: 12mm 11mm; }
+  :root { --bg: #fff; --surface: #fff; --text: #1d1d1f; --muted: #5f5d58; --line: #dedad2;
+          --accent: #2f5577; --quote-bg: #f3f1ec; --empty: #85827b; --ok: #2f7d4f; --bad: #b3413b; --warn: #94650f; }
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body { font-size: 10.5pt; line-height: 1.45; background: #fff; }
+  .wrap { max-width: none; padding: 0; }
+  .voltar, .video, .abas > label, .abas > input { display: none; }
+  header p a { text-decoration: none; color: inherit; }
+  nav.sumario { margin: 14px 0 0; }
+  article { border: 0; padding: 0; margin: 0; }
+  article:not(.casa) + article, .poderes { break-before: page; }
+  .capa { margin: 0 0 14px; border-radius: 8px; }
+  .capa img { max-height: 300px; }
+  .capa figcaption { padding: 4px 0 0; }
+  h2, h3, h4, .quem, .item-topo { break-after: avoid; }
+  .pos, blockquote, .capa, .alerta, .item-fatos { break-inside: avoid; }
+  /* A grade não se divide entre páginas no Chrome: em coluna única, cada quadro pode quebrar. */
+  .lados { display: block; }
+  .lado { break-inside: auto; margin-bottom: 10px; }
+  .painel { display: block !important; border-radius: 10px; margin-top: 10px; }
+  .painel-det::before { content: "Detalhes da proposta"; display: block; font: 700 1rem/1.3 var(--sans); margin-bottom: 10px; }
+  details > summary { list-style: none; color: var(--text); }
+  .item { break-inside: auto; }
+}
+footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); border-top: 1px solid var(--line); padding-top: 18px; }
+</style>
+</head>
+<body>
+
+
+<div class="wrap">
+<a class="voltar" href="..&#x2f;..&#x2f;index.html">← Heimdall News</a>
+<header>
+  <h1>Heimdall News</h1>
+  <p>segunda-feira, 5 de outubro de 2026 · 10 assuntos · 16 veículos e fontes · <a href="..&#x2f;..&#x2f;index.html">dias anteriores</a></p>
+  <p class="video-link">O vídeo deste briefing ainda não foi postado.</p>
+</header>
+
+<nav class="sumario" aria-label="Assuntos do dia">
+  <ol>
+  <li><a href="#t1">PL elege 121 deputados e terá a maior bancada da Câmara</a></li><li><a href="#t2">Flávio Bolsonaro termina o 1º turno à frente de Lula; 2º turno será em 25 de outubro</a></li><li><a href="#t3">PL terá a maior bancada do Senado desde 1988 e lança Marinho para presidir a Casa</a></li><li><a href="#t4">Novo Senado aproxima impeachment de ministros do STF</a></li><li><a href="#t5">PSOL&#x2f;Rede, PDT e Missão não superam a cláusula de barreira</a></li><li><a href="#t6">Centrão e Novo sinalizam apoio a Flávio; PSD e Missão ficam neutros</a></li><li><a href="#t7">Campanha de Lula admite revés e reformula estratégia</a></li><li><a href="#t8">Milei e Netanyahu parabenizam Flávio; Trump confunde Brasil com Índia</a></li><li><a href="#t9">Votação do fim da escala 6x1 no Senado fica em xeque</a></li><li><a href="#t10">PL leva os três governos do Sul; PT mantém Bahia, Ceará e Piauí</a></li>
+  </ol>
+  
+  <p class="poderes-link"><a href="#poderes">Atuação dos Poderes</a>:
+    <a href="#stf">Supremo Tribunal Federal</a> (2) · <a href="#camara">Câmara dos Deputados</a> (0) · <a href="#senado">Senado Federal</a> (0)
+  </p>
+  
+  <ul class="pauta" aria-label="Supremo Tribunal Federal">
+    <li><a href="#stf1">Habeas corpus para libertar Jair Bolsonaro (embargos na Primeira Turma)</a> <span class="meta">· Em andamento</span></li><li><a href="#stf2">ADI 8010 — receitas próprias da DPU fora do teto de gastos (liminar)</a> <span class="meta">· Julgado</span></li>
+  </ul>
+  
+  
+</nav>
+
+
+
+<article id="t1">
+  
+  <h2><span class="n">1.</span>PL elege 121 deputados e terá a maior bancada da Câmara</h2>
+  <p class="cobertura">Cobertura (8):
+    <span class="l"><b>Imprensa mais à esquerda</b> — Brasil de Fato, CartaCapital</span><span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — Estadão, Folha, G1, Poder360</span><span class="l"><b>Imprensa mais à direita</b> — Gazeta do Povo, Revista Oeste</span>
+  </p>
+
+  <h3>O que aconteceu</h3>
+  <div class="contexto">
+  
+    <p>O PL elegeu 121 deputados federais, 23 a mais que na legislatura atual, e terá a maior bancada da Câmara desde 1986.<sup><a href="#t1r1" title="“O PL, do clã Bolsonaro, ganhou 23 deputados nas eleições deste domingo (4) e formou uma bancada de 121, a maior da Câmara dos Deputados desde a eleição de 1986.” — Folha">[1]</a></sup><sup><a href="#t1r2" title="“terá a maior bancada da Câmara a partir de 2027” — CartaCapital">[2]</a></sup></p>
+  
+    <p>A federação PT-PCdoB-PV conquistou 88 cadeiras. Somada a PDT, PSOL, Rede e PSB, a esquerda terá 124 deputados, ou 24% da Casa.<sup><a href="#t1r3" title="“A federação PCdoB, PT e PV conquistou 88 cadeiras, quatro a mais que o número de assentos que detém atualmente.” — Estadão">[3]</a></sup><sup><a href="#t1r1" title="“Junto com PDT, Psol, Rede e PSB, a esquerda representará 24% da Câmara —124 deputados, quase o mesmo número do PL sozinho.” — Folha">[1]</a></sup></p>
+  
+    <p>O centrão encolheu: a federação União Brasil-PP caiu de 98 para 87 deputados. Ainda assim, nem PT nem PL formam maioria sem esse grupo.<sup><a href="#t1r1" title="“A federação entre União Brasil e PP, que hoje contabiliza 98 deputados federais, caiu para 87.” — Folha">[1]</a></sup></p>
+  
+    <p>Nikolas Ferreira (PL-MG) foi o deputado federal mais votado da história, com 3,1 milhões de votos.<sup><a href="#t1r3" title="“Nikolas Ferreira (PL-MG) teve 3.119.318 votos e alcançou a marca de deputado federal mais votado da história do Brasil.” — Estadão">[3]</a></sup></p>
+  
+  </div>
+
+  <h3>Como cada campo político se posicionou</h3>
+  <div class="lados">
+      
+
+    <section class="lado" style="--cor: #6a1b9a">
+      <h4>Missão &#x2f; MBL</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">RS</span></span><span>Renan Santos, candidato do Missão à Presidência</span></div>
+        <p>Avaliou que o PL vai construir uma base &#x27;colossal&#x27; no país.<sup><a href="#t1r4">[4]</a></sup></p>
+        
+        <blockquote>“disse que o PL vai construir uma base “colossal” no país”<cite><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;eleicoes&#x2f;2026&#x2f;renan-santos-preve-vitoria-de-flavio-e-diz-que-nao-apoiara-ninguem-no-2o-turno&#x2f;" target="_blank" rel="noopener">Gazeta do Povo</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+  </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #c62828"></i>Esquerda — PT &#x2f; PSOL</span>, <span><i style="background: #1f4e9a"></i>PL</span>.</p>
+
+  <details>
+    <summary>Referências (4) e outras matérias sobre o tema (6)</summary>
+    <ol class="refs">
+    
+      <li id="t1r1"><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;pl-cresce-de-98-para-121-deputados-e-avanca-sobre-o-centrao-esquerda-tera-24-da-camara.shtml" target="_blank" rel="noopener">PL cresce de 98 para 121 deputados e avança sobre o centrão; esquerda terá 24% da Câmara</a> <span class="meta">— Folha, 05&#x2f;10 13:06</span></li>
+    
+      <li id="t1r2"><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;politica&#x2f;pl-varre-congresso-e-amplia-dominio-sobre-legislativo-e-governos-estaduais&#x2f;" target="_blank" rel="noopener">PL varre Congresso e amplia domínio sobre Legislativo e governos estaduais</a> <span class="meta">— CartaCapital, 05&#x2f;10 08:49</span></li>
+    
+      <li id="t1r3"><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;eleicoes&#x2f;pl-elege-121-deputados-federais-e-supera-bancada-historica-do-mdb-na-camara-em-1990&#x2f;" target="_blank" rel="noopener">PL elege 121 deputados federais e supera bancada histórica do MDB na Câmara em 1990</a> <span class="meta">— Estadão, 05&#x2f;10 12:59</span></li>
+    
+      <li id="t1r4"><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;eleicoes&#x2f;2026&#x2f;renan-santos-preve-vitoria-de-flavio-e-diz-que-nao-apoiara-ninguem-no-2o-turno&#x2f;" target="_blank" rel="noopener">Renan Santos prevê vitória de Flávio e diz que não apoiará ninguém no 2º turno</a> <span class="meta">— Gazeta do Povo, 04&#x2f;10 23:07</span></li>
+    
+    </ol>
+    
+    <ul class="rel">
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;05&#x2f;pl-elege-121-deputados-e-tem-maior-bancada-de-um-partido-desde-a-constituinte.ghtml" target="_blank" rel="noopener">PL elege 121 deputados e tem maior bancada de um partido desde a Constituinte</a> <span class="meta">— G1, 05&#x2f;10 11:50</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.poder360.com.br&#x2f;poder-eleicoes-2026&#x2f;pl-e-o-partido-que-mais-cresce-na-camara-uniao-brasil-encolhe&#x2f;" target="_blank" rel="noopener">PL é o partido que mais cresce na Câmara; União Brasil encolhe</a> <span class="meta">— Poder360, 05&#x2f;10 13:07</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;05&#x2f;pl-dobra-representacao-do-rs-na-camara-dos-deputados-fernanda-melchionna-e-a-segunda-mais-votada&#x2f;" target="_blank" rel="noopener">PL dobra representação do RS na Câmara dos Deputados; Fernanda Melchionna é a segunda mais votada</a> <span class="meta">— Brasil de Fato, 05&#x2f;10 13:59</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;revistaoeste.com&#x2f;politica&#x2f;nikolas-ajuda-a-eleger-21-deputados-federais&#x2f;" target="_blank" rel="noopener">Nikolas ajuda a eleger 21 deputados federais</a> <span class="meta">— Revista Oeste, 05&#x2f;10 13:03</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;com-121-deputados-pl-tera-maior-bancada-da-camara-veja-eleitos-por-estado.shtml" target="_blank" rel="noopener">Com 121 deputados, PL terá maior bancada da Câmara; veja eleitos por estado</a> <span class="meta">— Folha, 05&#x2f;10 12:26</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;05&#x2f;veja-o-desempenho-dos-partidos-no-congresso.ghtml" target="_blank" rel="noopener">PL e PT elegem 81 e 47 deputados federais, respectivamente; veja como ficou o Congresso</a> <span class="meta">— G1, 05&#x2f;10 00:59</span></li>
+    
+    </ul>
+    
+  </details>
+</article>
+
+<article id="t2">
+  
+  <h2><span class="n">2.</span>Flávio Bolsonaro termina o 1º turno à frente de Lula; 2º turno será em 25 de outubro</h2>
+  <p class="cobertura">Cobertura (8):
+    <span class="l"><b>Imprensa mais à esquerda</b> — Brasil de Fato, CartaCapital</span><span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — Folha, G1</span><span class="l"><b>Imprensa mais à direita</b> — Gazeta do Povo, Revista Oeste</span><span class="l"><b>Partidos e movimentos</b> — PL (site oficial), PT (site oficial)</span>
+  </p>
+
+  <h3>O que aconteceu</h3>
+  <div class="contexto">
+  
+    <p>Flávio Bolsonaro (PL) teve 47,03% dos votos válidos e Lula (PT), 45,16%. Augusto Cury, Renan Santos e Ronaldo Caiado vieram em seguida.<sup><a href="#t2r1" title="“Com 99,99% das urnas apuradas neste domingo (4), Flávio tinha 47,03% dos votos válidos, Lula, 45,16%, Augusto Cury (Avante), 2,89%, Renan Santos (Missão), 2,24%, e Ronaldo Caiado (PSD), 2,18%.” — Folha">[1]</a></sup><sup><a href="#t2r2" title="“Com mais de 99,99% das urnas apuradas, Flávio teve 47,03% dos votos válidos, enquanto Lula somou 45,16%.” — Gazeta do Povo">[2]</a></sup></p>
+  
+    <p>A diferença foi de cerca de 2,2 milhões de votos, a menor já registrada num primeiro turno presidencial desde a redemocratização.<sup><a href="#t2r3" title="“A diferença é de 2.224.965 votos a favor de Flávio Bolsonaro, ou de 1,87 ponto percentual.” — G1">[3]</a></sup><sup><a href="#t2r1" title="“é a menor já registrada em um primeiro turno de eleição presidencial desde a redemocratização” — Folha">[1]</a></sup></p>
+  
+    <p>Flávio liderou no Sul, no Sudeste e no Centro-Oeste. Lula venceu em 12 estados, todos do Nordeste e alguns do Norte, e teve 3,4 milhões de votos a menos que em 2022.<sup><a href="#t2r3" title="“Flávio liderou no Distrito Federal e em 14 estados neste primeiro turno — todas as unidades federativas das regiões Sul, Sudeste e Centro-Oeste.” — G1">[3]</a></sup><sup><a href="#t2r4" title="“O petista, por sua vez, foi o primeiro colocado em 12 estados.” — CartaCapital">[4]</a></sup></p>
+  
+  </div>
+
+  <h3>Como cada campo político se posicionou</h3>
+  <div class="lados">
+  
+
+    <section class="lado" style="--cor: #c62828">
+      <h4>Esquerda — PT &#x2f; PSOL</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">LP</span></span><span>Lula (PT), presidente e candidato à reeleição</span></div>
+        <p>Disse que esperava vencer no 1º turno, mas que está confiante para o segundo.<sup><a href="#t2r5">[5]</a></sup><sup><a href="#t2r6">[6]</a></sup></p>
+        
+        <blockquote>“Eu confesso para vocês que estava convencido que ia ganhar a eleição no primeiro turno”<cite><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;reves-no-1o-turno-forca-lula-a-rever-estrategia-de-campanha-contra-flavio-bolsonaro.shtml" target="_blank" rel="noopener">Folha</a></cite></blockquote>
+        
+        <blockquote>“Eu sou bom de mata-mata. O jogo vai começar, estamos na prorrogação.”<cite><a href="https:&#x2f;&#x2f;pt.org.br&#x2f;lula-confiante-para-o-2o-turno-sou-bom-de-mata-mata-a-familia-bolsonaro-que-se-cuide&#x2f;" target="_blank" rel="noopener">PT (site oficial)</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+
+    <section class="lado" style="--cor: #1f4e9a">
+      <h4>PL</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">FB</span></span><span>Flávio Bolsonaro (PL), candidato à Presidência</span></div>
+        <p>Chamou o resultado de &#x27;voto de confiança para mudança&#x27; e disse que o fim da &#x27;era do PT&#x27; está decretado.<sup><a href="#t2r7">[7]</a></sup></p>
+        
+        <blockquote>“São 56 milhões de brasileiros e brasileiras que deram esse voto de confiança para mudança. A palavra é mudança. O Brasil não aguenta mais.”<cite><a href="https:&#x2f;&#x2f;partidoliberal.org.br&#x2f;a-palavra-e-mudanca-agradece-flavio-bolsonaro-pelos-votos-decretando-o-fim-da-era-do-pt&#x2f;" target="_blank" rel="noopener">PL (site oficial)</a></cite></blockquote>
+        
+        <blockquote>“Está decretado o fim da era do PT.”<cite><a href="https:&#x2f;&#x2f;partidoliberal.org.br&#x2f;a-palavra-e-mudanca-agradece-flavio-bolsonaro-pelos-votos-decretando-o-fim-da-era-do-pt&#x2f;" target="_blank" rel="noopener">PL (site oficial)</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+
+    <section class="lado" style="--cor: #6a1b9a">
+      <h4>Missão &#x2f; MBL</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">RS</span></span><span>Renan Santos, candidato do Missão à Presidência</span></div>
+        <p>Classificou a eleição como &#x27;a mais bizarra&#x27; desde a redemocratização e disse que ela &#x27;já é do Flávio Bolsonaro&#x27;.<sup><a href="#t2r8">[8]</a></sup><sup><a href="#t2r9">[9]</a></sup></p>
+        
+        <blockquote>“classificou a disputa deste ano como &quot;a mais bizarra&quot; desde a redemocratização do país”<cite><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;cury-renan-santos-e-caiado-nao-declaram-voto-no-2o-turno-e-criticam-polarizacao.shtml" target="_blank" rel="noopener">Folha</a></cite></blockquote>
+        
+        <blockquote>“Façam o que vocês quiserem. A eleição já é do Flávio Bolsonaro”<cite><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;eleicoes&#x2f;2026&#x2f;renan-santos-preve-vitoria-de-flavio-e-diz-que-nao-apoiara-ninguem-no-2o-turno&#x2f;" target="_blank" rel="noopener">Gazeta do Povo</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+  </div>
+  
+
+  <details>
+    <summary>Referências (9) e outras matérias sobre o tema (6)</summary>
+    <ol class="refs">
+    
+      <li id="t2r1"><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;flavio-lidera-onda-bolsonarista-ao-superar-o-proprio-pai-e-ir-ao-2o-turno-em-vantagem-contra-lula.shtml" target="_blank" rel="noopener">Flávio lidera onda bolsonarista ao superar o próprio pai e ir ao 2º turno em vantagem contra Lula</a> <span class="meta">— Folha, 05&#x2f;10 01:38</span></li>
+    
+      <li id="t2r2"><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;eleicoes&#x2f;2026&#x2f;flavio-impoe-revanche-a-lula-e-chega-como-favorito-ao-2o-turno&#x2f;" target="_blank" rel="noopener">Flávio impõe revanche a Lula e chega como favorito ao 2º turno</a> <span class="meta">— Gazeta do Povo, 04&#x2f;10 23:48</span></li>
+    
+      <li id="t2r3"><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;05&#x2f;numero-votos-flavio-bolsonaro-lula-2026-2022.ghtml" target="_blank" rel="noopener">Flávio Bolsonaro recebe 56 milhões de votos, e Lula, 53 milhões; compare com eleições de 2022</a> <span class="meta">— G1, 05&#x2f;10 00:23</span></li>
+    
+      <li id="t2r4"><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;politica&#x2f;flavio-bolsonaro-venceu-em-14-estados-e-no-df-lula-foi-o-lider-em-12-estados&#x2f;" target="_blank" rel="noopener">Flávio Bolsonaro venceu em 14 estados e no DF; Lula foi o líder em 12 estados</a> <span class="meta">— CartaCapital, 05&#x2f;10 07:25</span></li>
+    
+      <li id="t2r5"><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;reves-no-1o-turno-forca-lula-a-rever-estrategia-de-campanha-contra-flavio-bolsonaro.shtml" target="_blank" rel="noopener">Revés no 1º turno força Lula a rever estratégia de campanha contra Flávio Bolsonaro</a> <span class="meta">— Folha, 05&#x2f;10 04:00</span></li>
+    
+      <li id="t2r6"><a href="https:&#x2f;&#x2f;pt.org.br&#x2f;lula-confiante-para-o-2o-turno-sou-bom-de-mata-mata-a-familia-bolsonaro-que-se-cuide&#x2f;" target="_blank" rel="noopener">Lula confiante para o 2º turno: ‘Sou bom de mata-mata. A família Bolsonaro que se cuide’</a> <span class="meta">— PT (site oficial), 04&#x2f;10 23:11</span></li>
+    
+      <li id="t2r7"><a href="https:&#x2f;&#x2f;partidoliberal.org.br&#x2f;a-palavra-e-mudanca-agradece-flavio-bolsonaro-pelos-votos-decretando-o-fim-da-era-do-pt&#x2f;" target="_blank" rel="noopener">“A palavra é mudança”, agradece Flávio Bolsonaro pelos votos decretando o fim da era do PT</a> <span class="meta">— PL (site oficial), 05&#x2f;10 12:00</span></li>
+    
+      <li id="t2r8"><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;cury-renan-santos-e-caiado-nao-declaram-voto-no-2o-turno-e-criticam-polarizacao.shtml" target="_blank" rel="noopener">Cury, Renan Santos e Caiado não declaram voto no 2º turno e criticam polarização</a> <span class="meta">— Folha, 04&#x2f;10 23:27</span></li>
+    
+      <li id="t2r9"><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;eleicoes&#x2f;2026&#x2f;renan-santos-preve-vitoria-de-flavio-e-diz-que-nao-apoiara-ninguem-no-2o-turno&#x2f;" target="_blank" rel="noopener">Renan Santos prevê vitória de Flávio e diz que não apoiará ninguém no 2º turno</a> <span class="meta">— Gazeta do Povo, 04&#x2f;10 23:07</span></li>
+    
+    </ol>
+    
+    <ul class="rel">
+    
+      <li><a href="https:&#x2f;&#x2f;revistaoeste.com&#x2f;politica&#x2f;flavio-vence-lula-em-16-capitais-no-1o-turno&#x2f;" target="_blank" rel="noopener">Flávio vence Lula em 16 capitais no 1º turno</a> <span class="meta">— Revista Oeste, 05&#x2f;10 13:02</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;04&#x2f;1o-turno-flavio-bolsonaro-vence-no-df-com-5131-dos-votos-no-df-e-lula-3811&#x2f;" target="_blank" rel="noopener">1º turno: Flávio Bolsonaro vence com 51,31% dos votos no DF; Lula fica com 38,11%</a> <span class="meta">— Brasil de Fato, 04&#x2f;10 21:55</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;04&#x2f;eleicao-2026-diferenca-entre-flavio-e-lula-e-a-menor-da-historia-no-1o-turno.ghtml" target="_blank" rel="noopener">Eleição 2026: diferença entre Flávio e Lula é a menor da história entre candidatos no 1º turno</a> <span class="meta">— G1, 04&#x2f;10 23:13</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;05&#x2f;1-turno-flavio-bolsonaro-lula-estados-maioria.ghtml" target="_blank" rel="noopener">Flávio Bolsonaro supera 50% dos votos válidos no DF e em 13 estados, e Lula, em 9</a> <span class="meta">— G1, 05&#x2f;10 02:00</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;flavio-bolsonaro-vence-em-16-capitais-e-lula-leva-11-veja-votos-por-zona-eleitoral.shtml" target="_blank" rel="noopener">Flávio Bolsonaro vence em 16 capitais e Lula leva 11; veja votos por zona eleitoral</a> <span class="meta">— Folha, 05&#x2f;10 12:30</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;politica&#x2f;flavio-bolsonaro-venceu-lula-em-4-dos-maiores-colegios-eleitorais-do-pais&#x2f;" target="_blank" rel="noopener">Flávio Bolsonaro venceu Lula em 4 dos maiores colégios eleitorais do País</a> <span class="meta">— CartaCapital, 04&#x2f;10 22:39</span></li>
+    
+    </ul>
+    
+  </details>
+</article>
+
+<article id="t3">
+  
+  <h2><span class="n">3.</span>PL terá a maior bancada do Senado desde 1988 e lança Marinho para presidir a Casa</h2>
+  <p class="cobertura">Cobertura (7):
+    <span class="l"><b>Imprensa mais à esquerda</b> — Brasil de Fato, CartaCapital</span><span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — CNN Brasil, Folha, G1, Poder360</span><span class="l"><b>Imprensa mais à direita</b> — Gazeta do Povo</span>
+  </p>
+
+  <h3>O que aconteceu</h3>
+  <div class="contexto">
+  
+    <p>O PL elegeu 19 senadores e terá 28 cadeiras a partir de 2027. O PT, segundo maior partido, terá nove.<sup><a href="#t3r1" title="“O PL elegeu 19 senadores neste domingo (4) e assegurou a maior bancada da Casa, com 28 congressistas.” — Folha">[1]</a></sup><sup><a href="#t3r2" title="“O partido de Valdemar Costa Neto elegeu 19 dos 54 senadores escolhidos neste ano e chegará a 28 cadeiras na próxima legislatura” — CartaCapital">[2]</a></sup></p>
+  
+    <p>O PSD foi o partido que mais encolheu: de 14 para 5 senadores.<sup><a href="#t3r1" title="“O partido de Gilberto Kassab ocupava 14 cadeiras antes da eleição, mas agora só ficará com 5.” — Folha">[1]</a></sup></p>
+  
+    <p>A presidência do Senado exige 41 votos. O atual presidente, Davi Alcolumbre (União-AP), quer se reeleger.<sup><a href="#t3r1" title="“São necessários 41 votos para garantir a presidência da Casa.” — Folha">[1]</a></sup><sup><a href="#t3r3" title="“Alcolumbre visa à reeleição como presidente da Casa e precisará do voto da maioria dos senadores para se manter no cargo.” — Folha">[3]</a></sup></p>
+  
+  </div>
+
+  <h3>Como cada campo político se posicionou</h3>
+  <div class="lados">
+    
+
+    <section class="lado" style="--cor: #1f4e9a">
+      <h4>PL</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">VC</span></span><span>Valdemar Costa Neto, presidente nacional do PL</span></div>
+        <p>Anunciou Rogério Marinho (PL-RN) como candidato à presidência do Senado e descartou apoiar Alcolumbre, que, segundo ele, &#x27;está fechado com o governo&#x27;.<sup><a href="#t3r4">[4]</a></sup></p>
+        
+        <blockquote>“Nosso candidato para a presidência do Senado Federal é o Rogério Marinho. Nós não vamos apoiar o Davi Alcolumbre, porque o Alcolumbre está fechado com o governo.”<cite><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;republica&#x2f;pl-quer-marinho-na-presidencia-do-senado-mas-impeachment-de-moraes-tem-que-ser-discutido&#x2f;" target="_blank" rel="noopener">Gazeta do Povo</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+      
+  </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #c62828"></i>Esquerda — PT &#x2f; PSOL</span>, <span><i style="background: #6a1b9a"></i>Missão &#x2f; MBL</span>.</p>
+
+  <details>
+    <summary>Referências (4) e outras matérias sobre o tema (7)</summary>
+    <ol class="refs">
+    
+      <li id="t3r1"><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;pl-tera-maior-bancada-do-senado-com-28-congressistas-conheca-nova-composicao.shtml" target="_blank" rel="noopener">PL terá maior bancada do Senado, com 28 congressistas; conheça nova composição</a> <span class="meta">— Folha, 04&#x2f;10 22:44</span></li>
+    
+      <li id="t3r2"><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;politica&#x2f;pl-varre-congresso-e-amplia-dominio-sobre-legislativo-e-governos-estaduais&#x2f;" target="_blank" rel="noopener">PL varre Congresso e amplia domínio sobre Legislativo e governos estaduais</a> <span class="meta">— CartaCapital, 05&#x2f;10 08:49</span></li>
+    
+      <li id="t3r3"><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;colunas&#x2f;painel&#x2f;2026&#x2f;10&#x2f;governistas-avaliam-que-avanco-da-direita-no-senado-torna-votacao-do-fim-da-6x1-inviavel.shtml" target="_blank" rel="noopener">Governistas avaliam que avanço da direita no Senado torna votação do fim da 6x1 inviável</a> <span class="meta">— Folha, 04&#x2f;10 23:36</span></li>
+    
+      <li id="t3r4"><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;republica&#x2f;pl-quer-marinho-na-presidencia-do-senado-mas-impeachment-de-moraes-tem-que-ser-discutido&#x2f;" target="_blank" rel="noopener">PL quer Marinho na presidência do Senado, mas impeachment de Moraes “tem que ser discutido”, diz Valdemar</a> <span class="meta">— Gazeta do Povo, 05&#x2f;10 13:50</span></li>
+    
+    </ol>
+    
+    <ul class="rel">
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;04&#x2f;bancada-senado-eleicoes-2026.ghtml" target="_blank" rel="noopener">PL terá a maior bancada do Senado, com 28 senadores; veja a divisão por partido</a> <span class="meta">— G1, 04&#x2f;10 22:07</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;eleicoes&#x2f;2026&#x2f;como-fica-composicao-senado-a-partir-de-2027-apos-recorde-pl&#x2f;" target="_blank" rel="noopener">Como fica a composição do Senado a partir de 2027 com o recorde do PL</a> <span class="meta">— Gazeta do Povo, 05&#x2f;10 11:23</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;05&#x2f;dominio-da-direita-no-senado-veja-os-eleitos-e-como-fica-a-casa-em-2027&#x2f;" target="_blank" rel="noopener">Domínio da direita no Senado: veja os eleitos e como fica a Casa em 2027</a> <span class="meta">— Brasil de Fato, 05&#x2f;10 07:53</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;politica&#x2f;eleicao-deixa-senado-sem-renan-ciro-nogueira-randolfe-e-outros-nomes-historicos&#x2f;" target="_blank" rel="noopener">Eleição deixa Senado sem Renan, Ciro Nogueira, Randolfe e outros nomes históricos</a> <span class="meta">— CartaCapital, 04&#x2f;10 23:47</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;direita-domina-senado-com-agenda-estridente-e-tera-poder-sobre-indicacoes-do-governo.shtml" target="_blank" rel="noopener">Direita domina Senado com agenda estridente e terá poder sobre indicações do governo</a> <span class="meta">— Folha, 05&#x2f;10 01:58</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.poder360.com.br&#x2f;poder-eleicoes-2026&#x2f;derrite-defende-mudanca-na-presidencia-do-senado-e-critica-alcolumbre&#x2f;" target="_blank" rel="noopener">Derrite defende mudança na presidência do Senado e critica Alcolumbre</a> <span class="meta">— Poder360, 05&#x2f;10 13:52</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.cnnbrasil.com.br&#x2f;eleicoes&#x2f;a-cnn-presidente-do-pl-diz-que-partido-nao-apoiara-alcolumbre-no-senado&#x2f;" target="_blank" rel="noopener">À CNN, presidente do PL diz que partido não apoiará Alcolumbre no Senado</a> <span class="meta">— CNN Brasil, 05&#x2f;10 13:40</span></li>
+    
+    </ul>
+    
+  </details>
+</article>
+
+<article id="t4">
+  
+  <h2><span class="n">4.</span>Novo Senado aproxima impeachment de ministros do STF</h2>
+  <p class="cobertura">Cobertura (5):
+    <span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — Estadão, Folha, G1, Poder360</span><span class="l"><b>Imprensa mais à direita</b> — Gazeta do Povo</span>
+  </p>
+
+  <h3>O que aconteceu</h3>
+  <div class="contexto">
+  
+    <p>Levantamento da Folha aponta ao menos 49 futuros senadores a favor do impeachment de ministros do STF. A abertura do processo exige 54 votos.<sup><a href="#t4r1" title="“O Senado terá, a partir de 2027, ao menos 49 congressistas que defendem o impeachment de ministros do STF (Supremo Tribunal Federal), ainda que com ressalvas, segundo levantamento da Folha.” — Folha">[1]</a></sup></p>
+  
+    <p>Há mais de cem pedidos de impeachment protocolados, e cabe ao presidente do Senado decidir se eles avançam.<sup><a href="#t4r2" title="“Já há mais de cem pedidos de impeachment protocolados. Cabe ao presidente do Senado pautar cada um deles.” — Gazeta do Povo">[2]</a></sup></p>
+  
+    <p>Segundo a Folha, ministros do STF veem risco concreto de impeachment já em 2027 e querem buscar interlocução com parlamentares &#x27;moderados&#x27; do PL.<sup><a href="#t4r3" title="“veem risco concreto de impeachment de integrantes da corte já no primeiro semestre de 2027” — Folha">[3]</a></sup></p>
+  
+  </div>
+
+  <h3>Como cada campo político se posicionou</h3>
+  <div class="lados">
+    
+
+    <section class="lado" style="--cor: #1f4e9a">
+      <h4>PL</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">VC</span></span><span>Valdemar Costa Neto, presidente nacional do PL</span></div>
+        <p>Disse que o impeachment de Alexandre de Moraes &#x27;tem que ser discutido&#x27;, mas evitou uma posição mais enfática.<sup><a href="#t4r2">[2]</a></sup></p>
+        
+        <blockquote>“impeachment de Moraes “tem que ser discutido”, diz Valdemar”<cite><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;republica&#x2f;pl-quer-marinho-na-presidencia-do-senado-mas-impeachment-de-moraes-tem-que-ser-discutido&#x2f;" target="_blank" rel="noopener">Gazeta do Povo</a></cite></blockquote>
+        
+        <blockquote>“mas evitou uma posição mais enfática sobre o impeachment do ministro do Supremo Tribunal Federal (STF) Alexandre de Moraes”<cite><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;republica&#x2f;pl-quer-marinho-na-presidencia-do-senado-mas-impeachment-de-moraes-tem-que-ser-discutido&#x2f;" target="_blank" rel="noopener">Gazeta do Povo</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+      
+  </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #c62828"></i>Esquerda — PT &#x2f; PSOL</span>, <span><i style="background: #6a1b9a"></i>Missão &#x2f; MBL</span>.</p>
+
+  <details>
+    <summary>Referências (3) e outras matérias sobre o tema (6)</summary>
+    <ol class="refs">
+    
+      <li id="t4r1"><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;senado-tera-ao-menos-51-congressistas-a-favor-de-impeachment-no-stf-3-abaixo-do-minimo.shtml" target="_blank" rel="noopener">Senado terá ao menos 49 congressistas a favor de impeachment no STF, 5 abaixo do mínimo</a> <span class="meta">— Folha, 04&#x2f;10 23:27</span></li>
+    
+      <li id="t4r2"><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;republica&#x2f;pl-quer-marinho-na-presidencia-do-senado-mas-impeachment-de-moraes-tem-que-ser-discutido&#x2f;" target="_blank" rel="noopener">PL quer Marinho na presidência do Senado, mas impeachment de Moraes “tem que ser discutido”, diz Valdemar</a> <span class="meta">— Gazeta do Povo, 05&#x2f;10 13:50</span></li>
+    
+      <li id="t4r3"><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;stf-ve-risco-concreto-de-impeachment-de-ministros-e-quer-buscar-pl-moderado-para-evitar-afastamentos.shtml" target="_blank" rel="noopener">STF vê risco concreto de impeachment de ministros e quer buscar &#x27;PL moderado&#x27; para evitar afastamentos</a> <span class="meta">— Folha, 05&#x2f;10 08:12</span></li>
+    
+    </ol>
+    
+    <ul class="rel">
+    
+      <li><a href="https:&#x2f;&#x2f;www.poder360.com.br&#x2f;poder-eleicoes-2026&#x2f;derrite-defende-mudanca-na-presidencia-do-senado-e-critica-alcolumbre&#x2f;" target="_blank" rel="noopener">Derrite defende mudança na presidência do Senado e critica Alcolumbre</a> <span class="meta">— Poder360, 05&#x2f;10 13:52</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;eleicoes&#x2f;2026&#x2f;exito-da-direita-no-1o-turno-enfraquece-pressao-de-lula-sobre-o-stf&#x2f;" target="_blank" rel="noopener">Êxito da direita no 1º turno enfraquece pressão de Lula sobre o STF</a> <span class="meta">— Gazeta do Povo, 05&#x2f;10 11:41</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;ricardo-correa&#x2f;ministros-do-stf-plantaram-confronto-e-colheram-uma-vitoria-arrasadora-da-direita&#x2f;" target="_blank" rel="noopener">Ministros do STF plantaram confronto e colheram uma vitória arrasadora da direita</a> <span class="meta">— Estadão, 04&#x2f;10 23:48</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;ministros-do-stf-ainda-creem-em-acomodacao-com-bolsonarismo.shtml" target="_blank" rel="noopener">Ministros do STF ainda creem em acomodação com bolsonarismo</a> <span class="meta">— Folha, 05&#x2f;10 11:43</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;blog&#x2f;andreia-sadi&#x2f;post&#x2f;2026&#x2f;10&#x2f;05&#x2f;stf-foi-cabo-eleitoral-de-candidatos-da-direita-ao-senado.ghtml" target="_blank" rel="noopener">STF foi cabo eleitoral de candidatos da direita ao Senado</a> <span class="meta">— G1, 05&#x2f;10 10:08</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;blog&#x2f;valdo-cruz&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;05&#x2f;depois-da-eleicao-e-do-avanco-da-direita-fachin-vai-propor-projeto-de-modernizacao-do-sistema-de-justica.ghtml" target="_blank" rel="noopener">Depois da eleição e do avanço da direita, Fachin vai propor projeto de modernização do sistema de Justiça</a> <span class="meta">— G1, 05&#x2f;10 10:50</span></li>
+    
+    </ul>
+    
+  </details>
+</article>
+
+<article id="t5">
+  
+  <h2><span class="n">5.</span>PSOL&#x2f;Rede, PDT e Missão não superam a cláusula de barreira</h2>
+  <p class="cobertura">Cobertura (6):
+    <span class="l"><b>Imprensa mais à esquerda</b> — CartaCapital, brasil247.com</span><span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — Folha, G1, ncnews.com.br</span><span class="l"><b>Imprensa mais à direita</b> — Gazeta do Povo</span>
+  </p>
+
+  <h3>O que aconteceu</h3>
+  <div class="contexto">
+  
+    <p>Sete partidos não atingiram a cláusula de desempenho e ficam sem propaganda gratuita na TV e no rádio e sem fundo partidário. Os 34 deputados eleitos por eles podem trocar de partido sem perder o mandato.<sup><a href="#t5r1" title="“Sete partidos não atingiram a cláusula de barreira ou de desempenho e ficarão sem tempo de TV e rádio para propaganda eleitoral gratuita e sem dinheiro do fundo partidário.” — Folha">[1]</a></sup></p>
+  
+    <p>A federação PSOL&#x2f;Rede superou o piso nacional, mas atingiu o mínimo estadual em só oito estados. No Espírito Santo, faltaram 185 votos.<sup><a href="#t5r2" title="“A federação PSOL&#x2f;Rede alcançou 4,89% dos votos válidos nacionais para deputado federal e, portanto, superou com folga o piso nacional de 2,5%.” — CartaCapital">[2]</a></sup></p>
+  
+    <p>O resultado do PSOL&#x2f;Rede ainda pode mudar se houver anulação de votos no Espírito Santo.<sup><a href="#t5r3" title="“No caso do PSOL&#x2f;Rede, a anulação de votos de outras legendas no Espírito Santo poderia reduzir o total usado como base para calcular os 1,5%.” — G1">[3]</a></sup></p>
+  
+    <p>O Missão elegeu apenas Kim Kataguiri (SP) para a Câmara e ficou longe do mínimo nacional.<sup><a href="#t5r4" title="“Já o Missão só elegeu Kim Kataguiri (SP) e ficou a mais de 1,6 milhão de votos de atingir o percentual mínimo nacional.” — Gazeta do Povo">[4]</a></sup></p>
+  
+  </div>
+
+  <h3>Como cada campo político se posicionou</h3>
+  <div class="lados">
+      
+
+    <section class="lado" style="--cor: #6a1b9a">
+      <h4>Missão &#x2f; MBL</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">RS</span></span><span>Renan Santos, candidato do Missão à Presidência</span></div>
+        <p>Reconheceu que o partido não passou da cláusula e chamou o resultado de ruim, mas disse que o Missão vai continuar.<sup><a href="#t5r5">[5]</a></sup><sup><a href="#t5r6">[6]</a></sup></p>
+        
+        <blockquote>“O resultado é ruim. Não vamos passar de cláusula de barreira, vamos ter apenas um deputado estadual e um deputado federal no mesmo estado.”<cite><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;eleicoes&#x2f;2026&#x2f;renan-santos-preve-vitoria-de-flavio-e-diz-que-nao-apoiara-ninguem-no-2o-turno&#x2f;" target="_blank" rel="noopener">Gazeta do Povo</a></cite></blockquote>
+        
+        <blockquote>“o candidato disse que obviamente o partido Missão vai continuar”<cite><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;05&#x2f;cury-renan-caiado-e-zema-falam-sobre-apoio-no-2o-turno.ghtml" target="_blank" rel="noopener">G1</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+  </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #c62828"></i>Esquerda — PT &#x2f; PSOL</span>, <span><i style="background: #1f4e9a"></i>PL</span>.</p>
+
+  <details>
+    <summary>Referências (6) e outras matérias sobre o tema (2)</summary>
+    <ol class="refs">
+    
+      <li id="t5r1"><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;psol-missao-e-mais-tres-nao-devem-atingir-clausula-de-barreira-veja-lista-de-partidos-e-federacoes.shtml" target="_blank" rel="noopener">PSOL, PDT e Missão não superam cláusula de barreira, e só 14 partidos terão propaganda na TV; veja lista</a> <span class="meta">— Folha, 05&#x2f;10 11:29</span></li>
+    
+      <li id="t5r2"><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;politica&#x2f;psol-pdt-e-outras-siglas-fracassam-na-clausula-de-barreira-e-entram-em-zona-de-sobrevivencia&#x2f;" target="_blank" rel="noopener">PSOL, PDT e outras siglas fracassam na cláusula de barreira e entram em zona de sobrevivência</a> <span class="meta">— CartaCapital, 05&#x2f;10 09:37</span></li>
+    
+      <li id="t5r3"><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;05&#x2f;psolrede-pdt-clausula-de-barreira-eleicoes-2026.ghtml" target="_blank" rel="noopener">PSOL&#x2f;Rede, PDT e outras siglas ficam abaixo da cláusula de barreira na apuração; entenda o que pode mudar</a> <span class="meta">— G1, 05&#x2f;10 02:46</span></li>
+    
+      <li id="t5r4"><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;eleicoes&#x2f;2026&#x2f;tres-partidos-de-esquerda-nao-atingem-clausula-de-barreira-e-podem-ficar-sem-fundo-partidario&#x2f;" target="_blank" rel="noopener">Três partidos de esquerda não atingem cláusula de barreira e ficam sem Fundo Partidário</a> <span class="meta">— Gazeta do Povo, 05&#x2f;10 10:57</span></li>
+    
+      <li id="t5r5"><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;eleicoes&#x2f;2026&#x2f;renan-santos-preve-vitoria-de-flavio-e-diz-que-nao-apoiara-ninguem-no-2o-turno&#x2f;" target="_blank" rel="noopener">Renan Santos prevê vitória de Flávio e diz que não apoiará ninguém no 2º turno</a> <span class="meta">— Gazeta do Povo, 04&#x2f;10 23:07</span></li>
+    
+      <li id="t5r6"><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;05&#x2f;cury-renan-caiado-e-zema-falam-sobre-apoio-no-2o-turno.ghtml" target="_blank" rel="noopener">Cury, Renan, Caiado e Zema falam sobre apoio no 2º turno</a> <span class="meta">— G1, 05&#x2f;10 12:09</span></li>
+    
+    </ol>
+    
+    <ul class="rel">
+    
+      <li><a href="https:&#x2f;&#x2f;ncnews.com.br&#x2f;2026&#x2f;10&#x2f;05&#x2f;psol-rede-185-votos-clausula-barreira-2026&#x2f;" target="_blank" rel="noopener">PSOL e Rede ficam a 185 votos de superar cláusula de barreira - NC News</a> <span class="meta">— ncnews.com.br, 05&#x2f;10 11:13</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.brasil247.com&#x2f;brasil&#x2f;psol-fica-abaixo-da-clausula-de-barreira&#x2f;" target="_blank" rel="noopener">PSOL fica abaixo da cláusula de barreira</a> <span class="meta">— brasil247.com, 05&#x2f;10 05:48</span></li>
+    
+    </ul>
+    
+  </details>
+</article>
+
+<article id="t6">
+  
+  <h2><span class="n">6.</span>Centrão e Novo sinalizam apoio a Flávio; PSD e Missão ficam neutros</h2>
+  <p class="cobertura">Cobertura (7):
+    <span class="l"><b>Imprensa mais à esquerda</b> — CartaCapital</span><span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — Estadão, Folha, G1, Poder360</span><span class="l"><b>Imprensa mais à direita</b> — Gazeta do Povo</span><span class="l"><b>Partidos e movimentos</b> — PT (site oficial)</span>
+  </p>
+
+  <h3>O que aconteceu</h3>
+  <div class="contexto">
+  
+    <p>A cúpula da federação União Brasil-PP sinaliza apoio a Flávio Bolsonaro no 2º turno, e o Novo vai declarar apoio a ele nos próximos dias.<sup><a href="#t6r1" title="“A cúpula da federação União Brasil-PP sinaliza apoio a Flávio Bolsonaro (PL) no 2º turno da disputa presidencial por considerar que a eleição já está definida.” — Folha">[1]</a></sup><sup><a href="#t6r2" title="“O partido Novo vai declarar, nos próximos dias, apoio ao senador Flávio Bolsonaro (PL) no segundo turno.” — Folha">[2]</a></sup></p>
+  
+    <p>O PSD manteve a neutralidade e liberou seus diretórios. Cury, Renan Santos e Caiado não declararam voto.<sup><a href="#t6r3" title="“O PSD decidiu manter a neutralidade para o 2º turno da eleição presidencial.” — Folha">[3]</a></sup><sup><a href="#t6r4" title="“Augusto Cury (Avante), Renan Santos (Missão) e Ronaldo Caiado (PSD) não anunciaram qualquer decisão após o resultado.” — Folha">[4]</a></sup><sup><a href="#t6r5" title="“anunciou neste domingo que a legenda manterá neutralidade no segundo turno da eleição presidencial e liberará os diretórios estaduais” — CartaCapital">[5]</a></sup></p>
+  
+  </div>
+
+  <h3>Como cada campo político se posicionou</h3>
+  <div class="lados">
+  
+
+    <section class="lado" style="--cor: #c62828">
+      <h4>Esquerda — PT &#x2f; PSOL</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">ES</span></span><span>Edinho Silva, presidente nacional do PT</span></div>
+        <p>Disse que a campanha de Lula vai conversar com todas as lideranças que não queiram &#x27;um Brasil entregue às milícias&#x27;.<sup><a href="#t6r6">[6]</a></sup></p>
+        
+        <blockquote>“Nós vamos conversar com todas as lideranças que queiram construir um Brasil que não se entregue às milícias”<cite><a href="https:&#x2f;&#x2f;pt.org.br&#x2f;vamos-conversar-com-todas-as-liderancas-que-nao-queiram-um-brasil-entregue-as-milicias&#x2f;" target="_blank" rel="noopener">PT (site oficial)</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+
+    <section class="lado" style="--cor: #1f4e9a">
+      <h4>PL</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">VC</span></span><span>Valdemar Costa Neto, presidente nacional do PL</span></div>
+        <p>Disse não ter dúvida de que União Brasil, PP e Republicanos vão apoiar Flávio no 2º turno.<sup><a href="#t6r7">[7]</a></sup></p>
+        
+        <blockquote>“Eu não tenho dúvida que, no 2º turno, o União Brasil, PP, Republicanos, todos virão com a gente”<cite><a href="https:&#x2f;&#x2f;www.poder360.com.br&#x2f;poder-eleicoes-2026&#x2f;valdemar-espera-uniao-brasil-pp-e-republicanos-com-flavio-no-2o-turno&#x2f;" target="_blank" rel="noopener">Poder360</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+
+    <section class="lado" style="--cor: #6a1b9a">
+      <h4>Missão &#x2f; MBL</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">RS</span></span><span>Renan Santos, candidato do Missão à Presidência</span></div>
+        <p>Não apoiará nenhum dos dois candidatos, liberou a militância e disse que &#x27;não existe direita para além de Bolsonaro&#x27;.<sup><a href="#t6r8">[8]</a></sup></p>
+        
+        <blockquote>“O candidato afirmou que não apoiará nenhum dos dois nomes que avançaram ao segundo turno e liberou os militantes do Missão”<cite><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;eleicoes&#x2f;2026&#x2f;renan-santos-preve-vitoria-de-flavio-e-diz-que-nao-apoiara-ninguem-no-2o-turno&#x2f;" target="_blank" rel="noopener">Gazeta do Povo</a></cite></blockquote>
+        
+        <blockquote>“Quem está no nosso grupo e quiser sair, poderá sair e virar bolsonarista. Vou repetir, não existe direita (no Brasil) para além de Bolsonaro.”<cite><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;eleicoes&#x2f;2026&#x2f;renan-santos-preve-vitoria-de-flavio-e-diz-que-nao-apoiara-ninguem-no-2o-turno&#x2f;" target="_blank" rel="noopener">Gazeta do Povo</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+  </div>
+  
+
+  <details>
+    <summary>Referências (8) e outras matérias sobre o tema (7)</summary>
+    <ol class="refs">
+    
+      <li id="t6r1"><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;uniao-brasil-pp-sinaliza-apoio-a-flavio-bolsonaro-no-2o-turno.shtml" target="_blank" rel="noopener">União Brasil-PP sinaliza apoio a Flávio Bolsonaro no 2º turno, e centrão deve seguir mesmo caminho</a> <span class="meta">— Folha, 05&#x2f;10 06:00</span></li>
+    
+      <li id="t6r2"><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;colunas&#x2f;painel&#x2f;2026&#x2f;10&#x2f;novo-vai-declarar-apoio-a-flavio-bolsonaro-no-segundo-turno.shtml" target="_blank" rel="noopener">Novo vai declarar apoio a Flávio Bolsonaro no segundo turno</a> <span class="meta">— Folha, 04&#x2f;10 23:04</span></li>
+    
+      <li id="t6r3"><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;psd-decide-manter-neutralidade-no-2o-turno-e-caiado-fala-que-caiu-de-pe.shtml" target="_blank" rel="noopener">PSD decide manter neutralidade no 2º turno, e Caiado fala que &#x27;caiu de pé&#x27;</a> <span class="meta">— Folha, 04&#x2f;10 23:52</span></li>
+    
+      <li id="t6r4"><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;cury-renan-santos-e-caiado-nao-declaram-voto-no-2o-turno-e-criticam-polarizacao.shtml" target="_blank" rel="noopener">Cury, Renan Santos e Caiado não declaram voto no 2º turno e criticam polarização</a> <span class="meta">— Folha, 04&#x2f;10 23:27</span></li>
+    
+      <li id="t6r5"><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;politica&#x2f;psd-anuncia-neutralidade-no-2o-turno-e-libera-diretorios-para-apoiar-lula-ou-flavio&#x2f;" target="_blank" rel="noopener">PSD anuncia ‘neutralidade’ no 2º turno e libera diretórios para apoiar Lula ou Flávio</a> <span class="meta">— CartaCapital, 04&#x2f;10 22:28</span></li>
+    
+      <li id="t6r6"><a href="https:&#x2f;&#x2f;pt.org.br&#x2f;vamos-conversar-com-todas-as-liderancas-que-nao-queiram-um-brasil-entregue-as-milicias&#x2f;" target="_blank" rel="noopener">‘Vamos conversar com todas as lideranças que não queiram um Brasil entregue às milícias’</a> <span class="meta">— PT (site oficial), 05&#x2f;10 00:51</span></li>
+    
+      <li id="t6r7"><a href="https:&#x2f;&#x2f;www.poder360.com.br&#x2f;poder-eleicoes-2026&#x2f;valdemar-espera-uniao-brasil-pp-e-republicanos-com-flavio-no-2o-turno&#x2f;" target="_blank" rel="noopener">Valdemar espera União Brasil, PP e Republicanos com Flávio no 2º turno</a> <span class="meta">— Poder360, 04&#x2f;10 19:58</span></li>
+    
+      <li id="t6r8"><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;eleicoes&#x2f;2026&#x2f;renan-santos-preve-vitoria-de-flavio-e-diz-que-nao-apoiara-ninguem-no-2o-turno&#x2f;" target="_blank" rel="noopener">Renan Santos prevê vitória de Flávio e diz que não apoiará ninguém no 2º turno</a> <span class="meta">— Gazeta do Povo, 04&#x2f;10 23:07</span></li>
+    
+    </ol>
+    
+    <ul class="rel">
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;05&#x2f;cury-renan-caiado-e-zema-falam-sobre-apoio-no-2o-turno.ghtml" target="_blank" rel="noopener">Cury, Renan, Caiado e Zema falam sobre apoio no 2º turno</a> <span class="meta">— G1, 05&#x2f;10 12:09</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;ao-vivo-lula-flavio-vao-ao-segundo-turno-eleicoes-2026&#x2f;" target="_blank" rel="noopener">Tarcísio e Flávio se reúnem em Brasília para traçar estratégia do 2º turno</a> <span class="meta">— Estadão, 05&#x2f;10 06:15</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;colunas&#x2f;painel&#x2f;2026&#x2f;10&#x2f;tarcisio-se-reune-com-flavio-nesta-segunda-para-definir-estrategia-do-2o-turno.shtml" target="_blank" rel="noopener">Tarcísio se reúne com Flávio nesta segunda para definir estratégia do 2º turno</a> <span class="meta">— Folha, 05&#x2f;10 00:11</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;eleicoes&#x2f;tarcisio-se-reune-com-flavio-nesta-segunda-para-definir-os-rumos-da-campanha-presidencial-em-sp&#x2f;" target="_blank" rel="noopener">Tarcísio se reúne com Flávio nesta segunda para definir os rumos da campanha presidencial em SP</a> <span class="meta">— Estadão, 04&#x2f;10 23:57</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;05&#x2f;flavio-bolsonaro-reune-campanha-para-tracar-estrategia-para-2o-turno.ghtml" target="_blank" rel="noopener">Flávio Bolsonaro se reúne com Tarcísio e Nikolas para discutir estratégia para o segundo turno</a> <span class="meta">— G1, 05&#x2f;10 09:03</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.poder360.com.br&#x2f;poder-eleicoes-2026&#x2f;pl-convida-eleitos-para-reuniao-com-flavio-sobre-estrategia-do-2o-turno&#x2f;" target="_blank" rel="noopener">PL convida eleitos para reunião com Flávio sobre estratégia do 2º turno</a> <span class="meta">— Poder360, 05&#x2f;10 13:03</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.poder360.com.br&#x2f;poder-eleicoes-2026&#x2f;reuniao-no-pl-define-estrategia-de-flavio-para-o-2o-turno&#x2f;" target="_blank" rel="noopener">Reunião no PL define estratégia de Flávio para o 2º turno</a> <span class="meta">— Poder360, 05&#x2f;10 12:05</span></li>
+    
+    </ul>
+    
+  </details>
+</article>
+
+<article id="t7">
+  
+  <h2><span class="n">7.</span>Campanha de Lula admite revés e reformula estratégia</h2>
+  <p class="cobertura">Cobertura (7):
+    <span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — Estadão, Folha, G1, Poder360</span><span class="l"><b>Imprensa mais à direita</b> — Gazeta do Povo</span><span class="l"><b>Partidos e movimentos</b> — PL (site oficial), PT (site oficial)</span>
+  </p>
+
+  <h3>O que aconteceu</h3>
+  <div class="contexto">
+  
+    <p>Lula atribuiu o resultado a problemas de comunicação da campanha, que será reformulada e deve incorporar aliados como Gleisi Hoffmann.<sup><a href="#t7r1" title="“O presidente Lula (PT) atribuiu o mau resultado obtido no primeiro turno da eleição presidencial, no qual terminou com menos votos que Flávio Bolsonaro (PL), a problemas na comunicação de sua campanha, que deve passar por uma reformulação.” — Folha">[1]</a></sup></p>
+  
+    <p>O dirigente petista Valter Pomar resumiu a reação dos aliados como &#x27;angústia&#x27; e &#x27;pânico&#x27;.<sup><a href="#t7r2" title="“resumiu a reação dos aliados em duas palavras: “angústia” e “pânico”.” — Estadão">[2]</a></sup></p>
+  
+    <p>Integrantes da campanha querem aumentar a rejeição a Flávio. No Datafolha de setembro, os dois tinham a mesma rejeição: 46%.<sup><a href="#t7r1" title="“Integrantes da campanha veem como essencial aumentar a rejeição do eleitorado a Flávio.” — Folha">[1]</a></sup><sup><a href="#t7r3" title="“46% dos eleitores diziam não votar de jeito nenhum no candidato do PL, enquanto outros 46% afirmavam o mesmo sobre o atual presidente” — Gazeta do Povo">[3]</a></sup></p>
+  
+    <p>Segundo o Estadão, a principal estratégia da campanha de Lula será explorar o medo de uma volta da família Bolsonaro ao poder.<sup><a href="#t7r4" title="“a principal estratégia da campanha de Lula à reeleição será explorar o medo contra um possível retorno da família Bolsonaro ao poder” — Estadão">[4]</a></sup></p>
+  
+  </div>
+
+  <h3>Como cada campo político se posicionou</h3>
+  <div class="lados">
+  
+
+    <section class="lado" style="--cor: #c62828">
+      <h4>Esquerda — PT &#x2f; PSOL</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">ES</span></span><span>Edinho Silva, presidente nacional do PT</span></div>
+        <p>Disse que o 2º turno será um &#x27;confronto de projetos&#x27; e que Flávio representa &#x27;a incerteza&#x27; e &#x27;a insegurança&#x27;.<sup><a href="#t7r5">[5]</a></sup></p>
+        
+        <blockquote>“Agora é confronto de projetos. Qual é a história do Flávio Bolsonaro?”<cite><a href="https:&#x2f;&#x2f;pt.org.br&#x2f;vamos-conversar-com-todas-as-liderancas-que-nao-queiram-um-brasil-entregue-as-milicias&#x2f;" target="_blank" rel="noopener">PT (site oficial)</a></cite></blockquote>
+        
+        <blockquote>“O [Flávio] Bolsonaro é a incerteza, é a insegurança”<cite><a href="https:&#x2f;&#x2f;pt.org.br&#x2f;vamos-conversar-com-todas-as-liderancas-que-nao-queiram-um-brasil-entregue-as-milicias&#x2f;" target="_blank" rel="noopener">PT (site oficial)</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+
+    <section class="lado" style="--cor: #1f4e9a">
+      <h4>PL</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">FB</span></span><span>Flávio Bolsonaro (PL), candidato à Presidência</span></div>
+        <p>Disse que manterá uma &#x27;campanha limpa&#x27; nas próximas três semanas.<sup><a href="#t7r6">[6]</a></sup></p>
+        
+        <blockquote>“É assim que eu vou continuar me comportando nessas próximas 3 semanas, com uma campanha limpa”<cite><a href="https:&#x2f;&#x2f;partidoliberal.org.br&#x2f;a-palavra-e-mudanca-agradece-flavio-bolsonaro-pelos-votos-decretando-o-fim-da-era-do-pt&#x2f;" target="_blank" rel="noopener">PL (site oficial)</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+      
+  </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #6a1b9a"></i>Missão &#x2f; MBL</span>.</p>
+
+  <details>
+    <summary>Referências (6) e outras matérias sobre o tema (6)</summary>
+    <ol class="refs">
+    
+      <li id="t7r1"><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;reves-no-1o-turno-forca-lula-a-rever-estrategia-de-campanha-contra-flavio-bolsonaro.shtml" target="_blank" rel="noopener">Revés no 1º turno força Lula a rever estratégia de campanha contra Flávio Bolsonaro</a> <span class="meta">— Folha, 05&#x2f;10 04:00</span></li>
+    
+      <li id="t7r2"><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;coluna-do-estadao&#x2f;carta-de-pomar-da-o-tom-da-lavacao-de-roupa-suja-no-pt-pos-primeiro-turno&#x2f;" target="_blank" rel="noopener">Carta de Pomar dá o tom da lavação de roupa suja no PT pós-primeiro turno</a> <span class="meta">— Estadão, 05&#x2f;10 05:30</span></li>
+    
+      <li id="t7r3"><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;eleicoes&#x2f;2026&#x2f;flavio-impoe-revanche-a-lula-e-chega-como-favorito-ao-2o-turno&#x2f;" target="_blank" rel="noopener">Flávio impõe revanche a Lula e chega como favorito ao 2º turno</a> <span class="meta">— Gazeta do Povo, 04&#x2f;10 23:48</span></li>
+    
+      <li id="t7r4"><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;desanimo-toma-conta-da-campanha-de-lula-e-abre-crise-no-pt-enquanto-flavio-joga-parado-no-2-turno&#x2f;" target="_blank" rel="noopener">Desânimo toma conta da campanha de Lula, abre crise no PT e Flávio aproveita onda da direita</a> <span class="meta">— Estadão, 04&#x2f;10 22:16</span></li>
+    
+      <li id="t7r5"><a href="https:&#x2f;&#x2f;pt.org.br&#x2f;vamos-conversar-com-todas-as-liderancas-que-nao-queiram-um-brasil-entregue-as-milicias&#x2f;" target="_blank" rel="noopener">‘Vamos conversar com todas as lideranças que não queiram um Brasil entregue às milícias’</a> <span class="meta">— PT (site oficial), 05&#x2f;10 00:51</span></li>
+    
+      <li id="t7r6"><a href="https:&#x2f;&#x2f;partidoliberal.org.br&#x2f;a-palavra-e-mudanca-agradece-flavio-bolsonaro-pelos-votos-decretando-o-fim-da-era-do-pt&#x2f;" target="_blank" rel="noopener">“A palavra é mudança”, agradece Flávio Bolsonaro pelos votos decretando o fim da era do PT</a> <span class="meta">— PL (site oficial), 05&#x2f;10 12:00</span></li>
+    
+    </ol>
+    
+    <ul class="rel">
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;atritos-e-falhas-marcam-campanha-de-lula-e-lideres-falam-em-mudancas-profundas-para-enfrentar-flavio-no-2o-turno.shtml" target="_blank" rel="noopener">Atritos e falhas marcam campanha de Lula, e líderes falam em mudanças profundas para enfrentar Flávio no 2º turno</a> <span class="meta">— Folha, 05&#x2f;10 00:01</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;colunas&#x2f;encaminhado-com-frequencia&#x2f;2026&#x2f;10&#x2f;segundo-turno-comeca-com-euforia-bolsonarista-e-desanimo-petista.shtml" target="_blank" rel="noopener">Segundo turno começa com euforia bolsonarista e desânimo petista</a> <span class="meta">— Folha, 04&#x2f;10 23:02</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;blog&#x2f;valdo-cruz&#x2f;post&#x2f;2026&#x2f;10&#x2f;05&#x2f;depois-do-susto-com-a-avalanche-da-direita-lula-tera-de-mudar-campanha-para-tentar-reverter-resultado.ghtml" target="_blank" rel="noopener">Depois do susto com a &#x27;avalanche&#x27; da direita, Lula terá de mudar campanha para tentar reverter resultado</a> <span class="meta">— G1, 05&#x2f;10 09:29</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;blog&#x2f;andreia-sadi&#x2f;post&#x2f;2026&#x2f;10&#x2f;05&#x2f;analise-andreia-sadi-resultado-primeiro-turno.ghtml" target="_blank" rel="noopener">Campanha de Lula subestimou Flávio Bolsonaro e força do antipetismo</a> <span class="meta">— G1, 05&#x2f;10 09:21</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;04&#x2f;lula-convoca-reuniao-com-aliados-em-brasilia-para-tracar-estrategia-para-segundo-turno.ghtml" target="_blank" rel="noopener">Lula convoca reunião com aliados em Brasília para traçar estratégia para segundo turno</a> <span class="meta">— G1, 04&#x2f;10 22:46</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.poder360.com.br&#x2f;poder-eleicoes-2026&#x2f;jeronimo-rui-e-wagner-se-reunem-com-lula-nesta-2a-feira&#x2f;" target="_blank" rel="noopener">Jerônimo, Rui e Wagner se reúnem com Lula nesta 2ª feira</a> <span class="meta">— Poder360, 05&#x2f;10 12:27</span></li>
+    
+    </ul>
+    
+  </details>
+</article>
+
+<article id="t8">
+  
+  <h2><span class="n">8.</span>Milei e Netanyahu parabenizam Flávio; Trump confunde Brasil com Índia</h2>
+  <p class="cobertura">Cobertura (8):
+    <span class="l"><b>Imprensa mais à esquerda</b> — Brasil de Fato, CartaCapital</span><span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — Estadão, Folha, G1, Poder360</span><span class="l"><b>Imprensa mais à direita</b> — Gazeta do Povo</span><span class="l"><b>Partidos e movimentos</b> — PT (site oficial)</span>
+  </p>
+
+  <h3>O que aconteceu</h3>
+  <div class="contexto">
+  
+    <p>Javier Milei, presidente da Argentina, parabenizou Flávio pela &#x27;eleição histórica contra o comunista Lula&#x27;. Benjamin Netanyahu também enviou cumprimentos.<sup><a href="#t8r1" title="“deu os parabéns “por esta eleição histórica contra o comunista Lula”” — CartaCapital">[1]</a></sup></p>
+  
+    <p>Donald Trump citou a Índia em vez do Brasil num post sobre a rapidez da apuração, depois corrigiu e usou o caso para criticar o sistema eleitoral americano.<sup><a href="#t8r2" title="“O presidente dos Estados Unidos, Donald Trump, trocou o Brasil pela Índia em uma publicação nas redes sociais, na noite deste domingo (4), ao comentar a rapidez da apuração dos votos.” — Folha">[2]</a></sup></p>
+  
+    <p>O presidente da Colômbia, Abelardo de la Espriella, também celebrou o resultado de Flávio.<sup><a href="#t8r3" title="“A verdadeira mudança é derrotar a esquerda” — Estadão">[3]</a></sup></p>
+  
+  </div>
+
+  <h3>Como cada campo político se posicionou</h3>
+  <div class="lados">
+  
+
+    <section class="lado" style="--cor: #c62828">
+      <h4>Esquerda — PT &#x2f; PSOL</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">ES</span></span><span>Edinho Silva, presidente nacional do PT</span></div>
+        <p>Disse que o resultado reflete uma disputa global e chamou Trump de &#x27;o maior líder fascista do mundo&#x27;.<sup><a href="#t8r4">[4]</a></sup></p>
+        
+        <blockquote>“Donald Trump, “hoje o maior líder fascista do mundo””<cite><a href="https:&#x2f;&#x2f;pt.org.br&#x2f;vamos-conversar-com-todas-as-liderancas-que-nao-queiram-um-brasil-entregue-as-milicias&#x2f;" target="_blank" rel="noopener">PT (site oficial)</a></cite></blockquote>
+        
+        <blockquote>“Nós estamos vendo o que o Trump está fazendo com o mundo.”<cite><a href="https:&#x2f;&#x2f;pt.org.br&#x2f;vamos-conversar-com-todas-as-liderancas-que-nao-queiram-um-brasil-entregue-as-milicias&#x2f;" target="_blank" rel="noopener">PT (site oficial)</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+
+    <section class="lado" style="--cor: #1f4e9a">
+      <h4>PL</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">FB</span></span><span>Flávio Bolsonaro (PL), candidato à Presidência</span></div>
+        <p>Agradeceu os cumprimentos de Milei e disse que Brasil e Argentina estarão &#x27;mais próximos&#x27;.<sup><a href="#t8r5">[5]</a></sup></p>
+        
+        <blockquote>“Obrigado, meu amigo Milei. Muito em breve nossas nações estarão mais próximas! Deus no comando”<cite><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;eleicoes&#x2f;flavio-bolsonaro-agradece-post-de-milei-em-breve-nossas-nacoes-estarao-mais-proximas-npr&#x2f;" target="_blank" rel="noopener">Estadão</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+      
+  </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #6a1b9a"></i>Missão &#x2f; MBL</span>.</p>
+
+  <details>
+    <summary>Referências (5) e outras matérias sobre o tema (13)</summary>
+    <ol class="refs">
+    
+      <li id="t8r1"><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;politica&#x2f;milei-e-netanyahu-parabenizam-flavio-bolsonaro-trump-troca-brasil-por-india-em-postagem&#x2f;" target="_blank" rel="noopener">Milei e Netanyahu parabenizam Flávio Bolsonaro; Trump troca Brasil por Índia em postagem</a> <span class="meta">— CartaCapital, 05&#x2f;10 08:10</span></li>
+    
+      <li id="t8r2"><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;mundo&#x2f;2026&#x2f;10&#x2f;trump-troca-brasil-por-india-em-post-que-elogia-eleicao-sem-citar-candidatos.shtml" target="_blank" rel="noopener">Trump troca Brasil por Índia em post que elogia eleição sem citar candidatos</a> <span class="meta">— Folha, 05&#x2f;10 01:34</span></li>
+    
+      <li id="t8r3"><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;coluna-do-estadao&#x2f;carta-de-pomar-da-o-tom-da-lavacao-de-roupa-suja-no-pt-pos-primeiro-turno&#x2f;" target="_blank" rel="noopener">Carta de Pomar dá o tom da lavação de roupa suja no PT pós-primeiro turno</a> <span class="meta">— Estadão, 05&#x2f;10 05:30</span></li>
+    
+      <li id="t8r4"><a href="https:&#x2f;&#x2f;pt.org.br&#x2f;vamos-conversar-com-todas-as-liderancas-que-nao-queiram-um-brasil-entregue-as-milicias&#x2f;" target="_blank" rel="noopener">‘Vamos conversar com todas as lideranças que não queiram um Brasil entregue às milícias’</a> <span class="meta">— PT (site oficial), 05&#x2f;10 00:51</span></li>
+    
+      <li id="t8r5"><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;eleicoes&#x2f;flavio-bolsonaro-agradece-post-de-milei-em-breve-nossas-nacoes-estarao-mais-proximas-npr&#x2f;" target="_blank" rel="noopener">Flávio Bolsonaro agradece post de Milei: ‘Em breve, nossas nações estarão mais próximas’</a> <span class="meta">— Estadão, 05&#x2f;10 11:54</span></li>
+    
+    </ol>
+    
+    <ul class="rel">
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;mundo&#x2f;2026&#x2f;10&#x2f;filho-de-trump-diz-que-corte-em-ongs-faz-esquerda-perder-eleicoes-na-america-latina.shtml" target="_blank" rel="noopener">Filho de Trump diz que corte em ONGs faz esquerda perder eleições na América Latina</a> <span class="meta">— Folha, 05&#x2f;10 13:40</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;netanyahu-deseja-grande-vitoria-a-flavio-bolsonaro-no-2o-turno.shtml" target="_blank" rel="noopener">Netanyahu deseja &#x27;grande&#x27; vitória a Flávio Bolsonaro no 2º turno</a> <span class="meta">— Folha, 05&#x2f;10 05:43</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;mundo&#x2f;2026&#x2f;10&#x2f;imprensa-internacional-ve-forca-da-direita-e-cita-trofeu-que-falta-para-trump-apos-avanco-de-flavio-sobre-lula.shtml" target="_blank" rel="noopener">Imprensa internacional vê força da direita e cita &#x27;troféu que falta para Trump&#x27; após avanço de Flávio sobre Lula</a> <span class="meta">— Folha, 05&#x2f;10 10:35</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;eleicoes&#x2f;trump-confunde-brasil-com-india-ao-elogiar-rapidez-da-apuracao-e-criticar-eleicoes-dos-eua-npr&#x2f;" target="_blank" rel="noopener">Trump confunde Brasil com Índia ao elogiar rapidez da apuração e criticar eleições dos EUA</a> <span class="meta">— Estadão, 05&#x2f;10 09:36</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;eleicoes&#x2f;rubio-sorri-e-diz-que-todos-esperavam-2-turno-no-brasil-ao-comentar-eleicao&#x2f;" target="_blank" rel="noopener">Rubio sorri e diz que ‘todos esperavam’ 2º turno no Brasil ao comentar eleição</a> <span class="meta">— Estadão, 05&#x2f;10 11:28</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;mundo&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;05&#x2f;trump-cita-eleicao-no-brasil-criticar-votacao-cidades-democratas-eua-midterms.ghtml" target="_blank" rel="noopener">Trump confunde Índia com Brasil ao elogiar rapidez da apuração</a> <span class="meta">— G1, 05&#x2f;10 07:42</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;mundo&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;05&#x2f;repercussao-lideres-internacionais-eleicao-2026.ghtml" target="_blank" rel="noopener">Javier Milei, Netanyahu e Espriella parabenizam Flávio Bolsonaro após liderança no 1º turno</a> <span class="meta">— G1, 05&#x2f;10 01:53</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;mundo&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;05&#x2f;secretario-trump-marco-rubio-todos-esperavam-eleicao-brasil-fosse-para-2o-turno.ghtml" target="_blank" rel="noopener">&#x27;Todos esperavam&#x27; que eleição no Brasil fosse para 2º turno, diz secretário de Trump</a> <span class="meta">— G1, 05&#x2f;10 12:14</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;05&#x2f;trump-confunde-brasil-com-india-e-usa-eleicoes-brasileiras-para-atacar-sistema-eleitoral-dos-eua&#x2f;" target="_blank" rel="noopener">Trump confunde Brasil com Índia e usa eleições brasileiras para atacar sistema eleitoral dos EUA</a> <span class="meta">— Brasil de Fato, 05&#x2f;10 09:33</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;mundo&#x2f;trump-confunde-brasil-india-comentar-eleicoes&#x2f;" target="_blank" rel="noopener">Trump confunde Brasil com Índia ao comentar eleições e elogia urnas eletrônicas</a> <span class="meta">— Gazeta do Povo, 05&#x2f;10 07:23</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;mundo&#x2f;musk-lideres-mundiais-comentam-primeiro-turno-brasil-veja-repercussao&#x2f;" target="_blank" rel="noopener">Musk e líderes mundiais comentam primeiro turno no Brasil; veja repercussão</a> <span class="meta">— Gazeta do Povo, 05&#x2f;10 08:13</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.poder360.com.br&#x2f;poder-internacional&#x2f;politicos-estrangeiros-dao-parabens-a-flavio-por-resultado-no-1o-turno&#x2f;" target="_blank" rel="noopener">Políticos estrangeiros dão parabéns a Flávio por resultado no 1º turno</a> <span class="meta">— Poder360, 05&#x2f;10 13:54</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.poder360.com.br&#x2f;poder-eleicoes-2026&#x2f;milei-da-parabens-a-tarcisio-de-freitas-e-critica-pesquisas-do-brasil&#x2f;" target="_blank" rel="noopener">Milei dá parabéns a Tarcísio de Freitas e critica pesquisas do Brasil</a> <span class="meta">— Poder360, 05&#x2f;10 13:44</span></li>
+    
+    </ul>
+    
+  </details>
+</article>
+
+<article id="t9">
+  
+  <h2><span class="n">9.</span>Votação do fim da escala 6x1 no Senado fica em xeque</h2>
+  <p class="cobertura">Cobertura (4):
+    <span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — Folha, G1</span><span class="l"><b>Imprensa mais à direita</b> — Revista Oeste</span><span class="l"><b>Partidos e movimentos</b> — PT (site oficial)</span>
+  </p>
+
+  <h3>O que aconteceu</h3>
+  <div class="contexto">
+  
+    <p>Davi Alcolumbre convocou senadores para votar nesta terça-feira (6) a proposta que extingue a escala 6x1.<sup><a href="#t9r1" title="“O presidente do Senado, Davi Alcolumbre, está contatando senadores para que compareçam a Brasília na terça-feira, 6 de outubro de 2026, com o objetivo de votar a proposta que extingue a escala de trabalho 6×1.” — Revista Oeste">[1]</a></sup></p>
+  
+    <p>Segundo a Folha, governistas avaliam que o crescimento da direita no Senado tornou a votação desta semana politicamente inviável.<sup><a href="#t9r2" title="“Governistas avaliam que o crescimento da direita no Senado tornou politicamente inviável a votação do fim da escala 6x1 nesta semana.” — Folha">[2]</a></sup></p>
+  
+  </div>
+
+  <h3>Como cada campo político se posicionou</h3>
+  <div class="lados">
+  
+
+    <section class="lado" style="--cor: #c62828">
+      <h4>Esquerda — PT &#x2f; PSOL</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">LP</span></span><span>Lula (PT) e site oficial do PT</span></div>
+        <p>Lula promete manter a defesa do fim da escala 6x1 e reduzir a jornada para 40 horas semanais sem corte de salário. O PT diz que o tema é central no programa de governo.<sup><a href="#t9r3">[3]</a></sup><sup><a href="#t9r4">[4]</a></sup></p>
+        
+        <blockquote>“Lula promete continuar na defesa do fim da escala 6x1 e pela redução da jornada de trabalho semanal para 40 horas, sem redução de salário.”<cite><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;05&#x2f;lula-no-segundo-turno-veja-o-que-o-petista-propoe-para-um-quarto-mandato-se-for-reeleito.ghtml" target="_blank" rel="noopener">G1</a></cite></blockquote>
+        
+        <blockquote>“O fim da escala 6×1 e o cuidado com a classe trabalhadora são pontos fundamentais do programa de governo de Lula.”<cite><a href="https:&#x2f;&#x2f;pt.org.br&#x2f;fim-da-escala-6x1-entra-na-pauta-do-senado-lula-comemora-e-flavio-bolsonaro-age-contra-a-aprovacao&#x2f;" target="_blank" rel="noopener">PT (site oficial)</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+
+    <section class="lado" style="--cor: #1f4e9a">
+      <h4>PL</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">FB</span></span><span>Flávio Bolsonaro (PL), candidato à Presidência</span></div>
+        <p>É contra a proposta e defende uma &#x27;jornada flexível&#x27;, combinada entre empregador e trabalhador.<sup><a href="#t9r5">[5]</a></sup></p>
+        
+        <blockquote>“Flávio defende uma &quot;jornada flexível&quot; na qual a carga horária e os dias de trabalho serão combinados entre empregador e trabalhador”<cite><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;05&#x2f;flavio-bolsonaro-no-segundo-turno-veja-o-que-o-candidato-propoe-caso-seja-eleito.ghtml" target="_blank" rel="noopener">G1</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+      
+  </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #6a1b9a"></i>Missão &#x2f; MBL</span>.</p>
+
+  <details>
+    <summary>Referências (5)</summary>
+    <ol class="refs">
+    
+      <li id="t9r1"><a href="https:&#x2f;&#x2f;revistaoeste.com&#x2f;no-ponto&#x2f;alcolumbre-escala-6x1-senadores&#x2f;" target="_blank" rel="noopener">Em meio ao 2º turno, Alcolumbre liga para senadores e articula fim da escala 6×1</a> <span class="meta">— Revista Oeste, 05&#x2f;10 12:33</span></li>
+    
+      <li id="t9r2"><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;colunas&#x2f;painel&#x2f;2026&#x2f;10&#x2f;governistas-avaliam-que-avanco-da-direita-no-senado-torna-votacao-do-fim-da-6x1-inviavel.shtml" target="_blank" rel="noopener">Governistas avaliam que avanço da direita no Senado torna votação do fim da 6x1 inviável</a> <span class="meta">— Folha, 04&#x2f;10 23:36</span></li>
+    
+      <li id="t9r3"><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;05&#x2f;lula-no-segundo-turno-veja-o-que-o-petista-propoe-para-um-quarto-mandato-se-for-reeleito.ghtml" target="_blank" rel="noopener">Lula no segundo turno: veja o que o petista propõe para um quarto mandato, se for reeleito</a> <span class="meta">— G1, 05&#x2f;10 00:00</span></li>
+    
+      <li id="t9r4"><a href="https:&#x2f;&#x2f;pt.org.br&#x2f;fim-da-escala-6x1-entra-na-pauta-do-senado-lula-comemora-e-flavio-bolsonaro-age-contra-a-aprovacao&#x2f;" target="_blank" rel="noopener">Fim da escala 6×1 entra na pauta do Senado. Lula comemora e Flávio Bolsonaro age contra a aprovação</a> <span class="meta">— PT (site oficial), 03&#x2f;10 14:43</span></li>
+    
+      <li id="t9r5"><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;05&#x2f;flavio-bolsonaro-no-segundo-turno-veja-o-que-o-candidato-propoe-caso-seja-eleito.ghtml" target="_blank" rel="noopener">Flávio Bolsonaro no segundo turno: veja o que o candidato propõe caso seja eleito</a> <span class="meta">— G1, 05&#x2f;10 00:00</span></li>
+    
+    </ol>
+    
+  </details>
+</article>
+
+<article id="t10">
+  
+  <h2><span class="n">10.</span>PL leva os três governos do Sul; PT mantém Bahia, Ceará e Piauí</h2>
+  <p class="cobertura">Cobertura (6):
+    <span class="l"><b>Imprensa mais à esquerda</b> — Brasil de Fato</span><span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — Folha, G1</span><span class="l"><b>Imprensa mais à direita</b> — Gazeta do Povo, Revista Oeste</span><span class="l"><b>Partidos e movimentos</b> — PL (site oficial)</span>
+  </p>
+
+  <h3>O que aconteceu</h3>
+  <div class="contexto">
+  
+    <p>Vinte governadores foram eleitos no 1º turno, um recorde neste século. Aliados do PL venceram em 10 estados, e o PT e partidos próximos, em 5.<sup><a href="#t10r1" title="“Ao todo, 20 governadores foram eleitos na primeira rodada de votação, um recorde neste século.” — Folha">[1]</a></sup></p>
+  
+    <p>O PL foi o partido que mais elegeu governadores (cinco, incluindo Paraná, Santa Catarina e Rio Grande do Sul). O PT manteve Bahia, Ceará e Piauí.<sup><a href="#t10r2" title="“o PL foi o partido que mais elegeu governadores no primeiro turno das eleições de 2026, com cinco vitórias confirmadas” — Brasil de Fato">[2]</a></sup></p>
+  
+    <p>Em São Paulo, Tarcísio de Freitas (Republicanos) foi reeleito com 62,65% dos votos válidos contra Fernando Haddad (PT).<sup><a href="#t10r3" title="“Com 62,65% dos votos válidos, de acordo com dados do Tribunal Superior Eleitoral (TSE), ele voltou a derrotar o ex-prefeito da capital Fernando Haddad (PT), que ficou com 36,42%.” — Gazeta do Povo">[3]</a></sup></p>
+  
+  </div>
+
+  <h3>Como cada campo político se posicionou</h3>
+  <div class="lados">
+  
+
+    <section class="lado" style="--cor: #c62828">
+      <h4>Esquerda — PT &#x2f; PSOL</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">LP</span></span><span>Lula (PT), presidente e candidato à reeleição</span></div>
+        <p>Lamentou as derrotas do campo progressista em São Paulo e disse que &#x27;quem perde é o próprio estado&#x27;.<sup><a href="#t10r4">[4]</a></sup></p>
+        
+        <blockquote>“O presidente também lamentou os resultados do campo progressista em São Paulo”<cite><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;04&#x2f;apos-primeiro-turno-lula-afirma-que-disputa-entra-em-nova-fase-e-defende-continuidade-de-projeto&#x2f;" target="_blank" rel="noopener">Brasil de Fato</a></cite></blockquote>
+        
+        <blockquote>“Para Lula, quem perde com isso é o próprio estado.”<cite><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;04&#x2f;apos-primeiro-turno-lula-afirma-que-disputa-entra-em-nova-fase-e-defende-continuidade-de-projeto&#x2f;" target="_blank" rel="noopener">Brasil de Fato</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+
+    <section class="lado" style="--cor: #1f4e9a">
+      <h4>PL</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">SP</span></span><span>Site oficial do PL</span></div>
+        <p>O site do partido descreveu o resultado como uma &#x27;derrota histórica para Lula e seus aliados nos estados&#x27;.<sup><a href="#t10r5">[5]</a></sup></p>
+        
+        <blockquote>“O resultado significou uma derrota histórica para Lula e seus aliados nos estados”<cite><a href="https:&#x2f;&#x2f;partidoliberal.org.br&#x2f;a-palavra-e-mudanca-agradece-flavio-bolsonaro-pelos-votos-decretando-o-fim-da-era-do-pt&#x2f;" target="_blank" rel="noopener">PL (site oficial)</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+      
+  </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #6a1b9a"></i>Missão &#x2f; MBL</span>.</p>
+
+  <details>
+    <summary>Referências (5) e outras matérias sobre o tema (8)</summary>
+    <ol class="refs">
+    
+      <li id="t10r1"><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;flavio-lidera-onda-bolsonarista-ao-superar-o-proprio-pai-e-ir-ao-2o-turno-em-vantagem-contra-lula.shtml" target="_blank" rel="noopener">Flávio lidera onda bolsonarista ao superar o próprio pai e ir ao 2º turno em vantagem contra Lula</a> <span class="meta">— Folha, 05&#x2f;10 01:38</span></li>
+    
+      <li id="t10r2"><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;04&#x2f;pt-preserva-forca-no-nordeste-com-reeleicao-em-tres-estados-e-pl-elege-governos-no-norte-e-sul-no-1o-turno&#x2f;" target="_blank" rel="noopener">PT preserva força no Nordeste com reeleição em três estados, e PL elege governos no Norte e Sul no 1º turno</a> <span class="meta">— Brasil de Fato, 04&#x2f;10 23:14</span></li>
+    
+      <li id="t10r3"><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;eleicoes&#x2f;2026&#x2f;governadores-reeleitos-primeiro-turno-eleicoes-2026&#x2f;" target="_blank" rel="noopener">Balanço dos governadores: 8 são reeleitos, 3 conquistam mandato próprio e 4 são derrotados nas urnas</a> <span class="meta">— Gazeta do Povo, 05&#x2f;10 13:38</span></li>
+    
+      <li id="t10r4"><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;04&#x2f;apos-primeiro-turno-lula-afirma-que-disputa-entra-em-nova-fase-e-defende-continuidade-de-projeto&#x2f;" target="_blank" rel="noopener">Após primeiro turno, Lula afirma que disputa entra em nova fase e defende continuidade de projeto</a> <span class="meta">— Brasil de Fato, 04&#x2f;10 22:18</span></li>
+    
+      <li id="t10r5"><a href="https:&#x2f;&#x2f;partidoliberal.org.br&#x2f;a-palavra-e-mudanca-agradece-flavio-bolsonaro-pelos-votos-decretando-o-fim-da-era-do-pt&#x2f;" target="_blank" rel="noopener">“A palavra é mudança”, agradece Flávio Bolsonaro pelos votos decretando o fim da era do PT</a> <span class="meta">— PL (site oficial), 05&#x2f;10 12:00</span></li>
+    
+    </ol>
+    
+    <ul class="rel">
+    
+      <li><a href="https:&#x2f;&#x2f;revistaoeste.com&#x2f;politica&#x2f;pl-conquista-os-tres-governos-do-sul-e-transforma-a-regiao-em-vitrine-nacional&#x2f;" target="_blank" rel="noopener">PL conquista os três governos do Sul e transforma a região em vitrine nacional</a> <span class="meta">— Revista Oeste, 05&#x2f;10 13:29</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;partidoliberal.org.br&#x2f;luciano-zucco-vence-no-primeiro-turno-e-assume-o-comando-do-rio-grande-do-sul&#x2f;" target="_blank" rel="noopener">Luciano Zucco vence no primeiro turno e assume o comando do Rio Grande do Sul</a> <span class="meta">— PL (site oficial), 05&#x2f;10 12:00</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;05&#x2f;governadores-primeiro-turno-apoio-flavio-lula.ghtml" target="_blank" rel="noopener">Eleições 2026: 11 estados elegeram governadores que apoiaram Flávio Bolsonaro; e 5, aliados de Lula</a> <span class="meta">— G1, 05&#x2f;10 02:12</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;04&#x2f;disputas-governador-1o-turno-comparacao-com-eleicoes.ghtml" target="_blank" rel="noopener">Eleição de 2026 bate recorde de governadores eleitos em 1º turno; veja comparação com eleições anteriores</a> <span class="meta">— G1, 04&#x2f;10 22:06</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;05&#x2f;pl-lidera-vitoria-de-governadores-e-senadores-veja-avanco-do-partido-em-5-pontos.ghtml" target="_blank" rel="noopener">PL lidera vitória de governadores e senadores; veja avanço do partido em 5 pontos</a> <span class="meta">— G1, 05&#x2f;10 05:00</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;sp&#x2f;sao-paulo&#x2f;eleicoes&#x2f;2026&#x2f;ao-vivo&#x2f;cobertura-apuracao-votacao-1-turno-sp.ghtml" target="_blank" rel="noopener">Tarcísio de Freitas é reeleito governador em SP</a> <span class="meta">— G1, 04&#x2f;10 23:44</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;pr&#x2f;parana&#x2f;eleicoes&#x2f;2026&#x2f;ao-vivo&#x2f;cobertura-apuracao-votacao-1-turno-parana.ghtml" target="_blank" rel="noopener">Sergio Moro (PL) é eleito governador do Paraná</a> <span class="meta">— G1, 05&#x2f;10 06:13</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;eleicoes&#x2f;2026&#x2f;governadores-reeleitos-maior-vantagem-primeiro-turno&#x2f;" target="_blank" rel="noopener">Jorginho Mello vence no primeiro turno com a maior vantagem sobre segundo colocado</a> <span class="meta">— Gazeta do Povo, 05&#x2f;10 00:39</span></li>
+    
+    </ul>
+    
+  </details>
+</article>
+
+
+
+<section id="poderes" class="poderes">
+  <h2 class="secao">Atuação dos Poderes</h2>
+  <p class="secao-sub">O que foi pautado no dia, como cada lado se posicionou e o que foi decidido.</p>
+
+  
+  <article id="stf" class="casa">
+    <h2>Supremo Tribunal Federal</h2>
+    
+
+    
+    <div class="item" id="stf1">
+      <div class="item-topo">
+        <h3 class="item-titulo">Habeas corpus para libertar Jair Bolsonaro (embargos na Primeira Turma)</h3>
+        <span class="situacao s-em_andamento">Em andamento</span>
+      </div>
+
+      <dl class="item-fatos">
+        <dt>Em pauta</dt>
+        <dd>A Primeira Turma julga, no plenário virtual, embargos de declaração num habeas corpus que pede a soltura de Bolsonaro. O pedido foi feito por alguém que não integra a defesa dele.<sup><a href="#stf1r1" title="“Agora, o colegiado analisa os chamados embargos de declaração, voltados em tese a esclarecer supostas contradições ou omissões no acórdão.” — CartaCapital">[1]</a></sup></dd>
+        <dt>Resultado</dt>
+        <dd>Há 2 votos para rejeitar o pedido (Cármen Lúcia e Cristiano Zanin). Faltam Moraes e Dino, e o julgamento termina na sexta (9).<sup><a href="#stf1r1" title="“A votação, realizada no plenário virtual, terminará na próxima sexta-feira 9. Até a manhã desta segunda 5 haviam votado Cármen e Cristiano Zanin.” — CartaCapital">[1]</a></sup></dd>
+      </dl>
+
+      <div class="abas">
+        <input type="radio" class="t-pos" name="aba-stf1" id="stf1-pos" checked>
+        <label for="stf1-pos">Posicionamentos</label>
+        
+      <div class="painel painel-pos">
+      <div class="lados">
+            
+
+        <section class="lado" style="--cor: #1f4e9a">
+          <h4>PL</h4>
+          
+          <div class="pos">
+            <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">FB</span></span><span>Flávio Bolsonaro (PL), candidato à Presidência</span></div>
+            <p>Flávio Bolsonaro prometeu indultar o pai se vencer o 2º turno.<sup><a href="#stf1r2">[2]</a></sup></p>
+            
+            <blockquote>“O senador Flávio Bolsonaro (PL) prometeu indulto ao ex-presidente caso vença o segundo turno contra Lula (PT).”<cite><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;kassio-quer-julgar-soltura-de-bolsonaro-apos-2o-turno-e-avalia-libertar-ex-presidente-com-liminar.shtml" target="_blank" rel="noopener">Folha</a></cite></blockquote>
+            
+          </div>
+          
+        </section>
+                  
+      </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #c62828"></i>Esquerda — PT &#x2f; PSOL</span>, <span><i style="background: #6a1b9a"></i>Missão &#x2f; MBL</span>.</p>
+
+      
+      <div class="destaques">
+        <h4>Outros posicionamentos em destaque</h4>
+        
+        <div class="pos">
+          <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">MC</span></span><span>Ministra Cármen Lúcia, relatora</span></div>
+          <p>A relatora votou por rejeitar os embargos, dizendo que o autor quer mudar o resultado, e não esclarecer a decisão.<sup><a href="#stf1r1">[1]</a></sup></p>
+          
+          <blockquote>“mas modificar o conteúdo do julgado, para fazer prevalecer a tese apresentada”<cite><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;politica&#x2f;stf-tem-2-votos-contra-recurso-que-busca-libertar-jair-bolsonaro&#x2f;" target="_blank" rel="noopener">CartaCapital</a></cite></blockquote>
+          
+        </div>
+        
+        <div class="pos">
+          <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">MK</span></span><span>Ministro Kassio Nunes Marques (segundo a Folha)</span></div>
+          <p>Em outra ação (a revisão criminal pedida pela defesa), Kassio quer julgar a soltura de Bolsonaro depois do 2º turno e avalia uma liminar, segundo a Folha.<sup><a href="#stf1r2">[2]</a></sup></p>
+          
+          <blockquote>“Kassio quer julgar soltura de Bolsonaro após 2º turno e avalia libertar ex-presidente com liminar”<cite><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;kassio-quer-julgar-soltura-de-bolsonaro-apos-2o-turno-e-avalia-libertar-ex-presidente-com-liminar.shtml" target="_blank" rel="noopener">Folha</a></cite></blockquote>
+          
+        </div>
+        
+      </div>
+      
+      </div>
+
+      
+      </div>
+
+      <details>
+        <summary>Referências (2)</summary>
+        <ol class="refs">
+        
+          <li id="stf1r1"><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;politica&#x2f;stf-tem-2-votos-contra-recurso-que-busca-libertar-jair-bolsonaro&#x2f;" target="_blank" rel="noopener">STF tem 2 votos contra recurso que busca libertar Jair Bolsonaro</a> <span class="meta">— CartaCapital, 05&#x2f;10 10:21</span></li>
+        
+          <li id="stf1r2"><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;kassio-quer-julgar-soltura-de-bolsonaro-apos-2o-turno-e-avalia-libertar-ex-presidente-com-liminar.shtml" target="_blank" rel="noopener">Kassio quer julgar soltura de Bolsonaro após 2º turno e avalia libertar ex-presidente com liminar</a> <span class="meta">— Folha, 05&#x2f;10 20:24</span></li>
+        
+        </ol>
+        
+      </details>
+    </div>
+    
+    <div class="item" id="stf2">
+      <div class="item-topo">
+        <h3 class="item-titulo">ADI 8010 — receitas próprias da DPU fora do teto de gastos (liminar)</h3>
+        <span class="situacao s-julgado">Julgado</span>
+      </div>
+
+      <dl class="item-fatos">
+        <dt>Em pauta</dt>
+        <dd>Ação da associação nacional dos defensores públicos federais (Anadef), que pede que as receitas próprias da DPU não entrem no teto de gastos do arcabouço fiscal.<sup><a href="#stf2r1" title="“A decisão foi tomada na Ação Direta de Inconstitucionalidade (ADI) 8010.” — STF — notícias oficiais">[1]</a></sup></dd>
+        <dt>Resultado</dt>
+        <dd>Moraes concedeu liminar que exclui do teto as despesas da DPU custeadas com receitas próprias. A decisão já vale e ainda será submetida a referendo do Plenário.<sup><a href="#stf2r1" title="“concedeu liminar para excluir do teto de gastos públicos previsto no arcabouço fiscal as despesas da Defensoria Pública da União (DPU) custeadas com receitas próprias” — STF — notícias oficiais">[1]</a></sup></dd>
+      </dl>
+
+      <div class="abas">
+        <input type="radio" class="t-pos" name="aba-stf2" id="stf2-pos" checked>
+        <label for="stf2-pos">Posicionamentos</label>
+        
+      <div class="painel painel-pos">
+      <div class="lados">
+                        
+      </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #c62828"></i>Esquerda — PT &#x2f; PSOL</span>, <span><i style="background: #1f4e9a"></i>PL</span>, <span><i style="background: #6a1b9a"></i>Missão &#x2f; MBL</span>.</p>
+
+      
+      <div class="destaques">
+        <h4>Outros posicionamentos em destaque</h4>
+        
+        <div class="pos">
+          <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">MA</span></span><span>Ministro Alexandre de Moraes, relator</span></div>
+          <p>Disse que a autonomia financeira da DPU deve ser conciliada com a responsabilidade fiscal e que a Defensoria continua sujeita aos limites gerais de despesa.<sup><a href="#stf2r1">[1]</a></sup></p>
+          
+          <blockquote>“Ressaltou, porém, que essa autonomia deve ser conciliada com a responsabilidade fiscal. Assim, a DPU continua sujeita aos limites gerais de controle das despesas públicas.”<cite><a href="https:&#x2f;&#x2f;noticias.stf.jus.br&#x2f;postsnoticias&#x2f;liminar-exclui-receitas-proprias-da-defensoria-publica-da-uniao-do-teto-de-gastos-do-arcabouco-fiscal&#x2f;" target="_blank" rel="noopener">STF — notícias oficiais</a></cite></blockquote>
+          
+        </div>
+        
+      </div>
+      
+      </div>
+
+      
+      </div>
+
+      <details>
+        <summary>Referências (1) e outras matérias (2)</summary>
+        <ol class="refs">
+        
+          <li id="stf2r1"><a href="https:&#x2f;&#x2f;noticias.stf.jus.br&#x2f;postsnoticias&#x2f;liminar-exclui-receitas-proprias-da-defensoria-publica-da-uniao-do-teto-de-gastos-do-arcabouco-fiscal&#x2f;" target="_blank" rel="noopener">Liminar exclui receitas próprias da Defensoria Pública da União do teto de gastos do arcabouço fiscal</a> <span class="meta">— STF — notícias oficiais, 05&#x2f;10 17:50</span></li>
+        
+        </ol>
+        
+        <ul class="rel">
+        
+          <li><a href="https:&#x2f;&#x2f;www.jota.info&#x2f;stf&#x2f;do-supremo&#x2f;moraes-concede-liminar-para-tirar-receitas-proprias-da-dpu-do-teto-de-gastos" target="_blank" rel="noopener">Moraes concede liminar para tirar receitas próprias da DPU do teto de gastos</a> <span class="meta">— JOTA, 05&#x2f;10 19:36</span></li>
+        
+          <li><a href="https:&#x2f;&#x2f;news.google.com&#x2f;rss&#x2f;articles&#x2f;CBMi3AFBVV95cUxQbks0NkNqS1Z0bmlDSkNEVkt3U1dpUzJFS0tCcmtQYUxpYTJ3ZzVCbHFRemR2MXFCaWpodUtZTmdaSkF5dHhQd3ZpWm1JRUdCNm5zRjZSNlMyWnBjX1RBN3RQS2UyaGdFR0Vjd3lHMzZxTTVzNHVrX2lzNzJtMkZzSV9YQkhpcnRlOVU1cFJfUXBLX01GUk9vTTBodmdtdWxLQXVhNVlPUUlZcTdSaGFjb2dsdllIVm9xMUdWYXUyM01NRWVOaFF2X3hRM1NmTjFVR05VRUp4ZTBoNTF6?oc=5" target="_blank" rel="noopener">Liminar exclui receitas próprias da Defensoria Pública da União do teto de gastos do arcabouço fiscal</a> <span class="meta">— Radar STF (site oficial) (via Google News), 05&#x2f;10 17:50</span></li>
+        
+        </ul>
+        
+      </details>
+    </div>
+    
+  </article>
+  
+  <article id="camara" class="casa">
+    <h2>Câmara dos Deputados</h2>
+    <p class="vazio">Não houve sessão deliberativa no Plenário nesta segunda-feira (5), dia seguinte ao 1º turno.</p>
+
+    
+  </article>
+  
+  <article id="senado" class="casa">
+    <h2>Senado Federal</h2>
+    <p class="vazio">Não houve sessão deliberativa no Plenário nesta segunda-feira (5). A pauta de terça (6) traz a PEC 221&#x2f;2019, que acaba com a escala 6x1.</p>
+
+    
+  </article>
+  
+</section>
+
+
+<footer>
+  <p>Gerado em 03&#x2f;11&#x2f;2026 18:40. Cada afirmação traz pelo menos um trecho copiado literalmente de uma fonte coletada, e esses trechos são conferidos automaticamente antes da publicação. Quando um lado aparece como “nenhum posicionamento encontrado”, isso só significa que as fontes consultadas não trouxeram uma posição. Não quer dizer que o lado não tenha opinião.</p>
+  <p>Em “Atuação dos Poderes”, pauta e resultado da Câmara e do Senado vêm dos dados abertos oficiais de cada Casa. Na Câmara, o que foi dito em Plenário vem da transcrição automática do vídeo da sessão (TV Câmara no YouTube), que pode errar palavras; o link de cada trecho abre o vídeo no momento citado. Para o STF, vêm da imprensa especializada, porque o tribunal não publica dados abertos de pauta. Orientações de bancada e votos por partido contam como posicionamento.</p>
+  <p>A classificação dos veículos por linha editorial é aproximada. Ela serve para mostrar o equilíbrio da cobertura, não para julgar cada veículo.</p>
+</footer>
+</div>
+</body>
+</html>

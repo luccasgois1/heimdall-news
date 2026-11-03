@@ -1,0 +1,1235 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Heimdall News — 2026-10-10</title>
+<style>
+:root {
+  --bg: #f7f6f3; --surface: #ffffff; --text: #1d1d1f; --muted: #66645f; --line: #e3e0d9;
+  --accent: #3b5b7a; --quote-bg: #f2f0eb; --empty: #8a877f;
+  --ok: #2f7d4f; --bad: #b3413b; --warn: #9a6a12;
+  --serif: "Iowan Old Style", "Charter", Georgia, serif;
+  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #141414; --surface: #1d1d1d; --text: #ecebe8; --muted: #a3a09a; --line: #333230;
+          --accent: #8fb3d6; --quote-bg: #252423; --empty: #85827b;
+          --ok: #6cc08b; --bad: #e88a84; --warn: #e0b45c; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 var(--serif); }
+.wrap { max-width: 1080px; margin: 0 auto; padding: 32px 16px 80px; }
+a { color: var(--accent); }
+header h1 { font: 700 2rem/1.2 var(--sans); margin: 0 0 4px; letter-spacing: -0.02em; }
+header p { font-family: var(--sans); color: var(--muted); margin: 0; font-size: .9rem; }
+.video { position: relative; margin: 16px 0 0; aspect-ratio: 16 / 9; border-radius: 12px; overflow: hidden; background: #000; }
+.video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.video-link { margin: 8px 0 0; font-size: .9rem; color: var(--muted); }
+.voltar { display: inline-block; font: .88rem var(--sans); margin-bottom: 12px; }
+nav.sumario { margin: 28px 0 40px; padding: 20px 24px; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; }
+nav.sumario ol { margin: 0; padding-left: 1.4em; font-family: var(--sans); font-size: .98rem; }
+nav.sumario li { margin: 4px 0; }
+nav.sumario a { text-decoration: none; }
+nav.sumario a:hover { text-decoration: underline; }
+article { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 28px; margin-bottom: 28px; }
+article h2 { font: 700 1.45rem/1.3 var(--sans); margin: 0 0 6px; letter-spacing: -0.01em; }
+.n { color: var(--muted); font-weight: 500; margin-right: .35em; }
+.cobertura { font-family: var(--sans); font-size: .82rem; color: var(--muted); margin: 0 0 20px; }
+.cobertura span.l { display: inline-block; margin: 2px 10px 2px 0; }
+.cobertura b { font-weight: 600; color: var(--text); }
+h3 { font: 600 .78rem/1 var(--sans); text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin: 26px 0 10px; }
+.contexto p { margin: 0 0 10px; }
+sup a { font: 600 .7rem var(--sans); text-decoration: none; padding: 0 1px; }
+.lados { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+.lado { border: 1px solid var(--line); border-top: 4px solid var(--cor, var(--line)); border-radius: 10px; padding: 16px; }
+.lado h4 { font: 700 .95rem/1.3 var(--sans); margin: 0 0 12px; padding-bottom: 8px; border-bottom: 1px solid var(--line); }
+.sem-posicao { color: var(--empty); font-style: italic; font-size: .9rem; margin: 10px 0 0; }
+.sem-posicao span { white-space: nowrap; }
+.sem-posicao i { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin: 0 4px 0 2px; vertical-align: baseline; }
+.pos { margin-bottom: 16px; }
+.pos:last-child { margin-bottom: 0; }
+.quem { font: 600 .85rem/1.4 var(--sans); margin-bottom: 6px; display: flex; align-items: center; gap: 10px; }
+.rostos { display: flex; flex-shrink: 0; }
+.rosto { width: 42px; height: 42px; border-radius: 50%; object-fit: cover; object-position: center 20%; border: 2px solid var(--surface); background: var(--quote-bg); box-shadow: 0 0 0 1px var(--line); }
+.rostos .rosto + .rosto { margin-left: -12px; }
+.rosto.sem { display: inline-flex; align-items: center; justify-content: center; font: 700 .68rem/1 var(--sans); color: #fff; background: var(--cor, var(--muted)); letter-spacing: .02em; overflow: hidden; }
+.capa { margin: -28px -28px 22px; border-radius: 12px 12px 0 0; overflow: hidden; background: var(--quote-bg); }
+.capa img { display: block; width: 100%; aspect-ratio: 2 / 1; max-height: 380px; object-fit: cover; }
+.capa figcaption { font: .74rem var(--sans); color: var(--muted); padding: 6px 28px 0; text-align: right; background: var(--surface); }
+@media (max-width: 600px) { article { padding: 20px; } .capa { margin: -20px -20px 18px; } .capa figcaption { padding: 6px 20px 0; } }
+.pos p { margin: 0 0 6px; font-size: .97rem; }
+blockquote { margin: 6px 0 0; padding: 8px 12px; background: var(--quote-bg); border-left: 3px solid var(--line); font-size: .88rem; color: var(--muted); border-radius: 0 6px 6px 0; }
+blockquote cite { display: block; font: normal .75rem var(--sans); margin-top: 4px; }
+.vazio { color: var(--empty); font-style: italic; font-size: .92rem; margin: 0; }
+details { margin-top: 22px; font-family: var(--sans); font-size: .85rem; }
+summary { cursor: pointer; color: var(--muted); font-weight: 600; }
+ol.refs, ul.rel { padding-left: 1.6em; margin: 10px 0 0; }
+ol.refs li, ul.rel li { margin: 6px 0; }
+.meta { color: var(--muted); }
+.poderes-link { font-family: var(--sans); font-size: .9rem; margin: 14px 0 0; padding-top: 12px; border-top: 1px solid var(--line); }
+.poderes-link a { text-decoration: none; }
+h2.secao { font: 700 1.6rem/1.2 var(--sans); margin: 48px 0 4px; letter-spacing: -0.01em; }
+.secao-sub { font-family: var(--sans); color: var(--muted); margin: 0 0 20px; font-size: .92rem; }
+.casa > h2 { margin-bottom: 14px; }
+.item { border-top: 1px solid var(--line); padding: 18px 0 6px; }
+.item:first-of-type { border-top: 0; padding-top: 4px; }
+.item-topo { display: flex; gap: 12px; align-items: baseline; justify-content: space-between; flex-wrap: wrap; }
+.item-titulo { font: 700 1.08rem/1.35 var(--sans); margin: 0; text-transform: none; letter-spacing: 0; color: var(--text); }
+.situacao { font: 600 .74rem/1 var(--sans); text-transform: uppercase; letter-spacing: .06em; padding: 5px 9px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); white-space: nowrap; }
+.s-aprovado, .s-julgado { color: var(--ok); border-color: var(--ok); }
+.s-rejeitado { color: var(--bad); border-color: var(--bad); }
+.s-adiado, .s-pedido_de_vista, .s-retirado_de_pauta, .s-em_andamento { color: var(--warn); border-color: var(--warn); }
+.s-pautado { color: var(--accent); border-color: var(--accent); }
+.item-fatos { margin: 12px 0 16px; display: grid; grid-template-columns: max-content 1fr; gap: 6px 14px; }
+.item-fatos dt { font: 600 .74rem/1.9 var(--sans); text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+.item-fatos dd { margin: 0; }
+@media (max-width: 600px) { .item-fatos { grid-template-columns: 1fr; } .item-fatos dd { margin-bottom: 8px; } }
+.destaques { margin-top: 16px; border: 1px solid var(--line); border-radius: 10px; padding: 16px; }
+.destaques h4 { font: 700 .95rem/1.3 var(--sans); margin: 0 0 12px; }
+.abas { margin-top: 14px; }
+.abas > input { position: absolute; opacity: 0; pointer-events: none; }
+.abas > label { display: inline-block; font: 600 .82rem/1 var(--sans); padding: 9px 14px; margin: 0 4px -1px 0; border: 1px solid var(--line); border-bottom: 0; border-radius: 8px 8px 0 0; color: var(--muted); cursor: pointer; background: var(--bg); }
+.abas > input:checked + label { color: var(--text); background: var(--surface); border-color: var(--line); position: relative; z-index: 1; }
+.abas > input:focus-visible + label { outline: 2px solid var(--accent); }
+.painel { display: none; border: 1px solid var(--line); border-radius: 0 10px 10px 10px; padding: 16px; }
+.abas > input.t-pos:checked ~ .painel-pos, .abas > input.t-det:checked ~ .painel-det { display: block; }
+.painel h4 { font: 700 .95rem/1.3 var(--sans); margin: 18px 0 10px; }
+.painel h4:first-child { margin-top: 0; }
+.alerta { border-left: 4px solid var(--warn); padding: 4px 0 4px 12px; margin-bottom: 14px; }
+.alerta.a-jabuti, .alerta.a-casuismo { border-left-color: var(--bad); }
+.alerta .tipo { font: 700 .72rem/1 var(--sans); text-transform: uppercase; letter-spacing: .06em; color: var(--warn); }
+.alerta.a-jabuti .tipo, .alerta.a-casuismo .tipo { color: var(--bad); }
+.alerta p { margin: 4px 0 6px; font-size: .97rem; }
+.conclusao { margin: 16px 0 0; padding: 12px 14px; background: var(--quote-bg); border-radius: 8px; font-size: .97rem; }
+.conclusao b { font-family: var(--sans); }
+.estudo { font-family: var(--sans); font-size: .8rem; color: var(--muted); margin: 10px 0 0; }
+nav.sumario ul.pauta { margin: 4px 0 8px; padding-left: 1.4em; font-family: var(--sans); font-size: .88rem; }
+@media print {
+  @page { size: A4; margin: 12mm 11mm; }
+  :root { --bg: #fff; --surface: #fff; --text: #1d1d1f; --muted: #5f5d58; --line: #dedad2;
+          --accent: #2f5577; --quote-bg: #f3f1ec; --empty: #85827b; --ok: #2f7d4f; --bad: #b3413b; --warn: #94650f; }
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body { font-size: 10.5pt; line-height: 1.45; background: #fff; }
+  .wrap { max-width: none; padding: 0; }
+  .voltar, .video, .abas > label, .abas > input { display: none; }
+  header p a { text-decoration: none; color: inherit; }
+  nav.sumario { margin: 14px 0 0; }
+  article { border: 0; padding: 0; margin: 0; }
+  article:not(.casa) + article, .poderes { break-before: page; }
+  .capa { margin: 0 0 14px; border-radius: 8px; }
+  .capa img { max-height: 300px; }
+  .capa figcaption { padding: 4px 0 0; }
+  h2, h3, h4, .quem, .item-topo { break-after: avoid; }
+  .pos, blockquote, .capa, .alerta, .item-fatos { break-inside: avoid; }
+  /* A grade não se divide entre páginas no Chrome: em coluna única, cada quadro pode quebrar. */
+  .lados { display: block; }
+  .lado { break-inside: auto; margin-bottom: 10px; }
+  .painel { display: block !important; border-radius: 10px; margin-top: 10px; }
+  .painel-det::before { content: "Detalhes da proposta"; display: block; font: 700 1rem/1.3 var(--sans); margin-bottom: 10px; }
+  details > summary { list-style: none; color: var(--text); }
+  .item { break-inside: auto; }
+}
+footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); border-top: 1px solid var(--line); padding-top: 18px; }
+</style>
+</head>
+<body>
+
+
+<div class="wrap">
+<a class="voltar" href="..&#x2f;..&#x2f;index.html">← Heimdall News</a>
+<header>
+  <h1>Heimdall News</h1>
+  <p>sábado, 10 de outubro de 2026 · 10 assuntos · 16 veículos e fontes · <a href="..&#x2f;..&#x2f;index.html">dias anteriores</a></p>
+  <p class="video-link">O vídeo deste briefing ainda não foi postado.</p>
+</header>
+
+<nav class="sumario" aria-label="Assuntos do dia">
+  <ol>
+  <li><a href="#t1">Áudio atribuído a Vorcaro diz que ele “colocou” dinheiro em filme sobre Lula; PF e PGR negam depoimento, e campanha de Lula aciona TSE, PF e Justiça</a></li><li><a href="#t2">Fim da escala 6x1: Alcolumbre marca para quarta (14) a votação em 1º turno da PEC no Senado</a></li><li><a href="#t3">STF: Fachin nega a Fux acesso imediato ao inquérito das fake news e indica arquivamento; Nunes Marques diz que impeachment de ministros é pauta do Senado</a></li><li><a href="#t4">Ameaças: STF identifica mensagens de morte contra ministros e Fachin aciona a PF; Ministério da Justiça pede inquérito sobre ameaças à deputada eleita Ana Elisa (PT-MG)</a></li><li><a href="#t5">Guerra judicial no TSE: site de criptomoeda pró-Flávio é suspenso, PT pede cassação da chapa de Flávio por uso do perfil de Marçal, e posts de Flávio que ligam Lula a facções são removidos</a></li><li><a href="#t6">Governo zera impostos federais sobre a gasolina por 30 dias e edita 9ª MP de subsídio a combustíveis; Fazenda nega motivação eleitoral</a></li><li><a href="#t7">Debates: Record cancela o primeiro encontro entre Lula e Flávio; Datafolha mostra que 78% consideram muito importante que participem</a></li><li><a href="#t8">Propaganda na TV volta: Flávio promete manter Bolsa Família e anuncia “Ministério da Prosperidade”; Lula fala em cortes e diz que o país não será governado pelo “fascismo”</a></li><li><a href="#t9">Próximo presidente indicará ao menos 4 ministros do STF: Lula defende mandato fixo; Flávio promete ministros “contra o aborto, contra as drogas”</a></li><li><a href="#t10">Reações no 2º turno: Renan Santos chama Cury de “comédia” e mantém neutralidade; Anitta declara voto em Lula; Cleitinho diz que Flávio renegociará dívida de MG</a></li>
+  </ol>
+  
+  <p class="poderes-link"><a href="#poderes">Atuação dos Poderes</a>:
+    <a href="#stf">Supremo Tribunal Federal</a> (2) · <a href="#camara">Câmara dos Deputados</a> (0) · <a href="#senado">Senado Federal</a> (0)
+  </p>
+  
+  <ul class="pauta" aria-label="Supremo Tribunal Federal">
+    <li><a href="#stf1">Pedido de Fux de acesso integral ao inquérito das fake news e a outros inquéritos sigilosos</a> <span class="meta">· Julgado</span></li><li><a href="#stf2">Ameaças contra ministros (Flávio Dino)</a> <span class="meta">· Em andamento</span></li>
+  </ul>
+  
+  
+</nav>
+
+
+
+<article id="t1">
+  
+  <h2><span class="n">1.</span>Áudio atribuído a Vorcaro diz que ele “colocou” dinheiro em filme sobre Lula; PF e PGR negam depoimento, e campanha de Lula aciona TSE, PF e Justiça</h2>
+  <p class="cobertura">Cobertura (10):
+    <span class="l"><b>Imprensa mais à esquerda</b> — Brasil de Fato, CartaCapital</span><span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — CNN Brasil, Estadão, Folha, G1, JOTA, Poder360</span><span class="l"><b>Imprensa mais à direita</b> — Gazeta do Povo, Revista Oeste</span>
+  </p>
+
+  <h3>O que aconteceu</h3>
+  <div class="contexto">
+  
+    <p>A Veja divulgou áudio em que Vorcaro diz ter posto dinheiro no documentário sobre Lula, sem citar valores nem provas; um advogado confirmou a voz e outro não reconheceu a autenticidade.<sup><a href="#t1r1" title="“Na gravação, ele não indica os elementos de corroboração nem menciona valores” — Estadão">[1]</a></sup></p>
+  
+    <p>PF e PGR negaram que Vorcaro tenha prestado depoimento ou entregue documentos sobre o tema.<sup><a href="#t1r2" title="“Em nota, a Polícia Federal afirmou que Vorcaro não prestou depoimento com o conteúdo descrito pela revista nem entregou à instituição documentos ou informações sobre o assunto” — G1">[2]</a></sup></p>
+  
+    <p>A campanha de Lula anunciou cinco medidas, entre elas direito de resposta no TSE, notícia-crime na PF e ação por danos morais; a AGU pedirá direito de resposta.<sup><a href="#t1r3" title="“A campanha do presidente Luiz Inácio Lula da Silva anunciou cinco medidas contra a divulgação de um áudio atribuído ao dono do Banco Master” — Estadão">[3]</a></sup><sup><a href="#t1r4" title="“A Advocacia-Geral da União (AGU) informou que vai solicitar direito de resposta e retificação das informações divulgadas na reportagem da revista Veja.” — JOTA">[4]</a></sup></p>
+  
+    <p>Segundo a Veja, citada pela Revista Oeste, o relato envolveria R$ 30 milhões e acesso a fundos de pensão; Lula negou ter pedido ou recebido vantagem.<sup><a href="#t1r5" title="“O ex-banqueiro Daniel Vorcaro, do Banco Master, alegou ter negociado R$ 30 milhões para um documentário sobre Lula” — Revista Oeste">[5]</a></sup><sup><a href="#t1r6" title="“jamais solicitou ou recebeu qualquer vantagem financeira, nem autorizou terceiros a receberem recursos de Vorcaro em seu nome” — Brasil de Fato">[6]</a></sup></p>
+  
+  </div>
+
+  <h3>Como cada campo político se posicionou</h3>
+  <div class="lados">
+  
+
+    <section class="lado" style="--cor: #2e7d32">
+      <h4>Pró-governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">CL</span></span><span>Coordenação da coligação de Lula (nota)</span></div>
+        <p>Classificou a reportagem como peça eleitoral e o suposto depoimento como farsa.<sup><a href="#t1r6">[6]</a></sup></p>
+        
+        <blockquote>“A reportagem é uma peça eleitoral irresponsável baseada em outra peça eleitoral”<cite><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;09&#x2f;peca-eleitoral-irresponsavel-diz-campanha-de-lula-sobre-reportagem-da-veja-com-acusacoes-sem-provas-relacionadas-a-vorcaro&#x2f;" target="_blank" rel="noopener">Brasil de Fato</a></cite></blockquote>
+        
+      </div>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">ES</span></span><span>Edinho Silva, presidente do PT</span></div>
+        <p>Disse que os relatos têm viés político e não têm prova.<sup><a href="#t1r7">[7]</a></sup></p>
+        
+        <blockquote>“Porque ela é uma declaração claramente com viés político. Portanto ela não tem base material alguma, não tem prova nenhuma”<cite><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;colunas&#x2f;painel&#x2f;2026&#x2f;10&#x2f;em-audio-a-militancia-presidente-do-pt-diz-que-depoimento-de-vorcaro-sobre-filme-de-lula-tem-vies-politico.shtml" target="_blank" rel="noopener">Folha</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+
+    <section class="lado" style="--cor: #81c784">
+      <h4>Centro pró-governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">TF</span></span><span>Tarcísio de Freitas (Republicanos), governador de SP</span></div>
+        <p>Cobrou explicações de Lula sobre o financiamento do filme.<sup><a href="#t1r8">[8]</a></sup></p>
+        
+        <blockquote>“E eu quero saber agora se ele não sabia que recebeu dinheiro pra financiar o próprio filme. Diz aí, Lula”<cite><a href="https:&#x2f;&#x2f;www.poder360.com.br&#x2f;poder-eleicoes-2026&#x2f;tarcisio-questiona-lula-apos-audio-de-vorcaro-sobre-filme&#x2f;" target="_blank" rel="noopener">Poder360</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+              
+  </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #9e9e9e"></i>Centro</span>, <span><i style="background: #ffb74d"></i>Centro-oposição</span>, <span><i style="background: #e65100"></i>Oposição ao governo</span>, <span><i style="background: #6a1b9a"></i>Independente — Missão &#x2f; MBL</span>, <span><i style="background: #78909c"></i>Outros &#x2f; não classificável</span>.</p>
+
+  <details>
+    <summary>Referências (8) e outras matérias sobre o tema (8)</summary>
+    <ol class="refs">
+    
+      <li id="t1r1"><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;vorcaro-diz-em-audio-que-colocou-dinheiro-em-filme-de-lula-pf-e-pgr-negam-que-esteja-em-delacao&#x2f;" target="_blank" rel="noopener">Vorcaro diz em áudio que ‘colocou’ dinheiro em filme de Lula; PF e PGR negam que esteja em delação</a> <span class="meta">— Estadão, 09&#x2f;10 19:03</span></li>
+    
+      <li id="t1r2"><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;09&#x2f;pf-e-pgr-negam-que-vorcaro-tenha-afirmado-em-delacao-que-financiou-documentario-sobre-lula.ghtml" target="_blank" rel="noopener">PF e PGR negam que Vorcaro tenha afirmado que financiou documentário sobre Lula</a> <span class="meta">— G1, 09&#x2f;10 20:56</span></li>
+    
+      <li id="t1r3"><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;pt-faz-cinco-acoes-contra-divulgacao-de-audio-atribuido-a-vorcaro&#x2f;" target="_blank" rel="noopener">PT faz cinco ações contra divulgação de áudio atribuído a Vorcaro</a> <span class="meta">— Estadão, 09&#x2f;10 21:55</span></li>
+    
+      <li id="t1r4"><a href="https:&#x2f;&#x2f;www.jota.info&#x2f;eleicoes&#x2f;eleicoes-2026&#x2f;agu-vai-pedir-direito-de-resposta-e-retificacoes-de-informacoes-de-que-ligam-vorcaro-a-lula" target="_blank" rel="noopener">AGU vai pedir direito de resposta e retificações de informações de que ligam Vorcaro a Lula</a> <span class="meta">— JOTA, 09&#x2f;10 19:22</span></li>
+    
+      <li id="t1r5"><a href="https:&#x2f;&#x2f;revistaoeste.com&#x2f;politica&#x2f;vorcaro-relata-pagamentos-por-filme-sobre-lula-e-esquema-com-petistas&#x2f;" target="_blank" rel="noopener">Vorcaro relata pagamentos por filme sobre Lula e esquema com petistas</a> <span class="meta">— Revista Oeste, 09&#x2f;10 07:51</span></li>
+    
+      <li id="t1r6"><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;09&#x2f;peca-eleitoral-irresponsavel-diz-campanha-de-lula-sobre-reportagem-da-veja-com-acusacoes-sem-provas-relacionadas-a-vorcaro&#x2f;" target="_blank" rel="noopener">‘Peça eleitoral irresponsável’, diz campanha de Lula sobre reportagem da Veja com acusações sem provas relacionadas a Vorcaro</a> <span class="meta">— Brasil de Fato, 09&#x2f;10 12:39</span></li>
+    
+      <li id="t1r7"><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;colunas&#x2f;painel&#x2f;2026&#x2f;10&#x2f;em-audio-a-militancia-presidente-do-pt-diz-que-depoimento-de-vorcaro-sobre-filme-de-lula-tem-vies-politico.shtml" target="_blank" rel="noopener">Presidente do PT diz que suposto depoimento de Vorcaro sobre filme de Lula tem viés político</a> <span class="meta">— Folha, 09&#x2f;10 10:10</span></li>
+    
+      <li id="t1r8"><a href="https:&#x2f;&#x2f;www.poder360.com.br&#x2f;poder-eleicoes-2026&#x2f;tarcisio-questiona-lula-apos-audio-de-vorcaro-sobre-filme&#x2f;" target="_blank" rel="noopener">Tarcísio questiona Lula após áudio de Vorcaro sobre filme</a> <span class="meta">— Poder360, 10&#x2f;10 07:58</span></li>
+    
+    </ol>
+    
+    <ul class="rel">
+    
+      <li><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;09&#x2f;defesa-de-vorcaro-desconhece-audio-pf-e-pgr-desmentem-relato-da-veja-sobre-lula&#x2f;" target="_blank" rel="noopener">Defesa de Vorcaro desconhece áudio; PF e PGR desmentem relato da Veja sobre Lula</a> <span class="meta">— Brasil de Fato, 09&#x2f;10 16:44</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.cnnbrasil.com.br&#x2f;politica&#x2f;professor-descarta-valor-juridico-de-audio-de-vorcaro-sobre-filme-de-lula&#x2f;" target="_blank" rel="noopener">Professor descarta valor jurídico de áudio de Vorcaro sobre filme de Lula</a> <span class="meta">— CNN Brasil, 10&#x2f;10 03:32</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;republica&#x2f;autoridades-investigam-suposto-repasse-milionario-para-documentario-de-lula&#x2f;" target="_blank" rel="noopener">Autoridades investigam suposto repasse milionário para documentário de Lula</a> <span class="meta">— Gazeta do Povo, 10&#x2f;10 00:35</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;republica&#x2f;denuncia-de-financiamento-de-vorcaro-a-filme-de-lula-nao-passou-pela-pf-mas-deve-ser-investigada&#x2f;" target="_blank" rel="noopener">Denúncia de financiamento de Vorcaro a filme de Lula não passou pela PF, mas deve ser investigada</a> <span class="meta">— Gazeta do Povo, 09&#x2f;10 21:09</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;republica&#x2f;em-audio-vorcaro-compara-repasses-a-filmes-do-lula-foi-errado-do-flavio-nao-foi&#x2f;" target="_blank" rel="noopener">Vorcaro relata pagamentos por filme sobre Lula; PF diz não ter provas</a> <span class="meta">— Gazeta do Povo, 09&#x2f;10 15:24</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;justica&#x2f;pgr-nega-depoimento-oral-de-vorcaro-e-diz-que-nao-houve-contato-direto-com-banqueiro&#x2f;" target="_blank" rel="noopener">PGR nega depoimento oral de Vorcaro e diz que não houve contato direto com banqueiro</a> <span class="meta">— CartaCapital, 09&#x2f;10 12:50</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;pf-e-pgr-negam-que-vorcaro-tenha-afirmado-que-financiou-documentario-sobre-lula.shtml" target="_blank" rel="noopener">PF e PGR negam que Vorcaro tenha afirmado que financiou documentário sobre Lula</a> <span class="meta">— Folha, 09&#x2f;10 14:24</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;republica&#x2f;agu-cobra-direito-de-resposta-apos-reportagem-sobre-vorcaro-e-filme-de-lula&#x2f;" target="_blank" rel="noopener">AGU cita eleições e cobra direito de resposta após reportagem sobre Vorcaro e filme de Lula</a> <span class="meta">— Gazeta do Povo, 09&#x2f;10 19:19</span></li>
+    
+    </ul>
+    
+  </details>
+</article>
+
+<article id="t2">
+  
+  <h2><span class="n">2.</span>Fim da escala 6x1: Alcolumbre marca para quarta (14) a votação em 1º turno da PEC no Senado</h2>
+  <p class="cobertura">Cobertura (5):
+    <span class="l"><b>Imprensa mais à esquerda</b> — Brasil de Fato</span><span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — G1, moneytimes.com.br</span><span class="l"><b>Imprensa mais à direita</b> — Gazeta do Povo, Revista Oeste</span>
+  </p>
+
+  <h3>O que aconteceu</h3>
+  <div class="contexto">
+  
+    <p>A pauta de quarta prevê a última sessão de discussão e a votação em 1º turno; são necessários 49 votos em cada turno.<sup><a href="#t2r1" title="“A pauta prevê a última sessão para discussão da proposta e a votação em primeiro turno do texto no Plenário da Casa.” — G1">[1]</a></sup><sup><a href="#t2r2" title="“Para ser aprovada, uma PEC precisa ter, pelo menos, 49 votos favoráveis dos senadores, em duas votações.” — Brasil de Fato">[2]</a></sup></p>
+  
+    <p>O texto reduz a jornada de 44 para 40 horas, com dois dias de descanso, sem redução salarial; foi aprovado pela Câmara em 27 de maio.<sup><a href="#t2r3" title="“A proposta, que reduz a jornada semanal de 44 para 40 horas e estabelece dois dias de descanso, foi aprovada pela Câmara em 27 de maio” — Revista Oeste">[3]</a></sup></p>
+  
+    <p>A quebra de interstício permitiria votar os dois turnos no mesmo dia, se houver acordo de lideranças.<sup><a href="#t2r4" title="“Com isso, a votação dos dois turnos da PEC poderia acontecer no mesmo dia.” — Gazeta do Povo">[4]</a></sup></p>
+  
+  </div>
+
+  <h3>Como cada campo político se posicionou</h3>
+  <div class="lados">
+  
+
+    <section class="lado" style="--cor: #2e7d32">
+      <h4>Pró-governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">LP</span></span><span>Lula (PT), presidente</span></div>
+        <p>Desafiou o PL a orientar sua bancada a favor da PEC.<sup><a href="#t2r2">[2]</a></sup></p>
+        
+        <blockquote>“O meu adversário vai ter que tomar uma decisão, se vai mandar a bancada do partido dele votar favorável ao fim da jornada de trabalho de 6×1.”<cite><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;09&#x2f;alcolumbre-pauta-votacao-do-fim-da-escala-6x1-para-a-proxima-quarta&#x2f;" target="_blank" rel="noopener">Brasil de Fato</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+      
+
+    <section class="lado" style="--cor: #9e9e9e">
+      <h4>Centro</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">DA</span></span><span>Davi Alcolumbre (União-AP), presidente do Senado</span></div>
+        <p>Disse cumprir o compromisso de pôr a PEC em votação.<sup><a href="#t2r4">[4]</a></sup></p>
+        
+        <blockquote>“Cumpro, assim, o compromisso de colocar a proposta em votação, com responsabilidade, diálogo e respeito ao rito regimental.”<cite><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;economia&#x2f;alcolumbre-marca-votacao-da-pec-do-fim-da-escala-6x1-para-proxima-quarta-14&#x2f;" target="_blank" rel="noopener">Gazeta do Povo</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+      
+
+    <section class="lado" style="--cor: #e65100">
+      <h4>Oposição ao governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">CR</span></span><span>Cleitinho (Republicanos-MG), senador e governador eleito</span></div>
+        <p>Comemorou a data da votação.<sup><a href="#t2r4">[4]</a></sup></p>
+        
+        <blockquote>“Em resposta, Cleitinho agradeceu e disse que &quot;quem ganha é o trabalhador&quot;.”<cite><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;economia&#x2f;alcolumbre-marca-votacao-da-pec-do-fim-da-escala-6x1-para-proxima-quarta-14&#x2f;" target="_blank" rel="noopener">Gazeta do Povo</a></cite></blockquote>
+        
+      </div>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">TC</span></span><span>Tereza Cristina (PP-MS), senadora</span></div>
+        <p>Pediu a Alcolumbre que a votação ficasse para depois das eleições.<sup><a href="#t2r1">[1]</a></sup></p>
+        
+        <blockquote>“a senadora Tereza Cristina (PP-MS) se reuniu com Alcolumbre para pedir que a votação da PEC fosse realizada somente depois das eleiç”<cite><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;09&#x2f;alcolumbre-pauta-votacao-de-pec-que-preve-fim-da-escala-6-x-1-para-a-proxima-quarta-feira.ghtml" target="_blank" rel="noopener">G1</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+
+    <section class="lado" style="--cor: #6a1b9a">
+      <h4>Independente — Missão &#x2f; MBL</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">RS</span></span><span>Renan Santos (Missão), em junho</span></div>
+        <p>Classificou a PEC como eleitoreira.<sup><a href="#t2r5">[5]</a></sup></p>
+        
+        <blockquote>“Santos classificou a proposta como puramente “eleitoreira” e alertou para os potenciais impactos macroeconômicos negativos na indústria e no comércio.”<cite><a href="https:&#x2f;&#x2f;www.moneytimes.com.br&#x2f;terceiro-colocado-e-terceira-via-como-renan-santos-missao-tenta-se-consolidar-como-opcao-nas-eleicoes-2026-gaep&#x2f;" target="_blank" rel="noopener">moneytimes.com.br</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+      
+  </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #81c784"></i>Centro pró-governo</span>, <span><i style="background: #ffb74d"></i>Centro-oposição</span>, <span><i style="background: #78909c"></i>Outros &#x2f; não classificável</span>.</p>
+
+  <details>
+    <summary>Referências (5)</summary>
+    <ol class="refs">
+    
+      <li id="t2r1"><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;09&#x2f;alcolumbre-pauta-votacao-de-pec-que-preve-fim-da-escala-6-x-1-para-a-proxima-quarta-feira.ghtml" target="_blank" rel="noopener">Alcolumbre pauta votação da PEC que prevê fim da escala 6x1 para a próxima quarta-feira</a> <span class="meta">— G1, 09&#x2f;10 18:51</span></li>
+    
+      <li id="t2r2"><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;09&#x2f;alcolumbre-pauta-votacao-do-fim-da-escala-6x1-para-a-proxima-quarta&#x2f;" target="_blank" rel="noopener">Alcolumbre pauta votação do fim da escala 6×1 para a próxima quarta</a> <span class="meta">— Brasil de Fato, 09&#x2f;10 20:52</span></li>
+    
+      <li id="t2r3"><a href="https:&#x2f;&#x2f;revistaoeste.com&#x2f;politica&#x2f;fim-da-escala-6x1-votacao-senado&#x2f;" target="_blank" rel="noopener">Alcolumbre define data para votar a PEC da Escala 6×1</a> <span class="meta">— Revista Oeste, 10&#x2f;10 06:06</span></li>
+    
+      <li id="t2r4"><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;economia&#x2f;alcolumbre-marca-votacao-da-pec-do-fim-da-escala-6x1-para-proxima-quarta-14&#x2f;" target="_blank" rel="noopener">Alcolumbre marca votação da PEC do fim da escala 6×1 para próxima quarta (14)</a> <span class="meta">— Gazeta do Povo, 09&#x2f;10 19:53</span></li>
+    
+      <li id="t2r5"><a href="https:&#x2f;&#x2f;www.moneytimes.com.br&#x2f;terceiro-colocado-e-terceira-via-como-renan-santos-missao-tenta-se-consolidar-como-opcao-nas-eleicoes-2026-gaep&#x2f;" target="_blank" rel="noopener">Terceiro colocado e terceira via: A &#x27;missão&#x27; de Renan Santos para se consolidar como opção à polarização nas eleições 2026 – Money Times</a> <span class="meta">— moneytimes.com.br, 01&#x2f;06 12:02</span></li>
+    
+    </ol>
+    
+  </details>
+</article>
+
+<article id="t3">
+  
+  <h2><span class="n">3.</span>STF: Fachin nega a Fux acesso imediato ao inquérito das fake news e indica arquivamento; Nunes Marques diz que impeachment de ministros é pauta do Senado</h2>
+  <p class="cobertura">Cobertura (6):
+    <span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — Conjur, Folha, G1, JOTA</span><span class="l"><b>Imprensa mais à direita</b> — Gazeta do Povo, Revista Oeste</span>
+  </p>
+
+  <h3>O que aconteceu</h3>
+  <div class="contexto">
+  
+    <p>Fachin rejeitou a ordem de Fux de acesso integral em 48 horas, citando 104 procedimentos pendentes; o acesso viria após o arquivamento definitivo.<sup><a href="#t3r1" title="“O presidente do Supremo Tribunal Federal (STF), Edson Fachin, rejeitou a determinação do ministro Luiz Fux que garantia a ele acesso integral e imediato ao conteúdo do inquérito das fake news.” — G1">[1]</a></sup><sup><a href="#t3r2" title="“Um levantamento realizado pela presidência do STF identificou 104 procedimentos vinculados ao inquérito fake news” — Gazeta do Povo">[2]</a></sup></p>
+  
+    <p>Fux pediu os autos antes de avaliar pedido do PP para anular investigações da trama golpista.<sup><a href="#t3r2" title="“Fux havia determinado que a área técnica da Corte liberasse a íntegra dos autos em 48 horas antes de avaliar um pedido do PP para anular investigações vinculadas ao processo sobre a suposta trama golpista.” — Gazeta do Povo">[2]</a></sup></p>
+  
+    <p>Nunes Marques, presidente do TSE, disse à Veja que o impeachment de ministros do STF cabe só ao Senado.<sup><a href="#t3r3" title="“Esse é um processo que cabe ser debatido apenas pelo Senado. Não é uma decisão judicial, não é competência do Supremo e também não é competência do TSE. É uma pauta política” — Gazeta do Povo">[3]</a></sup></p>
+  
+  </div>
+
+  <h3>Como cada campo político se posicionou</h3>
+  <div class="lados">
+              
+
+    <section class="lado" style="--cor: #78909c">
+      <h4>Outros &#x2f; não classificável</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">ME</span></span><span>Ministro Edson Fachin, presidente do STF</span></div>
+        <p>Disse que pretende concluir a análise e arquivar o inquérito, garantindo depois o acesso integral.<sup><a href="#t3r2">[2]</a></sup></p>
+        
+        <blockquote>“promover o arquivamento definitivo do inquérito, garantindo-se então a ampla publicidade de todos os atos e o acesso integral a que almeja o Ministro Luiz Fux”<cite><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;republica&#x2f;fachin-nega-acesso-imediato-de-fux-ao-inquerito-das-fake-news&#x2f;" target="_blank" rel="noopener">Gazeta do Povo</a></cite></blockquote>
+        
+      </div>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">ME</span></span><span>Ministro Edson Fachin, presidente do STF</span></div>
+        <p>Disse que o Judiciário pode ser reformado, mas não enfraquecido.<sup><a href="#t3r4">[4]</a></sup></p>
+        
+        <blockquote>“Não pode haver reforma contra o Poder Judiciário, mas somente com o Poder Judiciário”<cite><a href="https:&#x2f;&#x2f;www.jota.info&#x2f;stf&#x2f;do-supremo&#x2f;fachin-defende-constituicao-e-diz-que-judiciario-pode-ser-reformado-nao-enfraquecido" target="_blank" rel="noopener">JOTA</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+  </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #2e7d32"></i>Pró-governo</span>, <span><i style="background: #81c784"></i>Centro pró-governo</span>, <span><i style="background: #9e9e9e"></i>Centro</span>, <span><i style="background: #ffb74d"></i>Centro-oposição</span>, <span><i style="background: #e65100"></i>Oposição ao governo</span>, <span><i style="background: #6a1b9a"></i>Independente — Missão &#x2f; MBL</span>.</p>
+
+  <details>
+    <summary>Referências (4) e outras matérias sobre o tema (6)</summary>
+    <ol class="refs">
+    
+      <li id="t3r1"><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;09&#x2f;fachin-fux-fake-news.ghtml" target="_blank" rel="noopener">Fachin nega acesso imediato de Fux a inquérito das fake news e diz que caso segue para arquivamento definitivo</a> <span class="meta">— G1, 09&#x2f;10 17:51</span></li>
+    
+      <li id="t3r2"><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;republica&#x2f;fachin-nega-acesso-imediato-de-fux-ao-inquerito-das-fake-news&#x2f;" target="_blank" rel="noopener">Fachin nega acesso imediato de Fux ao inquérito das fake news</a> <span class="meta">— Gazeta do Povo, 09&#x2f;10 19:29</span></li>
+    
+      <li id="t3r3"><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;republica&#x2f;nunes-marques-afasta-stf-tse-decisoes-impeachment-ministros&#x2f;" target="_blank" rel="noopener">Nunes Marques afasta STF e TSE de decisões sobre impeachment de ministros</a> <span class="meta">— Gazeta do Povo, 09&#x2f;10 16:21</span></li>
+    
+      <li id="t3r4"><a href="https:&#x2f;&#x2f;www.jota.info&#x2f;stf&#x2f;do-supremo&#x2f;fachin-defende-constituicao-e-diz-que-judiciario-pode-ser-reformado-nao-enfraquecido" target="_blank" rel="noopener">Fachin defende Constituição e diz que Judiciário pode ser reformado, não enfraquecido</a> <span class="meta">— JOTA, 09&#x2f;10 15:24</span></li>
+    
+    </ol>
+    
+    <ul class="rel">
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;fachin-nega-acesso-imediato-a-fux-e-indica-arquivamento-definitivo-do-inquerito-das-fake-news.shtml" target="_blank" rel="noopener">Fachin nega acesso imediato a Fux e indica arquivamento definitivo do inquérito das fake news</a> <span class="meta">— Folha, 09&#x2f;10 18:45</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;conjur.com.br&#x2f;2026-out-09&#x2f;fachin-nega-a-fux-acesso-imediato-ao-inquerito-das-fake-news&#x2f;" target="_blank" rel="noopener">Fachin nega a Luiz Fux acesso imediato ao Inquérito das Fake News</a> <span class="meta">— Conjur, 09&#x2f;10 21:19</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;revistaoeste.com&#x2f;politica&#x2f;nunes-marques-impeachment-de-ministros-do-stf-cabe-ao-senado&#x2f;" target="_blank" rel="noopener">Nunes Marques: impeachment de ministros do STF cabe ao Senado</a> <span class="meta">— Revista Oeste, 09&#x2f;10 23:56</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;republica&#x2f;ministros-do-stf-adotam-decisoes-moderadas-apos-avanco-da-direita-nas-urnas&#x2f;" target="_blank" rel="noopener">Ministros do STF adotam decisões moderadas após avanço da direita nas urnas</a> <span class="meta">— Gazeta do Povo, 09&#x2f;10 21:26</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;republica&#x2f;stf-manobras-estrategicas-desempenho-eleitoral-flavio&#x2f;" target="_blank" rel="noopener">Moderação repentina de ministros do STF aponta enfraquecimento e possível manobra</a> <span class="meta">— Gazeta do Povo, 09&#x2f;10 17:25</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;republica&#x2f;vorcaro-afirma-que-repassou-dinheiro-para-producao-de-filme-sobre-lula-mas-pf-nega&#x2f;" target="_blank" rel="noopener">Fux amplia pressão sobre Moraes e pede acesso a inquéritos da trama golpista</a> <span class="meta">— Gazeta do Povo, 09&#x2f;10 15:43</span></li>
+    
+    </ul>
+    
+  </details>
+</article>
+
+<article id="t4">
+  
+  <h2><span class="n">4.</span>Ameaças: STF identifica mensagens de morte contra ministros e Fachin aciona a PF; Ministério da Justiça pede inquérito sobre ameaças à deputada eleita Ana Elisa (PT-MG)</h2>
+  <p class="cobertura">Cobertura (6):
+    <span class="l"><b>Imprensa mais à esquerda</b> — Brasil de Fato, CartaCapital</span><span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — Folha, G1</span><span class="l"><b>Imprensa mais à direita</b> — Gazeta do Povo</span><span class="l"><b>Partidos e movimentos</b> — PT (site oficial)</span>
+  </p>
+
+  <h3>O que aconteceu</h3>
+  <div class="contexto">
+  
+    <p>Relatório interno do STF identificou no X ameaças de fuzilamento, explosão, enforcamento e esquartejamento de ministros, parte delas após o 1º turno.<sup><a href="#t4r1" title="“Um relatório interno do STF (Supremo Tribunal Federal) identificou na rede social X, ameaças de fuzilamento, explosão, enforcamento e esquartejamento de ministros da corte.” — Folha">[1]</a></sup><sup><a href="#t4r2" title="“Uma das publicações listadas no relatório do STF diz que Dino seria o “primeiro a ser fuzilado”” — CartaCapital">[2]</a></sup></p>
+  
+    <p>Fachin encaminhou à PF avaliação de segurança sobre as ameaças a Dino.<sup><a href="#t4r1" title="“Fachin afirmou ter encaminhado à Polícia Federal avaliação técnica de segurança relativa às ameaças identificadas contra Dino” — Folha">[1]</a></sup></p>
+  
+    <p>O Ministério da Justiça pediu à PF inquérito sobre ameaças de morte e estupro contra Ana Elisa, que desativou sua conta no X.<sup><a href="#t4r3" title="“O Ministério da Justiça e Segurança Pública pediu à Polícia Federal nesta sexta-feira (9) a abertura de um inquérito para investigar ameaças de morte e estupro contra a deputada federal eleita por Minas Gerais Ana Elisa Santos Silva (PT).” — G1">[3]</a></sup></p>
+  
+  </div>
+
+  <h3>Como cada campo político se posicionou</h3>
+  <div class="lados">
+  
+
+    <section class="lado" style="--cor: #2e7d32">
+      <h4>Pró-governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">SN</span></span><span>Secretaria Nacional de Mulheres do PT (nota)</span></div>
+        <p>Repudiou os ataques a Ana Elisa e pediu punição.<sup><a href="#t4r4">[4]</a></sup></p>
+        
+        <blockquote>“A Secretaria exige das autoridades competentes e dos órgãos de segurança pública a apuração rigorosa e a punição célere e exemplar dos autores dessas agressões.”<cite><a href="https:&#x2f;&#x2f;pt.org.br&#x2f;mulheres-do-pt-repudiam-ataques-racistas-e-ameacas-contra-ana-elisa&#x2f;" target="_blank" rel="noopener">PT (site oficial)</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+              
+
+    <section class="lado" style="--cor: #78909c">
+      <h4>Outros &#x2f; não classificável</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">MF</span></span><span>Ministro Flávio Dino, do STF</span></div>
+        <p>Disse que as ameaças derivam de mentiras e que não mudará sua atuação.<sup><a href="#t4r2">[2]</a></sup></p>
+        
+        <blockquote>“O ódio exposto nas mensagens deriva da repetição de mentiras, visando causar violência”<cite><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;politica&#x2f;dino-relata-ameacas-nas-redes-sociais-o-odio-deriva-da-repeticao-de-mentiras&#x2f;" target="_blank" rel="noopener">CartaCapital</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+  </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #81c784"></i>Centro pró-governo</span>, <span><i style="background: #9e9e9e"></i>Centro</span>, <span><i style="background: #ffb74d"></i>Centro-oposição</span>, <span><i style="background: #e65100"></i>Oposição ao governo</span>, <span><i style="background: #6a1b9a"></i>Independente — Missão &#x2f; MBL</span>.</p>
+
+  <details>
+    <summary>Referências (4) e outras matérias sobre o tema (9)</summary>
+    <ol class="refs">
+    
+      <li id="t4r1"><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;blogs&#x2f;brasilia-hoje&#x2f;2026&#x2f;10&#x2f;relatorio-do-stf-identifica-na-rede-x-ameacas-de-fuzilamento-esquartejamento-e-enforcamento-de-ministros.shtml" target="_blank" rel="noopener">Relatório do STF identifica na rede X ameaças de fuzilamento, esquartejamento e enforcamento de ministros</a> <span class="meta">— Folha, 09&#x2f;10 11:26</span></li>
+    
+      <li id="t4r2"><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;politica&#x2f;dino-relata-ameacas-nas-redes-sociais-o-odio-deriva-da-repeticao-de-mentiras&#x2f;" target="_blank" rel="noopener">Dino relata ameaças nas redes sociais: ‘O ódio deriva da repetição de mentiras’</a> <span class="meta">— CartaCapital, 09&#x2f;10 11:28</span></li>
+    
+      <li id="t4r3"><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;09&#x2f;ministerio-da-justica-pede-a-pf-investigacao-sobre-ameacas-contra-deputada-federal-eleita-ana-elisa.ghtml" target="_blank" rel="noopener">Ministério da Justiça pede à PF investigação sobre ameaças contra deputada federal eleita Ana Elisa</a> <span class="meta">— G1, 09&#x2f;10 15:22</span></li>
+    
+      <li id="t4r4"><a href="https:&#x2f;&#x2f;pt.org.br&#x2f;mulheres-do-pt-repudiam-ataques-racistas-e-ameacas-contra-ana-elisa&#x2f;" target="_blank" rel="noopener">Mulheres do PT repudiam ataques racistas e ameaças contra Ana Elisa</a> <span class="meta">— PT (site oficial), 09&#x2f;10 13:57</span></li>
+    
+    </ol>
+    
+    <ul class="rel">
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;09&#x2f;fachin-pf-ameacas-dino.ghtml" target="_blank" rel="noopener">Fachin aciona PF após STF identificar ameaças contra Flávio Dino nas redes sociais</a> <span class="meta">— G1, 09&#x2f;10 20:19</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;09&#x2f;dino-expoe-relatorio-com-ameaca-de-assassinato-contra-ministros-do-stf&#x2f;" target="_blank" rel="noopener">Dino expõe relatório com ameaça de assassinato contra ministros do STF</a> <span class="meta">— Brasil de Fato, 09&#x2f;10 13:36</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;republica&#x2f;dino-relata-ameacas-agressao-assassinato-ministros-stf&#x2f;" target="_blank" rel="noopener">Dino relata ameaças de agressão e assassinato a ministros da Corte</a> <span class="meta">— Gazeta do Povo, 09&#x2f;10 11:04</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;republica&#x2f;fachin-manda-pf-investigar-ameacas-de-fuzilamento-contra-dino&#x2f;" target="_blank" rel="noopener">Fachin manda PF investigar ameaças de fuzilamento contra Dino</a> <span class="meta">— Gazeta do Povo, 09&#x2f;10 20:46</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;colunas&#x2f;painel&#x2f;2026&#x2f;10&#x2f;secretaria-do-ministerio-da-justica-pede-a-pf-que-investigue-ameacas-contra-deputada-eleita.shtml" target="_blank" rel="noopener">Secretária do Ministério da Justiça pede à PF que investigue ameaças contra deputada eleita</a> <span class="meta">— Folha, 09&#x2f;10 14:44</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;politica&#x2f;ministerio-da-justica-pede-a-pf-investigacao-sobre-ameacas-contra-ana-elisa-deputada-eleita-do-pt&#x2f;" target="_blank" rel="noopener">Ministério da Justiça pede à PF investigação sobre ameaças contra Ana Elisa, deputada eleita do PT</a> <span class="meta">— CartaCapital, 09&#x2f;10 16:31</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;republica&#x2f;governo-lula-pf-ameacas-morte-deputada-eleita-mg&#x2f;" target="_blank" rel="noopener">Governo Lula pede para PF apurar ameaças de morte a deputada eleita por MG</a> <span class="meta">— Gazeta do Povo, 09&#x2f;10 15:39</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;nome-forte-de-lula-para-campanha-online-deputada-eleita-ana-elisa-sofre-ataques-racistas-nas-redes.shtml" target="_blank" rel="noopener">Nome forte de Lula para campanha online, deputada eleita Ana Elisa sofre ataques racistas nas redes</a> <span class="meta">— Folha, 09&#x2f;10 21:08</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;09&#x2f;policial-dispara-tiros-em-frente-a-universidade-federal-de-sergipe-durante-ato-de-estudantes-pro-lula&#x2f;" target="_blank" rel="noopener">Policial é suspeito de disparar tiros em ato de estudantes pró-Lula na Universidade Federal de Sergipe</a> <span class="meta">— Brasil de Fato, 09&#x2f;10 11:05</span></li>
+    
+    </ul>
+    
+  </details>
+</article>
+
+<article id="t5">
+  
+  <h2><span class="n">5.</span>Guerra judicial no TSE: site de criptomoeda pró-Flávio é suspenso, PT pede cassação da chapa de Flávio por uso do perfil de Marçal, e posts de Flávio que ligam Lula a facções são removidos</h2>
+  <p class="cobertura">Cobertura (5):
+    <span class="l"><b>Imprensa mais à esquerda</b> — CartaCapital</span><span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — CNN Brasil, Folha, G1</span><span class="l"><b>Imprensa mais à direita</b> — Gazeta do Povo</span>
+  </p>
+
+  <h3>O que aconteceu</h3>
+  <div class="contexto">
+  
+    <p>A ministra Estela Aranha suspendeu o site B22, que dava tokens a quem divulgasse conteúdo pró-Flávio, a pedido da coligação de Lula.<sup><a href="#t5r1" title="“Na decisão, a ministra Estela Aranha atendeu a um pedido da coligação do presidente Lula (PT) determinou a suspensão imediata do site e o fim da distribuição dos tokens.” — G1">[1]</a></sup><sup><a href="#t5r2" title="“A relatora concedeu liminares ao analisar pedidos apresentados pelas campanhas do presidente Luiz Inácio Lula da Silva (PT) e do próprio Flávio.” — Gazeta do Povo">[2]</a></sup></p>
+  
+    <p>O PT pediu a cassação da chapa de Flávio por uso dos perfis de Pablo Marçal para propaganda e informações falsas.<sup><a href="#t5r3" title="“A campanha do presidente Lula (PT) protocolou uma ação de investigação judicial eleitoral (Aije) no Tribunal Superior Eleitoral (TSE) pedindo a cassação da chapa do candidato Flávio Bolsonaro (PL-RJ)” — Folha">[3]</a></sup></p>
+  
+    <p>O plenário do TSE mandou, por unanimidade, remover posts da campanha de Flávio que associam Lula a facções.<sup><a href="#t5r4" title="“O Tribunal Superior Eleitoral (TSE) decidiu nesta quinta-feira (8), por unanimidade, determinar a remoção de postagens feitas pela campanha do senador Flávio Bolsonaro (PL-RJ)” — G1">[4]</a></sup></p>
+  
+    <p>Kassio Nunes Marques baixou regras para acelerar julgamentos e levar liminares ao plenário.<sup><a href="#t5r5" title="“todas as decisões (concessivas ou não) relativas a pedidos de liminar em matéria de propaganda eleitoral e direito de resposta devem ser submetidas imediatamente ao plenário, inclusive por sessão virtual” — Folha">[5]</a></sup></p>
+  
+  </div>
+
+  <h3>Como cada campo político se posicionou</h3>
+  <div class="lados">
+          
+
+    <section class="lado" style="--cor: #e65100">
+      <h4>Oposição ao governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">CF</span></span><span>Campanha de Flávio Bolsonaro (PL)</span></div>
+        <p>Disse que Marçal não integra a campanha e é apoiador declarado.<sup><a href="#t5r3">[3]</a></sup></p>
+        
+        <blockquote>“Pablo Marçal não integra a estrutura da campanha de Flávio Bolsonaro, é um apoiador político publicamente declarado.”<cite><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;pt-pede-cassacao-de-chapa-de-flavio-por-uso-de-perfil-de-marcal-para-disseminar-fake-news-e-propaganda.shtml" target="_blank" rel="noopener">Folha</a></cite></blockquote>
+        
+      </div>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">DF</span></span><span>Defesa de Flávio Bolsonaro (PL-RJ)</span></div>
+        <p>Disse que Flávio e o PL não têm relação com o site de criptomoedas e apresentou notícia-crime.<sup><a href="#t5r6">[6]</a></sup></p>
+        
+        <blockquote>“Segundo a defesa do senador, ele, sua campanha e seu partido, o PL (Partido Liberal) “não têm, nem jamais tiveram, relação alguma com os fatos””<cite><a href="https:&#x2f;&#x2f;www.cnnbrasil.com.br&#x2f;eleicoes&#x2f;justica-aceita-noticia-crime-de-flavio-contra-site-que-oferecia-criptomoeda&#x2f;" target="_blank" rel="noopener">CNN Brasil</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+      
+
+    <section class="lado" style="--cor: #78909c">
+      <h4>Outros &#x2f; não classificável</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">PM</span></span><span>Pablo Marçal (PRTB), apoiador de Flávio</span></div>
+        <p>Criticou a ação do PT.<sup><a href="#t5r3">[3]</a></sup></p>
+        
+        <blockquote>“Desespero do PT já ultrapassou o ridículo.”<cite><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;pt-pede-cassacao-de-chapa-de-flavio-por-uso-de-perfil-de-marcal-para-disseminar-fake-news-e-propaganda.shtml" target="_blank" rel="noopener">Folha</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+  </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #2e7d32"></i>Pró-governo</span>, <span><i style="background: #81c784"></i>Centro pró-governo</span>, <span><i style="background: #9e9e9e"></i>Centro</span>, <span><i style="background: #ffb74d"></i>Centro-oposição</span>, <span><i style="background: #6a1b9a"></i>Independente — Missão &#x2f; MBL</span>.</p>
+
+  <details>
+    <summary>Referências (6) e outras matérias sobre o tema (8)</summary>
+    <ol class="refs">
+    
+      <li id="t5r1"><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;09&#x2f;tse-suspende-site-que-oferece-criptomoeda-a-quem-divulgar-conteudo-que-defende-voto-em-flavio-bolsonaro.ghtml" target="_blank" rel="noopener">TSE suspende site que oferece criptomoeda a quem divulgar conteúdo que defende voto em Flávio Bolsonaro</a> <span class="meta">— G1, 09&#x2f;10 20:48</span></li>
+    
+      <li id="t5r2"><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;eleicoes&#x2f;2026&#x2f;tse-suspende-site-que-oferece-criptomoedas-por-apoio-a-flavio&#x2f;" target="_blank" rel="noopener">TSE suspende site que oferece criptomoedas por apoio a Flávio</a> <span class="meta">— Gazeta do Povo, 09&#x2f;10 22:46</span></li>
+    
+      <li id="t5r3"><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;pt-pede-cassacao-de-chapa-de-flavio-por-uso-de-perfil-de-marcal-para-disseminar-fake-news-e-propaganda.shtml" target="_blank" rel="noopener">PT pede cassação de chapa de Flávio por uso de perfil de Marçal para disseminar fake news e propaganda</a> <span class="meta">— Folha, 09&#x2f;10 13:15</span></li>
+    
+      <li id="t5r4"><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;09&#x2f;tse-determina-remocao-de-posts-que-associam-lula-a-faccoes-criminosas-flavio-e-multado-em-r-5-mil.ghtml" target="_blank" rel="noopener">TSE determina que Flávio remova posts que associam Lula a facções criminosas aplica multa de R$ 5 mil</a> <span class="meta">— G1, 09&#x2f;10 13:27</span></li>
+    
+      <li id="t5r5"><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;kassio-baixa-regra-para-acelerar-analise-de-acoes-de-propaganda-no-tse-apos-criticas.shtml" target="_blank" rel="noopener">Kassio baixa regra para acelerar análise de ações de propaganda no TSE após críticas</a> <span class="meta">— Folha, 09&#x2f;10 23:11</span></li>
+    
+      <li id="t5r6"><a href="https:&#x2f;&#x2f;www.cnnbrasil.com.br&#x2f;eleicoes&#x2f;justica-aceita-noticia-crime-de-flavio-contra-site-que-oferecia-criptomoeda&#x2f;" target="_blank" rel="noopener">Justiça aceita notícia-crime de Flávio contra site que oferecia criptomoeda</a> <span class="meta">— CNN Brasil, 10&#x2f;10 00:02</span></li>
+    
+    </ol>
+    
+    <ul class="rel">
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;segundo-turno-tem-guerra-judicial-com-ordens-de-ministros-contra-lula-e-acao-do-pt-contra-flavio.shtml" target="_blank" rel="noopener">Segundo turno tem guerra judicial com ordens de ministros contra Lula e ação do PT contra Flávio</a> <span class="meta">— Folha, 09&#x2f;10 23:00</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;politica&#x2f;estela-aranha-manda-suspender-site-que-oferece-criptomoedas-por-apoio-a-flavio-bolsonaro&#x2f;" target="_blank" rel="noopener">Estela Aranha manda suspender site que oferece criptomoedas por apoio a Flávio Bolsonaro</a> <span class="meta">— CartaCapital, 09&#x2f;10 22:38</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;ministra-do-tse-tira-do-ar-site-com-esquema-de-criptomoedas-pro-flavio.shtml" target="_blank" rel="noopener">Ministra do TSE manda tirar do ar site com esquema de criptomoedas pró-Flávio</a> <span class="meta">— Folha, 09&#x2f;10 21:03</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;politica&#x2f;pt-vai-ao-tse-para-cassar-a-chapa-de-flavio-bolsonaro-por-esquema-com-pablo-marcal&#x2f;" target="_blank" rel="noopener">PT vai ao TSE para cassar a chapa de Flávio Bolsonaro por esquema com Pablo Marçal</a> <span class="meta">— CartaCapital, 09&#x2f;10 14:47</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;grupo-de-token-pro-flavio-briga-apos-prejuizos-cobra-compradores-e-tira-politica-de-site-ate-eleicao.shtml" target="_blank" rel="noopener">Grupo de token pró-Flávio briga após prejuízos, cobra compradores e tira política de site até eleição</a> <span class="meta">— Folha, 10&#x2f;10 00:01</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;colunas&#x2f;painel&#x2f;2026&#x2f;10&#x2f;entidades-pedem-suspensao-de-criptomoeda-que-paga-por-posts-pelo-voto-22.shtml" target="_blank" rel="noopener">Entidades pedem suspensão de criptomoeda que paga por posts pelo voto 22</a> <span class="meta">— Folha, 09&#x2f;10 19:50</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;mendonca-e-kassio-mandam-tirar-videos-em-que-lula-e-janja-falam-em-corte-de-acoes-sociais-por-flavio.shtml" target="_blank" rel="noopener">Mendonça e Kassio mandam tirar vídeos em que Lula e Janja falam em corte de ações sociais por Flávio</a> <span class="meta">— Folha, 09&#x2f;10 12:21</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;politica&#x2f;mendonca-derruba-posts-de-janones-e-lindbergh-contra-flavio-bolsonaro&#x2f;" target="_blank" rel="noopener">Mendonça derruba posts de Janones e Lindbergh contra Flávio Bolsonaro</a> <span class="meta">— CartaCapital, 09&#x2f;10 11:15</span></li>
+    
+    </ul>
+    
+  </details>
+</article>
+
+<article id="t6">
+  
+  <h2><span class="n">6.</span>Governo zera impostos federais sobre a gasolina por 30 dias e edita 9ª MP de subsídio a combustíveis; Fazenda nega motivação eleitoral</h2>
+  <p class="cobertura">Cobertura (3):
+    <span class="l"><b>Imprensa mais à direita</b> — Gazeta do Povo</span><span class="l"><b>Fontes oficiais</b> — Agência Câmara, Agência Senado</span>
+  </p>
+
+  <h3>O que aconteceu</h3>
+  <div class="contexto">
+  
+    <p>O benefício sobe de R$ 0,63 para R$ 0,89 por litro, com impacto de R$ 5,2 bilhões em 30 dias, somando gasolina, diesel e etanol.<sup><a href="#t6r1" title="“A medida eleva o benefício de R$ 0,63 para R$ 0,89 por litro e, segundo o governo, terá impacto de R$ 5,2 bilhões nas contas públicas em 30 dias” — Gazeta do Povo">[1]</a></sup></p>
+  
+    <p>A MP 1395&#x2f;26 abre crédito extraordinário de R$ 7,52 bilhões; é a nona MP do ano ligada à guerra no Oriente Médio, somando R$ 43 bilhões.<sup><a href="#t6r2" title="“Esta é a nona MP que busca contornar os efeitos da guerra no Oriente Médio sobre os preços internos da gasolina e do diesel” — Agência Câmara">[2]</a></sup></p>
+  
+    <p>Os créditos não afetam a meta fiscal, mas elevam a dívida pública.<sup><a href="#t6r2" title="“Mas os créditos elevam a dívida pública porque o governo emite mais títulos públicos para obter o dinheiro.” — Agência Câmara">[2]</a></sup></p>
+  
+  </div>
+
+  <h3>Como cada campo político se posicionou</h3>
+  <div class="lados">
+  
+
+    <section class="lado" style="--cor: #2e7d32">
+      <h4>Pró-governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">DD</span></span><span>Dario Durigan, ministro da Fazenda</span></div>
+        <p>Negou relação com o calendário eleitoral.<sup><a href="#t6r3">[3]</a></sup></p>
+        
+        <blockquote>“Não tem nenhuma mudança em relação ao timing eleitoral por conta do anúncio”<cite><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;economia&#x2f;governo-nega-carater-eleitoral-nova-isencao-impostos-gasolina&#x2f;" target="_blank" rel="noopener">Gazeta do Povo</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+                
+  </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #81c784"></i>Centro pró-governo</span>, <span><i style="background: #9e9e9e"></i>Centro</span>, <span><i style="background: #ffb74d"></i>Centro-oposição</span>, <span><i style="background: #e65100"></i>Oposição ao governo</span>, <span><i style="background: #6a1b9a"></i>Independente — Missão &#x2f; MBL</span>, <span><i style="background: #78909c"></i>Outros &#x2f; não classificável</span>.</p>
+
+  <details>
+    <summary>Referências (3) e outras matérias sobre o tema (1)</summary>
+    <ol class="refs">
+    
+      <li id="t6r1"><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;economia&#x2f;governo-zera-impostos-federais-gasolina-16-dias-segundo-turno&#x2f;" target="_blank" rel="noopener">Governo zera impostos federais sobre a gasolina a 16 dias do segundo turno</a> <span class="meta">— Gazeta do Povo, 09&#x2f;10 14:31</span></li>
+    
+      <li id="t6r2"><a href="https:&#x2f;&#x2f;www.camara.leg.br&#x2f;noticias&#x2f;1310518-governo-edita-9a-medida-provisoria-para-conter-efeito-da-guerra-no-preco-dos-combustiveis" target="_blank" rel="noopener">Governo edita 9ª medida provisória para conter efeito da guerra no preço dos combustíveis</a> <span class="meta">— Agência Câmara, 09&#x2f;10 11:37</span></li>
+    
+      <li id="t6r3"><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;economia&#x2f;governo-nega-carater-eleitoral-nova-isencao-impostos-gasolina&#x2f;" target="_blank" rel="noopener">Governo nega caráter eleitoral em nova isenção de impostos sobre a gasolina</a> <span class="meta">— Gazeta do Povo, 09&#x2f;10 15:05</span></li>
+    
+    </ol>
+    
+    <ul class="rel">
+    
+      <li><a href="https:&#x2f;&#x2f;www12.senado.leg.br&#x2f;noticias&#x2f;materias&#x2f;2026&#x2f;10&#x2f;09&#x2f;medida-provisoria-libera-r-7-52-bilhoes-para-custear-subsidios-a-combustiveis" target="_blank" rel="noopener">Medida provisória libera R$ 7,52 bilhões para subsidiar combustíveis</a> <span class="meta">— Agência Senado, 09&#x2f;10 12:09</span></li>
+    
+    </ul>
+    
+  </details>
+</article>
+
+<article id="t7">
+  
+  <h2><span class="n">7.</span>Debates: Record cancela o primeiro encontro entre Lula e Flávio; Datafolha mostra que 78% consideram muito importante que participem</h2>
+  <p class="cobertura">Cobertura (7):
+    <span class="l"><b>Imprensa mais à esquerda</b> — CartaCapital</span><span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — Estadão, Folha, G1, Poder360</span><span class="l"><b>Imprensa mais à direita</b> — Gazeta do Povo, Revista Oeste</span>
+  </p>
+
+  <h3>O que aconteceu</h3>
+  <div class="contexto">
+  
+    <p>A Record cancelou o debate de domingo (11), citando incompatibilidade de agendas.<sup><a href="#t7r1" title="“A Record informa que, em razão da incompatibilidade de agendas dos candidatos à Presidência da República, Flávio Bolsonaro e Luiz Inácio Lula da Silva, o debate previsto para o próximo domingo, 11 de outubro, foi cancelado” — Gazeta do Povo">[1]</a></sup></p>
+  
+    <p>Restam três debates e duas sabatinas marcados até 25 de outubro.<sup><a href="#t7r2" title="“O 2º turno da eleição presidencial tem 3 debates e duas entrevistas individuais marcados na televisão antes da votação” — Poder360">[2]</a></sup></p>
+  
+    <p>Para 78%, é muito importante que os dois participem; 82% dizem que não mudariam o voto por causa dos debates.<sup><a href="#t7r3" title="“Disseram ser &quot;muito importante&quot; 78% dos entrevistados” — G1">[3]</a></sup></p>
+  
+  </div>
+
+  <h3>Como cada campo político se posicionou</h3>
+  <div class="lados">
+  
+
+    <section class="lado" style="--cor: #2e7d32">
+      <h4>Pró-governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">LP</span></span><span>Lula (PT), presidente</span></div>
+        <p>Disse que haverá muito debate no 2º turno.<sup><a href="#t7r1">[1]</a></sup></p>
+        
+        <blockquote>“Vai ter muito debate. Vai ter muito debate na televisão. Vai ter debate na internet.”<cite><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;eleicoes&#x2f;2026&#x2f;record-cancela-debate-entre-flavio-e-lula&#x2f;" target="_blank" rel="noopener">Gazeta do Povo</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+          
+
+    <section class="lado" style="--cor: #e65100">
+      <h4>Oposição ao governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">FB</span></span><span>Flávio Bolsonaro (PL-RJ), candidato</span></div>
+        <p>Disse que vai participar de debates para comparar programas.<sup><a href="#t7r1">[1]</a></sup></p>
+        
+        <blockquote>“Eu já queria ter participado no primeiro turno de debates com o Lula. Vou participar de debates.”<cite><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;eleicoes&#x2f;2026&#x2f;record-cancela-debate-entre-flavio-e-lula&#x2f;" target="_blank" rel="noopener">Gazeta do Povo</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+        
+  </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #81c784"></i>Centro pró-governo</span>, <span><i style="background: #9e9e9e"></i>Centro</span>, <span><i style="background: #ffb74d"></i>Centro-oposição</span>, <span><i style="background: #6a1b9a"></i>Independente — Missão &#x2f; MBL</span>, <span><i style="background: #78909c"></i>Outros &#x2f; não classificável</span>.</p>
+
+  <details>
+    <summary>Referências (3) e outras matérias sobre o tema (7)</summary>
+    <ol class="refs">
+    
+      <li id="t7r1"><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;eleicoes&#x2f;2026&#x2f;record-cancela-debate-entre-flavio-e-lula&#x2f;" target="_blank" rel="noopener">Record cancela debate entre Flávio e Lula</a> <span class="meta">— Gazeta do Povo, 09&#x2f;10 21:35</span></li>
+    
+      <li id="t7r2"><a href="https:&#x2f;&#x2f;www.poder360.com.br&#x2f;poder-eleicoes-2026&#x2f;lula-e-flavio-tem-3-debates-e-duas-sabatinas-marcados&#x2f;" target="_blank" rel="noopener">Lula e Flávio têm 3 debates e duas sabatinas marcados</a> <span class="meta">— Poder360, 10&#x2f;10 06:00</span></li>
+    
+      <li id="t7r3"><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;09&#x2f;datafolha-lula-flavio-bolsonaro-debates-9-outubro.ghtml" target="_blank" rel="noopener">Datafolha: para 78%, é muito importante que Lula e Flávio Bolsonaro participem de debates</a> <span class="meta">— G1, 09&#x2f;10 18:53</span></li>
+    
+    </ol>
+    
+    <ul class="rel">
+    
+      <li><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;cartaexpressa&#x2f;record-anuncia-cancelamento-de-debate-entre-lula-e-flavio-bolsonaro&#x2f;" target="_blank" rel="noopener">Record anuncia cancelamento de debate entre Lula e Flávio Bolsonaro</a> <span class="meta">— CartaCapital, 09&#x2f;10 18:13</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;revistaoeste.com&#x2f;imprensa&#x2f;sem-confirmacao-dos-candidatos-record-cancela-debate-entre-flavio-e-lula&#x2f;" target="_blank" rel="noopener">Sem confirmação dos candidatos, Record cancela debate entre Flávio e Lula</a> <span class="meta">— Revista Oeste, 10&#x2f;10 06:30</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;eleicoes&#x2f;lula-e-flavio-tem-disposicoes-diferentes-para-debates-no-2-turno-e-estrategias-de-ataque-e-defesa&#x2f;" target="_blank" rel="noopener">Lula e Flávio têm disposições diferentes para debates no 2º turno e estratégias de ataque e defesa</a> <span class="meta">— Estadão, 10&#x2f;10 05:30</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;datafolha-78-consideram-muito-importante-que-flavio-e-lula-participem-de-debates-no-2o-turno.shtml" target="_blank" rel="noopener">Datafolha: 78% consideram muito importante que Flávio e Lula participem de debates no 2º turno</a> <span class="meta">— Folha, 09&#x2f;10 18:43</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;09&#x2f;lula-diz-que-virou-rei-da-selfie-e-preve-muito-debate-na-tv-e-na-internet-no-2o-turno.ghtml" target="_blank" rel="noopener">Lula diz que 2º turno terá &#x27;muito debate na TV e na internet&#x27;: &#x27;Estou virando o rei da selfie&#x27;</a> <span class="meta">— G1, 09&#x2f;10 11:28</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;eleicoes&#x2f;2026&#x2f;lula-promete-participar-debates-ampliar-presenca-redes-sociais&#x2f;" target="_blank" rel="noopener">Lula promete participar de debates neste segundo turno e ampliar presença nas redes sociais</a> <span class="meta">— Gazeta do Povo, 09&#x2f;10 12:28</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;blogs&#x2f;brasilia-hoje&#x2f;2026&#x2f;10&#x2f;novo-porta-voz-da-campanha-promete-viagens-contato-com-imprensa-e-lula-em-debates.shtml" target="_blank" rel="noopener">Novo porta-voz da campanha promete viagens, contato com imprensa e Lula em debates</a> <span class="meta">— Folha, 09&#x2f;10 18:14</span></li>
+    
+    </ul>
+    
+  </details>
+</article>
+
+<article id="t8">
+  
+  <h2><span class="n">8.</span>Propaganda na TV volta: Flávio promete manter Bolsa Família e anuncia “Ministério da Prosperidade”; Lula fala em cortes e diz que o país não será governado pelo “fascismo”</h2>
+  <p class="cobertura">Cobertura (5):
+    <span class="l"><b>Imprensa mais à esquerda</b> — Brasil de Fato</span><span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — CNN Brasil, Folha, G1, JOTA</span>
+  </p>
+
+  <h3>O que aconteceu</h3>
+  <div class="contexto">
+  
+    <p>Flávio prometeu manter e reajustar o Bolsa Família e reduzir prestações do Minha Casa Minha Vida, sem detalhar como.<sup><a href="#t8r1" title="“Eu vou manter e reajustar o Bolsa Família. E quem tem emprego não perde o benefício” — G1">[1]</a></sup></p>
+  
+    <p>O Ministério da Prosperidade reuniria Bolsa Família, BPC e outros programas; o formato ainda está sendo desenhado.<sup><a href="#t8r2" title="“O objetivo é reunir os principais programas sociais do governo, incluindo Bolsa Família e BPC” — Folha">[2]</a></sup></p>
+  
+    <p>Lula fez seu primeiro ato do 2º turno em Ceilândia (DF), com Leandro Grass.<sup><a href="#t8r3" title="“O presidente Luiz Inácio Lula da Silva (PT) participou, nesta sexta-feira (9), de uma caminhada de campanha ao lado do candidato do PT ao governo do Distrito Federal, Leandro Grass, em Ceilândia.” — Brasil de Fato">[3]</a></sup></p>
+  
+    <p>O programa de Lula exibiu notícias sobre cortes no governo Jair Bolsonaro.<sup><a href="#t8r1" title="“O programa de Lula abriu com críticas à proposta de “tesouraço” de Flávio e exibiu trechos de notícias sobre cortes de recursos durante o governo de Jair Bolsonaro(PL).” — G1">[1]</a></sup></p>
+  
+  </div>
+
+  <h3>Como cada campo político se posicionou</h3>
+  <div class="lados">
+  
+
+    <section class="lado" style="--cor: #2e7d32">
+      <h4>Pró-governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">LP</span></span><span>Lula (PT), em ato em Ceilândia (DF)</span></div>
+        <p>Disse que o país não será governado pelo fascismo nem pelo “sócio do Banco Master”.<sup><a href="#t8r4">[4]</a></sup></p>
+        
+        <blockquote>“Esse país não voltará a ser governado pelo fascismo, não voltará a ser governado por aqueles assassinos de milhares de pessoas na Covid-19.”<cite><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;em-primeiro-ato-do-2o-turno-lula-cita-fascismo-assassinos-da-pandemia-e-master-para-atacar-flavio.shtml" target="_blank" rel="noopener">Folha</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+          
+
+    <section class="lado" style="--cor: #e65100">
+      <h4>Oposição ao governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">FB</span></span><span>Flávio Bolsonaro (PL-RJ), na propaganda</span></div>
+        <p>Disse que o 2º turno é o passo final de uma mudança já iniciada.<sup><a href="#t8r1">[1]</a></sup></p>
+        
+        <blockquote>“A gente está dando o passo final para uma mudança que já começou”<cite><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;09&#x2f;primeiro-programa-horario-eleitoral-2-turno-flavio-bolsonaro-lula.ghtml" target="_blank" rel="noopener">G1</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+        
+  </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #81c784"></i>Centro pró-governo</span>, <span><i style="background: #9e9e9e"></i>Centro</span>, <span><i style="background: #ffb74d"></i>Centro-oposição</span>, <span><i style="background: #6a1b9a"></i>Independente — Missão &#x2f; MBL</span>, <span><i style="background: #78909c"></i>Outros &#x2f; não classificável</span>.</p>
+
+  <details>
+    <summary>Referências (4) e outras matérias sobre o tema (6)</summary>
+    <ol class="refs">
+    
+      <li id="t8r1"><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;09&#x2f;primeiro-programa-horario-eleitoral-2-turno-flavio-bolsonaro-lula.ghtml" target="_blank" rel="noopener">Na estreia da campanha da TV neste 2º turno, Flávio promete manter programas sociais, e Lula critica cortes no governo Jair Bolsonaro</a> <span class="meta">— G1, 09&#x2f;10 13:40</span></li>
+    
+      <li id="t8r2"><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;colunas&#x2f;painel&#x2f;2026&#x2f;10&#x2f;flavio-propoe-superministerio-social-com-bolsa-familia-e-nova-mentalidade.shtml" target="_blank" rel="noopener">Flávio propõe superministério social com Bolsa Família e &#x27;nova mentalidade&#x27;</a> <span class="meta">— Folha, 09&#x2f;10 20:22</span></li>
+    
+      <li id="t8r3"><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;09&#x2f;esse-pais-nao-voltara-a-ser-governado-pelo-fascismo-diz-lula-em-ato-com-leandro-grass-no-df&#x2f;" target="_blank" rel="noopener">‘Esse país não voltará a ser governado pelo fascismo’, diz Lula em ato com Leandro Grass no DF</a> <span class="meta">— Brasil de Fato, 09&#x2f;10 16:13</span></li>
+    
+      <li id="t8r4"><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;em-primeiro-ato-do-2o-turno-lula-cita-fascismo-assassinos-da-pandemia-e-master-para-atacar-flavio.shtml" target="_blank" rel="noopener">Em primeiro ato do 2º turno, Lula cita fascismo, &#x27;assassinos&#x27; da pandemia e Master para atacar Flávio</a> <span class="meta">— Folha, 09&#x2f;10 11:58</span></li>
+    
+    </ol>
+    
+    <ul class="rel">
+    
+      <li><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;eleicoes&#x2f;2026&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;09&#x2f;propaganda-eleitoral-flavio-lula-2-turno.ghtml" target="_blank" rel="noopener">Na volta da propaganda no rádio, Flávio Bolsonaro diz que Brasil escolheu &#x27;mudança&#x27; e Lula afirma que Brasil decidirá entre democracia e &#x27;barbárie&#x27;</a> <span class="meta">— G1, 09&#x2f;10 13:19</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;mercado&#x2f;2026&#x2f;10&#x2f;caixa-economica-vai-ser-o-itau-da-favela-o-bradesco-da-periferia-diz-flavio-bolsonaro.shtml" target="_blank" rel="noopener">Caixa Econômica vai ser o Itaú da favela, o Bradesco da periferia, diz Flávio Bolsonaro</a> <span class="meta">— Folha, 09&#x2f;10 15:23</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;lula-dramatiza-com-ia-crianca-levando-arma-a-escola-e-flavio-adota-tom-de-eleito-na-tv.shtml" target="_blank" rel="noopener">Lula dramatiza com IA criança levando arma à escola, e Flávio adota tom de eleito na TV</a> <span class="meta">— Folha, 09&#x2f;10 21:21</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.jota.info&#x2f;eleicoes&#x2f;eleicoes-2026&#x2f;flavio-bolsonaro-defende-retirada-do-split-payment-e-reajuste-da-aposentadoria-acima-da-inflacao" target="_blank" rel="noopener">Flávio Bolsonaro defende retirada do split payment e reajuste da aposentadoria acima da inflação</a> <span class="meta">— JOTA, 09&#x2f;10 11:04</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.cnnbrasil.com.br&#x2f;eleicoes&#x2f;lula-inicia-giro-pelo-pais-em-busca-de-reverter-desvantagem-contra-flavio&#x2f;" target="_blank" rel="noopener">Lula inicia giro pelo país em busca de reverter desvantagem contra Flávio</a> <span class="meta">— CNN Brasil, 10&#x2f;10 03:31</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.cnnbrasil.com.br&#x2f;eleicoes&#x2f;flavio-cumpre-hoje-agendas-em-aceno-ao-eleitorado-feminino-e-evangelico&#x2f;" target="_blank" rel="noopener">Flávio cumpre hoje agendas em aceno ao eleitorado feminino e evangélico</a> <span class="meta">— CNN Brasil, 10&#x2f;10 03:30</span></li>
+    
+    </ul>
+    
+  </details>
+</article>
+
+<article id="t9">
+  
+  <h2><span class="n">9.</span>Próximo presidente indicará ao menos 4 ministros do STF: Lula defende mandato fixo; Flávio promete ministros “contra o aborto, contra as drogas”</h2>
+  <p class="cobertura">Cobertura (2):
+    <span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — Folha, Poder360</span>
+  </p>
+
+  <h3>O que aconteceu</h3>
+  <div class="contexto">
+  
+    <p>As vagas são as de Fux, Cármen Lúcia e Gilmar Mendes, além da de Barroso, que segue aberta.<sup><a href="#t9r1" title="“O próximo presidente poderá indicar quatro nomes para o STF, nas vagas de Luiz Fux, Cármen Lúcia e Gilmar Mendes, além da cadeira de Luís Roberto Barroso, que continua aberta.” — Folha">[1]</a></sup></p>
+  
+    <p>As indicações exigem aprovação por maioria absoluta do Senado, onde o PL terá a maior bancada.<sup><a href="#t9r2" title="“As indicações para o STF são de livre iniciativa do presidente da República e exigem aprovação pela maioria absoluta do Senado.” — Poder360">[2]</a></sup></p>
+  
+    <p>O ministro do TCU Jorge Oliveira está entre os cotados no entorno de Flávio.<sup><a href="#t9r1" title="“No entorno do senador, circulam perfis como o do ministro do TCU (Tribunal de Contas da União) Jorge Oliveira” — Folha">[1]</a></sup></p>
+  
+  </div>
+
+  <h3>Como cada campo político se posicionou</h3>
+  <div class="lados">
+  
+
+    <section class="lado" style="--cor: #2e7d32">
+      <h4>Pró-governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">LP</span></span><span>Lula (PT), presidente</span></div>
+        <p>Criticou a composição atual e defendeu mandato fixo para ministros.<sup><a href="#t9r2">[2]</a></sup></p>
+        
+        <blockquote>“Lula disse que há “uma promiscuidade que ficou estabelecida” na Corte e defendeu alterar sua regra de composição para adotar mandato fixo para os ministros.”<cite><a href="https:&#x2f;&#x2f;www.poder360.com.br&#x2f;poder-justica&#x2f;proximo-presidente-indicara-ate-4-ministros-para-o-stf&#x2f;" target="_blank" rel="noopener">Poder360</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+
+    <section class="lado" style="--cor: #81c784">
+      <h4>Centro pró-governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">GK</span></span><span>Gilberto Kassab, presidente do PSD</span></div>
+        <p>Disse que impeachment não pode ser bandeira e que torce para não haver caos institucional.<sup><a href="#t9r3">[3]</a></sup></p>
+        
+        <blockquote>“Impeachment não pode ser bandeira”<cite><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;torco-para-que-nao-haja-caos-institucional-se-flavio-vencer-diz-kassab.shtml" target="_blank" rel="noopener">Folha</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+        
+
+    <section class="lado" style="--cor: #e65100">
+      <h4>Oposição ao governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">FB</span></span><span>Flávio Bolsonaro (PL-RJ), candidato</span></div>
+        <p>Disse que indicará ministros contra o aborto e as drogas e propôs restringir as indicações a magistrados de 60 a 70 anos.<sup><a href="#t9r2">[2]</a></sup></p>
+        
+        <blockquote>“Flávio afirmou que indicará ministros “contra o aborto, contra as drogas, respeitem a Constituição e que não usem a caneta para promover perseguição””<cite><a href="https:&#x2f;&#x2f;www.poder360.com.br&#x2f;poder-justica&#x2f;proximo-presidente-indicara-ate-4-ministros-para-o-stf&#x2f;" target="_blank" rel="noopener">Poder360</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+        
+  </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #9e9e9e"></i>Centro</span>, <span><i style="background: #ffb74d"></i>Centro-oposição</span>, <span><i style="background: #6a1b9a"></i>Independente — Missão &#x2f; MBL</span>, <span><i style="background: #78909c"></i>Outros &#x2f; não classificável</span>.</p>
+
+  <details>
+    <summary>Referências (3) e outras matérias sobre o tema (1)</summary>
+    <ol class="refs">
+    
+      <li id="t9r1"><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;resultado-da-eleicao-redefine-fila-de-cotados-ao-stf-com-flavio-bolsonaro-ou-lula.shtml" target="_blank" rel="noopener">Resultado da eleição redefine fila de cotados ao STF com Flávio Bolsonaro ou Lula</a> <span class="meta">— Folha, 09&#x2f;10 23:00</span></li>
+    
+      <li id="t9r2"><a href="https:&#x2f;&#x2f;www.poder360.com.br&#x2f;poder-justica&#x2f;proximo-presidente-indicara-ate-4-ministros-para-o-stf&#x2f;" target="_blank" rel="noopener">Próximo presidente indicará até 4 ministros para o STF</a> <span class="meta">— Poder360, 10&#x2f;10 06:00</span></li>
+    
+      <li id="t9r3"><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;torco-para-que-nao-haja-caos-institucional-se-flavio-vencer-diz-kassab.shtml" target="_blank" rel="noopener">Torço para que não haja caos institucional se Flávio vencer, diz Kassab</a> <span class="meta">— Folha, 09&#x2f;10 16:09</span></li>
+    
+    </ol>
+    
+    <ul class="rel">
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;colunas&#x2f;painel&#x2f;2026&#x2f;10&#x2f;cotado-por-flavio-para-stf-era-distribuidor-de-livros-de-ustra-entre-bolsonaristas.shtml" target="_blank" rel="noopener">Cotado por Flávio para STF era &#x27;distribuidor&#x27; de livros de Ustra entre bolsonaristas</a> <span class="meta">— Folha, 10&#x2f;10 06:00</span></li>
+    
+    </ul>
+    
+  </details>
+</article>
+
+<article id="t10">
+  
+  <h2><span class="n">10.</span>Reações no 2º turno: Renan Santos chama Cury de “comédia” e mantém neutralidade; Anitta declara voto em Lula; Cleitinho diz que Flávio renegociará dívida de MG</h2>
+  <p class="cobertura">Cobertura (7):
+    <span class="l"><b>Imprensa mais à esquerda</b> — Brasil de Fato, CartaCapital</span><span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — Estadão, Folha</span><span class="l"><b>Imprensa mais à direita</b> — Gazeta do Povo, Revista Oeste</span><span class="l"><b>Outras fontes</b> — UOL Notícias (via Google News)</span>
+  </p>
+
+  <h3>O que aconteceu</h3>
+  <div class="contexto">
+  
+    <p>Renan criticou o apoio de Cury a Flávio e disse que o Missão foi procurado para apoiar o candidato do PL.<sup><a href="#t10r1" title="“Em vídeo publicado nas redes sociais, Renan Santos, ex-candidato à Presidência pelo partido Missão, criticou a declaração de apoio de Augusto Cury (Avante) a Flávio Bolsonaro” — Estadão">[1]</a></sup></p>
+  
+    <p>Anitta declarou voto em Lula em vídeo nas redes.<sup><a href="#t10r2" title="“A cantora Anitta declarou voto no presidente Lula (PT) no segundo turno das eleições presidenciais” — Brasil de Fato">[2]</a></sup></p>
+  
+    <p>Em Pernambuco, dirigentes de MDB, Republicanos, Cidadania e PSD aderiram à coordenação ampliada da campanha de Lula.<sup><a href="#t10r3" title="“MDB, Republicanos, Cidadania e PSD foram as siglas cujos dirigentes já se somaram à campanha.” — Brasil de Fato">[3]</a></sup></p>
+  
+  </div>
+
+  <h3>Como cada campo político se posicionou</h3>
+  <div class="lados">
+    
+
+    <section class="lado" style="--cor: #81c784">
+      <h4>Centro pró-governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">GK</span></span><span>Gilberto Kassab, presidente do PSD</span></div>
+        <p>Disse manter posição de independência e apoiar boas iniciativas de qualquer governo.<sup><a href="#t10r4">[4]</a></sup></p>
+        
+        <blockquote>“Evitou falar em cargos —o PSD tem três ministérios de Lula, mas Kassab sustenta que sua posição é de independência e quer continuar assim.”<cite><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;torco-para-que-nao-haja-caos-institucional-se-flavio-vencer-diz-kassab.shtml" target="_blank" rel="noopener">Folha</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+        
+
+    <section class="lado" style="--cor: #e65100">
+      <h4>Oposição ao governo</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">CR</span></span><span>Cleitinho (Republicanos-MG), senador e governador eleito</span></div>
+        <p>Disse que Flávio se comprometeu a renegociar a dívida de MG.<sup><a href="#t10r5">[5]</a></sup></p>
+        
+        <blockquote>“Ele fez esse compromisso, que é extremamente importante para Minas Gerais”<cite><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;eleicoes&#x2f;cleitinho-diz-que-flavio-se-comprometeu-a-renegociar-divida-de-mg-com-a-uniao-caso-seja-eleito-nprp&#x2f;" target="_blank" rel="noopener">Estadão</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+
+    <section class="lado" style="--cor: #6a1b9a">
+      <h4>Independente — Missão &#x2f; MBL</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">RS</span></span><span>Renan Santos (Missão), ex-candidato à Presidência</span></div>
+        <p>Chamou Cury de “comédia” e disse que o Missão não será empurrado a apoiar ninguém.<sup><a href="#t10r1">[1]</a></sup></p>
+        
+        <blockquote>“Esse cara é um comédia. As pessoas votaram em um comédia”<cite><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;eleicoes&#x2f;renan-santos-critica-declaracao-de-apoio-de-augusto-cury-a-flavio-bolsonaro-comedia-nprp&#x2f;" target="_blank" rel="noopener">Estadão</a></cite></blockquote>
+        
+        <blockquote>“Ninguém vai vir empurrar a mim, ninguém vai vir empurrar ao nosso grupo.”<cite><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;eleicoes&#x2f;renan-santos-critica-declaracao-de-apoio-de-augusto-cury-a-flavio-bolsonaro-comedia-nprp&#x2f;" target="_blank" rel="noopener">Estadão</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+
+    <section class="lado" style="--cor: #78909c">
+      <h4>Outros &#x2f; não classificável</h4>
+      
+      <div class="pos">
+        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">A</span></span><span>Anitta, cantora</span></div>
+        <p>Declarou voto em Lula e criticou o bolsonarismo.<sup><a href="#t10r2">[2]</a></sup></p>
+        
+        <blockquote>“Por isso que eu não chamo o bolsonarismo de direita, eu não chamo, chamo de bolsonarismo”<cite><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;09&#x2f;e-13-anitta-declara-voto-em-lula-e-diz-que-bolsonarismo-vive-de-odio&#x2f;" target="_blank" rel="noopener">Brasil de Fato</a></cite></blockquote>
+        
+      </div>
+      
+    </section>
+    
+  </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #2e7d32"></i>Pró-governo</span>, <span><i style="background: #9e9e9e"></i>Centro</span>, <span><i style="background: #ffb74d"></i>Centro-oposição</span>.</p>
+
+  <details>
+    <summary>Referências (5) e outras matérias sobre o tema (6)</summary>
+    <ol class="refs">
+    
+      <li id="t10r1"><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;eleicoes&#x2f;renan-santos-critica-declaracao-de-apoio-de-augusto-cury-a-flavio-bolsonaro-comedia-nprp&#x2f;" target="_blank" rel="noopener">Renan Santos critica declaração de apoio de Augusto Cury a Flávio Bolsonaro: ‘Comédia’</a> <span class="meta">— Estadão, 09&#x2f;10 18:13</span></li>
+    
+      <li id="t10r2"><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;09&#x2f;e-13-anitta-declara-voto-em-lula-e-diz-que-bolsonarismo-vive-de-odio&#x2f;" target="_blank" rel="noopener">‘É 13’: Anitta declara voto em Lula e diz que bolsonarismo vive de ódio</a> <span class="meta">— Brasil de Fato, 09&#x2f;10 15:27</span></li>
+    
+      <li id="t10r3"><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;10&#x2f;10&#x2f;prefeito-do-recife-e-partidos-da-direita-em-pernambuco-se-somam-as-mobilizacoes-pela-reeleicao-de-lula&#x2f;" target="_blank" rel="noopener">Prefeito do Recife e partidos da direita em Pernambuco se somam às mobilizações pela reeleição de Lula</a> <span class="meta">— Brasil de Fato, 10&#x2f;10 07:46</span></li>
+    
+      <li id="t10r4"><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;torco-para-que-nao-haja-caos-institucional-se-flavio-vencer-diz-kassab.shtml" target="_blank" rel="noopener">Torço para que não haja caos institucional se Flávio vencer, diz Kassab</a> <span class="meta">— Folha, 09&#x2f;10 16:09</span></li>
+    
+      <li id="t10r5"><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;eleicoes&#x2f;cleitinho-diz-que-flavio-se-comprometeu-a-renegociar-divida-de-mg-com-a-uniao-caso-seja-eleito-nprp&#x2f;" target="_blank" rel="noopener">Cleitinho diz que Flávio se comprometeu a renegociar dívida de MG com a União caso seja eleito</a> <span class="meta">— Estadão, 09&#x2f;10 20:05</span></li>
+    
+    </ol>
+    
+    <ul class="rel">
+    
+      <li><a href="https:&#x2f;&#x2f;news.google.com&#x2f;rss&#x2f;articles&#x2f;CBMi7wFBVV95cUxPMXdkR3owSlVSZXZidDVfZzN1Tm12OElsemxsNUtDWkJNdjRVcFpDdXRsTzEyZFRySEZGdk4yZmRvT2J5ejdnUFlLYzdBT1E4S2t4QUFPT185T2pGMTltSTJkY1RjVS1zXzRfblo5dG8xLXRQNFFVT1Ftb1VPWjNjV0l4d0ZCX1ZWSldBNE1KSXE3RjlqRHJMN1lyQTYxVG1qZW51NnFwWWtmd2ktVFhqbEpXQ1JPVUFPUGxYXy1nRTh2eWRoc2RhX1JxdGVxQTZhOThrSC1HSGdxcW9hMkFNUmNmcTFBVE40OGhJa1Qzbw?oc=5" target="_blank" rel="noopener">Renan Santos critica declaração de apoio de Augusto Cury a Flávio Bolsonaro: &#x27;Comédia&#x27;</a> <span class="meta">— UOL Notícias (via Google News), 09&#x2f;10 18:39</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;cartaexpressa&#x2f;anitta-anuncia-voto-em-lula-e-diz-que-bolsonarismo-nao-representa-a-direita&#x2f;" target="_blank" rel="noopener">Anitta anuncia voto em Lula e diz que bolsonarismo não representa a direita</a> <span class="meta">— CartaCapital, 09&#x2f;10 14:55</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;revistaoeste.com&#x2f;politica&#x2f;cleitinho-diz-que-flavio-vai-renegociar-divida-de-minas-com-a-uniao&#x2f;" target="_blank" rel="noopener">Cleitinho diz que Flávio vai renegociar dívida de Minas com a União</a> <span class="meta">— Revista Oeste, 10&#x2f;10 07:26</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;colunas&#x2f;painel&#x2f;2026&#x2f;10&#x2f;aliados-de-flavio-contam-com-cleitinho-como-cabo-eleitoral-em-mg.shtml" target="_blank" rel="noopener">Aliados de Flávio contam com Cleitinho como cabo eleitoral em MG</a> <span class="meta">— Folha, 09&#x2f;10 11:30</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;eleicoes&#x2f;2026&#x2f;cleitinho-lula-perdeu-primeiro-turno-para-picanha-mais-cara&#x2f;" target="_blank" rel="noopener">Cleitinho diz que Lula perdeu o primeiro turno para a picanha mais cara</a> <span class="meta">— Gazeta do Povo, 09&#x2f;10 10:41</span></li>
+    
+      <li><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;10&#x2f;em-sp-tarcisio-e-nunes-mobilizam-aliados-por-flavio-enquanto-pt-recomeca-do-zero-campanha-de-lula.shtml" target="_blank" rel="noopener">Em SP, Tarcísio e Nunes mobilizam aliados por Flávio, enquanto PT recomeça do zero campanha de Lula</a> <span class="meta">— Folha, 09&#x2f;10 10:37</span></li>
+    
+    </ul>
+    
+  </details>
+</article>
+
+
+
+<section id="poderes" class="poderes">
+  <h2 class="secao">Atuação dos Poderes</h2>
+  <p class="secao-sub">O que foi pautado no dia, como cada lado se posicionou e o que foi decidido.</p>
+
+  
+  <article id="stf" class="casa">
+    <h2>Supremo Tribunal Federal</h2>
+    
+
+    
+    <div class="item" id="stf1">
+      <div class="item-topo">
+        <h3 class="item-titulo">Pedido de Fux de acesso integral ao inquérito das fake news e a outros inquéritos sigilosos</h3>
+        <span class="situacao s-julgado">Julgado</span>
+      </div>
+
+      <dl class="item-fatos">
+        <dt>Em pauta</dt>
+        <dd>Fux determinou acesso em 48 horas antes de analisar pedido do PP contra investigações da trama golpista.<sup><a href="#stf1r1" title="“Fux havia determinado que a área técnica da Corte liberasse a íntegra dos autos em 48 horas” — Gazeta do Povo">[1]</a></sup></dd>
+        <dt>Resultado</dt>
+        <dd>Fachin negou o acesso imediato; o acesso virá após o arquivamento definitivo.<sup><a href="#stf1r2" title="“O presidente do Supremo Tribunal Federal (STF), Edson Fachin, rejeitou a determinação do ministro Luiz Fux” — G1">[2]</a></sup></dd>
+      </dl>
+
+      <div class="abas">
+        <input type="radio" class="t-pos" name="aba-stf1" id="stf1-pos" checked>
+        <label for="stf1-pos">Posicionamentos</label>
+        
+      <div class="painel painel-pos">
+      <div class="lados">
+                                                
+      </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #2e7d32"></i>Pró-governo</span>, <span><i style="background: #81c784"></i>Centro pró-governo</span>, <span><i style="background: #9e9e9e"></i>Centro</span>, <span><i style="background: #ffb74d"></i>Centro-oposição</span>, <span><i style="background: #e65100"></i>Oposição ao governo</span>, <span><i style="background: #6a1b9a"></i>Independente — Missão &#x2f; MBL</span>, <span><i style="background: #78909c"></i>Outros &#x2f; não classificável</span>.</p>
+
+      
+      <div class="destaques">
+        <h4>Outros posicionamentos em destaque</h4>
+        
+        <div class="pos">
+          <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">ME</span></span><span>Ministro Edson Fachin, presidente do STF</span></div>
+          <p>Citou 104 procedimentos pendentes de análise.<sup><a href="#stf1r2">[2]</a></sup></p>
+          
+          <blockquote>“foram identificados 104 procedimentos ligados ao inquérito, entre petições e investigações preliminares, ainda pendentes de avaliação da Presidência”<cite><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;09&#x2f;fachin-fux-fake-news.ghtml" target="_blank" rel="noopener">G1</a></cite></blockquote>
+          
+        </div>
+        
+      </div>
+      
+      </div>
+
+      
+      </div>
+
+      <details>
+        <summary>Referências (2)</summary>
+        <ol class="refs">
+        
+          <li id="stf1r1"><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;republica&#x2f;fachin-nega-acesso-imediato-de-fux-ao-inquerito-das-fake-news&#x2f;" target="_blank" rel="noopener">Fachin nega acesso imediato de Fux ao inquérito das fake news</a> <span class="meta">— Gazeta do Povo, 09&#x2f;10 19:29</span></li>
+        
+          <li id="stf1r2"><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;09&#x2f;fachin-fux-fake-news.ghtml" target="_blank" rel="noopener">Fachin nega acesso imediato de Fux a inquérito das fake news e diz que caso segue para arquivamento definitivo</a> <span class="meta">— G1, 09&#x2f;10 17:51</span></li>
+        
+        </ol>
+        
+      </details>
+    </div>
+    
+    <div class="item" id="stf2">
+      <div class="item-topo">
+        <h3 class="item-titulo">Ameaças contra ministros (Flávio Dino)</h3>
+        <span class="situacao s-em_andamento">Em andamento</span>
+      </div>
+
+      <dl class="item-fatos">
+        <dt>Em pauta</dt>
+        <dd>Relatório da Polícia Judicial do STF sobre ameaças nas redes.<sup><a href="#stf2r1" title="“Segundo o documento elaborado pela Secretaria de Polícia Judicial do STF, &quot;o X concentra o maior volume e a maior proporção de publicações hostis&quot;” — Folha">[1]</a></sup></dd>
+        <dt>Resultado</dt>
+        <dd>Fachin acionou a Polícia Federal.<sup><a href="#stf2r2" title="“O presidente do Supremo Tribunal Federal (STF), Edson Fachin, acionou nesta sexta-feira (9) a Polícia Federal após relatos de ameaças ao ministro Flávio Dino.” — G1">[2]</a></sup></dd>
+      </dl>
+
+      <div class="abas">
+        <input type="radio" class="t-pos" name="aba-stf2" id="stf2-pos" checked>
+        <label for="stf2-pos">Posicionamentos</label>
+        
+      <div class="painel painel-pos">
+      <div class="lados">
+                                                
+      </div>
+  <p class="sem-posicao">Sem posicionamento encontrado: <span><i style="background: #2e7d32"></i>Pró-governo</span>, <span><i style="background: #81c784"></i>Centro pró-governo</span>, <span><i style="background: #9e9e9e"></i>Centro</span>, <span><i style="background: #ffb74d"></i>Centro-oposição</span>, <span><i style="background: #e65100"></i>Oposição ao governo</span>, <span><i style="background: #6a1b9a"></i>Independente — Missão &#x2f; MBL</span>, <span><i style="background: #78909c"></i>Outros &#x2f; não classificável</span>.</p>
+
+      
+      <div class="destaques">
+        <h4>Outros posicionamentos em destaque</h4>
+        
+        <div class="pos">
+          <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">MF</span></span><span>Ministro Flávio Dino</span></div>
+          <p>Disse que não mudará sua atuação.<sup><a href="#stf2r2">[2]</a></sup></p>
+          
+          <blockquote>“Em nada alterarei a minha atuação profissional, pois nunca minha perna ou minha mão tremeram, nem minha voz se alterou”<cite><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;09&#x2f;fachin-pf-ameacas-dino.ghtml" target="_blank" rel="noopener">G1</a></cite></blockquote>
+          
+        </div>
+        
+      </div>
+      
+      </div>
+
+      
+      </div>
+
+      <details>
+        <summary>Referências (2)</summary>
+        <ol class="refs">
+        
+          <li id="stf2r1"><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;blogs&#x2f;brasilia-hoje&#x2f;2026&#x2f;10&#x2f;relatorio-do-stf-identifica-na-rede-x-ameacas-de-fuzilamento-esquartejamento-e-enforcamento-de-ministros.shtml" target="_blank" rel="noopener">Relatório do STF identifica na rede X ameaças de fuzilamento, esquartejamento e enforcamento de ministros</a> <span class="meta">— Folha, 09&#x2f;10 11:26</span></li>
+        
+          <li id="stf2r2"><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;noticia&#x2f;2026&#x2f;10&#x2f;09&#x2f;fachin-pf-ameacas-dino.ghtml" target="_blank" rel="noopener">Fachin aciona PF após STF identificar ameaças contra Flávio Dino nas redes sociais</a> <span class="meta">— G1, 09&#x2f;10 20:19</span></li>
+        
+        </ol>
+        
+      </details>
+    </div>
+    
+  </article>
+  
+  <article id="camara" class="casa">
+    <h2>Câmara dos Deputados</h2>
+    <p class="vazio">Sábado: não houve sessão deliberativa no Plenário.</p>
+
+    
+  </article>
+  
+  <article id="senado" class="casa">
+    <h2>Senado Federal</h2>
+    <p class="vazio">Sábado: não houve sessão deliberativa. Alcolumbre pautou para quarta (14) a última sessão de discussão e a votação em 1º turno da PEC 221&#x2f;2019 (fim da escala 6x1).</p>
+
+    
+  </article>
+  
+</section>
+
+
+<footer>
+  <p>Gerado em 03&#x2f;11&#x2f;2026 18:26. Cada afirmação traz pelo menos um trecho copiado literalmente de uma fonte coletada, e esses trechos são conferidos automaticamente antes da publicação. Quando um lado aparece como “nenhum posicionamento encontrado”, isso só significa que as fontes consultadas não trouxeram uma posição. Não quer dizer que o lado não tenha opinião.</p>
+  <p>Em “Atuação dos Poderes”, pauta e resultado da Câmara e do Senado vêm dos dados abertos oficiais de cada Casa. Na Câmara, o que foi dito em Plenário vem da transcrição automática do vídeo da sessão (TV Câmara no YouTube), que pode errar palavras; o link de cada trecho abre o vídeo no momento citado. Para o STF, vêm da imprensa especializada, porque o tribunal não publica dados abertos de pauta. Orientações de bancada e votos por partido contam como posicionamento.</p>
+  <p>A classificação dos veículos por linha editorial é aproximada. Ela serve para mostrar o equilíbrio da cobertura, não para julgar cada veículo.</p>
+</footer>
+</div>
+</body>
+</html>
