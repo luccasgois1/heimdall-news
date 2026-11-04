@@ -22,11 +22,12 @@ body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 var(
 .wrap { max-width: 1080px; margin: 0 auto; padding: 32px 16px 80px; }
 a { color: var(--accent); }
 header h1 { font: 700 2rem/1.2 var(--sans); margin: 0 0 4px; letter-spacing: -0.02em; }
+.marca { margin: 0 0 12px; line-height: 0; }
+.marca img { display: block; width: 100%; height: auto; }
 header p { font-family: var(--sans); color: var(--muted); margin: 0; font-size: .9rem; }
 .video { position: relative; margin: 16px 0 0; aspect-ratio: 16 / 9; border-radius: 12px; overflow: hidden; background: #000; }
 .video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
 .video-link { margin: 8px 0 0; font-size: .9rem; color: var(--muted); }
-.voltar { display: inline-block; font: .88rem var(--sans); margin-bottom: 12px; }
 nav.sumario { margin: 28px 0 40px; padding: 20px 24px; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; }
 nav.sumario ol { margin: 0; padding-left: 1.4em; font-family: var(--sans); font-size: .98rem; }
 nav.sumario li { margin: 4px 0; }
@@ -53,6 +54,8 @@ sup a { font: 600 .7rem var(--sans); text-decoration: none; padding: 0 1px; }
 .rostos { display: flex; flex-shrink: 0; }
 .rosto { width: 42px; height: 42px; border-radius: 50%; object-fit: cover; object-position: center 20%; border: 2px solid var(--surface); background: var(--quote-bg); box-shadow: 0 0 0 1px var(--line); }
 .rostos .rosto + .rosto { margin-left: -12px; }
+.rosto.boneco { width: 64px; height: 64px; border-radius: 12px; object-fit: contain; object-position: center; }
+.rostos .rosto.boneco + .rosto.boneco { margin-left: 4px; }
 .rosto.sem { display: inline-flex; align-items: center; justify-content: center; font: 700 .68rem/1 var(--sans); color: #fff; background: var(--cor, var(--muted)); letter-spacing: .02em; overflow: hidden; }
 .capa { margin: -28px -28px 22px; border-radius: 12px 12px 0 0; overflow: hidden; background: var(--quote-bg); }
 .capa img { display: block; width: 100%; aspect-ratio: 2 / 1; max-height: 380px; object-fit: cover; }
@@ -113,7 +116,7 @@ nav.sumario ul.pauta { margin: 4px 0 8px; padding-left: 1.4em; font-family: var(
   * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
   body { font-size: 10.5pt; line-height: 1.45; background: #fff; }
   .wrap { max-width: none; padding: 0; }
-  .voltar, .video, .abas > label, .abas > input { display: none; }
+  .video, .abas > label, .abas > input { display: none; }
   header p a { text-decoration: none; color: inherit; }
   nav.sumario { margin: 14px 0 0; }
   article { border: 0; padding: 0; margin: 0; }
@@ -138,9 +141,8 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
 
 
 <div class="wrap">
-<a class="voltar" href="..&#x2f;..&#x2f;index.html">← Heimdall News</a>
 <header>
-  <h1>Heimdall News</h1>
+  <h1 class="marca"><a href="..&#x2f;..&#x2f;index.html"><picture><source media="screen and (prefers-color-scheme: dark)" srcset="..&#x2f;..&#x2f;img/marca/heimdall-news.png"><img src="..&#x2f;..&#x2f;img/marca/heimdall-news-claro.png" alt="Heimdall News" width="2000" height="224"></picture></a></h1>
   <p>quarta-feira, 4 de novembro de 2026 · 10 assuntos · 29 veículos e fontes · <a href="..&#x2f;..&#x2f;index.html">dias anteriores</a></p>
   <div class="video"><iframe src="https:&#x2f;&#x2f;www.youtube-nocookie.com&#x2f;embed&#x2f;aJJzg1T5mEQ" title="Vídeo do briefing de quarta-feira, 4 de novembro de 2026" loading="lazy"
     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
@@ -175,7 +177,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
 
 
 <article id="t1">
-  <figure class="capa ilustrada"><img src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;ilustracao-04d35dc7e24a55cf.jpg" alt="" loading="lazy"><figcaption>Ilustração: Heimdall News</figcaption></figure>
+  <figure class="capa ilustrada"><img src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;ilustracao-921a3a5e3d27cfc5.jpg" alt="" loading="lazy"><figcaption>Ilustração: Heimdall News</figcaption></figure>
   <h2><span class="n">1.</span>Senado aprova a Proposta de Emenda à Constituição da Segurança Pública, sem a redução da maioridade penal; texto vai à promulgação</h2>
   <p class="cobertura">Cobertura (12):
     <span class="l"><b>Imprensa mais à esquerda</b> — Brasil de Fato, CartaCapital</span><span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — CNN Brasil, Conjur, Folha, G1, JOTA, Poder360</span><span class="l"><b>Imprensa mais à direita</b> — Gazeta do Povo</span><span class="l"><b>Fontes oficiais</b> — Agência Câmara, Agência Senado, Senado — pauta do Plenário</span>
@@ -202,7 +204,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
       <h4>Pró-governo</h4>
       
       <div class="pos">
-        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">LI</span></span><span>Luiz Inácio Lula da Silva (PT), presidente da República</span></div>
+        <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-c4158ade59c81c40.png" alt="Luiz Inácio Lula da Silva" title="Luiz Inácio Lula da Silva — desenho" loading="lazy"></span><span>Luiz Inácio Lula da Silva (PT), presidente da República</span></div>
         <p>Comemorou a aprovação e disse que vai somar a ela a criação do Ministério da Segurança Pública.<sup><a href="#t1r4">[4]</a></sup></p>
         
         <blockquote>“Vamos somar a esse avanço a criação do Ministério da Segurança Pública, com foco em inteligência, planejamento e cooperação com estados e municípios para enfrentar as facções e as milícias”<cite><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;politica&#x2f;lula-celebra-aprovacao-da-pec-da-seguranca-e-reforca-que-criara-ministerio&#x2f;" target="_blank" rel="noopener">CartaCapital</a></cite></blockquote>
@@ -210,7 +212,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
       </div>
       
       <div class="pos">
-        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">TL</span></span><span>Teresa Leitão (PT-PE), líder do governo no Senado</span></div>
+        <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-9c6eec9bd01c1dfe.png" alt="Teresa Leitão" title="Teresa Leitão — desenho" loading="lazy"></span><span>Teresa Leitão (PT-PE), líder do governo no Senado</span></div>
         <p>Defendeu separar a maioridade penal e aprovar a parte em que há acordo.<sup><a href="#t1r1">[1]</a></sup></p>
         
         <blockquote>“A luta política sobre a PEC da segurança não existe. Todos concordamos com ela.”<cite><a href="https:&#x2f;&#x2f;www12.senado.leg.br&#x2f;noticias&#x2f;materias&#x2f;2026&#x2f;11&#x2f;03&#x2f;senado-aprova-pec-da-seguranca-publica-sem-reducao-da-maioridade-penal" target="_blank" rel="noopener">Agência Senado</a></cite></blockquote>
@@ -218,7 +220,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
       </div>
       
       <div class="pos">
-        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">PT</span></span><span>Bancada do PT no Senado (orientação)</span></div>
+        <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-858ab20135f7acab.png" alt="PT" title="PT — desenho" loading="lazy"></span><span>Bancada do PT no Senado (orientação)</span></div>
         <p>Orientou a favor da separação das emendas; os nove senadores do partido votaram assim.<sup><a href="#t1r2">[2]</a></sup></p>
         
         <blockquote>“Orientação PT: Sim”<cite><a href="https:&#x2f;&#x2f;www25.senado.leg.br&#x2f;web&#x2f;atividade&#x2f;materias&#x2f;-&#x2f;materia&#x2f;172997#sessao-594169-item-594242" target="_blank" rel="noopener">Senado — pauta do Plenário</a></cite></blockquote>
@@ -234,7 +236,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
       <h4>Centro pró-governo</h4>
       
       <div class="pos">
-        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">PSD</span></span><span>Bancada do PSD no Senado (orientação)</span></div>
+        <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-c26dca5a3e8bf9b2.png" alt="PSD" title="PSD — desenho" loading="lazy"></span><span>Bancada do PSD no Senado (orientação)</span></div>
         <p>Orientou a favor da separação das emendas; dez senadores votaram sim e três votaram não.<sup><a href="#t1r2">[2]</a></sup></p>
         
         <blockquote>“Orientação PSD: Sim”<cite><a href="https:&#x2f;&#x2f;www25.senado.leg.br&#x2f;web&#x2f;atividade&#x2f;materias&#x2f;-&#x2f;materia&#x2f;172997#sessao-594169-item-594242" target="_blank" rel="noopener">Senado — pauta do Plenário</a></cite></blockquote>
@@ -244,7 +246,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
       </div>
       
       <div class="pos">
-        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">PSB</span></span><span>Bancada do PSB no Senado (orientação)</span></div>
+        <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-b043315e922ced54.png" alt="PSB" title="PSB — desenho" loading="lazy"></span><span>Bancada do PSB no Senado (orientação)</span></div>
         <p>Orientou a favor da separação das emendas, com sete votos sim.<sup><a href="#t1r2">[2]</a></sup></p>
         
         <blockquote>“Orientação PSB: Sim”<cite><a href="https:&#x2f;&#x2f;www25.senado.leg.br&#x2f;web&#x2f;atividade&#x2f;materias&#x2f;-&#x2f;materia&#x2f;172997#sessao-594169-item-594242" target="_blank" rel="noopener">Senado — pauta do Plenário</a></cite></blockquote>
@@ -260,7 +262,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
       <h4>Centro</h4>
       
       <div class="pos">
-        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">BU</span></span><span>Bancadas do União Brasil e do Podemos no Senado (orientação)</span></div>
+        <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-f5ca873b4828972e.png" alt="UNIÃO" title="UNIÃO — desenho" loading="lazy"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-94e81567bfd57ba0.png" alt="PODE" title="PODE — desenho" loading="lazy"></span><span>Bancadas do União Brasil e do Podemos no Senado (orientação)</span></div>
         <p>O União Brasil orientou a favor da separação; o Podemos orientou contra.<sup><a href="#t1r2">[2]</a></sup></p>
         
         <blockquote>“Orientação UNIÃO: Sim”<cite><a href="https:&#x2f;&#x2f;www25.senado.leg.br&#x2f;web&#x2f;atividade&#x2f;materias&#x2f;-&#x2f;materia&#x2f;172997#sessao-594169-item-594242" target="_blank" rel="noopener">Senado — pauta do Plenário</a></cite></blockquote>
@@ -276,7 +278,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
       <h4>Centro-oposição</h4>
       
       <div class="pos">
-        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">PSDB</span></span><span>Bancada do PSDB no Senado (orientação)</span></div>
+        <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-0ce9185b065b50cc.png" alt="PSDB" title="PSDB — desenho" loading="lazy"></span><span>Bancada do PSDB no Senado (orientação)</span></div>
         <p>Orientou contra a separação das emendas; três senadores votaram não e um votou sim.<sup><a href="#t1r2">[2]</a></sup></p>
         
         <blockquote>“Orientação PSDB: Não”<cite><a href="https:&#x2f;&#x2f;www25.senado.leg.br&#x2f;web&#x2f;atividade&#x2f;materias&#x2f;-&#x2f;materia&#x2f;172997#sessao-594169-item-594242" target="_blank" rel="noopener">Senado — pauta do Plenário</a></cite></blockquote>
@@ -292,7 +294,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
       <h4>Oposição ao governo</h4>
       
       <div class="pos">
-        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">RM</span></span><span>Rogério Marinho (PL-RN), líder da oposição no Senado</span></div>
+        <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-0d6dc8067268d3f9.png" alt="Rogério Marinho" title="Rogério Marinho — desenho" loading="lazy"></span><span>Rogério Marinho (PL-RN), líder da oposição no Senado</span></div>
         <p>Disse que a separação impediria a discussão das emendas e criticou a proposta do relator.<sup><a href="#t1r1">[1]</a></sup></p>
         
         <blockquote>“O relator propõe que, na prática, este Plenário seja cerceado, seja emudecido, que haja uma procrastinação”<cite><a href="https:&#x2f;&#x2f;www12.senado.leg.br&#x2f;noticias&#x2f;materias&#x2f;2026&#x2f;11&#x2f;03&#x2f;senado-aprova-pec-da-seguranca-publica-sem-reducao-da-maioridade-penal" target="_blank" rel="noopener">Agência Senado</a></cite></blockquote>
@@ -300,7 +302,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
       </div>
       
       <div class="pos">
-        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">EF</span></span><span>Efraim Filho (PL-PB), senador</span></div>
+        <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-7824d9d245ef191d.png" alt="Efraim Filho" title="Efraim Filho — desenho" loading="lazy"></span><span>Efraim Filho (PL-PB), senador</span></div>
         <p>Afirmou que a maioridade penal não é matéria estranha ao texto.<sup><a href="#t1r1">[1]</a></sup></p>
         
         <blockquote>“Aqui a gente sabe o que é jabuti, a gente já lidou com muitos deles diversas vezes, e este não é um caso de matéria estranha”<cite><a href="https:&#x2f;&#x2f;www12.senado.leg.br&#x2f;noticias&#x2f;materias&#x2f;2026&#x2f;11&#x2f;03&#x2f;senado-aprova-pec-da-seguranca-publica-sem-reducao-da-maioridade-penal" target="_blank" rel="noopener">Agência Senado</a></cite></blockquote>
@@ -308,7 +310,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
       </div>
       
       <div class="pos">
-        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">BP</span></span><span>Bancadas do PL e do Republicanos no Senado (orientação)</span></div>
+        <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-0345b99ae0d5be35.png" alt="PL" title="PL — desenho" loading="lazy"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-2ec6e7286cc709f3.png" alt="REP" title="REP — desenho" loading="lazy"></span><span>Bancadas do PL e do Republicanos no Senado (orientação)</span></div>
         <p>Orientaram contra a separação; a bancada do PL teve doze votos não e o Republicanos, seis. Na votação da proposta, orientaram a favor.<sup><a href="#t1r2">[2]</a></sup></p>
         
         <blockquote>“Votos do PL: Não 12, Abstenção 1”<cite><a href="https:&#x2f;&#x2f;www25.senado.leg.br&#x2f;web&#x2f;atividade&#x2f;materias&#x2f;-&#x2f;materia&#x2f;172997#sessao-594169-item-594242" target="_blank" rel="noopener">Senado — pauta do Plenário</a></cite></blockquote>
@@ -326,7 +328,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
       <h4>Outros &#x2f; não classificável</h4>
       
       <div class="pos">
-        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">FB</span></span><span>Fórum Brasileiro de Segurança Pública</span></div>
+        <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-e0fe5c77f4cf5d0a.png" alt="Fórum Brasileiro de Segurança Pública" title="Fórum Brasileiro de Segurança Pública — desenho" loading="lazy"></span><span>Fórum Brasileiro de Segurança Pública</span></div>
         <p>O Fórum Brasileiro de Segurança Pública comemorou a aprovação, disse que ela não basta para os problemas estruturais e defendeu recriar o ministério.<sup><a href="#t1r5">[5]</a></sup></p>
         
         <blockquote>“afirmou que a medida, isoladamente, não será suficiente para resolver os problemas estruturais da área”<cite><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;sp&#x2f;sao-paulo&#x2f;noticia&#x2f;2026&#x2f;11&#x2f;03&#x2f;forum-brasileiro-de-seguranca-publica-celebra-aprovacao-da-pec-da-seguranca-mas-diz-que-texto-nao-resolve-problemas-estruturais.ghtml" target="_blank" rel="noopener">G1</a></cite></blockquote>
@@ -394,7 +396,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
 </article>
 
 <article id="t2">
-  <figure class="capa ilustrada"><img src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;ilustracao-a02509357d87db99.jpg" alt="" loading="lazy"><figcaption>Ilustração: Heimdall News</figcaption></figure>
+  <figure class="capa ilustrada"><img src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;ilustracao-e09cba756da3dbd7.jpg" alt="" loading="lazy"><figcaption>Ilustração: Heimdall News</figcaption></figure>
   <h2><span class="n">2.</span>Governo e oposição negociam votar a redução da maioridade penal no Senado ainda nesta semana</h2>
   <p class="cobertura">Cobertura (10):
     <span class="l"><b>Imprensa mais à esquerda</b> — Brasil de Fato</span><span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — CNN Brasil, Correio da Manhã, Folha, G1, Poder360</span><span class="l"><b>Imprensa mais à direita</b> — Gazeta do Povo</span><span class="l"><b>Fontes oficiais</b> — Agência Câmara, Agência Senado, Senado — proposições</span>
@@ -421,7 +423,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
       <h4>Pró-governo</h4>
       
       <div class="pos">
-        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">EB</span></span><span>Eduardo Braga (MDB-AM), líder do MDB no Senado</span></div>
+        <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-fa5d3fa71c6df7f1.png" alt="Eduardo Braga" title="Eduardo Braga — desenho" loading="lazy"></span><span>Eduardo Braga (MDB-AM), líder do MDB no Senado</span></div>
         <p>Sugeriu pedir urgência hoje e votar o texto do líder do PT, que ele disse construir o entendimento.<sup><a href="#t2r1">[1]</a></sup></p>
         
         <blockquote>“a PEC de autoria do senador Camilo Santana, que estabelece maioridade penal a partir de 16 anos para crimes hediondos, que me parece que constrói o entendimento”<cite><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;noticia&#x2f;2026&#x2f;11&#x2f;04&#x2f;em-acordo-senado-tentara-votar-reducao-da-maioridade-penal-ainda-nesta-semana.ghtml" target="_blank" rel="noopener">G1</a></cite></blockquote>
@@ -429,7 +431,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
       </div>
       
       <div class="pos">
-        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">CS</span></span><span>Camilo Santana (PT-CE), líder do PT no Senado</span></div>
+        <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-65d13c0a65daee0a.png" alt="Camilo Santana" title="Camilo Santana — desenho" loading="lazy"></span><span>Camilo Santana (PT-CE), líder do PT no Senado</span></div>
         <p>Apresentou a emenda que reduz a idade para 16 anos apenas em crimes hediondos.<sup><a href="#t2r7">[7]</a></sup></p>
         
         <blockquote>“Pelo texto, a redução para 16 anos valeria apenas para os crimes hediondos.”<cite><a href="https:&#x2f;&#x2f;www12.senado.leg.br&#x2f;noticias&#x2f;materias&#x2f;2026&#x2f;11&#x2f;03&#x2f;senado-aprova-pec-da-seguranca-publica-sem-reducao-da-maioridade-penal" target="_blank" rel="noopener">Agência Senado</a></cite></blockquote>
@@ -443,7 +445,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
       <h4>Oposição ao governo</h4>
       
       <div class="pos">
-        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">CP</span></span><span>Carlos Portinho (PL-RJ), líder do PL no Senado</span></div>
+        <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-88e70bfd412b888c.png" alt="Carlos Portinho" title="Carlos Portinho — desenho" loading="lazy"></span><span>Carlos Portinho (PL-RJ), líder do PL no Senado</span></div>
         <p>Disse que vai defender os 14 anos e que as duas propostas convergem na redução.<sup><a href="#t2r1">[1]</a></sup></p>
         
         <blockquote>“Ambas as propostas convergem na redução da maioridade penal. E isso é um grande avanço”<cite><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;noticia&#x2f;2026&#x2f;11&#x2f;04&#x2f;em-acordo-senado-tentara-votar-reducao-da-maioridade-penal-ainda-nesta-semana.ghtml" target="_blank" rel="noopener">G1</a></cite></blockquote>
@@ -451,7 +453,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
       </div>
       
       <div class="pos">
-        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">MR</span></span><span>Marcos Rogério (PL-RO), senador</span></div>
+        <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-4fb0dba5418a4908.png" alt="Marcos Rogério" title="Marcos Rogério — desenho" loading="lazy"></span><span>Marcos Rogério (PL-RO), senador</span></div>
         <p>Sugeriu aprovar na mesma sessão a ampliação da internação em unidades socioeducativas, de 3 para 10 anos.<sup><a href="#t2r4">[4]</a></sup></p>
         
         <blockquote>“mas não dá para colocar jovens de 15, 16 anos em presídios ao lado de integrantes de facções criminosas”<cite><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;colunas&#x2f;painel&#x2f;2026&#x2f;11&#x2f;governo-e-oposicao-fecham-acordo-para-votar-reducao-da-maioridade-penal-mas-tema-ainda-divide-pt.shtml" target="_blank" rel="noopener">Folha</a></cite></blockquote>
@@ -459,7 +461,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
       </div>
       
       <div class="pos">
-        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">DA</span></span><span>Damares Alves (Republicanos-DF), senadora</span></div>
+        <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-032ea6c20ceac016.png" alt="Damares Alves" title="Damares Alves — desenho" loading="lazy"></span><span>Damares Alves (Republicanos-DF), senadora</span></div>
         <p>Questionou a pressa e defendeu discutir antes o sistema atual.<sup><a href="#t2r4">[4]</a></sup></p>
         
         <blockquote>“Não acho que o debate deve ser feito de forma acelerada, açodada.”<cite><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;colunas&#x2f;painel&#x2f;2026&#x2f;11&#x2f;governo-e-oposicao-fecham-acordo-para-votar-reducao-da-maioridade-penal-mas-tema-ainda-divide-pt.shtml" target="_blank" rel="noopener">Folha</a></cite></blockquote>
@@ -473,7 +475,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
       <h4>Independente — Missão &#x2f; MBL</h4>
       
       <div class="pos">
-        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">KK</span></span><span>Kim Kataguiri (Missão-SP), deputado</span></div>
+        <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-fac7a08734cd4ebe.png" alt="Kim Kataguiri" title="Kim Kataguiri — desenho" loading="lazy"></span><span>Kim Kataguiri (Missão-SP), deputado</span></div>
         <p>Está entre os apoiadores da proposta, em tramitação na Câmara, que reduz a idade penal de 18 para 16 anos, segundo reportagem de junho. Não foi encontrada declaração dele nesta semana.<sup><a href="#t2r8">[8]</a></sup></p>
         
         <blockquote>“conta com o apoio de 22 deputados federais eleitos por São Paulo, entre eles o pretenso candidato ao Governo de SP, Kim Kataguiri (Missão)”<cite><a href="https:&#x2f;&#x2f;www.correiodamanha.com.br&#x2f;nacional&#x2f;sao-paulo&#x2f;estado-de-sao-paulo&#x2f;2026&#x2f;06&#x2f;292538-pec-da-maioridade-penal.html" target="_blank" rel="noopener">Correio da Manhã</a></cite></blockquote>
@@ -523,7 +525,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
 </article>
 
 <article id="t3">
-  <figure class="capa ilustrada"><img src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;ilustracao-452ab9c8f1e34953.jpg" alt="" loading="lazy"><figcaption>Ilustração: Heimdall News</figcaption></figure>
+  <figure class="capa ilustrada"><img src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;ilustracao-de416a2f2cb1d2c9.jpg" alt="" loading="lazy"><figcaption>Ilustração: Heimdall News</figcaption></figure>
   <h2><span class="n">3.</span>Supremo encerra audiência sobre a medida provisória que proibiu as bets; relator diz ter a percepção de que elas devem ser banidas</h2>
   <p class="cobertura">Cobertura (9):
     <span class="l"><b>Imprensa mais à esquerda</b> — Brasil de Fato, CartaCapital</span><span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — Estadão, Folha, G1, JOTA</span><span class="l"><b>Imprensa mais à direita</b> — Gazeta do Povo, Revista Oeste</span><span class="l"><b>Fontes oficiais</b> — STF — notícias oficiais</span>
@@ -548,7 +550,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
       <h4>Pró-governo</h4>
       
       <div class="pos">
-        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">LI</span></span><span>Luiz Inácio Lula da Silva (PT), presidente da República</span></div>
+        <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-c4158ade59c81c40.png" alt="Luiz Inácio Lula da Silva" title="Luiz Inácio Lula da Silva — desenho" loading="lazy"></span><span>Luiz Inácio Lula da Silva (PT), presidente da República</span></div>
         <p>Pediu mobilização e disse que há mais participantes interessados na volta das bets do que contrários a ela.<sup><a href="#t3r5">[5]</a></sup></p>
         
         <blockquote>“me parece que tem mais gente participando que interessa que as bets continuem funcionando do que as pessoas que são contra as bets”<cite><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;politica&#x2f;lula-pede-mobilizacao-para-manter-a-proibicao-das-bets-no-brasil&#x2f;" target="_blank" rel="noopener">CartaCapital</a></cite></blockquote>
@@ -556,7 +558,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
       </div>
       
       <div class="pos">
-        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">AP</span></span><span>Alexandre Padilha (PT), ministro da Saúde</span></div>
+        <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-4139df58fed88540.png" alt="Alexandre Padilha" title="Alexandre Padilha — desenho" loading="lazy"></span><span>Alexandre Padilha (PT), ministro da Saúde</span></div>
         <p>Defendeu a proibição como resposta aos danos à saúde.<sup><a href="#t3r6">[6]</a></sup></p>
         
         <blockquote>“a única e melhor solução para evitar suicídio, evitar violência familiar, evitar endividamento é a proibição das bets”<cite><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;justica&#x2f;stf-encerra-audiencia-sobre-proibicao-das-bets-com-divergencias-sobre-mp&#x2f;" target="_blank" rel="noopener">CartaCapital</a></cite></blockquote>
@@ -564,7 +566,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
       </div>
       
       <div class="pos">
-        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">JM</span></span><span>Jorge Messias, advogado-geral da União</span></div>
+        <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-4af3a3909921337a.png" alt="Jorge Messias" title="Jorge Messias — desenho" loading="lazy"></span><span>Jorge Messias, advogado-geral da União</span></div>
         <p>Defendeu que a medida é constitucional e que a regulamentação anterior não protegeu as famílias.<sup><a href="#t3r1">[1]</a></sup></p>
         
         <blockquote>“defendeu a constitucionalidade da MP 1.394&#x2f;2026”<cite><a href="https:&#x2f;&#x2f;noticias.stf.jus.br&#x2f;postsnoticias&#x2f;proibicao-das-bets-governo-defende-medida-e-setor-esportivo-alerta-para-prejuizos&#x2f;" target="_blank" rel="noopener">STF — notícias oficiais</a></cite></blockquote>
@@ -578,7 +580,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
       <h4>Oposição ao governo</h4>
       
       <div class="pos">
-        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">OC</span></span><span>Oposição no Congresso</span></div>
+        <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-a58b95fc3b1c7d5c.png" alt="Oposição" title="Oposição — desenho" loading="lazy"></span><span>Oposição no Congresso</span></div>
         <p>Segundo a Folha, articula derrubar a medida no Congresso e discute como retomar ao menos as apostas esportivas.<sup><a href="#t3r4">[4]</a></sup></p>
         
         <blockquote>“a oposição se articula no Congresso Nacional para derrubar a MP editada por Lula durante a campanha eleitoral”<cite><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;colunas&#x2f;painel&#x2f;2026&#x2f;11&#x2f;governo-aposta-no-stf-para-derrubar-as-bets-e-evitar-disputa-no-congresso.shtml" target="_blank" rel="noopener">Folha</a></cite></blockquote>
@@ -594,7 +596,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
       <h4>Outros &#x2f; não classificável</h4>
       
       <div class="pos">
-        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">LF</span></span><span>Luiz Fux, ministro do Supremo Tribunal Federal e relator</span></div>
+        <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-1bf315836c0783da.png" alt="Luiz Fux" title="Luiz Fux — desenho" loading="lazy"></span><span>Luiz Fux, ministro do Supremo Tribunal Federal e relator</span></div>
         <p>Disse ter a percepção de que as bets devem ser banidas e citou a necessidade de acordo ou modulação.<sup><a href="#t3r2">[2]</a></sup></p>
         
         <blockquote>“Ele sinalizou, no entanto, que será preciso um acordo mínimo ou modulação dos efeitos da decisão para evitar insegurança jurídica.”<cite><a href="https:&#x2f;&#x2f;www.jota.info&#x2f;stf&#x2f;do-supremo&#x2f;em-audiencia-publica-fux-diz-ter-percepcao-de-que-as-bets-devem-ser-banidas" target="_blank" rel="noopener">JOTA</a></cite></blockquote>
@@ -680,7 +682,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
 </article>
 
 <article id="t4">
-  <figure class="capa ilustrada"><img src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;ilustracao-ddc281b96e786e68.jpg" alt="" loading="lazy"><figcaption>Ilustração: Heimdall News</figcaption></figure>
+  <figure class="capa ilustrada"><img src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;ilustracao-623298680e976d3e.jpg" alt="" loading="lazy"><figcaption>Ilustração: Heimdall News</figcaption></figure>
   <h2><span class="n">4.</span>Presidência do Senado: PL deve lançar Rogério Marinho hoje, Tereza Cristina mantém a candidatura e Alcolumbre busca votos da direita</h2>
   <p class="cobertura">Cobertura (9):
     <span class="l"><b>Imprensa mais à esquerda</b> — CartaCapital</span><span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — CNN Brasil, Estadão, Folha, G1, JOTA</span><span class="l"><b>Imprensa mais à direita</b> — Gazeta do Povo</span><span class="l"><b>Fontes oficiais</b> — Agência Câmara, Agência Senado</span>
@@ -707,7 +709,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
       <h4>Pró-governo</h4>
       
       <div class="pos">
-        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">SP</span></span><span>Senadores do PT</span></div>
+        <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-858ab20135f7acab.png" alt="PT" title="PT — desenho" loading="lazy"></span><span>Senadores do PT</span></div>
         <p>Segundo a Gazeta do Povo, senadores petistas rejeitam negociar anistia em troca de apoio na eleição.<sup><a href="#t4r5">[5]</a></sup></p>
         
         <blockquote>“Senadores petistas afirmam que o país não pode ser governado como um balcão de favores”<cite><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;republica&#x2f;davi-alcolumbre-acena-com-anistia-a-bolsonaro-para-garantir-comando-do-senado&#x2f;" target="_blank" rel="noopener">Gazeta do Povo</a></cite></blockquote>
@@ -715,7 +717,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
       </div>
       
       <div class="pos">
-        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">EB</span></span><span>Eduardo Braga (MDB-AM), senador</span></div>
+        <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-fa5d3fa71c6df7f1.png" alt="Eduardo Braga" title="Eduardo Braga — desenho" loading="lazy"></span><span>Eduardo Braga (MDB-AM), senador</span></div>
         <p>Disse que seu foco como relator será garantir recursos para áreas essenciais, com equilíbrio fiscal.<sup><a href="#t4r3">[3]</a></sup></p>
         
         <blockquote>“compromisso com o equilíbrio fiscal e a responsabilidade com o dinheiro de cada brasileiro”<cite><a href="https:&#x2f;&#x2f;www12.senado.leg.br&#x2f;noticias&#x2f;materias&#x2f;2026&#x2f;11&#x2f;03&#x2f;eduardo-braga-sera-o-relator-geral-do-projeto-de-lei-do-orcamento-2027" target="_blank" rel="noopener">Agência Senado</a></cite></blockquote>
@@ -729,7 +731,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
       <h4>Centro</h4>
       
       <div class="pos">
-        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">DA</span></span><span>Davi Alcolumbre (União-AP), presidente do Senado</span></div>
+        <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-42bbfc9555ed3d38.png" alt="Davi Alcolumbre" title="Davi Alcolumbre — desenho" loading="lazy"></span><span>Davi Alcolumbre (União-AP), presidente do Senado</span></div>
         <p>Segundo a Gazeta do Povo, usa a possibilidade de uma anistia para atrair votos do PL; a reportagem diz que o Palácio do Planalto não deu aval.<sup><a href="#t4r6">[6]</a></sup></p>
         
         <blockquote>“vende a ideia de que o projeto de anistia seria capaz de pacificar as relações políticas no Congresso”<cite><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;republica&#x2f;aposta-de-alcolumbre-em-pacificacao-com-anistia-a-bolsonaro-enfrenta-resistencia-no-pt-e-no-stf&#x2f;" target="_blank" rel="noopener">Gazeta do Povo</a></cite></blockquote>
@@ -743,7 +745,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
       <h4>Oposição ao governo</h4>
       
       <div class="pos">
-        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">RM</span></span><span>Rogério Marinho (PL-RN), líder da oposição no Senado</span></div>
+        <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-0d6dc8067268d3f9.png" alt="Rogério Marinho" title="Rogério Marinho — desenho" loading="lazy"></span><span>Rogério Marinho (PL-RN), líder da oposição no Senado</span></div>
         <p>Disse que não será candidato contra Tereza Cristina.<sup><a href="#t4r2">[2]</a></sup></p>
         
         <blockquote>“Nós já temos um acordo entre nós, não seremos candidatos um contra o outro”<cite><a href="https:&#x2f;&#x2f;www.jota.info&#x2f;legislativo&#x2f;marinho-diz-que-ele-e-tereza-cristina-nao-disputarao-presidencia-um-contra-o-outro" target="_blank" rel="noopener">JOTA</a></cite></blockquote>
@@ -751,7 +753,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
       </div>
       
       <div class="pos">
-        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">TC</span></span><span>Tereza Cristina (PP-MS), líder do PP no Senado</span></div>
+        <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-15f775929e6224a1.png" alt="Tereza Cristina" title="Tereza Cristina — desenho" loading="lazy"></span><span>Tereza Cristina (PP-MS), líder do PP no Senado</span></div>
         <p>Reafirmou a candidatura e disse querer ser a primeira mulher a presidir o Senado.<sup><a href="#t4r2">[2]</a></sup></p>
         
         <blockquote>“E eu quero ser a primeira mulher presidente do Senado”<cite><a href="https:&#x2f;&#x2f;www.jota.info&#x2f;legislativo&#x2f;marinho-diz-que-ele-e-tereza-cristina-nao-disputarao-presidencia-um-contra-o-outro" target="_blank" rel="noopener">JOTA</a></cite></blockquote>
@@ -759,7 +761,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
       </div>
       
       <div class="pos">
-        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">CP</span></span><span>Carlos Portinho (PL-RJ), líder do PL no Senado</span></div>
+        <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-88e70bfd412b888c.png" alt="Carlos Portinho" title="Carlos Portinho — desenho" loading="lazy"></span><span>Carlos Portinho (PL-RJ), líder do PL no Senado</span></div>
         <p>Criticou a atual presidência da Casa e citou a relação com o Supremo.<sup><a href="#t4r1">[1]</a></sup></p>
         
         <blockquote>“A gente não pode mais ter na Casa um presidente que tenha rabo preso”<cite><a href="https:&#x2f;&#x2f;www.cnnbrasil.com.br&#x2f;politica&#x2f;pl-deve-anunciar-marinho-ao-senado-e-decisao-sobre-camara-segue-indefinida&#x2f;" target="_blank" rel="noopener">CNN Brasil</a></cite></blockquote>
@@ -767,7 +769,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
       </div>
       
       <div class="pos">
-        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">SP</span></span><span>Senadores do PP</span></div>
+        <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-741b385e3375da2e.png" alt="PP" title="PP — desenho" loading="lazy"></span><span>Senadores do PP</span></div>
         <p>Segundo a Folha, senadores do partido se incomodaram com cobranças para que Tereza Cristina desista.<sup><a href="#t4r7">[7]</a></sup></p>
         
         <blockquote>“Senadores do PP se incomodaram com o lançamento da candidatura de Rogério Marinho (PL-RN) à presidência do Senado”<cite><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;11&#x2f;pp-se-irrita-com-ataques-a-tereza-cristina-apos-acordo-com-rogerio-marinho-por-chefia-do-senado.shtml" target="_blank" rel="noopener">Folha</a></cite></blockquote>
@@ -775,7 +777,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
       </div>
       
       <div class="pos">
-        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">SN</span></span><span>Senadores do Novo</span></div>
+        <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-8ca8d78ce36f657e.png" alt="NOVO" title="NOVO — desenho" loading="lazy"></span><span>Senadores do Novo</span></div>
         <p>Segundo a Folha, os senadores eleitos do partido devem ir ao lançamento de Marinho.<sup><a href="#t4r8">[8]</a></sup></p>
         
         <blockquote>“Os senadores do Novo, por exemplo, devem comparecer ao encontro.”<cite><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;colunas&#x2f;painel&#x2f;2026&#x2f;11&#x2f;marinho-tera-apoio-do-novo-em-lancamento-para-presidente-do-senado-e-busca-outros-partidos.shtml" target="_blank" rel="noopener">Folha</a></cite></blockquote>
@@ -829,7 +831,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
 </article>
 
 <article id="t5">
-  <figure class="capa ilustrada"><img src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;ilustracao-ef47c18237b4c3d8.jpg" alt="" loading="lazy"><figcaption>Ilustração: Heimdall News</figcaption></figure>
+  <figure class="capa ilustrada"><img src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;ilustracao-ef4b99ec1956e0ae.jpg" alt="" loading="lazy"><figcaption>Ilustração: Heimdall News</figcaption></figure>
   <h2><span class="n">5.</span>Flávio Bolsonaro vota dos Estados Unidos, defesa recorre contra Moraes e reportagem revela mensagem de Vorcaro</h2>
   <p class="cobertura">Cobertura (7):
     <span class="l"><b>Imprensa mais à esquerda</b> — CartaCapital</span><span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — Estadão, Folha, G1, Poder360</span><span class="l"><b>Imprensa mais à direita</b> — Gazeta do Povo</span><span class="l"><b>Fontes oficiais</b> — Senado — pauta do Plenário</span>
@@ -856,7 +858,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
       <h4>Oposição ao governo</h4>
       
       <div class="pos">
-        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">FB</span></span><span>Flávio Bolsonaro (PL-RJ), senador</span></div>
+        <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-147f586db2c9e8e4.png" alt="Flávio Bolsonaro" title="Flávio Bolsonaro — desenho" loading="lazy"></span><span>Flávio Bolsonaro (PL-RJ), senador</span></div>
         <p>Nega irregularidades, segundo a Folha. Sobre a mensagem de Vorcaro, a defesa não se manifestou à reportagem do portal.<sup><a href="#t5r3">[3]</a></sup><sup><a href="#t5r5">[5]</a></sup></p>
         
         <blockquote>“O senador nega irregularidades.”<cite><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;blogs&#x2f;brasilia-hoje&#x2f;2026&#x2f;11&#x2f;flavio-bolsonaro-registra-presenca-e-vota-em-sessao-do-senado-apos-fugir-para-os-eua.shtml" target="_blank" rel="noopener">Folha</a></cite></blockquote>
@@ -902,7 +904,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
 </article>
 
 <article id="t6">
-  <figure class="capa ilustrada"><img src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;ilustracao-7d649ed318971fd2.jpg" alt="" loading="lazy"><figcaption>Ilustração: Heimdall News</figcaption></figure>
+  <figure class="capa ilustrada"><img src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;ilustracao-3b6ded90dc7304a0.jpg" alt="" loading="lazy"><figcaption>Ilustração: Heimdall News</figcaption></figure>
   <h2><span class="n">6.</span>Banco Central decide os juros hoje em meio à divergência entre governo e mercado</h2>
   <p class="cobertura">Cobertura (6):
     <span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — CNN Brasil, G1, JOTA</span><span class="l"><b>Imprensa mais à direita</b> — Gazeta do Povo, Revista Oeste</span><span class="l"><b>Fontes oficiais</b> — Agência Senado</span>
@@ -927,7 +929,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
       <h4>Pró-governo</h4>
       
       <div class="pos">
-        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">DD</span></span><span>Dario Durigan, ministro da Fazenda</span></div>
+        <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-c572579d99e2b661.png" alt="Dario Durigan" title="Dario Durigan — desenho" loading="lazy"></span><span>Dario Durigan, ministro da Fazenda</span></div>
         <p>Disse que as conversas com o presidente não justificam o temor do mercado e citou um ajuste gradual.<sup><a href="#t6r4">[4]</a></sup></p>
         
         <blockquote>“nós não estamos tratando de nada que justifique ao mercado ter uma posição de medo”<cite><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;republica&#x2f;ministro-da-fazenda-critica-temor-do-mercado-apos-reeleicao-de-lula&#x2f;" target="_blank" rel="noopener">Gazeta do Povo</a></cite></blockquote>
@@ -935,7 +937,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
       </div>
       
       <div class="pos">
-        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">ES</span></span><span>Edinho Silva, presidente do PT</span></div>
+        <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-3a61f0c78069bb05.png" alt="Edinho Silva" title="Edinho Silva — desenho" loading="lazy"></span><span>Edinho Silva, presidente do PT</span></div>
         <p>Afirmou que não há discussão sobre novos tributos, segundo a Gazeta do Povo.<sup><a href="#t6r5">[5]</a></sup></p>
         
         <blockquote>“Não há nenhuma discussão interna ou agenda construída para a criação de novos tributos, incluindo o imposto sobre grandes fortunas.”<cite><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;republica&#x2f;edinho-silva-descarta-impeachment-de-ministros-e-novos-impostos-no-governo-lula&#x2f;" target="_blank" rel="noopener">Gazeta do Povo</a></cite></blockquote>
@@ -949,7 +951,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
       <h4>Outros &#x2f; não classificável</h4>
       
       <div class="pos">
-        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">IF</span></span><span>Instituição Fiscal Independente, órgão do Senado</span></div>
+        <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-4cd435fc268780a1.png" alt="Instituição Fiscal Independente" title="Instituição Fiscal Independente — desenho" loading="lazy"></span><span>Instituição Fiscal Independente, órgão do Senado</span></div>
         <p>Publicou relatório em que afirma que, sem um forte ajuste fiscal, pode haver alta de juros e inflação.<sup><a href="#t6r6">[6]</a></sup></p>
         
         <blockquote>“sem um forte ajuste fiscal, pode haver alta de juros e inflação”<cite><a href="https:&#x2f;&#x2f;www12.senado.leg.br&#x2f;noticias&#x2f;audios&#x2f;2026&#x2f;11&#x2f;sem-ajuste-fiscal-juros-podem-subir-aponta-instituicao-fiscal-independente" target="_blank" rel="noopener">Agência Senado</a></cite></blockquote>
@@ -995,7 +997,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
 </article>
 
 <article id="t7">
-  <figure class="capa ilustrada"><img src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;ilustracao-db4fdf9b22a34585.jpg" alt="" loading="lazy"><figcaption>Ilustração: Heimdall News</figcaption></figure>
+  <figure class="capa ilustrada"><img src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;ilustracao-aae8d6ca9c0776e3.jpg" alt="" loading="lazy"><figcaption>Ilustração: Heimdall News</figcaption></figure>
   <h2><span class="n">7.</span>Democratas conquistam a maioria nas duas casas do Congresso dos Estados Unidos; Brasil aguarda proposta sobre o tarifaço</h2>
   <p class="cobertura">Cobertura (6):
     <span class="l"><b>Imprensa mais à esquerda</b> — Brasil de Fato</span><span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — CNN Brasil, G1, JOTA, Poder360</span><span class="l"><b>Imprensa mais à direita</b> — Revista Oeste</span>
@@ -1020,7 +1022,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
       <h4>Pró-governo</h4>
       
       <div class="pos">
-        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">ME</span></span><span>Márcio Elias Rosa, ministro do Desenvolvimento, Indústria, Comércio e Serviços</span></div>
+        <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-5c1cedd8174726ef.png" alt="Márcio Elias Rosa" title="Márcio Elias Rosa — desenho" loading="lazy"></span><span>Márcio Elias Rosa, ministro do Desenvolvimento, Indústria, Comércio e Serviços</span></div>
         <p>Disse que a eleição americana não muda a negociação sobre as tarifas.<sup><a href="#t7r2">[2]</a></sup></p>
         
         <blockquote>“Não muda absolutamente nada”<cite><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;politica&#x2f;noticia&#x2f;2026&#x2f;11&#x2f;03&#x2f;tarifaco-brasil-deve-receber-proposta-dos-eua-entre-esta-semana-e-a-proxima-diz-ministro.ghtml" target="_blank" rel="noopener">G1</a></cite></blockquote>
@@ -1028,7 +1030,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
       </div>
       
       <div class="pos">
-        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">GJ</span></span><span>Governo federal (fontes ouvidas pelo JOTA)</span></div>
+        <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-9e53a8818ac96398.png" alt="Governo federal" title="Governo federal — desenho" loading="lazy"></span><span>Governo federal (fontes ouvidas pelo JOTA)</span></div>
         <p>Segundo o JOTA, a avaliação é de que não há divergências insuperáveis, mas sem descartar novas sanções.<sup><a href="#t7r3">[3]</a></sup></p>
         
         <blockquote>“descontado o componente ideológico que marca a relação, não há divergências insuperáveis entre os dois países”<cite><a href="https:&#x2f;&#x2f;www.jota.info&#x2f;executivo&#x2f;governo-lula-espera-eleicoes-de-meio-de-mandato-para-recalibrar-relacao-com-trump" target="_blank" rel="noopener">JOTA</a></cite></blockquote>
@@ -1078,7 +1080,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
 </article>
 
 <article id="t8">
-  <figure class="capa ilustrada"><img src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;ilustracao-986a156d3cc33ecf.jpg" alt="" loading="lazy"><figcaption>Ilustração: Heimdall News</figcaption></figure>
+  <figure class="capa ilustrada"><img src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;ilustracao-25b0f20397a0b8c5.jpg" alt="" loading="lazy"><figcaption>Ilustração: Heimdall News</figcaption></figure>
   <h2><span class="n">8.</span>Eduardo Paes retoma campanha por segundo turno no Rio; governador eleito fala em afronta à Justiça Eleitoral</h2>
   <p class="cobertura">Cobertura (4):
     <span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — Conjur, Estadão, Folha</span><span class="l"><b>Imprensa mais à direita</b> — Revista Oeste</span>
@@ -1101,7 +1103,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
       <h4>Centro pró-governo</h4>
       
       <div class="pos">
-        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">EP</span></span><span>Eduardo Paes (PSD), ex-candidato ao governo do Rio de Janeiro</span></div>
+        <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-80e72b8ed5c3f330.png" alt="Eduardo Paes" title="Eduardo Paes — desenho" loading="lazy"></span><span>Eduardo Paes (PSD), ex-candidato ao governo do Rio de Janeiro</span></div>
         <p>Disse que ninguém alcançou a maioria absoluta e que a Constituição prevê segundo turno nesse caso.<sup><a href="#t8r1">[1]</a></sup></p>
         
         <blockquote>“Ninguém alcançou a maioria absoluta, ou seja, ninguém teve mais do que 50% dos votos”<cite><a href="https:&#x2f;&#x2f;www.estadao.com.br&#x2f;politica&#x2f;eduardo-paes-defende-segundo-turno-no-rj-nas-redes-sociais-povo-do-rio-tem-o-direito-de-votar-nprp&#x2f;" target="_blank" rel="noopener">Estadão</a></cite></blockquote>
@@ -1115,7 +1117,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
       <h4>Oposição ao governo</h4>
       
       <div class="pos">
-        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">DR</span></span><span>Douglas Ruas (PL), governador eleito do Rio de Janeiro</span></div>
+        <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-550f3653153ee3c2.png" alt="Douglas Ruas" title="Douglas Ruas — desenho" loading="lazy"></span><span>Douglas Ruas (PL), governador eleito do Rio de Janeiro</span></div>
         <p>Criticou os questionamentos ao resultado proclamado.<sup><a href="#t8r4">[4]</a></sup></p>
         
         <blockquote>“Realmente é uma afronta à Justiça Eleitoral”<cite><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;11&#x2f;douglas-ruas-critica-movimentos-contra-supremo-mas-diz-nao-julgar-carta-de-flavio-bolsonaro.shtml" target="_blank" rel="noopener">Folha</a></cite></blockquote>
@@ -1129,7 +1131,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
       <h4>Outros &#x2f; não classificável</h4>
       
       <div class="pos">
-        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">EC</span></span><span>Especialistas ouvidos pelo Conjur</span></div>
+        <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-0ae646d6c185af30.png" alt="Especialistas" title="Especialistas — desenho" loading="lazy"></span><span>Especialistas ouvidos pelo Conjur</span></div>
         <p>Especialistas ouvidos pelo Conjur afirmam que os votos dados a Garotinho devem contar para definir o segundo turno.<sup><a href="#t8r2">[2]</a></sup></p>
         
         <blockquote>“os votos dados a ele devem ser considerados para fins da realização do segundo turno da eleição para o governo do Rio de Janeiro”<cite><a href="https:&#x2f;&#x2f;conjur.com.br&#x2f;2026-nov-03&#x2f;em-nome-da-soberania-popular-stf-deve-ordenar-segundo-turno-no-rio-em-6-12&#x2f;" target="_blank" rel="noopener">Conjur</a></cite></blockquote>
@@ -1159,7 +1161,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
 </article>
 
 <article id="t9">
-  <figure class="capa ilustrada"><img src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;ilustracao-abe8e2e1779c8aa1.jpg" alt="" loading="lazy"><figcaption>Ilustração: Heimdall News</figcaption></figure>
+  <figure class="capa ilustrada"><img src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;ilustracao-15c862a2728a64df.jpg" alt="" loading="lazy"><figcaption>Ilustração: Heimdall News</figcaption></figure>
   <h2><span class="n">9.</span>Ministério da Justiça volta atrás e restabelece a classificação livre dos desenhos bíblicos da Record</h2>
   <p class="cobertura">Cobertura (11):
     <span class="l"><b>Imprensa mais à esquerda</b> — CartaCapital</span><span class="l"><b>Imprensa mais à direita</b> — Gazeta do Povo</span><span class="l"><b>Fontes oficiais</b> — Câmara — proposições</span><span class="l"><b>Partidos e movimentos</b> — PL (site oficial)</span><span class="l"><b>Outras fontes</b> — BossaNews Brasil (via Google News), Crusoé (via Google News), Itamaraju Notícias (via Google News), Metrópoles (via Google News), O Antagonista (via Google News), PAIPEE - (via Google News), Republicanos 10 (via Google News)</span>
@@ -1184,7 +1186,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
       <h4>Pró-governo</h4>
       
       <div class="pos">
-        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">MJ</span></span><span>Ministério da Justiça e Segurança Pública</span></div>
+        <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-b0cbcf5159692a38.png" alt="Ministério" title="Ministério — desenho" loading="lazy"></span><span>Ministério da Justiça e Segurança Pública</span></div>
         <p>Afirmou em nota que a classificação indicativa não tem caráter de censura.<sup><a href="#t9r2">[2]</a></sup></p>
         
         <blockquote>“A decisão reafirma que a classificação indicativa não tem caráter de censura”<cite><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;politica&#x2f;governo-volta-atras-e-determina-faixa-livre-para-desenhos-biblicos-da-record&#x2f;" target="_blank" rel="noopener">CartaCapital</a></cite></blockquote>
@@ -1198,7 +1200,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
       <h4>Centro pró-governo</h4>
       
       <div class="pos">
-        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">MP</span></span><span>Marcos Pereira (Republicanos-SP), deputado</span></div>
+        <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-c46481a3f9bd80fd.png" alt="Marcos Pereira" title="Marcos Pereira — desenho" loading="lazy"></span><span>Marcos Pereira (Republicanos-SP), deputado</span></div>
         <p>Questionou a nova classificação, segundo manchete; o texto completo não foi localizado.<sup><a href="#t9r5">[5]</a></sup></p>
         
         <blockquote>“Marcos Pereira questiona nova classificação de desenhos bíblicos da Record”<cite><a href="https:&#x2f;&#x2f;news.google.com&#x2f;rss&#x2f;articles&#x2f;CBMisgFBVV95cUxOZnBKZHBFVnFJZUI5ZTNFUnJlV080U1JKcUZXaDZRQk9OM1B5VzJUcUxvV19lOERZdDAwcWJ3bnZjQ09zeEQzczJ4TnJQRlBneVZyZld5ekNOcjFvYkRrUnA2VFhLVW85ZlBWelRoYWJzbHNCcTBaTFhsOGVNY1EyRWFLYld6Q1VocEZqOGlhVEY2UUloeV9kMk1OLW1WY21xbXVCd1ppbzZ5SXdNWElWaGdR?oc=5" target="_blank" rel="noopener">Republicanos 10 (via Google News)</a></cite></blockquote>
@@ -1212,7 +1214,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
       <h4>Oposição ao governo</h4>
       
       <div class="pos">
-        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">BK</span></span><span>Bia Kicis (PL-DF), deputada e senadora eleita</span></div>
+        <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-42f456ce3be89928.png" alt="Bia Kicis" title="Bia Kicis — desenho" loading="lazy"></span><span>Bia Kicis (PL-DF), deputada e senadora eleita</span></div>
         <p>Classificou a mudança como perseguição religiosa.<sup><a href="#t9r3">[3]</a></sup></p>
         
         <blockquote>“Isso não é classificação. É perseguição religiosa disfarçada!”<cite><a href="https:&#x2f;&#x2f;partidoliberal.org.br&#x2f;bia-kicis-critica-mudanca-na-classificacao-de-desenhos-biblicos-e-apresenta-projeto-que-susta-decisao-do-governo&#x2f;" target="_blank" rel="noopener">PL (site oficial)</a></cite></blockquote>
@@ -1226,7 +1228,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
       <h4>Independente — Missão &#x2f; MBL</h4>
       
       <div class="pos">
-        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">VM</span></span><span>Vereadora do MBL</span></div>
+        <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-5bc3df55a0d61f8a.png" alt="MBL" title="MBL — desenho" loading="lazy"></span><span>Vereadora do MBL</span></div>
         <p>Acusou &quot;censura disfarçada&quot;, segundo manchete; o texto completo não foi localizado.<sup><a href="#t9r6">[6]</a></sup></p>
         
         <blockquote>“Vereadora do MBL acusa &quot;censura disfarçada&quot; de desenhos bíblicos da Record”<cite><a href="https:&#x2f;&#x2f;news.google.com&#x2f;rss&#x2f;articles&#x2f;CBMivgFBVV95cUxQSHY1c3QyV2UxeEYySWQ5SXVxMjhtNU1CWExhWDRObXYxbTZJMzFyeVBTc2loVW9yZVE1Rk5sM2tldm5OSFBHc2RQb3ZWdFh4N25kUnR6M3RCWm5CVXVlaERnX0pnNEVscXF1alFVYlgyMVNnUS1WaFJyVTM2UFFCM2FzM0FxamM4STRPT2pWTm1MRDBlMHJ1TFhWZ2pGOTFzYWhhR2lOQmZ0T1I5YmlUM1Robnc2aWl6T04tSGN3?oc=5" target="_blank" rel="noopener">Metrópoles (via Google News)</a></cite></blockquote>
@@ -1274,7 +1276,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
 </article>
 
 <article id="t10">
-  <figure class="capa ilustrada"><img src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;ilustracao-1cb9e87eb961d528.jpg" alt="" loading="lazy"><figcaption>Ilustração: Heimdall News</figcaption></figure>
+  <figure class="capa ilustrada"><img src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;ilustracao-69e5486730121ffe.jpg" alt="" loading="lazy"><figcaption>Ilustração: Heimdall News</figcaption></figure>
   <h2><span class="n">10.</span>Presidente do PT fala em divórcio com ala do partido; José Dirceu diz que a vitória não foi do PT</h2>
   <p class="cobertura">Cobertura (3):
     <span class="l"><b>Imprensa de centro &#x2f; grandes veículos</b> — Folha</span><span class="l"><b>Imprensa mais à direita</b> — Gazeta do Povo, Revista Oeste</span>
@@ -1297,7 +1299,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
       <h4>Pró-governo</h4>
       
       <div class="pos">
-        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">ES</span></span><span>Edinho Silva, presidente do PT</span></div>
+        <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-3a61f0c78069bb05.png" alt="Edinho Silva" title="Edinho Silva — desenho" loading="lazy"></span><span>Edinho Silva, presidente do PT</span></div>
         <p>Disse que o partido não deve ser instrumento de projeção pessoal, segundo a Folha.<sup><a href="#t10r1">[1]</a></sup></p>
         
         <blockquote>“afirmou que o partido não deve ser instrumento de projeção e enriquecimento pessoais, mas um projeto coletivo”<cite><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;11&#x2f;com-aval-de-lula-presidente-do-pt-atua-para-expulsar-grupo-apelidado-de-centrao-do-partido.shtml" target="_blank" rel="noopener">Folha</a></cite></blockquote>
@@ -1305,7 +1307,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
       </div>
       
       <div class="pos">
-        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">JD</span></span><span>José Dirceu (PT-SP), ex-ministro</span></div>
+        <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-44470e227a011dbd.png" alt="José Dirceu" title="José Dirceu — desenho" loading="lazy"></span><span>José Dirceu (PT-SP), ex-ministro</span></div>
         <p>Disse que o resultado não foi do partido e defendeu uma reconstrução.<sup><a href="#t10r2">[2]</a></sup></p>
         
         <blockquote>“A vitória na eleição não foi do PT.”<cite><a href="https:&#x2f;&#x2f;www.gazetadopovo.com.br&#x2f;republica&#x2f;dirceu-diz-que-vitoria-de-lula-nao-foi-do-pt-e-cobra-reconstrucao-urgente-do-partido&#x2f;" target="_blank" rel="noopener">Gazeta do Povo</a></cite></blockquote>
@@ -1313,7 +1315,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
       </div>
       
       <div class="pos">
-        <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">WQ</span></span><span>Washington Quaquá (PT), prefeito de Maricá</span></div>
+        <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-fba0716069eb85b3.png" alt="Washington Quaquá" title="Washington Quaquá — desenho" loading="lazy"></span><span>Washington Quaquá (PT), prefeito de Maricá</span></div>
         <p>Afirmou à Folha que a campanha no Rio foi feita por ele.<sup><a href="#t10r1">[1]</a></sup></p>
         
         <blockquote>“o prefeito de Maricá afirmou que toda a campanha de Lula no Rio foi feita por ele”<cite><a href="https:&#x2f;&#x2f;www1.folha.uol.com.br&#x2f;poder&#x2f;2026&#x2f;11&#x2f;com-aval-de-lula-presidente-do-pt-atua-para-expulsar-grupo-apelidado-de-centrao-do-partido.shtml" target="_blank" rel="noopener">Folha</a></cite></blockquote>
@@ -1388,7 +1390,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
         <h4>Outros posicionamentos em destaque</h4>
         
         <div class="pos">
-          <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">ML</span></span><span>Ministro Luiz Fux, relator</span></div>
+          <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-1bf315836c0783da.png" alt="Luiz Fux" title="Luiz Fux — desenho" loading="lazy"></span><span>Ministro Luiz Fux, relator</span></div>
           <p>Disse ter a percepção de que as bets devem ser banidas.<sup><a href="#stf1r4">[4]</a></sup></p>
           
           <blockquote>“percepção de que as bets devem ser banidas”<cite><a href="https:&#x2f;&#x2f;www.jota.info&#x2f;stf&#x2f;do-supremo&#x2f;em-audiencia-publica-fux-diz-ter-percepcao-de-que-as-bets-devem-ser-banidas" target="_blank" rel="noopener">JOTA</a></cite></blockquote>
@@ -1452,7 +1454,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
           <h4>Outros &#x2f; não classificável</h4>
           
           <div class="pos">
-            <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">AN</span></span><span>Aliança Nacional LGBTI+ e Associação Brasileira de Famílias Homoafetivas</span></div>
+            <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-7b13f73f4f561c96.png" alt="Aliança Nacional LGBTI+" title="Aliança Nacional LGBTI+ — desenho" loading="lazy"></span><span>Aliança Nacional LGBTI+ e Associação Brasileira de Famílias Homoafetivas</span></div>
             <p>As entidades autoras alegaram que a norma censura a liberdade de expressão e o exercício do magistério.<sup><a href="#stf2r1">[1]</a></sup></p>
             
             <blockquote>“As entidades alegavam, entre outros pontos, que a norma censura a liberdade de expressão”<cite><a href="https:&#x2f;&#x2f;noticias.stf.jus.br&#x2f;postsnoticias&#x2f;stf-invalida-lei-do-maranhao-que-permitia-aos-pais-vetar-participacao-dos-filhos-em-aulas-sobre-genero-e-sexualidade&#x2f;" target="_blank" rel="noopener">STF — notícias oficiais</a></cite></blockquote>
@@ -1469,7 +1471,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
         <h4>Outros posicionamentos em destaque</h4>
         
         <div class="pos">
-          <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">MG</span></span><span>Ministro Gilmar Mendes, relator</span></div>
+          <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-5144cb064365b6b6.png" alt="Gilmar Mendes" title="Gilmar Mendes — desenho" loading="lazy"></span><span>Ministro Gilmar Mendes, relator</span></div>
           <p>Citou o caso semelhante da lei do Espírito Santo.<sup><a href="#stf2r1">[1]</a></sup></p>
           
           <blockquote>“considerada inconstitucional pelo Supremo no julgamento da ADI 7847”<cite><a href="https:&#x2f;&#x2f;noticias.stf.jus.br&#x2f;postsnoticias&#x2f;stf-invalida-lei-do-maranhao-que-permitia-aos-pais-vetar-participacao-dos-filhos-em-aulas-sobre-genero-e-sexualidade&#x2f;" target="_blank" rel="noopener">STF — notícias oficiais</a></cite></blockquote>
@@ -1477,7 +1479,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
         </div>
         
         <div class="pos">
-          <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">MC</span></span><span>Ministro Cristiano Zanin</span></div>
+          <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-a51673e78d58825a.png" alt="Cristiano Zanin" title="Cristiano Zanin — desenho" loading="lazy"></span><span>Ministro Cristiano Zanin</span></div>
           <p>Ressalvou que as escolas devem adequar os conteúdos às faixas etárias.<sup><a href="#stf2r1">[1]</a></sup></p>
           
           <blockquote>“as instituições de ensino devem adequar os conteúdos relacionados a gênero”<cite><a href="https:&#x2f;&#x2f;noticias.stf.jus.br&#x2f;postsnoticias&#x2f;stf-invalida-lei-do-maranhao-que-permitia-aos-pais-vetar-participacao-dos-filhos-em-aulas-sobre-genero-e-sexualidade&#x2f;" target="_blank" rel="noopener">STF — notícias oficiais</a></cite></blockquote>
@@ -1533,7 +1535,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
           <h4>Outros &#x2f; não classificável</h4>
           
           <div class="pos">
-            <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">AP</span></span><span>Articulação dos Povos Indígenas do Brasil</span></div>
+            <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-02157c79ed985a92.png" alt="Articulação dos Povos Indígenas do Brasil" title="Articulação dos Povos Indígenas do Brasil — desenho" loading="lazy"></span><span>Articulação dos Povos Indígenas do Brasil</span></div>
             <p>A Articulação dos Povos Indígenas do Brasil contabilizou mais de 30 denúncias, e há ato marcado para hoje em Brasília.<sup><a href="#stf3r2">[2]</a></sup></p>
             
             <blockquote>“foram contabilizadas mais de 30 denúncias contra indígenas”<cite><a href="https:&#x2f;&#x2f;www.brasildefato.com.br&#x2f;2026&#x2f;11&#x2f;03&#x2f;povos-indigenas-e-organizacoes-convocam-ato-em-brasilia-contra-violencia-e-pela-demarcacao-de-terras&#x2f;" target="_blank" rel="noopener">Brasil de Fato</a></cite></blockquote>
@@ -1550,7 +1552,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
         <h4>Outros posicionamentos em destaque</h4>
         
         <div class="pos">
-          <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">MG</span></span><span>Ministro Gilmar Mendes, relator</span></div>
+          <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-5144cb064365b6b6.png" alt="Gilmar Mendes" title="Gilmar Mendes — desenho" loading="lazy"></span><span>Ministro Gilmar Mendes, relator</span></div>
           <p>Disse ser necessário que os órgãos apresentem informações oficiais.<sup><a href="#stf3r1">[1]</a></sup></p>
           
           <blockquote>“entendo necessário que os órgãos públicos envolvidos apresentem informações oficiais”<cite><a href="https:&#x2f;&#x2f;noticias.stf.jus.br&#x2f;postsnoticias&#x2f;stf-requer-informacoes-sobre-relatos-de-violencia-contra-comunidades-indigenas-apos-as-eleicoes&#x2f;" target="_blank" rel="noopener">STF — notícias oficiais</a></cite></blockquote>
@@ -1668,7 +1670,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
           <h4>Pró-governo</h4>
           
           <div class="pos">
-            <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">AP</span></span><span>Ana Pimentel (PT-MG), autora do requerimento e relatora</span></div>
+            <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-ba906b48905f4024.png" alt="Ana Pimentel" title="Ana Pimentel — desenho" loading="lazy"></span><span>Ana Pimentel (PT-MG), autora do requerimento e relatora</span></div>
             <p>Pediu a urgência e deu parecer pela aprovação, na forma de um substitutivo.<sup><a href="#camara1r3">[3]</a></sup></p>
             
             <blockquote>“voto pela aprovação do Projeto de Lei nº 504, de 2021, na forma do substitutivo apresentado”<cite><a href="https:&#x2f;&#x2f;www.camara.leg.br&#x2f;proposicoesWeb&#x2f;prop_mostrarintegra?codteor=3159083" target="_blank" rel="noopener">Câmara — documentos oficiais</a></cite></blockquote>
@@ -1676,7 +1678,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
           </div>
           
           <div class="pos">
-            <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">PU</span></span><span>Pedro Uczai (PT-SC), líder da Federação Brasil da Esperança</span></div>
+            <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-de42c919c4e1f38b.png" alt="Pedro Uczai" title="Pedro Uczai — desenho" loading="lazy"></span><span>Pedro Uczai (PT-SC), líder da Federação Brasil da Esperança</span></div>
             <p>Assinou o pedido de urgência.<sup><a href="#camara1r1">[1]</a></sup></p>
             
             <blockquote>“Dep. Pedro Uczai (PT&#x2f;SC) - LÍDER do Federação Brasil da Esperança”<cite><a href="https:&#x2f;&#x2f;www.camara.leg.br&#x2f;proposicoesWeb&#x2f;prop_mostrarintegra?codteor=3146797" target="_blank" rel="noopener">Câmara — documentos oficiais</a></cite></blockquote>
@@ -1684,7 +1686,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
           </div>
           
           <div class="pos">
-            <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">MH</span></span><span>Mário Heringer (PDT-MG), líder do PDT</span></div>
+            <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-3e022caa02f9f935.png" alt="Mário Heringer" title="Mário Heringer — desenho" loading="lazy"></span><span>Mário Heringer (PDT-MG), líder do PDT</span></div>
             <p>Assinou o pedido de urgência.<sup><a href="#camara1r1">[1]</a></sup></p>
             
             <blockquote>“Dep. Mário Heringer (PDT&#x2f;MG) - LÍDER do PDT”<cite><a href="https:&#x2f;&#x2f;www.camara.leg.br&#x2f;proposicoesWeb&#x2f;prop_mostrarintegra?codteor=3146797" target="_blank" rel="noopener">Câmara — documentos oficiais</a></cite></blockquote>
@@ -1698,7 +1700,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
           <h4>Centro pró-governo</h4>
           
           <div class="pos">
-            <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">PL</span></span><span>Pedro Lucas Fernandes (União-MA), líder do bloco</span></div>
+            <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-bb72c7c9084c956a.png" alt="Pedro Lucas Fernandes" title="Pedro Lucas Fernandes — desenho" loading="lazy"></span><span>Pedro Lucas Fernandes (União-MA), líder do bloco</span></div>
             <p>Assinou o pedido de urgência como líder de União, PP, PSD, Republicanos, MDB, Federação PSDB Cidadania e Podemos.<sup><a href="#camara1r1">[1]</a></sup></p>
             
             <blockquote>“Dep. Pedro Lucas Fernandes (UNIÃO&#x2f;MA) - LÍDER do UNIÃO, PP, PSD, REPUBLICANOS, MDB, Federação PSDB CIDADANIA, PODE”<cite><a href="https:&#x2f;&#x2f;www.camara.leg.br&#x2f;proposicoesWeb&#x2f;prop_mostrarintegra?codteor=3146797" target="_blank" rel="noopener">Câmara — documentos oficiais</a></cite></blockquote>
@@ -1848,7 +1850,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
           <h4>Centro pró-governo</h4>
           
           <div class="pos">
-            <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">PL</span></span><span>Pedro Lucas Fernandes (União-MA), autor</span></div>
+            <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-bb72c7c9084c956a.png" alt="Pedro Lucas Fernandes" title="Pedro Lucas Fernandes — desenho" loading="lazy"></span><span>Pedro Lucas Fernandes (União-MA), autor</span></div>
             <p>Disse que o projeto busca proteger e fomentar o artesanato maranhense.<sup><a href="#camara2r3">[3]</a></sup></p>
             
             <blockquote>“tem o objetivo de reconhecer o artesanato tradicional do Estado do Maranhão como manifestação da cultura nacional”<cite><a href="https:&#x2f;&#x2f;www.camara.leg.br&#x2f;proposicoesWeb&#x2f;prop_mostrarintegra?codteor=3157723" target="_blank" rel="noopener">Câmara — documentos oficiais</a></cite></blockquote>
@@ -1856,7 +1858,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
           </div>
           
           <div class="pos">
-            <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">DL</span></span><span>Doutor Luizinho (PP-RJ), líder do bloco</span></div>
+            <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-c2ef702ff6b39159.png" alt="Doutor Luizinho" title="Doutor Luizinho — desenho" loading="lazy"></span><span>Doutor Luizinho (PP-RJ), líder do bloco</span></div>
             <p>Assinou o pedido de urgência.<sup><a href="#camara2r1">[1]</a></sup></p>
             
             <blockquote>“Dep. Doutor Luizinho (PP&#x2f;RJ) - LÍDER do UNIÃO, PP, PSD, REPUBLICANOS, MDB, Federação PSDB CIDADANIA, PODE”<cite><a href="https:&#x2f;&#x2f;www.camara.leg.br&#x2f;proposicoesWeb&#x2f;prop_mostrarintegra?codteor=3157742" target="_blank" rel="noopener">Câmara — documentos oficiais</a></cite></blockquote>
@@ -1962,7 +1964,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
           <h4>Pró-governo</h4>
           
           <div class="pos">
-            <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">AP</span></span><span>Alexandre Padilha (PT-SP), autor do recurso</span></div>
+            <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-4139df58fed88540.png" alt="Alexandre Padilha" title="Alexandre Padilha — desenho" loading="lazy"></span><span>Alexandre Padilha (PT-SP), autor do recurso</span></div>
             <p>Pediu que o projeto fosse votado em Plenário.<sup><a href="#camara3r1">[1]</a></sup></p>
             
             <blockquote>“formulo o presente recurso ao Plenário”<cite><a href="https:&#x2f;&#x2f;www.camara.leg.br&#x2f;proposicoesWeb&#x2f;prop_mostrarintegra?codteor=1844316" target="_blank" rel="noopener">Câmara — documentos oficiais</a></cite></blockquote>
@@ -1976,7 +1978,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
           <h4>Centro pró-governo</h4>
           
           <div class="pos">
-            <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">MP</span></span><span>Marcos Pereira (Republicanos-SP), autor do projeto</span></div>
+            <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-c46481a3f9bd80fd.png" alt="Marcos Pereira" title="Marcos Pereira — desenho" loading="lazy"></span><span>Marcos Pereira (Republicanos-SP), autor do projeto</span></div>
             <p>Afirmou que os convênios ajudam o instituto a descentralizar atividades e a qualificar profissionais.<sup><a href="#camara3r3">[3]</a></sup></p>
             
             <blockquote>“Com os convênios e parcerias, o Inpi pode descentralizar suas atividades ou qualificar profissionais que ajudem a conceder o registro”<cite><a href="https:&#x2f;&#x2f;www.camara.leg.br&#x2f;noticias&#x2f;1315402-projeto-que-permite-convenios-para-reduzir-o-prazo-de-concessao-de-patentes-segue-para-analise-do-senado" target="_blank" rel="noopener">Agência Câmara</a></cite></blockquote>
@@ -2094,7 +2096,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
           <h4>Pró-governo</h4>
           
           <div class="pos">
-            <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">BP</span></span><span>Bira do Pindaré (PSB-MA), autor do recurso</span></div>
+            <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-ff5f536bcabb1852.png" alt="Bira do Pindaré" title="Bira do Pindaré — desenho" loading="lazy"></span><span>Bira do Pindaré (PSB-MA), autor do recurso</span></div>
             <p>Pediu que o projeto fosse votado em Plenário, com assinaturas de deputados de PSB, PSOL, PT, PCdoB, PDT, Rede e PSD em 2022.<sup><a href="#camara4r1">[1]</a></sup></p>
             
             <blockquote>“os signatários abaixo apresentam RECURSO CONTRA PODER CONCLUSIVO DAS COMISSÕES”<cite><a href="https:&#x2f;&#x2f;www.camara.leg.br&#x2f;proposicoesWeb&#x2f;prop_mostrarintegra?codteor=2199053" target="_blank" rel="noopener">Câmara — documentos oficiais</a></cite></blockquote>
@@ -2108,7 +2110,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
           <h4>Centro pró-governo</h4>
           
           <div class="pos">
-            <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">MP</span></span><span>Marcos Pereira (Republicanos-SP), autor do projeto</span></div>
+            <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-c46481a3f9bd80fd.png" alt="Marcos Pereira" title="Marcos Pereira — desenho" loading="lazy"></span><span>Marcos Pereira (Republicanos-SP), autor do projeto</span></div>
             <p>Afirmou que o objetivo é pagar o trabalhador sem pôr em risco a atividade da empresa.<sup><a href="#camara4r4">[4]</a></sup></p>
             
             <blockquote>“satisfazendo os créditos do trabalhador na reclamação trabalhista, mas sem colocar em risco o desenvolvimento regular das atividades empresariais”<cite><a href="https:&#x2f;&#x2f;www.camara.leg.br&#x2f;proposicoesWeb&#x2f;prop_mostrarintegra?codteor=1751360" target="_blank" rel="noopener">Câmara — documentos oficiais</a></cite></blockquote>
@@ -2125,7 +2127,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
         <h4>Outros posicionamentos em destaque</h4>
         
         <div class="pos">
-          <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">SC</span></span><span>Silvio Costa Filho (Republicanos-PE), relator na Comissão de Trabalho</span></div>
+          <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-4e1c15df0d14fe13.png" alt="Silvio Costa Filho" title="Silvio Costa Filho — desenho" loading="lazy"></span><span>Silvio Costa Filho (Republicanos-PE), relator na Comissão de Trabalho</span></div>
           <p>Deu o parecer aprovado na comissão, com substitutivo.<sup><a href="#camara4r5">[5]</a></sup></p>
           
           <blockquote>“nos termos do Parecer do Relator, Deputado Silvio Costa Filho”<cite><a href="https:&#x2f;&#x2f;www.camara.leg.br&#x2f;proposicoesWeb&#x2f;prop_mostrarintegra?codteor=2110273" target="_blank" rel="noopener">Câmara — documentos oficiais</a></cite></blockquote>
@@ -2259,7 +2261,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
           <h4>Centro pró-governo</h4>
           
           <div class="pos">
-            <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">BP</span></span><span>Beto Preto (PSD-PR), autor</span></div>
+            <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-1a0abe20b5ac9464.png" alt="Beto Preto" title="Beto Preto — desenho" loading="lazy"></span><span>Beto Preto (PSD-PR), autor</span></div>
             <p>Defendeu o exame para detectar anomalias no feto e diminuir complicações.<sup><a href="#camara5r2">[2]</a></sup></p>
             
             <blockquote>“exame essencial para a detecção de possíveis anomalias no feto”<cite><a href="https:&#x2f;&#x2f;www.camara.leg.br&#x2f;proposicoesWeb&#x2f;prop_mostrarintegra?codteor=2833133" target="_blank" rel="noopener">Câmara — documentos oficiais</a></cite></blockquote>
@@ -2276,7 +2278,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
         <h4>Outros posicionamentos em destaque</h4>
         
         <div class="pos">
-          <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">LC</span></span><span>Laura Carneiro (PSD-RJ), relatora</span></div>
+          <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-c9e8621c0721e18a.png" alt="Laura Carneiro" title="Laura Carneiro — desenho" loading="lazy"></span><span>Laura Carneiro (PSD-RJ), relatora</span></div>
           <p>Deu parecer pela aprovação, na forma do substitutivo.<sup><a href="#camara5r1">[1]</a></sup></p>
           
           <blockquote>“Aprovada a Redação Final assinada pela relatora, Dep. Laura Carneiro (PSD-RJ)”<cite><a href="https:&#x2f;&#x2f;www.camara.leg.br&#x2f;propostas-legislativas&#x2f;2475487#evento-83141-item-14" target="_blank" rel="noopener">Câmara — pauta do Plenário</a></cite></blockquote>
@@ -2413,7 +2415,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
           <h4>Pró-governo</h4>
           
           <div class="pos">
-            <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">LI</span></span><span>Luiz Inácio Lula da Silva (PT), presidente da República</span></div>
+            <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-c4158ade59c81c40.png" alt="Luiz Inácio Lula da Silva" title="Luiz Inácio Lula da Silva — desenho" loading="lazy"></span><span>Luiz Inácio Lula da Silva (PT), presidente da República</span></div>
             <p>Comemorou a aprovação e disse que vai somar a ela a criação do Ministério da Segurança Pública.<sup><a href="#senado1r2">[2]</a></sup></p>
             
             <blockquote>“Vamos somar a esse avanço a criação do Ministério da Segurança Pública, com foco em inteligência, planejamento e cooperação com estados e municípios para enfrentar as facções e as milícias”<cite><a href="https:&#x2f;&#x2f;www.cartacapital.com.br&#x2f;politica&#x2f;lula-celebra-aprovacao-da-pec-da-seguranca-e-reforca-que-criara-ministerio&#x2f;" target="_blank" rel="noopener">CartaCapital</a></cite></blockquote>
@@ -2421,7 +2423,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
           </div>
           
           <div class="pos">
-            <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">TL</span></span><span>Teresa Leitão (PT-PE), líder do governo no Senado</span></div>
+            <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-9c6eec9bd01c1dfe.png" alt="Teresa Leitão" title="Teresa Leitão — desenho" loading="lazy"></span><span>Teresa Leitão (PT-PE), líder do governo no Senado</span></div>
             <p>Defendeu separar a maioridade penal e aprovar a parte em que há acordo.<sup><a href="#senado1r3">[3]</a></sup></p>
             
             <blockquote>“A luta política sobre a PEC da segurança não existe. Todos concordamos com ela.”<cite><a href="https:&#x2f;&#x2f;www12.senado.leg.br&#x2f;noticias&#x2f;materias&#x2f;2026&#x2f;11&#x2f;03&#x2f;senado-aprova-pec-da-seguranca-publica-sem-reducao-da-maioridade-penal" target="_blank" rel="noopener">Agência Senado</a></cite></blockquote>
@@ -2429,7 +2431,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
           </div>
           
           <div class="pos">
-            <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">PT</span></span><span>Bancada do PT no Senado (orientação)</span></div>
+            <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-858ab20135f7acab.png" alt="PT" title="PT — desenho" loading="lazy"></span><span>Bancada do PT no Senado (orientação)</span></div>
             <p>Orientou a favor da separação das emendas; os nove senadores do partido votaram assim.<sup><a href="#senado1r1">[1]</a></sup></p>
             
             <blockquote>“Orientação PT: Sim”<cite><a href="https:&#x2f;&#x2f;www25.senado.leg.br&#x2f;web&#x2f;atividade&#x2f;materias&#x2f;-&#x2f;materia&#x2f;172997#sessao-594169-item-594242" target="_blank" rel="noopener">Senado — pauta do Plenário</a></cite></blockquote>
@@ -2445,7 +2447,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
           <h4>Centro pró-governo</h4>
           
           <div class="pos">
-            <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">PSD</span></span><span>Bancada do PSD no Senado (orientação)</span></div>
+            <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-c26dca5a3e8bf9b2.png" alt="PSD" title="PSD — desenho" loading="lazy"></span><span>Bancada do PSD no Senado (orientação)</span></div>
             <p>Orientou a favor da separação das emendas; dez senadores votaram sim e três votaram não.<sup><a href="#senado1r1">[1]</a></sup></p>
             
             <blockquote>“Orientação PSD: Sim”<cite><a href="https:&#x2f;&#x2f;www25.senado.leg.br&#x2f;web&#x2f;atividade&#x2f;materias&#x2f;-&#x2f;materia&#x2f;172997#sessao-594169-item-594242" target="_blank" rel="noopener">Senado — pauta do Plenário</a></cite></blockquote>
@@ -2455,7 +2457,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
           </div>
           
           <div class="pos">
-            <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">PSB</span></span><span>Bancada do PSB no Senado (orientação)</span></div>
+            <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-b043315e922ced54.png" alt="PSB" title="PSB — desenho" loading="lazy"></span><span>Bancada do PSB no Senado (orientação)</span></div>
             <p>Orientou a favor da separação das emendas, com sete votos sim.<sup><a href="#senado1r1">[1]</a></sup></p>
             
             <blockquote>“Orientação PSB: Sim”<cite><a href="https:&#x2f;&#x2f;www25.senado.leg.br&#x2f;web&#x2f;atividade&#x2f;materias&#x2f;-&#x2f;materia&#x2f;172997#sessao-594169-item-594242" target="_blank" rel="noopener">Senado — pauta do Plenário</a></cite></blockquote>
@@ -2471,7 +2473,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
           <h4>Centro</h4>
           
           <div class="pos">
-            <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">BU</span></span><span>Bancadas do União Brasil e do Podemos no Senado (orientação)</span></div>
+            <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-f5ca873b4828972e.png" alt="UNIÃO" title="UNIÃO — desenho" loading="lazy"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-94e81567bfd57ba0.png" alt="PODE" title="PODE — desenho" loading="lazy"></span><span>Bancadas do União Brasil e do Podemos no Senado (orientação)</span></div>
             <p>O União Brasil orientou a favor da separação; o Podemos orientou contra.<sup><a href="#senado1r1">[1]</a></sup></p>
             
             <blockquote>“Orientação UNIÃO: Sim”<cite><a href="https:&#x2f;&#x2f;www25.senado.leg.br&#x2f;web&#x2f;atividade&#x2f;materias&#x2f;-&#x2f;materia&#x2f;172997#sessao-594169-item-594242" target="_blank" rel="noopener">Senado — pauta do Plenário</a></cite></blockquote>
@@ -2487,7 +2489,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
           <h4>Centro-oposição</h4>
           
           <div class="pos">
-            <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">PSDB</span></span><span>Bancada do PSDB no Senado (orientação)</span></div>
+            <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-0ce9185b065b50cc.png" alt="PSDB" title="PSDB — desenho" loading="lazy"></span><span>Bancada do PSDB no Senado (orientação)</span></div>
             <p>Orientou contra a separação das emendas; três senadores votaram não e um votou sim.<sup><a href="#senado1r1">[1]</a></sup></p>
             
             <blockquote>“Orientação PSDB: Não”<cite><a href="https:&#x2f;&#x2f;www25.senado.leg.br&#x2f;web&#x2f;atividade&#x2f;materias&#x2f;-&#x2f;materia&#x2f;172997#sessao-594169-item-594242" target="_blank" rel="noopener">Senado — pauta do Plenário</a></cite></blockquote>
@@ -2503,7 +2505,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
           <h4>Oposição ao governo</h4>
           
           <div class="pos">
-            <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">RM</span></span><span>Rogério Marinho (PL-RN), líder da oposição no Senado</span></div>
+            <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-0d6dc8067268d3f9.png" alt="Rogério Marinho" title="Rogério Marinho — desenho" loading="lazy"></span><span>Rogério Marinho (PL-RN), líder da oposição no Senado</span></div>
             <p>Disse que a separação impediria a discussão das emendas e criticou a proposta do relator.<sup><a href="#senado1r3">[3]</a></sup></p>
             
             <blockquote>“O relator propõe que, na prática, este Plenário seja cerceado, seja emudecido, que haja uma procrastinação”<cite><a href="https:&#x2f;&#x2f;www12.senado.leg.br&#x2f;noticias&#x2f;materias&#x2f;2026&#x2f;11&#x2f;03&#x2f;senado-aprova-pec-da-seguranca-publica-sem-reducao-da-maioridade-penal" target="_blank" rel="noopener">Agência Senado</a></cite></blockquote>
@@ -2511,7 +2513,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
           </div>
           
           <div class="pos">
-            <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">EF</span></span><span>Efraim Filho (PL-PB), senador</span></div>
+            <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-7824d9d245ef191d.png" alt="Efraim Filho" title="Efraim Filho — desenho" loading="lazy"></span><span>Efraim Filho (PL-PB), senador</span></div>
             <p>Afirmou que a maioridade penal não é matéria estranha ao texto.<sup><a href="#senado1r3">[3]</a></sup></p>
             
             <blockquote>“Aqui a gente sabe o que é jabuti, a gente já lidou com muitos deles diversas vezes, e este não é um caso de matéria estranha”<cite><a href="https:&#x2f;&#x2f;www12.senado.leg.br&#x2f;noticias&#x2f;materias&#x2f;2026&#x2f;11&#x2f;03&#x2f;senado-aprova-pec-da-seguranca-publica-sem-reducao-da-maioridade-penal" target="_blank" rel="noopener">Agência Senado</a></cite></blockquote>
@@ -2519,7 +2521,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
           </div>
           
           <div class="pos">
-            <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">BP</span></span><span>Bancadas do PL e do Republicanos no Senado (orientação)</span></div>
+            <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-0345b99ae0d5be35.png" alt="PL" title="PL — desenho" loading="lazy"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-2ec6e7286cc709f3.png" alt="REP" title="REP — desenho" loading="lazy"></span><span>Bancadas do PL e do Republicanos no Senado (orientação)</span></div>
             <p>Orientaram contra a separação; a bancada do PL teve doze votos não e o Republicanos, seis. Na votação da proposta, orientaram a favor.<sup><a href="#senado1r1">[1]</a></sup></p>
             
             <blockquote>“Votos do PL: Não 12, Abstenção 1”<cite><a href="https:&#x2f;&#x2f;www25.senado.leg.br&#x2f;web&#x2f;atividade&#x2f;materias&#x2f;-&#x2f;materia&#x2f;172997#sessao-594169-item-594242" target="_blank" rel="noopener">Senado — pauta do Plenário</a></cite></blockquote>
@@ -2537,7 +2539,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
           <h4>Outros &#x2f; não classificável</h4>
           
           <div class="pos">
-            <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">FB</span></span><span>Fórum Brasileiro de Segurança Pública</span></div>
+            <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-e0fe5c77f4cf5d0a.png" alt="Fórum Brasileiro de Segurança Pública" title="Fórum Brasileiro de Segurança Pública — desenho" loading="lazy"></span><span>Fórum Brasileiro de Segurança Pública</span></div>
             <p>O Fórum Brasileiro de Segurança Pública comemorou a aprovação, disse que ela não basta para os problemas estruturais e defendeu recriar o ministério.<sup><a href="#senado1r4">[4]</a></sup></p>
             
             <blockquote>“afirmou que a medida, isoladamente, não será suficiente para resolver os problemas estruturais da área”<cite><a href="https:&#x2f;&#x2f;g1.globo.com&#x2f;sp&#x2f;sao-paulo&#x2f;noticia&#x2f;2026&#x2f;11&#x2f;03&#x2f;forum-brasileiro-de-seguranca-publica-celebra-aprovacao-da-pec-da-seguranca-mas-diz-que-texto-nao-resolve-problemas-estruturais.ghtml" target="_blank" rel="noopener">G1</a></cite></blockquote>
@@ -2554,7 +2556,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
         <h4>Outros posicionamentos em destaque</h4>
         
         <div class="pos">
-          <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">RC</span></span><span>Rogério Carvalho (PT-SE), relator na CCJ</span></div>
+          <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-fe04fe6d7ed167a1.png" alt="Rogério Carvalho" title="Rogério Carvalho — desenho" loading="lazy"></span><span>Rogério Carvalho (PT-SE), relator na CCJ</span></div>
           <p>Parecer favorável, com as emendas que suprimem o artigo das bets, e pela rejeição das demais emendas.<sup><a href="#senado1r1">[1]</a></sup></p>
           
           <blockquote>“Relator: Senador Rogério Carvalho, favorável à proposta e às Emendas nºs 22, 39, 55 e 64”<cite><a href="https:&#x2f;&#x2f;www25.senado.leg.br&#x2f;web&#x2f;atividade&#x2f;materias&#x2f;-&#x2f;materia&#x2f;172997#sessao-594169-item-594242" target="_blank" rel="noopener">Senado — pauta do Plenário</a></cite></blockquote>
@@ -2723,7 +2725,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
         <h4>Outros posicionamentos em destaque</h4>
         
         <div class="pos">
-          <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">DA</span></span><span>Damares Alves (Republicanos-DF), relatora</span></div>
+          <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-032ea6c20ceac016.png" alt="Damares Alves" title="Damares Alves — desenho" loading="lazy"></span><span>Damares Alves (Republicanos-DF), relatora</span></div>
           <p>Deu parecer favorável nas duas comissões, sem emendas.<sup><a href="#senado2r1">[1]</a></sup></p>
           
           <blockquote>“Pareceres favoráveis da Relatora: Senadora Damares Alves”<cite><a href="https:&#x2f;&#x2f;www25.senado.leg.br&#x2f;web&#x2f;atividade&#x2f;materias&#x2f;-&#x2f;materia&#x2f;173226#sessao-594169-item-594217" target="_blank" rel="noopener">Senado — pauta do Plenário</a></cite></blockquote>
@@ -2830,7 +2832,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
         <h4>Outros posicionamentos em destaque</h4>
         
         <div class="pos">
-          <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">IS</span></span><span>Ivete da Silveira (MDB-SC), relatora; Damares Alves (Republicanos-DF), relatora ad hoc</span></div>
+          <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-362d61ee89e2a2a8.png" alt="Ivete da Silveira" title="Ivete da Silveira — desenho" loading="lazy"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-032ea6c20ceac016.png" alt="Damares Alves" title="Damares Alves — desenho" loading="lazy"></span><span>Ivete da Silveira (MDB-SC), relatora; Damares Alves (Republicanos-DF), relatora ad hoc</span></div>
           <p>Parecer favorável na Comissão de Direitos Humanos, com a Emenda nº 1, de redação.<sup><a href="#senado3r1">[1]</a></sup></p>
           
           <blockquote>“favorável ao projeto, com a Emenda nº 1, de redação, que apresenta”<cite><a href="https:&#x2f;&#x2f;www25.senado.leg.br&#x2f;web&#x2f;atividade&#x2f;materias&#x2f;-&#x2f;materia&#x2f;171335#sessao-594169-item-594220" target="_blank" rel="noopener">Senado — pauta do Plenário</a></cite></blockquote>
@@ -2941,7 +2943,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
         <h4>Outros posicionamentos em destaque</h4>
         
         <div class="pos">
-          <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">HM</span></span><span>Hamilton Mourão (Republicanos-RS), relator ad hoc</span></div>
+          <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-a520b54c980f6da5.png" alt="Hamilton Mourão" title="Hamilton Mourão — desenho" loading="lazy"></span><span>Hamilton Mourão (Republicanos-RS), relator ad hoc</span></div>
           <p>Parecer favorável na Comissão de Relações Exteriores.<sup><a href="#senado4r1">[1]</a></sup></p>
           
           <blockquote>“Relator &quot;ad hoc&quot;: Senador Hamilton Mourão”<cite><a href="https:&#x2f;&#x2f;www25.senado.leg.br&#x2f;web&#x2f;atividade&#x2f;materias&#x2f;-&#x2f;materia&#x2f;102633#sessao-594169-item-594236" target="_blank" rel="noopener">Senado — pauta do Plenário</a></cite></blockquote>
@@ -3038,7 +3040,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
         <h4>Outros posicionamentos em destaque</h4>
         
         <div class="pos">
-          <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">HM</span></span><span>Hamilton Mourão (Republicanos-RS), relator</span></div>
+          <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-a520b54c980f6da5.png" alt="Hamilton Mourão" title="Hamilton Mourão — desenho" loading="lazy"></span><span>Hamilton Mourão (Republicanos-RS), relator</span></div>
           <p>Votou pela aprovação, citando soberania e desenvolvimento tecnológico.<sup><a href="#senado5r2">[2]</a></sup></p>
           
           <blockquote>“nosso voto é pela aprovação do Projeto de Decreto Legislativo nº 575, de 2026”<cite><a href="https:&#x2f;&#x2f;legis.senado.leg.br&#x2f;sdleg-getter&#x2f;dadosabertos&#x2f;documento&#x2f;2d9b68b5-081a-4803-b526-11ccc8d103fd" target="_blank" rel="noopener">Senado — documentos oficiais</a></cite></blockquote>
@@ -3153,7 +3155,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
         <h4>Outros posicionamentos em destaque</h4>
         
         <div class="pos">
-          <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">IL</span></span><span>Izalci Lucas (PL-DF), autor</span></div>
+          <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-929b9749abfb9054.png" alt="Izalci Lucas" title="Izalci Lucas — desenho" loading="lazy"></span><span>Izalci Lucas (PL-DF), autor</span></div>
           <p>Apresentou o requerimento com outros senadores.<sup><a href="#senado6r1">[1]</a></sup></p>
           
           <blockquote>“Autor: Senador Izalci Lucas”<cite><a href="https:&#x2f;&#x2f;www25.senado.leg.br&#x2f;web&#x2f;atividade&#x2f;materias&#x2f;-&#x2f;materia&#x2f;176119#sessao-594169-item-594477" target="_blank" rel="noopener">Senado — pauta do Plenário</a></cite></blockquote>
@@ -3232,7 +3234,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
         <h4>Outros posicionamentos em destaque</h4>
         
         <div class="pos">
-          <div class="quem"><span class="rostos"><span class="rosto sem" aria-hidden="true">IL</span></span><span>Izalci Lucas (PL-DF), autor</span></div>
+          <div class="quem"><span class="rostos"><img class="rosto boneco" src="..&#x2f;..&#x2f;img&#x2f;2026-11-04&#x2f;retrato-929b9749abfb9054.png" alt="Izalci Lucas" title="Izalci Lucas — desenho" loading="lazy"></span><span>Izalci Lucas (PL-DF), autor</span></div>
           <p>Apresentou o requerimento com outros senadores.<sup><a href="#senado7r1">[1]</a></sup></p>
           
           <blockquote>“Autor: Senador Izalci Lucas”<cite><a href="https:&#x2f;&#x2f;www25.senado.leg.br&#x2f;web&#x2f;atividade&#x2f;materias&#x2f;-&#x2f;materia&#x2f;176153#sessao-594169-item-594481" target="_blank" rel="noopener">Senado — pauta do Plenário</a></cite></blockquote>
@@ -3286,7 +3288,7 @@ footer { font-family: var(--sans); font-size: .82rem; color: var(--muted); borde
 
 
 <footer>
-  <p>Gerado em 04&#x2f;11&#x2f;2026 15:53. Cada afirmação traz pelo menos um trecho copiado literalmente de uma fonte coletada, e esses trechos são conferidos automaticamente antes da publicação. Quando um lado aparece como “nenhum posicionamento encontrado”, isso só significa que as fontes consultadas não trouxeram uma posição. Não quer dizer que o lado não tenha opinião.</p>
+  <p>Gerado em 04&#x2f;11&#x2f;2026 16:27. Cada afirmação traz pelo menos um trecho copiado literalmente de uma fonte coletada, e esses trechos são conferidos automaticamente antes da publicação. Quando um lado aparece como “nenhum posicionamento encontrado”, isso só significa que as fontes consultadas não trouxeram uma posição. Não quer dizer que o lado não tenha opinião.</p>
   <p>Em “Atuação dos Poderes”, pauta e resultado da Câmara e do Senado vêm dos dados abertos oficiais de cada Casa. Na Câmara, o que foi dito em Plenário vem da transcrição automática do vídeo da sessão (TV Câmara no YouTube), que pode errar palavras; o link de cada trecho abre o vídeo no momento citado. Para o STF, vêm da imprensa especializada, porque o tribunal não publica dados abertos de pauta. Orientações de bancada e votos por partido contam como posicionamento.</p>
   <p>A classificação dos veículos por linha editorial é aproximada. Ela serve para mostrar o equilíbrio da cobertura, não para julgar cada veículo.</p>
 </footer>
