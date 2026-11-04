@@ -162,7 +162,7 @@
 [0:18:01] masculina: Afirmou à Folha que a campanha no Rio foi feita por ele.
 [0:18:07] narrador: Mudando de assunto.
 [0:18:09] narrador: Agora, a atuação do Supremo Tribunal Federal.
-[0:18:14] narrador: 5 itens no Supremo Tribunal Federal.
+[0:18:14] narrador: 4 itens no Supremo Tribunal Federal.
 [0:18:18] narrador: Item 1. Ação Direta de Inconstitucionalidade 8027 e outras, audiência pública sobre a medida provisória que proíbe as bets.
 [0:18:28] narrador: Situação: em andamento.
 [0:18:31] narrador: O relator ouviu governo, clubes e setor sobre a medida provisória e as ações contra ela.
@@ -170,9 +170,9 @@
 [0:18:42] narrador: Posicionamentos.
 [0:18:44] narrador: Ministro Luiz Fux, relator.
 [0:18:47] masculina: Disse ter a percepção de que as bets devem ser banidas.
-[0:18:51] narrador: Item 2. Ação Direta de Inconstitucionalidade 7883, lei do Maranhão sobre aulas de gênero e sexualidade.
+[0:18:52] narrador: Item 2. Ação Direta de Inconstitucionalidade 7883, lei do Maranhão sobre aulas de gênero e sexualidade.
 [0:19:01] narrador: Situação: julgado.
-[0:19:03] narrador: O Plenário julgou a lei que permitia aos pais vetar a participação dos filhos nessas atividades escolares.
+[0:19:04] narrador: O Plenário julgou a lei que permitia aos pais vetar a participação dos filhos nessas atividades escolares.
 [0:19:10] narrador: O Supremo declarou a lei inconstitucional por unanimidade, em sessão virtual encerrada em 23 de outubro.
 [0:19:17] narrador: Posicionamentos.
 [0:19:19] narrador: Ministro Gilmar Mendes, relator.
@@ -191,25 +191,238 @@
 [0:20:27] narrador: Outros, não classificável.
 [0:20:29] narrador: Articulação dos Povos Indígenas do Brasil: A Articulação dos Povos Indígenas do Brasil contabilizou mais de 30 denúncias, e há ato marcado para hoje em Brasília.
 [0:20:41] narrador: Item 4. Ação contra a rejeição de Jorge Messias pelo Senado.
-[0:20:45] narrador: Situação: julgado.
+[0:20:46] narrador: Situação: julgado.
 [0:20:48] narrador: Uma associação pediu que o Supremo anulasse a votação em que o Senado rejeitou a indicação do advogado-geral da União.
 [0:20:55] narrador: O ministro Luiz Fux arquivou a ação ontem, apontando que a advogada da associação está com a inscrição cancelada.
-[0:21:04] narrador: Item 5. Plenário virtual (30 de outubro a 10 de novembro), nacionalidade de crianças adotadas, cotas raciais e saneamento.
-[0:21:13] narrador: Situação: em andamento.
-[0:21:16] narrador: Os ministros analisam esses temas em sessão virtual, sem debate.
-[0:21:21] narrador: Os votos podem ser depositados até o dia 10 de novembro.
-[0:21:27] narrador: Mudando de assunto.
-[0:21:29] narrador: Agora, a atuação do Senado Federal.
-[0:21:33] narrador: 1 item no Senado Federal.
-[0:21:36] narrador: Item 1. Sessão de 3 de novembro, demais resultados do Plenário do Senado.
-[0:21:42] narrador: Situação: aprovado.
-[0:21:45] narrador: Além da proposta da segurança, tratada nas notícias, o Senado votou dois projetos de lei, dois decretos legislativos e dois pedidos de sessão especial.
-[0:21:55] narrador: Aprovados os projetos da parentalidade positiva e do Setembro em Flor, que vão à sanção; os acordos com a Guiana e a Venezuela, que vão à promulgação; e as sessões especiais do Dia do Síndico e do Dia do Biomédico.
-[0:22:11] narrador: Mudando de assunto.
-[0:22:14] narrador: Agora, a atuação da Câmara dos Deputados.
-[0:22:19] narrador: 1 item na Câmara dos Deputados.
-[0:22:22] narrador: Item 1. Sessão de 3 de novembro, resultados do Plenário da Câmara.
-[0:22:27] narrador: Situação: aprovado.
-[0:22:30] narrador: Na sessão de ontem, a Câmara votou o projeto sobre ultrassonografias no pré-natal, dois recursos e dois pedidos de urgência.
-[0:22:38] narrador: Aprovado o projeto das ultrassonografias, que vai ao Senado. Rejeitados, em votação simbólica, os recursos contra a limitação da penhora de receitas de empresas e contra convênios do instituto de patentes, e os dois projetos seguem ao Senado. Aprovadas as urgências sobre a residência em saúde e o artesanato do Maranhão.
-[0:23:00] narrador: Esse foi o briefing de quarta-feira, 4 de novembro de 2026. As fontes de cada informação estão no briefing escrito. Até amanhã.
+[0:21:05] narrador: Mudando de assunto.
+[0:21:07] narrador: Agora, a atuação do Senado Federal.
+[0:21:11] narrador: 7 itens no Senado Federal.
+[0:21:15] narrador: Item 1. Proposta de Emenda à Constituição 18 de 2025, Proposta de Emenda à Constituição da Segurança Pública.
+[0:21:25] narrador: Situação: aprovado.
+[0:21:27] narrador: Item 1 da sessão de 3 de novembro: discussão e votação em dois turnos, com calendário especial.
+[0:21:34] narrador: Aprovada em dois turnos, por 73 e 75 votos, sem voto contrário. As emendas da maioridade penal foram separadas por 38 votos a 36 e passam a tramitar como propostas próprias. Uma sessão solene do Congresso fará a promulgação.
+[0:21:51] narrador: Detalhes da proposta.
+[0:21:53] narrador: Cria o Sistema Único de Segurança Pública na Constituição, com forças-tarefa, compartilhamento de dados e cooperação entre União, estados e municípios.
+[0:22:02] narrador: Manda a lei fixar regime mais duro para facções e milícias: prisão em segurança máxima e restrição de progressão, liberdade provisória, saída temporária e acordo de não persecução.
+[0:22:14] narrador: Permite polícias municipais de natureza civil, para policiamento ostensivo e comunitário, com controle externo do Ministério Público.
+[0:22:22] narrador: Amplia as atribuições da Polícia Rodoviária Federal, protege os fundos de segurança e penitenciário de contingenciamento e cria repasses obrigatórios a estados.
+[0:22:33] narrador: Argumentos.
+[0:22:35] narrador: O relator afirma que o endurecimento penal não suprime garantias fundamentais e que não há ofensa a cláusula pétrea.
+[0:22:43] narrador: O relator rejeitou emendas sobre categorias (agentes de trânsito, guarda portuária, polícia científica, previdência) por fugirem do núcleo da Proposta de Emenda à Constituição.
+[0:22:53] narrador: A emenda 84 (oposição) reduz a maioridade penal para 16 anos, e 14 para crimes graves; a justificação cita pesquisa Datafolha com 79% de apoio.
+[0:23:06] narrador: A emenda 85 (oposição) permite usar o Fundo Nacional de Segurança Pública em ações das Forças Armadas; o relator rejeitou proposta igual na Comissão de Constituição e Justiça (emenda 45).
+[0:23:20] narrador: Jabuti: O artigo 139 do Ato das Disposições Constitucionais Transitórias (30% da arrecadação das bets para os fundos, depois de descontar o custeio das operadoras) entrou só no Plenário da Câmara, sem emenda, e muda a partilha atual das apostas. A Comissão de Constituição e Justiça do Senado o suprimiu.
+[0:23:42] narrador: Ponto de atenção: O texto da Câmara permite ao Congresso sustar atos normativos do Conselho Nacional de Justiça e do Conselho Nacional do Ministério Público em matéria penal e de segurança; o presidente do Supremo Tribunal Federal manifestou preocupação.
+[0:23:58] narrador: Ponto de atenção: A emenda 84, da maioridade penal, trata de tema que não está na Proposta de Emenda à Constituição e que tem Proposta de Emenda à Constituição própria em comissão na Câmara.
+[0:24:10] narrador: Conclusão: O núcleo da Proposta de Emenda à Constituição (Sistema Único de Segurança Pública, polícias municipais, regime penal mais duro para facções, financiamento) é o texto da Câmara. Havia um jabuti (artigo 139, receita das bets), suprimido pela Comissão de Constituição e Justiça. Ficam em aberto em Plenário as emendas 84 (maioridade penal, tema estranho à Proposta de Emenda à Constituição) e 85 (fundo para as Forças Armadas), destacadas pelo Partido Liberal, e o dispositivo sobre Conselho Nacional de Justiça e Conselho Nacional do Ministério Público.
+[0:24:48] narrador: Posicionamentos.
+[0:24:49] narrador: Rogério Carvalho (Partido dos Trabalhadores, Sergipe), relator na Comissão de Constituição e Justiça.
+[0:24:56] masculina: Parecer favorável, com as emendas que suprimem o artigo das bets, e pela rejeição das demais emendas.
+[0:25:03] narrador: Pró-governo.
+[0:25:04] narrador: Luiz Inácio Lula da Silva (Partido dos Trabalhadores), presidente da República.
+[0:25:10] masculina: Comemorou a aprovação e disse que vai somar a ela a criação do Ministério da Segurança Pública.
+[0:25:16] narrador: Teresa Leitão (Partido dos Trabalhadores, Pernambuco), líder do governo no Senado.
+[0:25:22] feminina: Defendeu separar a maioridade penal e aprovar a parte em que há acordo.
+[0:25:28] narrador: Bancada do Partido dos Trabalhadores no Senado (orientação): Orientou a favor da separação das emendas; os nove senadores do partido votaram assim.
+[0:25:39] narrador: Centro pró-governo.
+[0:25:41] narrador: Bancada do Partido Social Democrático no Senado (orientação): Orientou a favor da separação das emendas; dez senadores votaram sim e três votaram não.
+[0:25:53] narrador: Bancada do Partido Socialista Brasileiro no Senado (orientação): Orientou a favor da separação das emendas, com sete votos sim.
+[0:26:02] narrador: Centro.
+[0:26:04] narrador: Bancadas do União Brasil e do Podemos no Senado (orientação): O União Brasil orientou a favor da separação; o Podemos orientou contra.
+[0:26:15] narrador: Centro-oposição.
+[0:26:17] narrador: Bancada do Partido da Social Democracia Brasileira no Senado (orientação): Orientou contra a separação das emendas; três senadores votaram não e um votou sim.
+[0:26:28] narrador: Oposição ao governo.
+[0:26:30] narrador: Rogério Marinho (Partido Liberal, Rio Grande do Norte), líder da oposição no Senado.
+[0:26:36] masculina: Disse que a separação impediria a discussão das emendas e criticou a proposta do relator.
+[0:26:42] narrador: Efraim Filho (Partido Liberal, Paraíba), senador.
+[0:26:46] masculina: Afirmou que a maioridade penal não é matéria estranha ao texto.
+[0:26:51] narrador: Bancadas do Partido Liberal e do Republicanos no Senado (orientação): Orientaram contra a separação; a bancada do Partido Liberal teve doze votos não e o Republicanos, seis. Na votação da proposta, orientaram a favor.
+[0:27:06] narrador: Outros, não classificável.
+[0:27:09] narrador: Fórum Brasileiro de Segurança Pública: O Fórum Brasileiro de Segurança Pública comemorou a aprovação, disse que ela não basta para os problemas estruturais e defendeu recriar o ministério.
+[0:27:21] narrador: Item 2. Projeto de Lei 186 de 2025, parentalidade positiva: cursos, campanhas e palestras baseados em evidências científicas.
+[0:27:33] narrador: Situação: aprovado.
+[0:27:36] narrador: Item 2 da sessão de 3 de novembro: discussão em turno único do projeto da deputada Laura Carneiro, com pareceres favoráveis da relatora Damares Alves.
+[0:27:46] narrador: Aprovado, e o projeto vai à sanção.
+[0:27:50] narrador: Detalhes da proposta.
+[0:27:52] narrador: Inclui na Lei 14826 de 2024 (Política de Parentalidade Positiva) cursos, campanhas e palestras baseados em evidências científicas. O projeto tem três artigos, e a lei vale a partir da publicação.
+[0:28:07] narrador: Argumentos.
+[0:28:09] narrador: A relatora diz que exigir base científica impede a difusão de métodos sem eficácia comprovada.
+[0:28:16] narrador: O parecer afirma que a medida não cria obrigações novas, só aperfeiçoa instrumentos que a lei já prevê.
+[0:28:23] narrador: O parecer diz que a política não substitui a autoridade dos pais.
+[0:28:27] narrador: Conclusão: É uma alteração pontual, com um inciso novo na lei de 2024. Não tem jabuti nem efeito escondido. Não houve emendas na Comissão de Direitos Humanos nem na Comissão de Assuntos Sociais.
+[0:28:41] narrador: Posicionamentos.
+[0:28:43] narrador: Damares Alves (Republicanos, Distrito Federal), relatora.
+[0:28:48] feminina: Deu parecer favorável nas duas comissões, sem emendas.
+[0:28:53] narrador: Item 3. Projeto de Lei 5782 de 2023, campanha Setembro em Flor (tumores ginecológicos).
+[0:29:03] narrador: Situação: aprovado.
+[0:29:06] narrador: Item 3 da sessão de 3 de novembro: discussão em turno único do projeto da deputada Renilce Nicodemos, com parecer favorável e uma emenda de redação.
+[0:29:14] narrador: Aprovado com a emenda de redação, e o projeto vai à sanção.
+[0:29:19] narrador: Detalhes da proposta.
+[0:29:21] narrador: Cria a campanha anual Setembro em Flor, para alertar sobre fatores de risco, sinais e sintomas precoces dos tumores ginecológicos.
+[0:29:29] narrador: Argumentos.
+[0:29:31] narrador: O parecer cita estimativa do Instituto Nacional de Câncer de mais de 30 mil diagnósticos por ano de câncer do colo do útero, do endométrio e de ovário.
+[0:29:40] narrador: Para cumprir a Lei 12345 de 2010 (datas comemorativas), o parecer cita um fórum realizado na Câmara em 2023.
+[0:29:49] narrador: A emenda de redação troca "minimizar tratamentos" por "favorecer o diagnóstico oportuno e reduzir a necessidade de tratamentos mais agressivos".
+[0:29:58] narrador: Ponto de atenção: Erro material: a Emenda número 1 manda dar nova redação ao artigo segundo do "Projeto de Lei número 5559, de 2023", e não do Projeto de Lei 5782 de 2023.
+[0:30:15] narrador: Conclusão: É uma campanha de conscientização, sem matéria estranha. A única ressalva é o número errado de projeto no texto da emenda de redação, que pode precisar de correção na redação final.
+[0:30:28] narrador: Posicionamentos.
+[0:30:30] narrador: Ivete da Silveira (Movimento Democrático Brasileiro, Santa Catarina), relatora; Damares Alves (Republicanos, Distrito Federal), relatora ad hoc.
+[0:30:41] feminina: Parecer favorável na Comissão de Direitos Humanos, com a Emenda número 1, de redação.
+[0:30:48] narrador: Item 4. Projeto de Decreto Legislativo 240 de 2011, acordo Brasil–Guiana de cooperação em defesa (2009).
+[0:30:57] narrador: Situação: aprovado.
+[0:31:00] narrador: Item 4 da sessão de 3 de novembro: discussão em turno único, com parecer favorável da Comissão de Relações Exteriores.
+[0:31:08] narrador: Aprovado, e o decreto vai à promulgação.
+[0:31:12] narrador: Detalhes da proposta.
+[0:31:14] narrador: Aprova o acordo de cooperação em defesa assinado com a Guiana em Bonfim (Roraima), em 2009.
+[0:31:21] narrador: Argumentos.
+[0:31:22] narrador: O projeto veio da Câmara (Projeto de Decreto Legislativo 57 de 2011) e tramita no Senado desde 2011.
+[0:31:31] narrador: A Comissão de Relações Exteriores do Senado deu parecer favorável.
+[0:31:35] narrador: Conclusão: Aprova um acordo internacional. O texto traz a aprovação e a cláusula padrão de controle do Congresso, sem matéria estranha.
+[0:31:45] narrador: Posicionamentos.
+[0:31:46] narrador: Hamilton Mourão (Republicanos, Rio Grande do Sul), relator ad hoc.
+[0:31:51] masculina: Parecer favorável na Comissão de Relações Exteriores.
+[0:31:56] narrador: Item 5. Projeto de Decreto Legislativo 575 de 2026, acordo-quadro Brasil–Venezuela de cooperação em ciência e tecnologia espacial (2008).
+[0:32:09] narrador: Situação: aprovado.
+[0:32:12] narrador: Item 5 da sessão de 3 de novembro: discussão em turno único, com parecer favorável da Comissão de Relações Exteriores, relator Hamilton Mourão.
+[0:32:21] narrador: Aprovado, e o decreto vai à promulgação.
+[0:32:24] narrador: Detalhes da proposta.
+[0:32:26] narrador: Aprova o acordo-quadro assinado em Caracas em 2008 para cooperação espacial com fins pacíficos, com prioridade para observação da Terra; o acordo será executado por projetos específicos da Agência Espacial Brasileira e da agência venezuelana.
+[0:32:43] narrador: Além da cláusula padrão, o decreto exige que cada projeto específico também passe pelo Congresso.
+[0:32:49] narrador: Argumentos.
+[0:32:51] narrador: O relator cita o uso de dados de satélite na Amazônia e no monitoramento do crime organizado na região.
+[0:32:57] narrador: O acordo foi enviado ao Congresso em 2010 (Mensagem 155 de 2010) e só chegou ao Senado em junho de 2026.
+[0:33:07] narrador: O relator diz que a cooperação com a Venezuela é política de Estado desde 1973, apesar das diferenças ideológicas.
+[0:33:16] narrador: Conclusão: Aprova um acordo internacional e não tem matéria estranha. O decreto amplia o controle do Congresso, que também terá de aprovar os projetos específicos. O parceiro é a Venezuela, e o acordo levou 18 anos para chegar ao Plenário do Senado.
+[0:33:34] narrador: Posicionamentos.
+[0:33:35] narrador: Hamilton Mourão (Republicanos, Rio Grande do Sul), relator.
+[0:33:40] masculina: Votou pela aprovação, citando soberania e desenvolvimento tecnológico.
+[0:33:46] narrador: Item 6. Requerimento 729 de 2026, sessão especial do Dia do Síndico.
+[0:33:54] narrador: Situação: aprovado.
+[0:33:56] narrador: Pedido do senador Izalci Lucas e de outros senadores, votado em turno único na sessão de 3 de novembro.
+[0:34:04] narrador: Aprovado. A Secretaria-Geral da Mesa vai agendar a sessão.
+[0:34:10] narrador: Detalhes da proposta.
+[0:34:12] narrador: Pede uma sessão especial do Senado para celebrar o Dia do Síndico.
+[0:34:16] narrador: Conclusão: É um pedido de sessão comemorativa, sem efeito sobre lei e sem matéria estranha.
+[0:34:22] narrador: Posicionamentos.
+[0:34:24] narrador: Izalci Lucas (Partido Liberal, Distrito Federal), autor.
+[0:34:29] masculina: Apresentou o requerimento com outros senadores.
+[0:34:34] narrador: Item 7. Requerimento 735 de 2026, sessão especial do Dia do Biomédico.
+[0:34:41] narrador: Situação: aprovado.
+[0:34:44] narrador: Pedido do senador Izalci Lucas e de outros senadores, votado em turno único na sessão de 3 de novembro.
+[0:34:52] narrador: Aprovado. A Secretaria-Geral da Mesa vai agendar a sessão.
+[0:34:57] narrador: Detalhes da proposta.
+[0:34:59] narrador: Pede uma sessão especial do Senado para celebrar o Dia do Biomédico.
+[0:35:04] narrador: Conclusão: É um pedido de sessão comemorativa, sem efeito sobre lei e sem matéria estranha.
+[0:35:10] narrador: Posicionamentos.
+[0:35:12] narrador: Izalci Lucas (Partido Liberal, Distrito Federal), autor.
+[0:35:17] masculina: Apresentou o requerimento com outros senadores.
+[0:35:22] narrador: Mudando de assunto.
+[0:35:24] narrador: Agora, a atuação da Câmara dos Deputados.
+[0:35:29] narrador: 5 itens na Câmara dos Deputados.
+[0:35:33] narrador: Item 1. Requerimento 3511 de 2026, urgência para o Projeto de Lei 504 de 2021 (residência em área profissional da saúde).
+[0:35:44] narrador: Situação: aprovado.
+[0:35:47] narrador: Item 3 da sessão de 3 de novembro: pedido de urgência para o projeto do deputado Alexandre Padilha, que cria a Política Nacional de Residência em Área Profissional da Saúde.
+[0:35:57] narrador: Urgência aprovada, sem orientações de bancada registradas. O mérito do projeto ainda não foi votado.
+[0:36:06] narrador: Detalhes da proposta.
+[0:36:08] narrador: O substitutivo define em lei a residência em saúde para as categorias de nível superior, com exceção da médica.
+[0:36:15] narrador: A comissão nacional da área muda de nome e mantém as atribuições.
+[0:36:20] narrador: Argumentos.
+[0:36:22] narrador: O residente passa a ter em lei bolsa com valor igual ao da residência médica.
+[0:36:26] narrador: A licença-paternidade do residente fica em 30 dias.
+[0:36:30] narrador: Os conselhos profissionais devem reconhecer o certificado de especialista.
+[0:36:35] narrador: O dinheiro público vai primeiro para instituições públicas e privadas sem fins lucrativos.
+[0:36:40] narrador: O texto diz que a residência não gera vínculo de emprego.
+[0:36:44] narrador: Ponto de atenção: O projeto original fixava 40 horas semanais. O substitutivo deixa a carga horária para um ato dos ministros da Educação e da Saúde.
+[0:36:55] narrador: Ponto de atenção: O substitutivo revoga os artigos da lei de 2005 que criaram a residência e a comissão.
+[0:37:03] narrador: Conclusão: O substitutivo troca o detalhamento do texto original por diretrizes gerais e deixa a regulamentação para os ministérios. Não há matéria estranha ao tema. A votação de ontem decidiu só a urgência.
+[0:37:16] narrador: Posicionamentos.
+[0:37:18] narrador: Pró-governo.
+[0:37:20] narrador: Ana Pimentel (Partido dos Trabalhadores, Minas Gerais), autora do requerimento e relatora.
+[0:37:27] feminina: Pediu a urgência e deu parecer pela aprovação, na forma de um substitutivo.
+[0:37:33] narrador: Pedro Uczai (Partido dos Trabalhadores, Santa Catarina), líder da Federação Brasil da Esperança.
+[0:37:40] masculina: Assinou o pedido de urgência.
+[0:37:42] narrador: Mário Heringer (Partido Democrático Trabalhista, Minas Gerais), líder do Partido Democrático Trabalhista.
+[0:37:50] masculina: Assinou o pedido de urgência.
+[0:37:53] narrador: Centro pró-governo.
+[0:37:55] narrador: Pedro Lucas Fernandes (União, Maranhão), líder do bloco.
+[0:37:59] masculina: Assinou o pedido de urgência como líder de União, Progressistas, Partido Social Democrático, Republicanos, Movimento Democrático Brasileiro, Federação Partido da Social Democracia Brasileira Cidadania e Podemos.
+[0:38:14] narrador: Item 2. Requerimento 3721 de 2026, urgência para o Projeto de Lei 3507 de 2026 (artesanato tradicional do Maranhão).
+[0:38:26] narrador: Situação: aprovado.
+[0:38:28] narrador: Item 4 da sessão de 3 de novembro: pedido de urgência para o projeto do deputado Pedro Lucas Fernandes.
+[0:38:35] narrador: Urgência aprovada por unanimidade. O mérito do projeto ainda não foi votado.
+[0:38:41] narrador: Detalhes da proposta.
+[0:38:43] narrador: Reconhece o artesanato tradicional do Maranhão como manifestação da cultura nacional.
+[0:38:49] narrador: Argumentos.
+[0:38:51] narrador: A justificação cita mais de quatro mil artesãos cadastrados no estado.
+[0:38:55] narrador: A justificação cita comunidades indígenas e quilombolas entre os produtores.
+[0:39:00] narrador: Ponto de atenção: As medidas de apoio são facultativas: o texto diz que o governo poderá adotá-las.
+[0:39:07] narrador: Conclusão: É um reconhecimento de três artigos, sem matéria estranha. A votação de ontem decidiu só a urgência.
+[0:39:16] narrador: Posicionamentos.
+[0:39:18] narrador: Centro pró-governo.
+[0:39:20] narrador: Pedro Lucas Fernandes (União, Maranhão), autor.
+[0:39:24] masculina: Disse que o projeto busca proteger e fomentar o artesanato maranhense.
+[0:39:30] narrador: Doutor Luizinho (Progressistas, Rio de Janeiro), líder do bloco.
+[0:39:35] masculina: Assinou o pedido de urgência.
+[0:39:38] narrador: Item 3. Recurso 68 de 2019, recurso contra a tramitação conclusiva do Projeto de Lei 2334 de 2019 (convênios do instituto de patentes).
+[0:39:51] narrador: Situação: rejeitado.
+[0:39:53] narrador: Item 6 da sessão de 3 de novembro: recurso do deputado Alexandre Padilha para levar o projeto ao Plenário.
+[0:40:00] narrador: Recurso rejeitado, sem orientações de bancada registradas. O projeto, aprovado nas comissões, segue para o Senado.
+[0:40:09] narrador: Detalhes da proposta.
+[0:40:11] narrador: Permite ao Instituto Nacional da Propriedade Industrial fazer convênios para treinar quem pede patente e para atos anteriores às decisões técnicas.
+[0:40:20] narrador: Argumentos.
+[0:40:22] narrador: A justificação diz que o prazo de registro chega a 11 anos em média, conforme o setor.
+[0:40:27] narrador: A justificação diz que cerca de metade dos pedidos tem erros.
+[0:40:31] narrador: O texto do recurso não expõe motivos: ele só pede a votação em Plenário.
+[0:40:37] narrador: Ponto de atenção: O projeto autoriza parcerias para atos anteriores às decisões técnicas e não diz quais são esses atos.
+[0:40:45] narrador: Conclusão: O projeto acrescenta dois incisos a uma lei e não tem matéria estranha. O ponto a observar é o alcance dos atos preliminares.
+[0:40:55] narrador: Posicionamentos.
+[0:40:57] narrador: Pró-governo.
+[0:40:59] narrador: Alexandre Padilha (Partido dos Trabalhadores, São Paulo), autor do recurso.
+[0:41:04] masculina: Pediu que o projeto fosse votado em Plenário.
+[0:41:07] narrador: Centro pró-governo.
+[0:41:09] narrador: Marcos Pereira (Republicanos, São Paulo), autor do projeto.
+[0:41:14] masculina: Afirmou que os convênios ajudam o instituto a descentralizar atividades e a qualificar profissionais.
+[0:41:21] narrador: Item 4. Recurso 19 de 2022, recurso contra a tramitação conclusiva do Projeto de Lei 3083 de 2019 (penhora do faturamento de empresas).
+[0:41:33] narrador: Situação: rejeitado.
+[0:41:36] narrador: Item 7 da sessão de 3 de novembro: recurso do deputado Bira do Pindaré e de outros parlamentares para levar o projeto ao Plenário.
+[0:41:44] narrador: Recurso rejeitado, sem orientações de bancada registradas. O projeto, aprovado nas comissões, segue para o Senado.
+[0:41:52] narrador: Detalhes da proposta.
+[0:41:54] narrador: Limita a penhora a até 10% do valor mensal do faturamento, descontadas as despesas trabalhistas.
+[0:42:02] narrador: Considera suficiente a penhora de percentual do faturamento para a certidão trabalhista, quando o valor pagar a dívida.
+[0:42:09] narrador: Argumentos.
+[0:42:11] narrador: A justificação diz que há bloqueios de altos percentuais do faturamento nas execuções trabalhistas.
+[0:42:18] narrador: Com a certidão, a empresa pode disputar licitações e contratar empréstimos.
+[0:42:23] narrador: O juiz define o percentual conforme o caso e as provas.
+[0:42:27] narrador: Ponto de atenção: O limite mudou no caminho: o projeto original falava em 20% e o substitutivo fala em 10%.
+[0:42:36] narrador: Pegadinha: A ementa fala em penhora, mas o projeto também muda a certidão de débitos trabalhistas.
+[0:42:43] narrador: Conclusão: O tema da certidão está ligado à penhora e não é matéria estranha. O ponto a observar é o efeito do limite de 10% sobre o tempo de pagamento das dívidas trabalhistas, que o texto manda ser razoável.
+[0:42:57] narrador: Posicionamentos.
+[0:42:59] narrador: Silvio Costa Filho (Republicanos, Pernambuco), relator na Comissão de Trabalho.
+[0:43:04] masculina: Deu o parecer aprovado na comissão, com substitutivo.
+[0:43:09] narrador: Pró-governo.
+[0:43:10] narrador: Bira do Pindaré (Partido Socialista Brasileiro, Maranhão), autor do recurso.
+[0:43:16] masculina: Pediu que o projeto fosse votado em Plenário, com assinaturas de deputados de Partido Socialista Brasileiro, Partido Socialismo e Liberdade, Partido dos Trabalhadores, Partido Comunista do Brasil, Partido Democrático Trabalhista, Rede e Partido Social Democrático em 2022.
+[0:43:33] narrador: Centro pró-governo.
+[0:43:36] narrador: Marcos Pereira (Republicanos, São Paulo), autor do projeto.
+[0:43:40] masculina: Afirmou que o objetivo é pagar o trabalhador sem pôr em risco a atividade da empresa.
+[0:43:46] narrador: Item 5. Projeto de Lei 4674 de 2024, ultrassonografia morfológica no pré-natal.
+[0:43:55] narrador: Situação: aprovado.
+[0:43:58] narrador: Item 14 da sessão de 3 de novembro, em regime de urgência, com parecer de Plenário da relatora Laura Carneiro.
+[0:44:05] narrador: Aprovado na forma do substitutivo da Comissão de Saúde, e o projeto vai ao Senado.
+[0:44:11] narrador: Detalhes da proposta.
+[0:44:13] narrador: Inclui pelo menos dois exames de ultrassonografia morfológica na lei de 2023 sobre exames do pré-natal.
+[0:44:20] narrador: O poder público poderá fazer campanhas e dará orientações às gestantes.
+[0:44:25] narrador: Argumentos.
+[0:44:27] narrador: O parecer diz que as anomalias congênitas passaram de quinta a primeira causa de mortalidade infantil no Brasil.
+[0:44:34] narrador: A relatora afirma que o texto não cria despesas adicionais.
+[0:44:38] narrador: Ponto de atenção: A lei alterada condiciona os exames à disponibilidade do orçamento.
+[0:44:44] narrador: Ponto de atenção: O projeto original tratava a falta do exame indicado como negligência médica. O substitutivo tira esse ponto.
+[0:44:53] narrador: Ponto de atenção: O parecer de Plenário cita datas diferentes para a mesma lei, 14 de julho e 14 de junho de 2023.
+[0:45:01] narrador: Conclusão: Não há matéria estranha. O alcance prático depende do orçamento, e o Senado ainda vai analisar o texto.
+[0:45:10] narrador: Posicionamentos.
+[0:45:12] narrador: Laura Carneiro (Partido Social Democrático, Rio de Janeiro), relatora.
+[0:45:17] feminina: Deu parecer pela aprovação, na forma do substitutivo.
+[0:45:22] narrador: Centro pró-governo.
+[0:45:24] narrador: Beto Preto (Partido Social Democrático, Paraná), autor.
+[0:45:29] masculina: Defendeu o exame para detectar anomalias no feto e diminuir complicações.
+[0:45:35] narrador: Esse foi o briefing de quarta-feira, 4 de novembro de 2026. As fontes de cada informação estão no briefing escrito. Até amanhã.
