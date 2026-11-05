@@ -12,8 +12,8 @@ Cada briefing traz os principais assuntos do dia, com o contexto factual e a pos
 - `img/AAAA-MM-DD/`: as imagens do briefing do dia. Desde 4 de novembro de 2026 são desenhos do Heimdall News: a ilustração de cada assunto, o bonequinho de quem fala e a bandeira ou o símbolo de partidos e instituições. Nos dias anteriores, são a capa de cada assunto e a foto de quem fala.
 - `img/marca/`: a marca do Heimdall News, no alto das páginas.
 - `videos.toml`: o link do vídeo de cada dia no YouTube, que aparece na página do dia.
-- `audio/`: a narração do vídeo de cada dia (`AAAA-MM-DD.mp4`) e o roteiro com o tempo de cada fala (`AAAA-MM-DD.txt`).
 - `estudos/espectro.html`: como cada partido foi posicionado no espectro, com as votações de cada governo desde 2003.
+- `animacoes/`: as animações dos títulos de cada dia, em HTML. O GSAP e o player ficam em `animacoes/comum/`, com a licença do player.
 - `mandatos/`: a Câmara e o Senado em cada governo desde 2003, com partidos e parlamentares entre os polos de governo e oposição nas votações nominais.
 - `dados/`: todos os dados usados no espectro e nos mandatos, para quem quiser refazer as contas. O [README da pasta](dados/README.md) diz como cada arquivo foi obtido.
 - `.github/workflows/pages.yml`: publica o site no GitHub Pages a cada push.
