@@ -17,3 +17,8 @@ Todos os partidos seguem o mesmo cálculo, sem exceção. Quem não tem bancada,
 - [Dados dos estudos](dados/README.md): tudo o que foi usado nas contas, com a origem de cada arquivo.
 
 As citações pertencem aos veículos de origem, indicados e linkados em cada matéria.
+
+## sexta-feira, 6 de novembro de 2026
+
+- [Lula sanciona lei que exige exame para novos médicos obterem registro](materias/2026-11-06/2026-11-06-01.md)
+- [Lula rebate cobrança por cortes e diz que pobre não pagará conta do ajuste](materias/2026-11-06/2026-11-06-02.md)
