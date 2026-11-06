@@ -1,6 +1,6 @@
 # Lula 3: como a Câmara e o Senado votaram
 
-Governo Luiz Inácio Lula da Silva (PT), de 01/01/2023 a 31/12/2026 (mandato em curso). **Mandato em curso:** os números são atualizados toda semana, até o fim do mandato. Gerado em 06/11/2026 17:17.
+Governo Luiz Inácio Lula da Silva (PT), de 01/01/2023 a 31/12/2026 (mandato em curso). **Mandato em curso:** os números são atualizados toda semana, até o fim do mandato. Gerado em 06/11/2026 17:19.
 
 Polos: **governo** = maioria da bancada do PT; **oposição** = maioria da bancada do PL.
 
@@ -10,7 +10,7 @@ Polos: **governo** = maioria da bancada do PT; **oposição** = maioria da banca
 
 - **Votações disputadas:** nominais em que o lado perdedor teve pelo menos 10% dos votos Sim/Não. Só contam votos Sim e Não; ausência, abstenção e obstrução não entram.
 - **Posição:** em quantas votações a pessoa (ou o partido) votou com a maioria da bancada da oposição, menos em quantas votou com a do governo. −100 = sempre com o governo; +100 = sempre com a oposição. **Com a orientação do governo:** igual à orientação do líder do governo, quando registrada (na Câmara, quase sempre; no Senado, raramente).
-- **Grupos:** pela posição do partido nas votações **deste mandato e desta casa** (pró-governo, centro pró-governo, centro, centro-oposição, oposição; Missão e MBL são independentes). O mesmo partido pode estar em grupos diferentes em outro governo ou na outra casa. Parlamentares têm o grupo do partido; se o partido tem poucas votações, o da própria posição.
+- **Grupos:** pela posição do partido nas votações **deste mandato e desta casa** (pró-governo, centro pró-governo, centro, centro-oposição, oposição). O mesmo partido pode estar em grupos diferentes em outro governo ou na outra casa. Parlamentares têm o grupo do partido; se o partido tem poucas votações, o da própria posição.
 - **Fidelidade:** em quantas votações a pessoa votou igual à maioria dos colegas do próprio partido, sem contar o próprio voto.
 - **Validação sem âncora:** uma análise de componentes principais com todos os votos acha sozinha a principal linha de divisão do plenário, sem dizer quem é PT ou PL. Se ela concorda com a posição governo × oposição (correlação perto de 1) e explica boa parte da variação, a escala descreve bem o plenário daquele mandato.
 - **Quem mais discorda de quem:** medido diretamente, par a par, nas votações em que os dois votaram. A lista ordena pela discordância descontada a incerteza (intervalo de Wilson): 84 discordâncias em 84 votações em comum vêm antes de 41 em 41.
@@ -49,7 +49,7 @@ Polos: **governo** = maioria da bancada do PT; **oposição** = maioria da banca
 | PATRIOTA | Centro | 183 | 3.4 | 58% | 60% | 65% | 2 |
 | CIDADANIA | Centro | 712 | 2.8 | 47% | 60% | 53% | 13 |
 | PRD | Centro-oposição | 547 | 3.3 | 45% | 65% | 50% | 21 |
-| MISSÃO | Independente — Missão / MBL | 62 | 1.0 | 15% | 72% | 8% | 58 |
+| MISSÃO | Centro-oposição | 62 | 1.0 | 15% | 72% | 8% | 58 |
 | NOVO | Oposição ao governo | 813 | 3.7 | 8% | 84% | 9% | 76 |
 | PL | Oposição ao governo | 871 | 71.4 | 16% | 100% | 16% | 84 |
 
@@ -58,14 +58,14 @@ Polos: **governo** = maioria da bancada do PT; **oposição** = maioria da banca
 | Parlamentar | Parlamentar | Votações em comum | Discordância |
 |---|---|---:|---:|
 | Vicentinho (PT-SP) | Julia Zanatta (PL-SC) | 516 | 97% |
-| Fernando Mineiro (PT-RN) | Junio Amaral (PL-MG) | 557 | 96% |
+| Junio Amaral (PL-MG) | Fernando Mineiro (PT-RN) | 557 | 96% |
 | Julia Zanatta (PL-SC) | Benedita da Silva (PT-RJ) | 534 | 96% |
 | Julia Zanatta (PL-SC) | Fernando Mineiro (PT-RN) | 528 | 96% |
 | Junio Amaral (PL-MG) | Lenir de Assis (PT-PR) | 330 | 96% |
 | Benedita da Silva (PT-RJ) | Sargento Fahur (PL-PR) | 715 | 96% |
 | Paulão (PT-AL) | Junio Amaral (PL-MG) | 583 | 96% |
-| Rogério Correia (PT-MG) | Junio Amaral (PL-MG) | 579 | 96% |
-| Sargento Fahur (PL-PR) | Valmir Assunção (PT-BA) | 704 | 95% |
+| Junio Amaral (PL-MG) | Rogério Correia (PT-MG) | 579 | 96% |
+| Valmir Assunção (PT-BA) | Sargento Fahur (PL-PR) | 704 | 95% |
 | Julia Zanatta (PL-SC) | Waldenor Pereira (PT-BA) | 480 | 96% |
 
 ### Todos os parlamentares
@@ -573,7 +573,7 @@ Polos: **governo** = maioria da bancada do PT; **oposição** = maioria da banca
 | Dayany Bittencourt | UNIÃO | CE | Centro pró-governo | 729 | 20% | 78% | 49% | 58 |
 | Delegado Fabio Costa | PP | AL | Centro pró-governo | 806 | 22% | 80% | 48% | 58 |
 | Luiz Carlos Motta | PL | SP | Oposição ao governo | 717 | 26% | 85% | 85% | 59 |
-| Kim Kataguiri | MISSÃO | SP | Independente — Missão / MBL | 697 | 14% | 76% | 39% | 62 |
+| Kim Kataguiri | MISSÃO | SP | Centro-oposição | 697 | 14% | 76% | 39% | 62 |
 | Coronel Ulysses | UNIÃO | AC | Centro pró-governo | 774 | 21% | 83% | 49% | 63 |
 | Coronel Armando | PP | SC | Centro pró-governo | 140 | 22% | 85% | 83% | 63 |
 | Márcio Correa | MDB | GO | Centro pró-governo | 74 | 23% | 86% | 45% | 63 |
@@ -722,16 +722,16 @@ Polos: **governo** = maioria da bancada do PT; **oposição** = maioria da banca
 
 | Parlamentar | Parlamentar | Votações em comum | Discordância |
 |---|---|---:|---:|
-| Augusta Brito (PT-CE) | Hamilton Mourão (REPUBLICANOS-RS) | 61 | 97% |
-| Eliziane Gama (PSD-MA) | Jorge Seif (PL-SC) | 46 | 98% |
+| Hamilton Mourão (REPUBLICANOS-RS) | Augusta Brito (PT-CE) | 61 | 97% |
+| Jorge Seif (PL-SC) | Eliziane Gama (PSD-MA) | 46 | 98% |
 | Flávio Bolsonaro (PL-RJ) | Randolfe Rodrigues (PT-AP) | 73 | 96% |
-| Augusta Brito (PT-CE) | Flávio Bolsonaro (PL-RJ) | 58 | 97% |
+| Flávio Bolsonaro (PL-RJ) | Augusta Brito (PT-CE) | 58 | 97% |
 | Flávio Bolsonaro (PL-RJ) | Beto Faro (PT-PA) | 80 | 95% |
 | Jorge Seif (PL-SC) | Randolfe Rodrigues (PT-AP) | 68 | 96% |
 | Marcos do Val (AVANTE-ES) | Beto Faro (PT-PA) | 55 | 96% |
-| Eliziane Gama (PSD-MA) | Flávio Bolsonaro (PL-RJ) | 53 | 96% |
-| Augusta Brito (PT-CE) | Magno Malta (PL-ES) | 52 | 96% |
-| Eliziane Gama (PSD-MA) | Wellington Fagundes (PL-MT) | 39 | 97% |
+| Flávio Bolsonaro (PL-RJ) | Eliziane Gama (PSD-MA) | 53 | 96% |
+| Magno Malta (PL-ES) | Augusta Brito (PT-CE) | 52 | 96% |
+| Wellington Fagundes (PL-MT) | Eliziane Gama (PSD-MA) | 39 | 97% |
 
 ### Todos os parlamentares
 
@@ -814,8 +814,8 @@ Polos: **governo** = maioria da bancada do PT; **oposição** = maioria da banca
 | Rogerio Marinho | PL | RN | Oposição ao governo | 76 | 12% | 95% | 95% | 83 |
 | Jaime Bagattoli | PL | RO | Oposição ao governo | 79 | 10% | 94% | 93% | 84 |
 | Astronauta Marcos Pontes | PL | SP | Oposição ao governo | 73 | 12% | 97% | 97% | 85 |
-| Marcos Rogério | PL | RO | Oposição ao governo | 74 | 11% | 97% | 97% | 86 |
 | Jorge Seif | PL | SC | Oposição ao governo | 74 | 7% | 93% | 93% | 86 |
+| Marcos Rogério | PL | RO | Oposição ao governo | 74 | 11% | 97% | 97% | 86 |
 | Magno Malta | PL | ES | Oposição ao governo | 62 | 8% | 95% | 95% | 87 |
 | Wellington Fagundes | PL | MT | Oposição ao governo | 62 | 8% | 97% | 97% | 89 |
 | Marcos do Val | AVANTE | ES | Oposição ao governo | 55 | 7% | 96% | 58% | 89 |

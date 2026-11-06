@@ -8,7 +8,7 @@ Como cada partido votou em relação ao governo da época, na Câmara e no Senad
 
 - **Polos de cada governo:** a bancada do partido do presidente (governo) e a do principal partido de oposição (PT × PSDB em Lula 1, Lula 2 e Dilma; MDB × PT em Temer; PSL e depois PL × PT em Bolsonaro; PT × PL em Lula 3).
 - **Posição:** nas votações nominais disputadas (o lado perdedor teve pelo menos 10% dos votos Sim/Não), em quantas a maioria da bancada do partido votou como a maioria da oposição, menos em quantas votou como a do governo. Vai de −100 (sempre com o governo) a +100 (sempre com a oposição).
-- **Grupo:** a faixa em que a posição cai, na tabela abaixo. Missão e MBL são sempre independentes.
+- **Grupo:** a faixa em que a posição cai, na tabela abaixo. Todos os partidos seguem o mesmo cálculo. Movimentos e entidades sem bancada entram em outros.
 - **Por governo e por casa:** o mesmo partido pode mudar de grupo de um governo para outro (a classificação é relativa ao governo da época) e pode estar em grupos diferentes na Câmara e no Senado. Nas matérias vale a classificação do mandato em curso: quem fala como senador usa a do Senado; os demais, a da Câmara.
 - **Limites:** mede comportamento em votações, não ideologia nem discurso; renomeações de partido são unificadas (PMDB → MDB, PPB → PP, PPS → Cidadania, PRB → Republicanos, PTN → Podemos), mas fusões e siglas extintas (PFL/DEM, PR, PSL, PTB...) aparecem com o nome da época.
 
@@ -202,9 +202,9 @@ Sem votações suficientes nos governos anteriores (desde 2003), com esta sigla.
 
 ### MISSÃO
 
-**Câmara dos Deputados:** Independente — Missão / MBL
+**Câmara dos Deputados:** Centro-oposição
 
-No mandato em curso (Lula 3): Câmara dos Deputados: Independente — Missão / MBL por definição (grupo fixo em espectro.toml); nas votações, posição +58 (com o governo em 15%, com a oposição em 72%, em 62 votações disputadas).
+No mandato em curso (Lula 3): Câmara dos Deputados: centro-oposição, com posição +58 — a maioria da bancada votou como a bancada do governo (PT) em 15% e como a da oposição (PL) em 72% das 62 votações disputadas de que participou; seguiu a orientação do líder do governo em 8%.
 
 Sem votações suficientes nos governos anteriores (desde 2003), com esta sigla.
 
@@ -343,7 +343,7 @@ Votações nominais do Plenário (arquivos de dados abertos da Câmara). Partido
 | PATRIOTA | Centro | 2 | 58% | 60% | 65% | 183 | 3.4 |
 | CIDADANIA | Centro | 13 | 47% | 60% | 53% | 712 | 2.8 |
 | PRD | Centro-oposição | 21 | 45% | 65% | 50% | 547 | 3.3 |
-| MISSÃO | Independente — Missão / MBL (fixo) | 58 | 15% | 72% | 8% | 62 | 1.0 |
+| MISSÃO | Centro-oposição | 58 | 15% | 72% | 8% | 62 | 1.0 |
 | NOVO | Oposição ao governo | 76 | 8% | 84% | 9% | 813 | 3.7 |
 | PL | Oposição ao governo | 84 | 16% | 100% | 16% | 871 | 71.4 |
 
@@ -396,7 +396,7 @@ O mesmo partido nas duas casas. Em negrito, os que caem em grupos diferentes.
 | PATRIOTA | Centro | 2 | sem votos suficientes |  |
 | CIDADANIA | Centro | 13 | sem votos suficientes |  |
 | PRD | Centro-oposição | 21 | sem votos suficientes |  |
-| MISSÃO | Independente — Missão / MBL | 58 | sem votos suficientes |  |
+| MISSÃO | Centro-oposição | 58 | sem votos suficientes |  |
 | NOVO | Oposição ao governo | 76 | Oposição ao governo | 75 |
 | PL | Oposição ao governo | 84 | Oposição ao governo | 91 |
 

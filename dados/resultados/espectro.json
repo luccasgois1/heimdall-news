@@ -534,10 +534,10 @@
         "com_governo": 14.516129032258064,
         "com_oposicao": 72.1311475409836,
         "com_orientacao": 8.333333333333334,
-        "cor": "#6a1b9a",
-        "fixo": true,
-        "grupo": "independente",
-        "grupo_rotulo": "Independente — Missão / MBL",
+        "cor": "#ffb74d",
+        "fixo": false,
+        "grupo": "centro_oposicao",
+        "grupo_rotulo": "Centro-oposição",
         "parlamentares_medio": 1.0,
         "partido": "MISSÃO",
         "posicao": 57.61501850872554,
@@ -932,13 +932,13 @@
       "atual": [
         [
           "Câmara dos Deputados",
-          "Independente — Missão / MBL",
-          "#6a1b9a"
+          "Centro-oposição",
+          "#ffb74d"
         ]
       ],
       "historico": "Sem votações suficientes nos governos anteriores (desde 2003), com esta sigla.",
       "partido": "MISSÃO",
-      "texto_atual": "No mandato em curso (Lula 3): Câmara dos Deputados: Independente — Missão / MBL por definição (grupo fixo em espectro.toml); nas votações, posição +58 (com o governo em 15%, com a oposição em 72%, em 62 votações disputadas)."
+      "texto_atual": "No mandato em curso (Lula 3): Câmara dos Deputados: centro-oposição, com posição +58 — a maioria da bancada votou como a bancada do governo (PT) em 15% e como a da oposição (PL) em 72% das 62 votações disputadas de que participou; seguiu a orientação do líder do governo em 8%."
     },
     {
       "atual": [
@@ -975,7 +975,7 @@
       "texto_atual": "No mandato em curso (Lula 3): Câmara dos Deputados: oposição ao governo, com posição +84 — a maioria da bancada votou como a bancada do governo (PT) em 16% e como a da oposição (PL) em 100% das 871 votações disputadas de que participou; seguiu a orientação do líder do governo em 16%. Senado Federal: oposição ao governo, com posição +91 — a maioria da bancada votou como a bancada do governo (PT) em 9% e como a da oposição (PL) em 100% das 90 votações disputadas de que participou; seguiu a orientação do líder do governo em 2%."
     }
   ],
-  "gerado_em": "06/11/2026 17:17",
+  "gerado_em": "06/11/2026 17:19",
   "grupos": [
     {
       "cor": "#2e7d32",
@@ -1001,11 +1001,6 @@
       "cor": "#e65100",
       "id": "oposicao",
       "rotulo": "Oposição ao governo"
-    },
-    {
-      "cor": "#6a1b9a",
-      "id": "independente",
-      "rotulo": "Independente — Missão / MBL"
     },
     {
       "cor": "#78909c",
@@ -4318,10 +4313,10 @@
               "com_governo": 14.516129032258064,
               "com_oposicao": 72.1311475409836,
               "com_orientacao": 8.333333333333334,
-              "cor": "#6a1b9a",
-              "fixo": true,
-              "grupo": "independente",
-              "grupo_rotulo": "Independente — Missão / MBL",
+              "cor": "#ffb74d",
+              "fixo": false,
+              "grupo": "centro_oposicao",
+              "grupo_rotulo": "Centro-oposição",
               "parlamentares_medio": 1.0,
               "partido": "MISSÃO",
               "posicao": 57.61501850872554,
@@ -5627,8 +5622,8 @@
             null,
             null,
             {
-              "cor": "#6a1b9a",
-              "grupo_rotulo": "Independente — Missão / MBL",
+              "cor": "#ffb74d",
+              "grupo_rotulo": "Centro-oposição",
               "posicao": 57.61501850872554
             }
           ],

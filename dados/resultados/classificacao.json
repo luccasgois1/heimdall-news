@@ -1,6 +1,6 @@
 {
   "mandato": "Lula 3",
-  "gerado_em": "06/11/2026 17:17",
+  "gerado_em": "06/11/2026 17:19",
   "polo_governo": "PT",
   "polo_oposicao": "PL",
   "casas": {
@@ -21,7 +21,7 @@
         "votacoes": 870
       },
       "MISSÃO": {
-        "grupo": "independente",
+        "grupo": "centro_oposicao",
         "posicao": 57.61501850872554,
         "votacoes": 62
       },

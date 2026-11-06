@@ -26,11 +26,6 @@ rotulo = "Oposição ao governo"
 cor = "#e65100"
 
 [[grupo]]
-id = "independente"
-rotulo = "Independente — Missão / MBL"
-cor = "#6a1b9a"
-
-[[grupo]]
 id = "outros"
 rotulo = "Outros / não classificável"
 cor = "#78909c"
@@ -42,14 +37,13 @@ centro = 20
 centro_oposicao = 60
 
 [fixos]
-"MISSÃO" = "independente"
-"MBL" = "independente"
 "Sem partido" = "outros"
 
 [legado]
 pt_psol = { rotulo = "Esquerda — PT / PSOL", cor = "#c62828" }
 pl = { rotulo = "PL", cor = "#1f4e9a" }
 missao = { rotulo = "Missão / MBL", cor = "#6a1b9a" }
+independente = { rotulo = "Independente — Missão / MBL", cor = "#6a1b9a" }
 esquerda = { rotulo = "Esquerda", cor = "#c62828" }
 centro_esquerda = { rotulo = "Centro-esquerda", cor = "#ec407a" }
 direita = { rotulo = "Direita", cor = "#00897b" }
