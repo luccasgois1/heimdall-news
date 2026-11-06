@@ -6,3 +6,6 @@
 !/estudos/
 !/mandatos/
 !/dados/
+# Em público vão só as versões em Markdown.
+/estudos/*.html
+/mandatos/*.html

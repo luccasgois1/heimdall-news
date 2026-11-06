@@ -1,6 +1,6 @@
 # Dados dos estudos do Heimdall News
 
-Todos os dados usados nas páginas [Espectro político](../estudos/espectro.html) e [Câmara e Senado em cada governo](../mandatos/index.html), para quem quiser refazer as contas. Tudo vem de dados abertos oficiais da Câmara dos Deputados e do Senado Federal.
+Todos os dados usados nas páginas [Espectro político](../estudos/espectro.md) e [Câmara e Senado em cada governo](../mandatos/README.md), para quem quiser refazer as contas. Tudo vem de dados abertos oficiais da Câmara dos Deputados e do Senado Federal.
 
 Baixe tudo de uma vez: https://github.com/luccasgois1/heimdall-news/archive/refs/heads/main.zip (a pasta `dados/`), ou arquivo por arquivo pelos links abaixo.
 
@@ -31,8 +31,8 @@ CSV em UTF-8, compactado em gzip (abre no Excel/LibreOffice depois de descompact
 
 ### `resultados/` — o que as páginas mostram
 - `classificacao.json`: o grupo de cada partido, em cada casa, no mandato em curso (usado nos briefings).
-- `mandatos/<id>.json`: os números de cada mandato e casa (partidos e parlamentares), os mesmos dos gráficos de [Câmara e Senado em cada governo](../mandatos/index.html).
-- `espectro.json`: os números da página [Espectro político](../estudos/espectro.html).
+- `mandatos/<id>.json`: os números de cada mandato e casa (partidos e parlamentares), os mesmos dos gráficos de [Câmara e Senado em cada governo](../mandatos/README.md).
+- `espectro.json`: os números da página [Espectro político](../estudos/espectro.md).
 
 ## Como as contas são feitas
 Com estes passos e só os arquivos desta pasta, os números das páginas se repetem (conferido nos governos Lula 3, nas duas casas, e Bolsonaro, na Câmara).
