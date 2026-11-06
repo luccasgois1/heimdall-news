@@ -1,14 +1,8 @@
-# Backup das saídas do Heimdall News: só entram estas pastas. O resto (índice, vídeos,
-# dossiês, economia, votações, composição, imagens soltas) fica só na pasta local.
-# `.github/` tem o workflow que publica o site no GitHub Pages.
+# Só entram as matérias, os estudos e os dados. O resto fica só na pasta local.
 /*
 !/.gitignore
-!/.github/
 !/README.md
-!/videos.toml
-!/img/
-!/animacoes/
-!/briefing/
+!/materias/
 !/estudos/
 !/mandatos/
 !/dados/
