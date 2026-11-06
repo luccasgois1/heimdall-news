@@ -1,13 +1,17 @@
 # Heimdall News
 
-A política brasileira com a posição de cada campo em relação ao governo, e as fontes de tudo. Este repositório é a referência escrita: aqui ficam os textos e as fontes, para consulta e conferência.
+Matérias escritas dos Shorts de política brasileira, com a posição de cada campo em relação ao governo e a fonte de cada informação, para quem quiser conferir.
 
-Cada matéria traz o contexto factual e a posição de cada campo: pró-governo, centro pró-governo, centro, centro-oposição, oposição, independente (Missão/MBL) e outros. Cada afirmação cita literalmente a fonte de onde saiu.
+As matérias de política e economia internacional ficam em [Heimdall News, edição internacional](https://github.com/luccasgois1/heimdall-news-mundo). Os vídeos ficam em [@heimdallnews](https://www.youtube.com/@heimdallnews).
 
-## O que tem aqui
-- `materias/AAAA-MM-DD/`: as matérias de cada dia, em Markdown: as notícias e o que andou no Supremo Tribunal Federal, no Senado e na Câmara.
-- `estudos/espectro.html`: como cada partido foi posicionado no espectro, com as votações de cada governo desde 2003.
-- `mandatos/`: a Câmara e o Senado em cada governo desde 2003, com partidos e parlamentares entre os polos de governo e oposição nas votações nominais.
-- `dados/`: todos os dados usados no espectro e nos mandatos, para quem quiser refazer as contas. O [README da pasta](dados/README.md) diz como cada arquivo foi obtido.
+## Como os posicionamentos são definidos
 
-As páginas de `estudos/` e `mandatos/` são HTML: baixe o repositório e abra no navegador. As citações pertencem aos veículos de origem, indicados e linkados em cada matéria.
+Cada matéria mostra o que disseram os campos pró-governo, centro pró-governo, centro, centro-oposição, oposição, independente (Missão e MBL) e outros. Uma posição só entra com declaração, nota ou orientação de voto daquele campo sobre aquele assunto, com o trecho literal da fonte. Votos vêm do registro nominal oficial.
+
+O campo de cada partido não é um rótulo ideológico: vem de como a bancada votou. Nas votações nominais disputadas, conta-se em quantas a maioria da bancada acompanhou a oposição, menos em quantas acompanhou o governo, numa escala de -100 a +100, separada para a Câmara e o Senado. Missão e MBL são sempre independentes.
+
+- [Espectro político](estudos/espectro.html): a metodologia completa e os números de cada partido em cada governo desde 2003. Baixe o arquivo e abra no navegador.
+- [Câmara e Senado em cada governo](mandatos/index.html): partidos e parlamentares entre os polos de governo e oposição, também em HTML.
+- [Dados dos estudos](dados/README.md): tudo o que foi usado nas contas, com a origem de cada arquivo.
+
+As citações pertencem aos veículos de origem, indicados e linkados em cada matéria.
