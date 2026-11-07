@@ -30,6 +30,8 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [Lula critica campanha contra a fome exibida na Globo e pede investigação](materias/2026-11-07/2026-11-07-08.md)
 - [Procuradoria e Justiça Federal pedem R$ 533 milhões extras para pagar quinquênio](materias/2026-11-07/2026-11-07-09.md)
 - [Governadora do Distrito Federal tenta de novo falar com Lula para socorrer o BRB](materias/2026-11-07/2026-11-07-10.md)
+- [Flávio diz ao Washington Post que Trump não vê mais democracia plena no Brasil](materias/2026-11-07/2026-11-07-11.md)
+- [Lula leva Janones à Turquia e pede prontidão ao Exército do Lula](materias/2026-11-07/2026-11-07-12.md)
 
 ## sexta-feira, 6 de novembro de 2026
 
