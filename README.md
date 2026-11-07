@@ -28,6 +28,8 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [Celular de Vorcaro tem 316 interações com Moraes, diz UOL; defesas contestam](materias/2026-11-07/2026-11-07-06.md)
 - [Lula deve abrir o quarto mandato com 40 ministérios, recorde desde a redemocratização](materias/2026-11-07/2026-11-07-07.md)
 - [Lula critica campanha contra a fome exibida na Globo e pede investigação](materias/2026-11-07/2026-11-07-08.md)
+- [Procuradoria e Justiça Federal pedem R$ 533 milhões extras para pagar quinquênio](materias/2026-11-07/2026-11-07-09.md)
+- [Governadora do Distrito Federal tenta de novo falar com Lula para socorrer o BRB](materias/2026-11-07/2026-11-07-10.md)
 
 ## sexta-feira, 6 de novembro de 2026
 
