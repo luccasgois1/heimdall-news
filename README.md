@@ -18,6 +18,11 @@ Todos os partidos seguem o mesmo cálculo, sem exceção. Quem não tem bancada,
 
 As citações pertencem aos veículos de origem, indicados e linkados em cada matéria.
 
+## sábado, 7 de novembro de 2026
+
+- [Fachin homologa delação do fundador da Reag no caso do Banco Master](materias/2026-11-07/2026-11-07-01.md)
+- [Dino inclui a indústria na audiência sobre a nova jornada de trabalho](materias/2026-11-07/2026-11-07-02.md)
+
 ## sexta-feira, 6 de novembro de 2026
 
 - [Lula sanciona lei que exige exame para novos médicos obterem registro](materias/2026-11-06/2026-11-06-01.md)
