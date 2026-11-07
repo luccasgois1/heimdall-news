@@ -22,6 +22,8 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 
 - [Fachin homologa delação do fundador da Reag no caso do Banco Master](materias/2026-11-07/2026-11-07-01.md)
 - [Dino inclui a indústria na audiência sobre a nova jornada de trabalho](materias/2026-11-07/2026-11-07-02.md)
+- [Flávio Bolsonaro diz não ter provas de fraude e não vai contestar votos na Justiça](materias/2026-11-07/2026-11-07-03.md)
+- [PT condiciona apoio a Alcolumbre e Marinho pede união da direita no Senado](materias/2026-11-07/2026-11-07-04.md)
 
 ## sexta-feira, 6 de novembro de 2026
 
