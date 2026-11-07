@@ -26,6 +26,8 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [PT condiciona apoio a Alcolumbre e Marinho pede união da direita no Senado](materias/2026-11-07/2026-11-07-04.md)
 - [Procuradoria pede ao Supremo para suspender ações contra a proibição das bets](materias/2026-11-07/2026-11-07-05.md)
 - [Celular de Vorcaro tem 316 interações com Moraes, diz UOL; defesas contestam](materias/2026-11-07/2026-11-07-06.md)
+- [Lula deve abrir o quarto mandato com 40 ministérios, recorde desde a redemocratização](materias/2026-11-07/2026-11-07-07.md)
+- [Lula critica campanha contra a fome exibida na Globo e pede investigação](materias/2026-11-07/2026-11-07-08.md)
 
 ## sexta-feira, 6 de novembro de 2026
 
