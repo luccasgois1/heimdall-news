@@ -28,6 +28,7 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [Fachin deve encerrar o inquérito das fake news após pedido da Procuradoria, diz Folha](materias/2026-11-08/2026-11-08-06.md)
 - [Oposição critica plano de Lula de abrir o quarto mandato com 40 ministérios](materias/2026-11-08/2026-11-08-07.md)
 - [Justiça manda Zé Trovão apagar vídeo em que defende demitir eleitores do PT](materias/2026-11-08/2026-11-08-08.md)
+- [PF investiga ameaças a Ana Elisa, e TRE de Minas suspende inquérito contra ela](materias/2026-11-08/2026-11-08-09.md)
 
 ## sábado, 7 de novembro de 2026
 
