@@ -18,6 +18,10 @@ Todos os partidos seguem o mesmo cálculo, sem exceção. Quem não tem bancada,
 
 As citações pertencem aos veículos de origem, indicados e linkados em cada matéria.
 
+## domingo, 8 de novembro de 2026
+
+- [Moraes pede vista e suspende julgamento sobre caça de espécies invasoras](materias/2026-11-08/2026-11-08-01.md)
+
 ## sábado, 7 de novembro de 2026
 
 - [Fachin homologa delação do fundador da Reag no caso do Banco Master](materias/2026-11-07/2026-11-07-01.md)
