@@ -26,6 +26,8 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [PT abre vaquinha por Pix para arrecadar R$ 7 milhões e quitar a campanha de Lula](materias/2026-11-08/2026-11-08-04.md)
 - [Gilmar Mendes chama de levianas as críticas ao resultado da eleição](materias/2026-11-08/2026-11-08-05.md)
 - [Fachin deve encerrar o inquérito das fake news após pedido da Procuradoria, diz Folha](materias/2026-11-08/2026-11-08-06.md)
+- [Oposição critica plano de Lula de abrir o quarto mandato com 40 ministérios](materias/2026-11-08/2026-11-08-07.md)
+- [Justiça manda Zé Trovão apagar vídeo em que defende demitir eleitores do PT](materias/2026-11-08/2026-11-08-08.md)
 
 ## sábado, 7 de novembro de 2026
 
