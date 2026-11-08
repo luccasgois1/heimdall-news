@@ -24,6 +24,8 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [Polícia indicia Milton Leite e pede prisão preventiva em inquérito sobre o PCC](materias/2026-11-08/2026-11-08-02.md)
 - [Quaest: 48% aprovam e 44% desaprovam Lula; 61% veem eleição limpa](materias/2026-11-08/2026-11-08-03.md)
 - [PT abre vaquinha por Pix para arrecadar R$ 7 milhões e quitar a campanha de Lula](materias/2026-11-08/2026-11-08-04.md)
+- [Gilmar Mendes chama de levianas as críticas ao resultado da eleição](materias/2026-11-08/2026-11-08-05.md)
+- [Fachin deve encerrar o inquérito das fake news após pedido da Procuradoria, diz Folha](materias/2026-11-08/2026-11-08-06.md)
 
 ## sábado, 7 de novembro de 2026
 
