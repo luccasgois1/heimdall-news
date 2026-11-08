@@ -21,6 +21,7 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 ## domingo, 8 de novembro de 2026
 
 - [Moraes pede vista e suspende julgamento sobre caça de espécies invasoras](materias/2026-11-08/2026-11-08-01.md)
+- [Polícia indicia Milton Leite e pede prisão preventiva em inquérito sobre o PCC](materias/2026-11-08/2026-11-08-02.md)
 
 ## sábado, 7 de novembro de 2026
 
