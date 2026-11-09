@@ -22,6 +22,8 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 
 - [Na TV, Lula promete responsabilidade fiscal sem anunciar medidas e cobra o Judiciário](materias/2026-11-09/2026-11-09-01.md)
 - [Marinho promete pautar anistia; Alcolumbre e Tereza disputam votos do PL no Senado](materias/2026-11-09/2026-11-09-02.md)
+- [Fux suspende em todo o país os processos contra a proibição das bets](materias/2026-11-09/2026-11-09-03.md)
+- [Governo prorroga até 2031 o Gás do Povo, que dá botijão grátis a famílias pobres](materias/2026-11-09/2026-11-09-04.md)
 
 ## domingo, 8 de novembro de 2026
 
