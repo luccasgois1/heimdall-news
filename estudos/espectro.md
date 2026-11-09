@@ -28,7 +28,7 @@ Para cada partido classificado no mandato em curso: o grupo atual em cada casa, 
 
 **Câmara dos Deputados:** Pró-governo · **Senado Federal:** Pró-governo
 
-No mandato em curso (Lula 3): Câmara dos Deputados: pró-governo, com posição -84 — a maioria da bancada votou como a bancada do governo (PT) em 100% e como a da oposição (PL) em 16% das 876 votações disputadas de que participou; seguiu a orientação do líder do governo em 99%. Senado Federal: pró-governo, com posição -91 — a maioria da bancada votou como a bancada do governo (PT) em 100% e como a da oposição (PL) em 9% das 90 votações disputadas de que participou; seguiu a orientação do líder do governo em 100%.
+No mandato em curso (Lula 3): Câmara dos Deputados: pró-governo, com posição -84 — a maioria da bancada votou como a bancada do governo (PT) em 100% e como a da oposição (PL) em 16% das 876 votações disputadas de que participou; seguiu a orientação do líder do governo em 99%. Senado Federal: pró-governo, com posição -91 — a maioria da bancada votou como a bancada do governo (PT) em 100% e como a da oposição (PL) em 9% das 91 votações disputadas de que participou; seguiu a orientação do líder do governo em 100%.
 
 Em governos anteriores: Câmara — Lula 1 (PT × PSDB): pró-governo (-75); Lula 2 (PT × PSDB): pró-governo (-77); Dilma (PT × PSDB): pró-governo (-80); Temer (MDB × PT): oposição ao governo (+78); Bolsonaro (PSL (até 19/11/2019) → PL × PT): oposição ao governo (+86). Senado — Lula 1 (PT × PSDB): pró-governo (-65); Lula 2 (PT × PSDB): pró-governo (-84); Dilma (PT × PSDB): pró-governo (-74); Temer (MDB × PT): oposição ao governo (+84); Bolsonaro (PSL (até 19/11/2019) → PL × PT): oposição ao governo (+65).
 
@@ -52,7 +52,7 @@ Em governos anteriores: Câmara — Lula 1 (PT × PSDB): pró-governo (-63); Lul
 
 **Câmara dos Deputados:** Pró-governo · **Senado Federal:** Centro pró-governo
 
-No mandato em curso (Lula 3): Câmara dos Deputados: pró-governo, com posição -71 — a maioria da bancada votou como a bancada do governo (PT) em 93% e como a da oposição (PL) em 22% das 870 votações disputadas de que participou; seguiu a orientação do líder do governo em 95%. Senado Federal: centro pró-governo, com posição -48 — a maioria da bancada votou como a bancada do governo (PT) em 72% e como a da oposição (PL) em 24% das 83 votações disputadas de que participou; seguiu a orientação do líder do governo em 83%.
+No mandato em curso (Lula 3): Câmara dos Deputados: pró-governo, com posição -71 — a maioria da bancada votou como a bancada do governo (PT) em 93% e como a da oposição (PL) em 22% das 870 votações disputadas de que participou; seguiu a orientação do líder do governo em 95%. Senado Federal: centro pró-governo, com posição -49 — a maioria da bancada votou como a bancada do governo (PT) em 73% e como a da oposição (PL) em 24% das 84 votações disputadas de que participou; seguiu a orientação do líder do governo em 84%.
 
 Em governos anteriores: Câmara — Lula 1 (PT × PSDB): pró-governo (-63); Lula 2 (PT × PSDB): centro pró-governo (-54); Dilma (PT × PSDB): centro (+6); Temer (MDB × PT): centro pró-governo (-29); Bolsonaro (PSL (até 19/11/2019) → PL × PT): oposição ao governo (+69). Senado — Lula 1 (PT × PSDB): centro pró-governo (-57); Lula 2 (PT × PSDB): pró-governo (-79); Dilma (PT × PSDB): centro pró-governo (-53); Temer (MDB × PT): centro-oposição (+22); Bolsonaro (PSL (até 19/11/2019) → PL × PT): centro-oposição (+50).
 
@@ -84,7 +84,7 @@ Em governos anteriores: Senado — Lula 1 (PT × PSDB): outros / não classific�
 
 **Câmara dos Deputados:** Pró-governo · **Senado Federal:** Pró-governo
 
-No mandato em curso (Lula 3): Câmara dos Deputados: pró-governo, com posição -61 — a maioria da bancada votou como a bancada do governo (PT) em 88% e como a da oposição (PL) em 26% das 873 votações disputadas de que participou; seguiu a orientação do líder do governo em 90%. Senado Federal: pró-governo, com posição -71 — a maioria da bancada votou como a bancada do governo (PT) em 88% e como a da oposição (PL) em 17% das 75 votações disputadas de que participou; seguiu a orientação do líder do governo em 96%.
+No mandato em curso (Lula 3): Câmara dos Deputados: pró-governo, com posição -61 — a maioria da bancada votou como a bancada do governo (PT) em 88% e como a da oposição (PL) em 26% das 873 votações disputadas de que participou; seguiu a orientação do líder do governo em 90%. Senado Federal: pró-governo, com posição -71 — a maioria da bancada votou como a bancada do governo (PT) em 88% e como a da oposição (PL) em 17% das 76 votações disputadas de que participou; seguiu a orientação do líder do governo em 96%.
 
 Em governos anteriores: Câmara — Lula 1 (PT × PSDB): centro (-3); Lula 2 (PT × PSDB): centro pró-governo (-55); Dilma (PT × PSDB): centro pró-governo (-25); Temer (MDB × PT): centro-oposição (+37); Bolsonaro (PSL (até 19/11/2019) → PL × PT): centro-oposição (+55). Senado — Lula 1 (PT × PSDB): centro-oposição (+26); Lula 2 (PT × PSDB): centro pró-governo (-38); Dilma (PT × PSDB): centro (-14); Temer (MDB × PT): centro pró-governo (-30); Bolsonaro (PSL (até 19/11/2019) → PL × PT): centro-oposição (+36).
 
@@ -116,7 +116,7 @@ Em governos anteriores: Câmara — Lula 2 (PT × PSDB): centro pró-governo (-5
 
 **Câmara dos Deputados:** Centro pró-governo · **Senado Federal:** Centro
 
-No mandato em curso (Lula 3): Câmara dos Deputados: centro pró-governo, com posição -38 — a maioria da bancada votou como a bancada do governo (PT) em 75% e como a da oposição (PL) em 37% das 866 votações disputadas de que participou; seguiu a orientação do líder do governo em 82%. Senado Federal: centro, com posição +6 — a maioria da bancada votou como a bancada do governo (PT) em 47% e como a da oposição (PL) em 53% das 81 votações disputadas de que participou; seguiu a orientação do líder do governo em 49%.
+No mandato em curso (Lula 3): Câmara dos Deputados: centro pró-governo, com posição -38 — a maioria da bancada votou como a bancada do governo (PT) em 75% e como a da oposição (PL) em 37% das 866 votações disputadas de que participou; seguiu a orientação do líder do governo em 82%. Senado Federal: centro, com posição +7 — a maioria da bancada votou como a bancada do governo (PT) em 46% e como a da oposição (PL) em 54% das 82 votações disputadas de que participou; seguiu a orientação do líder do governo em 48%.
 
 Em governos anteriores: Câmara — Dilma (PT × PSDB): centro pró-governo (-50); Temer (MDB × PT): centro pró-governo (-56); Bolsonaro (PSL (até 19/11/2019) → PL × PT): pró-governo (-62). Senado — Temer (MDB × PT): centro pró-governo (-22); Bolsonaro (PSL (até 19/11/2019) → PL × PT): centro (-13).
 
@@ -124,7 +124,7 @@ Em governos anteriores: Câmara — Dilma (PT × PSDB): centro pró-governo (-50
 
 **Câmara dos Deputados:** Centro pró-governo · **Senado Federal:** Centro pró-governo
 
-No mandato em curso (Lula 3): Câmara dos Deputados: centro pró-governo, com posição -36 — a maioria da bancada votou como a bancada do governo (PT) em 75% e como a da oposição (PL) em 39% das 874 votações disputadas de que participou; seguiu a orientação do líder do governo em 81%. Senado Federal: centro pró-governo, com posição -56 — a maioria da bancada votou como a bancada do governo (PT) em 80% e como a da oposição (PL) em 24% das 87 votações disputadas de que participou; seguiu a orientação do líder do governo em 88%.
+No mandato em curso (Lula 3): Câmara dos Deputados: centro pró-governo, com posição -36 — a maioria da bancada votou como a bancada do governo (PT) em 75% e como a da oposição (PL) em 39% das 874 votações disputadas de que participou; seguiu a orientação do líder do governo em 81%. Senado Federal: centro pró-governo, com posição -57 — a maioria da bancada votou como a bancada do governo (PT) em 81% e como a da oposição (PL) em 24% das 88 votações disputadas de que participou; seguiu a orientação do líder do governo em 88%.
 
 Em governos anteriores: Câmara — Dilma (PT × PSDB): centro (-4); Temer (MDB × PT): pró-governo (-76); Bolsonaro (PSL (até 19/11/2019) → PL × PT): pró-governo (-74). Senado — Dilma (PT × PSDB): centro pró-governo (-25); Temer (MDB × PT): pró-governo (-70); Bolsonaro (PSL (até 19/11/2019) → PL × PT): centro pró-governo (-30).
 
@@ -132,7 +132,7 @@ Em governos anteriores: Câmara — Dilma (PT × PSDB): centro (-4); Temer (MDB 
 
 **Câmara dos Deputados:** Centro pró-governo · **Senado Federal:** Oposição ao governo
 
-No mandato em curso (Lula 3): Câmara dos Deputados: centro pró-governo, com posição -31 — a maioria da bancada votou como a bancada do governo (PT) em 73% e como a da oposição (PL) em 42% das 873 votações disputadas de que participou; seguiu a orientação do líder do governo em 79%. Senado Federal: oposição ao governo, com posição +65 — a maioria da bancada votou como a bancada do governo (PT) em 20% e como a da oposição (PL) em 85% das 86 votações disputadas de que participou; seguiu a orientação do líder do governo em 14%.
+No mandato em curso (Lula 3): Câmara dos Deputados: centro pró-governo, com posição -31 — a maioria da bancada votou como a bancada do governo (PT) em 73% e como a da oposição (PL) em 42% das 873 votações disputadas de que participou; seguiu a orientação do líder do governo em 79%. Senado Federal: oposição ao governo, com posição +66 — a maioria da bancada votou como a bancada do governo (PT) em 20% e como a da oposição (PL) em 85% das 87 votações disputadas de que participou; seguiu a orientação do líder do governo em 14%.
 
 Em governos anteriores: Câmara — Lula 1 (PT × PSDB): centro pró-governo (-55); Lula 2 (PT × PSDB): centro pró-governo (-54); Dilma (PT × PSDB): centro (-8); Temer (MDB × PT): pró-governo (-78); Bolsonaro (PSL (até 19/11/2019) → PL × PT): pró-governo (-76). Senado — Lula 2 (PT × PSDB): pró-governo (-61); Dilma (PT × PSDB): centro pró-governo (-46); Temer (MDB × PT): pró-governo (-84); Bolsonaro (PSL (até 19/11/2019) → PL × PT): centro pró-governo (-55).
 
@@ -140,7 +140,7 @@ Em governos anteriores: Câmara — Lula 1 (PT × PSDB): centro pró-governo (-5
 
 **Câmara dos Deputados:** Centro pró-governo · **Senado Federal:** Pró-governo
 
-No mandato em curso (Lula 3): Câmara dos Deputados: centro pró-governo, com posição -31 — a maioria da bancada votou como a bancada do governo (PT) em 73% e como a da oposição (PL) em 42% das 870 votações disputadas de que participou; seguiu a orientação do líder do governo em 80%. Senado Federal: pró-governo, com posição -66 — a maioria da bancada votou como a bancada do governo (PT) em 85% e como a da oposição (PL) em 20% das 87 votações disputadas de que participou; seguiu a orientação do líder do governo em 93%.
+No mandato em curso (Lula 3): Câmara dos Deputados: centro pró-governo, com posição -31 — a maioria da bancada votou como a bancada do governo (PT) em 73% e como a da oposição (PL) em 42% das 870 votações disputadas de que participou; seguiu a orientação do líder do governo em 80%. Senado Federal: pró-governo, com posição -66 — a maioria da bancada votou como a bancada do governo (PT) em 85% e como a da oposição (PL) em 19% das 88 votações disputadas de que participou; seguiu a orientação do líder do governo em 93%.
 
 Em governos anteriores: Câmara — Lula 1 (PT × PSDB): centro pró-governo (-45); Lula 2 (PT × PSDB): centro pró-governo (-58); Dilma (PT × PSDB): centro pró-governo (-22); Temer (MDB × PT): pró-governo (-78); Bolsonaro (PSL (até 19/11/2019) → PL × PT): pró-governo (-65). Senado — Lula 1 (PT × PSDB): centro pró-governo (-42); Lula 2 (PT × PSDB): pró-governo (-62); Dilma (PT × PSDB): centro pró-governo (-50); Temer (MDB × PT): pró-governo (-84); Bolsonaro (PSL (até 19/11/2019) → PL × PT): centro pró-governo (-20).
 
@@ -148,7 +148,7 @@ Em governos anteriores: Câmara — Lula 1 (PT × PSDB): centro pró-governo (-4
 
 **Câmara dos Deputados:** Centro pró-governo · **Senado Federal:** Oposição ao governo
 
-No mandato em curso (Lula 3): Câmara dos Deputados: centro pró-governo, com posição -27 — a maioria da bancada votou como a bancada do governo (PT) em 70% e como a da oposição (PL) em 43% das 875 votações disputadas de que participou; seguiu a orientação do líder do governo em 76%. Senado Federal: oposição ao governo, com posição +81 — a maioria da bancada votou como a bancada do governo (PT) em 8% e como a da oposição (PL) em 89% das 83 votações disputadas de que participou; seguiu a orientação do líder do governo em 4%.
+No mandato em curso (Lula 3): Câmara dos Deputados: centro pró-governo, com posição -27 — a maioria da bancada votou como a bancada do governo (PT) em 70% e como a da oposição (PL) em 43% das 875 votações disputadas de que participou; seguiu a orientação do líder do governo em 76%. Senado Federal: oposição ao governo, com posição +81 — a maioria da bancada votou como a bancada do governo (PT) em 8% e como a da oposição (PL) em 89% das 84 votações disputadas de que participou; seguiu a orientação do líder do governo em 4%.
 
 Em governos anteriores: Câmara — Lula 2 (PT × PSDB): centro pró-governo (-54); Dilma (PT × PSDB): centro pró-governo (-30); Temer (MDB × PT): pró-governo (-68); Bolsonaro (PSL (até 19/11/2019) → PL × PT): pró-governo (-73). Senado — Lula 2 (PT × PSDB): pró-governo (-85); Dilma (PT × PSDB): centro pró-governo (-41); Temer (MDB × PT): pró-governo (-79); Bolsonaro (PSL (até 19/11/2019) → PL × PT): centro pró-governo (-37).
 
@@ -156,7 +156,7 @@ Em governos anteriores: Câmara — Lula 2 (PT × PSDB): centro pró-governo (-5
 
 **Câmara dos Deputados:** Centro pró-governo · **Senado Federal:** Centro-oposição
 
-No mandato em curso (Lula 3): Câmara dos Deputados: centro pró-governo, com posição -26 — a maioria da bancada votou como a bancada do governo (PT) em 68% e como a da oposição (PL) em 41% das 860 votações disputadas de que participou; seguiu a orientação do líder do governo em 73%. Senado Federal: centro-oposição, com posição +51 — a maioria da bancada votou como a bancada do governo (PT) em 26% e como a da oposição (PL) em 77% das 78 votações disputadas de que participou; seguiu a orientação do líder do governo em 20%.
+No mandato em curso (Lula 3): Câmara dos Deputados: centro pró-governo, com posição -26 — a maioria da bancada votou como a bancada do governo (PT) em 68% e como a da oposição (PL) em 41% das 860 votações disputadas de que participou; seguiu a orientação do líder do governo em 73%. Senado Federal: centro-oposição, com posição +52 — a maioria da bancada votou como a bancada do governo (PT) em 25% e como a da oposição (PL) em 77% das 79 votações disputadas de que participou; seguiu a orientação do líder do governo em 20%.
 
 Em governos anteriores: Câmara — Lula 1 (PT × PSDB): oposição ao governo (+75); Lula 2 (PT × PSDB): oposição ao governo (+77); Dilma (PT × PSDB): oposição ao governo (+80); Temer (MDB × PT): pró-governo (-75); Bolsonaro (PSL (até 19/11/2019) → PL × PT): pró-governo (-61). Senado — Lula 1 (PT × PSDB): oposição ao governo (+65); Lula 2 (PT × PSDB): oposição ao governo (+84); Dilma (PT × PSDB): oposição ao governo (+74); Temer (MDB × PT): pró-governo (-84); Bolsonaro (PSL (até 19/11/2019) → PL × PT): centro (-18).
 
@@ -172,7 +172,7 @@ Em governos anteriores: Câmara — Lula 1 (PT × PSDB): outros / não classific
 
 **Câmara dos Deputados:** Centro pró-governo · **Senado Federal:** Centro
 
-No mandato em curso (Lula 3): Câmara dos Deputados: centro pró-governo, com posição -23 — a maioria da bancada votou como a bancada do governo (PT) em 69% e como a da oposição (PL) em 45% das 875 votações disputadas de que participou; seguiu a orientação do líder do governo em 74%. Senado Federal: centro, com posição -4 — a maioria da bancada votou como a bancada do governo (PT) em 54% e como a da oposição (PL) em 51% das 83 votações disputadas de que participou; seguiu a orientação do líder do governo em 61%.
+No mandato em curso (Lula 3): Câmara dos Deputados: centro pró-governo, com posição -23 — a maioria da bancada votou como a bancada do governo (PT) em 69% e como a da oposição (PL) em 45% das 875 votações disputadas de que participou; seguiu a orientação do líder do governo em 74%. Senado Federal: centro, com posição -5 — a maioria da bancada votou como a bancada do governo (PT) em 55% e como a da oposição (PL) em 50% das 84 votações disputadas de que participou; seguiu a orientação do líder do governo em 61%.
 
 Em governos anteriores: Câmara — Bolsonaro (PSL (até 19/11/2019) → PL × PT): pró-governo (-73). Senado — Bolsonaro (PSL (até 19/11/2019) → PL × PT): centro pró-governo (-31).
 
@@ -220,7 +220,7 @@ Em governos anteriores: Câmara — Bolsonaro (PSL (até 19/11/2019) → PL × P
 
 **Câmara dos Deputados:** Oposição ao governo · **Senado Federal:** Oposição ao governo
 
-No mandato em curso (Lula 3): Câmara dos Deputados: oposição ao governo, com posição +84 — a maioria da bancada votou como a bancada do governo (PT) em 16% e como a da oposição (PL) em 100% das 871 votações disputadas de que participou; seguiu a orientação do líder do governo em 16%. Senado Federal: oposição ao governo, com posição +91 — a maioria da bancada votou como a bancada do governo (PT) em 9% e como a da oposição (PL) em 100% das 90 votações disputadas de que participou; seguiu a orientação do líder do governo em 2%.
+No mandato em curso (Lula 3): Câmara dos Deputados: oposição ao governo, com posição +84 — a maioria da bancada votou como a bancada do governo (PT) em 16% e como a da oposição (PL) em 100% das 871 votações disputadas de que participou; seguiu a orientação do líder do governo em 16%. Senado Federal: oposição ao governo, com posição +91 — a maioria da bancada votou como a bancada do governo (PT) em 9% e como a da oposição (PL) em 100% das 91 votações disputadas de que participou; seguiu a orientação do líder do governo em 2%.
 
 Em governos anteriores: Câmara — Lula 1 (PT × PSDB): centro pró-governo (-59); Bolsonaro (PSL (até 19/11/2019) → PL × PT): pró-governo (-82). Senado — Lula 1 (PT × PSDB): centro pró-governo (-46); Lula 2 (PT × PSDB): pró-governo (-68); Dilma (PT × PSDB): centro pró-governo (-53); Temer (MDB × PT): pró-governo (-80); Bolsonaro (PSL (até 19/11/2019) → PL × PT): pró-governo (-63).
 
@@ -288,24 +288,24 @@ Posição de cada partido em cada governo, de −100 a +100. Partidos ordenados 
 | MDB | -42 | -62 | -50 | -84 | -20 | -66 |
 | Sem partido | -10 |  |  | 33 | -45 | -64 |
 | SEM REGISTRO |  |  |  |  | -63 |  |
-| PSD |  |  | -25 | -70 | -30 | -56 |
+| PSD |  |  | -25 | -70 | -30 | -57 |
 | PSL |  |  |  |  | -51 |  |
-| PSB | -57 | -79 | -53 | 22 | 50 | -48 |
+| PSB | -57 | -79 | -53 | 22 | 50 | -49 |
 | DEM |  | 61 | 63 | -79 | -46 |  |
 | PSC |  | 61 | -34 | -65 | -44 |  |
 | PTB | -53 | -62 | -54 | -41 | -37 |  |
 | PTC |  |  |  | -35 |  |  |
 | PATRIOTA |  |  |  |  | -34 |  |
 | PV |  |  | -39 | -17 |  |  |
-| UNIÃO |  |  |  |  | -31 | -4 |
+| UNIÃO |  |  |  |  | -31 | -5 |
 | PROS |  |  |  | -25 | -1 |  |
-| PODE |  |  |  | -22 | -13 | 6 |
+| PODE |  |  |  | -22 | -13 | 7 |
 | CIDADANIA | -66 |  | 46 | -17 | 20 |  |
 | SOLIDARIEDADE |  |  | 23 |  |  |  |
 | PSOL | 28 | -2 | 25 |  |  |  |
-| PSDB | 65 | 84 | 74 | -84 | -18 | 51 |
+| PSDB | 65 | 84 | 74 | -84 | -18 | 52 |
 | AVANTE | 59 |  |  |  |  |  |
-| PP |  | -61 | -46 | -84 | -55 | 65 |
+| PP |  | -61 | -46 | -84 | -55 | 66 |
 | NOVO |  |  |  |  |  | 75 |
 | PCdoB | -56 | -73 | -60 | 80 |  |  |
 | REPUBLICANOS |  | -85 | -41 | -79 | -37 | 81 |
@@ -347,26 +347,26 @@ Votações nominais do Plenário (arquivos de dados abertos da Câmara). Partido
 | NOVO | Oposição ao governo | 76 | 8% | 84% | 9% | 813 | 3.7 |
 | PL | Oposição ao governo | 84 | 16% | 100% | 16% | 871 | 71.4 |
 
-### Senado Federal: 90 votações disputadas
+### Senado Federal: 91 votações disputadas
 
 Votações nominais abertas (as secretas não têm voto individual); bancadas pequenas oscilam mais. Partidos com menos de 8 votações disputadas não são classificados.
 
 | Partido | Grupo | Posição | Com o governo (PT) | Com a oposição (PL) | Com a orientação do governo | Votações | Parlamentares (média) |
 |---|---|---:|---:|---:|---:|---:|---:|
 | REDE | Pró-governo | -94 | 100% | 6% | 100% | 31 | 1.0 |
-| PT | Pró-governo | -91 | 100% | 9% | 100% | 90 | 7.7 |
-| PDT | Pró-governo | -71 | 88% | 17% | 96% | 75 | 2.5 |
-| MDB | Pró-governo | -66 | 85% | 20% | 93% | 87 | 8.0 |
+| PT | Pró-governo | -91 | 100% | 9% | 100% | 91 | 7.7 |
+| PDT | Pró-governo | -71 | 88% | 17% | 96% | 76 | 2.4 |
+| MDB | Pró-governo | -66 | 85% | 19% | 93% | 88 | 8.0 |
 | Sem partido | Outros / não classificável (fixo) | -64 | 79% | 14% | 90% | 14 | 1.0 |
-| PSD | Centro pró-governo | -56 | 80% | 24% | 88% | 87 | 10.7 |
-| PSB | Centro pró-governo | -48 | 72% | 24% | 83% | 83 | 3.2 |
-| UNIÃO | Centro | -4 | 54% | 51% | 61% | 83 | 5.9 |
-| PODE | Centro | 6 | 47% | 53% | 49% | 81 | 4.7 |
-| PSDB | Centro-oposição | 51 | 26% | 77% | 20% | 78 | 1.8 |
-| PP | Oposição ao governo | 65 | 20% | 85% | 14% | 86 | 5.5 |
+| PSD | Centro pró-governo | -57 | 81% | 24% | 88% | 88 | 10.7 |
+| PSB | Centro pró-governo | -49 | 73% | 24% | 84% | 84 | 3.3 |
+| UNIÃO | Centro | -5 | 55% | 50% | 61% | 84 | 5.9 |
+| PODE | Centro | 7 | 46% | 54% | 48% | 82 | 4.7 |
+| PSDB | Centro-oposição | 52 | 25% | 77% | 20% | 79 | 1.8 |
+| PP | Oposição ao governo | 66 | 20% | 85% | 14% | 87 | 5.5 |
 | NOVO | Oposição ao governo | 75 | 13% | 88% | 5% | 88 | 1.0 |
-| REPUBLICANOS | Oposição ao governo | 81 | 8% | 89% | 4% | 83 | 3.8 |
-| PL | Oposição ao governo | 91 | 9% | 100% | 2% | 90 | 11.0 |
+| REPUBLICANOS | Oposição ao governo | 81 | 8% | 89% | 4% | 84 | 3.8 |
+| PL | Oposição ao governo | 91 | 9% | 100% | 2% | 91 | 11.0 |
 
 ## Câmara × Senado no mandato atual
 
@@ -377,7 +377,7 @@ O mesmo partido nas duas casas. Em negrito, os que caem em grupos diferentes.
 | PT | Pró-governo | -84 | Pró-governo | -91 |
 | PV | Pró-governo | -83 | sem votos suficientes |  |
 | PCdoB | Pró-governo | -83 | sem votos suficientes |  |
-| **PSB** | Pró-governo | -71 | Centro pró-governo | -48 |
+| **PSB** | Pró-governo | -71 | Centro pró-governo | -49 |
 | REDE | Pró-governo | -71 | Pró-governo | -94 |
 | PSOL | Pró-governo | -69 | sem votos suficientes |  |
 | Sem partido | sem votos suficientes |  | Outros / não classificável | -64 |
@@ -385,14 +385,14 @@ O mesmo partido nas duas casas. Em negrito, os que caem em grupos diferentes.
 | PSC | Centro pró-governo | -57 | sem votos suficientes |  |
 | SOLIDARIEDADE | Centro pró-governo | -48 | sem votos suficientes |  |
 | AVANTE | Centro pró-governo | -40 | sem votos suficientes |  |
-| **PODE** | Centro pró-governo | -38 | Centro | 6 |
-| PSD | Centro pró-governo | -36 | Centro pró-governo | -56 |
-| **PP** | Centro pró-governo | -31 | Oposição ao governo | 65 |
+| **PODE** | Centro pró-governo | -38 | Centro | 7 |
+| PSD | Centro pró-governo | -36 | Centro pró-governo | -57 |
+| **PP** | Centro pró-governo | -31 | Oposição ao governo | 66 |
 | **MDB** | Centro pró-governo | -31 | Pró-governo | -66 |
 | **REPUBLICANOS** | Centro pró-governo | -27 | Oposição ao governo | 81 |
-| **PSDB** | Centro pró-governo | -26 | Centro-oposição | 51 |
+| **PSDB** | Centro pró-governo | -26 | Centro-oposição | 52 |
 | S.PART. | Outros / não classificável | -24 | sem votos suficientes |  |
-| **UNIÃO** | Centro pró-governo | -23 | Centro | -4 |
+| **UNIÃO** | Centro pró-governo | -23 | Centro | -5 |
 | PATRIOTA | Centro | 2 | sem votos suficientes |  |
 | CIDADANIA | Centro | 13 | sem votos suficientes |  |
 | PRD | Centro-oposição | 21 | sem votos suficientes |  |

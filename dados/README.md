@@ -73,7 +73,7 @@ Para conferir: baixe os arquivos originais nos endereços acima, aplique o filtr
 | Câmara | 2023 | [1090](votacoes/camara-votacoes-2023.csv.gz) | [123242](votacoes/camara-votos-2023.csv.gz) |
 | Câmara | 2024 | [2144](votacoes/camara-votacoes-2024.csv.gz) | [110462](votacoes/camara-votos-2024.csv.gz) |
 | Câmara | 2025 | [2041](votacoes/camara-votacoes-2025.csv.gz) | [171217](votacoes/camara-votos-2025.csv.gz) |
-| Câmara | 2026 | [1373](votacoes/camara-votacoes-2026.csv.gz) | [51916](votacoes/camara-votos-2026.csv.gz) |
+| Câmara | 2026 | [1424](votacoes/camara-votacoes-2026.csv.gz) | [51916](votacoes/camara-votos-2026.csv.gz) |
 | Senado | 2003 | [173](votacoes/senado-votacoes-2003.csv.gz) | [6804](votacoes/senado-votos-2003.csv.gz) |
 | Senado | 2004 | [111](votacoes/senado-votacoes-2004.csv.gz) | [3805](votacoes/senado-votos-2004.csv.gz) |
 | Senado | 2005 | [161](votacoes/senado-votacoes-2005.csv.gz) | [4779](votacoes/senado-votos-2005.csv.gz) |
@@ -97,6 +97,6 @@ Para conferir: baixe os arquivos originais nos endereços acima, aplique o filtr
 | Senado | 2023 | [141](votacoes/senado-votacoes-2023.csv.gz) | [4050](votacoes/senado-votos-2023.csv.gz) |
 | Senado | 2024 | [95](votacoes/senado-votacoes-2024.csv.gz) | [4698](votacoes/senado-votos-2024.csv.gz) |
 | Senado | 2025 | [128](votacoes/senado-votacoes-2025.csv.gz) | [4536](votacoes/senado-votos-2025.csv.gz) |
-| Senado | 2026 | [59](votacoes/senado-votacoes-2026.csv.gz) | [1539](votacoes/senado-votos-2026.csv.gz) |
+| Senado | 2026 | [66](votacoes/senado-votacoes-2026.csv.gz) | [2106](votacoes/senado-votos-2026.csv.gz) |
 
 Os dados são públicos (Câmara dos Deputados e Senado Federal, dados abertos). Achou uma diferença? Abra uma issue em https://github.com/luccasgois1/heimdall-news/issues.

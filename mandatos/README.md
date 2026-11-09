@@ -54,7 +54,7 @@ Luiz Inácio Lula da Silva (PT), 01/01/2023 a 31/12/2026. Governo: PT. Oposiçã
 | Casa | Votações nominais | Disputadas | Parlamentares | 1ª dimensão explica | Correlação com governo × oposição |
 |---|---:|---:|---:|---:|---:|
 | Câmara dos Deputados | 1128 | 877 | 618 | 41% | 0.93 |
-| Senado Federal | 183 | 90 | 83 | 44% | 0.98 |
+| Senado Federal | 190 | 91 | 83 | 44% | 0.98 |
 
 ## Dados e como conferir
 
