@@ -18,6 +18,11 @@ Todos os partidos seguem o mesmo cálculo, sem exceção. Quem não tem bancada,
 
 As citações pertencem aos veículos de origem, indicados e linkados em cada matéria.
 
+## segunda-feira, 9 de novembro de 2026
+
+- [Na TV, Lula promete responsabilidade fiscal sem anunciar medidas e cobra o Judiciário](materias/2026-11-09/2026-11-09-01.md)
+- [Marinho promete pautar anistia; Alcolumbre e Tereza disputam votos do PL no Senado](materias/2026-11-09/2026-11-09-02.md)
+
 ## domingo, 8 de novembro de 2026
 
 - [Moraes pede vista e suspende julgamento sobre caça de espécies invasoras](materias/2026-11-08/2026-11-08-01.md)
