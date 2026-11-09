@@ -26,6 +26,7 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [Governo prorroga até 2031 o Gás do Povo, que dá botijão grátis a famílias pobres](materias/2026-11-09/2026-11-09-04.md)
 - [Procuradoria pede ao Supremo o arquivamento do inquérito das fake news](materias/2026-11-09/2026-11-09-05.md)
 - [Polícia Federal vai tirar da chefia os delegados que coordenam o caso Master](materias/2026-11-09/2026-11-09-06.md)
+- [Fux suspende afastamento da juíza Gabriela Hardt, punida por acordo da Lava Jato](materias/2026-11-09/2026-11-09-07.md)
 
 ## domingo, 8 de novembro de 2026
 
