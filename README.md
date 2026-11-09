@@ -27,6 +27,8 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [Procuradoria pede ao Supremo o arquivamento do inquérito das fake news](materias/2026-11-09/2026-11-09-05.md)
 - [Polícia Federal vai tirar da chefia os delegados que coordenam o caso Master](materias/2026-11-09/2026-11-09-06.md)
 - [Fux suspende afastamento da juíza Gabriela Hardt, punida por acordo da Lava Jato](materias/2026-11-09/2026-11-09-07.md)
+- [Polícia Federal concluiu relatórios sobre três ministros e Vorcaro, diz jornal](materias/2026-11-09/2026-11-09-08.md)
+- [Relator quer votar o voto distrital misto na Câmara até o fim de novembro](materias/2026-11-09/2026-11-09-09.md)
 
 ## domingo, 8 de novembro de 2026
 
