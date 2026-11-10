@@ -29,6 +29,8 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [Polícia Federal vai refazer os relatórios sobre ministros do Supremo no caso Master](materias/2026-11-10/2026-11-10-07.md)
 - [Dino abre conciliação no Supremo sobre a transição do fim da escala 6x1](materias/2026-11-10/2026-11-10-08.md)
 - [Tarcísio diz que Flávio tem direito de disputar a Presidência em 2030](materias/2026-11-10/2026-11-10-09.md)
+- [Senado abre licitação de R$ 6 milhões com 95 iPhones, e deputados contestam](materias/2026-11-10/2026-11-10-10.md)
+- [Governo defende na Câmara reduzir a maioridade penal só para crimes hediondos](materias/2026-11-10/2026-11-10-11.md)
 
 ## segunda-feira, 9 de novembro de 2026
 
