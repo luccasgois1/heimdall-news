@@ -21,6 +21,8 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 ## terça-feira, 10 de novembro de 2026
 
 - [Fachin arquiva o inquérito das fake news, aberto há mais de sete anos no Supremo](materias/2026-11-10/2026-11-10-01.md)
+- [Judiciário e Ministério Público querem R$ 533 milhões extras para pagar penduricalhos](materias/2026-11-10/2026-11-10-02.md)
+- [Justiça suspende parte das regras de Lula para o vale-refeição a pedido de operadoras](materias/2026-11-10/2026-11-10-03.md)
 
 ## segunda-feira, 9 de novembro de 2026
 
