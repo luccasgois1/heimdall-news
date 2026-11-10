@@ -23,6 +23,8 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [Fachin arquiva o inquérito das fake news, aberto há mais de sete anos no Supremo](materias/2026-11-10/2026-11-10-01.md)
 - [Judiciário e Ministério Público querem R$ 533 milhões extras para pagar penduricalhos](materias/2026-11-10/2026-11-10-02.md)
 - [Justiça suspende parte das regras de Lula para o vale-refeição a pedido de operadoras](materias/2026-11-10/2026-11-10-03.md)
+- [Ex-servidor do Superior Tribunal de Justiça é preso por suspeita de vazar dados](materias/2026-11-10/2026-11-10-04.md)
+- [Banco Central cita o fim da escala 6x1 entre as pressões sobre a inflação](materias/2026-11-10/2026-11-10-05.md)
 
 ## segunda-feira, 9 de novembro de 2026
 
