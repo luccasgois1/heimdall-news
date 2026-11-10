@@ -27,6 +27,8 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [Banco Central cita o fim da escala 6x1 entre as pressões sobre a inflação](materias/2026-11-10/2026-11-10-05.md)
 - [Polícia Federal faz buscas contra pais de deputado em apuração sobre emendas Pix](materias/2026-11-10/2026-11-10-06.md)
 - [Polícia Federal vai refazer os relatórios sobre ministros do Supremo no caso Master](materias/2026-11-10/2026-11-10-07.md)
+- [Dino abre conciliação no Supremo sobre a transição do fim da escala 6x1](materias/2026-11-10/2026-11-10-08.md)
+- [Tarcísio diz que Flávio tem direito de disputar a Presidência em 2030](materias/2026-11-10/2026-11-10-09.md)
 
 ## segunda-feira, 9 de novembro de 2026
 
