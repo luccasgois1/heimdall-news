@@ -18,6 +18,10 @@ Todos os partidos seguem o mesmo cálculo, sem exceção. Quem não tem bancada,
 
 As citações pertencem aos veículos de origem, indicados e linkados em cada matéria.
 
+## terça-feira, 10 de novembro de 2026
+
+- [Fachin arquiva o inquérito das fake news, aberto há mais de sete anos no Supremo](materias/2026-11-10/2026-11-10-01.md)
+
 ## segunda-feira, 9 de novembro de 2026
 
 - [Na TV, Lula promete responsabilidade fiscal sem anunciar medidas e cobra o Judiciário](materias/2026-11-09/2026-11-09-01.md)
