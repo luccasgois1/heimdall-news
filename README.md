@@ -51,6 +51,8 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [Câmara aprova Padre Inácio de Sousa Rolim no Livro dos Heróis da Pátria](materias/2026-11-11/2026-11-11-29.md)
 - [Câmara aprova mudanças no Habite Seguro, crédito de moradia para policiais](materias/2026-11-11/2026-11-11-30.md)
 - [Câmara aprova pena dobrada para compra de votos ligada ao crime organizado](materias/2026-11-11/2026-11-11-31.md)
+- [TSE multa a Meta em R$ 7,5 milhões por descumprir ordens no segundo turno](materias/2026-11-11/2026-11-11-32.md)
+- [Governo e Senado acertam ajuste fiscal de até R$ 80 bilhões para 2027](materias/2026-11-11/2026-11-11-33.md)
 
 ## terça-feira, 10 de novembro de 2026
 
