@@ -58,6 +58,8 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [Governo propõe adiar em um mês o pagamento do novo imposto; empresas pedem 2028](materias/2026-11-11/2026-11-11-36.md)
 - [Senado convida ministro e diretor da PF a explicar troca de delegados do caso Master](materias/2026-11-11/2026-11-11-37.md)
 - [Comissão da Câmara convida Mauro Vieira a explicar ajuda da embaixada a Lulinha](materias/2026-11-11/2026-11-11-38.md)
+- [Lula se reúne com Delcy Rodríguez e discute comércio e petróleo com a Venezuela](materias/2026-11-11/2026-11-11-39.md)
+- [PL adia por 15 dias decisão entre apoiar Hugo Motta ou ter candidato na Câmara](materias/2026-11-11/2026-11-11-40.md)
 
 ## terça-feira, 10 de novembro de 2026
 
