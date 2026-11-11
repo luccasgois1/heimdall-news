@@ -55,6 +55,7 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [Governo e Senado acertam ajuste fiscal de até R$ 80 bilhões para 2027](materias/2026-11-11/2026-11-11-33.md)
 - [Ministro da Justiça cobra a Polícia Federal pela troca de delegados do caso Master](materias/2026-11-11/2026-11-11-34.md)
 - [Na COP31, Lula cobra países ricos e cita a reeleição como escolha de um projeto](materias/2026-11-11/2026-11-11-35.md)
+- [Governo propõe adiar em um mês o pagamento do novo imposto; empresas pedem 2028](materias/2026-11-11/2026-11-11-36.md)
 
 ## terça-feira, 10 de novembro de 2026
 
