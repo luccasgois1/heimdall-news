@@ -18,6 +18,40 @@ Todos os partidos seguem o mesmo cálculo, sem exceção. Quem não tem bancada,
 
 As citações pertencem aos veículos de origem, indicados e linkados em cada matéria.
 
+## quarta-feira, 11 de novembro de 2026
+
+- [Dino promete decidir até sexta sobre a transição do fim da escala 6x1](materias/2026-11-11/2026-11-11-01.md)
+- [Dino autoriza buscas contra pais de deputado em investigação sobre emendas Pix](materias/2026-11-11/2026-11-11-02.md)
+- [Senado aprova acesso da agência do petróleo a notas fiscais de postos](materias/2026-11-11/2026-11-11-03.md)
+- [Senado aprova selo para empresas que contratarem mulheres com câncer de mama](materias/2026-11-11/2026-11-11-04.md)
+- [Acordo de Escazú sai da pauta do Senado e vai à Comissão de Relações Exteriores](materias/2026-11-11/2026-11-11-05.md)
+- [Senado aprova adiamento do Acordo de Escazú a pedido de Tereza Cristina](materias/2026-11-11/2026-11-11-06.md)
+- [Senado aprova sessão especial em homenagem ao navegador Amyr Klink](materias/2026-11-11/2026-11-11-07.md)
+- [Câmara adia urgência de projeto que trata TDAH como deficiência, a pedido do PT](materias/2026-11-11/2026-11-11-08.md)
+- [Câmara aprova urgência para emendas de bancada irem a fundos de assistência social](materias/2026-11-11/2026-11-11-09.md)
+- [Câmara aprova urgência para tirar tratores das rodovias federais à noite](materias/2026-11-11/2026-11-11-10.md)
+- [Câmara aprova urgência para turmas femininas em escolinhas de futebol](materias/2026-11-11/2026-11-11-11.md)
+- [Câmara aprova por unanimidade urgência para educação em tempo integral](materias/2026-11-11/2026-11-11-12.md)
+- [Câmara aprova urgência para tirar associações de saúde da regra dos planos](materias/2026-11-11/2026-11-11-13.md)
+- [Câmara aprova urgência para prioridade no Minha Casa a crianças com câncer](materias/2026-11-11/2026-11-11-14.md)
+- [Câmara aprova urgência para Romaria do Divino Pai Eterno virar cultura nacional](materias/2026-11-11/2026-11-11-15.md)
+- [Câmara aprova urgência para regra tributária de loteamentos com parceria](materias/2026-11-11/2026-11-11-16.md)
+- [Câmara aprova urgência para educação financeira nas escolas](materias/2026-11-11/2026-11-11-17.md)
+- [Câmara aprova urgência para ônibus e metrô grátis nos dias do Enem](materias/2026-11-11/2026-11-11-18.md)
+- [Câmara aprova urgência para juro menor do banco de desenvolvimento para inovação](materias/2026-11-11/2026-11-11-19.md)
+- [Câmara aprova urgência para feriado escolar no Dia dos Professores](materias/2026-11-11/2026-11-11-20.md)
+- [Câmara aprova urgência para parcerias com entidades sociais sem chamamento público](materias/2026-11-11/2026-11-11-21.md)
+- [Câmara aprova urgência para proibir conteúdo erótico onde há crianças](materias/2026-11-11/2026-11-11-22.md)
+- [Câmara aprova urgência para dar nome de ex-prefeito a trecho da BR-146](materias/2026-11-11/2026-11-11-23.md)
+- [Câmara rejeita recurso e projeto que flexibiliza Código Florestal vai ao Senado](materias/2026-11-11/2026-11-11-24.md)
+- [Câmara aprova renegociação de dívidas rurais, com regra para vapes incluída no texto](materias/2026-11-11/2026-11-11-25.md)
+- [Câmara aprova mais 13,5 bilhões em crédito para exportadores atingidos por tarifas](materias/2026-11-11/2026-11-11-26.md)
+- [Câmara aprova Dia Nacional do Autocuidado, que vai à sanção](materias/2026-11-11/2026-11-11-27.md)
+- [Câmara aprova nome de Severo Eulálio Filho para viaduto em Teresina](materias/2026-11-11/2026-11-11-28.md)
+- [Câmara aprova Padre Inácio de Sousa Rolim no Livro dos Heróis da Pátria](materias/2026-11-11/2026-11-11-29.md)
+- [Câmara aprova mudanças no Habite Seguro, crédito de moradia para policiais](materias/2026-11-11/2026-11-11-30.md)
+- [Câmara aprova pena dobrada para compra de votos ligada ao crime organizado](materias/2026-11-11/2026-11-11-31.md)
+
 ## terça-feira, 10 de novembro de 2026
 
 - [Fachin arquiva o inquérito das fake news, aberto há mais de sete anos no Supremo](materias/2026-11-10/2026-11-10-01.md)
