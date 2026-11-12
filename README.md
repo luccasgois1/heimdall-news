@@ -33,6 +33,8 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [Tarcísio anuncia Ricardo Salles na Justiça e mais cinco secretários para 2027](materias/2026-11-12/2026-11-12-11.md)
 - [Senado pode votar hoje ajuste fiscal de até R$ 54 bilhões; oposição pede mais tempo](materias/2026-11-12/2026-11-12-12.md)
 - [Procuradoria pede ao Supremo que mantenha Vorcaro preso; defesa vê prisão política](materias/2026-11-12/2026-11-12-13.md)
+- [Fachin prorroga por 60 dias o inquérito sobre Ciro Nogueira no caso Master](materias/2026-11-12/2026-11-12-14.md)
+- [Polícia indicia quem filmou Fernando Henrique em casa; nota de repúdio tem 405 nomes](materias/2026-11-12/2026-11-12-15.md)
 
 ## quarta-feira, 11 de novembro de 2026
 
