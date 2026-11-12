@@ -18,6 +18,18 @@ Todos os partidos seguem o mesmo cálculo, sem exceção. Quem não tem bancada,
 
 As citações pertencem aos veículos de origem, indicados e linkados em cada matéria.
 
+## quinta-feira, 12 de novembro de 2026
+
+- [Gilmar Mendes suspende ações que cobram da União valores pagos pelo SUS a hospitais](materias/2026-11-12/2026-11-12-01.md)
+- [Toffoli vota por punir crimes contra o patrimônio de mulheres cometidos em família](materias/2026-11-12/2026-11-12-02.md)
+- [Senado aprova proibição de bloquear o fundo que leva internet às escolas públicas](materias/2026-11-12/2026-11-12-03.md)
+- [Senado aprova renegociação de dívidas rurais e retira do texto a regra sobre vapes](materias/2026-11-12/2026-11-12-04.md)
+- [Câmara rejeita recurso e projeto que revoga Lei de Alienação Parental vai ao Senado](materias/2026-11-12/2026-11-12-05.md)
+- [Câmara aprova regras para a residência de enfermeiros, psicólogos e outros da saúde](materias/2026-11-12/2026-11-12-06.md)
+- [Câmara aprova tornar hediondos os maus-tratos que matam cães e gatos](materias/2026-11-12/2026-11-12-07.md)
+- [Câmara aprova adesão do Brasil à convenção internacional de reciclagem de navios](materias/2026-11-12/2026-11-12-08.md)
+- [Câmara aprova perda da herança para quem tentar interditar parente de forma abusiva](materias/2026-11-12/2026-11-12-09.md)
+
 ## quarta-feira, 11 de novembro de 2026
 
 - [Dino promete decidir até sexta sobre a transição do fim da escala 6x1](materias/2026-11-11/2026-11-11-01.md)
