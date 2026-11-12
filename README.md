@@ -35,6 +35,8 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [Procuradoria pede ao Supremo que mantenha Vorcaro preso; defesa vê prisão política](materias/2026-11-12/2026-11-12-13.md)
 - [Fachin prorroga por 60 dias o inquérito sobre Ciro Nogueira no caso Master](materias/2026-11-12/2026-11-12-14.md)
 - [Polícia indicia quem filmou Fernando Henrique em casa; nota de repúdio tem 405 nomes](materias/2026-11-12/2026-11-12-15.md)
+- [Dino mantém fim da 6x1 em 16 de dezembro e libera dia de 8h24 sem hora extra](materias/2026-11-12/2026-11-12-16.md)
+- [Congresso autoriza R$ 149,4 bilhões em empréstimos para pagar benefícios sociais](materias/2026-11-12/2026-11-12-17.md)
 
 ## quarta-feira, 11 de novembro de 2026
 
