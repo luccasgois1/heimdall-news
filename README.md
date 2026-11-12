@@ -29,6 +29,8 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [Câmara aprova tornar hediondos os maus-tratos que matam cães e gatos](materias/2026-11-12/2026-11-12-07.md)
 - [Câmara aprova adesão do Brasil à convenção internacional de reciclagem de navios](materias/2026-11-12/2026-11-12-08.md)
 - [Câmara aprova perda da herança para quem tentar interditar parente de forma abusiva](materias/2026-11-12/2026-11-12-09.md)
+- [Alcolumbre diz que Senado não compra iPhones e que senadores podem recusá-los](materias/2026-11-12/2026-11-12-10.md)
+- [Tarcísio anuncia Ricardo Salles na Justiça e mais cinco secretários para 2027](materias/2026-11-12/2026-11-12-11.md)
 
 ## quarta-feira, 11 de novembro de 2026
 
