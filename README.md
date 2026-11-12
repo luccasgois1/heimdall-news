@@ -37,6 +37,8 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [Polícia indicia quem filmou Fernando Henrique em casa; nota de repúdio tem 405 nomes](materias/2026-11-12/2026-11-12-15.md)
 - [Dino mantém fim da 6x1 em 16 de dezembro e libera dia de 8h24 sem hora extra](materias/2026-11-12/2026-11-12-16.md)
 - [Congresso autoriza R$ 149,4 bilhões em empréstimos para pagar benefícios sociais](materias/2026-11-12/2026-11-12-17.md)
+- [Zanin nega por ora pedido do PSD de segundo turno para governador do Rio](materias/2026-11-12/2026-11-12-18.md)
+- [Lula cobra desculpas da imprensa pelo tríplex; Moro diz que decisão não inocenta Lula](materias/2026-11-12/2026-11-12-19.md)
 
 ## quarta-feira, 11 de novembro de 2026
 
