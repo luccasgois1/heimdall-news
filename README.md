@@ -31,6 +31,8 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [Câmara aprova perda da herança para quem tentar interditar parente de forma abusiva](materias/2026-11-12/2026-11-12-09.md)
 - [Alcolumbre diz que Senado não compra iPhones e que senadores podem recusá-los](materias/2026-11-12/2026-11-12-10.md)
 - [Tarcísio anuncia Ricardo Salles na Justiça e mais cinco secretários para 2027](materias/2026-11-12/2026-11-12-11.md)
+- [Senado pode votar hoje ajuste fiscal de até R$ 54 bilhões; oposição pede mais tempo](materias/2026-11-12/2026-11-12-12.md)
+- [Procuradoria pede ao Supremo que mantenha Vorcaro preso; defesa vê prisão política](materias/2026-11-12/2026-11-12-13.md)
 
 ## quarta-feira, 11 de novembro de 2026
 
