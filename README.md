@@ -60,6 +60,8 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [Ajuste fiscal segue para a Câmara com oposição do PSOL e críticas de petistas](materias/2026-11-13/2026-11-13-38.md)
 - [Câmara contesta no Supremo parte das regras de Dino para a escala 5x2](materias/2026-11-13/2026-11-13-39.md)
 - [Presidente do Banco do Brasil fala em risco moral no agro e entidades reagem](materias/2026-11-13/2026-11-13-40.md)
+- [Toffoli dá três dias para campanha de Lula explicar inconsistências nas contas](materias/2026-11-13/2026-11-13-41.md)
+- [Fachin defende indicação de uma mulher negra para a vaga aberta no Supremo](materias/2026-11-13/2026-11-13-42.md)
 
 ## quinta-feira, 12 de novembro de 2026
 
