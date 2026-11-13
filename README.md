@@ -54,6 +54,8 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [Congresso libera 45,4 mil reais a uma universidade e dois institutos federais](materias/2026-11-13/2026-11-13-32.md)
 - [Procuradoria pede ao Supremo que rejeite a revisão da condenação de Bolsonaro](materias/2026-11-13/2026-11-13-33.md)
 - [Partidos do Centrão negociam ministérios no quarto governo Lula](materias/2026-11-13/2026-11-13-34.md)
+- [Polícia Federal intima Rui Costa e Jaques Wagner a depor no caso Master](materias/2026-11-13/2026-11-13-35.md)
+- [Polícia Federal faz nova fase da operação sobre emendas para o filme Dark Horse](materias/2026-11-13/2026-11-13-36.md)
 
 ## quinta-feira, 12 de novembro de 2026
 
