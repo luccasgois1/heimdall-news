@@ -18,6 +18,41 @@ Todos os partidos seguem o mesmo cálculo, sem exceção. Quem não tem bancada,
 
 As citações pertencem aos veículos de origem, indicados e linkados em cada matéria.
 
+## sexta-feira, 13 de novembro de 2026
+
+- [Supremo tem unanimidade contra isenção de pena em crimes patrimoniais na família](materias/2026-11-13/2026-11-13-01.md)
+- [Dino mantém início da nova jornada sem escala 6x1 em 16 de dezembro](materias/2026-11-13/2026-11-13-02.md)
+- [Zanin nega pedido de segundo turno para governador do Rio de Janeiro](materias/2026-11-13/2026-11-13-03.md)
+- [Senado aprova texto principal do ajuste fiscal do governo](materias/2026-11-13/2026-11-13-04.md)
+- [Congresso autoriza 149,4 bilhões em crédito para pagar aposentadorias e Bolsa Família](materias/2026-11-13/2026-11-13-05.md)
+- [Congresso aprova 290 milhões de reais para a obra de Angra 3](materias/2026-11-13/2026-11-13-06.md)
+- [Congresso muda regras do Orçamento para a Copa do Mundo Feminina de 2027](materias/2026-11-13/2026-11-13-07.md)
+- [Congresso aprova reestruturação de cargos da Receita Federal](materias/2026-11-13/2026-11-13-08.md)
+- [Congresso amplia as regras para remanejar gastos do Orçamento até o fim do ano](materias/2026-11-13/2026-11-13-09.md)
+- [Congresso libera 115 milhões de reais para atender venezuelanos em Roraima](materias/2026-11-13/2026-11-13-10.md)
+- [Congresso libera 21,5 milhões de reais às Justiças Federal e do Trabalho](materias/2026-11-13/2026-11-13-11.md)
+- [Congresso libera 34 milhões de reais para implantar a reforma tributária](materias/2026-11-13/2026-11-13-12.md)
+- [Congresso libera 130 milhões de reais para presídios e pesagem nas rodovias](materias/2026-11-13/2026-11-13-13.md)
+- [Congresso libera 543,7 milhões de reais, a maior parte para o fundo do Nordeste](materias/2026-11-13/2026-11-13-14.md)
+- [Congresso libera 520,5 milhões de reais para os fundos do Nordeste e do Centro-Oeste](materias/2026-11-13/2026-11-13-15.md)
+- [Congresso libera 420,7 milhões de reais, a maior parte para contratos habitacionais](materias/2026-11-13/2026-11-13-16.md)
+- [Congresso libera 488,1 milhões de reais para fundos de investimento internacionais](materias/2026-11-13/2026-11-13-17.md)
+- [Congresso libera 168,1 milhões de reais para crédito oficial e ministérios](materias/2026-11-13/2026-11-13-18.md)
+- [Congresso remaneja 39 milhões de reais de emendas parlamentares](materias/2026-11-13/2026-11-13-19.md)
+- [Estatuto do Aprendiz é retirado da pauta do Senado](materias/2026-11-13/2026-11-13-20.md)
+- [Projeto sobre falhas em implantes cirúrgicos é retirado da pauta do Senado](materias/2026-11-13/2026-11-13-21.md)
+- [Congresso libera 115 milhões de reais ao Tribunal de Contas e a órgãos de Justiça](materias/2026-11-13/2026-11-13-22.md)
+- [Congresso libera 11,5 milhões de reais, a maior parte para segurança na Amazônia](materias/2026-11-13/2026-11-13-23.md)
+- [Congresso libera 24,4 milhões de reais a agências reguladoras](materias/2026-11-13/2026-11-13-24.md)
+- [Congresso libera 56,2 milhões de reais à Justiça e ao Ministério Público da União](materias/2026-11-13/2026-11-13-25.md)
+- [Congresso libera 11,8 milhões de reais a tribunais federais](materias/2026-11-13/2026-11-13-26.md)
+- [Congresso libera 35 milhões de reais para investimentos do Serpro](materias/2026-11-13/2026-11-13-27.md)
+- [Congresso libera 3 milhões de reais ao sistema de compensação da Previdência](materias/2026-11-13/2026-11-13-28.md)
+- [Congresso libera 4,8 milhões de reais a ministérios e à Justiça Federal](materias/2026-11-13/2026-11-13-29.md)
+- [Congresso libera 700 mil reais para o Porto de Salvador](materias/2026-11-13/2026-11-13-30.md)
+- [Congresso libera 13,2 milhões de reais ao Ministério da Ciência](materias/2026-11-13/2026-11-13-31.md)
+- [Congresso libera 45,4 mil reais a uma universidade e dois institutos federais](materias/2026-11-13/2026-11-13-32.md)
+
 ## quinta-feira, 12 de novembro de 2026
 
 - [Gilmar Mendes suspende ações que cobram da União valores pagos pelo SUS a hospitais](materias/2026-11-12/2026-11-12-01.md)
