@@ -58,6 +58,8 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [Polícia Federal faz nova fase da operação sobre emendas para o filme Dark Horse](materias/2026-11-13/2026-11-13-36.md)
 - [Pesquisa AtlasIntel: 50,3% desaprovam Lula e 52% reprovam saída de Flávio do país](materias/2026-11-13/2026-11-13-37.md)
 - [Ajuste fiscal segue para a Câmara com oposição do PSOL e críticas de petistas](materias/2026-11-13/2026-11-13-38.md)
+- [Câmara contesta no Supremo parte das regras de Dino para a escala 5x2](materias/2026-11-13/2026-11-13-39.md)
+- [Presidente do Banco do Brasil fala em risco moral no agro e entidades reagem](materias/2026-11-13/2026-11-13-40.md)
 
 ## quinta-feira, 12 de novembro de 2026
 
