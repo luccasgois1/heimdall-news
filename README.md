@@ -52,6 +52,8 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [Congresso libera 700 mil reais para o Porto de Salvador](materias/2026-11-13/2026-11-13-30.md)
 - [Congresso libera 13,2 milhões de reais ao Ministério da Ciência](materias/2026-11-13/2026-11-13-31.md)
 - [Congresso libera 45,4 mil reais a uma universidade e dois institutos federais](materias/2026-11-13/2026-11-13-32.md)
+- [Procuradoria pede ao Supremo que rejeite a revisão da condenação de Bolsonaro](materias/2026-11-13/2026-11-13-33.md)
+- [Partidos do Centrão negociam ministérios no quarto governo Lula](materias/2026-11-13/2026-11-13-34.md)
 
 ## quinta-feira, 12 de novembro de 2026
 
