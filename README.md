@@ -56,6 +56,8 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [Partidos do Centrão negociam ministérios no quarto governo Lula](materias/2026-11-13/2026-11-13-34.md)
 - [Polícia Federal intima Rui Costa e Jaques Wagner a depor no caso Master](materias/2026-11-13/2026-11-13-35.md)
 - [Polícia Federal faz nova fase da operação sobre emendas para o filme Dark Horse](materias/2026-11-13/2026-11-13-36.md)
+- [Pesquisa AtlasIntel: 50,3% desaprovam Lula e 52% reprovam saída de Flávio do país](materias/2026-11-13/2026-11-13-37.md)
+- [Ajuste fiscal segue para a Câmara com oposição do PSOL e críticas de petistas](materias/2026-11-13/2026-11-13-38.md)
 
 ## quinta-feira, 12 de novembro de 2026
 
