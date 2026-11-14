@@ -18,6 +18,13 @@ Todos os partidos seguem o mesmo cálculo, sem exceção. Quem não tem bancada,
 
 As citações pertencem aos veículos de origem, indicados e linkados em cada matéria.
 
+## sábado, 14 de novembro de 2026
+
+- [Supremo derruba emenda que mudou a eleição nos tribunais de São Paulo e do Rio](materias/2026-11-14/2026-11-14-01.md)
+- [Supremo tem 4 votos para confirmar as regras de Dino para a nova jornada 5x2](materias/2026-11-14/2026-11-14-02.md)
+- [Cármen Lúcia arquiva ação sobre bloqueio de jornalistas por Bolsonaro na rede X](materias/2026-11-14/2026-11-14-03.md)
+- [Fachin suspende prazos de processos em todo o país por pane da Microsoft](materias/2026-11-14/2026-11-14-04.md)
+
 ## sexta-feira, 13 de novembro de 2026
 
 - [Supremo tem unanimidade contra isenção de pena em crimes patrimoniais na família](materias/2026-11-13/2026-11-13-01.md)
