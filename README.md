@@ -28,6 +28,7 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [Gilmar rebate Moro e diz que condenação de Lula no tríplex caiu por suspeição](materias/2026-11-14/2026-11-14-06.md)
 - [Toffoli vota para manter de vez as provas da Operação Spoofing, sobre a Lava Jato](materias/2026-11-14/2026-11-14-07.md)
 - [Bancada do PT propõe taxar grandes fortunas, dividendos e letras de crédito](materias/2026-11-14/2026-11-14-08.md)
+- [Grupo do Supremo quer adiar reforma do Judiciário; Planalto estuda secretaria](materias/2026-11-14/2026-11-14-09.md)
 
 ## sexta-feira, 13 de novembro de 2026
 
