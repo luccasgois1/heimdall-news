@@ -27,6 +27,7 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [Marinho escala Efraim Filho para buscar votos do Centrão contra Alcolumbre](materias/2026-11-14/2026-11-14-05.md)
 - [Gilmar rebate Moro e diz que condenação de Lula no tríplex caiu por suspeição](materias/2026-11-14/2026-11-14-06.md)
 - [Toffoli vota para manter de vez as provas da Operação Spoofing, sobre a Lava Jato](materias/2026-11-14/2026-11-14-07.md)
+- [Bancada do PT propõe taxar grandes fortunas, dividendos e letras de crédito](materias/2026-11-14/2026-11-14-08.md)
 
 ## sexta-feira, 13 de novembro de 2026
 
