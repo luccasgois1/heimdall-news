@@ -29,6 +29,7 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [Toffoli vota para manter de vez as provas da Operação Spoofing, sobre a Lava Jato](materias/2026-11-14/2026-11-14-07.md)
 - [Bancada do PT propõe taxar grandes fortunas, dividendos e letras de crédito](materias/2026-11-14/2026-11-14-08.md)
 - [Grupo do Supremo quer adiar reforma do Judiciário; Planalto estuda secretaria](materias/2026-11-14/2026-11-14-09.md)
+- [Fux leva ao plenário físico a 6x1 e zera o placar de 4 votos a favor de Dino](materias/2026-11-14/2026-11-14-10.md)
 
 ## sexta-feira, 13 de novembro de 2026
 
