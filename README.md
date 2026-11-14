@@ -24,6 +24,7 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [Supremo tem 4 votos para confirmar as regras de Dino para a nova jornada 5x2](materias/2026-11-14/2026-11-14-02.md)
 - [Cármen Lúcia arquiva ação sobre bloqueio de jornalistas por Bolsonaro na rede X](materias/2026-11-14/2026-11-14-03.md)
 - [Fachin suspende prazos de processos em todo o país por pane da Microsoft](materias/2026-11-14/2026-11-14-04.md)
+- [Marinho escala Efraim Filho para buscar votos do Centrão contra Alcolumbre](materias/2026-11-14/2026-11-14-05.md)
 
 ## sexta-feira, 13 de novembro de 2026
 
