@@ -18,6 +18,11 @@ Todos os partidos seguem o mesmo cálculo, sem exceção. Quem não tem bancada,
 
 As citações pertencem aos veículos de origem, indicados e linkados em cada matéria.
 
+## domingo, 15 de novembro de 2026
+
+- [Supremo mantém cópia de dados de celular apreendido pela polícia sem ordem judicial](materias/2026-11-15/2026-11-15-01.md)
+- [Fachin leva ao plenário físico a lei de São Paulo sobre castração de cães e gatos](materias/2026-11-15/2026-11-15-02.md)
+
 ## sábado, 14 de novembro de 2026
 
 - [Supremo derruba emenda que mudou a eleição nos tribunais de São Paulo e do Rio](materias/2026-11-14/2026-11-14-01.md)
