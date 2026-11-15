@@ -27,6 +27,7 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [Moraes mantém 97% das ações penais do Supremo após fim do inquérito das fake news](materias/2026-11-15/2026-11-15-05.md)
 - [Senado retoma debate sobre o fim da reeleição para presidente após derrota de Flávio](materias/2026-11-15/2026-11-15-06.md)
 - [Campanha de Lula diz ao tribunal eleitoral que falhas nas contas são formais](materias/2026-11-15/2026-11-15-07.md)
+- [Cármen arquiva ações sobre bloqueios de Bolsonaro no X, mas vê ofensa à imprensa](materias/2026-11-15/2026-11-15-08.md)
 
 ## sábado, 14 de novembro de 2026
 
