@@ -22,6 +22,8 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 
 - [Supremo mantém cópia de dados de celular apreendido pela polícia sem ordem judicial](materias/2026-11-15/2026-11-15-01.md)
 - [Fachin leva ao plenário físico a lei de São Paulo sobre castração de cães e gatos](materias/2026-11-15/2026-11-15-02.md)
+- [Gonet apoia R$ 324 milhões extras para penduricalhos do Ministério Público da União](materias/2026-11-15/2026-11-15-03.md)
+- [Cidadania convoca congresso para votar a incorporação do partido pelo Progressistas](materias/2026-11-15/2026-11-15-04.md)
 
 ## sábado, 14 de novembro de 2026
 
