@@ -22,6 +22,8 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 
 - [Câmara deve votar nesta semana a regulação da concorrência das big techs](materias/2026-11-16/2026-11-16-01.md)
 - [Ajuste fiscal divide a esquerda, e Moretti e Janones rebatem críticos do pacote](materias/2026-11-16/2026-11-16-02.md)
+- [Moraes nega visitas de Marinho, Tereza Cristina e Valdemar a Bolsonaro](materias/2026-11-16/2026-11-16-03.md)
+- [Quaest: 92% apoiam reduzir a maioridade penal, tema que divide o PT no Congresso](materias/2026-11-16/2026-11-16-04.md)
 
 ## domingo, 15 de novembro de 2026
 
