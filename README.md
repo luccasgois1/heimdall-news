@@ -26,6 +26,8 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [Quaest: 92% apoiam reduzir a maioridade penal, tema que divide o PT no Congresso](materias/2026-11-16/2026-11-16-04.md)
 - [Fachin diz que reforma do Judiciário não pode ser feita contra o próprio Poder](materias/2026-11-16/2026-11-16-05.md)
 - [Diretor da Polícia Federal nega crise após afastar delegados do caso Master](materias/2026-11-16/2026-11-16-06.md)
+- [Tarcísio diz que Lula comprou a eleição no cartão e chama ajuste de insuficiente](materias/2026-11-16/2026-11-16-07.md)
+- [Cotado para a Fazenda, Mercadante diz que quer ficar no BNDES; dólar sobe](materias/2026-11-16/2026-11-16-08.md)
 
 ## domingo, 15 de novembro de 2026
 
