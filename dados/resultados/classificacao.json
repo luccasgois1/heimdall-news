@@ -1,6 +1,6 @@
 {
   "mandato": "Lula 3",
-  "gerado_em": "09/11/2026 04:05",
+  "gerado_em": "16/11/2026 04:05",
   "polo_governo": "PT",
   "polo_oposicao": "PL",
   "casas": {
@@ -129,8 +129,8 @@
     "senado": {
       "MDB": {
         "grupo": "pro_governo",
-        "posicao": -65.90909090909092,
-        "votacoes": 88
+        "posicao": -66.66666666666667,
+        "votacoes": 90
       },
       "NOVO": {
         "grupo": "oposicao",
@@ -139,13 +139,13 @@
       },
       "PDT": {
         "grupo": "pro_governo",
-        "posicao": -71.05263157894737,
-        "votacoes": 76
+        "posicao": -71.7948717948718,
+        "votacoes": 78
       },
       "PL": {
         "grupo": "oposicao",
-        "posicao": 91.20879120879121,
-        "votacoes": 91
+        "posicao": 91.3978494623656,
+        "votacoes": 93
       },
       "PODE": {
         "grupo": "centro",
@@ -154,18 +154,18 @@
       },
       "PP": {
         "grupo": "oposicao",
-        "posicao": 65.51724137931035,
-        "votacoes": 87
+        "posicao": 66.29213483146069,
+        "votacoes": 89
       },
       "PSB": {
         "grupo": "centro_pro_governo",
-        "posicao": -48.80952380952381,
-        "votacoes": 84
+        "posicao": -50.0,
+        "votacoes": 86
       },
       "PSD": {
         "grupo": "centro_pro_governo",
-        "posicao": -56.81818181818183,
-        "votacoes": 88
+        "posicao": -57.777777777777786,
+        "votacoes": 90
       },
       "PSDB": {
         "grupo": "centro_oposicao",
@@ -174,8 +174,8 @@
       },
       "PT": {
         "grupo": "pro_governo",
-        "posicao": -91.20879120879121,
-        "votacoes": 91
+        "posicao": -91.3978494623656,
+        "votacoes": 93
       },
       "REDE": {
         "grupo": "pro_governo",
@@ -184,18 +184,18 @@
       },
       "REPUBLICANOS": {
         "grupo": "oposicao",
-        "posicao": 80.95238095238096,
-        "votacoes": 84
+        "posicao": 81.39534883720931,
+        "votacoes": 86
       },
       "Sem partido": {
         "grupo": "outros",
-        "posicao": -64.28571428571428,
-        "votacoes": 14
+        "posicao": -68.75,
+        "votacoes": 16
       },
       "UNIÃO": {
         "grupo": "centro",
-        "posicao": -4.761904761904759,
-        "votacoes": 84
+        "posicao": -6.97674418604651,
+        "votacoes": 86
       }
     }
   }
