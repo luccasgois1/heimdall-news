@@ -18,6 +18,11 @@ Todos os partidos seguem o mesmo cálculo, sem exceção. Quem não tem bancada,
 
 As citações pertencem aos veículos de origem, indicados e linkados em cada matéria.
 
+## segunda-feira, 16 de novembro de 2026
+
+- [Câmara deve votar nesta semana a regulação da concorrência das big techs](materias/2026-11-16/2026-11-16-01.md)
+- [Ajuste fiscal divide a esquerda, e Moretti e Janones rebatem críticos do pacote](materias/2026-11-16/2026-11-16-02.md)
+
 ## domingo, 15 de novembro de 2026
 
 - [Supremo mantém cópia de dados de celular apreendido pela polícia sem ordem judicial](materias/2026-11-15/2026-11-15-01.md)
