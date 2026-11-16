@@ -28,6 +28,8 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [Diretor da Polícia Federal nega crise após afastar delegados do caso Master](materias/2026-11-16/2026-11-16-06.md)
 - [Tarcísio diz que Lula comprou a eleição no cartão e chama ajuste de insuficiente](materias/2026-11-16/2026-11-16-07.md)
 - [Cotado para a Fazenda, Mercadante diz que quer ficar no BNDES; dólar sobe](materias/2026-11-16/2026-11-16-08.md)
+- [Tribunal eleitoral do Ceará tem maioria para manter condenação de Ciro Gomes](materias/2026-11-16/2026-11-16-09.md)
+- [Moraes mantém tornozeleira de Daniel Silveira e veta entrevista a canal do YouTube](materias/2026-11-16/2026-11-16-10.md)
 
 ## domingo, 15 de novembro de 2026
 
