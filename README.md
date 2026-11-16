@@ -24,6 +24,8 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [Ajuste fiscal divide a esquerda, e Moretti e Janones rebatem críticos do pacote](materias/2026-11-16/2026-11-16-02.md)
 - [Moraes nega visitas de Marinho, Tereza Cristina e Valdemar a Bolsonaro](materias/2026-11-16/2026-11-16-03.md)
 - [Quaest: 92% apoiam reduzir a maioridade penal, tema que divide o PT no Congresso](materias/2026-11-16/2026-11-16-04.md)
+- [Fachin diz que reforma do Judiciário não pode ser feita contra o próprio Poder](materias/2026-11-16/2026-11-16-05.md)
+- [Diretor da Polícia Federal nega crise após afastar delegados do caso Master](materias/2026-11-16/2026-11-16-06.md)
 
 ## domingo, 15 de novembro de 2026
 
