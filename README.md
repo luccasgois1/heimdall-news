@@ -24,6 +24,8 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [Moraes encerra pena de condenado do 8 de janeiro que não tem como pagar a multa](materias/2026-11-17/2026-11-17-02.md)
 - [Supremo derruba lei de Nova Serrana que dispensava honorários dos procuradores](materias/2026-11-17/2026-11-17-03.md)
 - [Supremo mantém lei do Rio que protege dados de envolvidos em ocorrências policiais](materias/2026-11-17/2026-11-17-04.md)
+- [Senado vota hoje destaques do ajuste; Alckmin diz que mercado oscila sem razão](materias/2026-11-17/2026-11-17-05.md)
+- [Deputado do PT pede ao Supremo prisão de Flávio Bolsonaro e bloqueio do salário](materias/2026-11-17/2026-11-17-06.md)
 
 ## segunda-feira, 16 de novembro de 2026
 
