@@ -29,6 +29,8 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [Dino leva ao plenário o mérito da escala 5x2 e mantém as regras de transição](materias/2026-11-17/2026-11-17-07.md)
 - [Polícia Federal entrega ao Supremo nesta quarta relatório sobre ministros citados](materias/2026-11-17/2026-11-17-08.md)
 - [Votação das regras de concorrência das big techs pode ficar para a próxima semana](materias/2026-11-17/2026-11-17-09.md)
+- [Alcolumbre e Motta pedem a Moraes que libere o julgamento da Lei da Dosimetria](materias/2026-11-17/2026-11-17-10.md)
+- [Governo tira urgência das bets para Câmara votar ajuste; parte da esquerda critica](materias/2026-11-17/2026-11-17-11.md)
 
 ## segunda-feira, 16 de novembro de 2026
 
