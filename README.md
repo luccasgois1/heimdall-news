@@ -18,6 +18,13 @@ Todos os partidos seguem o mesmo cálculo, sem exceção. Quem não tem bancada,
 
 As citações pertencem aos veículos de origem, indicados e linkados em cada matéria.
 
+## terça-feira, 17 de novembro de 2026
+
+- [Moraes autoriza enviar ao tribunal militar as provas contra o almirante Almir Garnier](materias/2026-11-17/2026-11-17-01.md)
+- [Moraes encerra pena de condenado do 8 de janeiro que não tem como pagar a multa](materias/2026-11-17/2026-11-17-02.md)
+- [Supremo derruba lei de Nova Serrana que dispensava honorários dos procuradores](materias/2026-11-17/2026-11-17-03.md)
+- [Supremo mantém lei do Rio que protege dados de envolvidos em ocorrências policiais](materias/2026-11-17/2026-11-17-04.md)
+
 ## segunda-feira, 16 de novembro de 2026
 
 - [Câmara deve votar nesta semana a regulação da concorrência das big techs](materias/2026-11-16/2026-11-16-01.md)
