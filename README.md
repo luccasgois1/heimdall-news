@@ -27,6 +27,8 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [Senado vota hoje destaques do ajuste; Alckmin diz que mercado oscila sem razão](materias/2026-11-17/2026-11-17-05.md)
 - [Deputado do PT pede ao Supremo prisão de Flávio Bolsonaro e bloqueio do salário](materias/2026-11-17/2026-11-17-06.md)
 - [Dino leva ao plenário o mérito da escala 5x2 e mantém as regras de transição](materias/2026-11-17/2026-11-17-07.md)
+- [Polícia Federal entrega ao Supremo nesta quarta relatório sobre ministros citados](materias/2026-11-17/2026-11-17-08.md)
+- [Votação das regras de concorrência das big techs pode ficar para a próxima semana](materias/2026-11-17/2026-11-17-09.md)
 
 ## segunda-feira, 16 de novembro de 2026
 
