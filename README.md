@@ -31,6 +31,8 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [Votação das regras de concorrência das big techs pode ficar para a próxima semana](materias/2026-11-17/2026-11-17-09.md)
 - [Alcolumbre e Motta pedem a Moraes que libere o julgamento da Lei da Dosimetria](materias/2026-11-17/2026-11-17-10.md)
 - [Governo tira urgência das bets para Câmara votar ajuste; parte da esquerda critica](materias/2026-11-17/2026-11-17-11.md)
+- [Senado adia para quarta os destaques do ajuste fiscal por falta de acordo](materias/2026-11-17/2026-11-17-12.md)
+- [Líder do governo propõe taxar big techs em 3%; Câmara adia regras de concorrência](materias/2026-11-17/2026-11-17-13.md)
 
 ## segunda-feira, 16 de novembro de 2026
 
