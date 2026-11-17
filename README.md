@@ -26,6 +26,7 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [Supremo mantém lei do Rio que protege dados de envolvidos em ocorrências policiais](materias/2026-11-17/2026-11-17-04.md)
 - [Senado vota hoje destaques do ajuste; Alckmin diz que mercado oscila sem razão](materias/2026-11-17/2026-11-17-05.md)
 - [Deputado do PT pede ao Supremo prisão de Flávio Bolsonaro e bloqueio do salário](materias/2026-11-17/2026-11-17-06.md)
+- [Dino leva ao plenário o mérito da escala 5x2 e mantém as regras de transição](materias/2026-11-17/2026-11-17-07.md)
 
 ## segunda-feira, 16 de novembro de 2026
 
