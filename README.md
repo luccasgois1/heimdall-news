@@ -46,6 +46,8 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [Polícia Federal indicia 17 por respiradores não entregues e não inclui Rui Costa](materias/2026-11-18/2026-11-18-24.md)
 - [A pedido da Procuradoria, Moraes arquiva inquérito contra Daniel Silveira](materias/2026-11-18/2026-11-18-25.md)
 - [Lula assina nesta quinta o decreto que regulamenta o fim da escala 6x1](materias/2026-11-18/2026-11-18-26.md)
+- [Justiça suspende licitação de iPhones do Senado após ação de Nikolas Ferreira](materias/2026-11-18/2026-11-18-27.md)
+- [PT decide apoiar ajuste e entrega a Moretti 7 projetos, como taxar os super-ricos](materias/2026-11-18/2026-11-18-28.md)
 
 ## terça-feira, 17 de novembro de 2026
 
