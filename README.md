@@ -18,6 +18,31 @@ Todos os partidos seguem o mesmo cálculo, sem exceção. Quem não tem bancada,
 
 As citações pertencem aos veículos de origem, indicados e linkados em cada matéria.
 
+## quarta-feira, 18 de novembro de 2026
+
+- [Supremo valida lei que criou a microrregião de água e esgoto do Pará](materias/2026-11-18/2026-11-18-01.md)
+- [Ajuste fiscal sai da pauta do Senado e votação dos destaques fica para quarta](materias/2026-11-18/2026-11-18-02.md)
+- [Senado aprova regras de qualidade e segurança para implantes cirúrgicos](materias/2026-11-18/2026-11-18-03.md)
+- [Senado aprova agosto como mês de combate à desigualdade e à pobreza](materias/2026-11-18/2026-11-18-04.md)
+- [Senado aprova mais 13,5 bilhões em crédito a exportadores atingidos pelo tarifaço](materias/2026-11-18/2026-11-18-05.md)
+- [Câmara aprova urgência para passar aos estados a fiscalização do Inmetro](materias/2026-11-18/2026-11-18-06.md)
+- [Câmara aprova urgência para criar selo para ouvidorias que escutam o cidadão](materias/2026-11-18/2026-11-18-07.md)
+- [Câmara aprova urgência para criar a Política Nacional de Bioeconomia](materias/2026-11-18/2026-11-18-08.md)
+- [Câmara aprova urgência para facilitar cancelar assinaturas com renovação automática](materias/2026-11-18/2026-11-18-09.md)
+- [Câmara aprova urgência para prêmio sobre estudantes superdotados](materias/2026-11-18/2026-11-18-10.md)
+- [Câmara aprova urgência para reparação às famílias da Chacina de Acari](materias/2026-11-18/2026-11-18-11.md)
+- [Câmara aprova urgência para incluir sacerdotes de matriz africana na Previdência](materias/2026-11-18/2026-11-18-12.md)
+- [Câmara aprova urgência para registrar cor ou raça nos cadastros do SUS](materias/2026-11-18/2026-11-18-13.md)
+- [Câmara aprova urgência para proibir acordos penais em crimes de racismo](materias/2026-11-18/2026-11-18-14.md)
+- [Câmara aprova urgência para projeto sobre crise do clima e saúde da população negra](materias/2026-11-18/2026-11-18-15.md)
+- [Câmara aprova 360 milhões de reais para a defesa civil em desastres climáticos](materias/2026-11-18/2026-11-18-16.md)
+- [Câmara aprova 925 milhões de reais para estoques de arroz e milho contra o El Niño](materias/2026-11-18/2026-11-18-17.md)
+- [Câmara aprova 6,6 bilhões de reais para a subvenção da gasolina e do diesel](materias/2026-11-18/2026-11-18-18.md)
+- [Câmara aprova 6,5 bilhões de reais em crédito a exportadores atingidos pelo tarifaço](materias/2026-11-18/2026-11-18-19.md)
+- [Câmara aprova 300 milhões de reais para a defesa civil e incêndios na Amazônia](materias/2026-11-18/2026-11-18-20.md)
+- [Câmara reconhece a romaria do Divino Pai Eterno como cultura nacional](materias/2026-11-18/2026-11-18-21.md)
+- [Câmara cria prêmio para instituições que atendem estudantes superdotados](materias/2026-11-18/2026-11-18-22.md)
+
 ## terça-feira, 17 de novembro de 2026
 
 - [Moraes autoriza enviar ao tribunal militar as provas contra o almirante Almir Garnier](materias/2026-11-17/2026-11-17-01.md)
