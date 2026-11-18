@@ -44,6 +44,8 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [Câmara cria prêmio para instituições que atendem estudantes superdotados](materias/2026-11-18/2026-11-18-22.md)
 - [PL racha sobre apoiar Motta na Câmara; Luiz Philippe e Novo lançam candidaturas](materias/2026-11-18/2026-11-18-23.md)
 - [Polícia Federal indicia 17 por respiradores não entregues e não inclui Rui Costa](materias/2026-11-18/2026-11-18-24.md)
+- [A pedido da Procuradoria, Moraes arquiva inquérito contra Daniel Silveira](materias/2026-11-18/2026-11-18-25.md)
+- [Lula assina nesta quinta o decreto que regulamenta o fim da escala 6x1](materias/2026-11-18/2026-11-18-26.md)
 
 ## terça-feira, 17 de novembro de 2026
 
