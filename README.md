@@ -48,6 +48,7 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [Lula assina nesta quinta o decreto que regulamenta o fim da escala 6x1](materias/2026-11-18/2026-11-18-26.md)
 - [Justiça suspende licitação de iPhones do Senado após ação de Nikolas Ferreira](materias/2026-11-18/2026-11-18-27.md)
 - [PT decide apoiar ajuste e entrega a Moretti 7 projetos, como taxar os super-ricos](materias/2026-11-18/2026-11-18-28.md)
+- [Diretor da Polícia Federal diz ao Senado que delegados saíram por quebra de confiança](materias/2026-11-18/2026-11-18-29.md)
 
 ## terça-feira, 17 de novembro de 2026
 
