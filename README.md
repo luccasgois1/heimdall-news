@@ -43,6 +43,8 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [Câmara vota o ajuste fiscal na segunda, e Lula já prepara um segundo pacote](materias/2026-11-19/2026-11-19-21.md)
 - [Brasil pede à Organização Mundial do Comércio que julgue o tarifaço americano](materias/2026-11-19/2026-11-19-22.md)
 - [Lula assina o decreto da escala 5x2, e hora extra fica mais cara em 16 de dezembro](materias/2026-11-19/2026-11-19-23.md)
+- [Lula anuncia ministério para idosos; Wellington Dias sai do governo por uma semana](materias/2026-11-19/2026-11-19-24.md)
+- [Fachin manda agência de luxo revelar quem teve despesas pagas por Vorcaro](materias/2026-11-19/2026-11-19-25.md)
 
 ## quarta-feira, 18 de novembro de 2026
 
