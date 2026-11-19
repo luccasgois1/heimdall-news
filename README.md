@@ -18,6 +18,27 @@ Todos os partidos seguem o mesmo cálculo, sem exceção. Quem não tem bancada,
 
 As citações pertencem aos veículos de origem, indicados e linkados em cada matéria.
 
+## quinta-feira, 19 de novembro de 2026
+
+- [Fachin envia à Procuradoria relatórios da Polícia Federal sobre ministros e Vorcaro](materias/2026-11-19/2026-11-19-01.md)
+- [Supremo: fim da isenção de pena em crimes contra parentes vale a partir do julgamento](materias/2026-11-19/2026-11-19-02.md)
+- [Supremo derruba corte nos honorários de procuradores de Rondônia](materias/2026-11-19/2026-11-19-03.md)
+- [Supremo derruba regra do Ceará para cartórios na venda de veículos](materias/2026-11-19/2026-11-19-04.md)
+- [Moraes encerra, por prescrição, investigação sobre publicações de Carla Zambelli](materias/2026-11-19/2026-11-19-05.md)
+- [Senado conclui ajuste fiscal com acordo na Lei Kandir e envia o texto à Câmara](materias/2026-11-19/2026-11-19-06.md)
+- [Senado amplia para 20 anos prazo para vítima de abuso na infância pedir indenização](materias/2026-11-19/2026-11-19-07.md)
+- [Senado aprova regras para o uso compartilhado de postes; texto vai à sanção](materias/2026-11-19/2026-11-19-08.md)
+- [Senado prorroga até 2028 prazo da verba de internet nas escolas públicas](materias/2026-11-19/2026-11-19-09.md)
+- [Senado torna opcional ajustar as férias escolares à Copa do Mundo Feminina de 2027](materias/2026-11-19/2026-11-19-10.md)
+- [Senado cria campanha anual de 21 dias contra a violência e o racismo contra mulheres](materias/2026-11-19/2026-11-19-11.md)
+- [Estatuto do Aprendiz sai da pauta do Senado sem nova data](materias/2026-11-19/2026-11-19-12.md)
+- [Senado aprova sessão especial em homenagem a Paulo Paim](materias/2026-11-19/2026-11-19-13.md)
+- [Câmara aprova tratado de cooperação penal entre Brasil e Japão](materias/2026-11-19/2026-11-19-14.md)
+- [Câmara cria o selo Câmara de Respeito à Voz do Cidadão](materias/2026-11-19/2026-11-19-15.md)
+- [Câmara aprova regras e punições para a transição entre governos](materias/2026-11-19/2026-11-19-16.md)
+- [Câmara aprova novos cargos de juiz no Tribunal Regional do Trabalho gaúcho](materias/2026-11-19/2026-11-19-17.md)
+- [Câmara aprova cargos de juiz e servidores no Tribunal Regional do Trabalho do Ceará](materias/2026-11-19/2026-11-19-18.md)
+
 ## quarta-feira, 18 de novembro de 2026
 
 - [Supremo valida lei que criou a microrregião de água e esgoto do Pará](materias/2026-11-18/2026-11-18-01.md)
