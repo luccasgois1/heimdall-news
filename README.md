@@ -38,6 +38,8 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [Câmara aprova regras e punições para a transição entre governos](materias/2026-11-19/2026-11-19-16.md)
 - [Câmara aprova novos cargos de juiz no Tribunal Regional do Trabalho gaúcho](materias/2026-11-19/2026-11-19-17.md)
 - [Câmara aprova cargos de juiz e servidores no Tribunal Regional do Trabalho do Ceará](materias/2026-11-19/2026-11-19-18.md)
+- [Procuradoria denuncia Flávio Bolsonaro ao Supremo por calúnia contra Lula](materias/2026-11-19/2026-11-19-19.md)
+- [PSB e PDT oficializam federação, e João Campos será o primeiro presidente](materias/2026-11-19/2026-11-19-20.md)
 
 ## quarta-feira, 18 de novembro de 2026
 
