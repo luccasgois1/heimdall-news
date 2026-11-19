@@ -45,6 +45,8 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [Lula assina o decreto da escala 5x2, e hora extra fica mais cara em 16 de dezembro](materias/2026-11-19/2026-11-19-23.md)
 - [Lula anuncia ministério para idosos; Wellington Dias sai do governo por uma semana](materias/2026-11-19/2026-11-19-24.md)
 - [Fachin manda agência de luxo revelar quem teve despesas pagas por Vorcaro](materias/2026-11-19/2026-11-19-25.md)
+- [Moraes libera Lei da Dosimetria para julgamento no Supremo a partir de 4 de dezembro](materias/2026-11-19/2026-11-19-26.md)
+- [Dólar sobe após fala de Lula sobre ministros, e Banco Central vende US$ 1 bilhão](materias/2026-11-19/2026-11-19-27.md)
 
 ## quarta-feira, 18 de novembro de 2026
 
