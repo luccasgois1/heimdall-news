@@ -42,6 +42,7 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [PSB e PDT oficializam federação, e João Campos será o primeiro presidente](materias/2026-11-19/2026-11-19-20.md)
 - [Câmara vota o ajuste fiscal na segunda, e Lula já prepara um segundo pacote](materias/2026-11-19/2026-11-19-21.md)
 - [Brasil pede à Organização Mundial do Comércio que julgue o tarifaço americano](materias/2026-11-19/2026-11-19-22.md)
+- [Lula assina o decreto da escala 5x2, e hora extra fica mais cara em 16 de dezembro](materias/2026-11-19/2026-11-19-23.md)
 
 ## quarta-feira, 18 de novembro de 2026
 
