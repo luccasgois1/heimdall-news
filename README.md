@@ -40,6 +40,8 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [Câmara aprova cargos de juiz e servidores no Tribunal Regional do Trabalho do Ceará](materias/2026-11-19/2026-11-19-18.md)
 - [Procuradoria denuncia Flávio Bolsonaro ao Supremo por calúnia contra Lula](materias/2026-11-19/2026-11-19-19.md)
 - [PSB e PDT oficializam federação, e João Campos será o primeiro presidente](materias/2026-11-19/2026-11-19-20.md)
+- [Câmara vota o ajuste fiscal na segunda, e Lula já prepara um segundo pacote](materias/2026-11-19/2026-11-19-21.md)
+- [Brasil pede à Organização Mundial do Comércio que julgue o tarifaço americano](materias/2026-11-19/2026-11-19-22.md)
 
 ## quarta-feira, 18 de novembro de 2026
 
