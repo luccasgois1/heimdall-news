@@ -31,6 +31,8 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [Fachin libera relatório da PF sobre Mendonça; não há conversa direta com Vorcaro](materias/2026-11-20/2026-11-20-09.md)
 - [Moraes vota para manter Flávio Bolsonaro sem passaportes e proibido de sair do país](materias/2026-11-20/2026-11-20-10.md)
 - [Galípolo diz à Polícia Federal que alertou sobre risco de fuga de Vorcaro](materias/2026-11-20/2026-11-20-11.md)
+- [Dino vota para tornar Van Hattem réu, e Zanin leva o caso a sessão presencial](materias/2026-11-20/2026-11-20-12.md)
+- [Dino vota para tornar réu o ex-ministro Juscelino Filho por desvio de emendas](materias/2026-11-20/2026-11-20-13.md)
 
 ## quinta-feira, 19 de novembro de 2026
 
