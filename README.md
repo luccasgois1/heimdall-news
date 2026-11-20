@@ -29,6 +29,8 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [Supremo começa a julgar se Van Hattem vira réu; OAB pede sessão presencial](materias/2026-11-20/2026-11-20-07.md)
 - [PSD recorre de novo ao Supremo e pede segundo turno entre Paes e Ruas no Rio](materias/2026-11-20/2026-11-20-08.md)
 - [Fachin libera relatório da PF sobre Mendonça; não há conversa direta com Vorcaro](materias/2026-11-20/2026-11-20-09.md)
+- [Moraes vota para manter Flávio Bolsonaro sem passaportes e proibido de sair do país](materias/2026-11-20/2026-11-20-10.md)
+- [Galípolo diz à Polícia Federal que alertou sobre risco de fuga de Vorcaro](materias/2026-11-20/2026-11-20-11.md)
 
 ## quinta-feira, 19 de novembro de 2026
 
