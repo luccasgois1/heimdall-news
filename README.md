@@ -18,6 +18,14 @@ Todos os partidos seguem o mesmo cálculo, sem exceção. Quem não tem bancada,
 
 As citações pertencem aos veículos de origem, indicados e linkados em cada matéria.
 
+## sexta-feira, 20 de novembro de 2026
+
+- [Fachin mantém preso o primo de Daniel Vorcaro, investigado no caso Banco Master](materias/2026-11-20/2026-11-20-01.md)
+- [Supremo tem cinco votos para anular condenação de TV que criticou policial](materias/2026-11-20/2026-11-20-02.md)
+- [Supremo tem maioria contra leis que dispensam honorários de advogado em acordos](materias/2026-11-20/2026-11-20-03.md)
+- [Supremo vai decidir se vale aposentadoria calculada com uma só contribuição](materias/2026-11-20/2026-11-20-04.md)
+- [Dino aprova em parte plano para reforçar a Comissão de Valores Mobiliários](materias/2026-11-20/2026-11-20-05.md)
+
 ## quinta-feira, 19 de novembro de 2026
 
 - [Fachin envia à Procuradoria relatórios da Polícia Federal sobre ministros e Vorcaro](materias/2026-11-19/2026-11-19-01.md)
