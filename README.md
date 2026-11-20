@@ -27,6 +27,8 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [Dino aprova em parte plano para reforçar a Comissão de Valores Mobiliários](materias/2026-11-20/2026-11-20-05.md)
 - [Fachin manda à Procuradoria relatórios da PF sobre quatro ministros do Supremo](materias/2026-11-20/2026-11-20-06.md)
 - [Supremo começa a julgar se Van Hattem vira réu; OAB pede sessão presencial](materias/2026-11-20/2026-11-20-07.md)
+- [PSD recorre de novo ao Supremo e pede segundo turno entre Paes e Ruas no Rio](materias/2026-11-20/2026-11-20-08.md)
+- [Fachin libera relatório da PF sobre Mendonça; não há conversa direta com Vorcaro](materias/2026-11-20/2026-11-20-09.md)
 
 ## quinta-feira, 19 de novembro de 2026
 
