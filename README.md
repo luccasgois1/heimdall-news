@@ -23,6 +23,8 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [Zanin leva ao julgamento presencial denúncia contra o ex-ministro Juscelino Filho](materias/2026-11-23/2026-11-23-01.md)
 - [Zanin suspende congresso que votaria a incorporação do Cidadania ao PP](materias/2026-11-23/2026-11-23-02.md)
 - [Moraes autoriza retirar tornozeleira de Bolsonaro durante internação e libera visitas](materias/2026-11-23/2026-11-23-03.md)
+- [Gilmar Mendes diz que talvez falte autocontenção ao Supremo Tribunal Federal](materias/2026-11-23/2026-11-23-04.md)
+- [Relatório da maioridade penal fica para dezembro, e votação na Câmara deve atrasar](materias/2026-11-23/2026-11-23-05.md)
 
 ## sexta-feira, 20 de novembro de 2026
 
