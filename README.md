@@ -18,6 +18,12 @@ Todos os partidos seguem o mesmo cálculo, sem exceção. Quem não tem bancada,
 
 As citações pertencem aos veículos de origem, indicados e linkados em cada matéria.
 
+## segunda-feira, 23 de novembro de 2026
+
+- [Zanin leva ao julgamento presencial denúncia contra o ex-ministro Juscelino Filho](materias/2026-11-23/2026-11-23-01.md)
+- [Zanin suspende congresso que votaria a incorporação do Cidadania ao PP](materias/2026-11-23/2026-11-23-02.md)
+- [Moraes autoriza retirar tornozeleira de Bolsonaro durante internação e libera visitas](materias/2026-11-23/2026-11-23-03.md)
+
 ## sexta-feira, 20 de novembro de 2026
 
 - [Fachin mantém preso o primo de Daniel Vorcaro, investigado no caso Banco Master](materias/2026-11-20/2026-11-20-01.md)
