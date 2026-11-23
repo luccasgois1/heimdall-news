@@ -28,6 +28,8 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [Lula tira José Guimarães do ministério para ele votar o ajuste fiscal na Câmara](materias/2026-11-23/2026-11-23-06.md)
 - [Lula quer reenviar Messias ao Supremo, mas pede outros nomes, inclusive de mulheres](materias/2026-11-23/2026-11-23-07.md)
 - [Governo diz ao Supremo que decreto da escala 5x2 torna dispensável a decisão de Dino](materias/2026-11-23/2026-11-23-08.md)
+- [Moraes manda notificar Flávio Bolsonaro por edital na denúncia de calúnia contra Lula](materias/2026-11-23/2026-11-23-09.md)
+- [Novo pede ao Supremo o afastamento do diretor da Polícia Federal no caso Master](materias/2026-11-23/2026-11-23-10.md)
 
 ## sexta-feira, 20 de novembro de 2026
 
