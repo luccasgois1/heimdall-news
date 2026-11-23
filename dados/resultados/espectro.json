@@ -19,16 +19,16 @@
       "partido": "PT",
       "senado": {
         "com_governo": 100.0,
-        "com_oposicao": 8.602150537634408,
+        "com_oposicao": 8.333333333333334,
         "com_orientacao": 100.0,
         "cor": "#2e7d32",
         "fixo": false,
         "grupo": "pro_governo",
         "grupo_rotulo": "Pró-governo",
-        "parlamentares_medio": 7.741935483870968,
+        "parlamentares_medio": 7.78125,
         "partido": "PT",
-        "posicao": -91.3978494623656,
-        "votacoes": 93
+        "posicao": -91.66666666666667,
+        "votacoes": 96
       }
     },
     {
@@ -84,17 +84,17 @@
       "diferente": true,
       "partido": "PSB",
       "senado": {
-        "com_governo": 73.25581395348837,
-        "com_oposicao": 23.25581395348837,
-        "com_orientacao": 83.92857142857143,
+        "com_governo": 74.15730337078652,
+        "com_oposicao": 22.471910112359552,
+        "com_orientacao": 84.7457627118644,
         "cor": "#81c784",
         "fixo": false,
         "grupo": "centro_pro_governo",
         "grupo_rotulo": "Centro pró-governo",
-        "parlamentares_medio": 3.3488372093023258,
+        "parlamentares_medio": 3.460674157303371,
         "partido": "PSB",
-        "posicao": -50.0,
-        "votacoes": 86
+        "posicao": -51.68539325842697,
+        "votacoes": 89
       }
     },
     {
@@ -150,17 +150,17 @@
       "diferente": false,
       "partido": "Sem partido",
       "senado": {
-        "com_governo": 81.25,
-        "com_oposicao": 12.5,
-        "com_orientacao": 90.9090909090909,
+        "com_governo": 78.94736842105263,
+        "com_oposicao": 15.789473684210526,
+        "com_orientacao": 85.71428571428571,
         "cor": "#78909c",
         "fixo": true,
         "grupo": "outros",
         "grupo_rotulo": "Outros / não classificável",
         "parlamentares_medio": 1.0,
         "partido": "Sem partido",
-        "posicao": -68.75,
-        "votacoes": 16
+        "posicao": -63.1578947368421,
+        "votacoes": 19
       }
     },
     {
@@ -180,17 +180,17 @@
       "diferente": false,
       "partido": "PDT",
       "senado": {
-        "com_governo": 88.46153846153847,
-        "com_oposicao": 16.666666666666668,
-        "com_orientacao": 96.29629629629629,
+        "com_governo": 88.88888888888889,
+        "com_oposicao": 16.049382716049383,
+        "com_orientacao": 96.49122807017544,
         "cor": "#2e7d32",
         "fixo": false,
         "grupo": "pro_governo",
         "grupo_rotulo": "Pró-governo",
-        "parlamentares_medio": 2.3974358974358974,
+        "parlamentares_medio": 2.345679012345679,
         "partido": "PDT",
-        "posicao": -71.7948717948718,
-        "votacoes": 78
+        "posicao": -72.8395061728395,
+        "votacoes": 81
       }
     },
     {
@@ -243,9 +243,21 @@
         "posicao": -39.66425868593051,
         "votacoes": 856
       },
-      "diferente": false,
+      "diferente": true,
       "partido": "AVANTE",
-      "senado": null
+      "senado": {
+        "com_governo": 0.0,
+        "com_oposicao": 100.0,
+        "com_orientacao": 0.0,
+        "cor": "#e65100",
+        "fixo": false,
+        "grupo": "oposicao",
+        "grupo_rotulo": "Oposição ao governo",
+        "parlamentares_medio": 1.0,
+        "partido": "AVANTE",
+        "posicao": 100.0,
+        "votacoes": 8
+      }
     },
     {
       "camara": {
@@ -264,17 +276,17 @@
       "diferente": true,
       "partido": "PODE",
       "senado": {
-        "com_governo": 46.34146341463415,
-        "com_oposicao": 53.65853658536585,
-        "com_orientacao": 48.275862068965516,
+        "com_governo": 48.23529411764706,
+        "com_oposicao": 51.76470588235294,
+        "com_orientacao": 50.81967213114754,
         "cor": "#9e9e9e",
         "fixo": false,
         "grupo": "centro",
         "grupo_rotulo": "Centro",
-        "parlamentares_medio": 4.719512195121951,
+        "parlamentares_medio": 4.658823529411765,
         "partido": "PODE",
-        "posicao": 7.317073170731703,
-        "votacoes": 82
+        "posicao": 3.529411764705884,
+        "votacoes": 85
       }
     },
     {
@@ -294,17 +306,17 @@
       "diferente": false,
       "partido": "PSD",
       "senado": {
-        "com_governo": 81.11111111111111,
-        "com_oposicao": 23.333333333333332,
-        "com_orientacao": 88.13559322033899,
+        "com_governo": 81.72043010752688,
+        "com_oposicao": 22.580645161290324,
+        "com_orientacao": 88.70967741935483,
         "cor": "#81c784",
         "fixo": false,
         "grupo": "centro_pro_governo",
         "grupo_rotulo": "Centro pró-governo",
-        "parlamentares_medio": 10.777777777777779,
+        "parlamentares_medio": 10.86021505376344,
         "partido": "PSD",
-        "posicao": -57.777777777777786,
-        "votacoes": 90
+        "posicao": -59.13978494623656,
+        "votacoes": 93
       }
     },
     {
@@ -324,17 +336,17 @@
       "diferente": true,
       "partido": "PP",
       "senado": {
-        "com_governo": 19.10112359550562,
-        "com_oposicao": 85.3932584269663,
-        "com_orientacao": 13.559322033898304,
+        "com_governo": 18.47826086956522,
+        "com_oposicao": 85.8695652173913,
+        "com_orientacao": 12.903225806451612,
         "cor": "#e65100",
         "fixo": false,
         "grupo": "oposicao",
         "grupo_rotulo": "Oposição ao governo",
-        "parlamentares_medio": 5.550561797752809,
+        "parlamentares_medio": 5.619565217391305,
         "partido": "PP",
-        "posicao": 66.29213483146069,
-        "votacoes": 89
+        "posicao": 67.39130434782608,
+        "votacoes": 92
       }
     },
     {
@@ -354,17 +366,17 @@
       "diferente": true,
       "partido": "MDB",
       "senado": {
-        "com_governo": 85.55555555555556,
-        "com_oposicao": 18.88888888888889,
-        "com_orientacao": 93.44262295081967,
+        "com_governo": 86.02150537634408,
+        "com_oposicao": 18.27956989247312,
+        "com_orientacao": 93.75,
         "cor": "#2e7d32",
         "fixo": false,
         "grupo": "pro_governo",
         "grupo_rotulo": "Pró-governo",
-        "parlamentares_medio": 8.066666666666666,
+        "parlamentares_medio": 8.096774193548388,
         "partido": "MDB",
-        "posicao": -66.66666666666667,
-        "votacoes": 90
+        "posicao": -67.74193548387096,
+        "votacoes": 93
       }
     },
     {
@@ -384,17 +396,17 @@
       "diferente": true,
       "partido": "REPUBLICANOS",
       "senado": {
-        "com_governo": 8.13953488372093,
-        "com_oposicao": 89.53488372093024,
-        "com_orientacao": 3.6363636363636362,
+        "com_governo": 7.865168539325842,
+        "com_oposicao": 89.88764044943821,
+        "com_orientacao": 3.4482758620689653,
         "cor": "#e65100",
         "fixo": false,
         "grupo": "oposicao",
         "grupo_rotulo": "Oposição ao governo",
-        "parlamentares_medio": 3.8372093023255816,
+        "parlamentares_medio": 3.898876404494382,
         "partido": "REPUBLICANOS",
-        "posicao": 81.39534883720931,
-        "votacoes": 86
+        "posicao": 82.02247191011237,
+        "votacoes": 89
       }
     },
     {
@@ -462,17 +474,17 @@
       "diferente": true,
       "partido": "UNIÃO",
       "senado": {
-        "com_governo": 55.81395348837209,
-        "com_oposicao": 48.83720930232558,
-        "com_orientacao": 62.06896551724138,
+        "com_governo": 57.30337078651685,
+        "com_oposicao": 47.19101123595506,
+        "com_orientacao": 63.9344262295082,
         "cor": "#9e9e9e",
         "fixo": false,
         "grupo": "centro",
         "grupo_rotulo": "Centro",
-        "parlamentares_medio": 5.77906976744186,
+        "parlamentares_medio": 5.651685393258427,
         "partido": "UNIÃO",
-        "posicao": -6.97674418604651,
-        "votacoes": 86
+        "posicao": -10.112359550561791,
+        "votacoes": 89
       }
     },
     {
@@ -594,17 +606,17 @@
       "diferente": false,
       "partido": "PL",
       "senado": {
-        "com_governo": 8.602150537634408,
+        "com_governo": 8.333333333333334,
         "com_oposicao": 100.0,
-        "com_orientacao": 1.6129032258064515,
+        "com_orientacao": 1.5384615384615385,
         "cor": "#e65100",
         "fixo": false,
         "grupo": "oposicao",
         "grupo_rotulo": "Oposição ao governo",
-        "parlamentares_medio": 11.053763440860216,
+        "parlamentares_medio": 11.166666666666666,
         "partido": "PL",
-        "posicao": 91.3978494623656,
-        "votacoes": 93
+        "posicao": 91.66666666666667,
+        "votacoes": 96
       }
     }
   ],
@@ -624,7 +636,7 @@
       ],
       "historico": "Em governos anteriores: Câmara — Lula 1 (PT × PSDB): pró-governo (-75); Lula 2 (PT × PSDB): pró-governo (-77); Dilma (PT × PSDB): pró-governo (-80); Temer (MDB × PT): oposição ao governo (+78); Bolsonaro (PSL (até 19/11/2019) → PL × PT): oposição ao governo (+86). Senado — Lula 1 (PT × PSDB): pró-governo (-65); Lula 2 (PT × PSDB): pró-governo (-84); Dilma (PT × PSDB): pró-governo (-74); Temer (MDB × PT): oposição ao governo (+84); Bolsonaro (PSL (até 19/11/2019) → PL × PT): oposição ao governo (+65).",
       "partido": "PT",
-      "texto_atual": "No mandato em curso (Lula 3): Câmara dos Deputados: pró-governo, com posição -84 — a maioria da bancada votou como a bancada do governo (PT) em 100% e como a da oposição (PL) em 16% das 876 votações disputadas de que participou; seguiu a orientação do líder do governo em 99%. Senado Federal: pró-governo, com posição -91 — a maioria da bancada votou como a bancada do governo (PT) em 100% e como a da oposição (PL) em 9% das 93 votações disputadas de que participou; seguiu a orientação do líder do governo em 100%."
+      "texto_atual": "No mandato em curso (Lula 3): Câmara dos Deputados: pró-governo, com posição -84 — a maioria da bancada votou como a bancada do governo (PT) em 100% e como a da oposição (PL) em 16% das 876 votações disputadas de que participou; seguiu a orientação do líder do governo em 99%. Senado Federal: pró-governo, com posição -92 — a maioria da bancada votou como a bancada do governo (PT) em 100% e como a da oposição (PL) em 8% das 96 votações disputadas de que participou; seguiu a orientação do líder do governo em 100%."
     },
     {
       "atual": [
@@ -665,7 +677,7 @@
       ],
       "historico": "Em governos anteriores: Câmara — Lula 1 (PT × PSDB): pró-governo (-63); Lula 2 (PT × PSDB): centro pró-governo (-54); Dilma (PT × PSDB): centro (+6); Temer (MDB × PT): centro pró-governo (-29); Bolsonaro (PSL (até 19/11/2019) → PL × PT): oposição ao governo (+69). Senado — Lula 1 (PT × PSDB): centro pró-governo (-57); Lula 2 (PT × PSDB): pró-governo (-79); Dilma (PT × PSDB): centro pró-governo (-53); Temer (MDB × PT): centro-oposição (+22); Bolsonaro (PSL (até 19/11/2019) → PL × PT): centro-oposição (+50).",
       "partido": "PSB",
-      "texto_atual": "No mandato em curso (Lula 3): Câmara dos Deputados: pró-governo, com posição -71 — a maioria da bancada votou como a bancada do governo (PT) em 93% e como a da oposição (PL) em 22% das 870 votações disputadas de que participou; seguiu a orientação do líder do governo em 95%. Senado Federal: centro pró-governo, com posição -50 — a maioria da bancada votou como a bancada do governo (PT) em 73% e como a da oposição (PL) em 23% das 86 votações disputadas de que participou; seguiu a orientação do líder do governo em 84%."
+      "texto_atual": "No mandato em curso (Lula 3): Câmara dos Deputados: pró-governo, com posição -71 — a maioria da bancada votou como a bancada do governo (PT) em 93% e como a da oposição (PL) em 22% das 870 votações disputadas de que participou; seguiu a orientação do líder do governo em 95%. Senado Federal: centro pró-governo, com posição -52 — a maioria da bancada votou como a bancada do governo (PT) em 74% e como a da oposição (PL) em 22% das 89 votações disputadas de que participou; seguiu a orientação do líder do governo em 85%."
     },
     {
       "atual": [
@@ -706,7 +718,7 @@
       ],
       "historico": "Em governos anteriores: Senado — Lula 1 (PT × PSDB): outros / não classificável (-10); Temer (MDB × PT): outros / não classificável (+33); Bolsonaro (PSL (até 19/11/2019) → PL × PT): outros / não classificável (-45).",
       "partido": "Sem partido",
-      "texto_atual": "No mandato em curso (Lula 3): Senado Federal: Outros / não classificável por definição (grupo fixo em espectro.toml); nas votações, posição -69 (com o governo em 81%, com a oposição em 13%, em 16 votações disputadas)."
+      "texto_atual": "No mandato em curso (Lula 3): Senado Federal: Outros / não classificável por definição (grupo fixo em espectro.toml); nas votações, posição -63 (com o governo em 79%, com a oposição em 16%, em 19 votações disputadas)."
     },
     {
       "atual": [
@@ -723,7 +735,7 @@
       ],
       "historico": "Em governos anteriores: Câmara — Lula 1 (PT × PSDB): centro (-3); Lula 2 (PT × PSDB): centro pró-governo (-55); Dilma (PT × PSDB): centro pró-governo (-25); Temer (MDB × PT): centro-oposição (+37); Bolsonaro (PSL (até 19/11/2019) → PL × PT): centro-oposição (+55). Senado — Lula 1 (PT × PSDB): centro-oposição (+26); Lula 2 (PT × PSDB): centro pró-governo (-38); Dilma (PT × PSDB): centro (-14); Temer (MDB × PT): centro pró-governo (-30); Bolsonaro (PSL (até 19/11/2019) → PL × PT): centro-oposição (+36).",
       "partido": "PDT",
-      "texto_atual": "No mandato em curso (Lula 3): Câmara dos Deputados: pró-governo, com posição -61 — a maioria da bancada votou como a bancada do governo (PT) em 88% e como a da oposição (PL) em 26% das 873 votações disputadas de que participou; seguiu a orientação do líder do governo em 90%. Senado Federal: pró-governo, com posição -72 — a maioria da bancada votou como a bancada do governo (PT) em 88% e como a da oposição (PL) em 17% das 78 votações disputadas de que participou; seguiu a orientação do líder do governo em 96%."
+      "texto_atual": "No mandato em curso (Lula 3): Câmara dos Deputados: pró-governo, com posição -61 — a maioria da bancada votou como a bancada do governo (PT) em 88% e como a da oposição (PL) em 26% das 873 votações disputadas de que participou; seguiu a orientação do líder do governo em 90%. Senado Federal: pró-governo, com posição -73 — a maioria da bancada votou como a bancada do governo (PT) em 89% e como a da oposição (PL) em 16% das 81 votações disputadas de que participou; seguiu a orientação do líder do governo em 96%."
     },
     {
       "atual": [
@@ -755,11 +767,16 @@
           "Câmara dos Deputados",
           "Centro pró-governo",
           "#81c784"
+        ],
+        [
+          "Senado Federal",
+          "Oposição ao governo",
+          "#e65100"
         ]
       ],
       "historico": "Em governos anteriores: Câmara — Lula 2 (PT × PSDB): centro pró-governo (-51); Dilma (PT × PSDB): centro pró-governo (-30); Temer (MDB × PT): centro (+10); Bolsonaro (PSL (até 19/11/2019) → PL × PT): pró-governo (-69). Senado — Lula 1 (PT × PSDB): centro-oposição (+59).",
       "partido": "AVANTE",
-      "texto_atual": "No mandato em curso (Lula 3): Câmara dos Deputados: centro pró-governo, com posição -40 — a maioria da bancada votou como a bancada do governo (PT) em 77% e como a da oposição (PL) em 37% das 856 votações disputadas de que participou; seguiu a orientação do líder do governo em 84%."
+      "texto_atual": "No mandato em curso (Lula 3): Câmara dos Deputados: centro pró-governo, com posição -40 — a maioria da bancada votou como a bancada do governo (PT) em 77% e como a da oposição (PL) em 37% das 856 votações disputadas de que participou; seguiu a orientação do líder do governo em 84%. Senado Federal: oposição ao governo, com posição +100 — a maioria da bancada votou como a bancada do governo (PT) em 0% e como a da oposição (PL) em 100% das 8 votações disputadas de que participou; seguiu a orientação do líder do governo em 0%."
     },
     {
       "atual": [
@@ -776,7 +793,7 @@
       ],
       "historico": "Em governos anteriores: Câmara — Dilma (PT × PSDB): centro pró-governo (-50); Temer (MDB × PT): centro pró-governo (-56); Bolsonaro (PSL (até 19/11/2019) → PL × PT): pró-governo (-62). Senado — Temer (MDB × PT): centro pró-governo (-22); Bolsonaro (PSL (até 19/11/2019) → PL × PT): centro (-13).",
       "partido": "PODE",
-      "texto_atual": "No mandato em curso (Lula 3): Câmara dos Deputados: centro pró-governo, com posição -38 — a maioria da bancada votou como a bancada do governo (PT) em 75% e como a da oposição (PL) em 37% das 866 votações disputadas de que participou; seguiu a orientação do líder do governo em 82%. Senado Federal: centro, com posição +7 — a maioria da bancada votou como a bancada do governo (PT) em 46% e como a da oposição (PL) em 54% das 82 votações disputadas de que participou; seguiu a orientação do líder do governo em 48%."
+      "texto_atual": "No mandato em curso (Lula 3): Câmara dos Deputados: centro pró-governo, com posição -38 — a maioria da bancada votou como a bancada do governo (PT) em 75% e como a da oposição (PL) em 37% das 866 votações disputadas de que participou; seguiu a orientação do líder do governo em 82%. Senado Federal: centro, com posição +4 — a maioria da bancada votou como a bancada do governo (PT) em 48% e como a da oposição (PL) em 52% das 85 votações disputadas de que participou; seguiu a orientação do líder do governo em 51%."
     },
     {
       "atual": [
@@ -793,7 +810,7 @@
       ],
       "historico": "Em governos anteriores: Câmara — Dilma (PT × PSDB): centro (-4); Temer (MDB × PT): pró-governo (-76); Bolsonaro (PSL (até 19/11/2019) → PL × PT): pró-governo (-74). Senado — Dilma (PT × PSDB): centro pró-governo (-25); Temer (MDB × PT): pró-governo (-70); Bolsonaro (PSL (até 19/11/2019) → PL × PT): centro pró-governo (-30).",
       "partido": "PSD",
-      "texto_atual": "No mandato em curso (Lula 3): Câmara dos Deputados: centro pró-governo, com posição -36 — a maioria da bancada votou como a bancada do governo (PT) em 75% e como a da oposição (PL) em 39% das 874 votações disputadas de que participou; seguiu a orientação do líder do governo em 81%. Senado Federal: centro pró-governo, com posição -58 — a maioria da bancada votou como a bancada do governo (PT) em 81% e como a da oposição (PL) em 23% das 90 votações disputadas de que participou; seguiu a orientação do líder do governo em 88%."
+      "texto_atual": "No mandato em curso (Lula 3): Câmara dos Deputados: centro pró-governo, com posição -36 — a maioria da bancada votou como a bancada do governo (PT) em 75% e como a da oposição (PL) em 39% das 874 votações disputadas de que participou; seguiu a orientação do líder do governo em 81%. Senado Federal: centro pró-governo, com posição -59 — a maioria da bancada votou como a bancada do governo (PT) em 82% e como a da oposição (PL) em 23% das 93 votações disputadas de que participou; seguiu a orientação do líder do governo em 89%."
     },
     {
       "atual": [
@@ -810,7 +827,7 @@
       ],
       "historico": "Em governos anteriores: Câmara — Lula 1 (PT × PSDB): centro pró-governo (-55); Lula 2 (PT × PSDB): centro pró-governo (-54); Dilma (PT × PSDB): centro (-8); Temer (MDB × PT): pró-governo (-78); Bolsonaro (PSL (até 19/11/2019) → PL × PT): pró-governo (-76). Senado — Lula 2 (PT × PSDB): pró-governo (-61); Dilma (PT × PSDB): centro pró-governo (-46); Temer (MDB × PT): pró-governo (-84); Bolsonaro (PSL (até 19/11/2019) → PL × PT): centro pró-governo (-55).",
       "partido": "PP",
-      "texto_atual": "No mandato em curso (Lula 3): Câmara dos Deputados: centro pró-governo, com posição -31 — a maioria da bancada votou como a bancada do governo (PT) em 73% e como a da oposição (PL) em 42% das 873 votações disputadas de que participou; seguiu a orientação do líder do governo em 79%. Senado Federal: oposição ao governo, com posição +66 — a maioria da bancada votou como a bancada do governo (PT) em 19% e como a da oposição (PL) em 85% das 89 votações disputadas de que participou; seguiu a orientação do líder do governo em 14%."
+      "texto_atual": "No mandato em curso (Lula 3): Câmara dos Deputados: centro pró-governo, com posição -31 — a maioria da bancada votou como a bancada do governo (PT) em 73% e como a da oposição (PL) em 42% das 873 votações disputadas de que participou; seguiu a orientação do líder do governo em 79%. Senado Federal: oposição ao governo, com posição +67 — a maioria da bancada votou como a bancada do governo (PT) em 18% e como a da oposição (PL) em 86% das 92 votações disputadas de que participou; seguiu a orientação do líder do governo em 13%."
     },
     {
       "atual": [
@@ -827,7 +844,7 @@
       ],
       "historico": "Em governos anteriores: Câmara — Lula 1 (PT × PSDB): centro pró-governo (-45); Lula 2 (PT × PSDB): centro pró-governo (-58); Dilma (PT × PSDB): centro pró-governo (-22); Temer (MDB × PT): pró-governo (-78); Bolsonaro (PSL (até 19/11/2019) → PL × PT): pró-governo (-65). Senado — Lula 1 (PT × PSDB): centro pró-governo (-42); Lula 2 (PT × PSDB): pró-governo (-62); Dilma (PT × PSDB): centro pró-governo (-50); Temer (MDB × PT): pró-governo (-84); Bolsonaro (PSL (até 19/11/2019) → PL × PT): centro pró-governo (-20).",
       "partido": "MDB",
-      "texto_atual": "No mandato em curso (Lula 3): Câmara dos Deputados: centro pró-governo, com posição -31 — a maioria da bancada votou como a bancada do governo (PT) em 73% e como a da oposição (PL) em 42% das 870 votações disputadas de que participou; seguiu a orientação do líder do governo em 80%. Senado Federal: pró-governo, com posição -67 — a maioria da bancada votou como a bancada do governo (PT) em 86% e como a da oposição (PL) em 19% das 90 votações disputadas de que participou; seguiu a orientação do líder do governo em 93%."
+      "texto_atual": "No mandato em curso (Lula 3): Câmara dos Deputados: centro pró-governo, com posição -31 — a maioria da bancada votou como a bancada do governo (PT) em 73% e como a da oposição (PL) em 42% das 870 votações disputadas de que participou; seguiu a orientação do líder do governo em 80%. Senado Federal: pró-governo, com posição -68 — a maioria da bancada votou como a bancada do governo (PT) em 86% e como a da oposição (PL) em 18% das 93 votações disputadas de que participou; seguiu a orientação do líder do governo em 94%."
     },
     {
       "atual": [
@@ -844,7 +861,7 @@
       ],
       "historico": "Em governos anteriores: Câmara — Lula 2 (PT × PSDB): centro pró-governo (-54); Dilma (PT × PSDB): centro pró-governo (-30); Temer (MDB × PT): pró-governo (-68); Bolsonaro (PSL (até 19/11/2019) → PL × PT): pró-governo (-73). Senado — Lula 2 (PT × PSDB): pró-governo (-85); Dilma (PT × PSDB): centro pró-governo (-41); Temer (MDB × PT): pró-governo (-79); Bolsonaro (PSL (até 19/11/2019) → PL × PT): centro pró-governo (-37).",
       "partido": "REPUBLICANOS",
-      "texto_atual": "No mandato em curso (Lula 3): Câmara dos Deputados: centro pró-governo, com posição -27 — a maioria da bancada votou como a bancada do governo (PT) em 70% e como a da oposição (PL) em 43% das 875 votações disputadas de que participou; seguiu a orientação do líder do governo em 76%. Senado Federal: oposição ao governo, com posição +81 — a maioria da bancada votou como a bancada do governo (PT) em 8% e como a da oposição (PL) em 90% das 86 votações disputadas de que participou; seguiu a orientação do líder do governo em 4%."
+      "texto_atual": "No mandato em curso (Lula 3): Câmara dos Deputados: centro pró-governo, com posição -27 — a maioria da bancada votou como a bancada do governo (PT) em 70% e como a da oposição (PL) em 43% das 875 votações disputadas de que participou; seguiu a orientação do líder do governo em 76%. Senado Federal: oposição ao governo, com posição +82 — a maioria da bancada votou como a bancada do governo (PT) em 8% e como a da oposição (PL) em 90% das 89 votações disputadas de que participou; seguiu a orientação do líder do governo em 3%."
     },
     {
       "atual": [
@@ -890,7 +907,7 @@
       ],
       "historico": "Em governos anteriores: Câmara — Bolsonaro (PSL (até 19/11/2019) → PL × PT): pró-governo (-73). Senado — Bolsonaro (PSL (até 19/11/2019) → PL × PT): centro pró-governo (-31).",
       "partido": "UNIÃO",
-      "texto_atual": "No mandato em curso (Lula 3): Câmara dos Deputados: centro pró-governo, com posição -23 — a maioria da bancada votou como a bancada do governo (PT) em 69% e como a da oposição (PL) em 45% das 875 votações disputadas de que participou; seguiu a orientação do líder do governo em 74%. Senado Federal: centro, com posição -7 — a maioria da bancada votou como a bancada do governo (PT) em 56% e como a da oposição (PL) em 49% das 86 votações disputadas de que participou; seguiu a orientação do líder do governo em 62%."
+      "texto_atual": "No mandato em curso (Lula 3): Câmara dos Deputados: centro pró-governo, com posição -23 — a maioria da bancada votou como a bancada do governo (PT) em 69% e como a da oposição (PL) em 45% das 875 votações disputadas de que participou; seguiu a orientação do líder do governo em 74%. Senado Federal: centro, com posição -10 — a maioria da bancada votou como a bancada do governo (PT) em 57% e como a da oposição (PL) em 47% das 89 votações disputadas de que participou; seguiu a orientação do líder do governo em 64%."
     },
     {
       "atual": [
@@ -972,10 +989,10 @@
       ],
       "historico": "Em governos anteriores: Câmara — Lula 1 (PT × PSDB): centro pró-governo (-59); Bolsonaro (PSL (até 19/11/2019) → PL × PT): pró-governo (-82). Senado — Lula 1 (PT × PSDB): centro pró-governo (-46); Lula 2 (PT × PSDB): pró-governo (-68); Dilma (PT × PSDB): centro pró-governo (-53); Temer (MDB × PT): pró-governo (-80); Bolsonaro (PSL (até 19/11/2019) → PL × PT): pró-governo (-63).",
       "partido": "PL",
-      "texto_atual": "No mandato em curso (Lula 3): Câmara dos Deputados: oposição ao governo, com posição +84 — a maioria da bancada votou como a bancada do governo (PT) em 16% e como a da oposição (PL) em 100% das 871 votações disputadas de que participou; seguiu a orientação do líder do governo em 16%. Senado Federal: oposição ao governo, com posição +91 — a maioria da bancada votou como a bancada do governo (PT) em 9% e como a da oposição (PL) em 100% das 93 votações disputadas de que participou; seguiu a orientação do líder do governo em 2%."
+      "texto_atual": "No mandato em curso (Lula 3): Câmara dos Deputados: oposição ao governo, com posição +84 — a maioria da bancada votou como a bancada do governo (PT) em 16% e como a da oposição (PL) em 100% das 871 votações disputadas de que participou; seguiu a orientação do líder do governo em 16%. Senado Federal: oposição ao governo, com posição +92 — a maioria da bancada votou como a bancada do governo (PT) em 8% e como a da oposição (PL) em 100% das 96 votações disputadas de que participou; seguiu a orientação do líder do governo em 2%."
     }
   ],
-  "gerado_em": "16/11/2026 04:05",
+  "gerado_em": "23/11/2026 08:55",
   "grupos": [
     {
       "cor": "#2e7d32",
@@ -4372,107 +4389,107 @@
             },
             {
               "com_governo": 100.0,
-              "com_oposicao": 8.602150537634408,
+              "com_oposicao": 8.333333333333334,
               "com_orientacao": 100.0,
               "cor": "#2e7d32",
               "fixo": false,
               "grupo": "pro_governo",
               "grupo_rotulo": "Pró-governo",
-              "parlamentares_medio": 7.741935483870968,
+              "parlamentares_medio": 7.78125,
               "partido": "PT",
-              "posicao": -91.3978494623656,
-              "votacoes": 93
+              "posicao": -91.66666666666667,
+              "votacoes": 96
             },
             {
-              "com_governo": 88.46153846153847,
-              "com_oposicao": 16.666666666666668,
-              "com_orientacao": 96.29629629629629,
+              "com_governo": 88.88888888888889,
+              "com_oposicao": 16.049382716049383,
+              "com_orientacao": 96.49122807017544,
               "cor": "#2e7d32",
               "fixo": false,
               "grupo": "pro_governo",
               "grupo_rotulo": "Pró-governo",
-              "parlamentares_medio": 2.3974358974358974,
+              "parlamentares_medio": 2.345679012345679,
               "partido": "PDT",
-              "posicao": -71.7948717948718,
-              "votacoes": 78
+              "posicao": -72.8395061728395,
+              "votacoes": 81
             },
             {
-              "com_governo": 81.25,
-              "com_oposicao": 12.5,
-              "com_orientacao": 90.9090909090909,
+              "com_governo": 86.02150537634408,
+              "com_oposicao": 18.27956989247312,
+              "com_orientacao": 93.75,
+              "cor": "#2e7d32",
+              "fixo": false,
+              "grupo": "pro_governo",
+              "grupo_rotulo": "Pró-governo",
+              "parlamentares_medio": 8.096774193548388,
+              "partido": "MDB",
+              "posicao": -67.74193548387096,
+              "votacoes": 93
+            },
+            {
+              "com_governo": 78.94736842105263,
+              "com_oposicao": 15.789473684210526,
+              "com_orientacao": 85.71428571428571,
               "cor": "#78909c",
               "fixo": true,
               "grupo": "outros",
               "grupo_rotulo": "Outros / não classificável",
               "parlamentares_medio": 1.0,
               "partido": "Sem partido",
-              "posicao": -68.75,
-              "votacoes": 16
+              "posicao": -63.1578947368421,
+              "votacoes": 19
             },
             {
-              "com_governo": 85.55555555555556,
-              "com_oposicao": 18.88888888888889,
-              "com_orientacao": 93.44262295081967,
-              "cor": "#2e7d32",
-              "fixo": false,
-              "grupo": "pro_governo",
-              "grupo_rotulo": "Pró-governo",
-              "parlamentares_medio": 8.066666666666666,
-              "partido": "MDB",
-              "posicao": -66.66666666666667,
-              "votacoes": 90
-            },
-            {
-              "com_governo": 81.11111111111111,
-              "com_oposicao": 23.333333333333332,
-              "com_orientacao": 88.13559322033899,
+              "com_governo": 81.72043010752688,
+              "com_oposicao": 22.580645161290324,
+              "com_orientacao": 88.70967741935483,
               "cor": "#81c784",
               "fixo": false,
               "grupo": "centro_pro_governo",
               "grupo_rotulo": "Centro pró-governo",
-              "parlamentares_medio": 10.777777777777779,
+              "parlamentares_medio": 10.86021505376344,
               "partido": "PSD",
-              "posicao": -57.777777777777786,
-              "votacoes": 90
+              "posicao": -59.13978494623656,
+              "votacoes": 93
             },
             {
-              "com_governo": 73.25581395348837,
-              "com_oposicao": 23.25581395348837,
-              "com_orientacao": 83.92857142857143,
+              "com_governo": 74.15730337078652,
+              "com_oposicao": 22.471910112359552,
+              "com_orientacao": 84.7457627118644,
               "cor": "#81c784",
               "fixo": false,
               "grupo": "centro_pro_governo",
               "grupo_rotulo": "Centro pró-governo",
-              "parlamentares_medio": 3.3488372093023258,
+              "parlamentares_medio": 3.460674157303371,
               "partido": "PSB",
-              "posicao": -50.0,
-              "votacoes": 86
+              "posicao": -51.68539325842697,
+              "votacoes": 89
             },
             {
-              "com_governo": 55.81395348837209,
-              "com_oposicao": 48.83720930232558,
-              "com_orientacao": 62.06896551724138,
+              "com_governo": 57.30337078651685,
+              "com_oposicao": 47.19101123595506,
+              "com_orientacao": 63.9344262295082,
               "cor": "#9e9e9e",
               "fixo": false,
               "grupo": "centro",
               "grupo_rotulo": "Centro",
-              "parlamentares_medio": 5.77906976744186,
+              "parlamentares_medio": 5.651685393258427,
               "partido": "UNIÃO",
-              "posicao": -6.97674418604651,
-              "votacoes": 86
+              "posicao": -10.112359550561791,
+              "votacoes": 89
             },
             {
-              "com_governo": 46.34146341463415,
-              "com_oposicao": 53.65853658536585,
-              "com_orientacao": 48.275862068965516,
+              "com_governo": 48.23529411764706,
+              "com_oposicao": 51.76470588235294,
+              "com_orientacao": 50.81967213114754,
               "cor": "#9e9e9e",
               "fixo": false,
               "grupo": "centro",
               "grupo_rotulo": "Centro",
-              "parlamentares_medio": 4.719512195121951,
+              "parlamentares_medio": 4.658823529411765,
               "partido": "PODE",
-              "posicao": 7.317073170731703,
-              "votacoes": 82
+              "posicao": 3.529411764705884,
+              "votacoes": 85
             },
             {
               "com_governo": 25.31645569620253,
@@ -4488,17 +4505,17 @@
               "votacoes": 79
             },
             {
-              "com_governo": 19.10112359550562,
-              "com_oposicao": 85.3932584269663,
-              "com_orientacao": 13.559322033898304,
+              "com_governo": 18.47826086956522,
+              "com_oposicao": 85.8695652173913,
+              "com_orientacao": 12.903225806451612,
               "cor": "#e65100",
               "fixo": false,
               "grupo": "oposicao",
               "grupo_rotulo": "Oposição ao governo",
-              "parlamentares_medio": 5.550561797752809,
+              "parlamentares_medio": 5.619565217391305,
               "partido": "PP",
-              "posicao": 66.29213483146069,
-              "votacoes": 89
+              "posicao": 67.39130434782608,
+              "votacoes": 92
             },
             {
               "com_governo": 12.5,
@@ -4514,33 +4531,46 @@
               "votacoes": 88
             },
             {
-              "com_governo": 8.13953488372093,
-              "com_oposicao": 89.53488372093024,
-              "com_orientacao": 3.6363636363636362,
+              "com_governo": 7.865168539325842,
+              "com_oposicao": 89.88764044943821,
+              "com_orientacao": 3.4482758620689653,
               "cor": "#e65100",
               "fixo": false,
               "grupo": "oposicao",
               "grupo_rotulo": "Oposição ao governo",
-              "parlamentares_medio": 3.8372093023255816,
+              "parlamentares_medio": 3.898876404494382,
               "partido": "REPUBLICANOS",
-              "posicao": 81.39534883720931,
-              "votacoes": 86
+              "posicao": 82.02247191011237,
+              "votacoes": 89
             },
             {
-              "com_governo": 8.602150537634408,
+              "com_governo": 8.333333333333334,
               "com_oposicao": 100.0,
-              "com_orientacao": 1.6129032258064515,
+              "com_orientacao": 1.5384615384615385,
               "cor": "#e65100",
               "fixo": false,
               "grupo": "oposicao",
               "grupo_rotulo": "Oposição ao governo",
-              "parlamentares_medio": 11.053763440860216,
+              "parlamentares_medio": 11.166666666666666,
               "partido": "PL",
-              "posicao": 91.3978494623656,
-              "votacoes": 93
+              "posicao": 91.66666666666667,
+              "votacoes": 96
+            },
+            {
+              "com_governo": 0.0,
+              "com_oposicao": 100.0,
+              "com_orientacao": 0.0,
+              "cor": "#e65100",
+              "fixo": false,
+              "grupo": "oposicao",
+              "grupo_rotulo": "Oposição ao governo",
+              "parlamentares_medio": 1.0,
+              "partido": "AVANTE",
+              "posicao": 100.0,
+              "votacoes": 8
             }
           ],
-          "votacoes_disputadas": 93
+          "votacoes_disputadas": 96
         }
       ],
       "id": "lula3",
@@ -5745,7 +5775,7 @@
             {
               "cor": "#2e7d32",
               "grupo_rotulo": "Pró-governo",
-              "posicao": -91.3978494623656
+              "posicao": -91.66666666666667
             }
           ],
           "partido": "PT"
@@ -5780,37 +5810,10 @@
             {
               "cor": "#2e7d32",
               "grupo_rotulo": "Pró-governo",
-              "posicao": -71.7948717948718
+              "posicao": -72.8395061728395
             }
           ],
           "partido": "PDT"
-        },
-        {
-          "celulas": [
-            {
-              "cor": "#78909c",
-              "grupo_rotulo": "Outros / não classificável",
-              "posicao": -10.27777777777778
-            },
-            null,
-            null,
-            {
-              "cor": "#78909c",
-              "grupo_rotulo": "Outros / não classificável",
-              "posicao": 33.30249768732655
-            },
-            {
-              "cor": "#78909c",
-              "grupo_rotulo": "Outros / não classificável",
-              "posicao": -45.32600157109191
-            },
-            {
-              "cor": "#78909c",
-              "grupo_rotulo": "Outros / não classificável",
-              "posicao": -68.75
-            }
-          ],
-          "partido": "Sem partido"
         },
         {
           "celulas": [
@@ -5842,10 +5845,37 @@
             {
               "cor": "#2e7d32",
               "grupo_rotulo": "Pró-governo",
-              "posicao": -66.66666666666667
+              "posicao": -67.74193548387096
             }
           ],
           "partido": "MDB"
+        },
+        {
+          "celulas": [
+            {
+              "cor": "#78909c",
+              "grupo_rotulo": "Outros / não classificável",
+              "posicao": -10.27777777777778
+            },
+            null,
+            null,
+            {
+              "cor": "#78909c",
+              "grupo_rotulo": "Outros / não classificável",
+              "posicao": 33.30249768732655
+            },
+            {
+              "cor": "#78909c",
+              "grupo_rotulo": "Outros / não classificável",
+              "posicao": -45.32600157109191
+            },
+            {
+              "cor": "#78909c",
+              "grupo_rotulo": "Outros / não classificável",
+              "posicao": -63.1578947368421
+            }
+          ],
+          "partido": "Sem partido"
         },
         {
           "celulas": [
@@ -5884,25 +5914,10 @@
             {
               "cor": "#81c784",
               "grupo_rotulo": "Centro pró-governo",
-              "posicao": -57.777777777777786
+              "posicao": -59.13978494623656
             }
           ],
           "partido": "PSD"
-        },
-        {
-          "celulas": [
-            null,
-            null,
-            null,
-            null,
-            {
-              "cor": "#81c784",
-              "grupo_rotulo": "Centro pró-governo",
-              "posicao": -51.364913689281416
-            },
-            null
-          ],
-          "partido": "PSL"
         },
         {
           "celulas": [
@@ -5934,10 +5949,25 @@
             {
               "cor": "#81c784",
               "grupo_rotulo": "Centro pró-governo",
-              "posicao": -50.0
+              "posicao": -51.68539325842697
             }
           ],
           "partido": "PSB"
+        },
+        {
+          "celulas": [
+            null,
+            null,
+            null,
+            null,
+            {
+              "cor": "#81c784",
+              "grupo_rotulo": "Centro pró-governo",
+              "posicao": -51.364913689281416
+            },
+            null
+          ],
+          "partido": "PSL"
         },
         {
           "celulas": [
@@ -6087,7 +6117,7 @@
             {
               "cor": "#9e9e9e",
               "grupo_rotulo": "Centro",
-              "posicao": -6.97674418604651
+              "posicao": -10.112359550561791
             }
           ],
           "partido": "UNIÃO"
@@ -6129,7 +6159,7 @@
             {
               "cor": "#9e9e9e",
               "grupo_rotulo": "Centro",
-              "posicao": 7.317073170731703
+              "posicao": 3.529411764705884
             }
           ],
           "partido": "PODE"
@@ -6236,21 +6266,6 @@
         },
         {
           "celulas": [
-            {
-              "cor": "#ffb74d",
-              "grupo_rotulo": "Centro-oposição",
-              "posicao": 58.97435897435897
-            },
-            null,
-            null,
-            null,
-            null,
-            null
-          ],
-          "partido": "AVANTE"
-        },
-        {
-          "celulas": [
             null,
             {
               "cor": "#2e7d32",
@@ -6275,7 +6290,7 @@
             {
               "cor": "#e65100",
               "grupo_rotulo": "Oposição ao governo",
-              "posicao": 66.29213483146069
+              "posicao": 67.39130434782608
             }
           ],
           "partido": "PP"
@@ -6348,7 +6363,7 @@
             {
               "cor": "#e65100",
               "grupo_rotulo": "Oposição ao governo",
-              "posicao": 81.39534883720931
+              "posicao": 82.02247191011237
             }
           ],
           "partido": "REPUBLICANOS"
@@ -6402,10 +6417,29 @@
             {
               "cor": "#e65100",
               "grupo_rotulo": "Oposição ao governo",
-              "posicao": 91.3978494623656
+              "posicao": 91.66666666666667
             }
           ],
           "partido": "PL"
+        },
+        {
+          "celulas": [
+            {
+              "cor": "#ffb74d",
+              "grupo_rotulo": "Centro-oposição",
+              "posicao": 58.97435897435897
+            },
+            null,
+            null,
+            null,
+            null,
+            {
+              "cor": "#e65100",
+              "grupo_rotulo": "Oposição ao governo",
+              "posicao": 100.0
+            }
+          ],
+          "partido": "AVANTE"
         }
       ],
       "nome": "Senado Federal"

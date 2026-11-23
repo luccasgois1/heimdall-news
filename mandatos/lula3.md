@@ -1,6 +1,6 @@
 # Lula 3: como a Câmara e o Senado votaram
 
-Governo Luiz Inácio Lula da Silva (PT), de 01/01/2023 a 31/12/2026 (mandato em curso). **Mandato em curso:** os números são atualizados toda semana, até o fim do mandato. Gerado em 16/11/2026 04:05.
+Governo Luiz Inácio Lula da Silva (PT), de 01/01/2023 a 31/12/2026 (mandato em curso). **Mandato em curso:** os números são atualizados toda semana, até o fim do mandato. Gerado em 23/11/2026 08:55.
 
 Polos: **governo** = maioria da bancada do PT; **oposição** = maioria da bancada do PL.
 
@@ -60,10 +60,10 @@ Polos: **governo** = maioria da bancada do PT; **oposição** = maioria da banca
 | Vicentinho (PT-SP) | Julia Zanatta (PL-SC) | 516 | 97% |
 | Junio Amaral (PL-MG) | Fernando Mineiro (PT-RN) | 557 | 96% |
 | Benedita da Silva (PT-RJ) | Julia Zanatta (PL-SC) | 534 | 96% |
-| Fernando Mineiro (PT-RN) | Julia Zanatta (PL-SC) | 528 | 96% |
+| Julia Zanatta (PL-SC) | Fernando Mineiro (PT-RN) | 528 | 96% |
 | Lenir de Assis (PT-PR) | Junio Amaral (PL-MG) | 330 | 96% |
-| Benedita da Silva (PT-RJ) | Sargento Fahur (PL-PR) | 715 | 96% |
-| Paulão (PT-AL) | Junio Amaral (PL-MG) | 583 | 96% |
+| Sargento Fahur (PL-PR) | Benedita da Silva (PT-RJ) | 715 | 96% |
+| Junio Amaral (PL-MG) | Paulão (PT-AL) | 583 | 96% |
 | Junio Amaral (PL-MG) | Rogério Correia (PT-MG) | 579 | 96% |
 | Sargento Fahur (PL-PR) | Valmir Assunção (PT-BA) | 704 | 95% |
 | Waldenor Pereira (PT-BA) | Julia Zanatta (PL-SC) | 480 | 96% |
@@ -693,7 +693,7 @@ Polos: **governo** = maioria da bancada do PT; **oposição** = maioria da banca
 
 ## Senado Federal
 
-194 votações nominais no período, 93 disputadas (62 com orientação do governo registrada). Entram parlamentares com pelo menos 15 votos Sim/Não nessas votações.
+198 votações nominais no período, 96 disputadas (65 com orientação do governo registrada). Entram parlamentares com pelo menos 15 votos Sim/Não nessas votações.
 
 - **Parlamentares:** 83
 - **Variação explicada pela 1ª dimensão:** 44%
@@ -704,122 +704,123 @@ Polos: **governo** = maioria da bancada do PT; **oposição** = maioria da banca
 | Partido | Grupo neste mandato | Votações | Parlamentares (média) | Com o governo | Com a oposição | Com a orientação do governo | Posição |
 |---|---|---:|---:|---:|---:|---:|---:|
 | REDE | Pró-governo | 31 | 1.0 | 100% | 6% | 100% | -94 |
-| PT | Pró-governo | 93 | 7.7 | 100% | 9% | 100% | -91 |
-| PDT | Pró-governo | 78 | 2.4 | 88% | 17% | 96% | -72 |
-| Sem partido | Outros / não classificável | 16 | 1.0 | 81% | 13% | 91% | -69 |
-| MDB | Pró-governo | 90 | 8.1 | 86% | 19% | 93% | -67 |
-| PSD | Centro pró-governo | 90 | 10.8 | 81% | 23% | 88% | -58 |
-| PSB | Centro pró-governo | 86 | 3.3 | 73% | 23% | 84% | -50 |
-| UNIÃO | Centro | 86 | 5.8 | 56% | 49% | 62% | -7 |
-| PODE | Centro | 82 | 4.7 | 46% | 54% | 48% | 7 |
+| PT | Pró-governo | 96 | 7.8 | 100% | 8% | 100% | -92 |
+| PDT | Pró-governo | 81 | 2.3 | 89% | 16% | 96% | -73 |
+| MDB | Pró-governo | 93 | 8.1 | 86% | 18% | 94% | -68 |
+| Sem partido | Outros / não classificável | 19 | 1.0 | 79% | 16% | 86% | -63 |
+| PSD | Centro pró-governo | 93 | 10.9 | 82% | 23% | 89% | -59 |
+| PSB | Centro pró-governo | 89 | 3.5 | 74% | 22% | 85% | -52 |
+| UNIÃO | Centro | 89 | 5.7 | 57% | 47% | 64% | -10 |
+| PODE | Centro | 85 | 4.7 | 48% | 52% | 51% | 4 |
 | PSDB | Centro-oposição | 79 | 1.8 | 25% | 77% | 20% | 52 |
-| PP | Oposição ao governo | 89 | 5.6 | 19% | 85% | 14% | 66 |
+| PP | Oposição ao governo | 92 | 5.6 | 18% | 86% | 13% | 67 |
 | NOVO | Oposição ao governo | 88 | 1.0 | 13% | 88% | 5% | 75 |
-| REPUBLICANOS | Oposição ao governo | 86 | 3.8 | 8% | 90% | 4% | 81 |
-| PL | Oposição ao governo | 93 | 11.1 | 9% | 100% | 2% | 91 |
+| REPUBLICANOS | Oposição ao governo | 89 | 3.9 | 8% | 90% | 3% | 82 |
+| PL | Oposição ao governo | 96 | 11.2 | 8% | 100% | 2% | 92 |
+| AVANTE | Oposição ao governo | 8 | 1.0 | 0% | 100% | 0% | 100 |
 
 ### Pares que mais discordam
 
 | Parlamentar | Parlamentar | Votações em comum | Discordância |
 |---|---|---:|---:|
-| Flávio Bolsonaro (PL-RJ) | Randolfe Rodrigues (PT-AP) | 76 | 96% |
-| Jorge Seif (PL-SC) | Eliziane Gama (PSD-MA) | 47 | 98% |
-| Hamilton Mourão (REPUBLICANOS-RS) | Augusta Brito (PT-CE) | 61 | 97% |
-| Flávio Bolsonaro (PL-RJ) | Augusta Brito (PT-CE) | 58 | 97% |
-| Beto Faro (PT-PA) | Marcos do Val (AVANTE-ES) | 58 | 97% |
-| Flávio Bolsonaro (PL-RJ) | Beto Faro (PT-PA) | 83 | 95% |
-| Jorge Seif (PL-SC) | Randolfe Rodrigues (PT-AP) | 69 | 96% |
-| Flávio Bolsonaro (PL-RJ) | Eliziane Gama (PSD-MA) | 56 | 96% |
-| Wellington Fagundes (PL-MT) | Eliziane Gama (PSD-MA) | 42 | 98% |
-| Magno Malta (PL-ES) | Jader Barbalho (MDB-PA) | 40 | 98% |
+| Eliziane Gama (PSD-MA) | Jorge Seif (PL-SC) | 50 | 98% |
+| Randolfe Rodrigues (PT-AP) | Flávio Bolsonaro (PL-RJ) | 79 | 96% |
+| Augusta Brito (PT-CE) | Hamilton Mourão (REPUBLICANOS-RS) | 61 | 97% |
+| Marcos do Val (AVANTE-ES) | Beto Faro (PT-PA) | 61 | 97% |
+| Flávio Bolsonaro (PL-RJ) | Beto Faro (PT-PA) | 86 | 95% |
+| Flávio Bolsonaro (PL-RJ) | Eliziane Gama (PSD-MA) | 59 | 97% |
+| Randolfe Rodrigues (PT-AP) | Jorge Seif (PL-SC) | 72 | 96% |
+| Eliziane Gama (PSD-MA) | Wellington Fagundes (PL-MT) | 45 | 98% |
+| Augusta Brito (PT-CE) | Flávio Bolsonaro (PL-RJ) | 58 | 97% |
+| Magno Malta (PL-ES) | Jader Barbalho (MDB-PA) | 43 | 98% |
 
 ### Todos os parlamentares
 
 | Parlamentar | Partido | UF | Grupo | Votos | Com o governo | Com a oposição | Fidelidade | Posição |
 |---|---|---|---|---:|---:|---:|---:|---:|
-| Eliziane Gama | PSD | MA | Centro pró-governo | 61 | 100% | 3% | 83% | -97 |
+| Eliziane Gama | PSD | MA | Centro pró-governo | 64 | 100% | 3% | 84% | -97 |
 | Augusta Brito | PT | CE | Pró-governo | 63 | 100% | 6% | 100% | -94 |
-| Randolfe Rodrigues | PT | AP | Pró-governo | 83 | 99% | 7% | 97% | -92 |
-| Beto Faro | PT | PA | Pró-governo | 93 | 97% | 8% | 97% | -89 |
-| Carlos Fávaro | PSD | MT | Centro pró-governo | 18 | 94% | 6% | 83% | -89 |
-| Rogério Carvalho | PT | SE | Pró-governo | 87 | 98% | 9% | 98% | -89 |
-| Jader Barbalho | MDB | PA | Pró-governo | 56 | 93% | 7% | 93% | -86 |
-| Fabiano Contarato | PT | ES | Pró-governo | 87 | 95% | 11% | 95% | -84 |
-| Jaques Wagner | PT | BA | Pró-governo | 85 | 94% | 13% | 94% | -81 |
-| Jussara Lima | PSD | PI | Centro pró-governo | 87 | 92% | 11% | 85% | -80 |
-| Humberto Costa | PT | PE | Pró-governo | 80 | 95% | 15% | 95% | -80 |
-| Paulo Paim | PT | RS | Pró-governo | 87 | 91% | 13% | 91% | -78 |
-| Teresa Leitão | PT | PE | Pró-governo | 79 | 92% | 15% | 92% | -77 |
-| Zenaide Maia | PSD | RN | Centro pró-governo | 84 | 90% | 14% | 77% | -76 |
-| Eduardo Braga | MDB | AM | Pró-governo | 65 | 89% | 14% | 97% | -75 |
-| Veneziano Vital do Rêgo | MDB | PB | Pró-governo | 73 | 89% | 15% | 97% | -74 |
-| Otto Alencar | PSD | BA | Centro pró-governo | 89 | 88% | 15% | 88% | -73 |
-| Confúcio Moura | MDB | RO | Pró-governo | 73 | 90% | 18% | 80% | -73 |
-| Renan Calheiros | MDB | AL | Pró-governo | 51 | 86% | 14% | 80% | -73 |
-| Marcelo Castro | MDB | PI | Pró-governo | 87 | 85% | 15% | 88% | -70 |
+| Randolfe Rodrigues | PT | AP | Pró-governo | 86 | 99% | 7% | 98% | -92 |
+| Carlos Fávaro | PSD | MT | Centro pró-governo | 21 | 95% | 5% | 86% | -90 |
+| Beto Faro | PT | PA | Pró-governo | 96 | 97% | 7% | 97% | -90 |
+| Rogério Carvalho | PT | SE | Pró-governo | 90 | 98% | 9% | 98% | -89 |
+| Jader Barbalho | MDB | PA | Pró-governo | 59 | 93% | 7% | 93% | -86 |
+| Fabiano Contarato | PT | ES | Pró-governo | 90 | 96% | 11% | 96% | -84 |
+| Jaques Wagner | PT | BA | Pró-governo | 88 | 94% | 13% | 94% | -82 |
+| Jussara Lima | PSD | PI | Centro pró-governo | 90 | 92% | 11% | 85% | -81 |
+| Humberto Costa | PT | PE | Pró-governo | 83 | 95% | 14% | 95% | -81 |
+| Paulo Paim | PT | RS | Pró-governo | 90 | 91% | 12% | 91% | -79 |
+| Teresa Leitão | PT | PE | Pró-governo | 82 | 93% | 15% | 93% | -78 |
+| Zenaide Maia | PSD | RN | Centro pró-governo | 87 | 91% | 14% | 77% | -77 |
+| Eduardo Braga | MDB | AM | Pró-governo | 68 | 90% | 13% | 97% | -76 |
+| Veneziano Vital do Rêgo | MDB | PB | Pró-governo | 76 | 89% | 14% | 97% | -75 |
+| Renan Calheiros | MDB | AL | Pró-governo | 54 | 87% | 13% | 81% | -74 |
+| Otto Alencar | PSD | BA | Centro pró-governo | 92 | 88% | 14% | 89% | -74 |
+| Confúcio Moura | MDB | RO | Pró-governo | 76 | 91% | 17% | 81% | -74 |
+| Marcelo Castro | MDB | PI | Pró-governo | 90 | 86% | 14% | 89% | -71 |
+| Omar Aziz | PSD | AM | Centro pró-governo | 74 | 85% | 15% | 91% | -70 |
 | Leila Barros | PDT | DF | Pró-governo | 83 | 89% | 19% | 71% | -70 |
-| Omar Aziz | PSD | AM | Centro pró-governo | 71 | 85% | 15% | 91% | -69 |
-| Ana Paula Lobato | PSB | MA | Centro pró-governo | 70 | 83% | 17% | 86% | -66 |
-| Giordano | PODE | SP | Centro | 46 | 78% | 17% | 90% | -61 |
+| Ana Paula Lobato | PSB | MA | Centro pró-governo | 73 | 84% | 16% | 87% | -67 |
+| Giordano | PODE | SP | Centro | 49 | 80% | 16% | 90% | -63 |
+| Jorge Kajuru | PSB | GO | Centro pró-governo | 82 | 82% | 21% | 83% | -61 |
 | Fernando Farias | MDB | AL | Pró-governo | 76 | 82% | 21% | 77% | -61 |
-| Jorge Kajuru | PSB | GO | Centro pró-governo | 80 | 81% | 21% | 82% | -60 |
-| Sérgio Petecão | PSD | AC | Centro pró-governo | 74 | 82% | 23% | 90% | -59 |
-| Fernando Dueire | PSD | PE | Centro pró-governo | 68 | 76% | 22% | 92% | -54 |
-| Cid Gomes | PSB | CE | Centro pró-governo | 52 | 73% | 25% | 89% | -48 |
-| Weverton | PDT | MA | Pró-governo | 77 | 75% | 27% | 70% | -48 |
-| Daniella Ribeiro | PP | PB | Oposição ao governo | 57 | 75% | 33% | 74% | -42 |
-| Chico Rodrigues | PSB | RR | Centro pró-governo | 70 | 69% | 30% | 83% | -39 |
-| Mara Gabrilli | PSD | SP | Centro pró-governo | 63 | 70% | 33% | 63% | -37 |
-| Alessandro Vieira | MDB | SE | Pró-governo | 80 | 69% | 33% | 78% | -36 |
-| Angelo Coronel | REPUBLICANOS | BA | Oposição ao governo | 75 | 69% | 35% | 89% | -35 |
-| Professora Dorinha Seabra | UNIÃO | TO | Centro | 88 | 70% | 36% | 82% | -34 |
+| Sérgio Petecão | PSD | AC | Centro pró-governo | 75 | 83% | 23% | 90% | -60 |
+| Fernando Dueire | PSD | PE | Centro pró-governo | 71 | 77% | 21% | 93% | -56 |
+| Cid Gomes | PSB | CE | Centro pró-governo | 55 | 75% | 24% | 89% | -51 |
+| Weverton | PDT | MA | Pró-governo | 80 | 76% | 26% | 70% | -50 |
+| Daniella Ribeiro | PP | PB | Oposição ao governo | 60 | 77% | 32% | 70% | -45 |
+| Chico Rodrigues | PSB | RR | Centro pró-governo | 73 | 70% | 29% | 84% | -41 |
+| Mara Gabrilli | PSD | SP | Centro pró-governo | 66 | 71% | 32% | 65% | -39 |
+| Alessandro Vieira | MDB | SE | Pró-governo | 83 | 70% | 31% | 79% | -39 |
+| Professora Dorinha Seabra | UNIÃO | TO | Centro | 91 | 71% | 35% | 82% | -36 |
 | Davi Alcolumbre | UNIÃO | AP | Centro | 65 | 66% | 35% | 84% | -31 |
+| Dra. Eudócia | PSDB | AL | Centro-oposição | 27 | 67% | 37% | 38% | -30 |
+| Angelo Coronel | REPUBLICANOS | BA | Oposição ao governo | 78 | 67% | 37% | 89% | -29 |
+| Nelsinho Trad | PSD | MS | Centro pró-governo | 67 | 64% | 37% | 89% | -27 |
+| Jayme Campos | UNIÃO | MT | Centro | 80 | 65% | 39% | 91% | -26 |
 | Rodrigo Pacheco | PSB | MG | Centro pró-governo | 21 | 57% | 33% | 100% | -24 |
-| Nelsinho Trad | PSD | MS | Centro pró-governo | 64 | 63% | 39% | 89% | -23 |
-| Jayme Campos | UNIÃO | MT | Centro | 77 | 64% | 40% | 90% | -23 |
-| Dra. Eudócia | PSDB | AL | Centro-oposição | 24 | 63% | 42% | 43% | -21 |
-| Soraya Thronicke | PSB | MS | Centro pró-governo | 78 | 59% | 40% | 68% | -19 |
-| Ivete da Silveira | MDB | SC | Pró-governo | 74 | 59% | 42% | 74% | -18 |
-| Flávio Arns | PSB | PR | Centro pró-governo | 82 | 60% | 43% | 75% | -17 |
-| Vanderlan Cardoso | PSD | GO | Centro pró-governo | 69 | 55% | 51% | 72% | -4 |
-| Carlos Viana | PSD | MG | Centro pró-governo | 72 | 49% | 50% | 82% | 1 |
-| Efraim Filho | PL | PB | Oposição ao governo | 85 | 49% | 52% | 85% | 2 |
-| Irajá | PSD | TO | Centro pró-governo | 45 | 49% | 53% | 74% | 4 |
+| Soraya Thronicke | PSB | MS | Centro pró-governo | 81 | 60% | 38% | 69% | -22 |
+| Flávio Arns | PSB | PR | Centro pró-governo | 85 | 61% | 41% | 76% | -20 |
+| Ivete da Silveira | MDB | SC | Pró-governo | 77 | 57% | 44% | 71% | -13 |
+| Irajá | PSD | TO | Centro pró-governo | 48 | 52% | 50% | 76% | -2 |
+| Vanderlan Cardoso | PSD | GO | Centro pró-governo | 72 | 53% | 53% | 69% | 0 |
 | Margareth Buzetti | PP | MT | Oposição ao governo | 44 | 50% | 55% | 64% | 5 |
-| Laércio Oliveira | PP | SE | Oposição ao governo | 84 | 46% | 52% | 62% | 6 |
+| Styvenson Valentim | PODE | RN | Centro | 87 | 46% | 51% | 82% | 5 |
+| Carlos Viana | PSD | MG | Centro pró-governo | 75 | 47% | 52% | 79% | 5 |
+| Efraim Filho | PL | PB | Oposição ao governo | 88 | 48% | 53% | 86% | 6 |
 | Rodrigo Cunha | PODE | AL | Centro | 53 | 47% | 55% | 79% | 8 |
-| Styvenson Valentim | PODE | RN | Centro | 84 | 44% | 52% | 82% | 8 |
-| Zequinha Marinho | PODE | PA | Centro | 67 | 45% | 58% | 83% | 13 |
+| Laércio Oliveira | PP | SE | Oposição ao governo | 87 | 45% | 54% | 63% | 9 |
+| Zequinha Marinho | PODE | PA | Centro | 70 | 43% | 60% | 79% | 17 |
 | Mecias de Jesus | REPUBLICANOS | RR | Oposição ao governo | 65 | 40% | 66% | 65% | 26 |
-| Romário | Sem partido | RJ | Outros / não classificável | 72 | 36% | 67% | 68% | 31 |
-| Oriovisto Guimarães | PSDB | PR | Centro-oposição | 77 | 31% | 64% | 76% | 32 |
-| Lucas Barreto | PSD | AP | Centro pró-governo | 79 | 35% | 72% | 50% | 37 |
-| Alan Rick | REPUBLICANOS | AC | Oposição ao governo | 78 | 35% | 73% | 78% | 38 |
-| Ciro Nogueira | PP | PI | Oposição ao governo | 80 | 28% | 76% | 90% | 49 |
-| Eduardo Gomes | PL | TO | Oposição ao governo | 68 | 28% | 78% | 78% | 50 |
-| Plínio Valério | PSDB | AM | Centro-oposição | 84 | 25% | 77% | 70% | 52 |
-| Izalci Lucas | PL | DF | Oposição ao governo | 83 | 27% | 81% | 81% | 54 |
-| Dr. Hiran | PP | RR | Oposição ao governo | 72 | 26% | 82% | 85% | 56 |
-| Tereza Cristina | PP | MS | Oposição ao governo | 82 | 20% | 85% | 92% | 66 |
-| Sergio Moro | PL | PR | Oposição ao governo | 90 | 19% | 86% | 59% | 67 |
-| Marcio Bittar | PL | AC | Oposição ao governo | 73 | 21% | 88% | 73% | 67 |
-| Esperidião Amin | PP | SC | Oposição ao governo | 85 | 18% | 86% | 81% | 68 |
-| Cleitinho | REPUBLICANOS | MG | Oposição ao governo | 92 | 14% | 84% | 87% | 70 |
-| Damares Alves | REPUBLICANOS | DF | Oposição ao governo | 86 | 13% | 85% | 90% | 72 |
-| Luis Carlos Heinze | PP | RS | Oposição ao governo | 71 | 14% | 87% | 83% | 73 |
+| Romário | Sem partido | RJ | Outros / não classificável | 75 | 37% | 65% | 68% | 28 |
+| Lucas Barreto | PSD | AP | Centro pró-governo | 82 | 38% | 70% | 52% | 32 |
+| Oriovisto Guimarães | PSDB | PR | Centro-oposição | 80 | 30% | 65% | 73% | 35 |
+| Alan Rick | REPUBLICANOS | AC | Oposição ao governo | 81 | 33% | 74% | 79% | 41 |
+| Plínio Valério | PSDB | AM | Centro-oposição | 87 | 28% | 75% | 65% | 47 |
+| Eduardo Gomes | PL | TO | Oposição ao governo | 71 | 28% | 77% | 77% | 49 |
+| Izalci Lucas | PL | DF | Oposição ao governo | 85 | 28% | 79% | 79% | 51 |
+| Ciro Nogueira | PP | PI | Oposição ao governo | 83 | 27% | 77% | 90% | 51 |
+| Dr. Hiran | PP | RR | Oposição ao governo | 75 | 25% | 83% | 86% | 57 |
+| Tereza Cristina | PP | MS | Oposição ao governo | 85 | 19% | 86% | 92% | 67 |
+| Sergio Moro | PL | PR | Oposição ao governo | 93 | 18% | 86% | 60% | 68 |
+| Damares Alves | REPUBLICANOS | DF | Oposição ao governo | 88 | 15% | 83% | 88% | 68 |
+| Marcio Bittar | PL | AC | Oposição ao governo | 76 | 20% | 88% | 74% | 68 |
+| Luis Carlos Heinze | PP | RS | Oposição ao governo | 73 | 16% | 85% | 81% | 68 |
+| Esperidião Amin | PP | SC | Oposição ao governo | 88 | 17% | 86% | 82% | 69 |
+| Cleitinho | REPUBLICANOS | MG | Oposição ao governo | 95 | 14% | 84% | 88% | 71 |
 | Eduardo Girão | NOVO | CE | Oposição ao governo | 88 | 13% | 88% | — | 75 |
-| Hamilton Mourão | REPUBLICANOS | RS | Oposição ao governo | 89 | 8% | 89% | 88% | 81 |
-| Carlos Portinho | PL | RJ | Oposição ao governo | 73 | 12% | 95% | 94% | 82 |
-| Wilder Morais | PL | GO | Oposição ao governo | 84 | 13% | 96% | 96% | 83 |
-| Rogerio Marinho | PL | RN | Oposição ao governo | 79 | 11% | 95% | 95% | 84 |
-| Jaime Bagattoli | PL | RO | Oposição ao governo | 82 | 10% | 94% | 94% | 84 |
-| Astronauta Marcos Pontes | PL | SP | Oposição ao governo | 76 | 12% | 97% | 97% | 86 |
-| Jorge Seif | PL | SC | Oposição ao governo | 75 | 7% | 93% | 93% | 87 |
-| Marcos Rogério | PL | RO | Oposição ao governo | 77 | 10% | 97% | 97% | 87 |
-| Magno Malta | PL | ES | Oposição ao governo | 64 | 8% | 95% | 95% | 88 |
-| Wellington Fagundes | PL | MT | Oposição ao governo | 65 | 8% | 97% | 97% | 89 |
-| Marcos do Val | AVANTE | ES | Oposição ao governo | 58 | 7% | 97% | 58% | 90 |
-| Flávio Bolsonaro | PL | RJ | Oposição ao governo | 83 | 6% | 98% | 98% | 92 |
+| Hamilton Mourão | REPUBLICANOS | RS | Oposição ao governo | 92 | 8% | 89% | 89% | 82 |
+| Carlos Portinho | PL | RJ | Oposição ao governo | 76 | 12% | 95% | 95% | 83 |
+| Wilder Morais | PL | GO | Oposição ao governo | 87 | 13% | 97% | 96% | 84 |
+| Rogerio Marinho | PL | RN | Oposição ao governo | 82 | 11% | 95% | 95% | 84 |
+| Jaime Bagattoli | PL | RO | Oposição ao governo | 85 | 9% | 94% | 94% | 85 |
+| Astronauta Marcos Pontes | PL | SP | Oposição ao governo | 79 | 11% | 97% | 97% | 86 |
+| Jorge Seif | PL | SC | Oposição ao governo | 78 | 6% | 94% | 94% | 87 |
+| Marcos Rogério | PL | RO | Oposição ao governo | 80 | 10% | 98% | 97% | 88 |
+| Magno Malta | PL | ES | Oposição ao governo | 67 | 7% | 96% | 95% | 88 |
+| Wellington Fagundes | PL | MT | Oposição ao governo | 68 | 7% | 97% | 97% | 90 |
+| Marcos do Val | AVANTE | ES | Oposição ao governo | 61 | 7% | 97% | 58% | 90 |
+| Flávio Bolsonaro | PL | RJ | Oposição ao governo | 86 | 6% | 98% | 98% | 92 |
 
 ## Dados e como conferir
 
