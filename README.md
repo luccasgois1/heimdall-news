@@ -30,6 +30,7 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [Governo diz ao Supremo que decreto da escala 5x2 torna dispensável a decisão de Dino](materias/2026-11-23/2026-11-23-08.md)
 - [Moraes manda notificar Flávio Bolsonaro por edital na denúncia de calúnia contra Lula](materias/2026-11-23/2026-11-23-09.md)
 - [Novo pede ao Supremo o afastamento do diretor da Polícia Federal no caso Master](materias/2026-11-23/2026-11-23-10.md)
+- [PSOL e PL anunciam voto contra o ajuste fiscal, que a Câmara analisa nesta segunda](materias/2026-11-23/2026-11-23-11.md)
 
 ## sexta-feira, 20 de novembro de 2026
 
