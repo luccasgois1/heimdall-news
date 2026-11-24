@@ -33,6 +33,8 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [Fachin manda avaliar liberação de dinheiro do Banco de Brasília no caso Master](materias/2026-11-24/2026-11-24-11.md)
 - [Supremo mantém o recolhimento de livro assinado com o nome de Eduardo Cunha](materias/2026-11-24/2026-11-24-12.md)
 - [Supremo vai decidir a área protegida em volta de represas antigas](materias/2026-11-24/2026-11-24-13.md)
+- [Lula sanciona sem vetos o ajuste fiscal horas depois da aprovação na Câmara](materias/2026-11-24/2026-11-24-14.md)
+- [Itália adia de novo extradição de Zambelli, e defesa pede desconto na pena ao Supremo](materias/2026-11-24/2026-11-24-15.md)
 
 ## segunda-feira, 23 de novembro de 2026
 
