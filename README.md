@@ -24,6 +24,8 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [Damares pede ao Supremo para ouvir Vorcaro na prisão, na fiscalização do caso Master](materias/2026-11-24/2026-11-24-02.md)
 - [Câmara aprova ajuste fiscal de Lula por 353 a 128, e o texto vai à sanção](materias/2026-11-24/2026-11-24-03.md)
 - [Polícia Federal nega omissão em relatório sobre Moraes e Vorcaro enviado ao Supremo](materias/2026-11-24/2026-11-24-04.md)
+- [Mendonça solta ex-número 2 da Previdência e mais três investigados por fraude no INSS](materias/2026-11-24/2026-11-24-05.md)
+- [Moraes se declara suspeito em ação ligada a inquérito sobre interferência estrangeira](materias/2026-11-24/2026-11-24-06.md)
 
 ## segunda-feira, 23 de novembro de 2026
 
