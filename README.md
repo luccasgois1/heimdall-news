@@ -22,6 +22,8 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 
 - [Eduardo Bolsonaro recorre da condenação no Supremo por difamar Tabata Amaral](materias/2026-11-24/2026-11-24-01.md)
 - [Damares pede ao Supremo para ouvir Vorcaro na prisão, na fiscalização do caso Master](materias/2026-11-24/2026-11-24-02.md)
+- [Câmara aprova ajuste fiscal de Lula por 353 a 128, e o texto vai à sanção](materias/2026-11-24/2026-11-24-03.md)
+- [Polícia Federal nega omissão em relatório sobre Moraes e Vorcaro enviado ao Supremo](materias/2026-11-24/2026-11-24-04.md)
 
 ## segunda-feira, 23 de novembro de 2026
 
