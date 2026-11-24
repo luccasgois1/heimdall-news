@@ -26,6 +26,13 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [Polícia Federal nega omissão em relatório sobre Moraes e Vorcaro enviado ao Supremo](materias/2026-11-24/2026-11-24-04.md)
 - [Mendonça solta ex-número 2 da Previdência e mais três investigados por fraude no INSS](materias/2026-11-24/2026-11-24-05.md)
 - [Moraes se declara suspeito em ação ligada a inquérito sobre interferência estrangeira](materias/2026-11-24/2026-11-24-06.md)
+- [Câmara aprova urgência e leva o ajuste fiscal direto ao Plenário](materias/2026-11-24/2026-11-24-07.md)
+- [Câmara aprova o ajuste fiscal de Lula sem mudanças, e o texto vai à sanção](materias/2026-11-24/2026-11-24-08.md)
+- [Fachin mantém a prisão do banqueiro Daniel Vorcaro, do Banco Master](materias/2026-11-24/2026-11-24-09.md)
+- [Fachin libera o novo auxílio às vítimas da barragem de Brumadinho](materias/2026-11-24/2026-11-24-10.md)
+- [Fachin manda avaliar liberação de dinheiro do Banco de Brasília no caso Master](materias/2026-11-24/2026-11-24-11.md)
+- [Supremo mantém o recolhimento de livro assinado com o nome de Eduardo Cunha](materias/2026-11-24/2026-11-24-12.md)
+- [Supremo vai decidir a área protegida em volta de represas antigas](materias/2026-11-24/2026-11-24-13.md)
 
 ## segunda-feira, 23 de novembro de 2026
 
