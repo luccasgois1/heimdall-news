@@ -18,6 +18,11 @@ Todos os partidos seguem o mesmo cálculo, sem exceção. Quem não tem bancada,
 
 As citações pertencem aos veículos de origem, indicados e linkados em cada matéria.
 
+## terça-feira, 24 de novembro de 2026
+
+- [Eduardo Bolsonaro recorre da condenação no Supremo por difamar Tabata Amaral](materias/2026-11-24/2026-11-24-01.md)
+- [Damares pede ao Supremo para ouvir Vorcaro na prisão, na fiscalização do caso Master](materias/2026-11-24/2026-11-24-02.md)
+
 ## segunda-feira, 23 de novembro de 2026
 
 - [Zanin leva ao julgamento presencial denúncia contra o ex-ministro Juscelino Filho](materias/2026-11-23/2026-11-23-01.md)
