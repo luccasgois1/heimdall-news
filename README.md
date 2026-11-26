@@ -45,6 +45,8 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [Senado cria crime de tráfico de animais silvestres, e texto vai à sanção](materias/2026-11-26/2026-11-26-23.md)
 - [Senado aprova sessão especial para premiar a Oficina Legislativa](materias/2026-11-26/2026-11-26-24.md)
 - [Supremo valida exigência de valor nos pedidos das ações trabalhistas](materias/2026-11-26/2026-11-26-25.md)
+- [Estados Unidos propõem taxar aviões do Brasil em 10% e elevar imposto do açúcar](materias/2026-11-26/2026-11-26-26.md)
+- [Supremo marca para 4 de dezembro o julgamento do pedido de segundo turno no Rio](materias/2026-11-26/2026-11-26-27.md)
 
 ## terça-feira, 24 de novembro de 2026
 
