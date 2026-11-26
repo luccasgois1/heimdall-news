@@ -47,6 +47,8 @@ As citações pertencem aos veículos de origem, indicados e linkados em cada ma
 - [Supremo valida exigência de valor nos pedidos das ações trabalhistas](materias/2026-11-26/2026-11-26-25.md)
 - [Estados Unidos propõem taxar aviões do Brasil em 10% e elevar imposto do açúcar](materias/2026-11-26/2026-11-26-26.md)
 - [Supremo marca para 4 de dezembro o julgamento do pedido de segundo turno no Rio](materias/2026-11-26/2026-11-26-27.md)
+- [Única ministra do Tribunal Eleitoral diz que faltou apoio dos colegas contra ataques](materias/2026-11-26/2026-11-26-28.md)
+- [Cleitinho se reúne com Lula e pede juro zero na dívida de Minas, sem acordo](materias/2026-11-26/2026-11-26-29.md)
 
 ## terça-feira, 24 de novembro de 2026
 
