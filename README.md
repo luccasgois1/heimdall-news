@@ -18,6 +18,11 @@ Todos os partidos seguem o mesmo cálculo, sem exceção. Quem não tem bancada,
 
 As citações pertencem aos veículos de origem, indicados e linkados em cada matéria.
 
+## quinta-feira, 26 de novembro de 2026
+
+- [Procuradoria denuncia Gustavo Gayer ao Supremo por desvio da cota parlamentar](materias/2026-11-26/2026-11-26-01.md)
+- [Tribunal de Contas afasta multas a Dilma por irregularidades fiscais de 2014](materias/2026-11-26/2026-11-26-02.md)
+
 ## terça-feira, 24 de novembro de 2026
 
 - [Eduardo Bolsonaro recorre da condenação no Supremo por difamar Tabata Amaral](materias/2026-11-24/2026-11-24-01.md)
