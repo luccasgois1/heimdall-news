@@ -1,8 +1,8 @@
 # Heimdall News
 
-Matérias escritas dos Shorts de política brasileira, com a posição de cada campo em relação ao governo e a fonte de cada informação, para quem quiser conferir.
+Matérias de política brasileira, com a posição de cada campo em relação ao governo e a fonte de cada informação, para quem quiser conferir.
 
-As matérias de política e economia internacional ficam em [Heimdall News, edição internacional](https://github.com/luccasgois1/heimdall-news-mundo). Os vídeos ficam em [@heimdallnews](https://www.youtube.com/@heimdallnews).
+As matérias de política e economia internacional ficam em [Heimdall News, edição internacional](https://github.com/luccasgois1/heimdall-news-mundo).
 
 ## Como os posicionamentos são definidos
 
